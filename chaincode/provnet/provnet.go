@@ -178,11 +178,10 @@ func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) p
         jsonResp = "{\"Error\":\"Data does not exist: " + minhash + "\"}"
         return shim.Error(jsonResp)
     }
-
     return shim.Success(valAsbytes)
 }
 
-// chameleonhash - for updating a new future hash and randomness
+// update sharing - for updating a new future hash and randomness
 func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string) pb.Response {
     //var futurehash, randomness string
     //var err error
