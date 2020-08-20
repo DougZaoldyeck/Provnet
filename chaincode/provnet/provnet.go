@@ -1,15 +1,15 @@
 package main
 
 import (
-    //"bytes"
+    "bytes"
     "encoding/json"
     "fmt"
     //"strconv"
     //"strings"
     //"time"
     //"crypto/rand"
-    //"crypto/sha256"
-    //"math/big"
+    "crypto/sha256"
+    "math/big"
 
     "github.com/hyperledger/fabric-chaincode-go/shim"
     pb "github.com/hyperledger/fabric-protos-go/peer"
@@ -194,6 +194,14 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     futurehash := args[1]
     randomness := args[2]
 
+    var newr []byte = []byte(randomness)
+    var newmsg, news, hash1 []byte
+
+    //msg1 = []bytes("YES")
+    newmsg = []byte("NO")
+    news = []byte("423b7ca687efc3ee286aae75a5b0363c")
+    s := "423b7ca687efc3ee286aae75a5b0363c"
+
     fmt.Println("- start updateSharing ", minhash, futurehash, randomness)
 
     sharingAsBytes, err := stub.GetState(minhash)
@@ -208,22 +216,57 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     if err != nil {
         return shim.Error(err.Error())
     }
-    sharingToUpdate.FutureHash = futurehash // change the futurehash
-    sharingToUpdate.Randomness = randomness //change the randomness
+    //sharingToUpdate.FutureHash = futurehash // change the futurehash
+    //sharingToUpdate.Randomness = randomness //change the randomness
 
-    sharingJSONasBytes, _ := json.Marshal(sharingToUpdate)
-    err = stub.PutState(minhash, sharingJSONasBytes) //rewrite the sharing
-    if err != nil {
-        return shim.Error(err.Error())
+    var hashkey []byte = []byte(sharingToUpdate.HkCH)
+    var pkey []byte = []byte(sharingToUpdate.PCH)
+    var qkey []byte = []byte(sharingToUpdate.QCH)
+    var gkey []byte = []byte(sharingToUpdate.GCH)
+    var hash0 []byte = []byte(sharingToUpdate.Hash)
+
+    chameleonHash(&hashkey, &pkey, &qkey, &gkey, &newmsg, &newr, &news, &hash1)
+
+
+    res := bytes.Compare(hash0, hash1)
+
+
+    fmt.Printf("\n\n\nPrint parameters:"+
+        "\noriginal hash: %x"+
+        "\noriginal hash without transfer: %s"+
+        "\ncalculated hash: %s"+
+        "\nnew s: %s"+
+        "\nnew s transferred: %x"+
+        "\ninput randomness: %s"+
+        "\ntransferred randomness: %x"+
+        "\noriginal pkey: %x"+
+        "\noriginal qkey: %x"+
+        "\noriginal gkey: %x"+
+        "\noriginal hashkey: %x\n\n\n",
+        hash0, sharingToUpdate.Hash, hash1, s, news, args[2], newr, pkey, qkey, gkey, hashkey)
+
+
+    if res == 0 {
+        sharingToUpdate.FutureHash = futurehash
+        sharingToUpdate.Randomness = randomness
+        sharingJSONasBytes, _ := json.Marshal(sharingToUpdate)
+        err = stub.PutState(minhash, sharingJSONasBytes) //rewrite the sharing
+        if err != nil {
+            return shim.Error(err.Error())
+        }
+
+        fmt.Println("- end updateSharing (success)")
+        return shim.Success(nil)
+    } else {
+        return shim.Error("Wrong randomness provided")
     }
 
-    fmt.Println("- end updateSharing (success)")
-    return shim.Success(nil)
+
 }
 
 
 // chameleonhash - calculating the chameleon hash on demand
-/*
+
 func chameleonHash(
     hk *[]byte,
     p *[]byte,
@@ -234,6 +277,19 @@ func chameleonHash(
     s *[]byte,
     hashOut *[]byte,
 ) {
+
+    fmt.Printf("\n\ntest test test:"+
+        "\nmsg: %s"+
+        "\nmsg: %x"+
+        "\ns: %s"+
+        "\ns: %x"+
+        "\nr: %s"+
+        "\nr: %x"+
+        "\np: %s"+
+        "\np: %x\n\n",
+        *message, message, *s, s, *r, r, *p, p)
+
+
     hkeBig := new(big.Int)
     gsBig := new(big.Int)
     tmpBig := new(big.Int)
@@ -254,6 +310,9 @@ func chameleonHash(
     rBig.SetString(string(*r), 16)
     sBig.SetString(string(*s), 16)
 
+
+
+
     // Generate the hashOut with message || rBig
     hash := sha256.New()
     hash.Write([]byte(*message))
@@ -269,5 +328,8 @@ func chameleonHash(
     hBig.Mod(hBig, qBig)
 
     *hashOut = hBig.Bytes() // Return hBig in big endian encoding as string
+    fmt.Printf("Print parameters:"+
+        "\ncalculated hash: %x"+
+        "\ncalculated hash: %s", hashOut, hashOut)
 }
-*/
+
