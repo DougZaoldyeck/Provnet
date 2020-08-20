@@ -1,7 +1,7 @@
 package main
 
 import (
-    "bytes"
+    //"bytes"
     "encoding/json"
     "fmt"
     //"strconv"
@@ -200,7 +200,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     //msg1 = []bytes("YES")
     newmsg = []byte("NO")
     news = []byte("423b7ca687efc3ee286aae75a5b0363c")
-    s := "423b7ca687efc3ee286aae75a5b0363c"
+    //s := "423b7ca687efc3ee286aae75a5b0363c"
 
     fmt.Println("- start updateSharing ", minhash, futurehash, randomness)
 
@@ -223,30 +223,20 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     var pkey []byte = []byte(sharingToUpdate.PCH)
     var qkey []byte = []byte(sharingToUpdate.QCH)
     var gkey []byte = []byte(sharingToUpdate.GCH)
-    var hash0 []byte = []byte(sharingToUpdate.Hash)
+    var hash0  = sharingToUpdate.Hash
 
     chameleonHash(&hashkey, &pkey, &qkey, &gkey, &newmsg, &newr, &news, &hash1)
 
-
-    res := bytes.Compare(hash0, hash1)
-
-
-    fmt.Printf("\n\n\nPrint parameters:"+
-        "\noriginal hash: %x"+
-        "\noriginal hash without transfer: %s"+
-        "\ncalculated hash: %s"+
-        "\nnew s: %s"+
-        "\nnew s transferred: %x"+
-        "\ninput randomness: %s"+
-        "\ntransferred randomness: %x"+
-        "\noriginal pkey: %x"+
-        "\noriginal qkey: %x"+
-        "\noriginal gkey: %x"+
-        "\noriginal hashkey: %x\n\n\n",
-        hash0, sharingToUpdate.Hash, hash1, s, news, args[2], newr, pkey, qkey, gkey, hashkey)
-
-
-    if res == 0 {
+    temp := string(([]byte(fmt.Sprintf("%x", hash1))))
+    /*
+    fmt.Printf("Print hash0 and hash1:"+
+        "\nfetched from the couchdb hash0: %s"+
+        "\ncalculated hash1: %x"+
+        "\ncalculated hash1 in string: %s"+
+        "\ntransferred hash1 into temp: %s"+
+        "\n transferred hash1 into temp: %x", hash0, hash1, hash1, temp, temp)
+    */
+    if hash0 == temp {
         sharingToUpdate.FutureHash = futurehash
         sharingToUpdate.Randomness = randomness
         sharingJSONasBytes, _ := json.Marshal(sharingToUpdate)
@@ -277,19 +267,6 @@ func chameleonHash(
     s *[]byte,
     hashOut *[]byte,
 ) {
-
-    fmt.Printf("\n\ntest test test:"+
-        "\nmsg: %s"+
-        "\nmsg: %x"+
-        "\ns: %s"+
-        "\ns: %x"+
-        "\nr: %s"+
-        "\nr: %x"+
-        "\np: %s"+
-        "\np: %x\n\n",
-        *message, message, *s, s, *r, r, *p, p)
-
-
     hkeBig := new(big.Int)
     gsBig := new(big.Int)
     tmpBig := new(big.Int)
@@ -311,8 +288,6 @@ func chameleonHash(
     sBig.SetString(string(*s), 16)
 
 
-
-
     // Generate the hashOut with message || rBig
     hash := sha256.New()
     hash.Write([]byte(*message))
@@ -328,8 +303,10 @@ func chameleonHash(
     hBig.Mod(hBig, qBig)
 
     *hashOut = hBig.Bytes() // Return hBig in big endian encoding as string
+    /*
     fmt.Printf("Print parameters:"+
         "\ncalculated hash: %x"+
         "\ncalculated hash: %s", hashOut, hashOut)
+     */
 }
 
