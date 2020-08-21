@@ -33,6 +33,7 @@ type data struct{
     QCH             string `json:"qch"`  //'q' of CH
     GCH             string `json:"gch"`  //'g' of CH
     HkCH            string `json:"hkch"` //hashkey of CH
+    ChameleonHash   string `json:"chameleonhash"` //term for chameleon hash
 }
 
 // Main
@@ -72,8 +73,8 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
 
     // 0-previous hash; 1-current hash; 2-ownership claim; 3-minhash values; 4-receiver;
     // 5-terms of service; 6-future hash; 7-randomness
-    if len(args) != 13 {
-        return shim.Error("Incorrect number of arguments. Expecting 13")
+    if len(args) != 14 {
+        return shim.Error("Incorrect number of arguments. Expecting 14")
     }
 
     // Input sanitation
@@ -117,6 +118,9 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     if len(args[12]) <= 0 {
         return shim.Error("13th argument must be a non-empty string")
     }
+    if len(args[13]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
     prevhash := args[0]
     hash := args[1]
     ownership := args[2]
@@ -130,8 +134,14 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     qch := args[10]
     gch := args[11]
     hkch := args[12]
+    chhash := args[13]
 
-    //check if shared data already exists
+    // =========================================================================================
+    // =========================================================================================
+    //check if shared data already exists.
+    // need to be further modified by adding a the check of minhash values
+    // =========================================================================================
+    // =========================================================================================
     minhashVerify, err := stub.GetState(minhash)   //note we are using minhash values as the main key for each sharing
     if err != nil {
         return shim.Error("Failed to get data: " + err.Error())
@@ -143,7 +153,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     // Create data object and marshal to JSON
     objectType := "data"
     data := &data{objectType, prevhash, hash, ownership,minhash,
-    receiver,tos,futurehash,randomness,signch,pch,qch,gch,hkch}
+    receiver,tos,futurehash,randomness,signch,pch,qch,gch,hkch, chhash}
     dataJSONasBytes, err := json.Marshal(data)
     if err != nil {
         return shim.Error(err.Error())
@@ -181,28 +191,34 @@ func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) p
     return shim.Success(valAsbytes)
 }
 
-// update sharing - for updating a new future hash and randomness
+// =========================================================================================
+// update sharing - for updating a new future hash, randomness and new_s
+// =========================================================================================
+
 func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string) pb.Response {
     //var futurehash, randomness string
     //var err error
 
-    if len(args) < 3 {
-        return shim.Error("Incorrect number of arguments. Expecting name of the sharing to query")
+    if len(args) < 4 {
+        return shim.Error("Incorrect number of arguments. Expecting 4")
     }
 
     minhash := args[0]
     futurehash := args[1]
     randomness := args[2]
+    newsign := args[3]
 
     var newr []byte = []byte(randomness)
-    var newmsg, news, hash1 []byte
+    var newmsg []byte = []byte(futurehash)
+    var news []byte = []byte(newsign)
+    var hash1 []byte
 
     //msg1 = []bytes("YES")
-    newmsg = []byte("NO")
-    news = []byte("423b7ca687efc3ee286aae75a5b0363c")
+    //newmsg = []byte("NO")
+    //news = []byte("423b7ca687efc3ee286aae75a5b0363c")
     //s := "423b7ca687efc3ee286aae75a5b0363c"
 
-    fmt.Println("- start updateSharing ", minhash, futurehash, randomness)
+    fmt.Println("- start updateSharing ", minhash, futurehash, randomness, newsign)
 
     sharingAsBytes, err := stub.GetState(minhash)
     if err != nil {
@@ -223,7 +239,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     var pkey []byte = []byte(sharingToUpdate.PCH)
     var qkey []byte = []byte(sharingToUpdate.QCH)
     var gkey []byte = []byte(sharingToUpdate.GCH)
-    var hash0  = sharingToUpdate.Hash
+    var hash0  = sharingToUpdate.ChameleonHash
 
     chameleonHash(&hashkey, &pkey, &qkey, &gkey, &newmsg, &newr, &news, &hash1)
 
@@ -239,6 +255,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     if hash0 == temp {
         sharingToUpdate.FutureHash = futurehash
         sharingToUpdate.Randomness = randomness
+        sharingToUpdate.SignCH = newsign
         sharingJSONasBytes, _ := json.Marshal(sharingToUpdate)
         err = stub.PutState(minhash, sharingJSONasBytes) //rewrite the sharing
         if err != nil {
@@ -254,8 +271,10 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
 
 }
 
-
-// chameleonhash - calculating the chameleon hash on demand
+// =========================================================================================
+// chameleonhash - calculating the chameleon hash on demand based on the provided parameters
+// including the newmessage (considered as the future hash item here), newrandomness, new_s
+// =========================================================================================
 
 func chameleonHash(
     hk *[]byte,
@@ -309,4 +328,30 @@ func chameleonHash(
         "\ncalculated hash: %s", hashOut, hashOut)
      */
 }
+
+// =========================================================================================
+// getQueryResultForQueryString executes the passed in query string.
+// Result set is built and returned as a byte array containing the JSON results.
+// =========================================================================================
+/*
+func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string) ([]byte, error) {
+
+    fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
+
+    resultsIterator, err := stub.GetQueryResult(queryString)
+    if err != nil {
+        return nil, err
+    }
+    defer resultsIterator.Close()
+
+    buffer, err := constructQueryResponseFromIterator(resultsIterator)
+    if err != nil {
+        return nil, err
+    }
+
+    fmt.Printf("- getQueryResultForQueryString queryResult:\n%s\n", buffer.String())
+
+    return buffer.Bytes(), nil
+}
+*/
 
