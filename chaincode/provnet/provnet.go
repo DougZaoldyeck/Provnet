@@ -263,17 +263,18 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
 // =========================================================================================
 func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 
-    //   0
-    // "owner"
-    if len(args) < 1 {
+    //   0          1
+    // "owner"  "minhash"
+    if len(args) < 2 {
         return shim.Error("Incorrect number of arguments. Expecting 1")
     }
 
     ownership := strings.ToLower(args[0])
+    minhash := args[1]
 
     queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"ownership\":\"%s\"}}", ownership)
 
-    queryResults, err := getQueryResultForQueryString(stub, queryString)
+    queryResults, err := getQueryResultForQueryString(stub, queryString, minhash)
     if err != nil {
         return shim.Error(err.Error())
     }
@@ -285,7 +286,7 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
 // getQueryResultForQueryString executes the passed in query string.
 // Result set is built and returned as a byte array containing the JSON results.
 // =========================================================================================
-func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string) ([]byte, error) {
+func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string, minhash string) ([]byte, error) {
 
     fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
 
@@ -295,7 +296,7 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
     }
     defer resultsIterator.Close()
 
-    buffer, err := constructQueryResponseFromIterator(resultsIterator)
+    buffer, err := constructQueryResponseFromIterator(resultsIterator, minhash)
     if err != nil {
         return nil, err
     }
@@ -310,10 +311,13 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 // constructQueryResponseFromIterator constructs a JSON array containing query results from
 // a given result iterator
 // ===========================================================================================
-func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface) (*bytes.Buffer, error) {
+func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface, minhash string) (*bytes.Buffer, error) {
     // buffer is a JSON array containing QueryResults
     var buffer bytes.Buffer
     buffer.WriteString("[")
+
+    var j=0.0
+    var newMH []byte = []byte(minhash)
 
     bArrayMemberAlreadyWritten := false
     for resultsIterator.HasNext() {
@@ -329,6 +333,18 @@ func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorI
         buffer.WriteString("\"")
         buffer.WriteString(queryResponse.Key)
         buffer.WriteString("\"")
+
+        for i:=0; i < 20; i++  {
+            if newMH[i]==queryResponse.Key[i]{
+                j++
+            }
+        }
+        j = j/20
+        sim := fmt.Sprintf("%f",j)
+        buffer.WriteString(", \"Similarities\":")
+        buffer.WriteString("\"")
+        buffer.WriteString(sim)
+        j = 0.0
 
         /*
         buffer.WriteString(", \"Record\":")
