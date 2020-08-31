@@ -1,11 +1,11 @@
 package main
 
 import (
-    //"bytes"
+    "bytes"
     "encoding/json"
     "fmt"
     //"strconv"
-    //"strings"
+    "strings"
     //"time"
     //"crypto/rand"
     "crypto/sha256"
@@ -52,15 +52,17 @@ func (t *Sharing) Init(stub shim.ChaincodeStubInterface) pb.Response {
 // Invoke - Our entry point for Invocations
 func (t *Sharing) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
     function, args := stub.GetFunctionAndParameters()
-    fmt.Println("invoke is running " + function)
+    //fmt.Println("invoke is running " + function)
 
     // Handle different functions
-    if function == "initSharing" { //create a new marble
+    if function == "initSharing" { //create a new data
         return t.initSharing(stub, args)
-    } else if function == "readSharing" { //change owner of a specific marble
+    } else if function == "readSharing" { //access a data
         return t.readSharing(stub, args)
     } else if function == "updateSharing" {
         return t.updateSharing(stub, args)
+    } else if function == "queryDataByOwner" {
+        return t.queryDataByOwner(stub, args)
     }
 
     fmt.Println("invoke did not find func: " + function) //error
@@ -78,7 +80,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     }
 
     // Input sanitation
-    fmt.Println("- start init sharing")
+    //fmt.Println("- start init sharing")
     if len(args[0]) <= 0 {
         return shim.Error("1st argument must be a non-empty string")
     }
@@ -123,10 +125,10 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     }
     prevhash := args[0]
     hash := args[1]
-    ownership := args[2]
+    ownership := strings.ToLower(args[2])
     minhash := args[3]
-    receiver := args[4]
-    tos := args[5]
+    receiver := strings.ToLower(args[4])
+    tos := strings.ToLower(args[5])
     futurehash := args[6]
     randomness := args[7]
     signch := args[8]
@@ -146,7 +148,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     if err != nil {
         return shim.Error("Failed to get data: " + err.Error())
     } else if minhashVerify != nil {
-        fmt.Println("This data already exists: " + minhash)
+        //fmt.Println("This data already exists: " + minhash)
         return shim.Error("This marble already exists: " + minhash)
     }
 
@@ -166,7 +168,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     }
 
     // Data saved, return success
-    fmt.Println("- end init data")
+    //fmt.Println("- end init data")
     return shim.Success(nil)
 }
 
@@ -196,8 +198,6 @@ func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) p
 // =========================================================================================
 
 func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string) pb.Response {
-    //var futurehash, randomness string
-    //var err error
 
     if len(args) < 4 {
         return shim.Error("Incorrect number of arguments. Expecting 4")
@@ -213,13 +213,6 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     var news []byte = []byte(newsign)
     var hash1 []byte
 
-    //msg1 = []bytes("YES")
-    //newmsg = []byte("NO")
-    //news = []byte("423b7ca687efc3ee286aae75a5b0363c")
-    //s := "423b7ca687efc3ee286aae75a5b0363c"
-
-    fmt.Println("- start updateSharing ", minhash, futurehash, randomness, newsign)
-
     sharingAsBytes, err := stub.GetState(minhash)
     if err != nil {
         return shim.Error("Failed to get sharing:" + err.Error())
@@ -232,8 +225,6 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     if err != nil {
         return shim.Error(err.Error())
     }
-    //sharingToUpdate.FutureHash = futurehash // change the futurehash
-    //sharingToUpdate.Randomness = randomness //change the randomness
 
     var hashkey []byte = []byte(sharingToUpdate.HkCH)
     var pkey []byte = []byte(sharingToUpdate.PCH)
@@ -244,14 +235,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     chameleonHash(&hashkey, &pkey, &qkey, &gkey, &newmsg, &newr, &news, &hash1)
 
     temp := string(([]byte(fmt.Sprintf("%x", hash1))))
-    /*
-    fmt.Printf("Print hash0 and hash1:"+
-        "\nfetched from the couchdb hash0: %s"+
-        "\ncalculated hash1: %x"+
-        "\ncalculated hash1 in string: %s"+
-        "\ntransferred hash1 into temp: %s"+
-        "\n transferred hash1 into temp: %x", hash0, hash1, hash1, temp, temp)
-    */
+
     if hash0 == temp {
         sharingToUpdate.FutureHash = futurehash
         sharingToUpdate.Randomness = randomness
@@ -262,7 +246,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
             return shim.Error(err.Error())
         }
 
-        fmt.Println("- end updateSharing (success)")
+        //fmt.Println("- end updateSharing (success)")
         return shim.Success(nil)
     } else {
         return shim.Error("Wrong randomness provided")
@@ -270,6 +254,94 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
 
 
 }
+
+// =========================================================================================
+// queryDataByOwner queries for data based on a passed in owner.
+// This is an example of a parameterized query where the query logic is baked into the chaincode,
+// and accepting a single query parameter (owner).
+// Only available on state databases that support rich query (e.g., CouchDB)
+// =========================================================================================
+func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+
+    //   0
+    // "owner"
+    if len(args) < 1 {
+        return shim.Error("Incorrect number of arguments. Expecting 1")
+    }
+
+    ownership := strings.ToLower(args[0])
+
+    queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"ownership\":\"%s\"}}", ownership)
+
+    queryResults, err := getQueryResultForQueryString(stub, queryString)
+    if err != nil {
+        return shim.Error(err.Error())
+    }
+    return shim.Success(queryResults)
+}
+
+
+// =========================================================================================
+// getQueryResultForQueryString executes the passed in query string.
+// Result set is built and returned as a byte array containing the JSON results.
+// =========================================================================================
+func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string) ([]byte, error) {
+
+    fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
+
+    resultsIterator, err := stub.GetQueryResult(queryString)
+    if err != nil {
+        return nil, err
+    }
+    defer resultsIterator.Close()
+
+    buffer, err := constructQueryResponseFromIterator(resultsIterator)
+    if err != nil {
+        return nil, err
+    }
+
+    fmt.Printf("- getQueryResultForQueryString queryResult:\n%s\n", buffer.String())
+
+    return buffer.Bytes(), nil
+}
+
+
+// ===========================================================================================
+// constructQueryResponseFromIterator constructs a JSON array containing query results from
+// a given result iterator
+// ===========================================================================================
+func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface) (*bytes.Buffer, error) {
+    // buffer is a JSON array containing QueryResults
+    var buffer bytes.Buffer
+    buffer.WriteString("[")
+
+    bArrayMemberAlreadyWritten := false
+    for resultsIterator.HasNext() {
+        queryResponse, err := resultsIterator.Next()
+        if err != nil {
+            return nil, err
+        }
+        // Add a comma before array members, suppress it for the first array member
+        if bArrayMemberAlreadyWritten == true {
+            buffer.WriteString(",")
+        }
+        buffer.WriteString("{\"Key\":")
+        buffer.WriteString("\"")
+        buffer.WriteString(queryResponse.Key)
+        buffer.WriteString("\"")
+
+        /*
+        buffer.WriteString(", \"Record\":")
+        // Record is a JSON object, so we write as-is
+        buffer.WriteString(string(queryResponse.Value))*/
+        buffer.WriteString("}")
+        bArrayMemberAlreadyWritten = true
+    }
+    buffer.WriteString("]")
+
+    return &buffer, nil
+}
+
 
 // =========================================================================================
 // chameleonhash - calculating the chameleon hash on demand based on the provided parameters
@@ -322,12 +394,10 @@ func chameleonHash(
     hBig.Mod(hBig, qBig)
 
     *hashOut = hBig.Bytes() // Return hBig in big endian encoding as string
-    /*
-    fmt.Printf("Print parameters:"+
-        "\ncalculated hash: %x"+
-        "\ncalculated hash: %s", hashOut, hashOut)
-     */
 }
+
+
+
 
 // =========================================================================================
 // getQueryResultForQueryString executes the passed in query string.

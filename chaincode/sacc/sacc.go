@@ -89,6 +89,10 @@ func get(stub shim.ChaincodeStubInterface, args []string) (string, error) {
 	return string(value), nil
 }
 
+func getall(stub shim.ChaincodeStubInterface, args []string) (string, error) {
+
+}
+
 // main function starts up the chaincode in the container during instantiate
 func main() {
 	if err := shim.Start(new(SimpleAsset)); err != nil {
