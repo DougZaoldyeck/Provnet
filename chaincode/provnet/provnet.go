@@ -334,12 +334,18 @@ func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorI
         buffer.WriteString(queryResponse.Key)
         buffer.WriteString("\"")
 
-        for i:=0; i < 20; i++  {
-            if newMH[i]==queryResponse.Key[i]{
-                j++
+        for i:=0; i < 5; i++  {
+            for k:=0; k<64; k++ {
+                if newMH[i*65+k]==queryResponse.Key[i*65+k]{
+                    if k == 63 {
+                        j++
+                    }
+                    continue
+                }
+                break
             }
         }
-        j = j/20
+        j = j/5
         sim := fmt.Sprintf("%f",j)
         buffer.WriteString(", \"Similarities\":")
         buffer.WriteString("\"")
