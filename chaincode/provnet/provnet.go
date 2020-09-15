@@ -1,5 +1,25 @@
 package main
 
+
+// #include <stdlib.h>
+// #include <string.h>
+/*
+int minHashCmp(const char *a, const char *b, const int minhashVolum){
+ // change minHash settings here
+int minhashLen = 64;
+
+ // count matches and return
+    int match = 0;
+    int i;
+    for (i = 0; i < minhashVolum; i ++) {
+        if (memcmp(a+i*minhashLen, b+i*minhashLen, minhashLen) == 0) {
+            match ++;
+        }
+ }
+    return match;
+}*/
+import "C"
+
 import (
     "bytes"
     "encoding/json"
@@ -10,6 +30,8 @@ import (
     //"crypto/rand"
     "crypto/sha256"
     "math/big"
+    "time"
+    "unsafe"
 
     "github.com/hyperledger/fabric-chaincode-go/shim"
     pb "github.com/hyperledger/fabric-protos-go/peer"
@@ -24,6 +46,13 @@ type data struct{
     Hash            string `json:"hash"`
     Ownership       string `json:"ownership"`
     MinHash         string `json:"minhash"`
+    MinHash1        string `json:"minhash1"`
+    MinHash2        string `json:"minhash2"`
+    MinHash3        string `json:"minhash3"`
+    MinHash4        string `json:"minhash4"`
+    MinHash5        string `json:"minhash5"`
+    MinHash6        string `json:"minhash6"`
+    MinHash7        string `json:"minhash7"`
     Receiver        string `json:"receiver"`
     TOS             string `json:"TOS"`
     FutureHash      string `json:"futurehash"` //currently treated as the msg2 whn calculating
@@ -71,11 +100,13 @@ func (t *Sharing) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 
 // initSharing -  create a new sharing, currently adding a new record into the provenance graph
 func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+    //start := time.Now()
     var err error
 
-    // 0-previous hash; 1-current hash; 2-ownership claim; 3-minhash values; 4-receiver;
-    // 5-terms of service; 6-future hash; 7-randomness
-    if len(args) != 14 {
+    // 0-previous hash; 1-current hash; 2-ownership claim; 3-minhash values; 4~10-complementary minhash values;
+    // 11-receiver; 12-terms of service; 13-future hash; 14-randomness; 15-SignCH;
+    // 16~19-PCH/QCH/GCH/HkCH; 20-chameleon hash
+    if len(args) != 21 {
         return shim.Error("Incorrect number of arguments. Expecting 14")
     }
 
@@ -123,43 +154,114 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     if len(args[13]) <= 0 {
         return shim.Error("14th argument must be a non-empty string")
     }
+    if len(args[14]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[15]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[16]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[17]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[18]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[19]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[20]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
     prevhash := args[0]
     hash := args[1]
     ownership := strings.ToLower(args[2])
     minhash := args[3]
-    receiver := strings.ToLower(args[4])
-    tos := strings.ToLower(args[5])
-    futurehash := args[6]
-    randomness := args[7]
-    signch := args[8]
-    pch := args[9]
-    qch := args[10]
-    gch := args[11]
-    hkch := args[12]
-    chhash := args[13]
+    minhash1 := args[4]
+    minhash2 := args[5]
+    minhash3 := args[6]
+    minhash4 := args[7]
+    minhash5 := args[8]
+    minhash6 := args[9]
+    minhash7 := args[10]
+    receiver := strings.ToLower(args[11])
+    tos := strings.ToLower(args[12])
+    futurehash := args[13]
+    randomness := args[14]
+    signch := args[15]
+    pch := args[16]
+    qch := args[17]
+    gch := args[18]
+    hkch := args[19]
+    chhash := args[20]
+
+
+
+    // =========================================================================================
+    // check if similar data exists.
+    // but this is just a half-complete part since we only get the similarities but no rejection
+    // or warning if similar records found.
+    // enough for a check-of-performance. currently disabled for check of other functions.
+    // =========================================================================================
+
+    /*
+    if ownership=="owner" {
+        queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"ownership\":\"%s\"}}", ownership)
+
+        queryResults, err := getQueryResultForQueryString(stub, queryString, minhash)
+        if err != nil {
+            return shim.Error(err.Error())
+        }
+        //fmt.Sprintf("%s",queryResults)
+        if len(queryResults) != 0 {
+            fmt.Sprintf("\n\n\nSome existing records: %s\n\n\n",queryResults)
+        }
+
+
+        temp := "sender"
+        queryString = fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"ownership\":\"%s\"}}", temp)
+
+        queryResults, err = getQueryResultForQueryString(stub, queryString, minhash)
+        if err != nil {
+            return shim.Error(err.Error())
+        }
+        //if len(queryResults) != 0 {
+            fmt.Sprintf("\n\n\nSome existing records: %s\n\n\n",queryResults)
+        //}
+
+    }*/
+
 
     // =========================================================================================
     // =========================================================================================
-    //check if shared data already exists.
+    // check if shared data already exists.
     // need to be further modified by adding a the check of minhash values
+    // changed the order here between finding the same minhash values and the similar ones
+    // just for experiment purposes.
     // =========================================================================================
     // =========================================================================================
+
     minhashVerify, err := stub.GetState(minhash)   //note we are using minhash values as the main key for each sharing
     if err != nil {
         return shim.Error("Failed to get data: " + err.Error())
     } else if minhashVerify != nil {
-        //fmt.Println("This data already exists: " + minhash)
+        //fmt.Println("This data already exists: ")
         return shim.Error("This marble already exists: " + minhash)
     }
 
+
     // Create data object and marshal to JSON
     objectType := "data"
-    data := &data{objectType, prevhash, hash, ownership,minhash,
-    receiver,tos,futurehash,randomness,signch,pch,qch,gch,hkch, chhash}
+    data := &data{objectType, prevhash, hash, ownership,minhash, minhash1, minhash2, minhash3, minhash4, minhash5,
+        minhash6,minhash7,receiver,tos,futurehash,randomness,signch,pch,qch,gch,hkch, chhash}
     dataJSONasBytes, err := json.Marshal(data)
     if err != nil {
         return shim.Error(err.Error())
     }
+
+
 
     // Save data to state
     err = stub.PutState(minhash, dataJSONasBytes)
@@ -169,11 +271,15 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
 
     // Data saved, return success
     //fmt.Println("- end init data")
+
+    //fmt.Println("Inserting data...")
+
     return shim.Success(nil)
 }
 
 // readSharing - read a sharing from chaincode state
 func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+
     var minhash, jsonResp string
     var err error
 
@@ -190,6 +296,7 @@ func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) p
         jsonResp = "{\"Error\":\"Data does not exist: " + minhash + "\"}"
         return shim.Error(jsonResp)
     }
+
     return shim.Success(valAsbytes)
 }
 
@@ -226,6 +333,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
         return shim.Error(err.Error())
     }
 
+
     var hashkey []byte = []byte(sharingToUpdate.HkCH)
     var pkey []byte = []byte(sharingToUpdate.PCH)
     var qkey []byte = []byte(sharingToUpdate.QCH)
@@ -247,6 +355,9 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
         }
 
         //fmt.Println("- end updateSharing (success)")
+
+
+
         return shim.Success(nil)
     } else {
         return shim.Error("Wrong randomness provided")
@@ -265,16 +376,24 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
 
     //   0          1
     // "owner"  "minhash"
-    if len(args) < 2 {
+    if len(args) < 9 {
         return shim.Error("Incorrect number of arguments. Expecting 1")
     }
 
     ownership := strings.ToLower(args[0])
     minhash := args[1]
+    minhash1 := args[2]
+    minhash2 := args[3]
+    minhash3 := args[4]
+    minhash4 := args[5]
+    minhash5 := args[6]
+    minhash6 := args[7]
+    minhash7 := args[8]
+
 
     queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"ownership\":\"%s\"}}", ownership)
 
-    queryResults, err := getQueryResultForQueryString(stub, queryString, minhash)
+    queryResults, err := getQueryResultForQueryString(stub, queryString, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
     if err != nil {
         return shim.Error(err.Error())
     }
@@ -286,9 +405,10 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
 // getQueryResultForQueryString executes the passed in query string.
 // Result set is built and returned as a byte array containing the JSON results.
 // =========================================================================================
-func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string, minhash string) ([]byte, error) {
+func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string, minhash string, minhash1 string, minhash2 string, minhash3 string, minhash4 string,
+    minhash5 string, minhash6 string, minhash7 string) ([]byte, error) {
 
-    fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
+    //fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
 
     resultsIterator, err := stub.GetQueryResult(queryString)
     if err != nil {
@@ -296,70 +416,94 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
     }
     defer resultsIterator.Close()
 
-    buffer, err := constructQueryResponseFromIterator(resultsIterator, minhash)
+    buffer, err := constructQueryResponseFromIterator(resultsIterator, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
     if err != nil {
         return nil, err
     }
 
-    fmt.Printf("- getQueryResultForQueryString queryResult:\n%s\n", buffer.String())
+    //fmt.Printf("- getQueryResultForQueryString queryResult:\n%s\n", buffer.String())
 
     return buffer.Bytes(), nil
 }
+
 
 
 // ===========================================================================================
 // constructQueryResponseFromIterator constructs a JSON array containing query results from
 // a given result iterator
 // ===========================================================================================
-func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface, minhash string) (*bytes.Buffer, error) {
+func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface, minhash string, minhash1 string, minhash2 string, minhash3 string, minhash4 string,
+    minhash5 string, minhash6 string, minhash7 string) (*bytes.Buffer, error) {
     // buffer is a JSON array containing QueryResults
     var buffer bytes.Buffer
     buffer.WriteString("[")
 
-    var j=0.0
-    var newMH []byte = []byte(minhash)
+    minhashVolum := 125
 
-    bArrayMemberAlreadyWritten := false
+    //bArrayMemberAlreadyWritten := false
     for resultsIterator.HasNext() {
         queryResponse, err := resultsIterator.Next()
         if err != nil {
             return nil, err
         }
         // Add a comma before array members, suppress it for the first array member
-        if bArrayMemberAlreadyWritten == true {
+        /*if bArrayMemberAlreadyWritten == true {
             buffer.WriteString(",")
-        }
+        }*/
+        //====currently unabled since we dont need return the exact key values
+
+
+        /*
         buffer.WriteString("{\"Key\":")
         buffer.WriteString("\"")
         buffer.WriteString(queryResponse.Key)
-        buffer.WriteString("\"")
+        buffer.WriteString("\"")*/
+        //b := strings.Split(queryResponse.Key, ",")
+        // i represents the number of minhash we have and j represents the similarities calculated.
+        start := time.Now()
+        a1 := C.CString(minhash)
+        b1 := C.CString(queryResponse.Key)
+        match := C.minHashCmp(a1, b1, minhashVolum)
+        fmt.Println(match)
+        // C.free(unsafe.Pointer(cs))
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
 
-        for i:=0; i < 5; i++  {
-            for k:=0; k<64; k++ {
-                if newMH[i*65+k]==queryResponse.Key[i*65+k]{
-                    if k == 63 {
-                        j++
-                    }
-                    continue
-                }
+        elapsed := time.Since(start)
+        fmt.Println("time to comparison:",elapsed)
+        /*for i < hashrange {
+            //fmt.Printf("i%d r %c\n", i, r)
+            if n == hashrange * 65 {
                 break
             }
-        }
-        j = j/5
-        sim := fmt.Sprintf("%f",j)
+            if minhash[n:n+64] == queryResponse.Key[n:n+64] {
+                j++
+            }
+            n = n+65
+        }*/
+
+        /*for i < hashrange {
+            if C.compare(C.CString(a[i]),C.CString(b[i]))==0 {
+                j++
+            }
+            C.free(unsafe.Pointer(C.CString(a[i])))
+            C.free(unsafe.Pointer(C.CString(b[i])))
+        }*/
+        queryResponse = nil
+        /*sim := fmt.Sprintf("%f",j)
         buffer.WriteString(", \"Similarities\":")
         buffer.WriteString("\"")
         buffer.WriteString(sim)
-        j = 0.0
+        j = 0.0*/
 
         /*
         buffer.WriteString(", \"Record\":")
         // Record is a JSON object, so we write as-is
         buffer.WriteString(string(queryResponse.Value))*/
-        buffer.WriteString("}")
+        //buffer.WriteString("}")
         bArrayMemberAlreadyWritten = true
     }
-    buffer.WriteString("]")
+    //buffer.WriteString("]")
 
     return &buffer, nil
 }
@@ -421,29 +565,5 @@ func chameleonHash(
 
 
 
-// =========================================================================================
-// getQueryResultForQueryString executes the passed in query string.
-// Result set is built and returned as a byte array containing the JSON results.
-// =========================================================================================
-/*
-func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string) ([]byte, error) {
 
-    fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
-
-    resultsIterator, err := stub.GetQueryResult(queryString)
-    if err != nil {
-        return nil, err
-    }
-    defer resultsIterator.Close()
-
-    buffer, err := constructQueryResponseFromIterator(resultsIterator)
-    if err != nil {
-        return nil, err
-    }
-
-    fmt.Printf("- getQueryResultForQueryString queryResult:\n%s\n", buffer.String())
-
-    return buffer.Bytes(), nil
-}
-*/
 

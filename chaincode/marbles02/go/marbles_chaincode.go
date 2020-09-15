@@ -158,6 +158,7 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 // initMarble - create a new marble, store into chaincode state
 // ============================================================
 func (t *SimpleChaincode) initMarble(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+	//start := time.Now()
 	var err error
 
 	//   0       1       2     3
@@ -167,7 +168,7 @@ func (t *SimpleChaincode) initMarble(stub shim.ChaincodeStubInterface, args []st
 	}
 
 	// ==== Input sanitation ====
-	fmt.Println("- start init marble")
+	//fmt.Println("- start init marble")
 	if len(args[0]) <= 0 {
 		return shim.Error("1st argument must be a non-empty string")
 	}
@@ -230,7 +231,8 @@ func (t *SimpleChaincode) initMarble(stub shim.ChaincodeStubInterface, args []st
 	stub.PutState(colorNameIndexKey, value)
 
 	// ==== Marble saved and indexed. Return success ====
-	fmt.Println("- end init marble")
+	//fmt.Println("- end init marble")
+
 	return shim.Success(nil)
 }
 
@@ -332,6 +334,9 @@ func (t *SimpleChaincode) transferMarble(stub shim.ChaincodeStubInterface, args 
 	if err != nil {
 		return shim.Error(err.Error())
 	}
+
+	start := time.Now()
+
 	marbleToTransfer.Owner = newOwner //change the owner
 
 	marbleJSONasBytes, _ := json.Marshal(marbleToTransfer)
@@ -340,6 +345,8 @@ func (t *SimpleChaincode) transferMarble(stub shim.ChaincodeStubInterface, args 
 		return shim.Error(err.Error())
 	}
 
+	elapsed := time.Since(start)
+	fmt.Println(elapsed)
 	fmt.Println("- end transferMarble (success)")
 	return shim.Success(nil)
 }
