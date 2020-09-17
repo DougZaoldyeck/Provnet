@@ -63,6 +63,7 @@ type data struct{
     GCH             string `json:"gch"`  //'g' of CH
     HkCH            string `json:"hkch"` //hashkey of CH
     ChameleonHash   string `json:"chameleonhash"` //term for chameleon hash
+    TraverseHelper  string `json:"traversehelper"`
 }
 
 // Main
@@ -106,8 +107,8 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     // 0-previous hash; 1-current hash; 2-ownership claim; 3-minhash values; 4~10-complementary minhash values;
     // 11-receiver; 12-terms of service; 13-future hash; 14-randomness; 15-SignCH;
     // 16~19-PCH/QCH/GCH/HkCH; 20-chameleon hash
-    if len(args) != 21 {
-        return shim.Error("Incorrect number of arguments. Expecting 14")
+    if len(args) != 22 {
+        return shim.Error("Incorrect number of arguments. Expecting 22")
     }
 
     // Input sanitation
@@ -175,6 +176,9 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     if len(args[20]) <= 0 {
         return shim.Error("14th argument must be a non-empty string")
     }
+    if len(args[21]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
     prevhash := args[0]
     hash := args[1]
     ownership := strings.ToLower(args[2])
@@ -196,6 +200,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     gch := args[18]
     hkch := args[19]
     chhash := args[20]
+    traversehelper := strings.ToLower(args[21])
 
 
 
@@ -254,8 +259,9 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
 
     // Create data object and marshal to JSON
     objectType := "data"
-    data := &data{objectType, prevhash, hash, ownership,minhash, minhash1, minhash2, minhash3, minhash4, minhash5,
-        minhash6,minhash7,receiver,tos,futurehash,randomness,signch,pch,qch,gch,hkch, chhash}
+    data := &data{objectType, prevhash, hash, ownership,minhash, minhash1, minhash2,
+        minhash3, minhash4, minhash5, minhash6,minhash7,receiver,tos,futurehash,
+        randomness,signch,pch,qch,gch,hkch, chhash, traversehelper}
     dataJSONasBytes, err := json.Marshal(data)
     if err != nil {
         return shim.Error(err.Error())
@@ -287,6 +293,7 @@ func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) p
         return shim.Error("Incorrect number of arguments. Expecting name of the sharing to query")
     }
 
+    start := time.Now()
     minhash = args[0]
     valAsbytes, err := stub.GetState(minhash) //get the sharing from chaincode state
     if err != nil {
@@ -296,6 +303,9 @@ func (t *Sharing) readSharing(stub shim.ChaincodeStubInterface, args []string) p
         jsonResp = "{\"Error\":\"Data does not exist: " + minhash + "\"}"
         return shim.Error(jsonResp)
     }
+
+    elapsed := time.Since(start)
+    fmt.Println("time for reading:",elapsed)
 
     return shim.Success(valAsbytes)
 }
@@ -309,6 +319,8 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
     if len(args) < 4 {
         return shim.Error("Incorrect number of arguments. Expecting 4")
     }
+
+    //start := time.Now()
 
     minhash := args[0]
     futurehash := args[1]
@@ -354,9 +366,9 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
             return shim.Error(err.Error())
         }
 
-        //fmt.Println("- end updateSharing (success)")
-
-
+        fmt.Println("- end updateSharing (success)")
+        //elapsed := time.Since(start)
+        //fmt.Println("time to update:",elapsed)
 
         return shim.Success(nil)
     } else {
@@ -380,7 +392,7 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
         return shim.Error("Incorrect number of arguments. Expecting 1")
     }
 
-    ownership := strings.ToLower(args[0])
+    traversehelper := strings.ToLower(args[0])
     minhash := args[1]
     minhash1 := args[2]
     minhash2 := args[3]
@@ -391,7 +403,7 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
     minhash7 := args[8]
 
 
-    queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"ownership\":\"%s\"}}", ownership)
+    queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"traversehelper\":\"%s\"}}", traversehelper)
 
     queryResults, err := getQueryResultForQueryString(stub, queryString, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
     if err != nil {
@@ -416,7 +428,7 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
     }
     defer resultsIterator.Close()
 
-    buffer, err := constructQueryResponseFromIterator(resultsIterator, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
+    buffer, err := constructQueryResponseFromIterator(resultsIterator, stub, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
     if err != nil {
         return nil, err
     }
@@ -432,13 +444,14 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 // constructQueryResponseFromIterator constructs a JSON array containing query results from
 // a given result iterator
 // ===========================================================================================
-func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface, minhash string, minhash1 string, minhash2 string, minhash3 string, minhash4 string,
+func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface, stub shim.ChaincodeStubInterface, minhash string, minhash1 string, minhash2 string, minhash3 string, minhash4 string,
     minhash5 string, minhash6 string, minhash7 string) (*bytes.Buffer, error) {
     // buffer is a JSON array containing QueryResults
     var buffer bytes.Buffer
     buffer.WriteString("[")
 
-    minhashVolum := 125
+    minhashVolum := C.int(50)
+
 
     //bArrayMemberAlreadyWritten := false
     for resultsIterator.HasNext() {
@@ -458,51 +471,73 @@ func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorI
         buffer.WriteString("\"")
         buffer.WriteString(queryResponse.Key)
         buffer.WriteString("\"")*/
-        //b := strings.Split(queryResponse.Key, ",")
-        // i represents the number of minhash we have and j represents the similarities calculated.
-        start := time.Now()
+
         a1 := C.CString(minhash)
         b1 := C.CString(queryResponse.Key)
+
         match := C.minHashCmp(a1, b1, minhashVolum)
-        fmt.Println(match)
-        // C.free(unsafe.Pointer(cs))
         C.free(unsafe.Pointer(a1))
         C.free(unsafe.Pointer(b1))
 
-        elapsed := time.Since(start)
-        fmt.Println("time to comparison:",elapsed)
-        /*for i < hashrange {
-            //fmt.Printf("i%d r %c\n", i, r)
-            if n == hashrange * 65 {
-                break
-            }
-            if minhash[n:n+64] == queryResponse.Key[n:n+64] {
-                j++
-            }
-            n = n+65
-        }*/
 
-        /*for i < hashrange {
-            if C.compare(C.CString(a[i]),C.CString(b[i]))==0 {
-                j++
-            }
-            C.free(unsafe.Pointer(C.CString(a[i])))
-            C.free(unsafe.Pointer(C.CString(b[i])))
-        }*/
+        resultsAsBytes, err := stub.GetState(queryResponse.Key)
+        if err != nil {
+            fmt.Println("nothing got from minhash\n")
+            return  &buffer, nil
+        } else if resultsAsBytes == nil {
+            fmt.Println("nothing got from results\n")
+            return  &buffer, nil
+        }
+
+        resultsToCompare :=data{}
+        err = json.Unmarshal(resultsAsBytes, &resultsToCompare)
+        if err != nil {
+            fmt.Println("nothing got from comparison\n")
+            return  &buffer, nil
+        }
+
+        a1 = C.CString(minhash1)
+        b1 = C.CString(resultsToCompare.MinHash1)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash2)
+        b1 = C.CString(resultsToCompare.MinHash2)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash3)
+        b1 = C.CString(resultsToCompare.MinHash3)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash4)
+        b1 = C.CString(resultsToCompare.MinHash4)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash5)
+        b1 = C.CString(resultsToCompare.MinHash5)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash6)
+        b1 = C.CString(resultsToCompare.MinHash6)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash7)
+        b1 = C.CString(resultsToCompare.MinHash7)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        //fmt.Println(match)
+
         queryResponse = nil
-        /*sim := fmt.Sprintf("%f",j)
-        buffer.WriteString(", \"Similarities\":")
-        buffer.WriteString("\"")
-        buffer.WriteString(sim)
-        j = 0.0*/
 
-        /*
-        buffer.WriteString(", \"Record\":")
-        // Record is a JSON object, so we write as-is
-        buffer.WriteString(string(queryResponse.Value))*/
-        //buffer.WriteString("}")
-        bArrayMemberAlreadyWritten = true
+        //bArrayMemberAlreadyWritten = true
     }
+
     //buffer.WriteString("]")
 
     return &buffer, nil
