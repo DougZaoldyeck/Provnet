@@ -1,25 +1,32 @@
 #!/bin/bash
-type=marble
-x=0
-y=0
-for((a = 0; a <= 99; a++))
+
+for((a = 0; a <= 999; a++))
 do
-    peer chaincode invoke -n mycc -c peer chaincode invoke -n mycc -c '{"Args":["initMarble","'${type}$y$x'","blue","35","tom"]}' -C myc
-    sleep 0.1s
-    if [ `expr $a % 20` == 19 ]
+type=$(head  -c 32 /dev/urandom | od -A n -t x | tr  -ds ' ' '\n' )
+type=$(echo $type | tr -d '\n')
+type=$(echo $type | tr -d ' ')
+echo "$type"
+    peer chaincode invoke -n mycc -c peer chaincode invoke -n mycc -c '{"Args":["initMarble","'$type'","blue","35","tom"]}' -C myc
+    sleep 0.3s
+    if [ `expr $a % 100` == 99 ]
     then
-        sleep 3s
+        sleep 2s
         for((b = 0; b <= 49; b++))
         do
-            peer chaincode query -C myc -n mycc -c '{"Args":["transferMarble","'${type}$y$x'","jerry"]}'
-        done
-    fi
-    if [ $x == 9 ]
-    then
-        let "y+=1"
-        let "x=0"
-    else
-        let "x+=1"
+#The following part is for random generating a name for a marble
+#type=$(head  -c 32 /dev/urandom | od -A n -t x | tr  -ds ' ' '\n' )
+#type=$(echo $type | tr -d '\n')
+#type=$(echo $type | tr -d ' ')
+#echo "$type"
+#peer chaincode invoke -n mycc -c peer chaincode invoke -n mycc -c '{"Args":["initMarble","'$type'","blue","35","tom"]}' -C myc
+#sleep 2s
+#peer chaincode invoke -n mycc -c peer chaincode invoke -n mycc -c '{"Args":["delete","'$type'"]}' -C myc
+#sleep 2s
+#The following part is for change marble
+#peer chaincode query -C myc -n mycc -c '{"Args":["transferMarble","'$type'","jerry"]}'
+#read marble
+peer chaincode query -C myc -n mycc -c '{"Args":["readMarble","'$type'"]}'
+done
     fi
 done
 

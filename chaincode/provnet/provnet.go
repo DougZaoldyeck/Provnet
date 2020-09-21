@@ -53,6 +53,8 @@ type data struct{
     MinHash5        string `json:"minhash5"`
     MinHash6        string `json:"minhash6"`
     MinHash7        string `json:"minhash7"`
+    MinHash8        string `json:"minhash8"`
+    MinHash9        string `json:"minhash9"`
     Receiver        string `json:"receiver"`
     TOS             string `json:"TOS"`
     FutureHash      string `json:"futurehash"` //currently treated as the msg2 whn calculating
@@ -93,6 +95,8 @@ func (t *Sharing) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
         return t.updateSharing(stub, args)
     } else if function == "queryDataByOwner" {
         return t.queryDataByOwner(stub, args)
+    } else if function == "delete" { //delete a record
+        return t.delete(stub, args)
     }
 
     fmt.Println("invoke did not find func: " + function) //error
@@ -107,7 +111,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     // 0-previous hash; 1-current hash; 2-ownership claim; 3-minhash values; 4~10-complementary minhash values;
     // 11-receiver; 12-terms of service; 13-future hash; 14-randomness; 15-SignCH;
     // 16~19-PCH/QCH/GCH/HkCH; 20-chameleon hash
-    if len(args) != 22 {
+    if len(args) != 24 {
         return shim.Error("Incorrect number of arguments. Expecting 22")
     }
 
@@ -179,6 +183,12 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     if len(args[21]) <= 0 {
         return shim.Error("14th argument must be a non-empty string")
     }
+    if len(args[22]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
+    if len(args[23]) <= 0 {
+        return shim.Error("14th argument must be a non-empty string")
+    }
     prevhash := args[0]
     hash := args[1]
     ownership := strings.ToLower(args[2])
@@ -190,17 +200,19 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     minhash5 := args[8]
     minhash6 := args[9]
     minhash7 := args[10]
-    receiver := strings.ToLower(args[11])
-    tos := strings.ToLower(args[12])
-    futurehash := args[13]
-    randomness := args[14]
-    signch := args[15]
-    pch := args[16]
-    qch := args[17]
-    gch := args[18]
-    hkch := args[19]
-    chhash := args[20]
-    traversehelper := strings.ToLower(args[21])
+    minhash8 := args[11]
+    minhash9 := args[12]
+    receiver := strings.ToLower(args[13])
+    tos := strings.ToLower(args[14])
+    futurehash := args[15]
+    randomness := args[16]
+    signch := args[17]
+    pch := args[18]
+    qch := args[19]
+    gch := args[20]
+    hkch := args[21]
+    chhash := args[22]
+    traversehelper := strings.ToLower(args[23])
 
 
 
@@ -260,7 +272,7 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
     // Create data object and marshal to JSON
     objectType := "data"
     data := &data{objectType, prevhash, hash, ownership,minhash, minhash1, minhash2,
-        minhash3, minhash4, minhash5, minhash6,minhash7,receiver,tos,futurehash,
+        minhash3, minhash4, minhash5, minhash6,minhash7, minhash8,minhash9,receiver,tos,futurehash,
         randomness,signch,pch,qch,gch,hkch, chhash, traversehelper}
     dataJSONasBytes, err := json.Marshal(data)
     if err != nil {
@@ -277,7 +289,8 @@ func (t *Sharing) initSharing(stub shim.ChaincodeStubInterface, args []string) p
 
     // Data saved, return success
     //fmt.Println("- end init data")
-
+    //elapsed := time.Since(start)
+    //fmt.Println(elapsed)
     //fmt.Println("Inserting data...")
 
     return shim.Success(nil)
@@ -320,7 +333,7 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
         return shim.Error("Incorrect number of arguments. Expecting 4")
     }
 
-    //start := time.Now()
+    start := time.Now()
 
     minhash := args[0]
     futurehash := args[1]
@@ -367,8 +380,8 @@ func (t *Sharing) updateSharing(stub shim.ChaincodeStubInterface, args []string)
         }
 
         fmt.Println("- end updateSharing (success)")
-        //elapsed := time.Since(start)
-        //fmt.Println("time to update:",elapsed)
+        elapsed := time.Since(start)
+        fmt.Println("time to update:",elapsed)
 
         return shim.Success(nil)
     } else {
@@ -388,7 +401,7 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
 
     //   0          1
     // "owner"  "minhash"
-    if len(args) < 9 {
+    if len(args) < 11 {
         return shim.Error("Incorrect number of arguments. Expecting 1")
     }
 
@@ -401,11 +414,13 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
     minhash5 := args[6]
     minhash6 := args[7]
     minhash7 := args[8]
+    minhash8 := args[9]
+    minhash9 := args[10]
 
 
     queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"data\",\"traversehelper\":\"%s\"}}", traversehelper)
 
-    queryResults, err := getQueryResultForQueryString(stub, queryString, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
+    queryResults, err := getQueryResultForQueryString(stub, queryString, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7, minhash8, minhash9)
     if err != nil {
         return shim.Error(err.Error())
     }
@@ -418,7 +433,7 @@ func (t *Sharing) queryDataByOwner(stub shim.ChaincodeStubInterface, args []stri
 // Result set is built and returned as a byte array containing the JSON results.
 // =========================================================================================
 func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string, minhash string, minhash1 string, minhash2 string, minhash3 string, minhash4 string,
-    minhash5 string, minhash6 string, minhash7 string) ([]byte, error) {
+    minhash5 string, minhash6 string, minhash7 string, minhash8 string, minhash9 string) ([]byte, error) {
 
     //fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
 
@@ -428,7 +443,7 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
     }
     defer resultsIterator.Close()
 
-    buffer, err := constructQueryResponseFromIterator(resultsIterator, stub, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7)
+    buffer, err := constructQueryResponseFromIterator(resultsIterator, stub, minhash, minhash1, minhash2, minhash3, minhash4, minhash5, minhash6, minhash7, minhash8, minhash9)
     if err != nil {
         return nil, err
     }
@@ -445,14 +460,14 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 // a given result iterator
 // ===========================================================================================
 func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorInterface, stub shim.ChaincodeStubInterface, minhash string, minhash1 string, minhash2 string, minhash3 string, minhash4 string,
-    minhash5 string, minhash6 string, minhash7 string) (*bytes.Buffer, error) {
+    minhash5 string, minhash6 string, minhash7 string, minhash8 string, minhash9 string) (*bytes.Buffer, error) {
     // buffer is a JSON array containing QueryResults
     var buffer bytes.Buffer
     buffer.WriteString("[")
 
-    minhashVolum := C.int(50)
+    minhashVolum := C.int(80)
 
-
+    start := time.Now()
     //bArrayMemberAlreadyWritten := false
     for resultsIterator.HasNext() {
         queryResponse, err := resultsIterator.Next()
@@ -531,6 +546,16 @@ func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorI
         match = match + C.minHashCmp(a1, b1, minhashVolum)
         C.free(unsafe.Pointer(a1))
         C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash8)
+        b1 = C.CString(resultsToCompare.MinHash8)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
+        a1 = C.CString(minhash9)
+        b1 = C.CString(resultsToCompare.MinHash9)
+        match = match + C.minHashCmp(a1, b1, minhashVolum)
+        C.free(unsafe.Pointer(a1))
+        C.free(unsafe.Pointer(b1))
         //fmt.Println(match)
 
         queryResponse = nil
@@ -538,10 +563,60 @@ func constructQueryResponseFromIterator(resultsIterator shim.StateQueryIteratorI
         //bArrayMemberAlreadyWritten = true
     }
 
+    elapsed := time.Since(start)
+    fmt.Println("time for comparison:",elapsed)
+
     //buffer.WriteString("]")
 
     return &buffer, nil
 }
+
+// ==================================================
+// delete - remove a data record key/value pair from state
+// ==================================================
+func (t *Sharing) delete(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+    //fmt.Println("delete start")
+    start := time.Now()
+
+    var jsonResp string
+    var dataJSON data
+
+
+    if len(args) != 1 {
+        return shim.Error("Incorrect number of arguments. Expecting 1")
+    }
+    minhash := args[0]
+
+    // to maintain the color~name index, we need to read the marble first and get its color
+    valAsbytes, err := stub.GetState(minhash) //get the marble from chaincode state
+    if err != nil {
+        jsonResp = "{\"Error\":\"Failed to get state for " + minhash + "\"}"
+        return shim.Error(jsonResp)
+    } else if valAsbytes == nil {
+        jsonResp = "{\"Error\":\"Marble does not exist: " + minhash + "\"}"
+        return shim.Error(jsonResp)
+    }
+
+    err = json.Unmarshal([]byte(valAsbytes), &dataJSON)
+    if err != nil {
+        jsonResp = "{\"Error\":\"Failed to decode JSON of: " + minhash + "\"}"
+        return shim.Error(jsonResp)
+    }
+
+    err = stub.DelState(minhash) //remove the marble from chaincode state
+    if err != nil {
+        return shim.Error("Failed to delete state:" + err.Error())
+    }
+
+    elapsed := time.Since(start)
+    fmt.Println("time for deletion:",elapsed)
+    //fmt.Println("delete complete")
+
+
+
+    return shim.Success(nil)
+}
+
 
 
 // =========================================================================================

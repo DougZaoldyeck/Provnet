@@ -123,7 +123,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 // ========================================
 func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	function, args := stub.GetFunctionAndParameters()
-	fmt.Println("invoke is running " + function)
+	//fmt.Println("invoke is running " + function)
 
 	// Handle different functions
 	if function == "initMarble" { //create a new marble
@@ -215,6 +215,9 @@ func (t *SimpleChaincode) initMarble(stub shim.ChaincodeStubInterface, args []st
 		return shim.Error(err.Error())
 	}
 
+	//elapsed := time.Since(start)
+	//fmt.Println(elapsed)
+
 	//  ==== Index the marble to enable color-based range queries, e.g. return all blue marbles ====
 	//  An 'index' is a normal key/value entry in state.
 	//  The key is a composite key, with the elements that you want to range query on listed first.
@@ -247,6 +250,7 @@ func (t *SimpleChaincode) readMarble(stub shim.ChaincodeStubInterface, args []st
 		return shim.Error("Incorrect number of arguments. Expecting name of the marble to query")
 	}
 
+	start := time.Now()
 	name = args[0]
 	valAsbytes, err := stub.GetState(name) //get the marble from chaincode state
 	if err != nil {
@@ -257,6 +261,9 @@ func (t *SimpleChaincode) readMarble(stub shim.ChaincodeStubInterface, args []st
 		return shim.Error(jsonResp)
 	}
 
+	elapsed := time.Since(start)
+	fmt.Println("time for reading:",elapsed)
+
 	return shim.Success(valAsbytes)
 }
 
@@ -264,6 +271,9 @@ func (t *SimpleChaincode) readMarble(stub shim.ChaincodeStubInterface, args []st
 // delete - remove a marble key/value pair from state
 // ==================================================
 func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+	start := time.Now()
+
+
 	var jsonResp string
 	var marbleJSON marble
 	if len(args) != 1 {
@@ -292,6 +302,9 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 		return shim.Error("Failed to delete state:" + err.Error())
 	}
 
+	elapsed := time.Since(start)
+	fmt.Println("time for deletion:",elapsed)
+
 	// maintain the index
 	indexName := "color~name"
 	colorNameIndexKey, err := stub.CreateCompositeKey(indexName, []string{marbleJSON.Color, marbleJSON.Name})
@@ -318,6 +331,8 @@ func (t *SimpleChaincode) transferMarble(stub shim.ChaincodeStubInterface, args 
 		return shim.Error("Incorrect number of arguments. Expecting 2")
 	}
 
+	start := time.Now()
+
 	marbleName := args[0]
 	newOwner := strings.ToLower(args[1])
 	fmt.Println("- start transferMarble ", marbleName, newOwner)
@@ -335,7 +350,6 @@ func (t *SimpleChaincode) transferMarble(stub shim.ChaincodeStubInterface, args 
 		return shim.Error(err.Error())
 	}
 
-	start := time.Now()
 
 	marbleToTransfer.Owner = newOwner //change the owner
 
@@ -348,6 +362,9 @@ func (t *SimpleChaincode) transferMarble(stub shim.ChaincodeStubInterface, args 
 	elapsed := time.Since(start)
 	fmt.Println(elapsed)
 	fmt.Println("- end transferMarble (success)")
+
+
+
 	return shim.Success(nil)
 }
 
