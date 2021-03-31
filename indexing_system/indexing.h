@@ -13,7 +13,7 @@ class Indexing
 {
 protected:
 	int k;
-	vector<unordered_map<string, list>> hash_functions;
+	vector<unordered_map<string, list<string>>> hash_functions;
 	// TODO why are we using a linked list and not a set? order matters?
 
 public:
