@@ -4,22 +4,36 @@
 #include "indexing.h"
 
 Indexing::Indexing(int k) {
-	hash_functions.reserve(k);
+	vector<unordered_map<string, forward_list<string>>> new_vec(k);
+	hfs = new_vec;
 }
 
 Indexing::Indexing() {
-	hash_functions.reserve(1200);
+	vector<unordered_map<string, forward_list<string>>> new_vec(1200);
+	hfs = new_vec;
 }
 
 Indexing::~Indexing() { }
 
-void Indexing::add_record(int n, string r, string mh_val) {
-	//TODO do a search, then add it to the back.
-	// others = search(n, mh_val);
-	hash_functions.at(n).at(mh_val).push_back(r);
-	// return others;
+void Indexing::add_record(int n, string record, string mh_val) {
+	// Add a record to the front of its minhash's linked list
+	hfs.at(n)[mh_val].push_front(record);
 }
-// TODO is Record supposed to be a string representing the actual record?
-// i.e. what data type?
-// TODO why are we using a linked list and not a set? does the order really matteR? 
-// TODO 
+
+vector<string> Indexing::list_records(int n, string mh_val) {
+	// Iterate over linked list, push into vector
+	vector<string> records;
+	forward_list<string> fll = hfs.at(n)[mh_val];
+
+	for (auto it = fll.begin(); it != fll.end(); it++) {
+		records.push_back(*it);
+	}
+
+	// print them out
+	for (auto it = records.begin(); it != records.end(); it++) {
+		cout <<  *it << ",";
+	}
+	cout << endl;
+
+	return records;
+}

@@ -3,7 +3,7 @@
 
 #include <string>
 #include <unordered_map>
-#include <list>
+#include <forward_list>
 #include <vector>
 #include "sha256.h"
 using namespace std;
@@ -12,16 +12,16 @@ using namespace std;
 class Indexing
 {
 protected:
-	int k;
-	vector<unordered_map<string, list<string>>> hash_functions;
-	// TODO why are we using a linked list and not a set? order matters?
+	int k; // number of hash functions
+	vector<unordered_map<string, forward_list<string>>> hfs; // vector of hash functions
 
 public:
 	Indexing();
 	Indexing(int);
 	~Indexing();
-	// TODO what data types will the `r` be?
-	void add_record(int n, string r, string mh_val);
+	
+	void add_record(int n, string record, string mh_val);
+	vector<string> list_records(int n, string mh_val);
 };
 
 #endif
