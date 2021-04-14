@@ -6,7 +6,13 @@
 #include <forward_list>
 #include <vector>
 #include "sha256.h"
-using namespace std;
+using std::cout;
+using std::endl;
+using std::string;
+using std::vector;
+using std::unordered_map;
+using std::forward_list;
+
 
 
 class Indexing
@@ -22,6 +28,7 @@ public:
 	
 	void add_record(int n, string record, string mh_val);
 	vector<string> list_records(int n, string mh_val);
+	void iterate(int hf, string mh_val);
 };
 
 #endif

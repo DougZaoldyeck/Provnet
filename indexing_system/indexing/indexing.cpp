@@ -30,10 +30,19 @@ vector<string> Indexing::list_records(int n, string mh_val) {
 	}
 
 	// print them out
+	cout << "hfn: " << n << " mh_val: " << mh_val << " R#: " << endl;
 	for (auto it = records.begin(); it != records.end(); it++) {
 		cout <<  *it << ",";
 	}
 	cout << endl;
 
 	return records;
+}
+
+void Indexing::iterate(int hf, string mh_val) {
+	// iterate over all the hash functions and print test data out.
+	/*for (int i = 0; i < k; i++){
+		//print stuff.
+	}*/
+
 }
