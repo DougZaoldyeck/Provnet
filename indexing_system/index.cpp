@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 
 	// insertion
 	int hfn_num = 20;
-	string record1 = "R1";
+	string record1 = "R1"; // hash of the block.
 	string hash1 = sha256(record1);
 	system.add_record(hfn_num, record1, hash1);
 	cout << record1 << " has been added." << endl;
@@ -51,22 +51,6 @@ int main(int argc, char *argv[]) {
 
 	cout << "Listing minhash 3:" << endl;
 	system.list_records(hfn_num, hash3);
-
-/* TODO: notes
-complexity: 
-
-std::set) Search, removal, and insertion operations have logarithmic complexity.
-
-std::list) supports constant time insertion and removal of elements from anywhere in the container. Fast random access is not supported.
-
-list is more efficient to insert bc constant time
-
-std::forward_list) is more space efficient than std::list
-
-
-also, note that with the forward list, we iterate backwards... could be forwards if we did a doubly-linked list, but that is obviously more space inefficient.. what is your priority?
-
-*/
 
 	return 0;
 }
