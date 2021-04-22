@@ -1,0 +1,823 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "c7ck-438e",
+      "name" : "Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) Codes",
+      "attribution" : "Chicago Police Department",
+      "attributionLink" : "https://portal.chicagopolice.org/portal/page/portal/ClearPath",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1316116735,
+      "description" : "Illinois Uniform Crime Reporting (IUCR) codes are four digit codes that law enforcement agencies use to classify criminal incidents when taking individual reports. These codes are also used to aggregate types of cases for statistical purposes.  In Illinois, the Illinois State Police establish IUCR codes, but the agencies can add codes to suit their individual needs.  The Chicago Police Department currently uses more than 350 IUCR codes to classify criminal offenses, divided into “Index” and “Non-Index” offenses.  Index offenses are the offenses that are collected nation-wide by the Federal Bureaus of Investigation’s Uniform Crime Reports program to document crime trends over time (data released semi-annually), and include murder, criminal sexual assault, robbery, aggravated assault & battery, burglary, theft, motor vehicle theft, and arson.  Non-index offenses are all other types of criminal incidents, including vandalism, weapons violations, public peace violations, etc.",
+      "displayType" : "table",
+      "downloadCount" : 9312,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1414516925,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8871012,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1410819199,
+      "publicationGroup" : 240448,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1410819114,
+      "rowsUpdatedBy" : "3qqc-w7ag",
+      "tableId" : 1719122,
+      "totalTimesRated" : 0,
+      "viewCount" : 32086,
+      "viewLastModified" : 1410819199,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 166870712,
+        "name" : "IUCR",
+        "dataTypeName" : "text",
+        "fieldName" : "iucr",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1520106,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 401,
+          "largest" : "938",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4650",
+            "count" : 20
+          }, {
+            "item" : "4651",
+            "count" : 19
+          }, {
+            "item" : "4652",
+            "count" : 18
+          }, {
+            "item" : "4740",
+            "count" : 17
+          }, {
+            "item" : "4750",
+            "count" : 16
+          }, {
+            "item" : "4800",
+            "count" : 15
+          }, {
+            "item" : "4810",
+            "count" : 14
+          }, {
+            "item" : "4860",
+            "count" : 13
+          }, {
+            "item" : "5000",
+            "count" : 12
+          }, {
+            "item" : "5001",
+            "count" : 11
+          }, {
+            "item" : "5002",
+            "count" : 10
+          }, {
+            "item" : "5003",
+            "count" : 9
+          }, {
+            "item" : "5004",
+            "count" : 8
+          }, {
+            "item" : "5007",
+            "count" : 7
+          }, {
+            "item" : "5009",
+            "count" : 6
+          }, {
+            "item" : "500E",
+            "count" : 5
+          }, {
+            "item" : "500N",
+            "count" : 4
+          }, {
+            "item" : "5011",
+            "count" : 3
+          }, {
+            "item" : "501A",
+            "count" : 2
+          }, {
+            "item" : "501H",
+            "count" : 1
+          } ],
+          "smallest" : "031A"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 166870713,
+        "name" : "PRIMARY DESCRIPTION",
+        "dataTypeName" : "text",
+        "fieldName" : "primary_description",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1520107,
+        "width" : 190,
+        "cachedContents" : {
+          "non_null" : 401,
+          "largest" : "WEAPONS VIOLATION",
+          "null" : 0,
+          "top" : [ {
+            "item" : "HOMICIDE",
+            "count" : 20
+          }, {
+            "item" : "CRIM SEXUAL ASSAULT",
+            "count" : 19
+          }, {
+            "item" : "ROBBERY",
+            "count" : 18
+          }, {
+            "item" : "BATTERY",
+            "count" : 17
+          }, {
+            "item" : "PUBLIC PEACE VIOLATION",
+            "count" : 16
+          }, {
+            "item" : "RITUALISM",
+            "count" : 15
+          }, {
+            "item" : "ASSAULT",
+            "count" : 14
+          }, {
+            "item" : "STALKING",
+            "count" : 13
+          }, {
+            "item" : "BURGLARY",
+            "count" : 12
+          }, {
+            "item" : "THEFT",
+            "count" : 11
+          }, {
+            "item" : "MOTOR VEHICLE THEFT",
+            "count" : 10
+          }, {
+            "item" : "ARSON",
+            "count" : 9
+          }, {
+            "item" : "HUMAN TRAFFICKING",
+            "count" : 8
+          }, {
+            "item" : "DECEPTIVE PRACTICE",
+            "count" : 7
+          }, {
+            "item" : "CRIMINAL DAMAGE",
+            "count" : 6
+          }, {
+            "item" : "CRIMINAL TRESPASS",
+            "count" : 5
+          }, {
+            "item" : "WEAPONS VIOLATION",
+            "count" : 4
+          }, {
+            "item" : "CONCEALED CARRY LICENSE VIOLATION",
+            "count" : 3
+          }, {
+            "item" : "NON-CRIMINAL",
+            "count" : 2
+          }, {
+            "item" : "PROSTITUTION",
+            "count" : 1
+          } ],
+          "smallest" : "ARSON"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 166870714,
+        "name" : "SECONDARY DESCRIPTION",
+        "dataTypeName" : "text",
+        "fieldName" : "secondary_description",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1520108,
+        "width" : 248,
+        "cachedContents" : {
+          "non_null" : 401,
+          "largest" : "WIREROOM/SPORTS",
+          "null" : 0,
+          "top" : [ {
+            "item" : "SEX OFFENDER: FAIL TO REGISTER",
+            "count" : 20
+          }, {
+            "item" : "SEX OFFENDER: FAIL REG NEW ADD",
+            "count" : 19
+          }, {
+            "item" : "SEX OFFENDER: PROHIBITED ZONE",
+            "count" : 18
+          }, {
+            "item" : "UNLAWFUL USE OF BODY ARMOR",
+            "count" : 17
+          }, {
+            "item" : "DISCLOSE DV VICTIM LOCATION",
+            "count" : 16
+          }, {
+            "item" : "MONEY LAUNDERING",
+            "count" : 15
+          }, {
+            "item" : "COMPOUNDING A CRIME",
+            "count" : 14
+          }, {
+            "item" : "BOARD PLANE WITH WEAPON",
+            "count" : 13
+          }, {
+            "item" : "OTHER CRIME AGAINST PERSON",
+            "count" : 12
+          }, {
+            "item" : "OTHER CRIME INVOLVING PROPERTY",
+            "count" : 11
+          }, {
+            "item" : "OTHER VEHICLE OFFENSE",
+            "count" : 10
+          }, {
+            "item" : "OTHER ARSON/EXPLOSIVE INCIDENT",
+            "count" : 9
+          }, {
+            "item" : "ATT CRIM SEXUAL ABUSE",
+            "count" : 8
+          }, {
+            "item" : "OTHER WEAPONS VIOLATION",
+            "count" : 7
+          }, {
+            "item" : "VIOLATION OF SMOKING BAN",
+            "count" : 6
+          }, {
+            "item" : "EAVESDROPPING",
+            "count" : 5
+          }, {
+            "item" : "ABUSE/NEGLECT: CARE FACILITY",
+            "count" : 4
+          }, {
+            "item" : "LICENSE VIOLATION",
+            "count" : 3
+          }, {
+            "item" : "ANIMAL ABUSE/NEGLECT",
+            "count" : 2
+          }, {
+            "item" : "HAZARDOUS MATERIALS VIOLATION",
+            "count" : 1
+          } ],
+          "smallest" : "$500 AND UNDER"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 166870715,
+        "name" : "INDEX CODE",
+        "dataTypeName" : "text",
+        "fieldName" : "index_code",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1520109,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 401,
+          "largest" : "N",
+          "null" : 0,
+          "top" : [ {
+            "item" : "I",
+            "count" : 20
+          }, {
+            "item" : "N",
+            "count" : 19
+          } ],
+          "smallest" : "I"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "Current list as of September 2014",
+            "Frequency" : "Data is updated as needed",
+            "Data Owner" : "Chicago Police Department"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "crime", "police" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "2E65B109-A0AC-478C-9976-FE048215A4DA", 1, 1410793911, "700397", 1410793911, "700397", "{\n}", "110", "HOMICIDE", "FIRST DEGREE MURDER", "I" ]
+, [ 2, "3F8F0E12-3A3D-4A8E-BE9F-9BDA67FF02E2", 2, 1410793911, "700397", 1410793911, "700397", "{\n}", "130", "HOMICIDE", "SECOND DEGREE MURDER", "I" ]
+, [ 3, "03D25032-CD09-4C1E-94DF-744F3BE0E1E4", 3, 1410793911, "700397", 1410793911, "700397", "{\n}", "141", "HOMICIDE", "INVOLUNTARY MANSLAUGHTER", "N" ]
+, [ 4, "E35A07B2-8838-406B-9F04-F5C5279DA2E2", 4, 1410793911, "700397", 1410793911, "700397", "{\n}", "142", "HOMICIDE", "RECKLESS HOMICIDE", "N" ]
+, [ 5, "7D5C55CD-D735-4676-8DBB-9060A308738B", 5, 1410793911, "700397", 1410793911, "700397", "{\n}", "261", "CRIM SEXUAL ASSAULT", "AGGRAVATED: HANDGUN", "I" ]
+, [ 6, "54A2DD32-E169-436E-936C-2D7F4865395D", 6, 1410793911, "700397", 1410793911, "700397", "{\n}", "262", "CRIM SEXUAL ASSAULT", "AGGRAVATED: OTHER FIREARM", "I" ]
+, [ 7, "BA5C6A2C-225E-4F84-BC85-D9B5283B4190", 7, 1410793911, "700397", 1410793911, "700397", "{\n}", "263", "CRIM SEXUAL ASSAULT", "AGGRAVATED: KNIFE/CUT INSTR", "I" ]
+, [ 8, "E9584268-6537-4BFD-911A-9BD55A4991DF", 8, 1410793911, "700397", 1410793911, "700397", "{\n}", "264", "CRIM SEXUAL ASSAULT", "AGGRAVATED: OTHER DANG WEAPON", "I" ]
+, [ 9, "E777DBF8-7E45-40E8-AE16-38F9BD4213AC", 9, 1410793911, "700397", 1410793911, "700397", "{\n}", "265", "CRIM SEXUAL ASSAULT", "AGGRAVATED: OTHER", "I" ]
+, [ 10, "8843F2F9-73AB-4EA4-AF14-F9EE2632058F", 10, 1410793911, "700397", 1410793911, "700397", "{\n}", "266", "CRIM SEXUAL ASSAULT", "PREDATORY", "I" ]
+, [ 11, "90018565-CB86-4895-9104-1C87BD23C107", 11, 1410793911, "700397", 1410793911, "700397", "{\n}", "271", "CRIM SEXUAL ASSAULT", "ATTEMPT AGG: HANDGUN", "I" ]
+, [ 12, "4F46BBA6-0447-480C-96FB-96AAC8D316A1", 12, 1410793911, "700397", 1410793911, "700397", "{\n}", "272", "CRIM SEXUAL ASSAULT", "ATTEMPT AGG: OTHER FIREARM", "I" ]
+, [ 13, "A330DE7B-78F3-4F4B-BB85-D475E1FDA4D1", 13, 1410793911, "700397", 1410793911, "700397", "{\n}", "273", "CRIM SEXUAL ASSAULT", "ATTEMPT AGG: KNIFE/CUT INSTR", "I" ]
+, [ 14, "F1BC6251-6ED6-4036-8078-E732A3773810", 14, 1410793911, "700397", 1410793911, "700397", "{\n}", "274", "CRIM SEXUAL ASSAULT", "ATTEMPT AGG: OTHER DANG WEAPON", "I" ]
+, [ 15, "ACF9737D-DB9B-4F29-996E-207687BB2BAC", 15, 1410793911, "700397", 1410793911, "700397", "{\n}", "275", "CRIM SEXUAL ASSAULT", "ATTEMPT AGG: OTHER", "I" ]
+, [ 16, "93937D1E-139C-41D6-AAEE-42F54F689D65", 16, 1410793911, "700397", 1410793911, "700397", "{\n}", "281", "CRIM SEXUAL ASSAULT", "NON-AGGRAVATED", "I" ]
+, [ 17, "61E59D82-4422-4DCF-B2F8-B2816ABC6C2B", 17, 1410793911, "700397", 1410793911, "700397", "{\n}", "291", "CRIM SEXUAL ASSAULT", "ATTEMPT NON-AGGRAVATED", "I" ]
+, [ 18, "589ECEDB-13E9-46CC-9354-146E0C15E05C", 18, 1410793911, "700397", 1410793911, "700397", "{\n}", "312", "ROBBERY", "ARMED:KNIFE/CUTTING INSTRUMENT", "I" ]
+, [ 19, "5B5CD603-34A9-4DC5-8BA0-5243C008F099", 19, 1410793911, "700397", 1410793911, "700397", "{\n}", "313", "ROBBERY", "ARMED: OTHER DANGEROUS WEAPON", "I" ]
+, [ 20, "16DBF8B5-BEEC-4E20-9B9A-BA66D29EA808", 20, 1410793911, "700397", 1410793911, "700397", "{\n}", "031A", "ROBBERY", "ARMED: HANDGUN", "I" ]
+, [ 21, "4BB2285C-7C91-4D5D-91FC-0607330504B9", 21, 1410793911, "700397", 1410793911, "700397", "{\n}", "031B", "ROBBERY", "ARMED: OTHER FIREARM", "I" ]
+, [ 22, "904AA941-2117-4738-8C40-EC6E0A3E00D0", 22, 1410793911, "700397", 1410793911, "700397", "{\n}", "320", "ROBBERY", "STRONGARM - NO WEAPON", "I" ]
+, [ 23, "6444D1E3-C5BC-4627-B023-8053E1565534", 23, 1410793911, "700397", 1410793911, "700397", "{\n}", "325", "ROBBERY", "VEHICULAR HIJACKING", "I" ]
+, [ 24, "2227583F-4864-439E-B6C5-702A6FD80A39", 24, 1410793911, "700397", 1410793911, "700397", "{\n}", "326", "ROBBERY", "AGGRAVATED VEHICULAR HIJACKING", "I" ]
+, [ 25, "522DF4C9-10C3-41B9-9B28-12537597FE7E", 25, 1410793911, "700397", 1410793911, "700397", "{\n}", "330", "ROBBERY", "AGGRAVATED", "I" ]
+, [ 26, "0BE79714-1E8C-4D33-AD71-EA2D615AE75F", 26, 1410793911, "700397", 1410793911, "700397", "{\n}", "331", "ROBBERY", "ATTEMPT: AGGRAVATED", "I" ]
+, [ 27, "6E8E9AC9-E333-4F56-922A-099B6D5EB48A", 27, 1410793911, "700397", 1410793911, "700397", "{\n}", "334", "ROBBERY", "ATTEMPT: ARMED-KNIFE/CUT INSTR", "I" ]
+, [ 28, "98D98903-BFC9-49FA-B2A8-42BB9F2F24A6", 28, 1410793911, "700397", 1410793911, "700397", "{\n}", "337", "ROBBERY", "ATTEMPT: ARMED-OTHER DANG WEAP", "I" ]
+, [ 29, "4691B006-1994-4099-893F-9F538F31D37C", 29, 1410793911, "700397", 1410793911, "700397", "{\n}", "033A", "ROBBERY", "ATTEMPT: ARMED-HANDGUN", "I" ]
+, [ 30, "CC6F6BD4-70AD-4235-92D9-86B590CDA11F", 30, 1410793911, "700397", 1410793911, "700397", "{\n}", "033B", "ROBBERY", "ATTEMPT: ARMED-OTHER FIREARM", "I" ]
+, [ 31, "9337C274-BBD0-48A6-8066-A98E826DE735", 31, 1410793911, "700397", 1410793911, "700397", "{\n}", "340", "ROBBERY", "ATTEMPT: STRONGARM-NO WEAPON", "I" ]
+, [ 32, "787F3E99-C982-48C8-8F5E-A0ADCA5303ED", 32, 1410793911, "700397", 1410793911, "700397", "{\n}", "041A", "BATTERY", "AGGRAVATED: HANDGUN", "I" ]
+, [ 33, "E308D57A-538F-4B2A-B143-3907C8CDD3AE", 33, 1410793911, "700397", 1410793911, "700397", "{\n}", "041B", "BATTERY", "AGGRAVATED: OTHER FIREARM", "I" ]
+, [ 34, "D5AEDE4D-C087-4C3E-9933-BA2B5B74195D", 34, 1410793911, "700397", 1410793911, "700397", "{\n}", "420", "BATTERY", "AGGRAVATED:KNIFE/CUTTING INSTR", "I" ]
+, [ 35, "60A62B79-08BE-4198-BA0D-1D6BE032DF7C", 35, 1410793911, "700397", 1410793911, "700397", "{\n}", "430", "BATTERY", "AGGRAVATED: OTHER DANG WEAPON", "I" ]
+, [ 36, "44D5C860-E663-4D3D-9D34-BF599963AAA6", 36, 1410793911, "700397", 1410793911, "700397", "{\n}", "440", "BATTERY", "AGG: HANDS/FIST/FEET NO/MINOR INJURY", "N" ]
+, [ 37, "E238F8E8-4222-421A-A16F-F5C635A58C23", 37, 1410793911, "700397", 1410793911, "700397", "{\n}", "450", "BATTERY", "AGGRAVATED PO: HANDGUN", "I" ]
+, [ 38, "976EE421-CB51-4267-8C63-5B6D55637EDC", 38, 1410793911, "700397", 1410793911, "700397", "{\n}", "451", "BATTERY", "AGGRAVATED PO: OTHER FIREARM", "I" ]
+, [ 39, "B65C215A-41D8-419E-AF97-D004C0A09F77", 39, 1410793911, "700397", 1410793911, "700397", "{\n}", "452", "BATTERY", "AGGRAVATED PO: KNIFE/CUT INSTR", "I" ]
+, [ 40, "2F998CD5-4283-46D9-9A15-AB63A2E7ED6F", 40, 1410793911, "700397", 1410793911, "700397", "{\n}", "453", "BATTERY", "AGGRAVATED PO: OTHER DANG WEAP", "I" ]
+, [ 41, "16C2B26D-F3BF-4C7C-B721-A913254E156D", 41, 1410793911, "700397", 1410793911, "700397", "{\n}", "454", "BATTERY", "AGG PO HANDS NO/MIN INJURY", "N" ]
+, [ 42, "8651ED12-E7BA-4562-A1F1-76D507A6D44E", 42, 1410793911, "700397", 1410793911, "700397", "{\n}", "460", "BATTERY", "SIMPLE", "N" ]
+, [ 43, "7D3DB604-E02C-4B21-AE45-EEE4D582071E", 43, 1410793911, "700397", 1410793911, "700397", "{\n}", "461", "BATTERY", "AGG PO HANDS ETC SERIOUS INJ", "I" ]
+, [ 44, "827DFB1C-B8DB-45D9-91DF-9047C211B3A5", 44, 1410793911, "700397", 1410793911, "700397", "{\n}", "462", "BATTERY", "AGG PRO EMP HANDS SERIOUS INJ", "I" ]
+, [ 45, "32C0403F-407C-4FC4-B66B-1995D68F4910", 45, 1410793911, "700397", 1410793911, "700397", "{\n}", "470", "PUBLIC PEACE VIOLATION", "RECKLESS CONDUCT", "N" ]
+, [ 46, "CAA50E10-4053-4915-B8AD-05E1A549AC63", 46, 1410793911, "700397", 1410793911, "700397", "{\n}", "475", "BATTERY", "OF UNBORN CHILD", "N" ]
+, [ 47, "8F99C693-EB7C-437C-9036-133B7C7E0D38", 47, 1410793911, "700397", 1410793911, "700397", "{\n}", "479", "BATTERY", "AGG: HANDS/FIST/FEET SERIOUS INJURY", "I" ]
+, [ 48, "B9F68AAE-7B30-49C8-9165-B9421677BACF", 48, 1410793911, "700397", 1410793911, "700397", "{\n}", "480", "BATTERY", "AGG PRO.EMP: HANDGUN", "I" ]
+, [ 49, "F11D8278-A5C4-49CB-BBC3-8C9D286B0C14", 49, 1410793911, "700397", 1410793911, "700397", "{\n}", "481", "BATTERY", "AGG PRO.EMP: OTHER FIREARM", "I" ]
+, [ 50, "1E2AC6FE-6E3F-4E56-9281-9370E3B0AD17", 50, 1410793911, "700397", 1410793911, "700397", "{\n}", "482", "BATTERY", "AGG PRO.EMP:KNIFE/CUTTING INST", "I" ]
+, [ 51, "587295CB-7A53-46B4-81CB-E137D0164813", 51, 1410793911, "700397", 1410793911, "700397", "{\n}", "483", "BATTERY", "AGG PRO.EMP: OTHER DANG WEAPON", "I" ]
+, [ 52, "86C99903-EC94-4CBE-A837-78ECE8F4ECF1", 52, 1410793911, "700397", 1410793911, "700397", "{\n}", "484", "BATTERY", "PRO EMP HANDS NO/MIN INJURY", "N" ]
+, [ 53, "F55A9225-4B17-46B7-AB53-7D20F969A4EE", 53, 1410793911, "700397", 1410793911, "700397", "{\n}", "485", "BATTERY", "AGGRAVATED OF A CHILD", "I" ]
+, [ 54, "66643F8B-9919-458B-9060-55FD1553DB4C", 54, 1410793911, "700397", 1410793911, "700397", "{\n}", "486", "BATTERY", "DOMESTIC BATTERY SIMPLE", "N" ]
+, [ 55, "D1EB853C-B789-4668-9C0F-C795EC66DBC2", 55, 1410793911, "700397", 1410793911, "700397", "{\n}", "487", "BATTERY", "AGGRAVATED OF A UNBORN CHILD", "I" ]
+, [ 56, "8A747C28-7EC1-4AB2-9FDC-F0538C3FCEF2", 56, 1410793911, "700397", 1410793911, "700397", "{\n}", "488", "BATTERY", "AGGRAVATED DOMESTIC BATTERY: HANDGUN", "I" ]
+, [ 57, "5E72590E-3905-4C54-ACCF-01D019818DC8", 57, 1410793911, "700397", 1410793911, "700397", "{\n}", "489", "BATTERY", "AGGRAVATED DOMESTIC BATTERY: OTHER FIREARM", "I" ]
+, [ 58, "D927D3D5-7DC1-4EE7-9E2E-B7EA7F42D665", 58, 1410793911, "700397", 1410793911, "700397", "{\n}", "490", "RITUALISM", "AGG RITUAL MUT:HANDGUN", "I" ]
+, [ 59, "052AB92E-030D-4D14-8C61-8C27B0DDE8B8", 59, 1410793911, "700397", 1410793911, "700397", "{\n}", "491", "RITUALISM", "AGG RITUAL MUT:OTHER FIREARM", "I" ]
+, [ 60, "FC60B88A-FD26-462A-9972-052488B8D152", 60, 1410793911, "700397", 1410793911, "700397", "{\n}", "492", "RITUALISM", "AGG RITUAL MUT:KNIFE/CUTTING I", "I" ]
+, [ 61, "E2BB1879-7BA5-4F3E-94B0-B67DEA256E56", 61, 1410793911, "700397", 1410793911, "700397", "{\n}", "493", "RITUALISM", "AGG RITUAL MUT:OTH DANG WEAPON", "I" ]
+, [ 62, "B7052756-2128-4C0B-A7E9-0727F0B76D3E", 62, 1410793911, "700397", 1410793911, "700397", "{\n}", "494", "RITUALISM", "AGG RIT MUT: HANDS/FIST/FEET NO/MINOR INJURY", "N" ]
+, [ 63, "365E70C8-157F-4DE0-8B5F-1C559B4C5EFE", 63, 1410793911, "700397", 1410793911, "700397", "{\n}", "495", "BATTERY", "AGGRAVATED OF A SENIOR CITIZEN", "I" ]
+, [ 64, "C03163F1-E178-4EA6-9BFC-988D1BE2663E", 64, 1410793911, "700397", 1410793911, "700397", "{\n}", "496", "BATTERY", "AGGRAVATED DOMESTIC BATTERY: KNIFE/CUTTING INST", "I" ]
+, [ 65, "C8C7D127-065A-485E-96E0-3045A94D084A", 65, 1410793911, "700397", 1410793911, "700397", "{\n}", "497", "BATTERY", "AGGRAVATED DOMESTIC BATTERY: OTHER DANG WEAPON", "I" ]
+, [ 66, "BF4E399D-6157-4E4F-BF94-5458AFAE2D8D", 66, 1410793911, "700397", 1410793911, "700397", "{\n}", "498", "BATTERY", "AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY", "I" ]
+, [ 67, "131A8693-D58E-4729-BCEC-4C5961B6108A", 67, 1410793911, "700397", 1410793911, "700397", "{\n}", "510", "RITUALISM", "AGG RIT MUT: HANDS/FIST/FEET SERIOUS INJURY", "I" ]
+, [ 68, "DA7C7311-039B-4C51-B48C-8FCF70C0FC88", 68, 1410793911, "700397", 1410793911, "700397", "{\n}", "051A", "ASSAULT", "AGGRAVATED: HANDGUN", "I" ]
+, [ 69, "E61E270E-319F-4A95-A4E1-7BB463979CD1", 69, 1410793911, "700397", 1410793911, "700397", "{\n}", "051B", "ASSAULT", "AGGRAVATED: OTHER FIREARM", "I" ]
+, [ 70, "8C19C8C2-26C3-40FE-B39A-82F76C83E92C", 70, 1410793911, "700397", 1410793911, "700397", "{\n}", "520", "ASSAULT", "AGGRAVATED:KNIFE/CUTTING INSTR", "I" ]
+, [ 71, "D3C2509E-BCEE-4D33-AD1E-6B884505C0AB", 71, 1410793911, "700397", 1410793911, "700397", "{\n}", "530", "ASSAULT", "AGGRAVATED: OTHER DANG WEAPON", "I" ]
+, [ 72, "59AB9C56-4F07-4102-8B4F-C4FA5FAB4E62", 72, 1410793911, "700397", 1410793911, "700397", "{\n}", "545", "ASSAULT", "PRO EMP HANDS NO/MIN INJURY", "N" ]
+, [ 73, "A9286F4D-EF11-4B79-9080-5A135A3A77DB", 73, 1410793911, "700397", 1410793911, "700397", "{\n}", "550", "ASSAULT", "AGGRAVATED PO: HANDGUN", "I" ]
+, [ 74, "8F969589-1633-4AF6-812C-0ED86E7D10FE", 74, 1410793911, "700397", 1410793911, "700397", "{\n}", "551", "ASSAULT", "AGGRAVATED PO: OTHER FIREARM", "I" ]
+, [ 75, "E921B703-0092-4A6B-B705-3463FF4E908B", 75, 1410793911, "700397", 1410793911, "700397", "{\n}", "552", "ASSAULT", "AGGRAVATED PO:KNIFE/CUT INSTR", "I" ]
+, [ 76, "5AAB7A01-98FF-481E-AEA6-BFC468E40C9E", 76, 1410793911, "700397", 1410793911, "700397", "{\n}", "553", "ASSAULT", "AGGRAVATED PO: OTHER DANG WEAP", "I" ]
+, [ 77, "3D9956FB-1ACA-47B3-860C-74867C3C1BF8", 77, 1410793911, "700397", 1410793911, "700397", "{\n}", "554", "ASSAULT", "AGG PO HANDS NO/MIN INJURY", "N" ]
+, [ 78, "17DE3A8C-2271-4E0C-BC39-E1EC6D7394BE", 78, 1410793911, "700397", 1410793911, "700397", "{\n}", "555", "ASSAULT", "AGG PRO.EMP: HANDGUN", "I" ]
+, [ 79, "CD892C2A-A1F8-4A0E-8772-15EA53F3DAAC", 79, 1410793911, "700397", 1410793911, "700397", "{\n}", "556", "ASSAULT", "AGG PRO.EMP: OTHER FIREARM", "I" ]
+, [ 80, "A345B618-E01D-4FDF-83ED-0A00DE5A0055", 80, 1410793911, "700397", 1410793911, "700397", "{\n}", "557", "ASSAULT", "AGG PRO.EMP:KNIFE/CUTTING INST", "I" ]
+, [ 81, "68AA7E0C-2FA7-4569-9B22-6E38A2A5536F", 81, 1410793911, "700397", 1410793911, "700397", "{\n}", "558", "ASSAULT", "AGG PRO.EMP: OTHER DANG WEAPON", "I" ]
+, [ 82, "E2F1EA84-3A5B-4F6F-8BB7-678BD0B539F3", 82, 1410793911, "700397", 1410793911, "700397", "{\n}", "560", "ASSAULT", "SIMPLE", "N" ]
+, [ 83, "10E05C1F-D757-497C-908F-988076D20BBD", 83, 1410793911, "700397", 1410793911, "700397", "{\n}", "580", "STALKING", "SIMPLE", "N" ]
+, [ 84, "E77E724C-9E90-40CD-9229-7E2C959641FF", 84, 1410793911, "700397", 1410793911, "700397", "{\n}", "581", "STALKING", "AGGRAVATED", "N" ]
+, [ 85, "FF47FEBA-DF8C-4A52-AA6B-15B1F30AF55E", 85, 1410793911, "700397", 1410793911, "700397", "{\n}", "583", "STALKING", "CYBERSTALKING", "N" ]
+, [ 86, "1FE8CDD7-B615-4F46-BDAC-3AB738415370", 86, 1410793911, "700397", 1410793911, "700397", "{\n}", "584", "STALKING", "VIOLATION OF STALKING NO CONTACT ORDER", "N" ]
+, [ 87, "7897EB4E-0A34-4992-AAF6-22E2EB88A4C1", 87, 1410793911, "700397", 1410793911, "700397", "{\n}", "610", "BURGLARY", "FORCIBLE ENTRY", "I" ]
+, [ 88, "C113FDE3-688A-422B-9DD3-FE7DEA8370A4", 88, 1410793911, "700397", 1410793911, "700397", "{\n}", "620", "BURGLARY", "UNLAWFUL ENTRY", "I" ]
+, [ 89, "CE4EBC79-DAF5-4B29-833B-C86A0B5A0864", 89, 1410793911, "700397", 1410793911, "700397", "{\n}", "630", "BURGLARY", "ATTEMPT FORCIBLE ENTRY", "I" ]
+, [ 90, "301116E4-2851-4549-8501-C4C62550C724", 90, 1410793911, "700397", 1410793911, "700397", "{\n}", "650", "BURGLARY", "HOME INVASION", "I" ]
+, [ 91, "832F139D-E51A-43EB-BDBE-86D6C580381D", 91, 1410793911, "700397", 1410793911, "700397", "{\n}", "810", "THEFT", "OVER $500", "I" ]
+, [ 92, "788D8B87-8A06-42E4-88DF-E97BF0EE1B77", 92, 1410793911, "700397", 1410793911, "700397", "{\n}", "820", "THEFT", "$500 AND UNDER", "I" ]
+, [ 93, "861DEAD3-F9E1-45ED-9618-E397C290ACDA", 93, 1410793911, "700397", 1410793911, "700397", "{\n}", "850", "THEFT", "ATTEMPT THEFT", "I" ]
+, [ 94, "D659BDF8-9705-4C83-9E16-31C789EA4B4E", 94, 1410793911, "700397", 1410793911, "700397", "{\n}", "860", "THEFT", "RETAIL THEFT", "I" ]
+, [ 95, "BC4A1017-115B-4390-9BBC-7268B3A88343", 95, 1410793911, "700397", 1410793911, "700397", "{\n}", "865", "THEFT", "DELIVERY CONTAINER THEFT", "I" ]
+, [ 96, "5822CDD8-13D1-4E65-B5B5-E6B2FAED9E46", 96, 1410793911, "700397", 1410793911, "700397", "{\n}", "870", "THEFT", "POCKET-PICKING", "I" ]
+, [ 97, "35987808-B4C6-4A5F-948B-4BC0130DEA5F", 97, 1410793911, "700397", 1410793911, "700397", "{\n}", "880", "THEFT", "PURSE-SNATCHING", "I" ]
+, [ 98, "FD87D467-87C7-4B62-A437-AACB3D6348B4", 98, 1410793911, "700397", 1410793911, "700397", "{\n}", "890", "THEFT", "FROM BUILDING", "I" ]
+, [ 99, "2172AFCF-5C1F-4BB4-9A1E-E547443FBC11", 99, 1410793911, "700397", 1410793911, "700397", "{\n}", "895", "THEFT", "FROM COIN-OP MACHINE/DEVICE", "I" ]
+, [ 100, "D7A7FBF5-628D-48EE-A9E6-464D8A4486E0", 100, 1410793911, "700397", 1410793911, "700397", "{\n}", "910", "MOTOR VEHICLE THEFT", "AUTOMOBILE", "I" ]
+, [ 101, "36E99020-16B3-4BDD-9D79-2595504CD2C7", 101, 1410793911, "700397", 1410793911, "700397", "{\n}", "915", "MOTOR VEHICLE THEFT", "TRUCK, BUS, MOTOR HOME", "I" ]
+, [ 102, "CF024998-E0BF-434A-8538-0CD2E7F82BB2", 102, 1410793911, "700397", 1410793911, "700397", "{\n}", "917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "I" ]
+, [ 103, "51B76BF2-AD30-4461-940D-14B4F8FF6C6A", 103, 1410793911, "700397", 1410793911, "700397", "{\n}", "918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "I" ]
+, [ 104, "C9B683F1-33DC-4632-A8F5-E2DDFE39E210", 104, 1410793911, "700397", 1410793911, "700397", "{\n}", "920", "MOTOR VEHICLE THEFT", "ATT: AUTOMOBILE", "I" ]
+, [ 105, "D5A054C0-A6D8-4D57-91F9-15396DFFEC6A", 105, 1410793911, "700397", 1410793911, "700397", "{\n}", "925", "MOTOR VEHICLE THEFT", "ATT: TRUCK, BUS, MOTOR HOME", "I" ]
+, [ 106, "C8A887B8-3459-43E7-B727-D4B21B1E8118", 106, 1410793911, "700397", 1410793911, "700397", "{\n}", "927", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN", "I" ]
+, [ 107, "DBBC9F0E-B9BA-48FD-820A-46990E5CCC6D", 107, 1410793911, "700397", 1410793911, "700397", "{\n}", "928", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE NO VIN", "I" ]
+, [ 108, "9D192118-FE28-4ABE-BD61-F99B09359CAF", 108, 1410793911, "700397", 1410793911, "700397", "{\n}", "930", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: AUTOMOBILE", "I" ]
+, [ 109, "740DE8DD-2346-4288-8D19-13A695665139", 109, 1410793911, "700397", 1410793911, "700397", "{\n}", "935", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: TRUCK,BUS,MHOME", "I" ]
+, [ 110, "7EFD1561-D678-49D2-B9E6-787B20FEBBAF", 110, 1410793911, "700397", 1410793911, "700397", "{\n}", "937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "I" ]
+, [ 111, "54ABCC10-FF1D-4753-B067-E995A776B19E", 111, 1410793911, "700397", 1410793911, "700397", "{\n}", "938", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE NO VIN", "I" ]
+, [ 112, "48411114-DBDC-4245-8A46-9639E6756589", 112, 1410793911, "700397", 1410793911, "700397", "{\n}", "1010", "ARSON", "BY EXPLOSIVE", "I" ]
+, [ 113, "2EB6386F-5E1F-4706-BE69-45441CD63FDF", 113, 1410793911, "700397", 1410793911, "700397", "{\n}", "1020", "ARSON", "BY FIRE", "I" ]
+, [ 114, "ED6A8105-C52A-43B6-9E77-8B83564F351F", 114, 1410793911, "700397", 1410793911, "700397", "{\n}", "1025", "ARSON", "AGGRAVATED", "I" ]
+, [ 115, "96FEB815-E063-4E13-B904-7D68728CFC80", 115, 1410793911, "700397", 1410793911, "700397", "{\n}", "1030", "ARSON", "POS: EXPLOSIVE/INCENDIARY DEV", "N" ]
+, [ 116, "48182EE5-95EA-4635-89A6-1565804FF747", 116, 1410793911, "700397", 1410793911, "700397", "{\n}", "1035", "ARSON", "POS: CHEMICAL/DRY-ICE DEVICE", "N" ]
+, [ 117, "B314E4C0-21DB-4AA6-B20C-970D518ABE6D", 117, 1410793911, "700397", 1410793911, "700397", "{\n}", "1050", "HUMAN TRAFFICKING", "COMMERCIAL SEX ACTS", "N" ]
+, [ 118, "8CAA2CCA-FFB8-464D-B09A-9B78F9052378", 118, 1410793911, "700397", 1410793911, "700397", "{\n}", "1055", "HUMAN TRAFFICKING", "INVOLUNTARY SERVITUDE", "N" ]
+, [ 119, "AD48CF1D-027C-4505-99FB-25119D1494D3", 119, 1410793911, "700397", 1410793911, "700397", "{\n}", "1090", "ARSON", "ATTEMPT ARSON", "I" ]
+, [ 120, "55DD92EE-DE2B-4FC9-8945-98263B76D895", 120, 1410793911, "700397", 1410793911, "700397", "{\n}", "1110", "DECEPTIVE PRACTICE", "BOGUS CHECK", "N" ]
+, [ 121, "165DAFD9-790B-4E28-BB1E-2F5920435C36", 121, 1410793911, "700397", 1410793911, "700397", "{\n}", "1120", "DECEPTIVE PRACTICE", "FORGERY", "N" ]
+, [ 122, "5DDC068F-3D16-4329-ACD4-0AECF2EF4439", 122, 1410793911, "700397", 1410793911, "700397", "{\n}", "1121", "DECEPTIVE PRACTICE", "COUNTERFEITING DOCUMENT", "N" ]
+, [ 123, "6DE3D372-2C1B-4B48-AB49-B8E549C81F4E", 123, 1410793911, "700397", 1410793911, "700397", "{\n}", "1122", "DECEPTIVE PRACTICE", "COUNTERFEIT CHECK", "N" ]
+, [ 124, "A2E18ACD-38FA-4D0E-8839-9019C9455A95", 124, 1410793911, "700397", 1410793911, "700397", "{\n}", "1130", "DECEPTIVE PRACTICE", "FRAUD OR CONFIDENCE GAME", "N" ]
+, [ 125, "A937FCC8-61DE-4D2A-921C-4B32EB10417B", 125, 1410793911, "700397", 1410793911, "700397", "{\n}", "1135", "DECEPTIVE PRACTICE", "INSURANCE FRAUD", "N" ]
+, [ 126, "521207A1-54EF-411C-B971-ED1AF98D46B0", 126, 1410793911, "700397", 1410793911, "700397", "{\n}", "1140", "DECEPTIVE PRACTICE", "EMBEZZLEMENT", "N" ]
+, [ 127, "65750A2D-F54D-4B74-B2FD-954A5B03BC8D", 127, 1410793911, "700397", 1410793911, "700397", "{\n}", "1150", "DECEPTIVE PRACTICE", "CREDIT CARD FRAUD", "N" ]
+, [ 128, "2C2758A6-A35B-43D3-B984-9DC5F618EDCD", 128, 1410793911, "700397", 1410793911, "700397", "{\n}", "1151", "DECEPTIVE PRACTICE", "ILLEGAL POSSESSION CASH CARD", "N" ]
+, [ 129, "914A50A6-7621-4FF1-B100-3B7C4AE98217", 129, 1410793911, "700397", 1410793911, "700397", "{\n}", "1152", "DECEPTIVE PRACTICE", "ILLEGAL USE CASH CARD", "N" ]
+, [ 130, "925F7D92-F5FA-41F9-9A2C-9DC92B3B62B6", 130, 1410793911, "700397", 1410793911, "700397", "{\n}", "1153", "DECEPTIVE PRACTICE", "FINANCIAL IDENTITY THEFT OVER $ 300", "N" ]
+, [ 131, "7BD0329C-B833-4E77-A896-12BFEF0BA672", 131, 1410793911, "700397", 1410793911, "700397", "{\n}", "1154", "DECEPTIVE PRACTICE", "FINANCIAL IDENTITY THEFT $300 AND UNDER", "N" ]
+, [ 132, "244DB380-B778-4C4B-959B-CD1CBE180D3B", 132, 1410793911, "700397", 1410793911, "700397", "{\n}", "1155", "DECEPTIVE PRACTICE", "AGGRAVATED FINANCIAL IDENTITY THEFT", "N" ]
+, [ 133, "D7D829F5-F89F-4B3C-84F0-6AFB0D08BA9A", 133, 1410793911, "700397", 1410793911, "700397", "{\n}", "1156", "DECEPTIVE PRACTICE", "ATTEMPT - FINANCIAL IDENTITY THEFT", "N" ]
+, [ 134, "857C31AE-9924-4AF0-9F1D-D9352BAFCB85", 134, 1410793911, "700397", 1410793911, "700397", "{\n}", "1160", "DECEPTIVE PRACTICE", "ALTER COINS", "N" ]
+, [ 135, "FC2525A5-3BC2-4E8D-8D1B-4571CA49DCBC", 135, 1410793911, "700397", 1410793911, "700397", "{\n}", "1170", "DECEPTIVE PRACTICE", "IMPERSONATION", "N" ]
+, [ 136, "469F9D60-2348-4FE5-9855-A669A357360D", 136, 1410793911, "700397", 1410793911, "700397", "{\n}", "1185", "DECEPTIVE PRACTICE", "DECEPTIVE COLLECTION PRACTICES", "N" ]
+, [ 137, "A3242E33-51B7-4759-A227-9F04148450F0", 137, 1410793911, "700397", 1410793911, "700397", "{\n}", "1195", "DECEPTIVE PRACTICE", "FINAN EXPLOIT-ELDERLY/DISABLED", "N" ]
+, [ 138, "59069E59-9542-4728-9612-904B5EA338C6", 138, 1410793911, "700397", 1410793911, "700397", "{\n}", "1200", "DECEPTIVE PRACTICE", "STOLEN PROP: BUY/RECEIVE/POS.", "N" ]
+, [ 139, "FAF410FF-70B8-4925-8A3D-A3D6C322A6E4", 139, 1410793911, "700397", 1410793911, "700397", "{\n}", "1205", "DECEPTIVE PRACTICE", "THEFT BY LESSEE,NON-VEH", "N" ]
+, [ 140, "1DA83D1B-1AFE-4E32-9CA3-A7C0DA04EC1C", 140, 1410793911, "700397", 1410793911, "700397", "{\n}", "1206", "DECEPTIVE PRACTICE", "THEFT BY LESSEE,MOTOR VEH", "N" ]
+, [ 141, "34055480-1A7B-4E7C-A2AB-79D42B559FB2", 141, 1410793911, "700397", 1410793911, "700397", "{\n}", "1210", "DECEPTIVE PRACTICE", "THEFT OF LABOR/SERVICES", "N" ]
+, [ 142, "DD6E233C-D330-4FDB-BEF2-11CB5AB1D102", 142, 1410793911, "700397", 1410793911, "700397", "{\n}", "1220", "DECEPTIVE PRACTICE", "THEFT OF LOST/MISLAID PROP", "N" ]
+, [ 143, "CC7E22B9-F8B1-457A-815A-7EB2EF136DD5", 143, 1410793911, "700397", 1410793911, "700397", "{\n}", "1230", "DECEPTIVE PRACTICE", "POSS. KEYS OR DEV.TO COIN MACH", "N" ]
+, [ 144, "8ECA3D99-C7CE-4D2E-A9C8-CB8BDE587913", 144, 1410793911, "700397", 1410793911, "700397", "{\n}", "1235", "DECEPTIVE PRACTICE", "UNLAWFUL USE OF RECORDED SOUND", "N" ]
+, [ 145, "BDA0557F-C43C-4BA0-BAFD-A5EAF4DD4CA2", 145, 1410793911, "700397", 1410793911, "700397", "{\n}", "1240", "DECEPTIVE PRACTICE", "UNLAWFUL USE OF A COMPUTER", "N" ]
+, [ 146, "379E3814-3C04-48D4-9DF5-48C879ACDC3A", 146, 1410793911, "700397", 1410793911, "700397", "{\n}", "1241", "DECEPTIVE PRACTICE", "AGGRAVATED COMPUTER TAMPERING", "N" ]
+, [ 147, "D1385054-DC6A-406E-A8CA-756D582E36F3", 147, 1410793911, "700397", 1410793911, "700397", "{\n}", "1242", "DECEPTIVE PRACTICE", "COMPUTER FRAUD", "N" ]
+, [ 148, "927BBEAE-7D50-4DAA-BF1D-3B474EDABD28", 148, 1410793911, "700397", 1410793911, "700397", "{\n}", "1245", "DECEPTIVE PRACTICE", "PAY TV SERVICE OFFENSES", "N" ]
+, [ 149, "870D57EB-618D-48E4-9370-F11B93A30C66", 149, 1410793911, "700397", 1410793911, "700397", "{\n}", "1255", "DECEPTIVE PRACTICE", "UNIDENTIFIABLE RECORDING SOUND", "N" ]
+, [ 150, "C5F3BE6F-608E-42ED-8166-BB97B2BD9A63", 150, 1410793911, "700397", 1410793911, "700397", "{\n}", "1260", "DECEPTIVE PRACTICE", "LIBRARY THEFT", "N" ]
+, [ 151, "78B44C9F-A787-4B11-BE2A-39EAB24670AD", 151, 1410793911, "700397", 1410793911, "700397", "{\n}", "1261", "DECEPTIVE PRACTICE", "UNAUTHORIZED VIDEOTAPING", "N" ]
+, [ 152, "576FC998-58B8-4ED6-A956-78019D614D01", 152, 1410793911, "700397", 1410793911, "700397", "{\n}", "1265", "CRIMINAL DAMAGE", "LIBRARY VANDALISM", "N" ]
+, [ 153, "F11AD311-2777-4FF7-9376-4C1AA7242785", 153, 1410793911, "700397", 1410793911, "700397", "{\n}", "1305", "CRIMINAL DAMAGE", "CRIMINAL DEFACEMENT", "N" ]
+, [ 154, "2EE1F1F9-D9A1-4C9C-887F-4F7CC2077516", 154, 1410793911, "700397", 1410793911, "700397", "{\n}", "1310", "CRIMINAL DAMAGE", "TO PROPERTY", "N" ]
+, [ 155, "B119570D-063C-4B63-A6DF-5EA95D842011", 155, 1410793911, "700397", 1410793911, "700397", "{\n}", "1320", "CRIMINAL DAMAGE", "TO VEHICLE", "N" ]
+, [ 156, "FB250275-EF72-4C6B-86D6-B36D9810FE52", 156, 1410793911, "700397", 1410793911, "700397", "{\n}", "1330", "CRIMINAL TRESPASS", "TO LAND", "N" ]
+, [ 157, "5547E8DF-152E-476F-895C-F7D0353E28DB", 157, 1410793911, "700397", 1410793911, "700397", "{\n}", "1335", "CRIMINAL TRESPASS", "TO AIRPORT", "N" ]
+, [ 158, "B3D552FB-A3CD-4926-B3D1-3B40C5A4E839", 158, 1410793911, "700397", 1410793911, "700397", "{\n}", "1340", "CRIMINAL DAMAGE", "TO STATE SUP PROP", "N" ]
+, [ 159, "9DD8F872-F65E-4D0F-AE40-9B716FF6BDB9", 159, 1410793911, "700397", 1410793911, "700397", "{\n}", "1345", "CRIMINAL DAMAGE", "TO CITY OF CHICAGO PROPERTY", "N" ]
+, [ 160, "34875C71-21C7-4DE7-AFF1-D56FADD06B4E", 160, 1410793911, "700397", 1410793911, "700397", "{\n}", "1350", "CRIMINAL TRESPASS", "TO STATE SUP LAND", "N" ]
+, [ 161, "C7C690AA-BBB3-46A6-A100-3580EE642F2E", 161, 1410793911, "700397", 1410793911, "700397", "{\n}", "1360", "CRIMINAL TRESPASS", "TO VEHICLE", "N" ]
+, [ 162, "C16DA112-979A-41F5-88D5-C6DACF22D21E", 162, 1410793911, "700397", 1410793911, "700397", "{\n}", "1365", "CRIMINAL TRESPASS", "TO RESIDENCE", "N" ]
+, [ 163, "FD9D219C-A356-4784-BAFB-3B67454B19A7", 163, 1410793911, "700397", 1410793911, "700397", "{\n}", "1370", "CRIMINAL DAMAGE", "TO FIRE FIGHT.APP.EQUIP", "N" ]
+, [ 164, "5DBBFAA8-5AE6-4E02-ACD5-FE9DAE1DEB33", 164, 1410793911, "700397", 1410793911, "700397", "{\n}", "1375", "CRIMINAL DAMAGE", "INSTITUTIONAL VANDALISM", "N" ]
+, [ 165, "D922D2BE-9243-4BB6-9986-B372A805312E", 165, 1410793911, "700397", 1410793911, "700397", "{\n}", "141A", "WEAPONS VIOLATION", "UNLAWFUL USE HANDGUN", "N" ]
+, [ 166, "BBF7DDE4-CD6B-4BB0-A269-08C6241F905F", 166, 1410793911, "700397", 1410793911, "700397", "{\n}", "141B", "WEAPONS VIOLATION", "UNLAWFUL USE OTHER FIREARM", "N" ]
+, [ 167, "16949118-A806-4836-B835-8881054B9B44", 167, 1410793911, "700397", 1410793911, "700397", "{\n}", "141C", "WEAPONS VIOLATION", "UNLAWFUL USE OTHER DANG WEAPON", "N" ]
+, [ 168, "B2897108-AE96-462F-B1DA-A2ABEA306CD7", 168, 1410793911, "700397", 1410793911, "700397", "{\n}", "142A", "WEAPONS VIOLATION", "UNLAWFUL SALE HANDGUN", "N" ]
+, [ 169, "FC2150E6-3110-45C5-B254-CB4C0A250269", 169, 1410793911, "700397", 1410793911, "700397", "{\n}", "142B", "WEAPONS VIOLATION", "UNLAWFUL SALE OTHER FIREARM", "N" ]
+, [ 170, "646FF17D-06DA-4ADD-8EFD-6134DCEC6D2B", 170, 1410793911, "700397", 1410793911, "700397", "{\n}", "1435", "WEAPONS VIOLATION", "UNLAWFUL SALE/DELIVERY OF FIREARM AT SCHOOL", "N" ]
+, [ 171, "54543806-3844-4CE1-B277-469A82B42483", 171, 1410793911, "700397", 1410793911, "700397", "{\n}", "143A", "WEAPONS VIOLATION", "UNLAWFUL POSS OF HANDGUN", "N" ]
+, [ 172, "DAEC6C77-7DCF-4E88-938D-D252F0FD68D6", 172, 1410793911, "700397", 1410793911, "700397", "{\n}", "143B", "WEAPONS VIOLATION", "UNLAWFUL POSS OTHER FIREARM", "N" ]
+, [ 173, "06680CBD-ABD0-4186-8174-1F3DA11ACBEF", 173, 1410793911, "700397", 1410793911, "700397", "{\n}", "143C", "WEAPONS VIOLATION", "UNLAWFUL POSS AMMUNITION", "N" ]
+, [ 174, "982CBEE6-FF82-42E0-8D81-5D2A5D5276C5", 174, 1410793911, "700397", 1410793911, "700397", "{\n}", "1440", "WEAPONS VIOLATION", "REGISTER OF SALES BY DEALER", "N" ]
+, [ 175, "1D8DAF92-30FA-4C7D-A8C2-1151A8E8FCAE", 175, 1410793911, "700397", 1410793911, "700397", "{\n}", "1450", "WEAPONS VIOLATION", "DEFACE IDENT MARKS OF FIREARM", "N" ]
+, [ 176, "ECCFCCFD-5CED-4850-8A4A-2CF9EBFD43F9", 176, 1410793911, "700397", 1410793911, "700397", "{\n}", "1460", "WEAPONS VIOLATION", "POSS FIREARM/AMMO:NO FOID CARD", "N" ]
+, [ 177, "89BB839F-7F51-4E79-AA48-F232C8A439FF", 177, 1410793911, "700397", 1410793911, "700397", "{\n}", "1475", "WEAPONS VIOLATION", "SALE OF METAL PIERCING BULLETS", "N" ]
+, [ 178, "C7E2FCFE-5FB8-4909-8FEA-969FD075EC23", 178, 1410793911, "700397", 1410793911, "700397", "{\n}", "1476", "WEAPONS VIOLATION", "USE OF METAL PIERCING BULLETS", "N" ]
+, [ 179, "2583421D-0A62-4496-8C9C-D7B9BEAEA956", 179, 1410793911, "700397", 1410793911, "700397", "{\n}", "1477", "WEAPONS VIOLATION", "RECKLESS FIREARM DISCHARGE", "N" ]
+, [ 180, "9567B550-2219-4629-9AF7-15F6DC13FE49", 180, 1410793911, "700397", 1410793911, "700397", "{\n}", "1478", "CONCEALED CARRY LICENSE VIOLATION", "PROHIBITED PLACES", "N" ]
+, [ 181, "D9D7960B-C68B-47BD-8301-9172A1CAA1FA", 181, 1410793911, "700397", 1410793911, "700397", "{\n}", "1479", "CONCEALED CARRY LICENSE VIOLATION", "ARMED WHILE UNDER THE INFLUENCE", "N" ]
+, [ 182, "0679ABC9-25EC-4C1D-800C-44F96D4985F0", 182, 1410793911, "700397", 1410793911, "700397", "{\n}", "1480", "CONCEALED CARRY LICENSE VIOLATION", "OTHER", "N" ]
+, [ 183, "E545C737-3488-4FF9-8BA4-B59C9BD149E9", 183, 1410793911, "700397", 1410793911, "700397", "{\n}", "1481", "NON-CRIMINAL", "CONCEALED CARRY LICENSE REVOCATION", "N" ]
+, [ 184, "2DA55478-7AE9-44B0-8C64-9A49D8768E46", 184, 1410793911, "700397", 1410793911, "700397", "{\n}", "1505", "PROSTITUTION", "CALL OPERATION", "N" ]
+, [ 185, "D4E75443-CE25-4EC0-B6AE-6DDC8AE7B6A0", 185, 1410793911, "700397", 1410793911, "700397", "{\n}", "1506", "PROSTITUTION", "SOLICIT ON PUBLIC WAY", "N" ]
+, [ 186, "03524C7D-7A97-49D9-BC0E-A179E0F33F63", 186, 1410793911, "700397", 1410793911, "700397", "{\n}", "1507", "PROSTITUTION", "SOLICIT OFF PUBLIC WAY", "N" ]
+, [ 187, "42716788-20D1-413C-A852-9A9E16963A52", 187, 1410793911, "700397", 1410793911, "700397", "{\n}", "1510", "PROSTITUTION", "CAB OPERATION", "N" ]
+, [ 188, "16B011A9-8B15-4460-8B8D-A25D35B087C8", 188, 1410793911, "700397", 1410793911, "700397", "{\n}", "1511", "PROSTITUTION", "IN TAVERN", "N" ]
+, [ 189, "FD054CE4-286D-402F-8F13-579CF2E991A6", 189, 1410793911, "700397", 1410793911, "700397", "{\n}", "1512", "PROSTITUTION", "SOLICIT FOR PROSTITUTE", "N" ]
+, [ 190, "2255DA13-7BE4-40D9-9C4D-7E6BA0BB1153", 190, 1410793911, "700397", 1410793911, "700397", "{\n}", "1513", "PROSTITUTION", "SOLICIT FOR BUSINESS", "N" ]
+, [ 191, "53D7D62D-DF17-4ABB-896E-D5D02DE51C59", 191, 1410793911, "700397", 1410793911, "700397", "{\n}", "1515", "PROSTITUTION", "PANDERING", "N" ]
+, [ 192, "408F1AF5-B6E7-4A31-A5E0-652B2AFA5468", 192, 1410793911, "700397", 1410793911, "700397", "{\n}", "1520", "PROSTITUTION", "KEEP PLACE OF PROSTITUTION", "N" ]
+, [ 193, "19596BC3-A498-4ACE-8019-C69B1E07AF99", 193, 1410793911, "700397", 1410793911, "700397", "{\n}", "1521", "PROSTITUTION", "KEEP PLACE OF JUV PROSTITUTION", "N" ]
+, [ 194, "EB8B275E-0AD4-4372-8994-8E337EB04924", 194, 1410793911, "700397", 1410793911, "700397", "{\n}", "1525", "PROSTITUTION", "PATRONIZING A PROSTITUTE", "N" ]
+, [ 195, "E2D1155A-EE3A-4489-AFC2-4F9C95344A3E", 195, 1410793911, "700397", 1410793911, "700397", "{\n}", "1526", "PROSTITUTION", "PATRONIZE JUVENILE PROSTITUTE", "N" ]
+, [ 196, "B0403D3D-5117-4329-A19D-5382EA74093D", 196, 1410793911, "700397", 1410793911, "700397", "{\n}", "1530", "PROSTITUTION", "PIMPING", "N" ]
+, [ 197, "62704BC5-7849-43DC-92AD-060C8921A08D", 197, 1410793911, "700397", 1410793911, "700397", "{\n}", "1531", "PROSTITUTION", "JUVENILE PIMPING", "N" ]
+, [ 198, "193D1BE1-D9D4-4FF8-B120-72FAD0F9C171", 198, 1410793911, "700397", 1410793911, "700397", "{\n}", "1535", "OBSCENITY", "OBSCENITY", "N" ]
+, [ 199, "FA0DDBC9-EAE7-4C28-B21F-D46E1C891ECC", 199, 1410793911, "700397", 1410793911, "700397", "{\n}", "1536", "PUBLIC INDECENCY", "LICENSED PREMISE", "N" ]
+, [ 200, "FF3CC4A6-D3D1-4B53-BA5E-193B4EFF2B4B", 200, 1410793911, "700397", 1410793911, "700397", "{\n}", "1537", "OFFENSE INVOLVING CHILDREN", "POS: PORNOGRAPHIC PRINT", "N" ]
+, [ 201, "5DB28D6E-F397-41BA-A5FD-6B866BF49FD1", 201, 1410793911, "700397", 1410793911, "700397", "{\n}", "1540", "OBSCENITY", "OBSCENE MATTER", "N" ]
+, [ 202, "D8BD4A86-6CF8-4723-8C9E-8B5AF00EEDE4", 202, 1410793911, "700397", 1410793911, "700397", "{\n}", "1541", "OBSCENITY", "SALE/DIST OBSCENE MAT TO MINOR", "N" ]
+, [ 203, "38F98508-AAD1-463E-B815-A84265561E86", 203, 1410793911, "700397", 1410793911, "700397", "{\n}", "1542", "OBSCENITY", "SALE OF OBSCENE MATERIALS", "N" ]
+, [ 204, "26C59056-EAE1-46CB-B3AD-46A0E5D1079F", 204, 1410793911, "700397", 1410793911, "700397", "{\n}", "1544", "SEX OFFENSE", "SEXUAL EXPLOITATION OF A CHILD", "N" ]
+, [ 205, "E0CDF785-20C6-40CE-9399-8AC40688CCA3", 205, 1410793911, "700397", 1410793911, "700397", "{\n}", "1549", "PROSTITUTION", "OTHER PROSTITUTION OFFENSE", "N" ]
+, [ 206, "7F5802EE-F070-4624-95D0-E02C41D75E0E", 206, 1410793911, "700397", 1410793911, "700397", "{\n}", "1562", "SEX OFFENSE", "AGG CRIMINAL SEXUAL ABUSE", "N" ]
+, [ 207, "594F0490-7DE9-49D2-B544-F20FD3D4933A", 207, 1410793911, "700397", 1410793911, "700397", "{\n}", "1563", "SEX OFFENSE", "CRIMINAL SEXUAL ABUSE", "N" ]
+, [ 208, "6B194FF7-34C4-4E29-B53B-86485FAD4733", 208, 1410793911, "700397", 1410793911, "700397", "{\n}", "1564", "SEX OFFENSE", "CRIMINAL TRANSMISSION OF HIV", "N" ]
+, [ 209, "BCE31E24-BC70-444E-9C62-B605632D7FA7", 209, 1410793911, "700397", 1410793911, "700397", "{\n}", "1565", "SEX OFFENSE", "INDECENT SOLICITATION/CHILD", "N" ]
+, [ 210, "4FD4E412-EAD6-465E-B950-CB14B6B5B751", 210, 1410793911, "700397", 1410793911, "700397", "{\n}", "1566", "SEX OFFENSE", "INDECENT SOLICITATION/ADULT", "N" ]
+, [ 211, "4669A12E-CE6D-447F-AA28-2A8193D1B15A", 211, 1410793911, "700397", 1410793911, "700397", "{\n}", "1570", "SEX OFFENSE", "PUBLIC INDECENCY", "N" ]
+, [ 212, "43A1BF67-D1A2-4601-93E8-3F58B6545A9D", 212, 1410793911, "700397", 1410793911, "700397", "{\n}", "1572", "SEX OFFENSE", "ADULTRY", "N" ]
+, [ 213, "A4ECD3DA-A7E4-4B76-9313-415EF00B8E94", 213, 1410793911, "700397", 1410793911, "700397", "{\n}", "1574", "SEX OFFENSE", "FORNICATION", "N" ]
+, [ 214, "887F8FA2-C1BF-4205-9CA9-883FF4EBBA7F", 214, 1410793911, "700397", 1410793911, "700397", "{\n}", "1576", "SEX OFFENSE", "BIGAMY", "N" ]
+, [ 215, "A25BE2B6-5CB9-4A69-AE4C-EA756047D910", 215, 1410793911, "700397", 1410793911, "700397", "{\n}", "1578", "SEX OFFENSE", "MARRYING A BIGAMIST", "N" ]
+, [ 216, "7693BC9B-7265-4893-8DC7-35C28D9D5626", 216, 1410793911, "700397", 1410793911, "700397", "{\n}", "1580", "SEX OFFENSE", "SEX RELATION IN FAMILY", "N" ]
+, [ 217, "F6B8B24F-CC4C-405F-B1B9-AA00D889C8BA", 217, 1410793911, "700397", 1410793911, "700397", "{\n}", "1582", "OFFENSE INVOLVING CHILDREN", "CHILD PORNOGRAPHY", "N" ]
+, [ 218, "8094B617-0293-4A1E-87F5-C3AFFACF621E", 218, 1410793911, "700397", 1410793911, "700397", "{\n}", "1585", "SEX OFFENSE", "OTHER", "N" ]
+, [ 219, "DECDBF24-8539-41F4-9C60-58A39DA0F0B7", 219, 1410793911, "700397", 1410793911, "700397", "{\n}", "1590", "SEX OFFENSE", "ATT AGG CRIMINAL SEXUAL ABUSE", "N" ]
+, [ 220, "F3E379DE-A806-494A-BBC0-187D5144E5FB", 220, 1410793911, "700397", 1410793911, "700397", "{\n}", "1610", "GAMBLING", "BOOKMAKING/HORSES", "N" ]
+, [ 221, "39FD3307-D5A4-438C-B0FC-E6A66995A630", 221, 1410793911, "700397", 1410793911, "700397", "{\n}", "1611", "GAMBLING", "BOOKMAKING/SPORTS", "N" ]
+, [ 222, "2C6B7F3B-01C6-4972-AD07-6E6FBC2F5869", 222, 1410793911, "700397", 1410793911, "700397", "{\n}", "1620", "GAMBLING", "BOLITA OR BOLI PUL/OFFICE", "N" ]
+, [ 223, "AF353A9B-EB90-41CD-ABB8-648D43F7093B", 223, 1410793911, "700397", 1410793911, "700397", "{\n}", "1621", "GAMBLING", "BOLITA OR BOLI PUL/RUNNER", "N" ]
+, [ 224, "9D0AD706-F07A-490A-9B29-8C6083FF2BC4", 224, 1410793911, "700397", 1410793911, "700397", "{\n}", "1622", "GAMBLING", "BOLITA OR BOLI PUL/WRITER", "N" ]
+, [ 225, "48925397-4925-4D90-AB82-A2B23A184E43", 225, 1410793911, "700397", 1410793911, "700397", "{\n}", "1623", "GAMBLING", "BOLITA OR BOLI PUL/STATION", "N" ]
+, [ 226, "29323006-1CCA-48D9-8823-F1AC68093C4B", 226, 1410793911, "700397", 1410793911, "700397", "{\n}", "1624", "GAMBLING", "LOTTERY/PARI-MUTUEL", "N" ]
+, [ 227, "8A4E3F6B-4643-46F3-9AAB-E6A058504FB0", 227, 1410793911, "700397", 1410793911, "700397", "{\n}", "1625", "GAMBLING", "NATIONAL LOTTERY", "N" ]
+, [ 228, "D5E425DC-5121-4FC4-8397-D42AC1FE3400", 228, 1410793911, "700397", 1410793911, "700397", "{\n}", "1626", "GAMBLING", "ILLEGAL ILL LOTTERY", "N" ]
+, [ 229, "0135AFCC-7534-499B-A5B2-A51ACE582B28", 229, 1410793911, "700397", 1410793911, "700397", "{\n}", "1627", "GAMBLING", "LOTTERY/OTHER", "N" ]
+, [ 230, "FA65DB92-6A3D-4E43-AD62-8FCF8E069DB4", 230, 1410793911, "700397", 1410793911, "700397", "{\n}", "1630", "GAMBLING", "WIREROOM/HORSES", "N" ]
+, [ 231, "721F6BFD-17AB-4540-A184-A496F7563236", 231, 1410793911, "700397", 1410793911, "700397", "{\n}", "1631", "GAMBLING", "WIREROOM/SPORTS", "N" ]
+, [ 232, "708DCCB0-726A-4D88-B211-C9CABDAC430F", 232, 1410793911, "700397", 1410793911, "700397", "{\n}", "1632", "GAMBLING", "WIREROOM/NUMBERS", "N" ]
+, [ 233, "330A6CE9-8DF3-43E6-A655-7CFEC9FBE25D", 233, 1410793911, "700397", 1410793911, "700397", "{\n}", "1633", "GAMBLING", "SPORTS TAMPERING", "N" ]
+, [ 234, "101A4610-F8A5-4A94-B705-9EF37A30ACA7", 234, 1410793911, "700397", 1410793911, "700397", "{\n}", "1640", "GAMBLING", "REGISTER FED GAMBLING STAMP", "N" ]
+, [ 235, "547F41B6-BA79-4EBC-9372-122D4075AA6E", 235, 1410793911, "700397", 1410793911, "700397", "{\n}", "1650", "GAMBLING", "VIOL CHARITABLE GAME ACT", "N" ]
+, [ 236, "8D120AF5-FCB5-44B5-95AC-BC405893D018", 236, 1410793911, "700397", 1410793911, "700397", "{\n}", "1651", "GAMBLING", "GAME/CARDS", "N" ]
+, [ 237, "8F550403-C1C3-4B61-B70C-EB8D59721270", 237, 1410793911, "700397", 1410793911, "700397", "{\n}", "1661", "GAMBLING", "GAME/DICE", "N" ]
+, [ 238, "96BD405B-9AEE-4952-B314-EC5B7AE4017F", 238, 1410793911, "700397", 1410793911, "700397", "{\n}", "1670", "GAMBLING", "GAME/AMUSEMENT DEVICE", "N" ]
+, [ 239, "C51EF22A-A868-45AE-A50B-30DA94CA7813", 239, 1410793911, "700397", 1410793911, "700397", "{\n}", "1680", "GAMBLING", "OTHER", "N" ]
+, [ 240, "A64786E2-EE42-460D-8341-A18B59BF469C", 240, 1410793911, "700397", 1410793911, "700397", "{\n}", "1681", "GAMBLING", "LOTTERY/PARLAY CARDS", "N" ]
+, [ 241, "DAE1E680-DAFB-481F-B00C-2F8DE7030163", 241, 1410793911, "700397", 1410793911, "700397", "{\n}", "1682", "OTHER OFFENSE", "ANIMAL FIGHTING", "N" ]
+, [ 242, "92B95CA6-C3F5-4B56-B45D-7530059E4557", 242, 1410793911, "700397", 1410793911, "700397", "{\n}", "1690", "GAMBLING", "POLICY/HOUSEBOOK", "N" ]
+, [ 243, "AEFC9F04-2261-46F8-BEEB-174A7B3D1E09", 243, 1410793911, "700397", 1410793911, "700397", "{\n}", "1691", "GAMBLING", "POLICY/STATION", "N" ]
+, [ 244, "B2D64EBF-9B73-4492-BFD6-5E7D82B3D047", 244, 1410793911, "700397", 1410793911, "700397", "{\n}", "1692", "GAMBLING", "POLICY/RUNNER", "N" ]
+, [ 245, "8E30C30D-4345-487E-8978-267CB489037F", 245, 1410793911, "700397", 1410793911, "700397", "{\n}", "1693", "GAMBLING", "POLICY/TURN-IN", "N" ]
+, [ 246, "34243602-2441-421B-B66C-D83538DA4CCD", 246, 1410793911, "700397", 1410793911, "700397", "{\n}", "1694", "GAMBLING", "POLICY/OFFICE", "N" ]
+, [ 247, "3D8B2FF5-9BC4-4A4D-ADD7-CE814A75A2FD", 247, 1410793911, "700397", 1410793911, "700397", "{\n}", "1695", "GAMBLING", "POLICY/PRESS", "N" ]
+, [ 248, "26B64F0F-87BA-4AF0-B985-C85E15F3167B", 248, 1410793911, "700397", 1410793911, "700397", "{\n}", "1696", "GAMBLING", "POLICY/WHEEL", "N" ]
+, [ 249, "18629DAB-FC66-4A9D-8E62-78ED4F9D2035", 249, 1410793911, "700397", 1410793911, "700397", "{\n}", "1697", "GAMBLING", "POLICY/OTHER", "N" ]
+, [ 250, "C7B0CD79-C261-4E83-9173-7371EA8DC7D4", 250, 1410793911, "700397", 1410793911, "700397", "{\n}", "1710", "OFFENSE INVOLVING CHILDREN", "ENDANGERING LIFE/HEALTH CHILD", "N" ]
+, [ 251, "0E1796B0-5AAC-40A3-BBA5-623E631153F9", 251, 1410793911, "700397", 1410793911, "700397", "{\n}", "1715", "OFFENSE INVOLVING CHILDREN", "SALE TOBACCO PRODUCTS TO MINOR", "N" ]
+, [ 252, "D2EE595D-B9F3-434D-9257-E23C8F817867", 252, 1410793911, "700397", 1410793911, "700397", "{\n}", "1720", "OFFENSE INVOLVING CHILDREN", "CONTRIBUTE DELINQUENCY OF A CHILD", "N" ]
+, [ 253, "B7802C75-8002-4230-ACE3-2F3B6451AED0", 253, 1410793911, "700397", 1410793911, "700397", "{\n}", "1725", "OFFENSE INVOLVING CHILDREN", "CONTRIBUTE CRIM DELINQUENCY JUVENILE", "N" ]
+, [ 254, "50E3CE0B-681C-4152-B221-F191A490A2D4", 254, 1410793911, "700397", 1410793911, "700397", "{\n}", "1750", "OFFENSE INVOLVING CHILDREN", "CHILD ABUSE", "N" ]
+, [ 255, "B5102164-4689-4156-A031-2C752590DE8E", 255, 1410793911, "700397", 1410793911, "700397", "{\n}", "1751", "OFFENSE INVOLVING CHILDREN", "CRIM SEX ABUSE BY FAM MEMBER", "N" ]
+, [ 256, "4D3205D9-78FD-44D6-8771-493508A2BC16", 256, 1410793911, "700397", 1410793911, "700397", "{\n}", "1752", "OFFENSE INVOLVING CHILDREN", "AGG CRIM SEX ABUSE FAM MEMBER", "N" ]
+, [ 257, "727D6478-31DA-4F43-B694-604CC58A84DB", 257, 1410793911, "700397", 1410793911, "700397", "{\n}", "1753", "OFFENSE INVOLVING CHILDREN", "SEX ASSLT OF CHILD BY FAM MBR", "I" ]
+, [ 258, "5178380D-34C6-4760-B0E7-A9E7755EFA48", 258, 1410793911, "700397", 1410793911, "700397", "{\n}", "1754", "OFFENSE INVOLVING CHILDREN", "AGG SEX ASSLT OF CHILD FAM MBR", "I" ]
+, [ 259, "BBF46EC8-20DD-4086-81AC-B81660AFC327", 259, 1410793911, "700397", 1410793911, "700397", "{\n}", "1755", "OFFENSE INVOLVING CHILDREN", "CHILD ABANDONMENT", "N" ]
+, [ 260, "71A15B46-3AD7-4689-A9B3-0DCA94C91CD8", 260, 1410793911, "700397", 1410793911, "700397", "{\n}", "1775", "OFFENSE INVOLVING CHILDREN", "SALE OF TRAVEL TICKET TO MINOR", "N" ]
+, [ 261, "845EA2DF-A47F-4AF4-B836-1510025844AC", 261, 1410793911, "700397", 1410793911, "700397", "{\n}", "1780", "OFFENSE INVOLVING CHILDREN", "OTHER OFFENSE", "N" ]
+, [ 262, "0BF9D694-70B3-41A1-ADBC-891FA8D1A2FC", 262, 1410793911, "700397", 1410793911, "700397", "{\n}", "1790", "OFFENSE INVOLVING CHILDREN", "CHILD ABDUCTION", "N" ]
+, [ 263, "35D178E0-F58F-4067-AC4B-0CC81B318333", 263, 1410793911, "700397", 1410793911, "700397", "{\n}", "1791", "OFFENSE INVOLVING CHILDREN", "HARBOR RUNAWAY", "N" ]
+, [ 264, "9D871779-97E8-46FA-8984-4ADF4C829DCF", 264, 1410793911, "700397", 1410793911, "700397", "{\n}", "1792", "KIDNAPPING", "CHILD ABDUCTION/STRANGER", "N" ]
+, [ 265, "2BA6ED04-89A8-4428-9F18-EC440FE53015", 265, 1410793911, "700397", 1410793911, "700397", "{\n}", "1811", "NARCOTICS", "POSS: CANNABIS 30GMS OR LESS", "N" ]
+, [ 266, "E699AFDA-88E1-45C8-9484-B2FFBC2A2356", 266, 1410793911, "700397", 1410793911, "700397", "{\n}", "1812", "NARCOTICS", "POSS: CANNABIS MORE THAN 30GMS", "N" ]
+, [ 267, "E3A65880-EB48-4FF6-8BC5-4ED0A841BECE", 267, 1410793911, "700397", 1410793911, "700397", "{\n}", "1821", "NARCOTICS", "MANU/DEL:CANNABIS 10GM OR LESS", "N" ]
+, [ 268, "3FC1D69E-D641-4B64-BE92-91F4991EA44D", 268, 1410793911, "700397", 1410793911, "700397", "{\n}", "1822", "NARCOTICS", "MANU/DEL:CANNABIS OVER 10 GMS", "N" ]
+, [ 269, "2DC4377F-A09B-4F89-9525-709D461488F5", 269, 1410793911, "700397", 1410793911, "700397", "{\n}", "1840", "NARCOTICS", "DELIVER CANNABIS TO PERSON <18", "N" ]
+, [ 270, "22D0DE58-C1D6-491E-BE29-8A9D37E55083", 270, 1410793911, "700397", 1410793911, "700397", "{\n}", "1850", "NARCOTICS", "CANNABIS PLANT", "N" ]
+, [ 271, "E0BC8402-CDB9-4B23-9DF2-7304A5731690", 271, 1410793911, "700397", 1410793911, "700397", "{\n}", "1860", "NARCOTICS", "CALCULATED CANNABIS CONSPIRACY", "N" ]
+, [ 272, "77FD63FC-5F97-4E45-9797-A142A86DE5B6", 272, 1410793911, "700397", 1410793911, "700397", "{\n}", "1900", "OTHER NARCOTIC VIOLATION", "INTOXICATING COMPOUNDS", "N" ]
+, [ 273, "DD933738-EAB4-4D61-9DB9-EF69D88C6E2D", 273, 1410793911, "700397", 1410793911, "700397", "{\n}", "2010", "NARCOTICS", "MANU/DELIVER:AMPHETAMINES", "N" ]
+, [ 274, "0C55A3D7-A7F5-486C-8FBF-629F03601555", 274, 1410793911, "700397", 1410793911, "700397", "{\n}", "2011", "NARCOTICS", "MANU/DELIVER:BARBITUATES", "N" ]
+, [ 275, "541A1731-0704-47BE-AAD6-23D47AEA1422", 275, 1410793911, "700397", 1410793911, "700397", "{\n}", "2012", "NARCOTICS", "MANU/DELIVER:COCAINE", "N" ]
+, [ 276, "47314A4B-F164-4616-91FB-79AC0424B225", 276, 1410793911, "700397", 1410793911, "700397", "{\n}", "2013", "NARCOTICS", "MANU/DELIVER: HEROIN(BRN/TAN)", "N" ]
+, [ 277, "AA53D10F-4B7D-483C-AB0E-EB64D0691C89", 277, 1410793911, "700397", 1410793911, "700397", "{\n}", "2014", "NARCOTICS", "MANU/DELIVER: HEROIN (WHITE)", "N" ]
+, [ 278, "A6471EA1-790C-4038-8D5E-B7A42B0C6E6D", 278, 1410793911, "700397", 1410793911, "700397", "{\n}", "2015", "NARCOTICS", "MANU/DELIVER: HALLUCINOGEN", "N" ]
+, [ 279, "6E2FCCB8-F8A8-482D-908F-3E96ECF90D2E", 279, 1410793911, "700397", 1410793911, "700397", "{\n}", "2016", "NARCOTICS", "MANU/DELIVER:PCP", "N" ]
+, [ 280, "521B3142-851A-42F1-ABCC-A66D12A4ADB2", 280, 1410793911, "700397", 1410793911, "700397", "{\n}", "2017", "NARCOTICS", "MANU/DELIVER:CRACK", "N" ]
+, [ 281, "A7A87226-9725-49FB-901F-004577A28FFC", 281, 1410793911, "700397", 1410793911, "700397", "{\n}", "2018", "NARCOTICS", "MANU/DELIVER:SYNTHETIC DRUGS", "N" ]
+, [ 282, "71E41A3C-83A7-4350-A898-E42F3D78C39C", 282, 1410793911, "700397", 1410793911, "700397", "{\n}", "2019", "NARCOTICS", "MANU/DELIVER:HEROIN(BLACK TAR)", "N" ]
+, [ 283, "35D5F762-93B9-4492-AD51-7B8ECB5CC1F5", 283, 1410793911, "700397", 1410793911, "700397", "{\n}", "2020", "NARCOTICS", "POSS: AMPHETAMINES", "N" ]
+, [ 284, "F53AD8A3-419D-439A-B392-746311DEE922", 284, 1410793911, "700397", 1410793911, "700397", "{\n}", "2021", "NARCOTICS", "POSS: BARBITUATES", "N" ]
+, [ 285, "DE5561DB-5B9B-44F7-8204-A93E4BF44ECF", 285, 1410793911, "700397", 1410793911, "700397", "{\n}", "2022", "NARCOTICS", "POSS: COCAINE", "N" ]
+, [ 286, "75B4959B-846D-470E-A55B-6E15FF83AA19", 286, 1410793911, "700397", 1410793911, "700397", "{\n}", "2023", "NARCOTICS", "POSS: HEROIN(BRN/TAN)", "N" ]
+, [ 287, "847CFC9F-C074-4653-9D10-8B462308A923", 287, 1410793911, "700397", 1410793911, "700397", "{\n}", "2024", "NARCOTICS", "POSS: HEROIN(WHITE)", "N" ]
+, [ 288, "96999F08-24D8-4866-9190-F0CC908C5DA9", 288, 1410793911, "700397", 1410793911, "700397", "{\n}", "2025", "NARCOTICS", "POSS: HALLUCINOGENS", "N" ]
+, [ 289, "3A0093E2-3A8C-4ED8-A521-A6F7684D8906", 289, 1410793911, "700397", 1410793911, "700397", "{\n}", "2026", "NARCOTICS", "POSS: PCP", "N" ]
+, [ 290, "4157D78A-A20D-46B6-9212-D4993C5122A3", 290, 1410793911, "700397", 1410793911, "700397", "{\n}", "2027", "NARCOTICS", "POSS: CRACK", "N" ]
+, [ 291, "E97FC733-0537-40F1-9AF0-4CE2C4E989B6", 291, 1410793911, "700397", 1410793911, "700397", "{\n}", "2028", "NARCOTICS", "POSS: SYNTHETIC DRUGS", "N" ]
+, [ 292, "0F3B65BA-B50C-43DD-B1A3-171ED951EF68", 292, 1410793911, "700397", 1410793911, "700397", "{\n}", "2029", "NARCOTICS", "POSS: HEROIN(BLACK TAR)", "N" ]
+, [ 293, "6E04D0AF-6CD2-4056-8C27-04CCC857F761", 293, 1410793911, "700397", 1410793911, "700397", "{\n}", "2030", "NARCOTICS", "MANU/DELIVER:LOOK-ALIKE DRUG", "N" ]
+, [ 294, "7985DCF0-6955-47C8-BBB7-B0F11E43D656", 294, 1410793911, "700397", 1410793911, "700397", "{\n}", "2031", "NARCOTICS", "POSS: METHAMPHETAMINES", "N" ]
+, [ 295, "B433883C-486D-44BE-A3AC-E66B65CD425A", 295, 1410793911, "700397", 1410793911, "700397", "{\n}", "2032", "NARCOTICS", "MANU/DELIVER: METHAMPHETAMINES", "N" ]
+, [ 296, "FAEE9598-7605-4C25-8546-715EC6D5C24F", 296, 1410793911, "700397", 1410793911, "700397", "{\n}", "2033", "NARCOTICS", "MANU/POSS. W/INTENT TO DELIVER: SYNTHETIC MARIJUANA", "N" ]
+, [ 297, "9D5F7300-C81C-41C7-86AE-9461740A7D94", 297, 1410793911, "700397", 1410793911, "700397", "{\n}", "2034", "NARCOTICS", "POSSESSION: SYNTHETIC MARIJUANA", "N" ]
+, [ 298, "444080B6-B5BF-40C5-8497-3C62D18AA515", 298, 1410793911, "700397", 1410793911, "700397", "{\n}", "2040", "NARCOTICS", "POSS: LOOK-ALIKE DRUGS", "N" ]
+, [ 299, "1E416E95-4288-4517-9037-CBBB7E2C0981", 299, 1410793911, "700397", 1410793911, "700397", "{\n}", "2050", "NARCOTICS", "CRIMINAL DRUG CONSPIRACY", "N" ]
+, [ 300, "1BC74C11-6AF0-486C-B221-4045EED6F476", 300, 1410793911, "700397", 1410793911, "700397", "{\n}", "2060", "NARCOTICS", "FAIL REGISTER LIC:CONT SUBS", "N" ]
+, [ 301, "817EB076-C984-465F-A79C-88249625E908", 301, 1410793911, "700397", 1410793911, "700397", "{\n}", "2070", "NARCOTICS", "DEL CONT SUBS TO PERSON <18", "N" ]
+, [ 302, "6BEE2AD4-F7E4-4345-B99E-1E64CCC0E9FF", 302, 1410793911, "700397", 1410793911, "700397", "{\n}", "2080", "NARCOTICS", "CONT SUBS:FAIL TO MAINT RECORD", "N" ]
+, [ 303, "29230E43-48CC-4A2B-9925-A768108C6A34", 303, 1410793911, "700397", 1410793911, "700397", "{\n}", "2090", "NARCOTICS", "ALTER/FORGE PRESCRIPTION", "N" ]
+, [ 304, "914D9829-DE0F-45B6-9611-2F31D7DBAB64", 304, 1410793911, "700397", 1410793911, "700397", "{\n}", "2091", "NARCOTICS", "FORFEIT PROPERTY", "N" ]
+, [ 305, "D59B370A-1596-4A8A-9D57-79895A0AB53F", 305, 1410793911, "700397", 1410793911, "700397", "{\n}", "2092", "NARCOTICS", "SOLICIT NARCOTICS ON PUBLICWAY", "N" ]
+, [ 306, "E8BE58BC-E546-4604-85A0-EB2944F07774", 306, 1410793911, "700397", 1410793911, "700397", "{\n}", "2093", "NARCOTICS", "FOUND SUSPECT NARCOTICS", "N" ]
+, [ 307, "A0F55316-7C19-42DD-8678-56C35CED2E04", 307, 1410793911, "700397", 1410793911, "700397", "{\n}", "2094", "NARCOTICS", "ATTEMPT POSSESSION CANNABIS", "N" ]
+, [ 308, "969A190F-AE5D-46BE-8338-C158B59F8AB5", 308, 1410793911, "700397", 1410793911, "700397", "{\n}", "2095", "NARCOTICS", "ATTEMPT POSSESSION NARCOTICS", "N" ]
+, [ 309, "65100548-1C35-4B08-879F-D0F0EE3C4418", 309, 1410793911, "700397", 1410793911, "700397", "{\n}", "2110", "NARCOTICS", "POS: HYPODERMIC NEEDLE", "N" ]
+, [ 310, "D1FE3DB5-1E5C-425F-AB46-01864CB61589", 310, 1410793911, "700397", 1410793911, "700397", "{\n}", "2111", "NARCOTICS", "SALE/DEL HYPODERMIC NEEDLE", "N" ]
+, [ 311, "53E9AAAB-1B87-44AB-BE44-190D6D67886C", 311, 1410793911, "700397", 1410793911, "700397", "{\n}", "2120", "NARCOTICS", "FAILURE TO KEEP HYPO RECORDS", "N" ]
+, [ 312, "8412E1E2-B71A-4283-9AFA-EB123563C119", 312, 1410793911, "700397", 1410793911, "700397", "{\n}", "2160", "NARCOTICS", "SALE/DEL DRUG PARAPHERNALIA", "N" ]
+, [ 313, "1A218C63-315A-496D-8970-7389F35124B4", 313, 1410793911, "700397", 1410793911, "700397", "{\n}", "2170", "NARCOTICS", "POSSESSION OF DRUG EQUIPMENT", "N" ]
+, [ 314, "46885D15-3E92-42C7-BE32-A7881732974E", 314, 1410793911, "700397", 1410793911, "700397", "{\n}", "2210", "LIQUOR LAW VIOLATION", "SELL/GIVE/DEL LIQUOR TO MINOR", "N" ]
+, [ 315, "BA4B96B5-E0FC-4F0B-9E7E-A388001534A9", 315, 1410793911, "700397", 1410793911, "700397", "{\n}", "2220", "LIQUOR LAW VIOLATION", "ILLEGAL POSSESSION BY MINOR", "N" ]
+, [ 316, "4AA0A5D8-6903-4269-9BFD-B9DEC1C43B35", 316, 1410793911, "700397", 1410793911, "700397", "{\n}", "2230", "LIQUOR LAW VIOLATION", "ILLEGAL CONSUMPTION BY MINOR", "N" ]
+, [ 317, "0481FE9A-6275-4408-B504-B1CEE86A81D3", 317, 1410793911, "700397", 1410793911, "700397", "{\n}", "2240", "LIQUOR LAW VIOLATION", "MINOR MISREPRESENT AGE", "N" ]
+, [ 318, "6862DF2F-8527-451C-BD49-AEC0F718F31D", 318, 1410793911, "700397", 1410793911, "700397", "{\n}", "2250", "LIQUOR LAW VIOLATION", "LIQUOR LICENSE VIOLATION", "N" ]
+, [ 319, "77BDB8CB-54FD-43E4-9E4D-C48569363F41", 319, 1410793911, "700397", 1410793911, "700397", "{\n}", "2251", "LIQUOR LAW VIOLATION", "EMPLOY MINOR", "N" ]
+, [ 320, "7CC4A667-442C-4ADD-B8A0-1A6A27740A7F", 320, 1410793911, "700397", 1410793911, "700397", "{\n}", "2500", "CRIMINAL ABORTION", "CRIMINAL ABORTION", "N" ]
+, [ 321, "290144CC-0F60-4227-BAA1-AF73015F0531", 321, 1410793911, "700397", 1410793911, "700397", "{\n}", "2820", "OTHER OFFENSE", "TELEPHONE THREAT", "N" ]
+, [ 322, "3C09F5D3-135A-4F23-8A5A-3E62E37DE40A", 322, 1410793911, "700397", 1410793911, "700397", "{\n}", "2825", "OTHER OFFENSE", "HARASSMENT BY TELEPHONE", "N" ]
+, [ 323, "4E6BA349-A2BA-4417-A17D-1AEE775056CB", 323, 1410793911, "700397", 1410793911, "700397", "{\n}", "2826", "OTHER OFFENSE", "HARASSMENT BY ELECTRONIC MEANS", "N" ]
+, [ 324, "9BCCB5A8-4288-4920-AA22-B427F131130E", 324, 1410793911, "700397", 1410793911, "700397", "{\n}", "2830", "OTHER OFFENSE", "OBSCENE TELEPHONE CALLS", "N" ]
+, [ 325, "4D276BEE-36A2-46AB-A692-B598FD8A1331", 325, 1410793911, "700397", 1410793911, "700397", "{\n}", "2840", "PUBLIC PEACE VIOLATION", "FALSE FIRE ALARM", "N" ]
+, [ 326, "2E37590D-985C-4ABE-8752-E752F2CCA15E", 326, 1410793911, "700397", 1410793911, "700397", "{\n}", "2850", "PUBLIC PEACE VIOLATION", "BOMB THREAT", "N" ]
+, [ 327, "3C1E525B-1A15-40BB-B9CF-B647DC8F066D", 327, 1410793911, "700397", 1410793911, "700397", "{\n}", "2851", "PUBLIC PEACE VIOLATION", "ARSON THREAT", "N" ]
+, [ 328, "99753387-E3C1-4B0F-8735-89EB082A2170", 328, 1410793911, "700397", 1410793911, "700397", "{\n}", "2860", "PUBLIC PEACE VIOLATION", "FALSE POLICE REPORT", "N" ]
+, [ 329, "AEDD7197-D8DB-4F2F-A7B9-ABED14B7A2C6", 329, 1410793911, "700397", 1410793911, "700397", "{\n}", "2870", "PUBLIC PEACE VIOLATION", "PEEPING TOM", "N" ]
+, [ 330, "8E5F9214-FBE7-4EE3-8BC6-3460A9FA5EDB", 330, 1410793911, "700397", 1410793911, "700397", "{\n}", "2890", "PUBLIC PEACE VIOLATION", "OTHER VIOLATION", "N" ]
+, [ 331, "CA5AF214-189B-4010-BC16-7D865F81E13D", 331, 1410793911, "700397", 1410793911, "700397", "{\n}", "2895", "PUBLIC PEACE VIOLATION", "INTERFERE W/ EMERGENCY EQUIP", "N" ]
+, [ 332, "4BB9D04A-52F4-447B-93A9-99964487F016", 332, 1410793911, "700397", 1410793911, "700397", "{\n}", "2900", "WEAPONS VIOLATION", "UNLAWFUL USE/SALE AIR RIFLE", "N" ]
+, [ 333, "8FFF837D-1583-4470-A8F3-1571904204E5", 333, 1410793911, "700397", 1410793911, "700397", "{\n}", "3000", "PUBLIC PEACE VIOLATION", "SELL/ADVERTISE FIREWORKS", "N" ]
+, [ 334, "2A2D35BA-B8A0-4EED-A498-58436DD62FC0", 334, 1410793911, "700397", 1410793911, "700397", "{\n}", "3100", "PUBLIC PEACE VIOLATION", "MOB ACTION", "N" ]
+, [ 335, "CCFB7EF4-94CE-4864-BB7F-4B24366F3602", 335, 1410793911, "700397", 1410793911, "700397", "{\n}", "3200", "PUBLIC PEACE VIOLATION", "ARMED VIOLENCE", "N" ]
+, [ 336, "163D7B18-99AF-4DC4-932A-8747D1F6E8AB", 336, 1410793911, "700397", 1410793911, "700397", "{\n}", "3300", "PUBLIC PEACE VIOLATION", "PUBLIC DEMONSTRATION", "N" ]
+, [ 337, "7116A111-EC03-4073-B1BA-48EB7351C274", 337, 1410793911, "700397", 1410793911, "700397", "{\n}", "3400", "PUBLIC PEACE VIOLATION", "LOOTING", "N" ]
+, [ 338, "E24616B7-8DE4-42A9-9AED-72AAD27819C2", 338, 1410793911, "700397", 1410793911, "700397", "{\n}", "3610", "OTHER OFFENSE", "INTERFERE W/ HIGHER EDUCATION", "N" ]
+, [ 339, "0D30C813-465A-4CF5-8CF8-01ED0FE78318", 339, 1410793911, "700397", 1410793911, "700397", "{\n}", "3710", "INTERFERENCE WITH PUBLIC OFFICER", "RESIST/OBSTRUCT/DISARM OFFICER", "N" ]
+, [ 340, "A3A3E237-124C-499E-9CF9-A3BD3E6F6D56", 340, 1410793911, "700397", 1410793911, "700397", "{\n}", "3720", "INTERFERENCE WITH PUBLIC OFFICER", "REFUSING TO AID AN OFFICER", "N" ]
+, [ 341, "2A00946A-5B73-48F8-91BC-16F90F51BBCA", 341, 1410793911, "700397", 1410793911, "700397", "{\n}", "3730", "INTERFERENCE WITH PUBLIC OFFICER", "OBSTRUCTING JUSTICE", "N" ]
+, [ 342, "37E1F017-3CC6-47C8-8863-2E96D9D2068C", 342, 1410793911, "700397", 1410793911, "700397", "{\n}", "3731", "INTERFERENCE WITH PUBLIC OFFICER", "OBSTRUCTING IDENTIFICATION", "N" ]
+, [ 343, "7802A6D2-33CB-4309-BFAE-028F43E73532", 343, 1410793911, "700397", 1410793911, "700397", "{\n}", "3740", "INTERFERENCE WITH PUBLIC OFFICER", "CONCEALING/AIDING A FUGITIVE", "N" ]
+, [ 344, "B800ADAF-F78D-48E3-BA59-FEBDA9129412", 344, 1410793911, "700397", 1410793911, "700397", "{\n}", "3750", "INTERFERENCE WITH PUBLIC OFFICER", "ESCAPE", "N" ]
+, [ 345, "D25EA1DB-1319-4D9C-85DE-2B3826F5826A", 345, 1410793911, "700397", 1410793911, "700397", "{\n}", "3751", "INTERFERENCE WITH PUBLIC OFFICER", "AIDING ARRESTEE ESCAPE", "N" ]
+, [ 346, "34F4E647-E159-4130-AD06-A974D70083A1", 346, 1410793911, "700397", 1410793911, "700397", "{\n}", "3760", "INTERFERENCE WITH PUBLIC OFFICER", "OBSTRUCTING SERVICE", "N" ]
+, [ 347, "50C85A7D-17DB-4349-A9CD-BBAC0049F45B", 347, 1410793911, "700397", 1410793911, "700397", "{\n}", "3770", "INTERFERENCE WITH PUBLIC OFFICER", "CONTRABAND IN PRISON", "N" ]
+, [ 348, "B6EC2FD4-1A06-4196-9324-74FC0444B59E", 348, 1410793911, "700397", 1410793911, "700397", "{\n}", "3800", "INTERFERENCE WITH PUBLIC OFFICER", "INTERFERENCE JUDICIAL PROCESS", "N" ]
+, [ 349, "E8C1B965-A1D6-47C9-AE73-83284FE593CD", 349, 1410793911, "700397", 1410793911, "700397", "{\n}", "3910", "INTERFERENCE WITH PUBLIC OFFICER", "BRIBERY", "N" ]
+, [ 350, "95683B7B-F818-436D-9AA3-494BC07E5C32", 350, 1410793911, "700397", 1410793911, "700397", "{\n}", "3920", "INTERFERENCE WITH PUBLIC OFFICER", "OFFICIAL MISCONDUCT", "N" ]
+, [ 351, "7CD07BE6-99E5-4677-8E42-DED0522F3A88", 351, 1410793911, "700397", 1410793911, "700397", "{\n}", "3960", "INTIMIDATION", "INTIMIDATION", "N" ]
+, [ 352, "40952B2C-6816-46D9-8CDB-70DD7BF71635", 352, 1410793911, "700397", 1410793911, "700397", "{\n}", "3966", "INTIMIDATION", "EDUCATIONAL INTIMIDAITON", "N" ]
+, [ 353, "3D68221E-571C-467F-B1C9-6EB763FC6E07", 353, 1410793911, "700397", 1410793911, "700397", "{\n}", "3970", "INTIMIDATION", "EXTORTION", "N" ]
+, [ 354, "3DDCBAFE-B0B6-4392-B7A1-906A199BF98B", 354, 1410793911, "700397", 1410793911, "700397", "{\n}", "3975", "INTIMIDATION", "COMPELLING ORG MEMBERSHIP", "N" ]
+, [ 355, "4ECF4214-1D70-44B8-B6CB-7E782CDFD1B1", 355, 1410793911, "700397", 1410793911, "700397", "{\n}", "3980", "INTIMIDATION", "COMPELLING CONFESSION", "N" ]
+, [ 356, "31454BCD-4025-4B50-AB80-CC00DE4DF6C3", 356, 1410793911, "700397", 1410793911, "700397", "{\n}", "4210", "KIDNAPPING", "KIDNAPPING", "N" ]
+, [ 357, "FB82131E-8336-4471-AFB4-53A55F5C3232", 357, 1410793911, "700397", 1410793911, "700397", "{\n}", "4220", "KIDNAPPING", "AGGRAVATED", "N" ]
+, [ 358, "7BA81745-A52B-45E5-AB29-DA4D94E3E362", 358, 1410793911, "700397", 1410793911, "700397", "{\n}", "4230", "KIDNAPPING", "UNLAWFUL RESTRAINT", "N" ]
+, [ 359, "AD28B39A-E3A7-409C-90C4-A3673FCF892B", 359, 1410793911, "700397", 1410793911, "700397", "{\n}", "4240", "KIDNAPPING", "FORCIBLE DETENTION", "N" ]
+, [ 360, "DF5A2AA5-DF61-4D22-93EE-3EF294BACDE1", 360, 1410793911, "700397", 1410793911, "700397", "{\n}", "4255", "KIDNAPPING", "UNLAWFUL INTERFERE/VISITATION", "N" ]
+, [ 361, "51296F10-315B-4604-8F98-859EC3EA28D6", 361, 1410793911, "700397", 1410793911, "700397", "{\n}", "4310", "OTHER OFFENSE", "POSSESSION OF BURGLARY TOOLS", "N" ]
+, [ 362, "28DDC78F-C08C-4004-AB50-1E268D39367A", 362, 1410793911, "700397", 1410793911, "700397", "{\n}", "4386", "OTHER OFFENSE", "VIOLATION OF CIVIL NO CONTACT ORDER", "N" ]
+, [ 363, "B5282292-9DB8-46C5-9D91-454DD8FC1919", 363, 1410793911, "700397", 1410793911, "700397", "{\n}", "4387", "OTHER OFFENSE", "VIOLATE ORDER OF PROTECTION", "N" ]
+, [ 364, "D9AD54B1-DA3D-4D81-9FE1-9F4D1E4CA999", 364, 1410793911, "700397", 1410793911, "700397", "{\n}", "4388", "OTHER OFFENSE", "VIO BAIL BOND: DOM VIOLENCE", "N" ]
+, [ 365, "3E0B343E-D3AC-4956-9F0B-3D6E1A601F92", 365, 1410793911, "700397", 1410793911, "700397", "{\n}", "4389", "OTHER OFFENSE ", "VIOLATION GPS MONITORING DEVICE ", "N" ]
+, [ 366, "15AFACE3-8B20-4AB6-9BD3-F7B9519D54A2", 366, 1410793911, "700397", 1410793911, "700397", "{\n}", "4410", "OTHER OFFENSE", "DESTRUCTION OF DRAFT CARD", "N" ]
+, [ 367, "A45E67AF-671E-4A6B-A4F9-E418C0950529", 367, 1410793911, "700397", 1410793911, "700397", "{\n}", "4420", "OTHER OFFENSE", "CRIMINAL FORTIFICATION", "N" ]
+, [ 368, "F21C832A-044C-4AE3-9523-732CE1AA77D6", 368, 1410793911, "700397", 1410793911, "700397", "{\n}", "4510", "OTHER OFFENSE", "PROBATION VIOLATION", "N" ]
+, [ 369, "35BA730E-4B37-45B1-895D-CDF1CC1F6E8B", 369, 1410793911, "700397", 1410793911, "700397", "{\n}", "4625", "OTHER OFFENSE", "PAROLE VIOLATION", "N" ]
+, [ 370, "999D25AE-3FAD-4EFF-9B50-0004A3653A68", 370, 1410793911, "700397", 1410793911, "700397", "{\n}", "4650", "OTHER OFFENSE", "SEX OFFENDER: FAIL TO REGISTER", "N" ]
+, [ 371, "CF72A7C7-39C4-443A-B675-71516259D6FE", 371, 1410793911, "700397", 1410793911, "700397", "{\n}", "4651", "OTHER OFFENSE", "SEX OFFENDER: FAIL REG NEW ADD", "N" ]
+, [ 372, "02A1CB0D-1C98-4282-9E33-94F5267E309A", 372, 1410793911, "700397", 1410793911, "700397", "{\n}", "4652", "OTHER OFFENSE", "SEX OFFENDER: PROHIBITED ZONE", "N" ]
+, [ 373, "B57A2CE5-3C47-4D28-A812-EFC3681C971F", 373, 1410793911, "700397", 1410793911, "700397", "{\n}", "4740", "OTHER OFFENSE", "UNLAWFUL USE OF BODY ARMOR", "N" ]
+, [ 374, "FE38970E-FAC0-418C-ACF2-3C6E35E40EB5", 374, 1410793911, "700397", 1410793911, "700397", "{\n}", "4750", "OTHER OFFENSE", "DISCLOSE DV VICTIM LOCATION", "N" ]
+, [ 375, "3554C440-58DE-4F14-830E-143382CB3535", 375, 1410793911, "700397", 1410793911, "700397", "{\n}", "4800", "OTHER OFFENSE", "MONEY LAUNDERING", "N" ]
+, [ 376, "7D45482F-6139-4CFA-AC56-B60D230A5C8E", 376, 1410793911, "700397", 1410793911, "700397", "{\n}", "4810", "OTHER OFFENSE", "COMPOUNDING A CRIME", "N" ]
+, [ 377, "0E688042-A0AA-476B-B39A-9AD40E9BB9AF", 377, 1410793911, "700397", 1410793911, "700397", "{\n}", "4860", "OTHER OFFENSE", "BOARD PLANE WITH WEAPON", "N" ]
+, [ 378, "A3D3C562-064A-44B9-A0B9-A3542CE16BA9", 378, 1410793911, "700397", 1410793911, "700397", "{\n}", "5000", "OTHER OFFENSE", "OTHER CRIME AGAINST PERSON", "N" ]
+, [ 379, "DEA15734-6EDC-4EBA-9D32-45F30A220A7D", 379, 1410793911, "700397", 1410793911, "700397", "{\n}", "5001", "OTHER OFFENSE", "OTHER CRIME INVOLVING PROPERTY", "N" ]
+, [ 380, "DE844D27-4EF5-462D-BA7C-19E83E62B336", 380, 1410793911, "700397", 1410793911, "700397", "{\n}", "5002", "OTHER OFFENSE", "OTHER VEHICLE OFFENSE", "N" ]
+, [ 381, "820A79AE-B852-405C-B270-2F877E0718EC", 381, 1410793911, "700397", 1410793911, "700397", "{\n}", "5003", "OTHER OFFENSE", "OTHER ARSON/EXPLOSIVE INCIDENT", "N" ]
+, [ 382, "B081AD0D-F455-4532-BC6B-BC654A58FC01", 382, 1410793911, "700397", 1410793911, "700397", "{\n}", "5004", "SEX OFFENSE", "ATT CRIM SEXUAL ABUSE", "N" ]
+, [ 383, "2E83F8AF-3305-4F54-9289-3FDF2D6290D5", 383, 1410793911, "700397", 1410793911, "700397", "{\n}", "5007", "OTHER OFFENSE", "OTHER WEAPONS VIOLATION", "N" ]
+, [ 384, "551B4857-08DF-4811-A1E7-C1B61B570606", 384, 1410793911, "700397", 1410793911, "700397", "{\n}", "5009", "OTHER OFFENSE", "VIOLATION OF SMOKING BAN", "N" ]
+, [ 385, "9D0060A1-B7F6-4095-8D93-7AFFA80E1452", 385, 1410793911, "700397", 1410793911, "700397", "{\n}", "500E", "OTHER OFFENSE", "EAVESDROPPING", "N" ]
+, [ 386, "073F3A78-2C31-4579-94D8-A59C9BDBC137", 386, 1410793911, "700397", 1410793911, "700397", "{\n}", "500N", "OTHER OFFENSE", "ABUSE/NEGLECT: CARE FACILITY", "N" ]
+, [ 387, "8938A67C-8882-4438-AB02-144E8DD845AB", 387, 1410793911, "700397", 1410793911, "700397", "{\n}", "5011", "OTHER OFFENSE", "LICENSE VIOLATION", "N" ]
+, [ 388, "23EEBE42-2CAD-46D4-A06C-49CAC49DA30A", 388, 1410793911, "700397", 1410793911, "700397", "{\n}", "501A", "OTHER OFFENSE", "ANIMAL ABUSE/NEGLECT", "N" ]
+, [ 389, "4FA9B226-B193-4F0A-8E86-C626562B1EC9", 389, 1410793911, "700397", 1410793911, "700397", "{\n}", "501H", "OTHER OFFENSE", "HAZARDOUS MATERIALS VIOLATION", "N" ]
+, [ 390, "253F6DDD-03BE-419B-A5F1-7B840CF88A6B", 390, 1410793911, "700397", 1410793911, "700397", "{\n}", "502P", "OTHER OFFENSE", "FALSE/STOLEN/ALTERED TRP", "N" ]
+, [ 391, "7DB60790-F447-4BF3-8B7F-B4C0EA94BA92", 391, 1410793911, "700397", 1410793911, "700397", "{\n}", "502R", "OTHER OFFENSE", "VEHICLE TITLE/REG OFFENSE", "N" ]
+, [ 392, "4763344C-98FC-4F80-A766-42D7FB2ED5E0", 392, 1410793911, "700397", 1410793911, "700397", "{\n}", "502T", "OTHER OFFENSE", "TAMPER WITH MOTOR VEHICLE", "N" ]
+, [ 393, "AEDB5519-987F-422A-9A43-6C542FFC610C", 393, 1410793911, "700397", 1410793911, "700397", "{\n}", "5110", "OTHER OFFENSE", "GUN OFFENDER: DUTY TO REGISTER", "N" ]
+, [ 394, "FC6B57A3-F46D-4D83-8069-116C9B7907F1", 394, 1410793911, "700397", 1410793911, "700397", "{\n}", "5111", "OTHER OFFENSE", "GUN OFFENDER: ANNUAL REGISTRATION", "N" ]
+, [ 395, "8D585902-0B71-41D0-8BD8-E5002CF703BD", 395, 1410793911, "700397", 1410793911, "700397", "{\n}", "5112", "OTHER OFFENSE", "GUN OFFENDER: DUTY TO REPORT CHANGE OF INFORMATION", "N" ]
+, [ 396, "7E4D4E11-B7FF-43AB-B7DE-E41DE5EEE9F1", 396, 1410793911, "700397", 1410793911, "700397", "{\n}", "5120", "OTHER OFFENSE", "ARSONIST: DUTY TO REGISTER", "N" ]
+, [ 397, "4F4011BE-8BA0-4E32-BDAC-F0F186208660", 397, 1410793911, "700397", 1410793911, "700397", "{\n}", "5121", "OTHER OFFENSE", "ARSONIST: ANNUAL REGISTRATION", "N" ]
+, [ 398, "7F2D0531-339B-4626-8C58-CF70350463EE", 398, 1410793911, "700397", 1410793911, "700397", "{\n}", "5122", "OTHER OFFENSE", "ARSONIST: FAIL TO REGISTER NEW ADDRESS", "N" ]
+, [ 399, "B3DADB9D-0218-44BB-9E8F-33492552B056", 399, 1410793911, "700397", 1410793911, "700397", "{\n}", "5130", "OTHER OFFENSE", "VIOLENT OFFENDER: DUTY TO REGISTER", "N" ]
+, [ 400, "40E89344-0CD8-4642-AA7C-C01C6B4E46F8", 400, 1410793911, "700397", 1410793911, "700397", "{\n}", "5131", "OTHER OFFENSE", "VIOLENT OFFENDER: ANNUAL REGISTRATION", "N" ]
+, [ 401, "D353C85A-31F1-4804-BBB2-AE6FF58DB28B", 401, 1410793911, "700397", 1410793911, "700397", "{\n}", "5132", "OTHER OFFENSE", "VIOLENT OFFENDER: FAIL TO REGISTER NEW ADDRESS", "N" ]
+ ]
+}

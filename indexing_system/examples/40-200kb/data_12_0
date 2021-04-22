@@ -1,0 +1,1101 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "hrir-ejvj",
+      "name" : "Toll Transactions",
+      "attribution" : "Maryland Transportation Authority",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1347026549,
+      "description" : "Dataset contains counts of toll transactions collected by the MD Transportation Authority at its eight toll facilities.",
+      "displayType" : "table",
+      "downloadCount" : 1671,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "iconUrl" : "fileId:Cg_8F9KAu2YXhA766arUdJLaQ2NNgGYi3ieAtTY_yKE",
+      "indexUpdatedAt" : 1498222088,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 20869807,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1463079141,
+      "publicationGroup" : 420514,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1463079119,
+      "rowsUpdatedBy" : "5x9h-2zmw",
+      "tableId" : 10688389,
+      "totalTimesRated" : 0,
+      "viewCount" : 3437,
+      "viewLastModified" : 1498221950,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 254654003,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "description" : "Date the data is through",
+        "fieldName" : "date",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 4067099,
+        "width" : 149,
+        "cachedContents" : {
+          "non_null" : 368,
+          "largest" : "2016-04-30T00:00:00",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2015-12-31T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2016-01-31T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2016-02-29T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2016-03-31T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2016-04-30T00:00:00",
+            "count" : 16
+          } ],
+          "smallest" : "2012-07-31T00:00:00"
+        },
+        "format" : { }
+      }, {
+        "id" : 254654004,
+        "name" : "Facility",
+        "dataTypeName" : "text",
+        "description" : "Name of the toll facility the transactions are for.\n\nBHT - Baltimore Harbor Tunnel\nFMT - Fort McHenry Tunnel\nFSK - Francis Scott Key Memorial Bridge\nHMB - Thomas J. Hatem Memorial Bridge\nJFK - John F. Kennedy Memorial Highway\nBAY - William Preston Lane Me",
+        "fieldName" : "facility",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 4067139,
+        "width" : 113,
+        "cachedContents" : {
+          "non_null" : 368,
+          "largest" : "WPL",
+          "null" : 0,
+          "top" : [ {
+            "item" : "BHT",
+            "count" : 20
+          }, {
+            "item" : "FMT",
+            "count" : 19
+          }, {
+            "item" : "FSK",
+            "count" : 18
+          }, {
+            "item" : "HMB",
+            "count" : 17
+          }, {
+            "item" : "JFK",
+            "count" : 16
+          }, {
+            "item" : "HWN",
+            "count" : 15
+          }, {
+            "item" : "BAY",
+            "count" : 14
+          }, {
+            "item" : "ICC",
+            "count" : 13
+          }, {
+            "item" : "WPL",
+            "count" : 12
+          }, {
+            "item" : "JFK ",
+            "count" : 11
+          } ],
+          "smallest" : "BAY"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 254654005,
+        "name" : "Total Transactions",
+        "dataTypeName" : "number",
+        "description" : "Total number of all transactions collected at that facility for that indicated time period.  Tranactions include electronic (E-ZPass, AVI, video, I-toll, etc), cash, tickets.",
+        "fieldName" : "total_transactions",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 4067149,
+        "width" : 127,
+        "cachedContents" : {
+          "non_null" : 368,
+          "average" : "1419341.445652174",
+          "largest" : "4295531",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2357497",
+            "count" : 20
+          }, {
+            "item" : "3655452",
+            "count" : 19
+          }, {
+            "item" : "916136",
+            "count" : 18
+          }, {
+            "item" : "422636",
+            "count" : 17
+          }, {
+            "item" : "1238987",
+            "count" : 16
+          }, {
+            "item" : "282219",
+            "count" : 15
+          }, {
+            "item" : "1020372",
+            "count" : 14
+          }, {
+            "item" : "2377865",
+            "count" : 13
+          }, {
+            "item" : "1283987",
+            "count" : 12
+          }, {
+            "item" : "2150069",
+            "count" : 11
+          }, {
+            "item" : "3219963",
+            "count" : 10
+          }, {
+            "item" : "844543",
+            "count" : 9
+          }, {
+            "item" : "996820",
+            "count" : 8
+          }, {
+            "item" : "386082",
+            "count" : 7
+          }, {
+            "item" : "852210",
+            "count" : 6
+          }, {
+            "item" : "216380",
+            "count" : 5
+          }, {
+            "item" : "2166141",
+            "count" : 4
+          }, {
+            "item" : "2468766",
+            "count" : 3
+          }, {
+            "item" : "3776529",
+            "count" : 2
+          }, {
+            "item" : "981051",
+            "count" : 1
+          } ],
+          "smallest" : "191056",
+          "sum" : "522317652"
+        },
+        "format" : { }
+      }, {
+        "id" : 254654006,
+        "name" : "Transponder Transactions",
+        "dataTypeName" : "number",
+        "description" : "Total Count of all E-ZPass Transponder Transactions",
+        "fieldName" : "electronic_transactions",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 4067156,
+        "width" : 170,
+        "cachedContents" : {
+          "non_null" : 322,
+          "average" : "969137.0652173913",
+          "largest" : "2989977",
+          "null" : 46,
+          "top" : [ {
+            "item" : "1699837",
+            "count" : 20
+          }, {
+            "item" : "2652519",
+            "count" : 19
+          }, {
+            "item" : "713829",
+            "count" : 18
+          }, {
+            "item" : "394263",
+            "count" : 17
+          }, {
+            "item" : "886270",
+            "count" : 16
+          }, {
+            "item" : "159170",
+            "count" : 15
+          }, {
+            "item" : "713591",
+            "count" : 14
+          }, {
+            "item" : "1477830",
+            "count" : 13
+          }, {
+            "item" : "2247437",
+            "count" : 12
+          }, {
+            "item" : "616655",
+            "count" : 11
+          }, {
+            "item" : "696059",
+            "count" : 10
+          }, {
+            "item" : "344743",
+            "count" : 9
+          }, {
+            "item" : "589551",
+            "count" : 8
+          }, {
+            "item" : "125563",
+            "count" : 7
+          }, {
+            "item" : "1585011",
+            "count" : 6
+          }, {
+            "item" : "2375753",
+            "count" : 5
+          }, {
+            "item" : "667791",
+            "count" : 4
+          }, {
+            "item" : "711816",
+            "count" : 3
+          }, {
+            "item" : "362781",
+            "count" : 2
+          }, {
+            "item" : "616150",
+            "count" : 1
+          } ],
+          "smallest" : "113750",
+          "sum" : "312062135"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 254654007,
+        "name" : "Percentage of Transponder Transactions",
+        "dataTypeName" : "percent",
+        "description" : "Percentage of total transactions that were collected by a transponder.",
+        "fieldName" : "percentage_of_electronic_transactions",
+        "position" : 5,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 4067157,
+        "width" : 253,
+        "cachedContents" : {
+          "non_null" : 322,
+          "average" : "70.89534161490683",
+          "largest" : "94",
+          "null" : 46,
+          "top" : [ {
+            "item" : "68",
+            "count" : 20
+          }, {
+            "item" : "93",
+            "count" : 19
+          }, {
+            "item" : "69",
+            "count" : 18
+          }, {
+            "item" : "91",
+            "count" : 17
+          }, {
+            "item" : "70",
+            "count" : 16
+          }, {
+            "item" : "62",
+            "count" : 15
+          }, {
+            "item" : "50",
+            "count" : 14
+          }, {
+            "item" : "71",
+            "count" : 13
+          }, {
+            "item" : "72",
+            "count" : 12
+          }, {
+            "item" : "77",
+            "count" : 11
+          }, {
+            "item" : "67",
+            "count" : 10
+          }, {
+            "item" : "53",
+            "count" : 9
+          }, {
+            "item" : "64",
+            "count" : 8
+          }, {
+            "item" : "73",
+            "count" : 7
+          }, {
+            "item" : "74",
+            "count" : 6
+          }, {
+            "item" : "75",
+            "count" : 5
+          }, {
+            "item" : "94",
+            "count" : 4
+          }, {
+            "item" : "56",
+            "count" : 3
+          }, {
+            "item" : "78",
+            "count" : 2
+          }, {
+            "item" : "66",
+            "count" : 1
+          } ],
+          "smallest" : "45",
+          "sum" : "22828.30"
+        },
+        "format" : {
+          "view" : "percent_bar_and_text",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 254654008,
+        "name" : "Comments",
+        "dataTypeName" : "text",
+        "description" : "Any special notes, comments, explanations related to any of the data related to this record",
+        "fieldName" : "comments",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 4067180,
+        "width" : 143,
+        "cachedContents" : {
+          "non_null" : 46,
+          "largest" : "Transponder transaction data not yet available",
+          "null" : 322,
+          "top" : [ {
+            "item" : "Transponder Data not yet available",
+            "count" : 20
+          }, {
+            "item" : "Transponder Data not yet available.  Previously reported transactions of 1,326,547 was updated in September to 1,423,802 ",
+            "count" : 19
+          }, {
+            "item" : "Transponder Data not yet available ",
+            "count" : 18
+          }, {
+            "item" : "Transponder data not yet available",
+            "count" : 17
+          }, {
+            "item" : "Transponder data not available",
+            "count" : 16
+          }, {
+            "item" : "Transponder transaction data not yet available",
+            "count" : 15
+          }, {
+            "item" : "Transponder data not year available",
+            "count" : 14
+          }, {
+            "item" : "Data not yet available",
+            "count" : 13
+          }, {
+            "item" : "Transponder data not yet available ",
+            "count" : 12
+          }, {
+            "item" : "Data not yet available ",
+            "count" : 11
+          }, {
+            "item" : "transponder data not yet available",
+            "count" : 10
+          }, {
+            "item" : "Data currently not available",
+            "count" : 9
+          }, {
+            "item" : "Data not yet avialable",
+            "count" : 8
+          }, {
+            "item" : "Data not available ",
+            "count" : 7
+          }, {
+            "item" : "Data not available",
+            "count" : 6
+          } ],
+          "smallest" : "Data currently not available"
+        },
+        "format" : { }
+      }, {
+        "id" : 254654009,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "description" : "Column provides the physical location of the toll facility the data is attributed to.",
+        "fieldName" : "location",
+        "position" : 7,
+        "renderTypeName" : "location",
+        "tableColumnId" : 4282364,
+        "width" : 203,
+        "cachedContents" : {
+          "non_null" : 368,
+          "largest" : {
+            "latitude" : "38.364741",
+            "human_address" : "{\"address\":\"9665 Orland Park\",\"city\":\"Newburg\",\"state\":\"MD 20 664\",\"zip\":\"\"}",
+            "longitude" : "-76.98761"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "39.240612",
+              "human_address" : "{\"address\":\"1200 Frankfurst Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}",
+              "longitude" : "-76.587157"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "39.230495",
+              "human_address" : "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}",
+              "longitude" : "-76.510661"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "39.567807",
+              "human_address" : "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}",
+              "longitude" : "-76.073059"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "39.589249",
+              "human_address" : "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}",
+              "longitude" : "-76.072845"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "39.01338",
+              "human_address" : "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}",
+              "longitude" : "-76.406716"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "39.122199",
+              "human_address" : "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}",
+              "longitude" : "-77.188097"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "39.2661",
+              "human_address" : "{\"address\":\"3990 Leland Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}",
+              "longitude" : "-76.561575"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "38.364741",
+              "human_address" : "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}",
+              "longitude" : "-76.9761"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "39.240612",
+              "human_address" : "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}",
+              "longitude" : "-76.587157"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "39.567807",
+              "human_address" : "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}",
+              "longitude" : "-76.073059"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "39.01338",
+              "human_address" : "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}",
+              "longitude" : "-76.406716"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "38.364741",
+              "human_address" : "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}",
+              "longitude" : "-76.9761"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "39.589249",
+              "human_address" : "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}",
+              "longitude" : "-76.072845"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "39.2661",
+              "human_address" : "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}",
+              "longitude" : "-76.561575"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "39.122199",
+              "human_address" : "{\"address\":\"16902 Crabbs Branch Hwy\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}",
+              "longitude" : "-77.188097"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "39.289249",
+              "human_address" : "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}",
+              "longitude" : "-76.072845"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "39.2661",
+              "human_address" : "{\"address\":\"3990 Leland Avw\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}",
+              "longitude" : "-76.561575"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "39.240612",
+              "human_address" : "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Balitmore\",\"state\":\"MD\",\"zip\":\"21226\"}",
+              "longitude" : "-76.587157"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "39.230495",
+              "human_address" : "{\"address\":\"303 Authority Dr\",\"city\":\"Baltimore\",\"state\":\"MD 2122\",\"zip\":\"\"}",
+              "longitude" : "-76.510661"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "39.240612",
+              "human_address" : "{\"address\":\"1200 Frankfurt Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}",
+              "longitude" : "-76.587157"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "39.589249",
+            "human_address" : "{\"address\":\"1 Turnpike Ave\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}",
+            "longitude" : "-76.072845"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Jurisdiction" : {
+            "Jurisdiction" : "State of Maryland"
+          },
+          "Agency" : {
+            "State Agency Performing Data Updates" : "Maryland Department of Transportation"
+          },
+          "Time Period" : {
+            "Update Frequency" : "Quarterly",
+            "Time Period of Content" : "July 31 2012 - Present",
+            "Date Metadata Written" : "February 27th 2015"
+          },
+          "GIS Download" : {
+            "Place Keywords" : "tolls, toll transactions, mdta, toll facilities, e-zpass"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5x9h-2zmw",
+        "displayName" : "Sarah Clifford",
+        "roleName" : "publisher",
+        "screenName" : "Sarah Clifford",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 254654003,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5x9h-2zmw",
+        "displayName" : "Sarah Clifford",
+        "roleName" : "publisher",
+        "screenName" : "Sarah Clifford",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "tolls", "toll transactions", "mdta", "toll facilities", "e-zpass" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 25, "B7EEBA3F-AB18-455F-A5AB-86F05752195B", 25, 1353043487, "599457", 1353045925, "599457", "{}", "2012-10-30T00:00:00", "BHT", "2058354", "1453375", "70.6", null, [ "{\"address\":\"1200 Frankfurst Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.2400060564831", "-76.58915553905152", null, false ] ]
+, [ 2, "8B12F414-EDC5-4953-BBD2-D7AE517AC446", 2, 1347002523, "599457", 1355303716, "599457", "{}", "2012-07-31T00:00:00", "FMT", "4106681", "2781129", "69.41", null, [ "{\"address\":\"900 Leland Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.61575", null, false ] ]
+, [ 3, "B243269C-AB0A-4F08-820B-3383879C0F94", 3, 1347002617, "599457", 1355303818, "599457", "{\"invalidCells\":{\"4282364\":\"39.230495, --76.510661\"}}", "2012-07-31T00:00:00", "FSK", "1015814", "749688", "73.8", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 11, "AD823CCD-4AB8-4A51-892B-0891C735CBC5", 11, 1347003167, "599457", 1355303867, "599457", "{}", "2012-08-31T00:00:00", "FSK", "1104125", "832071", "75.36", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 12, "E1DFF42D-4995-4491-9199-CCC979F02AF8", 12, 1347003188, "599457", 1355303900, "599457", "{}", "2012-08-31T00:00:00", "HMB", "461001", "275968", "59.86", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 16, "FF2A57AB-0404-4706-80A3-4422B454D932", 16, 1347003285, "599457", 1355303938, "599457", null, "2012-08-31T00:00:00", "ICC", "1423802", null, null, "Transponder Data not yet available.  Previously reported transactions of 1,326,547 was updated in September to 1,423,802 ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 13, "EAE089BB-184C-4B41-BCE0-CCAAB29EAC12", 13, 1347003213, "599457", 1355303982, "599457", "{}", "2012-08-31T00:00:00", "JFK", "1446594", "905288", "62.58", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 14, "4F7E84EA-1FDD-45E8-8017-0A5E74885B25", 14, 1347003233, "599457", 1355304024, "599457", "{}", "2012-08-31T00:00:00", "HWN", "326955", "155387", "47.53", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 9, "D8145251-B696-4760-A3D0-AEF3D5E43CAF", 9, 1347002865, "599457", 1355304099, "599457", "{}", "2012-08-31T00:00:00", "BHT", "1849657", "1218709", "65.89", null, [ "{\"address\":\"1200 Frankfurst Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 24, "4120F99D-44C9-4EFC-9D24-DF3987A9A050", 24, 1350042132, "599457", 1355304137, "599457", null, "2012-09-30T00:00:00", "ICC", "1267216", null, null, "Transponder Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 21, "AA56603F-7D02-49C1-81CF-E60D0C9E470F", 21, 1350041902, "599457", 1355304193, "599457", null, "2012-09-30T00:00:00", "JFK", "1176385", "756153", "64.28", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 19, "21740B53-E97B-43DC-920C-902673C5B2B6", 19, 1350041735, "599457", 1355304215, "599457", null, "2012-09-30T00:00:00", "FSK", "908996", "678496", "74.64", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 20, "77DA68F6-E120-451E-8F81-A10917FB2F58", 20, 1350041811, "599457", 1355304314, "599457", null, "2012-09-30T00:00:00", "HMB", "424722", "291745", "68.69", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 17, "2FCEB089-6FE3-44B8-BC5D-964EE02A1F3A", 17, 1350041409, "599457", 1355304356, "599457", "{}", "2012-09-30T00:00:00", "BHT", "1990673", "1364425", "68.54", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.581757", null, false ] ]
+, [ 28, "A7F7E8CA-0B20-4F46-9B48-A56003E631EF", 28, 1353044072, "599457", 1355304400, "599457", "{}", "2012-10-30T00:00:00", "HMB", "413718", "372965", "90.15", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 29, "436F0B7F-B2DB-46FF-973A-B035E2FE9720", 29, 1353044192, "599457", 1355304429, "599457", "{}", "2012-10-30T00:00:00", "JFK", "1119693", "737676", "65.88", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 32, "C0B591F7-C903-4335-928F-EB3DE1FDB220", 32, 1353044399, "599457", 1355304452, "599457", null, "2012-10-30T00:00:00", "ICC", "1337834", null, null, "Transponder Data not yet available ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 18, "ECC3C839-A5D3-4FC3-96A0-0F1CDDBCD3E8", 18, 1350041591, "599457", 1355310815, "599457", null, "2012-09-30T00:00:00", "FMT", "3599701", "2510383", "69.74", null, [ "{\"address\":\"3990 Leland Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 26, "76C79646-21D9-41DF-9C5E-24D7879BBFA1", 26, 1353043927, "599457", 1355310825, "599457", "{}", "2012-10-30T00:00:00", "FMT", "3590369", "2574313", "71.7", null, [ "{\"address\":\"3990 Leland Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 22, "208C4AD9-D342-4B7D-9163-816FA02F87DC", 22, 1350041979, "599457", 1355310830, "599457", null, "2012-09-30T00:00:00", "HWN", "267684", "131007", "48.94", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 23, "6941AEF2-63E8-426D-AD8C-58945FFAAA81", 23, 1350042062, "599457", 1355310843, "599457", null, "2012-09-30T00:00:00", "BAY", "1113689", "684018", "61.42", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 10, "3C0E321B-ECA9-4F63-90DD-E7E5B56F01A3", 10, 1347003118, "599457", 1355310858, "599457", "{}", "2012-08-31T00:00:00", "FMT", "4295531", "2989977", "69.61", null, [ "{\"address\":\"3990 Leland Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 15, "34EA637B-BFDC-421D-98A9-175F607002EE", 15, 1347003260, "599457", 1355310865, "599457", "{}", "2012-08-31T00:00:00", "BAY", "1329172", "797017", "59.96", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 1, "AB92B6D6-D095-484B-B397-5348E994F65E", 1, 1347002234, "599457", 1355303563, "599457", null, "2012-07-31T00:00:00", "BHT", "1852460", "1201863", "64.88", null, [ "{\"address\":\"1200 Frankfurst Avenue\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 4, "2505770E-CE21-429C-B5E7-6E2E6BBB571E", 4, 1347002648, "599457", 1355303585, "599457", null, "2012-07-31T00:00:00", "HMB", "437952", "224534", "51.27", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 5, "46C19FA9-7BB9-4CC1-AA54-F8F22C16744D", 5, 1347002671, "599457", 1355303631, "599457", null, "2012-07-31T00:00:00", "JFK", "1428001", "866641", "60.69", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 8, "0055D3C7-8C1B-478B-950C-864F553E011F", 8, 1347002801, "599457", 1355303648, "599457", null, "2012-07-31T00:00:00", "ICC", "1379962", null, null, "Transponder Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 7, "ED3877C1-F0A9-4243-B3E1-951839D41D99", 7, 1347002739, "599457", 1355303673, "599457", null, "2012-07-31T00:00:00", "BAY", "1309632", "758737", "57.94", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 6, "0B964844-039B-41B4-950A-3FAB83AD5CE2", 6, 1347002699, "599457", 1355303693, "599457", null, "2012-07-31T00:00:00", "HWN", "312519", "142914", "45.73", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newberg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 27, "106848D7-3ABC-4083-AF57-CA0149C34543", 27, 1353044041, "599457", 1355304500, "599457", "{}", "2012-10-30T00:00:00", "FSK", "904081", "694016", "76.76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 31, "CBC944BE-7FD0-43DD-96EB-CD6806F55FB5", 31, 1353044346, "599457", 1355304538, "599457", "{}", "2012-10-30T00:00:00", "BAY", "1016962", "668287", "65.71", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 36, "8FC807BA-1EA7-4357-B9DE-0DAAE5D46A33", 36, 1355299983, "599457", 1355304682, "599457", null, "2012-11-30T00:00:00", "ICC", "1298832", null, null, "Transponder Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 34, "B2EB430D-5582-44B2-8C05-7168BC14E997", 34, 1355299968, "599457", 1355308190, "599457", "{}", "2012-11-30T00:00:00", "HMB", "406817", "370154", "90.98", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 35, "83CCD5FB-2055-47F0-87CE-09137E282C4E", 35, 1355299975, "599457", 1355308231, "599457", "{}", "2012-11-30T00:00:00", "JFK", "1215121", "793259", "65.28", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 37, "51C96DAC-FCA9-4055-9DD7-50CCE55D3B0F", 37, 1355299997, "599457", 1355308240, "599457", "{}", "2012-11-30T00:00:00", "BAY", "1015569", "666982", "65.67", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 40, "08808420-8138-433B-A15E-B3046A0C8A60", 40, 1355300024, "599457", 1355308252, "599457", "{}", "2012-11-30T00:00:00", "FSK", "882629", "675219", "76.5", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 33, "BEB583DB-F103-4417-9F36-69E22F720B03", 33, 1355299959, "599457", 1355308267, "599457", "{\"invalidCells\":{\"4067157\":69.78}}", "2012-11-30T00:00:00", "BHT", "2082690", "1453366", "69.78", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 38, "9AC0E1E6-C415-4B3E-A251-BA8B8937C943", 38, 1355300004, "599457", 1355310735, "599457", "{}", "2012-11-30T00:00:00", "HWN", "270300", "134422", "49.73", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 30, "2EF98FF4-DDF5-4350-85D7-128B45E76711", 30, 1353044294, "599457", 1355310779, "599457", "{}", "2012-10-30T00:00:00", "HWN", "261408", "134616", "51.5", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 43, "67BC6BEE-B406-4569-B918-232EB7C1D6A3", 43, 1358147708, "599457", 1358147825, "599457", null, "2012-12-31T00:00:00", "ICC", "1248111", null, null, "Transponder Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 39, "3F119FB1-CFFC-4CFD-B400-E7D16A676F06", 39, 1355300018, "599457", 1358147861, "599457", "{}", "2012-11-30T00:00:00", "FMT", "3576610", "2533760", "70.84", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Balitmore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 42, "BA856BD9-969C-459E-A2C2-A7F8E6EEB21B", 42, 1358147023, "599457", 1358148160, "599457", "{\"invalidCells\":{}}", "2012-12-31T00:00:00", "JFK", "1230582", "796655", "64.73", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 41, "5631257D-2E96-4685-B3B1-809CC5FF466C", 41, 1358146940, "599457", 1358148187, "599457", "{\"invalidCells\":{\"4067157\":91.31}}", "2012-12-31T00:00:00", "HMB", "397121", "362619", "91.31", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 44, "96E377A2-7609-497E-8C2E-A71FA7D0EB2C", 44, 1358147831, "599457", 1358148229, "599457", null, "2012-12-31T00:00:00", "BAY", "967200", "631735", "65.32", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 45, "9737750B-023D-4D57-BBD0-ED6F55611183", 45, 1358148246, "599457", 1358148315, "599457", null, "2012-12-31T00:00:00", "HWN", "262146", "129965", "49.57", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 46, "8A8DCDA7-9C98-441F-BA27-115A761BF1CD", 46, 1358148320, "599457", 1358148397, "599457", null, "2012-12-31T00:00:00", "FMT", "3547140", "2475261", "69.78", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 47, "853AA72C-6E6C-4D23-930E-DFD46D7D343A", 47, 1358148430, "599457", 1358148920, "599457", null, "2012-12-31T00:00:00", "FSK", "830769", "627105", "75.48", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 48, "4115678A-5777-4127-BE24-18EF26F4E1B3", 48, 1358148926, "599457", 1358149025, "599457", null, "2012-12-31T00:00:00", "BHT", "2020008", "1385458", "68.58", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 49, "5604CC59-3CAC-48B1-9021-02A39706900D", 49, 1360585069, "697478", 1360586134, "697478", "{\"invalidCells\":{\"4067149\":\"1,970,446\"}}", "2013-01-31T00:00:00", "BHT", "1970446", "1419393", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 50, "485B4B97-245E-4260-808B-DEB85BE28434", 50, 1360585075, "697478", 1360586173, "697478", null, "2013-01-31T00:00:00", "FMT", "3363872", "2454802", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 51, "05150732-A4CC-4F0F-B186-4A79C4AB9B2E", 51, 1360585081, "697478", 1360586215, "697478", null, "2013-01-31T00:00:00", "FSK", "834818", "655391", "79", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 52, "FC3C06A6-BD77-4DC7-91D8-485E77246134", 52, 1360585089, "697478", 1360586265, "697478", null, "2013-01-31T00:00:00", "JFK", "994133", "673143", "68", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 53, "D224D7E1-2B64-46C9-8725-0625A581D2C4", 53, 1360585104, "697478", 1360586301, "697478", null, "2013-01-31T00:00:00", "HMB", "390081", "362869", "93", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 54, "7828FF16-7969-4C4B-BB51-EF21E524B763", 54, 1360585116, "697478", 1360586337, "697478", null, "2013-01-31T00:00:00", "WPL", "879032", "606699", "69", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 55, "95AA2073-402D-4BB5-B6BB-12FBBAD93415", 55, 1360585123, "697478", 1360586448, "697478", null, "2013-01-31T00:00:00", "HWN", "221539", "123474", "56", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 56, "B8358F37-900E-4E6C-84AF-A9491A547E75", 56, 1360585128, "697478", 1360586485, "697478", null, "2013-01-31T00:00:00", "ICC", "1285160", null, null, "Transponder Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 59, "912A5157-0400-41AF-953C-F5F0EB1EFB9C", 59, 1363076375, "697478", 1363076698, "697478", null, "2013-02-28T00:00:00", "FSK", "780789", "608288", "77.9", null, [ "{\"address\":\"303 Authority Drvie\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 64, "28682B03-89B7-4A27-8714-72F3703425FC", 64, 1363076414, "697478", 1363076857, "697478", null, "2013-02-28T00:00:00", "ICC", "1208435", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 57, "CD6687E0-4241-4823-98C6-5AA467A6FED4", 57, 1363076360, "697478", 1363076639, "697478", null, "2013-02-28T00:00:00", "BHT", "1840110", "1318425", "71.6", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 58, "0480FC8F-F163-4080-A8ED-DC94343AA6B7", 58, 1363076368, "697478", 1363076668, "697478", null, "2013-02-28T00:00:00", "FMT", "3121285", "2272586", "72.8", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 60, "29322C80-0A4F-4978-A1CF-061DFA588FAF", 60, 1363076381, "697478", 1363076734, "697478", null, "2013-02-28T00:00:00", "JFK", "923898", "629154", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 61, "0A4A858C-EFBA-4A08-9981-69F99AC619EA", 61, 1363076387, "697478", 1363076765, "697478", null, "2013-02-28T00:00:00", "HMB", "365577", "340141", "93", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 62, "DDA62E01-07CE-4B3F-BE07-3BC0A458D2CB", 62, 1363076402, "697478", 1363076793, "697478", null, "2013-02-28T00:00:00", "WPL", "816745", "561337", "68.7", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 63, "76606FA4-6991-4440-AE3A-5A877646E544", 63, 1363076408, "697478", 1363076828, "697478", null, "2013-02-28T00:00:00", "HWN", "210094", "116955", "55.7", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 65, "E2F0C5BA-23C2-4418-9D6F-B38A7685F467", 65, 1366095836, "697478", 1366096388, "697478", null, "2013-03-31T00:00:00", "BHT", "1840110", "1318425", "71.65", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 66, "35A8136A-884B-4F74-A799-ECD844C6E9C6", 66, 1366095844, "697478", 1366096460, "697478", null, "2013-03-31T00:00:00", "FMT", "3121285", "2272586", "72.81", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 67, "8702E1BF-D75C-435A-9CEA-733ED21F7976", 67, 1366095851, "697478", 1366096576, "697478", null, "2013-03-31T00:00:00", "FSK", "780789", "608288", "77.91", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 68, "75EAE387-B900-4916-9636-5FFB927E38D6", 68, 1366095858, "697478", 1366096682, "697478", null, "2013-03-31T00:00:00", "JFK", "923898", "629154", "68.1", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 69, "AFB3FB1F-F586-4C92-8A37-DE8F0CBFBBE6", 69, 1366095862, "697478", 1366096716, "697478", null, "2013-03-31T00:00:00", "HMB", "365577", "340141", "93.04", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 70, "BDF553FE-30C0-46FB-8A41-C73E6A0B1EB6", 70, 1366095868, "697478", 1366096751, "697478", null, "2013-03-31T00:00:00", "WPL", "816745", "561337", "68.73", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 71, "C2A3AC9F-C734-4709-8284-0F10A1DF94D1", 71, 1366095878, "697478", 1366096788, "697478", null, "2013-03-31T00:00:00", "HWN", "210094", "116955", "55.67", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 72, "49474CB9-F253-49BF-A71E-4346C34D5959", 72, 1366095881, "697478", 1368508235, "697478", null, "2013-03-31T00:00:00", "ICC", "1208435", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-76.188097", null, false ] ]
+, [ 73, "50401334-A931-4F4F-901C-95CC8948967F", 73, 1368508035, "697478", 1368508333, "697478", null, "2013-04-30T00:00:00", "BHT", "2111694", "1499099", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 74, "08BD9EF0-D806-42FD-9BB9-682F57667081", 74, 1368508042, "697478", 1368508367, "697478", null, "2013-04-30T00:00:00", "FMT", "3771919", "2695996", "71.5", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 75, "EE989EDA-1A96-440C-B95E-9CFF20B144EB", 75, 1368508047, "697478", 1368508394, "697478", null, "2013-04-30T00:00:00", "FSK", "913920", "703070", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 76, "9F41C253-355D-4255-B65E-7667B9D84C6D", 76, 1368508052, "697478", 1368508462, "697478", null, "2013-04-30T00:00:00", "JFK", "1245475", "830351", "66.7", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 77, "C0E8B81C-D03E-42B6-8E66-D60FD04C3BAB", 77, 1368508063, "697478", 1368508475, "697478", null, "2013-04-30T00:00:00", "HMB", "426938", "393186", "92", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 79, "5C463A1C-6E6F-4B26-B96B-EB9CBAD7A1FC", 79, 1368508085, "697478", 1368509599, "697478", "{\"invalidCells\":{\"4282364\":\"398.364741, -76.976100\"}}", "2013-04-30T00:00:00", "HWN", "266771", "140753", "52.8", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20644\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 80, "2FA0D2FE-492E-4A66-87E5-AD2E349A6305", 80, 1368508093, "697478", 1368509646, "697478", null, "2013-04-30T00:00:00", "ICC", "1491737", null, null, "Transponder data not available", [ "{\"address\":\"16902 Crabbs Branch Rd\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 78, "3FAE824E-F612-41F1-A972-BF882D942C9D", 78, 1368508071, "697478", 1368510479, "697478", null, "2013-04-30T00:00:00", "WPL", "1038151", "692440", "66.7", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 81, "A5211B59-AA10-4B9F-BA49-04FF52362BF6", 81, 1368509456, "697478", 1371019105, "697478", null, "2013-05-31T00:00:00", "BHT", "2180949", "1518406", "69.62", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 82, "17030DD2-2040-4118-8D2D-DED94CDD165F", 82, 1371017667, "697478", 1371019143, "697478", null, "2013-05-31T00:00:00", "FMT", "3950743", "2799695", "71.65", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 83, "569744EC-79C3-4A82-85D8-7EE851681275", 83, 1371017674, "697478", 1371019199, "697478", "{\"invalidCells\":{\"4282364\":\"39.230495, \"}}", "2013-05-31T00:00:00", "FSK", "997638", "762524", "76.43", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 84, "F62B0268-44A3-489C-8696-64E9B8528A36", 84, 1371017678, "697478", 1371019229, "697478", null, "2013-05-31T00:00:00", "JFK", "1377649", "906485", "66.9", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 85, "995F93AA-8D86-4993-91BA-76B78899AFCA", 85, 1371017685, "697478", 1371019394, "697478", null, "2013-05-31T00:00:00", "HMB", "448366", "409813", "91.4", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 86, "3AAB1647-EE9E-408D-9724-536F6DD0810A", 86, 1371017692, "697478", 1371019420, "697478", null, "2013-05-31T00:00:00", "WPL", "1197303", "771951", "64.4", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 87, "032C93BF-61B8-41BA-B31E-20AE19346A5E", 87, 1371017762, "697478", 1371019455, "697478", null, "2013-05-31T00:00:00", "HWN", "304779", "154015", "50.5", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 91, "A4DB31FA-C2D2-4389-BA7E-323C77D011BA", 91, 1373971921, "697478", 1373972566, "697478", null, "2013-06-30T00:00:00", "FSK", "978994", "732504", "74.8", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 92, "085EE907-164B-4CDB-985E-D5943B6DAB6B", 92, 1373971925, "697478", 1373972620, "697478", "{\"invalidCells\":{\"4282364\":\"39.589249, \"}}", "2013-06-30T00:00:00", "JFK", "1345929", "853403", "63.4", null, [ "{\"address\":\"1 Turnpike Drive\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 94, "F07C656C-4F8C-42DF-B51A-C51C0F281F43", 94, 1373971939, "697478", 1373972685, "697478", null, "2013-06-30T00:00:00", "WPL", "1249922", "760970", "60.8", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 93, "CA0CC797-AE2E-49D4-A1D4-8CFA5E31C9CF", 93, 1373971929, "697478", 1373972652, "697478", null, "2013-06-30T00:00:00", "HMB", "426277", "385458", "90.42", null, [ "{\"address\":\"6000 Pulaksi Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 95, "3B2BE92A-43F1-4071-A129-C00116A443B7", 95, 1373971946, "697478", 1373972712, "697478", null, "2013-06-30T00:00:00", "HWN", "309007", "149549", "48.39", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 96, "E13BDE85-4D05-4777-8DF0-88308D950FF5", 96, 1373971949, "697478", 1373972744, "697478", null, "2013-06-30T00:00:00", "ICC", "1543978", null, null, "Transponder transaction data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 88, "4F919730-D3D0-4299-86EB-6D06B67547C2", 88, 1371017929, "697478", 1373972074, "697478", null, "2013-05-31T00:00:00", "ICC", "1584430", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Hwy\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 90, "0A4075AE-37FD-4C02-9B5C-F55E315D2C71", 90, 1373971916, "697478", 1373972528, "697478", null, "2013-06-30T00:00:00", "FMT", "3807915", "2632396", "69.12", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 89, "B461CAEB-3515-46DE-B747-488D77FAB146", 89, 1373971904, "697478", 1373972489, "697478", null, "2013-06-30T00:00:00", "BHT", "2069450", "1409392", "68", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 97, "8B8139BC-7727-44BE-8017-0289A10F691F", 97, 1376543001, "697478", 1376548899, "697478", null, "2013-07-31T00:00:00", "BHT", "2123205", "1468382", "69", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 98, "5C2EB2CB-B92D-4962-8260-4A0C2CD7DF13", 98, 1376543008, "697478", 1376548925, "697478", null, "2013-07-31T00:00:00", "FMT", "3862163", "269074", "69.8", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 99, "8EC97A97-9FCA-49F6-9D0D-C96D6DD911A0", 99, 1376543013, "697478", 1376548951, "697478", null, "2013-07-31T00:00:00", "FSK", "936974", "713061", "76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 101, "52BF7778-CC87-4CF0-9D37-24A26596A91D", 101, 1376543027, "697478", 1376549016, "697478", null, "2013-07-31T00:00:00", "HMB", "433063", "395320", "91", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 104, "0F9C12D4-B2FE-4829-BE8E-7C5D5F9E6B7B", 104, 1376543048, "697478", 1376549045, "697478", null, "2013-07-31T00:00:00", "ICC", "1542795", null, null, "Transponder data not available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 102, "EDB97E0E-D9FE-4E7E-9A2A-F530F9051AB4", 102, 1376543034, "697478", 1376549071, "697478", null, "2013-07-31T00:00:00", "WPL", "1308652", "795346", "60.7", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 103, "46932BF0-2903-476C-AC1D-A2E475BBDCFD", 103, 1376543044, "697478", 1376549099, "697478", null, "2013-07-31T00:00:00", "HWN", "323430", "158572", "49", null, [ "{\"address\":\"965 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "76.9761", null, false ] ]
+, [ 100, "6AC05D6D-9624-47E7-9E5C-9A2F1897193F", 100, 1376543018, "697478", 1378972152, "697478", null, "2013-07-31T00:00:00", "JFK", "1419630", "892288", "62.85", null, [ "{\"address\":\"1Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 107, "EF8930B0-AA0C-4FAB-B64D-7EDA45E168F8", 107, 1378971780, "697478", 1378972084, "697478", null, "2013-08-31T00:00:00", "FMT", "4011477", "2818171", "70", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 108, "32B68B24-23C7-4A7D-B093-F3374A0B24D4", 108, 1378971789, "697478", 1378972113, "697478", null, "2013-08-31T00:00:00", "FSK", "946354", "721840", "76.3", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 109, "585D6513-5ADA-45D8-B666-D991E8D4FB4E", 109, 1378971795, "697478", 1378972142, "697478", null, "2013-08-31T00:00:00", "JFK", "1481470", "951480", "64.2", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 110, "76F62AB4-C35E-4FC5-8FD6-233843BDE348", 110, 1378971800, "697478", 1378972175, "697478", null, "2013-08-31T00:00:00", "HMB", "456006", "415335", "91", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 106, "F4566D28-B0FA-447C-8F78-070275CDAFCA", 106, 1378971771, "697478", 1378972056, "697478", null, "2013-08-31T00:00:00", "BHT", "2265092", "1578083", "69.7", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 111, "2F0059F7-6859-47AC-88B6-AAAA713B625D", 111, 1378971807, "697478", 1378972200, "697478", null, "2013-08-31T00:00:00", "WPL", "1344727", "830895", "62", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 112, "8B262C2A-D483-4A9B-B678-A16577EBD9CC", 112, 1378971816, "697478", 1378972228, "697478", null, "2013-08-31T00:00:00", "HWN", "336417", "168029", "50", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 113, "FDE115C9-ACA4-4CFB-9801-5621FE6FC7A4", 113, 1378971820, "697478", 1378972253, "697478", null, "2013-08-31T00:00:00", "ICC", "1625313", null, null, "Transponder data not available", [ "{\"address\":\"16902 Crabbs Branch Hwy\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 116, "7A0CBFD5-BF4E-4AF1-859E-0C53E612378D", 116, 1383634424, "697478", 1383634708, "697478", null, "2013-09-30T00:00:00", "FSK", "884262", "683412", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 119, "58A73130-EFF2-4AC2-A3FC-5C8E4826BB3E", 119, 1383634437, "697478", 1383634821, "697478", null, "2013-09-30T00:00:00", "HWN", "262464", "139837", "53", null, [ "{\"address\":\"9665 Orland Park Road\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 120, "25F9F678-FF77-4F5D-8D29-79320EB4C7C6", 120, 1383634441, "697478", 1383634854, "697478", null, "2013-09-30T00:00:00", "WPL", "1103080", "711331", "64", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 121, "74D703B8-3CAA-484B-99DF-03A93CB7EB36", 121, 1383634473, "697478", 1383634888, "697478", null, "2013-09-30T00:00:00", "ICC", "1600861", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 114, "A3032F91-CAE1-4ED3-B5AB-3E12B63493C0", 114, 1383634413, "697478", 1383634612, "697478", null, "2013-09-30T00:00:00", "BHT", "2063706", "1463155", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Balitmore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 115, "8CCCB81C-6F1D-4D8B-8429-48FFB7FCBB19", 115, 1383634419, "697478", 1383634644, "697478", null, "2013-09-30T00:00:00", "FMT", "3499359", "2524281", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 117, "1E129915-6696-4C44-BBD5-D89E4A43CFF3", 117, 1383634429, "697478", 1383634750, "697478", null, "2013-09-30T00:00:00", "HMB", "416254", "385743", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 118, "C5EE2EA5-944B-4C89-9BA4-61E74336980A", 118, 1383634433, "697478", 1383634781, "697478", null, "2013-09-30T00:00:00", "JFK", "1155470", "770133", "67", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 149, "DC10E894-A5DC-4E15-AF6C-A873B11EA77A", 149, 1394029265, "697478", 1394031223, "697478", null, "2014-01-31T00:00:00", "JFK", "935463", "643998", "69", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 122, "C11B2A3B-205C-4C9C-ABFA-8AABA996E8AB", 122, 1389085261, "402883", 1389251676, "697478", "{\"invalidCells\":{}}", "2013-10-31T00:00:00", "BHT", "2149206", "1558373", "73", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 123, "E315F262-B4E6-44D6-86AD-A54E29CF93CB", 123, 1389249851, "697478", 1389251709, "697478", null, "2013-10-31T00:00:00", "FMT", "3602509", "2655266", "74", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 124, "286E2F2D-F01D-43E8-B50F-A790DEB22D9C", 124, 1389249858, "697478", 1389251795, "697478", null, "2013-10-31T00:00:00", "FSK", "982940", "732918", "75", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 125, "BEFFA1BD-C068-4C3B-9615-B38249EFF1B0", 125, 1389249864, "697478", 1389251842, "697478", "{\"invalidCells\":{\"location\":\"39.589249, \"}}", "2013-10-31T00:00:00", "JFK", "1152885", "785005", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 126, "4A53F2EF-C1FB-4012-AEE7-B26B9D6738E7", 126, 1389249872, "697478", 1389251872, "697478", null, "2013-10-31T00:00:00", "HMB", "432017", "404119", "94", null, [ "{\"address\":\"6000 Pulaksi Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 127, "D0E956FC-9820-45AD-B101-BC06C42CC859", 127, 1389249880, "697478", 1389251915, "697478", null, "2013-10-31T00:00:00", "WPL", "1048584", "717609", "68", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 128, "7E2782A8-CEB9-4230-A045-EEBADEAAFFD5", 128, 1389249889, "697478", 1389251946, "697478", null, "2013-10-31T00:00:00", "HWN", "270730", "150416", "56", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 131, "39168183-5918-4295-BD5B-6C6AD36EE2BA", 131, 1389250060, "697478", 1389252068, "697478", null, "2013-11-30T00:00:00", "FMT", "3446191", "2500673", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 136, "7C0057FA-C20A-427A-A0FC-E7810C7BA9D3", 136, 1389250080, "697478", 1389252223, "697478", null, "2013-11-30T00:00:00", "HWN", "262452", "138580", "53", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 137, "6BB8FE03-2C7C-4058-A503-198B98BC8E8C", 137, 1389250089, "697478", 1389252244, "697478", null, "2013-11-30T00:00:00", "ICC", "1588801", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 130, "9C063FAA-D02F-48BF-8FE1-400FDAAE1369", 130, 1389250055, "697478", 1389252041, "697478", null, "2013-11-30T00:00:00", "BHT", "204918", "1463432", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 133, "44940286-2077-4D25-AE94-407942865A83", 133, 1389250067, "697478", 1389252135, "697478", null, "2013-11-30T00:00:00", "JFK", "1189902", "805298", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 135, "BA78D205-5D35-4EFC-833C-EAF688C59CAD", 135, 1389250076, "697478", 1389252194, "697478", null, "2013-11-30T00:00:00", "WPL", "985537", "672363", "68", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 138, "58B48BBD-6D05-41EF-B15C-BA2946DD7880", 138, 1389250271, "697478", 1389252274, "697478", null, "2013-12-31T00:00:00", "BHT", "2027666", "1434204", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 132, "6929575F-9E59-485B-9812-E25069C07687", 132, 1389250064, "697478", 1389252105, "697478", null, "2013-11-30T00:00:00", "FSK", "834798", "651103", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230945", "-76.570661", null, false ] ]
+, [ 129, "4217CFAF-F781-4881-B69E-5A5ABB01A627", 129, 1389249893, "697478", 1389251994, "697478", null, "2013-10-31T00:00:00", "ICC", "1699377", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 134, "EA421CB6-1583-42BE-8F1C-7B7E9B43C31F", 134, 1389250072, "697478", 1389252168, "697478", null, "2013-11-30T00:00:00", "HMB", "405195", "377256", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 139, "D7AEDE06-BFFC-4901-AAFB-916D44F6D04B", 139, 1389250274, "697478", 1389252306, "697478", null, "2013-12-31T00:00:00", "FMT", "3423746", "2462822", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 140, "6121A588-EC42-4153-9A8C-F357D7F3934A", 140, 1389250277, "697478", 1389252340, "697478", null, "2013-12-31T00:00:00", "FSK", "809093", "625789", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.570661", null, false ] ]
+, [ 141, "C0729F52-20D3-461A-84C9-F8A06915BFCA", 141, 1389250280, "697478", 1389252385, "697478", null, "2013-12-31T00:00:00", "JFK", "1207564", "801400", "66", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 142, "05A5B88F-0994-46E0-B721-A1BB86BB44F5", 142, 1389250283, "697478", 1389252413, "697478", null, "2013-12-31T00:00:00", "HMB", "393270", "366091", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "76.073059", null, false ] ]
+, [ 143, "6005F066-E0A3-41AD-AF55-BA5753848416", 143, 1389250286, "697478", 1389252435, "697478", null, "2013-12-31T00:00:00", "WPL", "940674", "641403", "68", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 145, "03929F16-1080-4B24-B417-E4F8820C4172", 145, 1389250292, "697478", 1389252497, "697478", null, "2013-12-31T00:00:00", "ICC", "1565207", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 144, "35070A7D-8BA4-4B31-B325-9DB9EDA0DB4D", 144, 1389250289, "697478", 1389252461, "697478", null, "2013-12-31T00:00:00", "HWN", "261825", "138613", "53", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 146, "84FF7912-2425-40A4-BA1A-F9EE36D74A17", 146, 1394029244, "697478", 1394031115, "697478", null, "2014-01-31T00:00:00", "BHT", "1867508", "1369574", "73", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 147, "6A5E51DA-FFA3-4F47-8261-A57BD4FE2BF9", 147, 1394029254, "697478", 1394031151, "697478", null, "2014-01-31T00:00:00", "FMT", "3114756", "2324741", "75", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 148, "99A976F2-1E35-4EC9-B3A3-11D258DDAF48", 148, 1394029258, "697478", 1394031194, "697478", null, "2014-01-31T00:00:00", "FSK", "781165", "623406", "80", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 150, "A68E94C8-8EDC-4465-8FE4-4727E122242E", 150, 1394029269, "697478", 1394031254, "697478", null, "2014-01-31T00:00:00", "HMB", "370558", "349666", "94", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 151, "18289BF4-7367-4632-9E1D-49DEC907FC19", 151, 1394029274, "697478", 1394031283, "697478", null, "2014-01-31T00:00:00", "WPL", "815383", "583616", "72", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 152, "FF4ABD27-1520-48AD-AB84-8B90716EFF20", 152, 1394029279, "697478", 1394031319, "697478", null, "2014-01-31T00:00:00", "HWN", "208796", "123078", "59", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 153, "938350A5-089C-4A39-B226-1916F2E3DB9E", 153, 1394029287, "697478", 1394031356, "697478", null, "2014-01-31T00:00:00", "ICC", "1549102", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 154, "F5225036-3F57-4D80-A7BC-E3260C3A566A", 154, 1395910655, "697478", 1395911051, "697478", null, "2014-02-28T00:00:00", "BHT", "1724887", "1255216", "73", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 155, "ADBCCF02-D4F6-4796-8115-C0515854C588", 155, 1395910662, "697478", 1395911166, "697478", null, "2014-02-28T00:00:00", "FMT", "2844410", "2111397", "74", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 156, "A16EB4EB-685E-4D14-B39D-3003F04C5F87", 156, 1395910665, "697478", 1395911204, "697478", null, "2014-02-28T00:00:00", "FSK", "729334", "576164", "79", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 157, "FA3CA63F-F40D-4DC1-8463-69074F2544AA", 157, 1395910674, "697478", 1395911238, "697478", null, "2014-02-28T00:00:00", "JFK", "847693", "588457", "69", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 158, "353F8A31-7D9D-44FE-84B4-6666DDCC0DA9", 158, 1395910676, "697478", 1395911274, "697478", null, "2014-02-28T00:00:00", "HMB", "344516", "324513", "94", null, [ "{\"address\":\"6000 Pulaski Highway\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 159, "332BEBDC-EE7B-488B-AB6D-6EF9AB9B649F", 159, 1395910680, "697478", 1395911306, "697478", null, "2014-02-28T00:00:00", "WPL", "757631", "540651", "71", null, [ "{\"address\":\"850 Revell Highway\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 160, "B4005180-A986-4638-8E7D-60295B3B3A2A", 160, 1395910690, "697478", 1395911335, "697478", null, "2014-02-28T00:00:00", "HWN", "193711", "114401", "59", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 161, "CF738706-32B9-4717-86F2-534BEF989CA9", 161, 1395910696, "697478", 1407735576, "697478", null, "2014-02-28T00:00:00", "ICC", "1372222", null, null, "Transponder Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Road\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 164, "B48DC1FB-58CB-4E40-AD36-A667CD783C93", 164, 1407735437, "697478", 1407735752, "697478", "{\"invalidCells\":{\"location\":\"39.230495, \"}}", "2014-03-31T00:00:00", "FSK", "836589", "652564", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 165, "99A13F08-9B5D-4F20-85BE-EC5EBC902039", 165, 1407735441, "697478", 1407735783, "697478", null, "2014-03-31T00:00:00", "JFK", "1121358", "759582", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 162, "33BA9FF2-6771-4304-B47C-A0F2A7E76157", 162, 1407735426, "697478", 1407735666, "697478", null, "2014-03-31T00:00:00", "BHT", "2041071", "1452359", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 166, "AE03F071-4E33-4521-9882-FC359247AE48", 166, 1407735446, "697478", 1407735822, "697478", null, "2014-03-31T00:00:00", "HMB", "404297", "378540", "94", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 167, "5448A807-6021-44B5-B7DC-520792BC420D", 167, 1407735452, "697478", 1407735863, "697478", null, "2014-03-31T00:00:00", "WPL", "901584", "626969", "70", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 168, "DC958DE3-93AD-4C92-981D-65F6F434BAC4", 168, 1407735457, "697478", 1407735903, "697478", null, "2014-03-31T00:00:00", "HWN", "234653", "132086", "56", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.96761", null, false ] ]
+, [ 163, "1C64DF19-4644-4309-B0D9-18F1333F5EEF", 163, 1407735433, "697478", 1407735692, "697478", null, "2014-03-31T00:00:00", "FMT", "3399365", "2476349", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 169, "25E197C5-9EEA-4CE5-A9E1-8BE6F9C47554", 169, 1407735466, "697478", 1407735936, "697478", null, "2014-03-31T00:00:00", "ICC", "1515353", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 170, "0F6172F5-C995-49C3-847D-BC52BF64C1C3", 170, 1407738957, "697478", 1407739343, "697478", null, "2014-04-30T00:00:00", "BHT", "2201587", "1574649", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 171, "F400C6DA-CC2C-4B36-A281-E4F09DCEB277", 171, 1407738962, "697478", 1407739375, "697478", null, "2014-04-30T00:00:00", "FMT", "3672972", "2670221", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 172, "5F4C0423-35C1-4A82-963F-D734133054D7", 172, 1407738966, "697478", 1407739404, "697478", null, "2014-04-30T00:00:00", "FSK", "925571", "724245", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 173, "DB10188E-0DAD-409E-B6D8-E581AFF89357", 173, 1407738971, "697478", 1407739447, "697478", null, "2014-04-30T00:00:00", "JFK", "1300090", "885173", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 174, "D0248423-10C4-47B3-90E4-CE8F3388EF6C", 174, 1407738975, "697478", 1407739476, "697478", null, "2014-04-30T00:00:00", "HMB", "433403", "402660", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 175, "BC264421-7185-499F-A14B-2F4D53B91EDF", 175, 1407738983, "697478", 1407739511, "697478", null, "2014-04-30T00:00:00", "WPL", "1044648", "716715", "67", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 176, "3CFA9549-4FF7-403F-BF0D-7DCDC23B00DF", 176, 1407738988, "697478", 1407739537, "697478", null, "2014-04-30T00:00:00", "HWN", "276646", "152094", "55", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 177, "42E83340-DAD6-4047-9D9E-3A5092FF968A", 177, 1407738992, "697478", 1407739953, "697478", null, "2014-04-30T00:00:00", "ICC", "1756481", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20664\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 178, "E772F35B-E7B8-4328-A5AC-D4ACEE979F66", 178, 1407739576, "697478", 1407740061, "697478", null, "2014-05-31T00:00:00", "BHT", "2311998", "1616993", "70", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 179, "4711E444-F9FA-4ED3-B920-B576B4C5BD03", 179, 1407739581, "697478", 1407740087, "697478", null, "2014-05-31T00:00:00", "FMT", "3742482", "2666418", "71", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "76.561575", null, false ] ]
+, [ 180, "1762A6A8-3CEB-4FF3-B4CB-DC61EED3FFE4", 180, 1407739589, "697478", 1407740136, "697478", null, "2014-05-31T00:00:00", "FSK", "956217", "733138", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 186, "39D63CBE-9475-4A0C-8E99-C9D70DB29BE4", 186, 1407740420, "697478", 1407741009, "697478", null, "2014-06-30T00:00:00", "BHT", "2272844", "1573849", "69", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltmore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 184, "78CD97B7-B018-47F1-9F73-1FEE18AAC64C", 184, 1407739605, "697478", 1407740304, "697478", null, "2014-05-31T00:00:00", "HWN", "309780", "162637", "53", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 185, "3837E786-D514-40C3-BDEE-E5DA40B07EC6", 185, 1407739611, "697478", 1407740333, "697478", null, "2014-05-31T00:00:00", "ICC", "2011965", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 181, "F2184553-C400-49EB-9F92-BAD5039A9631", 181, 1407739593, "697478", 1407740161, "697478", null, "2014-05-31T00:00:00", "JFK", "1380596", "918505", "67", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 183, "8D212BBC-1DFF-463F-80CF-1559ACAB1ED4", 183, 1407739600, "697478", 1407740266, "697478", null, "2014-05-31T00:00:00", "WPL", "1203806", "787756", "65", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 182, "52CEAE9D-B507-4416-AE4E-E5FFEBD9C182", 182, 1407739596, "697478", 1407740189, "697478", null, "2014-05-31T00:00:00", "HMB", "447292", "414036", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.577807", "-76.073059", null, false ] ]
+, [ 187, "4BF78AE3-EF63-4CD2-91FB-D528DEA4E0E4", 187, 1407740423, "697478", 1407741049, "697478", null, "2014-06-30T00:00:00", "FMT", "3643388", "2556119", "70", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 191, "DDB58A21-C880-4458-96A5-AA072012D86F", 191, 1407740437, "697478", 1407741885, "697478", null, "2014-06-30T00:00:00", "WPL", "1241325", "786824", "63", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 193, "1DD589A2-AE8D-4C90-8987-EC0C6AAD1F5B", 193, 1407740448, "697478", 1407743755, "697478", null, "2014-06-30T00:00:00", "ICC", "1755443", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 192, "A8BA0618-45C6-4383-BF54-1CEE8BAFF251", 192, 1407740445, "697478", 1407743787, "697478", null, "2014-06-30T00:00:00", "HWN", "317089", "164463", "52", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 188, "DB7BB7E3-C878-443A-9461-E6807F2E3A1B", 188, 1407740428, "697478", 1407743816, "697478", null, "2014-06-30T00:00:00", "FSK", "948380", "722786", "76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 189, "171FC1E3-4762-49B6-830B-4B219BAA69AC", 189, 1407740431, "697478", 1407743853, "697478", null, "2014-06-30T00:00:00", "JFK", "1326287", "856284", "65", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 190, "D64F80FE-1EB4-474A-ABE1-863789FF3D8E", 190, 1407740434, "697478", 1407744492, "697478", null, "2014-06-30T00:00:00", "HMB", "433898", "398356", "92", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 194, "69E5273C-CA44-4B5A-98E2-BDBBB82222DA", 194, 1407762152, "697478", 1407762537, "697478", null, "2014-07-31T00:00:00", "BHT", "2363014", "1623771", "69", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 195, "139EA258-9220-4FE4-9DF1-F3997D28133F", 195, 1407762154, "697478", 1407762563, "697478", null, "2014-07-31T00:00:00", "FMT", "3739024", "2599584", "70", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 196, "CACE4B94-7178-47A1-9366-DC4C0632074E", 196, 1407762156, "697478", 1407762631, "697478", null, "2014-07-31T00:00:00", "FSK", "962514", "732844", "76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 197, "45CCCCE8-8BD4-43C2-8204-A4A4AD13872C", 197, 1407762158, "697478", 1407762667, "697478", null, "2014-07-31T00:00:00", "JFK", "1421970", "908126", "64", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 198, "FD5BDB25-EF32-4245-AFF3-91EE44AB0D94", 198, 1407762160, "697478", 1407762698, "697478", null, "2014-07-31T00:00:00", "HMB", "440500", "403595", "92", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 199, "0B0B179F-7884-471E-93A2-43E7E679F8F9", 199, 1407762162, "697478", 1407762726, "697478", null, "2014-07-31T00:00:00", "WPL", "1332621", "828136", "62", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 200, "49841573-7489-4723-9816-C5F004C53ED0", 200, 1407762164, "697478", 1407762757, "697478", null, "2014-07-31T00:00:00", "HWN", "342125", "173540", "51", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 201, "1F46BD1A-8E8E-47E9-86B7-8705557C5562", 201, 1407762166, "697478", 1407762839, "697478", null, "2014-07-31T00:00:00", "ICC", "1684163", null, null, "Transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 208, "F0246B09-CF5B-49E3-9D36-9BDB470C05E4", 208, 1411472089, "697478", 1411622962, "697478", null, "2014-08-31T00:00:00", "HWN", "353604", "178492", "50", null, [ "{\"address\":\"9665 Orland Park\",\"city\":\"Newburg\",\"state\":\"MD 20 664\",\"zip\":\"\"}", "38.364741", "-76.98761", null, false ] ]
+, [ 209, "9CCD251F-80CF-4A4F-8091-225907875004", 209, 1411472373, "697478", 1411623000, "697478", null, "2014-08-31T00:00:00", "ICC", "1533189", null, null, "Transponder data not year available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 202, "C5FDFE43-DF2D-4F09-A1D7-0E8304461F48", 202, 1411471039, "697478", 1411623074, "697478", null, "2014-08-31T00:00:00", "BHT", "2403144", "1648447", "69", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 203, "849D707C-CC78-4C18-87C0-717B85FEC759", 203, 1411471042, "697478", 1411623101, "697478", null, "2014-08-31T00:00:00", "FMT", "3797896", "2645308", "70", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 204, "EE8C8FFC-3797-4413-B397-65B1918E4F5D", 204, 1411472057, "697478", 1411623129, "697478", null, "2014-08-31T00:00:00", "FSK", "980143", "743057", "76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 205, "160E5E26-F5CD-40BF-A07F-C376D14C2001", 205, 1411472064, "697478", 1411624166, "697478", null, "2014-08-31T00:00:00", "JFK", "1496874", "967762", "65", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 206, "6BCAF76B-B12D-410C-AAE4-C80E12E8A5B1", 206, 1411472071, "697478", 1411624212, "697478", null, "2014-08-31T00:00:00", "HMB", "447322", "407575", "91", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 207, "9191BF32-A313-402E-8AF2-AA0BF1E2BE73", 207, 1411472088, "697478", 1411624251, "697478", null, "2014-08-31T00:00:00", "WPL", "1349529", "837255", "62", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 210, "389AFC3C-417C-414A-B458-AAEF716F4783", 210, 1414474070, "697478", 1414474283, "697478", null, "2014-09-30T00:00:00", "BHT", "2215197", "1579532", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 211, "528171AD-C024-4A7C-BC79-705AE689A961", 211, 1414474072, "697478", 1414474310, "697478", null, "2014-09-30T00:00:00", "FMT", "3351138", "2427849", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 213, "F7B8C110-62EF-434E-A5A8-8A61923AA550", 213, 1414474079, "697478", 1414474378, "697478", null, "2014-09-30T00:00:00", "HMB", "420041", "390092", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 214, "19FBE93A-9F4A-45FD-9D75-8D7C96DE771A", 214, 1414474081, "697478", 1414474401, "697478", null, "2014-09-30T00:00:00", "JFK", "1132012", "764967", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 216, "4F785CD7-4AD3-4F10-B8B9-979DAE07653C", 216, 1414474086, "697478", 1414474479, "697478", null, "2014-09-30T00:00:00", "WPL", "1103858", "728158", "66", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 217, "52DE4ED3-BF87-4C4B-8BEB-D2DE009A9C4E", 217, 1414474089, "697478", 1414474508, "697478", null, "2014-09-30T00:00:00", "ICC", "1827355", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 212, "879BEC92-C802-456C-8F36-596B6F2761FE", 212, 1414474076, "697478", 1414474348, "697478", null, "2014-09-30T00:00:00", "FSK", "967296", "748854", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 215, "FE0B4824-6ECD-4B13-BCE3-D6320261EF34", 215, 1414474084, "697478", 1414474436, "697478", null, "2014-09-30T00:00:00", "HWN", "267481", "148429", "55", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 218, "53F4313D-BF69-4DB5-88D7-0E310EF6E680", 218, 1416466696, "697478", 1416466929, "697478", null, "2014-10-31T00:00:00", "BHT", "2292937", "1647737", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 219, "278461C2-DD87-41D8-A13E-A86FF692359D", 219, 1416466699, "697478", 1416466960, "697478", null, "2014-10-31T00:00:00", "FMT", "3577069", "2624815", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 220, "1E1EC89D-7928-4532-8EB6-F25EBFD80908", 220, 1416466701, "697478", 1416466992, "697478", null, "2014-10-31T00:00:00", "FSK", "1000940", "786143", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 221, "BA8401F3-5142-4BA1-A2F1-3E4607C18C46", 221, 1416466704, "697478", 1416467044, "697478", "{\"invalidCells\":{\"location\":\"39.289249, \"}}", "2014-10-31T00:00:00", "JFK", "1189836", "817233", "69", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.289249", "-76.072845", null, false ] ]
+, [ 222, "07682B47-7E4D-4CC5-ADA9-86A942198237", 222, 1416466706, "697478", 1416467074, "697478", null, "2014-10-31T00:00:00", "HMB", "434940", "406511", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 223, "804BDCCB-0453-4215-904E-AE8F25A3DEF9", 223, 1416466709, "697478", 1416467117, "697478", null, "2014-10-31T00:00:00", "WPL", "1077037", "741809", "69", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 224, "D850BA7E-9275-4D64-8669-0481DA0469D1", 224, 1416466712, "697478", 1416467156, "697478", null, "2014-10-31T00:00:00", "HWN", "290214", "160988", "55", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 225, "EAAD4D93-BD5F-4C11-85E4-73566D7D80E7", 225, 1416466716, "697478", 1416467191, "697478", null, "2014-10-31T00:00:00", "ICC", "1975748", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 226, "AC58A68A-CC1B-48CC-8592-FCA675322C7A", 226, 1420637782, "697478", 1420637997, "697478", null, "2014-11-30T00:00:00", "BHT", "2115576", "1496222", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 227, "1C3A5FEB-D8A6-4FD6-992F-143FA3988E17", 227, 1420637785, "697478", 1420638026, "697478", null, "2014-11-30T00:00:00", "FMT", "3371106", "2433848", "72", null, [ "{\"address\":\"3990 Leland Avw\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 228, "73EA95D0-8129-4905-AE8F-C713C3C4BBF3", 228, 1420637787, "697478", 1420638057, "697478", null, "2014-11-30T00:00:00", "FSK", "849478", "657122", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 229, "96CE2857-D9D2-4495-B9DF-A43A8009F0FB", 229, 1420637790, "697478", 1420638097, "697478", null, "2014-11-30T00:00:00", "JFK", "1218184", "833241", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 230, "3E008BE1-62AE-45B1-87FB-BF454B88287D", 230, 1420637792, "697478", 1420638128, "697478", null, "2014-11-30T00:00:00", "HMB", "396197", "368689", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 232, "DC4CDEAB-97A9-4095-856E-1B3C12D9DC09", 232, 1420637801, "697478", 1420638184, "697478", null, "2014-11-30T00:00:00", "HWN", "269671", "143063", "53", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 233, "FB26FE8B-26D4-45DB-8071-E22050F07C8D", 233, 1420637804, "697478", 1420638216, "697478", null, "2014-11-30T00:00:00", "ICC", "1843448", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 231, "0D0D0F05-6D0E-4DB8-955E-24BAC21C13F9", 231, 1420637796, "697478", 1420638158, "697478", null, "2014-11-30T00:00:00", "WPL", "974562", "663324", "68", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 244, "7A4790E9-8110-42A5-9AC0-A20BC12B800B", 244, 1423644319, "697478", 1423645035, "697478", null, "2015-01-31T00:00:00", "FSK", "792714", "627278", "79", null, [ "{\"address\":\"303 Authority Dr\",\"city\":\"Baltimore\",\"state\":\"MD 2122\",\"zip\":\"\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 247, "253D3EFC-B0A4-4D5F-980F-394168D619B6", 247, 1423644331, "697478", 1423645138, "697478", null, "2015-01-31T00:00:00", "WPL", "840555", "599822", "71", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 249, "DF64C617-3871-4DFD-AB9F-AC1BF741E2C5", 249, 1423644337, "697478", 1423645211, "697478", null, "2015-01-31T00:00:00", "ICC", "1779279", null, null, "Transponder data not yet available ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 236, "DE00606E-E00E-4985-B063-7EE223485E18", 236, 1423642479, "697478", 1423642764, "697478", null, "2014-12-31T00:00:00", "FSK", "864306", "670502", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 241, "787DB350-968B-4173-A43B-7186B55F8F92", 241, 1423642496, "697478", 1423644305, "697478", null, "2014-12-31T00:00:00", "ICC", "1851956", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 248, "8873263E-468D-4CA6-A6BC-502964864E70", 248, 1423644334, "697478", 1423645169, "697478", null, "2015-01-31T00:00:00", "HWN", "220544", "128804", "58", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 235, "40A9D78C-0416-4B6D-9C67-E17A87A19929", 235, 1423642476, "697478", 1423642739, "697478", null, "2014-12-31T00:00:00", "FMT", "3490893", "2523207", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 237, "40803AAD-8060-45B9-B3C4-148DB9B1FD8A", 237, 1423642482, "697478", 1423642812, "697478", null, "2014-12-31T00:00:00", "HMB", "414226", "385749", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 234, "4CD243B6-36C5-4AF8-9DE8-C32A3989C2BE", 234, 1423642472, "697478", 1423642713, "697478", null, "2014-12-31T00:00:00", "BHT", "2220344", "1586860", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 238, "97B7C414-C5A1-4A89-B4D0-08C5575A946C", 238, 1423642485, "697478", 1423642841, "697478", null, "2014-12-31T00:00:00", "JFK", "1217745", "825399", "67", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 239, "2C5AF0AB-9EDD-45D0-9942-E0B70C4D939D", 239, 1423642488, "697478", 1423644232, "697478", null, "2014-12-31T00:00:00", "WPL", "969416", "667744", "68", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 240, "4A25D6D3-7B76-4829-9C7C-11FF8F74966F", 240, 1423642493, "697478", 1423644268, "697478", null, "2014-12-31T00:00:00", "HWN", "270237", "148503", "55", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 242, "7AE6ED5F-86AE-4902-A7F3-E3C22A89B0F8", 242, 1423644312, "697478", 1423644979, "697478", null, "2015-01-31T00:00:00", "BHT", "1990269", "1453359", "78", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Balitmore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 243, "89C293E3-2548-4ADC-9586-AD1FFC6BEAE9", 243, 1423644316, "697478", 1423645005, "697478", null, "2015-01-31T00:00:00", "FMT", "3122592", "2314282", "74", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 245, "68F7D354-7830-4905-8F3E-44F8AF3CB36D", 245, 1423644322, "697478", 1423645072, "697478", null, "2015-01-31T00:00:00", "HMB", "379234", "357557", "94", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 246, "787E2C70-E6D1-44DB-8924-23D3A726777C", 246, 1423644325, "697478", 1423645101, "697478", null, "2015-01-31T00:00:00", "JFK", "978253", "679133", "69", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 250, "F7E2C468-4A55-47DB-AECC-55AE742E967E", 250, 1430901821, "697478", 1430902025, "697478", null, "2015-02-28T00:00:00", "BHT", "1844826", "1326082", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 251, "4C76C210-4709-45F6-A793-5449194632CA", 251, 1430901836, "697478", 1430902047, "697478", null, "2015-02-28T00:00:00", "FMT", "2926808", "2174269", "74", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 252, "B1258321-8D47-47A1-86BF-3946E309000A", 252, 1430901840, "697478", 1430902085, "697478", null, "2015-02-28T00:00:00", "FSK", "743389", "587101", "79", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 253, "5A77C315-AB44-4273-9BB5-370C61379899", 253, 1430901841, "697478", 1430902114, "697478", null, "2015-02-28T00:00:00", "JFK", "892003", "625753", "70", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 254, "7FFCA23A-58FD-4C28-B6D6-42C0A5A6783A", 254, 1430901841, "697478", 1430902151, "697478", null, "2015-02-28T00:00:00", "HMB", "357139", "336394", "94", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 255, "D7C05351-2A93-4D10-86DD-25DA152C71AB", 255, 1430901849, "697478", 1430902195, "697478", null, "2015-02-28T00:00:00", "WPL", "752323", "540840", "72", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 256, "233B7A90-4B03-48EB-9D8A-F11F7160F3DB", 256, 1430901852, "697478", 1430902224, "697478", null, "2015-02-28T00:00:00", "HWN", "191056", "113750", "59", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 257, "872439FB-BE4F-4057-B37F-58C8C0455BCD", 257, 1430901864, "697478", 1430902496, "697478", null, "2015-02-28T00:00:00", "ICC", "1801689", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 261, "53BA250C-D0BF-439D-BA3E-34C7F4CD20FA", 261, 1430902258, "697478", 1430902579, "697478", null, "2015-03-31T00:00:00", "BHT", "2166035", "1532985", "71", null, [ "{\"address\":\"1200 Frankfurt Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 259, "7777FCD8-9E23-4747-89F4-A031615159C4", 259, 1430902254, "697478", 1430902605, "697478", null, "2015-03-31T00:00:00", "FMT", "3461609", "2529958", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 260, "5CAFF742-2824-498B-AB2F-BB80FB535C01", 260, 1430902255, "697478", 1430902638, "697478", null, "2015-03-31T00:00:00", "FSK", "883423", "690648", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 258, "CAE47976-FEFC-43F5-851F-FCB684D8764F", 258, 1430902250, "697478", 1430902670, "697478", null, "2015-03-31T00:00:00", "JFK", "1143547", "785669", "69", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 262, "9CB4D6FF-CA35-4550-BFA3-C88D29BFDA26", 262, 1430902262, "697478", 1430902705, "697478", null, "2015-03-31T00:00:00", "HMB", "406776", "380854", "94", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 263, "D2C8F53C-D58C-4035-A01D-CB1560151D85", 263, 1430902268, "697478", 1430902740, "697478", null, "2015-03-31T00:00:00", "WPL", "919834", "649809", "71", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 264, "A64E6E85-F19E-4FBF-934C-551D56147C16", 264, 1430902279, "697478", 1430902775, "697478", null, "2015-03-31T00:00:00", "HWN", "244803", "142416", "58", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 265, "CFF271A4-A029-46E0-8770-E5D358FBB44C", 265, 1430902375, "697478", 1430902810, "697478", null, "2015-03-31T00:00:00", "ICC", "1950398", null, null, "Data not yet available ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 267, "B1402731-90EA-4761-9DFE-DE87A0EE294F", 267, 1434438381, "697478", 1434438953, "697478", null, "2015-04-30T00:00:00", "FMT", "3624857", "2628087", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 268, "2404F3F7-B8EE-44E9-8C13-300007146E04", 268, 1434438384, "697478", 1434438991, "697478", null, "2015-04-30T00:00:00", "FSK", "986024", "768765", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 269, "5419EE48-A2D7-42B2-A776-A7B08A4EEE15", 269, 1434438387, "697478", 1434439030, "697478", null, "2015-04-30T00:00:00", "JFK", "1342485", "924227", "69", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 270, "D62053B6-FF0A-4BAF-B53D-99121396A62A", 270, 1434438391, "697478", 1434439069, "697478", null, "2015-04-30T00:00:00", "HMB", "444098", "411672", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 271, "0A04BE93-1195-4D7D-B4F0-98E56A47D1A6", 271, 1434438395, "697478", 1434439133, "697478", null, "2015-04-30T00:00:00", "WPL", "1065880", "733576", "69", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 273, "78C07A87-E4C0-43E3-B273-F95FD8AF938D", 273, 1434438404, "697478", 1434439198, "697478", null, "2015-04-30T00:00:00", "ICC", "2284564", null, null, "transponder data not yet available", [ "{\"address\":\"19602 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 274, "D1B3FFC5-DD3D-4C53-A42E-161DB74BAAD8", 274, 1434438483, "697478", 1434439233, "697478", null, "2015-05-31T00:00:00", "BHT", "2508649", "1735894", "69", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 266, "8C5E7B36-B3B4-4557-A857-7CFA0F087BFF", 266, 1434438370, "697478", 1434438928, "697478", null, "2015-04-30T00:00:00", "BHT", "2439148", "1732407", "71", null, [ "{\"address\":\"1200 Frankfurst\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 275, "7E2CB679-3AF2-4CB2-99BC-04150D25AF7B", 275, 1434438485, "697478", 1434439272, "697478", null, "2015-05-31T00:00:00", "FMT", "3698772", "2612391", "71", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 276, "E0B1603F-33AB-431B-A704-6AF0BC83368D", 276, 1434438487, "697478", 1434439286, "697478", null, "2015-05-31T00:00:00", "FSK", "1001750", "763747", "76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 277, "6D5919BB-BA03-4D31-9DE6-4669D558E56F", 277, 1434438489, "697478", 1434439332, "697478", null, "2015-05-31T00:00:00", "JFK", "1449859", "972315", "67", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 278, "C10C6E98-17E8-46FA-B1D7-464B8CE3BEB1", 278, 1434438491, "697478", 1434439365, "697478", null, "2015-05-31T00:00:00", "HMB", "447863", "411215", "92", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 279, "82E39862-3E59-4296-9353-69518BF0F665", 279, 1434438493, "697478", 1434439397, "697478", null, "2015-05-31T00:00:00", "WPL", "1234079", "800424", "65", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 280, "AF74FED4-7644-462F-86F0-1E11C8C49C2F", 280, 1434438495, "697478", 1434439451, "697478", "{\"invalidCells\":{\"location\":\"38.364741, \"}}", "2015-05-31T00:00:00", "HWN", "316182", "166423", "53", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 281, "91481F12-5787-4DF3-A54D-658DA01EE02B", 281, 1434438497, "697478", 1434439475, "697478", null, "2015-05-31T00:00:00", "ICC", "2044997", null, null, "transponder data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 272, "3474702A-6B78-4AA4-88B9-70EBF39AA258", 272, 1434438401, "697478", 1434439168, "697478", null, "2015-04-30T00:00:00", "HWN", "281293", "159111", "57", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 282, "68B59834-0F90-456B-8D10-8A493854AB59", 282, 1438665432, "697478", 1438665622, "697478", null, "2015-06-30T00:00:00", "BHT", "2455720", "1713509", "70", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 283, "23D8CAFE-D2F0-4150-A936-AC313172FE7C", 283, 1438665435, "697478", 1438665655, "697478", null, "2015-06-30T00:00:00", "FMT", "3647185", "2580549", "71", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 284, "072BE79A-4199-4AE1-8A09-780C4794A4EA", 284, 1438665439, "697478", 1438665682, "697478", null, "2015-06-30T00:00:00", "FSK", "1007244", "777399", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 285, "6F1D1F12-64D5-4304-879F-B955824B276C", 285, 1438665442, "697478", 1438665713, "697478", null, "2015-06-30T00:00:00", "JFK", "1349598", "889406", "66", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 286, "8116C871-B166-4EEA-BED0-6080A43A5424", 286, 1438665445, "697478", 1438665737, "697478", null, "2015-06-30T00:00:00", "HMB", "443122", "407494", "92", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 287, "D30486B8-A212-437D-9017-4FB434395E13", 287, 1438665449, "697478", 1438665775, "697478", null, "2015-06-30T00:00:00", "HWN", "311122", "167192", "53", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 288, "E7D655F4-04FB-41AB-BCEB-30AC5AA7D5D0", 288, 1438665455, "697478", 1438665807, "697478", null, "2015-06-30T00:00:00", "WPL", "1248844", "807414", "65", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 289, "2E7275F9-562D-4147-A485-5AFA0233721F", 289, 1438665459, "697478", 1443077804, "697478", "{}", "2015-06-30T00:00:00", "ICC", "1827460", null, null, "Data not yet available ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 291, "A12CA379-12F5-4722-A3BE-B90ECB293A98", 291, 1443077599, "697478", 1443078091, "697478", "{\"invalidCells\":{\"location\":\"39.2661, \"}}", "2015-07-31T00:00:00", "FMT", "3749357", "2605409", "69", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.451575", null, false ] ]
+, [ 294, "030DEB63-1C07-4E10-B9AB-DB9645FF49FA", 294, 1443077609, "697478", 1443078193, "697478", null, "2015-07-31T00:00:00", "HMB", "459600", "417837", "91", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 296, "A288CFCA-F9E1-488F-9B84-C8D6A6131C77", 296, 1443077618, "697478", 1443078265, "697478", null, "2015-07-31T00:00:00", "WPL", "1389029", "873685", "63", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 303, "2A5E8EAB-1D21-4CCB-831E-F0B19CE59709", 303, 1443077641, "697478", 1443078664, "697478", null, "2015-08-31T00:00:00", "HWN", "353609", "181424", "51", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 304, "4DEFFD39-8BEC-4CB3-A0C4-9A21E6E879D3", 304, 1443077643, "697478", 1443078697, "697478", null, "2015-08-31T00:00:00", "WPL", "1349498", "856040", "63", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 305, "56B980AC-549F-4513-A460-937FFF4C90E7", 305, 1443077645, "697478", 1443078731, "697478", null, "2015-08-31T00:00:00", "ICC", "1976488", null, null, "Data not yet available ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.1222199", "-77.188097", null, false ] ]
+, [ 297, "11DBA5C9-B629-4B5D-87F5-27B942007FC4", 297, 1443077622, "697478", 1443078003, "697478", null, "2015-07-31T00:00:00", "ICC", "1814807", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 290, "70D710CB-C735-427A-8846-DFE006E818FD", 290, 1443077595, "697478", 1443078079, "697478", null, "2015-07-31T00:00:00", "BHT", "2607462", "1797893", "68", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 292, "CF288872-CCE3-474A-8495-97C2973CBA97", 292, 1443077603, "697478", 1443078120, "697478", null, "2015-07-31T00:00:00", "FSK", "1037048", "791332", "76", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 293, "F14EED2E-2382-44A9-824D-1A6F79FA27FF", 293, 1443077606, "697478", 1443078150, "697478", null, "2015-07-31T00:00:00", "JFK", "1494886", "972657", "65", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 295, "7A67BBEF-2442-4494-B104-C93F90AAF8C7", 295, 1443077612, "697478", 1443078231, "697478", null, "2015-07-31T00:00:00", "HWN", "355392", "184262", "52", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 298, "72A23E17-6202-47A2-B378-C31505DACAA1", 298, 1443077625, "697478", 1443078508, "697478", null, "2015-08-31T00:00:00", "BHT", "2403173", "1830447", "76", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 299, "0DBE19A9-E79C-4F87-9802-CAFF1ED1261B", 299, 1443077627, "697478", 1443078532, "697478", null, "2015-08-31T00:00:00", "FMT", "3797829", "2626724", "69", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 300, "10DD0A54-A213-4012-86A9-39EFAB6A19E3", 300, 1443077630, "697478", 1443078567, "697478", null, "2015-08-31T00:00:00", "FSK", "980144", "771726", "77", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 301, "3E577372-AF7F-4F9A-94ED-BBFA7EF896F4", 301, 1443077632, "697478", 1443078597, "697478", null, "2015-08-31T00:00:00", "JFK ", "1496865", "1001368", "67", null, [ "{\"address\":\"1 Turnpike Ave\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 302, "AEBBF2AB-267E-49CC-BF57-7BB7C64B1EA1", 302, 1443077634, "697478", 1443078629, "697478", null, "2015-08-31T00:00:00", "HMB", "447290", "418099", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 307, "02AEFEF0-0CAF-4D05-8CA7-10EAA2F86464", 307, 1449558902, "697478", 1449559435, "697478", null, "2015-09-30T00:00:00", "FMT", "3410682", "2469505", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 308, "14128E9C-807D-4DE1-AE7D-3B5F567D9188", 308, 1449558905, "697478", 1449559471, "697478", null, "2015-09-30T00:00:00", "FSK", "961040", "746525", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 311, "5CECBD50-F025-4717-AF9D-7D50670CEF3A", 311, 1449558914, "697478", 1449559654, "697478", null, "2015-09-30T00:00:00", "HWN", "282494", "159568", "56", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 312, "5B9190B2-F2C8-4720-92F3-6CFB43AA2973", 312, 1449558918, "697478", 1449559688, "697478", null, "2015-09-30T00:00:00", "BAY", "1158104", "772036", "66", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 319, "B204B7E3-A587-438F-8589-D0FA20464558", 319, 1449558947, "697478", 1449559917, "697478", null, "2015-10-31T00:00:00", "HWN", "287371", "164217", "57", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 320, "5BD915BC-43C4-493D-BC11-E87A4ABB9A1B", 320, 1449558955, "697478", 1449559949, "697478", null, "2015-10-31T00:00:00", "BAY", "1092104", "758127", "69", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 306, "4923374B-E678-485F-9EE8-4425031B6654", 306, 1449558898, "697478", 1449559404, "697478", null, "2015-09-30T00:00:00", "BHT", "2402625", "1703571", "71", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 310, "25F365F5-0104-4A15-9D43-EDD7F9125C73", 310, 1449558911, "697478", 1449559561, "697478", null, "2015-09-30T00:00:00", "JFK", "1206325", "822000", "68", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 309, "02C1748F-6498-4056-9DE4-C294890196DF", 309, 1449558908, "697478", 1449559620, "697478", "{\"invalidCells\":{\"location\":\"39.567807, -76073059\"}}", "2015-09-30T00:00:00", "HMB", "427768", "396609", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 313, "631913B7-0B1D-4158-9703-2D2F6BEA59B1", 313, 1449558925, "697478", 1449559714, "697478", null, "2015-09-30T00:00:00", "ICC", "1945617", null, null, "Data currently not available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 314, "7A79EAA4-FDC7-4741-BCD9-3CC1A7DBB10B", 314, 1449558930, "697478", 1449559744, "697478", null, "2015-10-31T00:00:00", "BHT", "2451651", "1760681", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 315, "8C80D9AE-A45D-4433-9433-3A33174B5F08", 315, 1449558934, "697478", 1449559770, "697478", null, "2015-10-31T00:00:00", "FMT", "3634701", "2660438", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 316, "F6F60028-8FD7-473E-B215-E9E453DD4484", 316, 1449558937, "697478", 1449559803, "697478", null, "2015-10-31T00:00:00", "FSK", "980176", "765508", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 317, "FFDF206A-E72E-4290-9337-1BF260E26931", 317, 1449558940, "697478", 1449559862, "697478", "{\"invalidCells\":{\"location\":\"39.567807, \"}}", "2015-10-31T00:00:00", "HMB", "440901", "411130", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 318, "2A0C2823-6894-4D0D-A188-8CC0AC3D47F1", 318, 1449558944, "697478", 1449559886, "697478", null, "2015-10-31T00:00:00", "JFK", "1244735", "872185", "70", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 321, "20D7DEBD-E48F-44F2-8A4A-74F3CEEB3C70", 321, 1449558958, "697478", 1449559977, "697478", null, "2015-10-31T00:00:00", "ICC", "2016156", null, null, "Data currently not available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 325, "2A448318-0639-4092-9144-A5A39576933B", 325, 1454400616, "697478", 1454401014, "697478", null, "2015-11-30T00:00:00", "HMB", "407229", "380235", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 326, "30C73B0C-B0BC-462D-BBB8-2D9878DD5F76", 326, 1454400619, "697478", 1454401040, "697478", null, "2015-11-30T00:00:00", "JFK", "1278476", "895054", "70", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 327, "2054A45E-18E2-412F-8BB3-7A33259A0903", 327, 1454400623, "697478", 1454401086, "697478", null, "2015-11-30T00:00:00", "HWN", "275531", "153442", "56", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 328, "4C21D0D4-2F89-4A76-B0DA-F48602452B22", 328, 1454400627, "697478", 1454401121, "697478", null, "2015-11-30T00:00:00", "WPL", "1011576", "701273", "69", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 329, "0F1EEFF6-222B-4421-91C3-56B2DBA4F886", 329, 1454400634, "697478", 1454401146, "697478", null, "2015-11-30T00:00:00", "ICC", "2420471", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Hwy\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 330, "F3D9E14D-2E5D-4EBB-8369-DA3B6069DC30", 330, 1454400640, "697478", 1454401182, "697478", null, "2015-12-31T00:00:00", "BHT", "2357497", "1699837", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 331, "09CC6A51-D39D-41A1-B381-F78A37DE9BE8", 331, 1454400643, "697478", 1454401229, "697478", null, "2015-12-31T00:00:00", "FMT", "3655452", "2652519", "72", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.51575", null, false ] ]
+, [ 332, "AC671614-4574-4204-988D-A698473F6DDD", 332, 1454400646, "697478", 1454401263, "697478", null, "2015-12-31T00:00:00", "FSK", "916136", "713829", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 333, "8184E25F-2B09-4CF3-B472-B9608291637A", 333, 1454400649, "697478", 1454401315, "697478", null, "2015-12-31T00:00:00", "HMB", "422636", "394263", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 334, "DC2E747E-2F7C-4705-A22B-6ABF8DAEFE14", 334, 1454400654, "697478", 1454401350, "697478", null, "2015-12-31T00:00:00", "JFK", "1238987", "886270", "72", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 336, "8238AC33-0B0A-42F9-B7A0-5670C2D93F32", 336, 1454400665, "697478", 1454401455, "697478", null, "2015-12-31T00:00:00", "WPL", "1020372", "713591", "70", null, [ "{\"address\":\"850 Revell Hey\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.013338", "-76.406716", null, false ] ]
+, [ 322, "942ABEEB-286D-4219-8E65-01EDDDBA90A4", 322, 1454400604, "697478", 1454400931, "697478", null, "2015-11-30T00:00:00", "BHT", "2333680", "1676006", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 323, "22126312-50EF-4257-AF19-E0E8ECDF73B3", 323, 1454400608, "697478", 1454400956, "697478", null, "2015-11-30T00:00:00", "FMT", "3519507", "2560625", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 335, "39995F62-848F-4A99-8482-484E6F67132B", 335, 1454400661, "697478", 1454401408, "697478", "{\"invalidCells\":{\"location\":\"38.364741, \"}}", "2015-12-31T00:00:00", "HWN", "282219", "159170", "56", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 337, "143F141A-342C-45C8-B513-B0AE53411454", 337, 1454400668, "697478", 1454401500, "697478", null, "2015-12-31T00:00:00", "ICC", "2377865", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 324, "A3EFF301-4573-4393-9155-0C6C52AEE542", 324, 1454400612, "697478", 1454400980, "697478", null, "2015-11-30T00:00:00", "FSK", "888710", "692644", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 340, "3D30A41B-5AD5-4342-8860-3CA5FDCBAB90", 340, 1463050467, "697478", 1463050902, "697478", null, "2016-01-31T00:00:00", "FSK", "916136", "616655", "67", null, [ "{\"address\":\"303 Authority Dr\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 339, "96C6F30D-6E6F-4A75-8254-99F74CEFABF0", 339, 1463050461, "697478", 1463050870, "697478", null, "2016-01-31T00:00:00", "FMT", "3655452", "2247437", "61", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 341, "146251BD-70D9-490D-9C52-51F91095E76B", 341, 1463050471, "697478", 1463050946, "697478", null, "2016-01-31T00:00:00", "JFK", "1283987", "696059", "54", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.5892349", "-76.072845", null, false ] ]
+, [ 342, "2E9C089F-523F-48CC-AE9C-8824011333A5", 342, 1463050475, "697478", 1463050990, "697478", null, "2016-01-31T00:00:00", "HMB", "422636", "344743", "82", null, [ "{\"address\":\"6000 Pulaksi Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 343, "374CFD9F-7857-4BAB-B293-E94F5885058E", 343, 1463050478, "697478", 1463051033, "697478", null, "2016-01-31T00:00:00", "WPL", "1020372", "589551", "58", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 344, "5A6C309C-6E36-4EDD-A19C-15CFEA3E7E22", 344, 1463050483, "697478", 1463051074, "697478", null, "2016-01-31T00:00:00", "HWN", "282219", "125563", "45", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 338, "505F43CB-3A60-4EE2-88E8-46DA14E5D844", 338, 1463050455, "697478", 1463050829, "697478", null, "2016-01-31T00:00:00", "BHT", "2357497", "1477830", "63", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 345, "D7C59052-C445-4A0C-BC34-3FECC0A9FF15", 345, 1463050491, "697478", 1463052469, "697478", null, "2016-01-31T00:00:00", "ICC", "2377865", null, null, "Data not yet avialable", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 347, "4DC0EFF2-79B3-41C0-A6C3-953A0D7910C5", 347, 1463052290, "697478", 1463052599, "697478", null, "2016-02-29T00:00:00", "FMT", "3219963", "2375753", "74", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 350, "98961860-3D67-4666-8654-FEA043451C18", 350, 1463052301, "697478", 1463052722, "697478", null, "2016-02-29T00:00:00", "HMB", "386082", "362781", "94", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 351, "7103F687-0B30-4510-9355-5D1E66E772A2", 351, 1463052304, "697478", 1463052772, "697478", null, "2016-02-29T00:00:00", "WPL", "852210", "616150", "72", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 352, "0F1E3C4D-98AB-42E8-B264-83A4A049B183", 352, 1463052308, "697478", 1463052822, "697478", null, "2016-02-29T00:00:00", "HWN", "216380", "132207", "61", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 356, "E64B1A63-3734-4E55-8500-DA040CD6874E", 356, 1463052881, "697478", 1463053475, "697478", null, "2016-03-31T00:00:00", "FSK", "981051", "769391", "78", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 362, "A99FB172-1986-4FC7-AF08-1F36FA949D31", 362, 1463053397, "697478", 1463053651, "697478", null, "2016-04-30T00:00:00", "BHT", "2359664", "1706649", "72", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 346, "C84B62BB-2AB4-4165-B14D-8A273C51319B", 346, 1463052286, "697478", 1463052573, "697478", null, "2016-02-29T00:00:00", "BHT", "2150069", "1585011", "74", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 348, "AB213F7E-B11E-44F8-83BC-0349F374278A", 348, 1463052293, "697478", 1463052642, "697478", null, "2016-02-29T00:00:00", "FSK", "844543", "667791", "79", null, [ "{\"address\":\"303 Authority Drive\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 349, "62E439E7-2027-48E6-989C-47869D008604", 349, 1463052297, "697478", 1463052686, "697478", null, "2016-02-29T00:00:00", "JFK", "996820", "711816", "71", null, [ "{\"address\":\"1 Turnpike Dr\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 353, "E1774A1D-A7A2-48E0-875C-C9954FE743E0", 353, 1463052315, "697478", 1463052863, "697478", null, "2016-02-29T00:00:00", "ICC", "2166141", null, null, "Data not yet available", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 354, "BD123583-BBE7-42D3-95FC-661EA3C3530C", 354, 1463052873, "697478", 1463053471, "697478", null, "2016-03-31T00:00:00", "BHT", "2468766", "1803267", "73", null, [ "{\"address\":\"1200 Frankfurst Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21226\"}", "39.240612", "-76.587157", null, false ] ]
+, [ 355, "70B7A542-C51A-4005-8965-74C9E579D1E7", 355, 1463052877, "697478", 1463053473, "697478", null, "2016-03-31T00:00:00", "FMT", "3776529", "2769020", "73", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 357, "554EA270-25E1-4F34-9EB8-E7E909DF079E", 357, 1463052884, "697478", 1463053478, "697478", null, "2016-03-31T00:00:00", "JFK", "1283146", "905108", "70", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 358, "BD99F54B-E01D-4284-AA78-008439254871", 358, 1463052887, "697478", 1463053481, "697478", null, "2016-03-31T00:00:00", "HMB", "445205", "414849", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 360, "88E8528A-A184-4127-869F-FDD484DE26BF", 360, 1463052897, "697478", 1463053488, "697478", null, "2016-03-31T00:00:00", "HWN", "275973", "163370", "59", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 361, "8B9458B0-ABBA-4E95-B4BE-B7258FD35444", 361, 1463052904, "697478", 1463053391, "697478", null, "2016-03-31T00:00:00", "ICC", "2406785", null, null, "Data not available ", [ "{\"address\":\"16902 Crabbs Branch Way\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+, [ 359, "1F8EDCEA-31CC-4F94-8261-C8D96E580B5B", 359, 1463052892, "697478", 1463053485, "697478", null, "2016-03-31T00:00:00", "WPL", "1040913", "739359", "71", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 363, "60798678-665E-4A8C-8F53-A55FFE56B5AD", 363, 1463053400, "697478", 1463053685, "697478", null, "2016-04-30T00:00:00", "FMT", "3739531", "2762539", "74", null, [ "{\"address\":\"3990 Leland Ave\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21224\"}", "39.2661", "-76.561575", null, false ] ]
+, [ 364, "99465A54-D19D-43BD-9F7B-52C6770DE4F8", 364, 1463053403, "697478", 1463053728, "697478", null, "2016-04-30T00:00:00", "FSK", "986067", "754773", "77", null, [ "{\"address\":\"303 Authority Dr\",\"city\":\"Baltimore\",\"state\":\"MD\",\"zip\":\"21222\"}", "39.230495", "-76.510661", null, false ] ]
+, [ 365, "C32C0F69-C012-4C41-9CD6-D2ED0627305E", 365, 1463053408, "697478", 1463053768, "697478", null, "2016-04-30T00:00:00", "JFK", "1316485", "930121", "71", null, [ "{\"address\":\"1 Turnpike\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.589249", "-76.072845", null, false ] ]
+, [ 367, "6B7222AA-757C-45AB-AEAC-1395F383DACC", 367, 1463053415, "697478", 1463053833, "697478", null, "2016-04-30T00:00:00", "WPL", "1062803", "746914", "70", null, [ "{\"address\":\"850 Revell Hwy\",\"city\":\"Annapolis\",\"state\":\"MD\",\"zip\":\"21409\"}", "39.01338", "-76.406716", null, false ] ]
+, [ 366, "FE4F2F1B-9FA5-420A-BF5E-0661632FCE75", 366, 1463053412, "697478", 1463053804, "697478", null, "2016-04-30T00:00:00", "HMB", "428375", "399423", "93", null, [ "{\"address\":\"6000 Pulaski Hwy\",\"city\":\"Perryville\",\"state\":\"MD\",\"zip\":\"21903\"}", "39.567807", "-76.073059", null, false ] ]
+, [ 368, "495324D8-DE6D-4ABB-B7FA-DCB27B41758B", 368, 1463053422, "697478", 1463053875, "697478", null, "2016-04-30T00:00:00", "HWN", "272205", "158076", "58", null, [ "{\"address\":\"9665 Orland Park Rd\",\"city\":\"Newburg\",\"state\":\"MD\",\"zip\":\"20664\"}", "38.364741", "-76.9761", null, false ] ]
+, [ 369, "806A210A-BED2-4CD1-A124-CC9EB56759C4", 369, 1463053425, "697478", 1463053919, "697478", null, "2016-04-30T00:00:00", "ICC", "2497769", null, null, "Data not available", [ "{\"address\":\"16902 Crabbs Branch Rd\",\"city\":\"Rockville\",\"state\":\"MD\",\"zip\":\"20855\"}", "39.122199", "-77.188097", null, false ] ]
+ ]
+}

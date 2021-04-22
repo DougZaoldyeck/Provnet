@@ -1,0 +1,1691 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "enuh-nnva",
+      "name" : "Santa Rosa Police Arrest Log",
+      "averageRating" : 0,
+      "category" : "Police",
+      "createdAt" : 1487127752,
+      "description" : "Location information for arrests/arrestees that include the following Penal Codes has been ommitted: 220, 236.1, 243.4, 261, 261.5, 262, 262(a)(1), 264, 264.1, 265, 266, 266(a), 266(b), 266(c), 266(e), 266(f), 266(j), 267, 269, 269(a), 273(a), 273(d), 273.5, 285, 286, 288, 288(a), 288.2, 288.3,  288.5, 288.7, 289, 422.6, 422.7, 422.75, 646.9, 647.6,  as well as Welfare and Institutions Code 5150 or Business and Professions Code 729(a).",
+      "displayType" : "table",
+      "downloadCount" : 752,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1504075836,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 25461004,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1487380355,
+      "publicationGroup" : 14042429,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 290586887,
+      "rowsUpdatedAt" : 1504075829,
+      "rowsUpdatedBy" : "u2re-x7kp",
+      "tableId" : 14048231,
+      "totalTimesRated" : 0,
+      "viewCount" : 638,
+      "viewLastModified" : 1504075813,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 290586866,
+        "name" : "DATE_ARRESTED",
+        "dataTypeName" : "text",
+        "fieldName" : "date_arr",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839869,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "08-29-2017",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "08-23-2017",
+            "count" : 20
+          }, {
+            "item" : "08-24-2017",
+            "count" : 19
+          }, {
+            "item" : "08-25-2017",
+            "count" : 18
+          }, {
+            "item" : "08-26-2017",
+            "count" : 17
+          }, {
+            "item" : "08-27-2017",
+            "count" : 16
+          }, {
+            "item" : "08-28-2017",
+            "count" : 15
+          }, {
+            "item" : "08-29-2017",
+            "count" : 14
+          } ],
+          "smallest" : "08-23-2017"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 290586867,
+        "name" : "Arrest_ID",
+        "dataTypeName" : "number",
+        "fieldName" : "arrest_id",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43839870,
+        "width" : 111,
+        "cachedContents" : {
+          "largest" : "2017006205",
+          "non_null" : 299,
+          "average" : "2017006111.197324",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2017006092",
+            "count" : 20
+          }, {
+            "item" : "2017006121",
+            "count" : 19
+          }, {
+            "item" : "2017006122",
+            "count" : 18
+          }, {
+            "item" : "2017006130",
+            "count" : 17
+          }, {
+            "item" : "2017006138",
+            "count" : 16
+          }, {
+            "item" : "2017006141",
+            "count" : 15
+          }, {
+            "item" : "2017006146",
+            "count" : 14
+          }, {
+            "item" : "2017006147",
+            "count" : 13
+          }, {
+            "item" : "2017006164",
+            "count" : 12
+          }, {
+            "item" : "2017006169",
+            "count" : 11
+          }, {
+            "item" : "2017006170",
+            "count" : 10
+          }, {
+            "item" : "2017006171",
+            "count" : 9
+          }, {
+            "item" : "2017006172",
+            "count" : 8
+          }, {
+            "item" : "2017006173",
+            "count" : 7
+          }, {
+            "item" : "2017006174",
+            "count" : 6
+          }, {
+            "item" : "2017006176",
+            "count" : 5
+          }, {
+            "item" : "2017006177",
+            "count" : 4
+          }, {
+            "item" : "2017006180",
+            "count" : 3
+          }, {
+            "item" : "2017006182",
+            "count" : 2
+          }, {
+            "item" : "2017006183",
+            "count" : 1
+          } ],
+          "smallest" : "2017006021",
+          "sum" : "603084827248"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 290586868,
+        "name" : "Case_Number",
+        "dataTypeName" : "number",
+        "fieldName" : "case",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43839871,
+        "width" : 99,
+        "cachedContents" : {
+          "largest" : "171454302",
+          "non_null" : 299,
+          "average" : "170165907.7023411",
+          "null" : 0,
+          "top" : [ {
+            "item" : "170011195",
+            "count" : 20
+          }, {
+            "item" : "170011232",
+            "count" : 19
+          }, {
+            "item" : "170011223",
+            "count" : 18
+          }, {
+            "item" : "170011241",
+            "count" : 17
+          }, {
+            "item" : "170011260",
+            "count" : 16
+          }, {
+            "item" : "170011256",
+            "count" : 15
+          }, {
+            "item" : "170011321",
+            "count" : 14
+          }, {
+            "item" : "170011324",
+            "count" : 13
+          }, {
+            "item" : "170011344",
+            "count" : 12
+          }, {
+            "item" : "171426475",
+            "count" : 11
+          }, {
+            "item" : "171453276",
+            "count" : 10
+          }, {
+            "item" : "171453280",
+            "count" : 9
+          }, {
+            "item" : "171451988",
+            "count" : 8
+          }, {
+            "item" : "171453714",
+            "count" : 7
+          }, {
+            "item" : "171450390",
+            "count" : 6
+          }, {
+            "item" : "171452465",
+            "count" : 5
+          }, {
+            "item" : "171450392",
+            "count" : 4
+          }, {
+            "item" : "171444946",
+            "count" : 3
+          }, {
+            "item" : "171453725",
+            "count" : 2
+          }, {
+            "item" : "170011400",
+            "count" : 1
+          } ],
+          "smallest" : "141426474",
+          "sum" : "50879606403"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right",
+          "mask" : "##-#######"
+        }
+      }, {
+        "id" : 290586869,
+        "name" : "Charge_Sequence",
+        "dataTypeName" : "number",
+        "fieldName" : "chrg_seq",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43839872,
+        "width" : 103,
+        "cachedContents" : {
+          "largest" : "6",
+          "non_null" : 299,
+          "average" : "1.826086956521739",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "5",
+            "count" : 16
+          }, {
+            "item" : "6",
+            "count" : 15
+          } ],
+          "smallest" : "1",
+          "sum" : "546"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 290586870,
+        "name" : "Degree",
+        "dataTypeName" : "text",
+        "fieldName" : "degree",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839873,
+        "width" : 82,
+        "cachedContents" : {
+          "largest" : "M",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "F",
+            "count" : 20
+          }, {
+            "item" : "M",
+            "count" : 19
+          }, {
+            "item" : "I",
+            "count" : 18
+          } ],
+          "smallest" : "F"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586871,
+        "name" : "Arrest_Charge",
+        "dataTypeName" : "text",
+        "fieldName" : "arr_chrg",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839874,
+        "width" : 108,
+        "cachedContents" : {
+          "largest" : "OUT WARRANT",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "1203.2 PC",
+            "count" : 20
+          }, {
+            "item" : "OUT WARRANT",
+            "count" : 19
+          }, {
+            "item" : "11377 (A) HS",
+            "count" : 18
+          }, {
+            "item" : "12500 (A) VC",
+            "count" : 17
+          }, {
+            "item" : "BENCH WARRANT",
+            "count" : 16
+          }, {
+            "item" : "11364(A) HS",
+            "count" : 15
+          }, {
+            "item" : "488 PC",
+            "count" : 14
+          }, {
+            "item" : "23152 (A) VC",
+            "count" : 13
+          }, {
+            "item" : "23152 (B) VC",
+            "count" : 12
+          }, {
+            "item" : "10851 (A) VC",
+            "count" : 11
+          }, {
+            "item" : "496 D (A) PC",
+            "count" : 10
+          }, {
+            "item" : "242 PC",
+            "count" : 9
+          }, {
+            "item" : "11378 HS",
+            "count" : 8
+          }, {
+            "item" : "11379 (A) HS",
+            "count" : 7
+          }, {
+            "item" : "11350 (A) HS",
+            "count" : 6
+          }, {
+            "item" : "243 (E)(1) PC",
+            "count" : 5
+          }, {
+            "item" : "23152 (F) VC",
+            "count" : 4
+          }, {
+            "item" : "16028 (A) VC",
+            "count" : 3
+          }, {
+            "item" : "22350 VC",
+            "count" : 2
+          }, {
+            "item" : "4000(A)(1) VC",
+            "count" : 1
+          } ],
+          "smallest" : "10-04.010 SR"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 290586872,
+        "name" : "Charge_Description",
+        "dataTypeName" : "text",
+        "fieldName" : "charge_description",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839875,
+        "width" : 375,
+        "cachedContents" : {
+          "largest" : "VIOLATION PAROLE:FELONY",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "VIOLATION OF PROBATION (MISD)",
+            "count" : 20
+          }, {
+            "item" : "OUTSIDE WARRANT-MISD",
+            "count" : 19
+          }, {
+            "item" : "POSSESS CONTROLLED SUBSTANCE (MISD)",
+            "count" : 18
+          }, {
+            "item" : "DRIVER UNLICENSED",
+            "count" : 17
+          }, {
+            "item" : "BENCH WARRANT (MISD)",
+            "count" : 16
+          }, {
+            "item" : "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA",
+            "count" : 15
+          }, {
+            "item" : "PETTY THEFT - SHOPLIFTING",
+            "count" : 14
+          }, {
+            "item" : "OUTSIDE WARRANT-FEL",
+            "count" : 13
+          }, {
+            "item" : "DUI ALCOHOL",
+            "count" : 12
+          }, {
+            "item" : "DUI ALCOHOL/0.08 PERCENT",
+            "count" : 11
+          }, {
+            "item" : "THEFT OF VEHICLE (FEL)",
+            "count" : 10
+          }, {
+            "item" : "POSSESS STOLEN VEH/VESSEL/ETC",
+            "count" : 9
+          }, {
+            "item" : "BATTERY ON PERSON (MISD)",
+            "count" : 8
+          }, {
+            "item" : "POSSESS CONTROLLED SUBSTANCE FOR SALE",
+            "count" : 7
+          }, {
+            "item" : "TRANSPORT/ETC CONTROLLED SUBSTANCE",
+            "count" : 6
+          }, {
+            "item" : "(MISD)POSSESS NARCOTIC CONTROLLED SUBSTANCE",
+            "count" : 5
+          }, {
+            "item" : "BATTERY DV SPOUSE/EX SPOUSE/DATE/ETC (MISD)",
+            "count" : 4
+          }, {
+            "item" : "NO PROOF OF INSURANCE",
+            "count" : 3
+          }, {
+            "item" : "REGISTRATION REQUIRED",
+            "count" : 2
+          }, {
+            "item" : "LICENSE SUSPENDED/REVOKED",
+            "count" : 1
+          } ],
+          "smallest" : "(FEL)CRUELTY TO CHILD WITH POSSIBLE INJURY OR DEATH"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 290586873,
+        "name" : "Time_Arrest",
+        "dataTypeName" : "text",
+        "fieldName" : "time_arr",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839876,
+        "width" : 96,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 299
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 290586874,
+        "name" : "ArrestLocationStreetNBR",
+        "dataTypeName" : "text",
+        "fieldName" : "arrestlocationstreetnbr",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839877,
+        "width" : 178,
+        "cachedContents" : {
+          "largest" : "965",
+          "non_null" : 173,
+          "null" : 126,
+          "top" : [ {
+            "item" : "203",
+            "count" : 20
+          }, {
+            "item" : "700",
+            "count" : 19
+          }, {
+            "item" : "209",
+            "count" : 18
+          }, {
+            "item" : "777",
+            "count" : 17
+          }, {
+            "item" : "308",
+            "count" : 16
+          }, {
+            "item" : "515",
+            "count" : 15
+          }, {
+            "item" : "390",
+            "count" : 14
+          }, {
+            "item" : "1250",
+            "count" : 13
+          }, {
+            "item" : "1003",
+            "count" : 12
+          }, {
+            "item" : "4719",
+            "count" : 11
+          }, {
+            "item" : "2055",
+            "count" : 10
+          }, {
+            "item" : "800",
+            "count" : 9
+          }, {
+            "item" : "955",
+            "count" : 8
+          }, {
+            "item" : "2060",
+            "count" : 7
+          }, {
+            "item" : "4665",
+            "count" : 6
+          }, {
+            "item" : "1188",
+            "count" : 5
+          }, {
+            "item" : "1101",
+            "count" : 4
+          }, {
+            "item" : "446",
+            "count" : 3
+          }, {
+            "item" : "104",
+            "count" : 2
+          }, {
+            "item" : "723",
+            "count" : 1
+          } ],
+          "smallest" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586875,
+        "name" : "ArrestLocationStreet",
+        "dataTypeName" : "text",
+        "fieldName" : "arrestlocationstreet",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839878,
+        "width" : 195,
+        "cachedContents" : {
+          "largest" : "YOLANDA AV",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "6TH ST",
+            "count" : 20
+          }, {
+            "item" : "SANTA ROSA AV",
+            "count" : 19
+          }, {
+            "item" : "CODDINGTOWN CENTER",
+            "count" : 18
+          }, {
+            "item" : "STONY POINT RD",
+            "count" : 17
+          }, {
+            "item" : "W COLLEGE AV",
+            "count" : 16
+          }, {
+            "item" : "SEBASTOPOL RD / STONY POINT RD",
+            "count" : 15
+          }, {
+            "item" : "BELLEVUE AV",
+            "count" : 14
+          }, {
+            "item" : "6TH ST / MORGAN ST",
+            "count" : 13
+          }, {
+            "item" : "SANTA ROSA PLAZA",
+            "count" : 12
+          }, {
+            "item" : "BEVERLY DR / E COTATI AV",
+            "count" : 11
+          }, {
+            "item" : "FARMERS LN / HWY 12 E",
+            "count" : 10
+          }, {
+            "item" : "BELLEVUE AV / SANTA ROSA AV",
+            "count" : 9
+          }, {
+            "item" : "BETHARDS DR / YULUPA AV",
+            "count" : 8
+          }, {
+            "item" : "SEBASTOPOL RD / TIMOTHY RD",
+            "count" : 7
+          }, {
+            "item" : "4TH ST / ROGERS WY",
+            "count" : 6
+          }, {
+            "item" : "CORBY AV / HEARN AV",
+            "count" : 5
+          }, {
+            "item" : "MOORLAND AV / TODD RD",
+            "count" : 4
+          }, {
+            "item" : "RIDLEY AV",
+            "count" : 3
+          }, {
+            "item" : "HENDLEY ST",
+            "count" : 2
+          }, {
+            "item" : "MARLOW SHOPPING CENTER",
+            "count" : 1
+          } ],
+          "smallest" : "1ST ST"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586876,
+        "name" : "ArrestLocationCity",
+        "dataTypeName" : "text",
+        "fieldName" : "arrestlocationcity",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839879,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : "SANTA ROSA",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "SANTA ROSA",
+            "count" : 20
+          }, {
+            "item" : "COTATI",
+            "count" : 19
+          }, {
+            "item" : "NAPA",
+            "count" : 18
+          }, {
+            "item" : "CO",
+            "count" : 17
+          } ],
+          "smallest" : "CO"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586877,
+        "name" : "ArrestLocationAptFlr",
+        "dataTypeName" : "text",
+        "fieldName" : "arrestlocationaptflr",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839880,
+        "width" : 110,
+        "cachedContents" : {
+          "largest" : "B",
+          "non_null" : 14,
+          "null" : 285,
+          "top" : [ {
+            "item" : "26",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "B",
+            "count" : 18
+          }, {
+            "item" : "77",
+            "count" : 17
+          }, {
+            "item" : "2041",
+            "count" : 16
+          }, {
+            "item" : "A",
+            "count" : 15
+          } ],
+          "smallest" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586878,
+        "name" : "LASTNAME",
+        "dataTypeName" : "text",
+        "fieldName" : "lastname",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839881,
+        "width" : 109,
+        "cachedContents" : {
+          "largest" : "YOUNG",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "JUVENILE",
+            "count" : 20
+          }, {
+            "item" : "ROACH",
+            "count" : 19
+          }, {
+            "item" : "MILLER",
+            "count" : 18
+          }, {
+            "item" : "CARRILLO",
+            "count" : 17
+          }, {
+            "item" : "GARDUNO",
+            "count" : 16
+          }, {
+            "item" : "MEDINA",
+            "count" : 15
+          }, {
+            "item" : "CAZARES",
+            "count" : 14
+          }, {
+            "item" : "THAVONG",
+            "count" : 13
+          }, {
+            "item" : "MORALES-GUTIERREZ",
+            "count" : 12
+          }, {
+            "item" : "RAMOS-TORRES",
+            "count" : 11
+          }, {
+            "item" : "CHAON",
+            "count" : 10
+          }, {
+            "item" : "JEFFERS",
+            "count" : 9
+          }, {
+            "item" : "RODRIGUEZ",
+            "count" : 8
+          }, {
+            "item" : "SANCHEZ",
+            "count" : 7
+          }, {
+            "item" : "GALINDO",
+            "count" : 6
+          }, {
+            "item" : "LORENZ",
+            "count" : 5
+          }, {
+            "item" : "VEGA-RODRIGUEZ",
+            "count" : 4
+          }, {
+            "item" : "POWELL",
+            "count" : 3
+          }, {
+            "item" : "FAJARDO",
+            "count" : 2
+          }, {
+            "item" : "JACKSON",
+            "count" : 1
+          } ],
+          "smallest" : "ALIX"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586879,
+        "name" : "FIRSTNAME",
+        "dataTypeName" : "text",
+        "fieldName" : "firstname",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839882,
+        "width" : 95,
+        "cachedContents" : {
+          "largest" : "VADA",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "RYAN",
+            "count" : 20
+          }, {
+            "item" : "JUVENILE",
+            "count" : 19
+          }, {
+            "item" : "SARAH",
+            "count" : 18
+          }, {
+            "item" : "MICHAEL",
+            "count" : 17
+          }, {
+            "item" : "RUBEN",
+            "count" : 16
+          }, {
+            "item" : "REFUJIO",
+            "count" : 15
+          }, {
+            "item" : "ELEAZAR",
+            "count" : 14
+          }, {
+            "item" : "JOAQUIN",
+            "count" : 13
+          }, {
+            "item" : "FABIAN",
+            "count" : 12
+          }, {
+            "item" : "KHACK",
+            "count" : 11
+          }, {
+            "item" : "JAIME",
+            "count" : 10
+          }, {
+            "item" : "LAURA",
+            "count" : 9
+          }, {
+            "item" : "CALE",
+            "count" : 8
+          }, {
+            "item" : "MARCO",
+            "count" : 7
+          }, {
+            "item" : "LAMONT",
+            "count" : 6
+          }, {
+            "item" : "JOSHUA",
+            "count" : 5
+          }, {
+            "item" : "SEPERINO",
+            "count" : 4
+          }, {
+            "item" : "SAMANTHA",
+            "count" : 3
+          }, {
+            "item" : "ROBERT",
+            "count" : 2
+          }, {
+            "item" : "JOSE",
+            "count" : 1
+          } ],
+          "smallest" : "AMAN"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586880,
+        "name" : "MIDDLENAME",
+        "dataTypeName" : "text",
+        "fieldName" : "middlename",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839883,
+        "width" : 152,
+        "cachedContents" : {
+          "largest" : "ZACHARY",
+          "non_null" : 278,
+          "null" : 21,
+          "top" : [ {
+            "item" : "JAMES",
+            "count" : 20
+          }, {
+            "item" : "LEE",
+            "count" : 19
+          }, {
+            "item" : "EDWARD",
+            "count" : 18
+          }, {
+            "item" : "WILLIAM",
+            "count" : 17
+          }, {
+            "item" : "JUVENILE",
+            "count" : 16
+          }, {
+            "item" : "WAYNE",
+            "count" : 15
+          }, {
+            "item" : "REBECCA",
+            "count" : 14
+          }, {
+            "item" : "MARIE",
+            "count" : 13
+          }, {
+            "item" : "KEITH",
+            "count" : 12
+          }, {
+            "item" : "GARCIA",
+            "count" : 11
+          }, {
+            "item" : "CUCO",
+            "count" : 10
+          }, {
+            "item" : "DIAS",
+            "count" : 9
+          }, {
+            "item" : "ROMAN",
+            "count" : 8
+          }, {
+            "item" : "DANIEL ANGELO",
+            "count" : 7
+          }, {
+            "item" : "MICHAEL",
+            "count" : 6
+          }, {
+            "item" : "R",
+            "count" : 5
+          }, {
+            "item" : "ELENA",
+            "count" : 4
+          }, {
+            "item" : "EUGENE",
+            "count" : 3
+          }, {
+            "item" : "PATRICIA",
+            "count" : 2
+          }, {
+            "item" : "GABRIEL",
+            "count" : 1
+          } ],
+          "smallest" : "A"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586881,
+        "name" : "SUFFIX",
+        "dataTypeName" : "text",
+        "fieldName" : "suffix",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839884,
+        "width" : 105,
+        "cachedContents" : {
+          "largest" : "JUVENILE",
+          "non_null" : 32,
+          "null" : 267,
+          "top" : [ {
+            "item" : "JR",
+            "count" : 20
+          }, {
+            "item" : "JUVENILE",
+            "count" : 19
+          } ],
+          "smallest" : "JR"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586882,
+        "name" : "RACE",
+        "dataTypeName" : "text",
+        "fieldName" : "race",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839885,
+        "width" : 81,
+        "cachedContents" : {
+          "largest" : "X",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "B",
+            "count" : 20
+          }, {
+            "item" : "H",
+            "count" : 19
+          }, {
+            "item" : "W",
+            "count" : 18
+          }, {
+            "item" : "JUVENILE",
+            "count" : 17
+          }, {
+            "item" : "A",
+            "count" : 16
+          }, {
+            "item" : "I",
+            "count" : 15
+          }, {
+            "item" : "X",
+            "count" : 14
+          } ],
+          "smallest" : "A"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586883,
+        "name" : "SEX",
+        "dataTypeName" : "text",
+        "fieldName" : "sex",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839886,
+        "width" : 80,
+        "cachedContents" : {
+          "largest" : "U",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "M",
+            "count" : 20
+          }, {
+            "item" : "F",
+            "count" : 19
+          }, {
+            "item" : "JUVENILE",
+            "count" : 18
+          }, {
+            "item" : "U",
+            "count" : 17
+          } ],
+          "smallest" : "F"
+        },
+        "format" : { }
+      }, {
+        "id" : 290586884,
+        "name" : "DOB",
+        "dataTypeName" : "text",
+        "fieldName" : "dob",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839887,
+        "width" : 93,
+        "cachedContents" : {
+          "largest" : "12-29-1990",
+          "non_null" : 283,
+          "null" : 16,
+          "top" : [ {
+            "item" : "08-02-1971",
+            "count" : 20
+          }, {
+            "item" : "11-28-1976",
+            "count" : 19
+          }, {
+            "item" : "11-18-1978",
+            "count" : 18
+          }, {
+            "item" : "02-16-1994",
+            "count" : 17
+          }, {
+            "item" : "04-23-1984",
+            "count" : 16
+          }, {
+            "item" : "06-18-1967",
+            "count" : 15
+          }, {
+            "item" : "12-29-1990",
+            "count" : 14
+          }, {
+            "item" : "08-24-1975",
+            "count" : 13
+          }, {
+            "item" : "03-06-1963",
+            "count" : 12
+          }, {
+            "item" : "05-31-1981",
+            "count" : 11
+          }, {
+            "item" : "03-24-1974",
+            "count" : 10
+          }, {
+            "item" : "11-29-1972",
+            "count" : 9
+          }, {
+            "item" : "10-21-1982",
+            "count" : 8
+          }, {
+            "item" : "06-17-1983",
+            "count" : 7
+          }, {
+            "item" : "11-17-1983",
+            "count" : 6
+          }, {
+            "item" : "02-21-1996",
+            "count" : 5
+          }, {
+            "item" : "06-04-1969",
+            "count" : 4
+          }, {
+            "item" : "03-04-1995",
+            "count" : 3
+          }, {
+            "item" : "03-24-1991",
+            "count" : 2
+          }, {
+            "item" : "05-28-1981",
+            "count" : 1
+          } ],
+          "smallest" : "01-01-1975"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 290586885,
+        "name" : "AGE",
+        "dataTypeName" : "text",
+        "fieldName" : "age",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839888,
+        "width" : 85,
+        "cachedContents" : {
+          "largest" : "JUVENILE",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "41",
+            "count" : 20
+          }, {
+            "item" : "23",
+            "count" : 19
+          }, {
+            "item" : "33",
+            "count" : 18
+          }, {
+            "item" : "65",
+            "count" : 17
+          }, {
+            "item" : "38",
+            "count" : 16
+          }, {
+            "item" : "46",
+            "count" : 15
+          }, {
+            "item" : "48",
+            "count" : 14
+          }, {
+            "item" : "40",
+            "count" : 13
+          }, {
+            "item" : "36",
+            "count" : 12
+          }, {
+            "item" : "47",
+            "count" : 11
+          }, {
+            "item" : "43",
+            "count" : 10
+          }, {
+            "item" : "28",
+            "count" : 9
+          }, {
+            "item" : "56",
+            "count" : 8
+          }, {
+            "item" : "21",
+            "count" : 7
+          }, {
+            "item" : "52",
+            "count" : 6
+          }, {
+            "item" : "29",
+            "count" : 5
+          }, {
+            "item" : "34",
+            "count" : 4
+          }, {
+            "item" : "27",
+            "count" : 3
+          }, {
+            "item" : "35",
+            "count" : 2
+          }, {
+            "item" : "22",
+            "count" : 1
+          } ],
+          "smallest" : "19"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 290586886,
+        "name" : "ARREST_STATUS",
+        "dataTypeName" : "text",
+        "fieldName" : "arreststatus",
+        "position" : 26,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43839893,
+        "width" : 119,
+        "cachedContents" : {
+          "largest" : "CITED",
+          "non_null" : 299,
+          "null" : 0,
+          "top" : [ {
+            "item" : "ARRESTED/BOOKED",
+            "count" : 20
+          }, {
+            "item" : "CITED",
+            "count" : 19
+          } ],
+          "smallest" : "ARRESTED/BOOKED"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 290586887,
+        "name" : "UNIQUEKEY",
+        "dataTypeName" : "number",
+        "fieldName" : "uniquekey",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 43872923,
+        "width" : 72,
+        "cachedContents" : {
+          "largest" : "20170062051",
+          "non_null" : 299,
+          "average" : "20170061113.79933",
+          "null" : 0,
+          "top" : [ {
+            "item" : "20170061962",
+            "count" : 20
+          }, {
+            "item" : "20170061971",
+            "count" : 19
+          }, {
+            "item" : "20170061972",
+            "count" : 18
+          }, {
+            "item" : "20170061973",
+            "count" : 17
+          }, {
+            "item" : "20170061974",
+            "count" : 16
+          }, {
+            "item" : "20170061981",
+            "count" : 15
+          }, {
+            "item" : "20170062011",
+            "count" : 14
+          }, {
+            "item" : "20170062012",
+            "count" : 13
+          }, {
+            "item" : "20170062021",
+            "count" : 12
+          }, {
+            "item" : "20170062031",
+            "count" : 11
+          }, {
+            "item" : "20170062041",
+            "count" : 10
+          }, {
+            "item" : "20170062051",
+            "count" : 9
+          } ],
+          "smallest" : "20170060211",
+          "sum" : "6030848273026"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "charge_description",
+            "ascending" : true
+          } ]
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowIdentifier" : 290586887
+      },
+      "owner" : {
+        "id" : "u2re-x7kp",
+        "displayName" : "Petri, Jerry",
+        "lastNotificationSeenAt" : 1498672021,
+        "roleName" : "administrator",
+        "screenName" : "Petri, Jerry",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 290586872,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "u2re-x7kp",
+        "displayName" : "Petri, Jerry",
+        "lastNotificationSeenAt" : 1498672021,
+        "roleName" : "administrator",
+        "screenName" : "Petri, Jerry",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 38210, "0B227E84-4641-40F6-82A1-4E0B46A4EDD2", 38210, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006021", "170011058", "1", "F", "459 PC", "BURGLARY (FEL)", null, "535", "B ST", "SANTA ROSA", null, "GEBRESTION", "FEKADU", "BERHE", null, "B", "M", "01-01-1976", "41", "ARRESTED/BOOKED", "20170060211" ]
+, [ 38211, "F0552DC7-C6EB-421B-B918-6A6C78622D55", 38211, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006021", "170011058", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "535", "B ST", "SANTA ROSA", null, "GEBRESTION", "FEKADU", "BERHE", null, "B", "M", "01-01-1976", "41", "ARRESTED/BOOKED", "20170060212" ]
+, [ 38212, "32A9ECE8-F811-4F8D-AB1F-D236AD34AC39", 38212, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006025", "170011067", "1", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, null, "7TH ST / WILSON ST", "SANTA ROSA", null, "IZQUIERDO", "OLGA", "DELIA", null, "H", "F", "06-21-1994", "23", "ARRESTED/BOOKED", "20170060251" ]
+, [ 38213, "E5FDA373-97D8-4B90-BF9E-08F6A4540B7F", 38213, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006025", "170011067", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, null, "7TH ST / WILSON ST", "SANTA ROSA", null, "IZQUIERDO", "OLGA", "DELIA", null, "H", "F", "06-21-1994", "23", "ARRESTED/BOOKED", "20170060252" ]
+, [ 38214, "7F89A0F6-B70F-4A34-98AE-CBF9E6E79555", 38214, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006027", "170011082", "1", "F", "273.5 (A) PC", "ASSAULT DV  W/ INJURY (FEL) AGGRAVATED", null, null, "MOHAWK ST / SENECA LN", "SANTA ROSA", null, "BERHE", "AMAN", "TESFAY", null, "B", "M", "05-13-1984", "33", "ARRESTED/BOOKED", "20170060271" ]
+, [ 38215, "E7621B8A-8E93-42BB-A63C-272F6E7C5C42", 38215, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006027", "170011082", "2", "F", "3455 PC", "VIOLATION OF PRCS", null, null, "MOHAWK ST / SENECA LN", "SANTA ROSA", null, "BERHE", "AMAN", "TESFAY", null, "B", "M", "05-13-1984", "33", "ARRESTED/BOOKED", "20170060272" ]
+, [ 38216, "9B16C2ED-43BA-42A8-A90E-79F82FD38099", 38216, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006030", "170011076", "1", "M", "23152 (E) VC", "DUI  DRUGS", null, null, "CLEVELAND AV / PINER RD", "SANTA ROSA", null, "STITHEM", "ANDREA", "HARRIET", null, "W", "F", "12-22-1951", "65", "ARRESTED/BOOKED", "20170060301" ]
+, [ 38217, "BDC9A67C-B1E0-498C-B1E9-1E4804D526FE", 38217, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006030", "170011076", "2", "M", "20002 (A) VC", "HIT & RUN - PROP DAMAGE", null, null, "CLEVELAND AV / PINER RD", "SANTA ROSA", null, "STITHEM", "ANDREA", "HARRIET", null, "W", "F", "12-22-1951", "65", "ARRESTED/BOOKED", "20170060302" ]
+, [ 38218, "A3C273D8-498B-4A46-9977-6B4EDF466363", 38218, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006031", "170011088", "1", "M", "148 (A)(1) PC", "OBSTRUCT/RESIST/ETC PUBLIC/PEACE OFFICER/EMERGENCY MED TECH", null, "203", "6TH ST", "SANTA ROSA", null, "YOUNG", "RONALD", "EDMUND", null, "W", "M", "12-16-1951", "65", "ARRESTED/BOOKED", "20170060311" ]
+, [ 38219, "60344E17-C095-452C-9D73-64FF17E4BB5F", 38219, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006031", "170011088", "2", "M", "602(O) PC", "TRESPASS REFUSE/FAIL TO LEAVE", null, "203", "6TH ST", "SANTA ROSA", null, "YOUNG", "RONALD", "EDMUND", null, "W", "M", "12-16-1951", "65", "ARRESTED/BOOKED", "20170060312" ]
+, [ 38220, "79EB3393-4F3E-46C0-853D-D2A061150967", 38220, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006031", "170011088", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "203", "6TH ST", "SANTA ROSA", null, "YOUNG", "RONALD", "EDMUND", null, "W", "M", "12-16-1951", "65", "ARRESTED/BOOKED", "20170060313" ]
+, [ 38221, "50D8F12C-D6D2-4904-A398-0BE5AF6DB706", 38221, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006032", "170011084", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "203", "6TH ST", "SANTA ROSA", null, "SJOBERG", "DAVID", "JAMES", null, "W", "M", "08-20-1979", "38", "CITED", "20170060321" ]
+, [ 38222, "7BFFD99F-D180-4191-A3F9-3DFC3524178A", 38222, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006032", "170011084", "2", "M", "602(O) PC", "TRESPASS REFUSE/FAIL TO LEAVE", null, "203", "6TH ST", "SANTA ROSA", null, "SJOBERG", "DAVID", "JAMES", null, "W", "M", "08-20-1979", "38", "CITED", "20170060322" ]
+, [ 38223, "0B2E12D4-0E55-4012-AB82-5B3A0AE53AF6", 38223, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006033", "170011069", "1", "F", "594 (A)(3) PC", "VANDALISM:DESTROY OTHERS PROPERTY (FEL)", null, "10", "SANTA ROSA AV", "SANTA ROSA", null, "PEGERON", "CARROLL", "ELI", null, "B", "M", "05-23-1971", "46", "ARRESTED/BOOKED", "20170060331" ]
+, [ 38224, "D2B1A44C-1BA7-46E4-A8D7-3DB0706E3F0E", 38224, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006034", "170011084", "1", "M", "602(O) PC", "TRESPASS REFUSE/FAIL TO LEAVE", null, "203", "6TH ST", "SANTA ROSA", null, "MEARS", "CHRISTOPHER", "JOHN", null, "W", "M", "12-21-1967", "49", "CITED", "20170060341" ]
+, [ 38225, "4A44BCCC-DF40-4098-BCD3-33940DC4D5DE", 38225, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006035", "170011091", "1", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "700", "DOYLE PARK DR", "SANTA ROSA", null, "HAYNES", "MARK", "LEROY", null, "W", "M", "06-18-1969", "48", "ARRESTED/BOOKED", "20170060351" ]
+, [ 38226, "76FF8946-AFF7-4C51-B354-944636BFBAEB", 38226, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006036", "171453504", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "2ND ST / SANTA ROSA AV", "SANTA ROSA", null, "SANCHEZ", "RAUL", null, null, "H", "M", "09-26-1976", "40", "CITED", "20170060361" ]
+, [ 38227, "3E078F20-3733-4F6E-917F-A3343CC09E02", 38227, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006036", "171453504", "2", "I", "21461(A) VC", "DRIVER FAIL OBEY SIGN/ETC", null, null, "2ND ST / SANTA ROSA AV", "SANTA ROSA", null, "SANCHEZ", "RAUL", null, null, "H", "M", "09-26-1976", "40", "CITED", "20170060362" ]
+, [ 38228, "946A1414-2446-47F3-B089-A08FD08E98DB", 38228, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006038", "170011089", "1", "M", "498 (B)(5) PC", "TAMPER OR THEFT OF UTILITY SERVICES", null, "209", "8TH ST", "SANTA ROSA", null, "PRECIADO", "JOSE", "ROCHA", null, "H", "M", "12-15-1980", "36", "ARRESTED/BOOKED", "20170060381" ]
+, [ 38229, "B3CACA5A-A266-4EEA-BDA8-DC78797DAEE5", 38229, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006038", "170011089", "2", "M", "415 (1) PC", "FIGHT/CHALLENGE FIGHT PUBLIC PLACE", null, "209", "8TH ST", "SANTA ROSA", null, "PRECIADO", "JOSE", "ROCHA", null, "H", "M", "12-15-1980", "36", "ARRESTED/BOOKED", "20170060382" ]
+, [ 38230, "F3D76A9C-CD08-4584-99C4-A11F1C6497CD", 38230, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006038", "170011089", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "209", "8TH ST", "SANTA ROSA", null, "PRECIADO", "JOSE", "ROCHA", null, "H", "M", "12-15-1980", "36", "ARRESTED/BOOKED", "20170060383" ]
+, [ 38231, "EC159868-9B19-4C66-9CC7-F64D9CBC613B", 38231, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006039", "170011090", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "700", "DOYLE PARK DR", "SANTA ROSA", null, "SIMPSON", "MELISSA", "LEONA", null, "W", "F", "08-15-1970", "47", "ARRESTED/BOOKED", "20170060391" ]
+, [ 38232, "CD6372AC-2FDA-49AD-A44D-ED966BE9AA6E", 38232, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006039", "170011090", "2", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "700", "DOYLE PARK DR", "SANTA ROSA", null, "SIMPSON", "MELISSA", "LEONA", null, "W", "F", "08-15-1970", "47", "ARRESTED/BOOKED", "20170060392" ]
+, [ 38233, "2111E09E-F374-49DB-B3C1-35A6BC9D7F8F", 38233, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006040", "170011097", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "2868", "DUTTON MEADOW", "SANTA ROSA", null, "GALEA", "DANA", "MACLEAN", null, "W", "M", "02-23-1974", "43", "CITED", "20170060401" ]
+, [ 38234, "5045028D-1643-49CF-A26D-B02CB4B952DC", 38234, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006040", "170011097", "2", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, "2868", "DUTTON MEADOW", "SANTA ROSA", null, "GALEA", "DANA", "MACLEAN", null, "W", "M", "02-23-1974", "43", "CITED", "20170060402" ]
+, [ 38235, "6A1DE880-F618-428B-9E04-83FD2579D7D1", 38235, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006041", "170011083", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "100", "BICENTENNIAL WY", "SANTA ROSA", null, "DARBY", "ERIC", "YOUNG", null, "B", "M", "08-06-1994", "23", "ARRESTED/BOOKED", "20170060411" ]
+, [ 38236, "E9A2E00F-00AF-425B-A538-A78691044F1A", 38236, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006041", "170011083", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "100", "BICENTENNIAL WY", "SANTA ROSA", null, "DARBY", "ERIC", "YOUNG", null, "B", "M", "08-06-1994", "23", "ARRESTED/BOOKED", "20170060412" ]
+, [ 38237, "A1C30922-90D4-4482-8303-B5B5545842E1", 38237, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006042", "170011096", "1", "M", "496 (A) PC", "(MISD) RECEIVE/ETC KNOWN STOLEN PROPERTY [$400 OR LESS]", null, "1819", "LITTLE JOHN LN", "SANTA ROSA", null, "VERMEULEN", "KIRK", "RAYMOND", null, "W", "M", "03-17-1989", "28", "ARRESTED/BOOKED", "20170060421" ]
+, [ 38238, "7BC59CA0-C0CB-419C-BE5D-CEE5E6563B53", 38238, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006042", "170011096", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "1819", "LITTLE JOHN LN", "SANTA ROSA", null, "VERMEULEN", "KIRK", "RAYMOND", null, "W", "M", "03-17-1989", "28", "ARRESTED/BOOKED", "20170060422" ]
+, [ 38239, "68ED5BA1-B398-4074-9C17-44A4314CBD1D", 38239, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006043", "170011102", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "211", "E ST", "SANTA ROSA", null, "WRIGHT", "CEDRIC", "BERNARD", "JR", "B", "M", "11-14-1983", "33", "ARRESTED/BOOKED", "20170060431" ]
+, [ 38240, "E11F1CC6-C426-4EC4-9D08-86DAD9F779B6", 38240, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006043", "170011102", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "211", "E ST", "SANTA ROSA", null, "WRIGHT", "CEDRIC", "BERNARD", "JR", "B", "M", "11-14-1983", "33", "ARRESTED/BOOKED", "20170060432" ]
+, [ 38241, "0021CFA4-B5C7-445D-B685-6DC63851EFD1", 38241, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006044", "170011117", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "777", "ASTON AV", "SANTA ROSA", "26", "SPANN", "SERENO", "AUGUSTINE ELIJAH", null, "W", "M", "04-11-1970", "47", "ARRESTED/BOOKED", "20170060441" ]
+, [ 38242, "110965FB-0DFE-4839-9666-A902D565ACF5", 38242, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006044", "170011117", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "777", "ASTON AV", "SANTA ROSA", "26", "SPANN", "SERENO", "AUGUSTINE ELIJAH", null, "W", "M", "04-11-1970", "47", "ARRESTED/BOOKED", "20170060442" ]
+, [ 38243, "1B8CD908-C0E6-4459-9D18-501F9F603A18", 38243, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006045", "170011119", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "1650", "W 3RD ST", "SANTA ROSA", null, "SAPUT", "CHRISTOPHER", "JOSEPH", null, "W", "M", "06-11-1969", "48", "ARRESTED/BOOKED", "20170060451" ]
+, [ 38244, "B097902E-D9DA-4A6B-9670-6079A75275C8", 38244, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006045", "170011119", "2", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, "1650", "W 3RD ST", "SANTA ROSA", null, "SAPUT", "CHRISTOPHER", "JOSEPH", null, "W", "M", "06-11-1969", "48", "ARRESTED/BOOKED", "20170060452" ]
+, [ 38245, "FF7A995E-6439-4085-93EB-DD2A719EF4AA", 38245, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006046", "170011116", "1", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, "502", "SANTA ROSA AV", "SANTA ROSA", null, "VANGUILDER", "STEFANIE", "RENEE", null, "W", "F", "03-15-1989", "28", "ARRESTED/BOOKED", "20170060461" ]
+, [ 38246, "B702BE8A-67FE-4101-8902-FB39AD5A4119", 38246, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006046", "170011116", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "502", "SANTA ROSA AV", "SANTA ROSA", null, "VANGUILDER", "STEFANIE", "RENEE", null, "W", "F", "03-15-1989", "28", "ARRESTED/BOOKED", "20170060462" ]
+, [ 38247, "2ED8E3F6-CA29-42D9-BD6B-6E194A8A1738", 38247, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006048", "170011122", "1", "F", "666 PC", "(FEL) PETTY THEFT W/PRIOR JAIL TERM FOR SPECIFIC OFFENSE", null, "308", "WILSON ST", "SANTA ROSA", null, "BALL", "ROBERT", "LEE", null, "W", "M", "02-03-1961", "56", "ARRESTED/BOOKED", "20170060481" ]
+, [ 38248, "4DBFD768-EAC9-462C-AD6D-6DA9A2AC4D22", 38248, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006048", "170011122", "2", "F", "487 PC", "GRAND THEFT - BIKE", null, "308", "WILSON ST", "SANTA ROSA", null, "BALL", "ROBERT", "LEE", null, "W", "M", "02-03-1961", "56", "ARRESTED/BOOKED", "20170060482" ]
+, [ 38249, "78FCB5C7-D80C-4EA4-AA03-4F5E6A2F22F4", 38249, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006048", "170011122", "3", "M", "148 (A)(1) PC", "OBSTRUCT/RESIST/ETC PUBLIC/PEACE OFFICER/EMERGENCY MED TECH", null, "308", "WILSON ST", "SANTA ROSA", null, "BALL", "ROBERT", "LEE", null, "W", "M", "02-03-1961", "56", "ARRESTED/BOOKED", "20170060483" ]
+, [ 38250, "191C1E62-6DAF-4F95-A5CB-C08E43CD855E", 38250, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006048", "170011122", "4", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "308", "WILSON ST", "SANTA ROSA", null, "BALL", "ROBERT", "LEE", null, "W", "M", "02-03-1961", "56", "ARRESTED/BOOKED", "20170060484" ]
+, [ 38251, "0732D25F-8250-4816-8C7D-0D2C650C4EDB", 38251, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006049", "170011123", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "COLLEGE AV / HUMBOLDT ST", "SANTA ROSA", null, "MICHELS", "RYAN", "DANIEL", null, "H", "M", "08-12-1996", "21", "CITED", "20170060491" ]
+, [ 38252, "3BAC932E-6837-46FC-A245-B5D21BC2AFD2", 38252, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006049", "170011123", "2", "M", "23152 (B) VC", "DUI ALCOHOL/0.08 PERCENT", null, null, "COLLEGE AV / HUMBOLDT ST", "SANTA ROSA", null, "MICHELS", "RYAN", "DANIEL", null, "H", "M", "08-12-1996", "21", "CITED", "20170060492" ]
+, [ 38253, "CF0BE2C7-6D3B-4723-A8F7-444D543B06A9", 38253, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006050", "170011124", "1", "M", "602 (K)(1) PC", "TRESPASS ON POSTED LAND:REFUSE TO LEAVE", null, "1331", "GUERNEVILLE RD", "SANTA ROSA", null, "GUERRERO", "ROBERTO", "LUIS", null, "H", "M", "09-24-1991", "25", "ARRESTED/BOOKED", "20170060501" ]
+, [ 38254, "0277A5D0-9D3A-4AD1-A9B0-B2B99DFFEFFC", 38254, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006050", "170011124", "2", "M", "148 (A)(1) PC", "OBSTRUCT/RESIST/ETC PUBLIC/PEACE OFFICER/EMERGENCY MED TECH", null, "1331", "GUERNEVILLE RD", "SANTA ROSA", null, "GUERRERO", "ROBERTO", "LUIS", null, "H", "M", "09-24-1991", "25", "ARRESTED/BOOKED", "20170060502" ]
+, [ 38255, "5064ECEE-67FF-449A-B18F-AEFFDB1B72AC", 38255, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006051", "170011024", "1", "F", "10851 (A) VC", "THEFT OF VEHICLE (FEL)", null, null, "GRAND AV / MILTON ST", "SANTA ROSA", null, "RAGLE", "JIM", "ALEXANDER", "JR", "W", "M", "02-04-1965", "52", "ARRESTED/BOOKED", "20170060511" ]
+, [ 38256, "8D493AC3-6D49-47EE-B9F2-44EF938B9F96", 38256, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006051", "170011024", "2", "F", "496 D (A) PC", "POSSESS STOLEN VEH/VESSEL/ETC", null, null, "GRAND AV / MILTON ST", "SANTA ROSA", null, "RAGLE", "JIM", "ALEXANDER", "JR", "W", "M", "02-04-1965", "52", "ARRESTED/BOOKED", "20170060512" ]
+, [ 38257, "C98FF31E-5BE5-4358-A006-59AA167BB9A5", 38257, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006051", "170011024", "3", "F", "3452 PC", "(FEL) VIOLATION OF PRCS -POST-RELEASE COMMUNITY SUPERVISION", null, null, "GRAND AV / MILTON ST", "SANTA ROSA", null, "RAGLE", "JIM", "ALEXANDER", "JR", "W", "M", "02-04-1965", "52", "ARRESTED/BOOKED", "20170060513" ]
+, [ 38258, "AC0874F7-6382-4EA0-BB02-8C9EE49BB487", 38258, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006052", "170011024", "1", "F", "10851 (A) VC", "THEFT OF VEHICLE (FEL)", null, null, "GRAND AV / MILTON ST", "SANTA ROSA", null, "INGRAM-PADRON", "MISTY", "JOAN", null, "W", "F", "05-20-1979", "38", "ARRESTED/BOOKED", "20170060521" ]
+, [ 38259, "515E748E-DD81-41E3-8BBB-593809949515", 38259, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006052", "170011024", "2", "F", "496 D (A) PC", "POSSESS STOLEN VEH/VESSEL/ETC", null, null, "GRAND AV / MILTON ST", "SANTA ROSA", null, "INGRAM-PADRON", "MISTY", "JOAN", null, "W", "F", "05-20-1979", "38", "ARRESTED/BOOKED", "20170060522" ]
+, [ 38260, "92003463-662D-4957-84FF-256466551A89", 38260, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006053", "170011120", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, "515", "S E ST", "SANTA ROSA", null, "HUEN-MENDOZA", "JOSE", "RICARDO", null, "H", "M", "07-15-1988", "29", "ARRESTED/BOOKED", "20170060531" ]
+, [ 38261, "1AB9E5FA-3702-4934-85F7-B8645E7D59D3", 38261, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006053", "170011120", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "515", "S E ST", "SANTA ROSA", null, "HUEN-MENDOZA", "JOSE", "RICARDO", null, "H", "M", "07-15-1988", "29", "ARRESTED/BOOKED", "20170060532" ]
+, [ 38262, "A4E86AEB-9DE1-40E8-864B-90E00BDD84D0", 38262, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006053", "170011120", "3", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "515", "S E ST", "SANTA ROSA", null, "HUEN-MENDOZA", "JOSE", "RICARDO", null, "H", "M", "07-15-1988", "29", "ARRESTED/BOOKED", "20170060533" ]
+, [ 38263, "E2116FFF-F3AF-4318-89C1-9CE6FD8E8873", 38263, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006054", "170011004", "1", "M", "10851 (A) VC", "THEFT OF VEHICLE (MISD)", null, "1606", "GAMAY ST", "SANTA ROSA", null, "CHRISTANI", "ANDREW", "JAMES", null, "W", "M", "02-04-1983", "34", "ARRESTED/BOOKED", "20170060541" ]
+, [ 38264, "422EC2DF-CBAE-49F0-95EB-AF779CB85B91", 38264, 1504075823, "905761", 1504075823, "905761", null, "08-23-2017", "2017006054", "170011004", "2", "F", "496 D (A) PC", "POSSESS STOLEN VEH/VESSEL/ETC", null, "1606", "GAMAY ST", "SANTA ROSA", null, "CHRISTANI", "ANDREW", "JAMES", null, "W", "M", "02-04-1983", "34", "ARRESTED/BOOKED", "20170060542" ]
+, [ 38265, "7876F2D6-3A40-48FC-8113-0F8F987095A4", 38265, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006056", "170011135", "1", "M", "242 PC", "BATTERY ON PERSON (MISD)", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "DOYLE", "JORDAN", "THOMAS", null, "H", "M", "10-20-1989", "27", "ARRESTED/BOOKED", "20170060561" ]
+, [ 38266, "BBF6E4A1-4DE2-4B35-9E18-300B3A3C6055", 38266, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006056", "170011135", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "DOYLE", "JORDAN", "THOMAS", null, "H", "M", "10-20-1989", "27", "ARRESTED/BOOKED", "20170060562" ]
+, [ 38267, "A7717547-A48E-464B-BD71-09048C148A83", 38267, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006057", "170011154", "1", "M", "602.1 (A) PC", "TRESPASS:OBSTRUCT/ETC BUSINESS OPERATIONS/ETC", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "ANDERSON", "NORMAN", "EDWARD", null, "W", "M", "05-02-1971", "46", "ARRESTED/BOOKED", "20170060571" ]
+, [ 38268, "057EE37E-CA22-4CE8-B250-D138CFAC607E", 38268, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006057", "170011154", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "ANDERSON", "NORMAN", "EDWARD", null, "W", "M", "05-02-1971", "46", "ARRESTED/BOOKED", "20170060572" ]
+, [ 38269, "153EE9A1-420F-43D4-89E3-7A25001160AB", 38269, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006058", "170011147", "1", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, "3267", "AIRWAY DR", "SANTA ROSA", null, "PAINE", "THOMAS", "EDWARD", null, "W", "M", "09-28-1981", "35", "ARRESTED/BOOKED", "20170060581" ]
+, [ 38270, "DF8391A4-1726-4DA5-A813-05F3C1A618DD", 38270, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006059", "170011144", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "HAMPTON WY / JOE RODOTA TR", "SANTA ROSA", null, "LAKE", "FRANK", "IRA", null, "H", "M", "07-27-1980", "37", "CITED", "20170060591" ]
+, [ 38271, "6ABC7B3F-C916-4940-BC25-AC68B54A75AB", 38271, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006059", "170011144", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "HAMPTON WY / JOE RODOTA TR", "SANTA ROSA", null, "LAKE", "FRANK", "IRA", null, "H", "M", "07-27-1980", "37", "CITED", "20170060592" ]
+, [ 38272, "AC3A6B58-5747-4733-B618-AC6C6C31BD73", 38272, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006061", "170011136", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, null, "CARRILLO / TRACKS", "SANTA ROSA", null, "PERRY", "DENNIS", "ONEAL", "JR", "B", "M", "01-01-1975", "42", "CITED", "20170060611" ]
+, [ 38273, "00058E59-D6EC-481F-A74F-813550AA4859", 38273, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006061", "170011136", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "CARRILLO / TRACKS", "SANTA ROSA", null, "PERRY", "DENNIS", "ONEAL", "JR", "B", "M", "01-01-1975", "42", "CITED", "20170060612" ]
+, [ 38274, "A4A3D20D-15E0-4239-AF8D-FD755B9521F4", 38274, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006062", "170011166", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "CLEVELAND AV / TERRY LN", "SANTA ROSA", null, "SHOOTER", "RYAN", "WILLIAM", null, "W", "M", "06-14-1989", "28", "ARRESTED/BOOKED", "20170060621" ]
+, [ 38275, "9493CC46-47CE-444E-8A62-F85C1B6D1C14", 38275, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006062", "170011166", "2", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "CLEVELAND AV / TERRY LN", "SANTA ROSA", null, "SHOOTER", "RYAN", "WILLIAM", null, "W", "M", "06-14-1989", "28", "ARRESTED/BOOKED", "20170060622" ]
+, [ 38276, "F8E27860-0A98-4315-8CC6-6B30161C0461", 38276, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006062", "170011166", "3", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "CLEVELAND AV / TERRY LN", "SANTA ROSA", null, "SHOOTER", "RYAN", "WILLIAM", null, "W", "M", "06-14-1989", "28", "ARRESTED/BOOKED", "20170060623" ]
+, [ 38277, "0C91C41F-8FA0-4276-BD59-9E89E1175A72", 38277, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006062", "170011166", "4", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "CLEVELAND AV / TERRY LN", "SANTA ROSA", null, "SHOOTER", "RYAN", "WILLIAM", null, "W", "M", "06-14-1989", "28", "ARRESTED/BOOKED", "20170060624" ]
+, [ 38278, "5C0B0D5E-668E-4E29-B4CC-76B69C9F516E", 38278, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006062", "170011166", "5", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "CLEVELAND AV / TERRY LN", "SANTA ROSA", null, "SHOOTER", "RYAN", "WILLIAM", null, "W", "M", "06-14-1989", "28", "ARRESTED/BOOKED", "20170060625" ]
+, [ 38279, "A4DED5EA-247A-456E-81EA-0E9BF586AE6A", 38279, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006063", "170011168", "1", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, "171", "SANTA ROSA AV", "SANTA ROSA", null, "BOWDEN", "RONNIE", "EARL", null, "B", "M", "11-06-1967", "49", "ARRESTED/BOOKED", "20170060631" ]
+, [ 38280, "65C379AA-7712-4671-8822-8AF629596E05", 38280, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006064", "170011174", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "2600", "CORBY AV", "SANTA ROSA", null, "SEGOVIA", "AUSTIN", "LEE", null, "W", "F", "03-08-1995", "22", "ARRESTED/BOOKED", "20170060641" ]
+, [ 38281, "79A0FECE-0C98-4760-9703-87809BBC05C8", 38281, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006064", "170011174", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "2600", "CORBY AV", "SANTA ROSA", null, "SEGOVIA", "AUSTIN", "LEE", null, "W", "F", "03-08-1995", "22", "ARRESTED/BOOKED", "20170060642" ]
+, [ 38282, "BE87DFEC-5221-4B21-A433-DBE922578ABC", 38282, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006067", "170011143", "1", "M", "21810 PC", "(MISD) RE: METAL KNUCKLES", null, "1250", "HAHMAN DR", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170060671" ]
+, [ 38283, "4F194319-AE47-4E9B-98E3-2EE5BE75811D", 38283, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006067", "170011143", "2", "I", "11357 (D) HS", "(INF) MINOR POSSESS MJ ON GROUNDS DURING SCH ACTIVITY", null, "1250", "HAHMAN DR", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170060672" ]
+, [ 38284, "8AFA9F1E-C86B-4518-84DB-B4185BF56E72", 38284, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006068", "170011172", "1", "M", "4060 BP", "POSSESS CONTROLLED SUBSTANCES WITHOUT A PRESCRIPTION", null, null, "PRINCE GRNWY UNDER A ST", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "CITED", "20170060681" ]
+, [ 38285, "B266E02C-3D91-4B05-95FE-E17B0BCD7616", 38285, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006069", "170011170", "1", "M", "242 PC", "BATTERY ON PERSON (MISD)", null, null, "CASSIDY CT E / PETERSON LN", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170060691" ]
+, [ 38286, "CD64250C-770C-482D-AC5A-27A152CFA425", 38286, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006070", "170011160", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "651", "YOLANDA AV", "SANTA ROSA", null, "CEJA-BARAJAS", "DALILA", "ESMERALDA", null, "H", "F", "12-20-1990", "26", "CITED", "20170060701" ]
+, [ 38287, "1E5BAF41-6AF5-4D80-8E2B-5EF078FCE1D2", 38287, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006071", "170011181", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "1003", "CREST DR", "SANTA ROSA", null, "SCAPECCIA", "ANTHONY", "THEODORE", null, "W", "M", "09-09-1972", "44", "ARRESTED/BOOKED", "20170060711" ]
+, [ 38288, "76069B80-C319-41F6-ABDD-2782890D1245", 38288, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006071", "170011181", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "1003", "CREST DR", "SANTA ROSA", null, "SCAPECCIA", "ANTHONY", "THEODORE", null, "W", "M", "09-09-1972", "44", "ARRESTED/BOOKED", "20170060712" ]
+, [ 38289, "DAA4753E-8EF6-4981-8BD3-5AC449FCDD8E", 38289, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006071", "170011181", "3", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "1003", "CREST DR", "SANTA ROSA", null, "SCAPECCIA", "ANTHONY", "THEODORE", null, "W", "M", "09-09-1972", "44", "ARRESTED/BOOKED", "20170060713" ]
+, [ 38290, "7FA223CE-37E5-4300-AB45-52299EBED843", 38290, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006073", "170011176", "1", "F", "10851 (A) VC", "THEFT OF VEHICLE (FEL)", null, "4719", "WESTFIELD PL", "SANTA ROSA", null, "ROBBINS", "DANIEL", "WAYNE", null, "W", "M", "05-16-1986", "31", "ARRESTED/BOOKED", "20170060731" ]
+, [ 38291, "9BACFA18-7BF7-47E5-8679-392AD4B57B99", 38291, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006073", "170011176", "2", "F", "666.5 (A) PC", "VEHICLE/ETC THEFT:SPECIFIC PRIORS", null, "4719", "WESTFIELD PL", "SANTA ROSA", null, "ROBBINS", "DANIEL", "WAYNE", null, "W", "M", "05-16-1986", "31", "ARRESTED/BOOKED", "20170060732" ]
+, [ 38292, "3467C3BE-C55C-4984-A2B1-7953886BB8B4", 38292, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006073", "170011176", "3", "F", "496 D (A) PC", "POSSESS STOLEN VEH/VESSEL/ETC", null, "4719", "WESTFIELD PL", "SANTA ROSA", null, "ROBBINS", "DANIEL", "WAYNE", null, "W", "M", "05-16-1986", "31", "ARRESTED/BOOKED", "20170060733" ]
+, [ 38321, "5B48393B-FCB0-4FEC-B33C-9EA9E726580A", 38321, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006088", "170011232", "2", "F", "11379 (A) HS", "TRANSPORT/ETC CONTROLLED SUBSTANCE", null, "2060", "W COLLEGE AV", "SANTA ROSA", null, "PRADO", "NORBERTO", "VEGA", null, "H", "M", "01-19-1979", "38", "ARRESTED/BOOKED", "20170060882" ]
+, [ 38293, "D7864842-35FA-4D61-B565-A917205FAA3F", 38293, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006073", "170011176", "4", "F", "2800.2 (A) VC", "(FEL) EVADE PEACE OFFICER WITH WANTON DISREGARD FOR SAFETY", null, "4719", "WESTFIELD PL", "SANTA ROSA", null, "ROBBINS", "DANIEL", "WAYNE", null, "W", "M", "05-16-1986", "31", "ARRESTED/BOOKED", "20170060734" ]
+, [ 38294, "76594568-642A-4398-B26C-4C97B97B0277", 38294, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006073", "170011176", "5", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, "4719", "WESTFIELD PL", "SANTA ROSA", null, "ROBBINS", "DANIEL", "WAYNE", null, "W", "M", "05-16-1986", "31", "ARRESTED/BOOKED", "20170060735" ]
+, [ 38295, "090D26EE-AD3C-4D92-9B7E-399732C6DFA9", 38295, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006073", "170011176", "6", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "4719", "WESTFIELD PL", "SANTA ROSA", null, "ROBBINS", "DANIEL", "WAYNE", null, "W", "M", "05-16-1986", "31", "ARRESTED/BOOKED", "20170060736" ]
+, [ 38296, "946B3166-3E33-4283-B3A6-532B7BB87C4F", 38296, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006074", "170011192", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "2055", "MENDOCINO AV", "SANTA ROSA", null, "SPENCE", "TIMOTHY", "RYAN", null, "W", "M", "08-12-1987", "30", "ARRESTED/BOOKED", "20170060741" ]
+, [ 38297, "89B38FBE-42A5-4FF8-892B-3EF17E1EA77A", 38297, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006074", "170011192", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "2055", "MENDOCINO AV", "SANTA ROSA", null, "SPENCE", "TIMOTHY", "RYAN", null, "W", "M", "08-12-1987", "30", "ARRESTED/BOOKED", "20170060742" ]
+, [ 38298, "8A37DA56-7D03-4CC3-9949-CFB2BF8075DE", 38298, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006075", "170011185", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "GRAND AV / PRESSLEY ST", "SANTA ROSA", null, "RUCKER", "MILTON", "LOUIS", null, "B", "M", "12-04-1949", "67", "ARRESTED/BOOKED", "20170060751" ]
+, [ 38299, "1899F84B-B104-458C-8A88-A13A05FE9B4C", 38299, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006075", "170011185", "2", "M", "23152 (B) VC", "DUI ALCOHOL/0.08 PERCENT", null, null, "GRAND AV / PRESSLEY ST", "SANTA ROSA", null, "RUCKER", "MILTON", "LOUIS", null, "B", "M", "12-04-1949", "67", "ARRESTED/BOOKED", "20170060752" ]
+, [ 38300, "87CB4757-DD39-4ACC-8D5B-9E4459E5D69A", 38300, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006076", "170011191", "1", "M", "459.5 PC", "(MISD) BURGLARY/SHOPLIFTING  LESS THAN $950", null, "800", "SANTA ROSA PLAZA", "SANTA ROSA", null, "WRIGHT", "CEDRIC", "BERNARD", "JR", "B", "M", "11-14-1983", "33", "ARRESTED/BOOKED", "20170060761" ]
+, [ 38301, "4503B70C-DF36-4EE1-9CB8-0F964A2A40BD", 38301, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006076", "170011191", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "800", "SANTA ROSA PLAZA", "SANTA ROSA", null, "WRIGHT", "CEDRIC", "BERNARD", "JR", "B", "M", "11-14-1983", "33", "ARRESTED/BOOKED", "20170060762" ]
+, [ 38302, "57728A15-9EBF-4B22-8662-43CDDF746203", 38302, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006077", "170011194", "1", "M", "23152 (F) VC", "DUI  DRUGS", null, "850", "E COTATI AV", "COTATI", null, "MOST", "NICHOLAS", "JOHN", null, "W", "M", "07-28-1988", "29", "ARRESTED/BOOKED", "20170060771" ]
+, [ 38303, "49A76573-0625-4472-B9AF-C23631CB5EFB", 38303, 1504075823, "905761", 1504075823, "905761", null, "08-25-2017", "2017006078", "170011196", "1", "F", "273.5 (A) PC", "ASSAULT DV  W/ INJURY (FEL) SIMPLE", null, "965", "SONOMA AV", "SANTA ROSA", null, "RIDGEWAY", "CLIFFORD", "WAREN", null, "W", "M", "05-23-1978", "39", "ARRESTED/BOOKED", "20170060781" ]
+, [ 38304, "41C61DC4-2E4A-4959-B243-A734E533D912", 38304, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006081", "170011195", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "955", "STONY POINT RD", "SANTA ROSA", null, "HOWARD", "KIMBERLEE", "JUNE", null, "W", "F", "07-01-1966", "51", "ARRESTED/BOOKED", "20170060811" ]
+, [ 38305, "0165F5AD-55B2-4576-82BC-51A68CC60004", 38305, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006081", "170011195", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "955", "STONY POINT RD", "SANTA ROSA", null, "HOWARD", "KIMBERLEE", "JUNE", null, "W", "F", "07-01-1966", "51", "ARRESTED/BOOKED", "20170060812" ]
+, [ 38306, "F3DF5BC4-5B6D-4E8F-ACB5-F7A31F4E9B2E", 38306, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006081", "170011195", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "955", "STONY POINT RD", "SANTA ROSA", null, "HOWARD", "KIMBERLEE", "JUNE", null, "W", "F", "07-01-1966", "51", "ARRESTED/BOOKED", "20170060813" ]
+, [ 38307, "E24F5B84-4653-47C9-A3B2-8D9FF69C5549", 38307, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006081", "170011195", "4", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "955", "STONY POINT RD", "SANTA ROSA", null, "HOWARD", "KIMBERLEE", "JUNE", null, "W", "F", "07-01-1966", "51", "ARRESTED/BOOKED", "20170060814" ]
+, [ 38308, "E9536445-E3AF-4BB0-B53F-3739A44A8159", 38308, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006082", "170011195", "1", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, "955", "STONY POINT RD", "SANTA ROSA", null, "RODGERS", "ORVILLE", "MERLE", null, "W", "M", "11-05-1973", "43", "ARRESTED/BOOKED", "20170060821" ]
+, [ 38309, "695EAE94-8351-4AD2-9E30-AC858FAC56FE", 38309, 1504075823, "905761", 1504075823, "905761", null, "08-24-2017", "2017006082", "170011195", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "955", "STONY POINT RD", "SANTA ROSA", null, "RODGERS", "ORVILLE", "MERLE", null, "W", "M", "11-05-1973", "43", "ARRESTED/BOOKED", "20170060822" ]
+, [ 38310, "01F88DD2-ACF7-4C34-85D2-E630AB987B4D", 38310, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006082", "170011195", "3", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, "955", "STONY POINT RD", "SANTA ROSA", null, "RODGERS", "ORVILLE", "MERLE", null, "W", "M", "11-05-1973", "43", "ARRESTED/BOOKED", "20170060823" ]
+, [ 38311, "225051DC-0DC3-4ACF-BD62-408E35D3B3A8", 38311, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006082", "170011195", "4", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "955", "STONY POINT RD", "SANTA ROSA", null, "RODGERS", "ORVILLE", "MERLE", null, "W", "M", "11-05-1973", "43", "ARRESTED/BOOKED", "20170060824" ]
+, [ 38312, "EB405356-60FF-411E-B25C-89561CADEFE9", 38312, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006083", "170011170", "1", "M", "242 PC", "BATTERY ON PERSON (MISD)", null, null, "CASSIDY CT E / PETERSON LN", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170060831" ]
+, [ 38313, "F1868541-9712-43D1-8357-118E633A684D", 38313, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006084", "170011213", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "777", "SEBASTOPOL RD", "SANTA ROSA", null, "JONES", "JAMES", "HENRY", null, "B", "M", "09-28-1952", "64", "ARRESTED/BOOKED", "20170060841" ]
+, [ 38314, "6A44B7B4-0764-4DCC-A404-82CE471C53DE", 38314, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006084", "170011213", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "777", "SEBASTOPOL RD", "SANTA ROSA", null, "JONES", "JAMES", "HENRY", null, "B", "M", "09-28-1952", "64", "ARRESTED/BOOKED", "20170060842" ]
+, [ 38315, "96440090-45F3-4774-A307-0431E59D4DED", 38315, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006085", "170011225", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "4TH ST / BROOKWOOD AV", "SANTA ROSA", null, "HUTCHISON", "DANNY", "EDWARD", "JR", "W", "M", "02-27-1970", "47", "ARRESTED/BOOKED", "20170060851" ]
+, [ 38316, "FF7A9BC0-B208-4B80-B2AF-B7E2DDFE96EA", 38316, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006086", "170011217", "1", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, null, "MENDOCINO AV / SCHURMAN DR", "SANTA ROSA", null, "HIGI", "DAVID", "EDWARD", null, "W", "M", "08-13-1955", "62", "ARRESTED/BOOKED", "20170060861" ]
+, [ 38317, "E7DC8DC5-0D86-4FFB-B445-0E6BAD9B2F84", 38317, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006086", "170011217", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, null, "MENDOCINO AV / SCHURMAN DR", "SANTA ROSA", null, "HIGI", "DAVID", "EDWARD", null, "W", "M", "08-13-1955", "62", "ARRESTED/BOOKED", "20170060862" ]
+, [ 38318, "23F6FD21-F6FC-4A33-ACB8-6AC5B42DD46B", 38318, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006087", "170011210", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, null, "DUTTON AV / JOE RODOTA TR", "SANTA ROSA", null, "LOPEZ", "PABLO", "GARCIA", null, "H", "M", "01-16-1982", "35", "CITED", "20170060871" ]
+, [ 38319, "5DC51E93-8D0F-4830-BE6F-24D8D54AC272", 38319, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006087", "170011210", "2", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, null, "DUTTON AV / JOE RODOTA TR", "SANTA ROSA", null, "LOPEZ", "PABLO", "GARCIA", null, "H", "M", "01-16-1982", "35", "CITED", "20170060872" ]
+, [ 38320, "23D5EC5F-6719-4365-9A09-DBA50AB3FBBE", 38320, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006088", "170011232", "1", "F", "11378 HS", "POSSESS CONTROLLED SUBSTANCE FOR SALE", null, "2060", "W COLLEGE AV", "SANTA ROSA", null, "PRADO", "NORBERTO", "VEGA", null, "H", "M", "01-19-1979", "38", "ARRESTED/BOOKED", "20170060881" ]
+, [ 38322, "315AF379-2392-451D-948B-9FFDD19618F7", 38322, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006088", "170011232", "3", "F", "1203.2 PC", "VIOLATION OF PROBATION (FEL)", null, "2060", "W COLLEGE AV", "SANTA ROSA", null, "PRADO", "NORBERTO", "VEGA", null, "H", "M", "01-19-1979", "38", "ARRESTED/BOOKED", "20170060883" ]
+, [ 38323, "3531B970-41BE-47E5-B6C1-A854D4BAEE9C", 38323, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006088", "170011232", "4", "M", "12500 VC", "DRIVE W/O LIC", null, "2060", "W COLLEGE AV", "SANTA ROSA", null, "PRADO", "NORBERTO", "VEGA", null, "H", "M", "01-19-1979", "38", "ARRESTED/BOOKED", "20170060884" ]
+, [ 38324, "3CC546EF-D39E-41BE-815B-D16CCBD884CA", 38324, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006089", "170011232", "1", "F", "11378 HS", "POSSESS CONTROLLED SUBSTANCE FOR SALE", null, "2060", "W COLLEGE AV", "SANTA ROSA", null, "NANDIN", "DEMONICA", "TAYLOR", null, "H", "F", "02-04-1994", "23", "ARRESTED/BOOKED", "20170060891" ]
+, [ 38325, "32AE5882-BC13-440D-912D-48DA75E2DD4F", 38325, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006089", "170011232", "2", "F", "11379 (A) HS", "TRANSPORT/ETC CONTROLLED SUBSTANCE", null, "2060", "W COLLEGE AV", "SANTA ROSA", null, "NANDIN", "DEMONICA", "TAYLOR", null, "H", "F", "02-04-1994", "23", "ARRESTED/BOOKED", "20170060892" ]
+, [ 38326, "3BDE027E-6271-415B-823A-032E91BF06D3", 38326, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006090", "170011212", "1", "M", "25662 (A) BP", "MINOR POSSESS ALCOHOL", null, "1250", "HAHMAN DR", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170060901" ]
+, [ 38327, "868FC56D-244C-46CB-AD04-D34539EE6DC7", 38327, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006090", "170011212", "2", "M", "777 (A)(1) WI", "FAIL TO OBEY ORDER OF JUVENILE COURT 601 WI", null, "1250", "HAHMAN DR", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170060902" ]
+, [ 38328, "BC5D9D1D-F5F6-47F7-B2C3-FD622A314E8B", 38328, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006091", "170011218", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "BROWN", "KENNYON", "CARL", null, "W", "M", "11-11-1988", "28", "ARRESTED/BOOKED", "20170060911" ]
+, [ 38329, "AF59EC26-0F75-4ADF-A39D-5345783F5DE4", 38329, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006091", "170011218", "2", "M", "602 PC", "TRESPASSING", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "BROWN", "KENNYON", "CARL", null, "W", "M", "11-11-1988", "28", "ARRESTED/BOOKED", "20170060912" ]
+, [ 38330, "409CFC9B-A663-4437-A949-FEF8A3B9F37D", 38330, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006091", "170011218", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "390", "CODDINGTOWN CENTER", "SANTA ROSA", null, "BROWN", "KENNYON", "CARL", null, "W", "M", "11-11-1988", "28", "ARRESTED/BOOKED", "20170060913" ]
+, [ 38331, "71F7C3E0-0D2F-42E1-8E6C-750B71B2963D", 38331, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006092", "170011223", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "4665", "QUIGG DR", "SANTA ROSA", null, "ROACH", "SARAH", "REBECCA", null, "W", "F", "08-02-1971", "46", "ARRESTED/BOOKED", "20170060921" ]
+, [ 38332, "0EB4C0A8-5CCC-4401-AE0E-B72D99126F2D", 38332, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006092", "170011223", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "4665", "QUIGG DR", "SANTA ROSA", null, "ROACH", "SARAH", "REBECCA", null, "W", "F", "08-02-1971", "46", "ARRESTED/BOOKED", "20170060922" ]
+, [ 38333, "99BE7E1A-CE8A-421F-ABC7-AFFB9B62AD9E", 38333, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006092", "170011223", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "4665", "QUIGG DR", "SANTA ROSA", null, "ROACH", "SARAH", "REBECCA", null, "W", "F", "08-02-1971", "46", "ARRESTED/BOOKED", "20170060923" ]
+, [ 38334, "AE96662B-B5E9-4784-905D-8C28D5B243D3", 38334, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006092", "170011223", "4", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "4665", "QUIGG DR", "SANTA ROSA", null, "ROACH", "SARAH", "REBECCA", null, "W", "F", "08-02-1971", "46", "ARRESTED/BOOKED", "20170060924" ]
+, [ 38335, "7C82AD5E-BAA7-4EDC-9AE3-0C9D644617D9", 38335, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006092", "170011223", "5", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "4665", "QUIGG DR", "SANTA ROSA", null, "ROACH", "SARAH", "REBECCA", null, "W", "F", "08-02-1971", "46", "ARRESTED/BOOKED", "20170060925" ]
+, [ 38336, "711E39FD-AC52-4F8B-B5D0-3FE9A891F5BF", 38336, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006093", "170011244", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "713", "WARE AV", "SANTA ROSA", null, "SILVA", "JAMIE", "LEE", null, "W", "M", "08-20-1962", "55", "ARRESTED/BOOKED", "20170060931" ]
+, [ 38337, "6B6D31F5-7D3C-457C-A8DD-87B5F8D54867", 38337, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006093", "170011244", "2", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, "713", "WARE AV", "SANTA ROSA", null, "SILVA", "JAMIE", "LEE", null, "W", "M", "08-20-1962", "55", "ARRESTED/BOOKED", "20170060932" ]
+, [ 38338, "EB858DB2-2C80-454B-8202-0583F8B72116", 38338, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006094", "170011243", "1", "M", "602 (L) PC", "TRESPASS:OCCUPY PROPERTY W/O CONSENT", null, null, "8TH ST / WILSON ST", "SANTA ROSA", null, "WEBBER", "MICHAEL", "DAVID", null, "W", "M", "11-11-1971", "45", "ARRESTED/BOOKED", "20170060941" ]
+, [ 38339, "7AEB9A62-99EA-4A27-B13E-E3F2D60CE7FA", 38339, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006095", "170011246", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "DUTTON AV / SEBASTOPOL RD", "SANTA ROSA", null, "DIAZ-TORRES", "DELFINO", null, null, "H", "M", "12-24-1975", "41", "ARRESTED/BOOKED", "20170060951" ]
+, [ 38340, "36BFACFB-439A-40EA-ABE2-1E755056AB4C", 38340, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006095", "170011246", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "DUTTON AV / SEBASTOPOL RD", "SANTA ROSA", null, "DIAZ-TORRES", "DELFINO", null, null, "H", "M", "12-24-1975", "41", "ARRESTED/BOOKED", "20170060952" ]
+, [ 38341, "1279B1D1-A2C7-4A57-92FE-88471A5BADFD", 38341, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006096", "170011245", "1", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, null, "COUNTY CENTER DR / STEELE LN", "SANTA ROSA", null, "RUHS", "TIMOTHY", "WILLIAM", null, "W", "M", "07-25-1990", "27", "ARRESTED/BOOKED", "20170060961" ]
+, [ 38342, "FDD00C2E-2CD5-49B2-9DB0-79B8176865AF", 38342, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006097", "170011254", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "2065", "OCCIDENTAL RD", "SANTA ROSA", null, "GUIDRY", "MICHAEL", "JAMES", "JR", "W", "M", "07-15-1971", "46", "ARRESTED/BOOKED", "20170060971" ]
+, [ 38343, "814B3D50-2C29-4F05-8782-8EE8831D43E2", 38343, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006097", "170011254", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "2065", "OCCIDENTAL RD", "SANTA ROSA", null, "GUIDRY", "MICHAEL", "JAMES", "JR", "W", "M", "07-15-1971", "46", "ARRESTED/BOOKED", "20170060972" ]
+, [ 38344, "88D381C5-F66C-433F-A1C2-36CBF8EC3EC8", 38344, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006098", "170011247", "1", "M", "242 PC", "BATTERY", null, "1165", "MONTGOMERY DR", "SANTA ROSA", null, "WISEMAN", "NATHAN", "ETHAN", null, "W", "M", "04-20-1976", "41", "ARRESTED/BOOKED", "20170060981" ]
+, [ 38345, "7F70A1D4-430D-4B20-A126-C6CA7FFA7280", 38345, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006099", "170011259", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "HUMBOLDT ST / LEWIS RD", "SANTA ROSA", null, "WICK", "BRIANNA", "MARIE", null, "W", "F", "12-08-1987", "29", "ARRESTED/BOOKED", "20170060991" ]
+, [ 38346, "AC72DB49-D0A5-433C-8AE9-F8650736A965", 38346, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006099", "170011259", "2", "M", "23152 (B) VC", "DUI ALCOHOL/0.08 PERCENT", null, null, "HUMBOLDT ST / LEWIS RD", "SANTA ROSA", null, "WICK", "BRIANNA", "MARIE", null, "W", "F", "12-08-1987", "29", "ARRESTED/BOOKED", "20170060992" ]
+, [ 38347, "443DC74E-11E1-4A0F-8459-B8003CF9881A", 38347, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006100", "170011255", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "SEBASTOPOL RD / STONY POINT RD", "SANTA ROSA", null, "ULUAC-ZAPATA", "ESTEBAN", null, null, "H", "M", "12-29-1982", "34", "CITED", "20170061001" ]
+, [ 38348, "3586F1A3-4F77-49CD-9675-198ECAEC77DA", 38348, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006100", "170011255", "2", "M", "23152 (B) VC", "DUI ALCOHOL/0.08 PERCENT", null, null, "SEBASTOPOL RD / STONY POINT RD", "SANTA ROSA", null, "ULUAC-ZAPATA", "ESTEBAN", null, null, "H", "M", "12-29-1982", "34", "CITED", "20170061002" ]
+, [ 38349, "E971AB1B-F6D5-4C7A-B2B4-B9260754EBDA", 38349, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006100", "170011255", "3", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "SEBASTOPOL RD / STONY POINT RD", "SANTA ROSA", null, "ULUAC-ZAPATA", "ESTEBAN", null, null, "H", "M", "12-29-1982", "34", "CITED", "20170061003" ]
+, [ 38350, "F9D13C49-0FDF-4BCD-A6C8-2620F94CD943", 38350, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006101", "170011261", "1", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "2007", "SEBASTOPOL RD", "SANTA ROSA", null, "REYNOLDS", "RENEE", "ANNE", null, "W", "F", "11-24-1968", "48", "ARRESTED/BOOKED", "20170061011" ]
+, [ 38351, "F1EECD32-3296-4CAD-BB17-58EFDD5D9342", 38351, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006101", "170011261", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "2007", "SEBASTOPOL RD", "SANTA ROSA", null, "REYNOLDS", "RENEE", "ANNE", null, "W", "F", "11-24-1968", "48", "ARRESTED/BOOKED", "20170061012" ]
+, [ 38352, "9D2EF00D-B6EF-4E68-A0DA-F11E121AF2C8", 38352, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006102", "170011206", "1", "F", "273.5 (A) PC", "ASSAULT DV  W/ INJURY (FEL) SIMPLE", null, "1539", "FIRST", "NAPA", null, "LOFTUS", "BRIAN", "ANTHONY", null, "W", "M", "12-11-1975", "41", "ARRESTED/BOOKED", "20170061021" ]
+, [ 38353, "56A62C5B-E165-43CC-B6FF-1986200DD08E", 38353, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006103", "170011265", "1", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, "694", "WILSON ST", "SANTA ROSA", null, "HARRISON", "DAVID", "ZACHARY", null, "W", "M", "03-09-1973", "44", "ARRESTED/BOOKED", "20170061031" ]
+, [ 38354, "F6C9B5BC-88B1-4F3B-A973-256D2277AA62", 38354, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006104", "170011272", "1", "F", "OUT WARRANT", "OUTSIDE WARRANT-FEL", null, "1188", "EDWARDS AV", "SANTA ROSA", null, "MILLER", "MARLEY", "KEITH", null, "W", "M", "06-21-1984", "33", "ARRESTED/BOOKED", "20170061041" ]
+, [ 38355, "894358D9-A8B9-4357-9FAC-371BBFA46A4E", 38355, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006104", "170011272", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "1188", "EDWARDS AV", "SANTA ROSA", null, "MILLER", "MARLEY", "KEITH", null, "W", "M", "06-21-1984", "33", "ARRESTED/BOOKED", "20170061042" ]
+, [ 38356, "ACBDD896-F856-4F85-A049-81948186247D", 38356, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006104", "170011272", "3", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "1188", "EDWARDS AV", "SANTA ROSA", null, "MILLER", "MARLEY", "KEITH", null, "W", "M", "06-21-1984", "33", "ARRESTED/BOOKED", "20170061043" ]
+, [ 38357, "57AA99D9-A788-457F-AFBF-459F880BA4A6", 38357, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006104", "170011272", "4", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "1188", "EDWARDS AV", "SANTA ROSA", null, "MILLER", "MARLEY", "KEITH", null, "W", "M", "06-21-1984", "33", "ARRESTED/BOOKED", "20170061044" ]
+, [ 38358, "017466EE-2462-4457-9B44-1B95EB7C0E1E", 38358, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006110", "170011273", "1", "F", "23900 PC", "TAMPER WITH IDENTIFICATION MARKS ON FIREARM", null, "1101", "JENNINGS AV", "SANTA ROSA", "2", "VELAZQUEZ", "RUBEN", "GARCIA", null, "H", "M", "04-24-1971", "46", "ARRESTED/BOOKED", "20170061101" ]
+, [ 38359, "D5CE1F9D-93DB-4AA1-9566-866D37D654DA", 38359, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006110", "170011273", "2", "M", "25850 (A) PC", "(MISD) CARRY LOADED FIREARM:IN PUBLIC PLACE", null, "1101", "JENNINGS AV", "SANTA ROSA", "2", "VELAZQUEZ", "RUBEN", "GARCIA", null, "H", "M", "04-24-1971", "46", "ARRESTED/BOOKED", "20170061102" ]
+, [ 38360, "2CCED607-5A91-4AA9-ACAC-F57176145664", 38360, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006110", "170011273", "3", "M", "11350 (A) HS", "(MISD)POSSESS NARCOTIC CONTROLLED SUBSTANCE", null, "1101", "JENNINGS AV", "SANTA ROSA", "2", "VELAZQUEZ", "RUBEN", "GARCIA", null, "H", "M", "04-24-1971", "46", "ARRESTED/BOOKED", "20170061103" ]
+, [ 38361, "6DD5993A-6E3D-4EDD-A3C0-234D7E1D6170", 38361, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006111", "170011242", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "204", "SANTA ROSA AV", "SANTA ROSA", null, "FURIA", "CHARLES", "QUINTON", "JR", "W", "M", "05-20-1958", "59", "ARRESTED/BOOKED", "20170061111" ]
+, [ 38362, "C357B3E1-6EDE-431C-A774-91567F311101", 38362, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006112", "170011249", "1", "F", "BENCH WARRANT", "BENCH WARRANT (FELONY)", null, "440", "HEARN AV", "SANTA ROSA", null, "MOATS", "JOSHUA", "DAVID", null, "W", "M", "09-01-1989", "27", "ARRESTED/BOOKED", "20170061121" ]
+, [ 38363, "55579B4C-92DC-4D4D-BBA2-5CD80F168C12", 38363, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006114", "170011286", "1", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, null, "KAWANA SPRINGS RD / MEADOW WY", "SANTA ROSA", null, "RIVERA", "ROBERTA", "RENEE", null, "H", "F", "03-31-1981", "36", "CITED", "20170061141" ]
+, [ 38364, "F242FC14-D1DE-4055-BB60-6E857FDC56BE", 38364, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006115", "170011282", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "446", "S E ST", "SANTA ROSA", null, "BARRIOS", "BARBARA", "FISER", null, "W", "F", "06-02-1958", "59", "ARRESTED/BOOKED", "20170061151" ]
+, [ 38365, "3939A81F-A0B5-4875-B81C-09168BADE3F0", 38365, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006115", "170011282", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "446", "S E ST", "SANTA ROSA", null, "BARRIOS", "BARBARA", "FISER", null, "W", "F", "06-02-1958", "59", "ARRESTED/BOOKED", "20170061152" ]
+, [ 38366, "7284B248-F5EA-410F-AAAF-122167A7200A", 38366, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006115", "170011282", "3", "M", "40500(D) PC", "DESTROY/ALTER/ETC WRITTEN NOTICE TO APPEAR", null, "446", "S E ST", "SANTA ROSA", null, "BARRIOS", "BARBARA", "FISER", null, "W", "F", "06-02-1958", "59", "ARRESTED/BOOKED", "20170061153" ]
+, [ 38367, "E939D6A0-695C-4E3E-A4B4-B65AC9332224", 38367, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006116", "170011252", "1", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, "171", "SANTA ROSA AV", "SANTA ROSA", null, "PEDRINAZZI", "LUCA", "GIUSEPPE", null, "W", "M", "09-17-1987", "29", "CITED", "20170061161" ]
+, [ 38368, "9504F006-1CB3-4D10-81C9-16C07053DE4C", 38368, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006117", "170011250", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, null, "1ST ST / A ST", "SANTA ROSA", null, "DAVIDSON", "MICHELLE", "ANGELINA", null, "W", "F", "10-22-1972", "44", "CITED", "20170061171" ]
+, [ 38369, "08F51739-1CF5-469A-B983-6D4A787A36CA", 38369, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006117", "170011250", "2", "M", "11350 (A) HS", "(MISD)POSSESS NARCOTIC CONTROLLED SUBSTANCE", null, null, "1ST ST / A ST", "SANTA ROSA", null, "DAVIDSON", "MICHELLE", "ANGELINA", null, "W", "F", "10-22-1972", "44", "CITED", "20170061172" ]
+, [ 38370, "844EA225-3BB6-465B-885C-35FAAD309E03", 38370, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006117", "170011250", "3", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, null, "1ST ST / A ST", "SANTA ROSA", null, "DAVIDSON", "MICHELLE", "ANGELINA", null, "W", "F", "10-22-1972", "44", "CITED", "20170061173" ]
+, [ 38371, "3379A053-7098-4576-B0D1-CE5BFFA287B8", 38371, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006118", "170011284", "1", "M", "243 (E)(1) PC", "BATTERY DV SPOUSE/EX SPOUSE/DATE/ETC (MISD)", null, "2220", "VERSAILLES ST", "SANTA ROSA", null, "ALIX", "JACOB", "ROBERT", null, "W", "M", "02-08-1991", "26", "ARRESTED/BOOKED", "20170061181" ]
+, [ 38372, "62B24EBA-F6E5-4525-9085-F7086A8FDEA3", 38372, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006119", "170011291", "1", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "225", "THERESA ST", "SANTA ROSA", "B", "MALDONADO", "EDGAR", "ALEJANDRO", null, "H", "M", "05-09-1991", "26", "ARRESTED/BOOKED", "20170061191" ]
+, [ 38373, "ED94F56D-0416-49F3-B67B-3A842BD49747", 38373, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006120", "170011253", "1", "F", "10851 (A) VC", "THEFT OF VEHICLE (FEL)", null, null, "ADMINISTRATION DR / FISCAL DR", "SANTA ROSA", null, "CALDWELL", "SARAH", "MARIE", null, "W", "F", "03-03-1985", "32", "ARRESTED/BOOKED", "20170061201" ]
+, [ 38374, "4194A702-23E3-4AB0-A396-A3B9C30E9222", 38374, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006120", "170011253", "2", "F", "496 D (A) PC", "POSSESS STOLEN VEH/VESSEL/ETC", null, null, "ADMINISTRATION DR / FISCAL DR", "SANTA ROSA", null, "CALDWELL", "SARAH", "MARIE", null, "W", "F", "03-03-1985", "32", "ARRESTED/BOOKED", "20170061202" ]
+, [ 38375, "8527C525-6FF8-43CE-9AB0-80D0C0540199", 38375, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006121", "170011241", "1", "F", "11378 HS", "POSSESS CONTROLLED SUBSTANCE FOR SALE", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "CARRILLO", "REFUJIO", "CUCO", null, "H", "M", "11-28-1976", "40", "ARRESTED/BOOKED", "20170061211" ]
+, [ 38376, "676047AF-00D7-4565-9A88-A6D905A0E764", 38376, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006121", "170011241", "2", "F", "11379 (A) HS", "TRANSPORT/ETC CONTROLLED SUBSTANCE", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "CARRILLO", "REFUJIO", "CUCO", null, "H", "M", "11-28-1976", "40", "ARRESTED/BOOKED", "20170061212" ]
+, [ 38377, "FB28C3CF-58B8-4950-B50A-B89D16FC6AE7", 38377, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006121", "170011241", "3", "F", "186.22 (A) PC", "(FEL) PARTICIPATE IN CRIMINAL STREET GANG", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "CARRILLO", "REFUJIO", "CUCO", null, "H", "M", "11-28-1976", "40", "ARRESTED/BOOKED", "20170061213" ]
+, [ 38378, "602D39B2-6C0E-4A25-A9AC-26D53DE52758", 38378, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006121", "170011241", "4", "F", "186.22 (B) PC", "GANG ENHANCEMENT (FELONY)", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "CARRILLO", "REFUJIO", "CUCO", null, "H", "M", "11-28-1976", "40", "ARRESTED/BOOKED", "20170061214" ]
+, [ 38379, "E3D52F31-581E-41B5-BCDF-F8D67888982D", 38379, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006121", "170011241", "5", "M", "135 PC", "DESTROY/CONCEAL EVIDENCE", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "CARRILLO", "REFUJIO", "CUCO", null, "H", "M", "11-28-1976", "40", "ARRESTED/BOOKED", "20170061215" ]
+, [ 38380, "C4B7EC41-0295-42F3-8127-B8FDA2DE25E5", 38380, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006122", "170011241", "1", "F", "11378 HS", "POSSESS CONTROLLED SUBSTANCE FOR SALE", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "GARDUNO", "ELEAZAR", "DIAS", null, "H", "M", "11-18-1978", "38", "ARRESTED/BOOKED", "20170061221" ]
+, [ 38381, "AED69129-69AE-4B23-99D2-ED11AB7F1B13", 38381, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006122", "170011241", "2", "F", "11379 (A) HS", "TRANSPORT/ETC CONTROLLED SUBSTANCE", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "GARDUNO", "ELEAZAR", "DIAS", null, "H", "M", "11-18-1978", "38", "ARRESTED/BOOKED", "20170061222" ]
+, [ 38382, "8E4D145A-A6DE-44D4-BACF-DA8B40F3FB1B", 38382, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006122", "170011241", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "GARDUNO", "ELEAZAR", "DIAS", null, "H", "M", "11-18-1978", "38", "ARRESTED/BOOKED", "20170061223" ]
+, [ 38383, "D752BFD8-136C-447C-9D1D-95A6E11E0FB6", 38383, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006122", "170011241", "4", "F", "186.22 (A) PC", "(FEL) PARTICIPATE IN CRIMINAL STREET GANG", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "GARDUNO", "ELEAZAR", "DIAS", null, "H", "M", "11-18-1978", "38", "ARRESTED/BOOKED", "20170061224" ]
+, [ 38384, "49736886-0A6D-49D2-A557-33A19982AF2C", 38384, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006122", "170011241", "5", "F", "186.22 (B) PC", "GANG ENHANCEMENT (FELONY)", null, "104", "BELLEVUE AV", "SANTA ROSA", null, "GARDUNO", "ELEAZAR", "DIAS", null, "H", "M", "11-18-1978", "38", "ARRESTED/BOOKED", "20170061225" ]
+, [ 38385, "E7014339-2314-4C99-B189-5615A0A66F14", 38385, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006123", "170011299", "1", "M", "242 PC", "BATTERY ON PERSON (MISD)", null, "6600", "MONTECITO BL", "SANTA ROSA", "77", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170061231" ]
+, [ 38386, "E6069C57-1B6B-43D2-BC12-A1BC2E35BA7E", 38386, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006124", "170011224", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "800", "CODDINGTOWN CENTER", "SANTA ROSA", null, "KNIGHT", "MADISON", null, null, "W", "F", "06-07-1989", "28", "ARRESTED/BOOKED", "20170061241" ]
+, [ 38387, "CE818C64-0676-40BA-BF84-281A652E4910", 38387, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006124", "170011224", "2", "M", "OUT WARRANT", "OUTSIDE WARRANT-MISD", null, "800", "CODDINGTOWN CENTER", "SANTA ROSA", null, "KNIGHT", "MADISON", null, null, "W", "F", "06-07-1989", "28", "ARRESTED/BOOKED", "20170061242" ]
+, [ 38388, "4FE91610-40B4-4751-9608-94E2FC289E47", 38388, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006126", "170011236", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "RANGE AV / W STEELE LN", "SANTA ROSA", null, "SHEEHAN", "KEVIN", "PATRICK", null, "W", "M", "08-01-1964", "53", "CITED", "20170061261" ]
+, [ 38389, "5B982B45-4066-4D05-803D-C7315D3C5E6F", 38389, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006126", "170011236", "2", "M", "10-04.010 SR", "ALCOH CONSUMPT IN PUBLIC", null, null, "RANGE AV / W STEELE LN", "SANTA ROSA", null, "SHEEHAN", "KEVIN", "PATRICK", null, "W", "M", "08-01-1964", "53", "CITED", "20170061262" ]
+, [ 38390, "A8630C0D-CCE0-4911-B77F-919024084DF3", 38390, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006127", "170011260", "1", "M", "148.9 (A) PC", "FALSE IDENTIFICATION TO SPECIFIC PEACE OFFICERS", null, null, "COFFEY LN / W STEELE LN", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170061271" ]
+, [ 38391, "06AF9216-FD47-4CA6-ADB4-4649CC6E5A62", 38391, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006127", "170011260", "2", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "COFFEY LN / W STEELE LN", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170061272" ]
+, [ 38392, "56E3399A-CCB7-422F-97C6-09FE9B581697", 38392, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006128", "170011260", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "COFFEY LN / W STEELE LN", "SANTA ROSA", null, "GODOY", "LUIS", "ANTONIO", null, "H", "M", "01-24-1997", "20", "ARRESTED/BOOKED", "20170061281" ]
+, [ 38393, "25FEF126-1864-4C85-BD58-090383E3634C", 38393, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006129", "170011260", "1", "M", "14604(A) VC", "OWN LET UNLICENSD OPR VEH", null, null, "COFFEY LN / W STEELE LN", "SANTA ROSA", null, "BETTEGA", "PATRICK", "WILLIAM", null, "W", "U", "07-14-1998", "19", "ARRESTED/BOOKED", "20170061291" ]
+, [ 38394, "B63B6647-D959-4D57-9448-8D94C2B9FBE3", 38394, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006130", "170011256", "1", "M", "11350 (A) HS", "(MISD)POSSESS NARCOTIC CONTROLLED SUBSTANCE", null, null, "W 3RD ST / DUTTON AV", "SANTA ROSA", null, "MEDINA", "JOAQUIN", "ROMAN", null, "H", "M", "02-16-1994", "23", "ARRESTED/BOOKED", "20170061301" ]
+, [ 38395, "F81887CF-AB4D-47EE-9C15-253284BAE66D", 38395, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006130", "170011256", "2", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "W 3RD ST / DUTTON AV", "SANTA ROSA", null, "MEDINA", "JOAQUIN", "ROMAN", null, "H", "M", "02-16-1994", "23", "ARRESTED/BOOKED", "20170061302" ]
+, [ 38396, "1CC555B3-5A9C-4DA1-9B84-F86F5BC0BD9E", 38396, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006130", "170011256", "3", "M", "23152 (B) VC", "DUI ALCOHOL/0.08 PERCENT", null, null, "W 3RD ST / DUTTON AV", "SANTA ROSA", null, "MEDINA", "JOAQUIN", "ROMAN", null, "H", "M", "02-16-1994", "23", "ARRESTED/BOOKED", "20170061303" ]
+, [ 38397, "23E3DD4B-4D5C-4493-B19B-F14F1439D0A6", 38397, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006130", "170011256", "4", "M", "135 PC", "DESTROY/CONCEAL EVIDENCE", null, null, "W 3RD ST / DUTTON AV", "SANTA ROSA", null, "MEDINA", "JOAQUIN", "ROMAN", null, "H", "M", "02-16-1994", "23", "ARRESTED/BOOKED", "20170061304" ]
+, [ 38398, "DB87AF2C-FA32-4D6E-9506-11E26A6D8CD8", 38398, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006131", "170011295", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, "727", "NORTH ST", "SANTA ROSA", null, "NICKSON", "LLOYD", "KEITH", null, "B", "M", "02-10-1961", "56", "ARRESTED/BOOKED", "20170061311" ]
+, [ 38399, "F94701DC-1FD6-4575-9E65-1388D4DA7F84", 38399, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006132", "170011258", "1", "M", "647 (F) PC", "PUBLIC INTOXICATION: ALCOHOL, DRUG, TOLUENE OR A COMBINATION", null, "2055", "SEBASTOPOL RD", "SANTA ROSA", null, "PONCE", "GENARO", "DE LA CRUZ", null, "H", "M", "03-13-1995", "22", "ARRESTED/BOOKED", "20170061321" ]
+, [ 38400, "6E71FDDA-EEE4-4130-A691-FB9FB2E5BD07", 38400, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006133", "170011297", "1", "M", "243 (E)(1) PC", "BATTERY DV SPOUSE/EX SPOUSE/DATE/ETC (MISD)", null, "723", "N DUTTON AV", "SANTA ROSA", null, "ARENAS-HERNANDEZ", "RUBYSELA", null, null, "H", "F", "11-23-1995", "21", "ARRESTED/BOOKED", "20170061331" ]
+, [ 38401, "056BD31A-0237-4BD7-8C05-539AD5E2C473", 38401, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006133", "170011297", "2", "M", "273 A(B) PC", "CHILD ENDANGERMENT", null, "723", "N DUTTON AV", "SANTA ROSA", null, "ARENAS-HERNANDEZ", "RUBYSELA", null, null, "H", "F", "11-23-1995", "21", "ARRESTED/BOOKED", "20170061332" ]
+, [ 38402, "65B2F041-9CCF-459A-9DBC-07B5F862D590", 38402, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006134", "170011318", "1", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, null, "COLLEGE AV / TRACKS", "SANTA ROSA", null, "DELGADO", "NATHAN", "ANDREW", null, "H", "M", "11-04-1984", "32", "CITED", "20170061341" ]
+, [ 38403, "A974E956-3813-43E2-8664-577A33283357", 38403, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006134", "170011318", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "COLLEGE AV / TRACKS", "SANTA ROSA", null, "DELGADO", "NATHAN", "ANDREW", null, "H", "M", "11-04-1984", "32", "CITED", "20170061342" ]
+, [ 38404, "32898914-7BEA-4F0C-B898-9D400599B9B0", 38404, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006135", "170011316", "1", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, null, "S A ST / SANTA ROSA AV", "SANTA ROSA", null, "PENNY", "TRACIE", "ANN", null, "W", "F", "10-29-1980", "36", "CITED", "20170061351" ]
+, [ 38405, "2A0C2A18-A129-4C54-907F-EED25AB7BAAC", 38405, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006136", "170011320", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "NORTH ST / PACIFIC AV", "SANTA ROSA", null, "PETERSEN", "TERRESA", "ELLEN", null, "W", "F", "03-13-1963", "54", "CITED", "20170061361" ]
+, [ 38406, "EE371F0F-EB6C-46A8-A15F-17B5C54263B8", 38406, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006137", "170011294", "1", "M", "647 (F) PC", "PUBLIC INTOXICATION: ALCOHOL, DRUG, TOLUENE OR A COMBINATION", null, null, "W 3RD ST / AMADOR DR", "SANTA ROSA", null, "ROJAS", "LESLIE", "FAVELA", null, "H", "F", "06-24-1998", "19", "ARRESTED/BOOKED", "20170061371" ]
+, [ 38407, "5F155E35-F789-487D-926D-EF4381A18B4D", 38407, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006138", "170011321", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "6TH ST / MORGAN ST", "SANTA ROSA", null, "CAZARES", "FABIAN", "GARCIA", null, "H", "M", "04-23-1984", "33", "ARRESTED/BOOKED", "20170061381" ]
+, [ 38408, "61326F45-2F88-446E-8FCA-89D63DF0249D", 38408, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006138", "170011321", "2", "M", "23152 (B) VC", "DUI ALCOHOL/0.08 PERCENT", null, null, "6TH ST / MORGAN ST", "SANTA ROSA", null, "CAZARES", "FABIAN", "GARCIA", null, "H", "M", "04-23-1984", "33", "ARRESTED/BOOKED", "20170061382" ]
+, [ 38409, "40844EC1-780F-411A-9449-524D34999BE0", 38409, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006138", "170011321", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "6TH ST / MORGAN ST", "SANTA ROSA", null, "CAZARES", "FABIAN", "GARCIA", null, "H", "M", "04-23-1984", "33", "ARRESTED/BOOKED", "20170061383" ]
+, [ 38410, "5278D63F-9324-40EC-94AB-EAFC95E4418B", 38410, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006138", "170011321", "4", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "6TH ST / MORGAN ST", "SANTA ROSA", null, "CAZARES", "FABIAN", "GARCIA", null, "H", "M", "04-23-1984", "33", "ARRESTED/BOOKED", "20170061384" ]
+, [ 38411, "3A2EF8A2-2797-48DB-8A48-B5CA7E3829C7", 38411, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006138", "170011321", "5", "M", "14601.2 (A) VC", "DRIVE WHILE LIC SUSP DUI", null, null, "6TH ST / MORGAN ST", "SANTA ROSA", null, "CAZARES", "FABIAN", "GARCIA", null, "H", "M", "04-23-1984", "33", "ARRESTED/BOOKED", "20170061385" ]
+, [ 38412, "61296568-D7D8-4D0E-902A-84DC3A830812", 38412, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006139", "170011322", "1", "M", "273.6 (A) PC", "VIOLATE DV COURT ORDER (MISD)", null, "1218", "JACKY DR", "SANTA ROSA", null, "ANDERSON", "DEVIN", "PAUL", null, "W", "M", "12-14-1969", "47", "ARRESTED/BOOKED", "20170061391" ]
+, [ 38413, "1C938EF4-0E2B-4AA3-82EB-39CB12F17204", 38413, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006140", "170011324", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "235", "SANTA ROSA PLAZA", "SANTA ROSA", null, "PHILLIPS", "MTUWAHAKI", null, null, "B", "M", "01-02-1972", "45", "ARRESTED/BOOKED", "20170061401" ]
+, [ 38414, "1C21E9D7-1C0E-4B1A-AD04-4EE227EFF6DD", 38414, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006140", "170011324", "2", "M", "466 PC", "POSSESS/ETC BURGLARY TOOLS", null, "235", "SANTA ROSA PLAZA", "SANTA ROSA", null, "PHILLIPS", "MTUWAHAKI", null, null, "B", "M", "01-02-1972", "45", "ARRESTED/BOOKED", "20170061402" ]
+, [ 38415, "442AD1F7-AB1F-464B-AD44-27F4AF5F5BD1", 38415, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006141", "170011324", "1", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "235", "SANTA ROSA PLAZA", "SANTA ROSA", null, "CAROSELI", "CARMEN", "DANIEL ANGELO", null, "W", "M", "06-27-1993", "24", "ARRESTED/BOOKED", "20170061411" ]
+, [ 38416, "7BA67447-EFC2-4A15-9100-D3AA208AA408", 38416, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006141", "170011324", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "235", "SANTA ROSA PLAZA", "SANTA ROSA", null, "CAROSELI", "CARMEN", "DANIEL ANGELO", null, "W", "M", "06-27-1993", "24", "ARRESTED/BOOKED", "20170061412" ]
+, [ 38417, "850E5CE6-C666-4F8D-8278-ED758CC913D7", 38417, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006141", "170011324", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "235", "SANTA ROSA PLAZA", "SANTA ROSA", null, "CAROSELI", "CARMEN", "DANIEL ANGELO", null, "W", "M", "06-27-1993", "24", "ARRESTED/BOOKED", "20170061413" ]
+, [ 38418, "0A7F514D-4526-4179-AE00-B3C827E43105", 38418, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006142", "170011329", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "DUTTON AV / SOUTHWOOD DR", "SANTA ROSA", null, "PATEREAU", "HANNA", "MARIE", null, "W", "F", "08-22-1976", "41", "ARRESTED/BOOKED", "20170061421" ]
+, [ 38419, "BE74A427-4B6A-4601-80D8-D649B6D82054", 38419, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006143", "170011342", "1", "F", "BENCH WARRANT", "BENCH WARRANT (FELONY)", null, "45", "BLUE JAY DR", "SANTA ROSA", null, "MATTSON", "CHRISTOPHER", "BROR", null, "W", "M", "08-29-1969", "48", "ARRESTED/BOOKED", "20170061431" ]
+, [ 38420, "E6FABB28-2138-4623-A921-0EFF41E400D1", 38420, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006145", "170011326", "1", "M", "11550 (A) HS", "USE/UNDER INFLUENCE OF CONTROLLED SUBSTANCE", null, "805", "W 8TH ST", "SANTA ROSA", null, "IERVOLINO", "MICHAEL", "KEONI", null, "W", "M", "11-01-1991", "25", "ARRESTED/BOOKED", "20170061451" ]
+, [ 38421, "75C0F556-5AE9-4E52-BB7D-8C9C5FAA6321", 38421, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006145", "170011326", "2", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, "805", "W 8TH ST", "SANTA ROSA", null, "IERVOLINO", "MICHAEL", "KEONI", null, "W", "M", "11-01-1991", "25", "ARRESTED/BOOKED", "20170061452" ]
+, [ 38422, "01D1DCB2-1CF9-446C-A3BA-4D4B6642247F", 38422, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006146", "170011344", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "2100", "SANTA ROSA AV", "SANTA ROSA", null, "THAVONG", "KHACK", "MICHAEL", null, "A", "M", "06-18-1967", "50", "ARRESTED/BOOKED", "20170061461" ]
+, [ 38423, "A0CDEF78-16F6-48D9-97E6-76711E0F230E", 38423, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006146", "170011344", "2", "M", "496 (A) PC", "(MISD) RECEIVE/ETC KNOWN STOLEN PROPERTY [$400 OR LESS]", null, "2100", "SANTA ROSA AV", "SANTA ROSA", null, "THAVONG", "KHACK", "MICHAEL", null, "A", "M", "06-18-1967", "50", "ARRESTED/BOOKED", "20170061462" ]
+, [ 38424, "1F3FDF5A-2E4D-485B-976C-296F69948638", 38424, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006146", "170011344", "3", "F", "1203.2 PC", "VIOLATION OF PROBATION (FEL)", null, "2100", "SANTA ROSA AV", "SANTA ROSA", null, "THAVONG", "KHACK", "MICHAEL", null, "A", "M", "06-18-1967", "50", "ARRESTED/BOOKED", "20170061463" ]
+, [ 38425, "CB836A54-9C96-4285-B862-5B8C65604D9C", 38425, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006146", "170011344", "4", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "2100", "SANTA ROSA AV", "SANTA ROSA", null, "THAVONG", "KHACK", "MICHAEL", null, "A", "M", "06-18-1967", "50", "ARRESTED/BOOKED", "20170061464" ]
+, [ 38426, "C408C330-DCDF-4A63-B8AA-B16B02EB7B07", 38426, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006146", "170011344", "5", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "2100", "SANTA ROSA AV", "SANTA ROSA", null, "THAVONG", "KHACK", "MICHAEL", null, "A", "M", "06-18-1967", "50", "ARRESTED/BOOKED", "20170061465" ]
+, [ 38427, "AD6F2430-E529-4DCD-9AD1-D1593B6E222E", 38427, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006146", "170011344", "6", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "2100", "SANTA ROSA AV", "SANTA ROSA", null, "THAVONG", "KHACK", "MICHAEL", null, "A", "M", "06-18-1967", "50", "ARRESTED/BOOKED", "20170061466" ]
+, [ 38428, "59413A2E-3825-4281-AF8D-5ED9C2297AFC", 38428, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006147", "170011355", "1", "M", "368 (C) PC", "ELDER/DEPENDENT ADULT CRUELTY  (MISD)", null, "2974", "BAY VILLAGE CI", "SANTA ROSA", "2041", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170061471" ]
+, [ 38429, "FCC67D03-48F5-4B66-AEC0-3126F91E77BB", 38429, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006147", "170011355", "2", "F", "236 PC", "FALSE IMPRISONMENT (FEL)", null, "2974", "BAY VILLAGE CI", "SANTA ROSA", "2041", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170061472" ]
+, [ 38430, "D984408C-7259-48A6-A2EE-A49D5DB1C42C", 38430, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006147", "170011355", "3", "M", "591.5  PC", "DAMAGE WIRELESS COMMUNICATION DEVICE", null, "2974", "BAY VILLAGE CI", "SANTA ROSA", "2041", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "ARRESTED/BOOKED", "20170061473" ]
+, [ 38431, "94878E0B-19EC-4770-96DB-548AC7856078", 38431, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006148", "170011360", "1", "F", "594 (B)(1) PC", "VANDALISM ($400 OR MORE) (FEL)", null, "401", "STONY POINT RD", "SANTA ROSA", null, "PORTER", "SARA", "ANDREA", null, "W", "F", "08-01-1983", "34", "ARRESTED/BOOKED", "20170061481" ]
+, [ 38432, "7A224A46-A973-476C-99E5-4A6129965916", 38432, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006148", "170011360", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "401", "STONY POINT RD", "SANTA ROSA", null, "PORTER", "SARA", "ANDREA", null, "W", "F", "08-01-1983", "34", "ARRESTED/BOOKED", "20170061482" ]
+, [ 38433, "CBD424C0-E3DE-43C3-AEBF-919CD856D1AC", 38433, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006150", "170011353", "1", "M", "11350 (A) HS", "(MISD)POSSESS NARCOTIC CONTROLLED SUBSTANCE", null, "2001", "RANGE AV", "SANTA ROSA", null, "MILLER", "CHERIE", "ADELINE", null, "W", "F", "11-28-1985", "31", "ARRESTED/BOOKED", "20170061501" ]
+, [ 38434, "0E0B2901-8859-468B-BBA0-029DF04B1ACE", 38434, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006150", "170011353", "2", "M", "23152 (F) VC", "DUI  DRUGS", null, "2001", "RANGE AV", "SANTA ROSA", null, "MILLER", "CHERIE", "ADELINE", null, "W", "F", "11-28-1985", "31", "ARRESTED/BOOKED", "20170061502" ]
+, [ 38435, "7E1A6ABD-8D44-4F48-9D4E-5CF76E6CC0F8", 38435, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006151", "170011377", "1", "M", "243 (E)(1) PC", "BATTERY DV SPOUSE/EX SPOUSE/DATE/ETC (MISD)", null, "759", "TROWBRIDGE ST", "SANTA ROSA", null, "BENITEZ", "ROSARIO", "ROSAS", null, "H", "F", "04-19-1981", "36", "ARRESTED/BOOKED", "20170061511" ]
+, [ 38436, "1915E306-2104-414D-BAA5-91C933B3EB86", 38436, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006152", "170011385", "1", "F", "487 PC", "GRAND THEFT - BIKE", null, "555", "1ST ST", "SANTA ROSA", null, "BOYD", "ROLAND", null, null, "I", "M", "03-16-1973", "44", "ARRESTED/BOOKED", "20170061521" ]
+, [ 38437, "6EBEC081-778E-48C4-8BC5-96F7145AA4EE", 38437, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006164", "171426475", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "S A ST / SONOMA AV", "SANTA ROSA", null, "MORALES-GUTIERREZ", "JAIME", null, null, "H", "M", "12-29-1990", "26", "CITED", "20170061641" ]
+, [ 38438, "FD0A2816-DDAC-482C-B813-4A7651A57C0C", 38438, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006164", "171426475", "2", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "S A ST / SONOMA AV", "SANTA ROSA", null, "MORALES-GUTIERREZ", "JAIME", null, null, "H", "M", "12-29-1990", "26", "CITED", "20170061642" ]
+, [ 38439, "97D95626-B6A9-40BA-AE11-4A964338CBE3", 38439, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006164", "171426475", "3", "I", "24601 VC", "FAIL MAINT LIC PLATE LAMP", null, null, "S A ST / SONOMA AV", "SANTA ROSA", null, "MORALES-GUTIERREZ", "JAIME", null, null, "H", "M", "12-29-1990", "26", "CITED", "20170061643" ]
+, [ 38440, "87DB9964-05F1-4A56-9966-412AE1DA26D7", 38440, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006165", "171444624", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "E COTATI AV / SANTERO WY", "COTATI", null, "BLEVINS", "ANDREW", "AARON", null, "W", "M", "10-30-1968", "48", "CITED", "20170061651" ]
+, [ 38441, "E46248DD-631F-4EA4-AF7B-5E05A5789397", 38441, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006166", "171453506", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "BEVERLY DR / E COTATI AV", "COTATI", null, "DECHEMIN", "DURLB", "F", null, "B", "M", "01-15-1992", "25", "CITED", "20170061661" ]
+, [ 38442, "DC646C26-E361-4AAF-91BF-24EC10B6324A", 38442, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006166", "171453506", "2", "I", "22100(B) VC", "LEFT TURN INTERSECTN VIOL", null, null, "BEVERLY DR / E COTATI AV", "COTATI", null, "DECHEMIN", "DURLB", "F", null, "B", "M", "01-15-1992", "25", "CITED", "20170061662" ]
+, [ 38443, "F79171C6-5029-4359-BC56-6884684F0C84", 38443, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006167", "171453507", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "BEVERLY DR / E COTATI AV", "COTATI", null, "MADRIGAL", "MARINA", "RUIZ", null, "H", "F", "07-25-1958", "59", "CITED", "20170061671" ]
+, [ 38444, "4DFE6EF2-1241-46B1-9238-3355072D4CC9", 38444, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006167", "171453507", "2", "I", "22106 VC", "START/BACKUP VEHICLE:HWY", null, null, "BEVERLY DR / E COTATI AV", "COTATI", null, "MADRIGAL", "MARINA", "RUIZ", null, "H", "F", "07-25-1958", "59", "CITED", "20170061672" ]
+, [ 38445, "1313B84F-0582-4C70-81F3-9CD807A9AAA3", 38445, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006168", "171453789", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "FOUNTAINGROVE PW / HADLEY HILL DR", "SANTA ROSA", null, "FOWLY", "TIMOTHY", "R", null, "X", "M", "07-01-1986", "31", "CITED", "20170061681" ]
+, [ 38446, "38DF2A40-F822-4F18-8CFE-6A482FF23FED", 38446, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006168", "171453789", "2", "I", "22350 VC", "SPEEDING", null, null, "FOUNTAINGROVE PW / HADLEY HILL DR", "SANTA ROSA", null, "FOWLY", "TIMOTHY", "R", null, "X", "M", "07-01-1986", "31", "CITED", "20170061682" ]
+, [ 38447, "3542BD31-463E-47B0-A768-0766D4AD4A8C", 38447, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006169", "171453276", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "FARMERS LN / HWY 12 E", "SANTA ROSA", null, "RAMOS-TORRES", "LAURA", "ELENA", null, "H", "F", "08-24-1975", "42", "CITED", "20170061691" ]
+, [ 38448, "02CD9F8E-B3BB-4FB0-A1D6-7E0DC264854A", 38448, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006169", "171453276", "2", "I", "4000(A)(1) VC", "REGISTRATION REQUIRED", null, null, "FARMERS LN / HWY 12 E", "SANTA ROSA", null, "RAMOS-TORRES", "LAURA", "ELENA", null, "H", "F", "08-24-1975", "42", "CITED", "20170061692" ]
+, [ 38449, "8E113A6D-08E3-4EB9-9AC5-89FF85D6E69C", 38449, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006169", "171453276", "3", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "FARMERS LN / HWY 12 E", "SANTA ROSA", null, "RAMOS-TORRES", "LAURA", "ELENA", null, "H", "F", "08-24-1975", "42", "CITED", "20170061693" ]
+, [ 38450, "BBF4BC51-A05D-423F-A3CB-2482B0905175", 38450, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006170", "171453280", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "BELLEVUE AV / SANTA ROSA AV", "SANTA ROSA", null, "CHAON", "MICHAEL", "EUGENE", null, "W", "M", "03-06-1963", "54", "CITED", "20170061701" ]
+, [ 38451, "B0E9E681-1BFA-4CC6-88D6-9FCC2422A9F2", 38451, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006170", "171453280", "2", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "BELLEVUE AV / SANTA ROSA AV", "SANTA ROSA", null, "CHAON", "MICHAEL", "EUGENE", null, "W", "M", "03-06-1963", "54", "CITED", "20170061702" ]
+, [ 38452, "273F93DD-7D98-43A4-A6A0-2E96AE1D5E83", 38452, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006170", "171453280", "3", "I", "4000(A)(1) VC", "REGISTRATION REQUIRED", null, null, "BELLEVUE AV / SANTA ROSA AV", "SANTA ROSA", null, "CHAON", "MICHAEL", "EUGENE", null, "W", "M", "03-06-1963", "54", "CITED", "20170061703" ]
+, [ 38453, "63CAFD20-2A83-4771-A801-B7E928D3D2FC", 38453, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006170", "171453280", "4", "I", "26708(A)(1) VC", "MATR OBSTRCT DRIVRS VIEW", null, null, "BELLEVUE AV / SANTA ROSA AV", "SANTA ROSA", null, "CHAON", "MICHAEL", "EUGENE", null, "W", "M", "03-06-1963", "54", "CITED", "20170061704" ]
+, [ 38454, "9A6B3174-626A-47A6-829D-4FED2689CEE4", 38454, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006171", "171451988", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "BETHARDS DR / YULUPA AV", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "CITED", "20170061711" ]
+, [ 38455, "72024503-5BA2-42AD-87F9-0C6855985505", 38455, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006171", "171451988", "2", "I", "24400(A) VC", "REQUIRED HEADLIGHTS", null, null, "BETHARDS DR / YULUPA AV", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "CITED", "20170061712" ]
+, [ 38456, "157D233A-0EE4-4899-9FEF-6A64D6D09905", 38456, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006171", "171451988", "3", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "BETHARDS DR / YULUPA AV", "SANTA ROSA", null, "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", "JUVENILE", null, "JUVENILE", "CITED", "20170061713" ]
+, [ 38457, "993829F5-A5A9-4B82-8BAE-BC03C7B73584", 38457, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006172", "171452682", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "CARR AV / FRANKLIN AV", "SANTA ROSA", null, "HURTADO", "RUBEN", "CARLOS LEON", null, "H", "M", "03-10-1966", "51", "CITED", "20170061721" ]
+, [ 38458, "B8B0F9D4-90B8-4461-BCF1-8D563558DDC5", 38458, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006172", "171452682", "2", "I", "22350 VC", "SPEEDING", null, null, "CARR AV / FRANKLIN AV", "SANTA ROSA", null, "HURTADO", "RUBEN", "CARLOS LEON", null, "H", "M", "03-10-1966", "51", "CITED", "20170061722" ]
+, [ 38459, "51B52F7F-888C-430A-9361-0D132648087F", 38459, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006173", "171454302", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "BECKY CT / COFFEY LN", "SANTA ROSA", null, "MOLINA-LANDAVERDE", "JONATHAN", "ALEXANDER", null, "H", "M", "11-25-1995", "21", "CITED", "20170061731" ]
+, [ 38460, "7031E2F4-0951-4913-9A6E-B89A89253757", 38460, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006173", "171454302", "2", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, null, "BECKY CT / COFFEY LN", "SANTA ROSA", null, "MOLINA-LANDAVERDE", "JONATHAN", "ALEXANDER", null, "H", "M", "11-25-1995", "21", "CITED", "20170061732" ]
+, [ 38461, "DDE71679-C087-4F01-9DA7-8CB069E913EC", 38461, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006174", "171453714", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "SEBASTOPOL RD / TIMOTHY RD", "SANTA ROSA", null, "JEFFERS", "RYAN", "LEE", null, "W", "M", "05-31-1981", "36", "CITED", "20170061741" ]
+, [ 38462, "CA777F0C-56B6-4FBB-B521-F183C9DC42C8", 38462, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006174", "171453714", "2", "I", "22350 VC", "SPEEDING", null, null, "SEBASTOPOL RD / TIMOTHY RD", "SANTA ROSA", null, "JEFFERS", "RYAN", "LEE", null, "W", "M", "05-31-1981", "36", "CITED", "20170061742" ]
+, [ 38463, "77CDD92F-C8E0-48EC-AB0C-0DDC967D0BB2", 38463, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006174", "171453714", "3", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "SEBASTOPOL RD / TIMOTHY RD", "SANTA ROSA", null, "JEFFERS", "RYAN", "LEE", null, "W", "M", "05-31-1981", "36", "CITED", "20170061743" ]
+, [ 38464, "77FBA2C7-56CE-489A-802A-340C1A27280E", 38464, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006176", "171453714", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "SEBASTOPOL RD / TIMOTHY RD", "SANTA ROSA", null, "JEFFERS", "RYAN", "LEE", null, "W", "M", "05-31-1981", "36", "CITED", "20170061761" ]
+, [ 38465, "8672241E-8B8F-4D3B-9976-D14D2FC06175", 38465, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006176", "171453714", "2", "I", "22350 VC", "SPEEDING", null, null, "SEBASTOPOL RD / TIMOTHY RD", "SANTA ROSA", null, "JEFFERS", "RYAN", "LEE", null, "W", "M", "05-31-1981", "36", "CITED", "20170061762" ]
+, [ 38466, "8F0DDEB5-A29C-49DB-B542-0A3116578CFD", 38466, 1504075824, "905761", 1504075824, "905761", null, "08-25-2017", "2017006176", "171453714", "3", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "SEBASTOPOL RD / TIMOTHY RD", "SANTA ROSA", null, "JEFFERS", "RYAN", "LEE", null, "W", "M", "05-31-1981", "36", "CITED", "20170061763" ]
+, [ 38467, "182B9AD9-BEC7-4759-B34F-CDE6FD47185E", 38467, 1504075824, "905761", 1504075824, "905761", null, "08-23-2017", "2017006177", "171452667", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "HWY 12 / MISSION BL", "SANTA ROSA", null, "MORRIS", "SUSAN", "PATRICIA", null, "W", "F", "08-05-1969", "48", "CITED", "20170061771" ]
+, [ 38468, "B71D5A97-E11F-4799-939D-A6AE67D76DC1", 38468, 1504075824, "905761", 1504075824, "905761", null, "08-23-2017", "2017006177", "171452667", "2", "I", "23123 (A) VC", "USE OF HANDHELD WIRELESS TELEPHONE", null, null, "HWY 12 / MISSION BL", "SANTA ROSA", null, "MORRIS", "SUSAN", "PATRICIA", null, "W", "F", "08-05-1969", "48", "CITED", "20170061772" ]
+, [ 38469, "2CAA594E-CB84-4E19-92B4-71343D1FA633", 38469, 1504075824, "905761", 1504075824, "905761", null, "08-23-2017", "2017006178", "141426474", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "3RD ST / RAILROAD ST", "SANTA ROSA", null, "DANIELS", "ART", "LEE", "JR", "B", "M", "09-24-1969", "47", "CITED", "20170061781" ]
+, [ 38470, "C1645853-DC31-4933-ABF3-B7FFDACD8E57", 38470, 1504075824, "905761", 1504075824, "905761", null, "08-23-2017", "2017006179", "171426368", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, "722", "SIMPSON PL", "SANTA ROSA", null, "RODRIGUEZ", "MARIANO", "JACOBO", null, "H", "M", "07-06-1965", "52", "CITED", "20170061791" ]
+, [ 38471, "D43F9E2A-7439-4C53-9FD4-AB2F57429A55", 38471, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006180", "171450390", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "SEBASTOPOL RD / STONY POINT RD", "SANTA ROSA", null, "SANCHEZ", "GABRIELA", null, null, "H", "F", "03-24-1974", "43", "CITED", "20170061801" ]
+, [ 38472, "EDF94AD4-AC6A-4488-90C3-36A31FE9BB9B", 38472, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006180", "171450390", "2", "I", "24252(A) VC", "DEFECTIVE LAMPS", null, null, "SEBASTOPOL RD / STONY POINT RD", "SANTA ROSA", null, "SANCHEZ", "GABRIELA", null, null, "H", "F", "03-24-1974", "43", "CITED", "20170061802" ]
+, [ 38473, "F5D6496B-3579-4DF0-B3B8-08B109B5ABED", 38473, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006181", "171453719", "1", "M", "14601.2 (A) VC", "DRIVE WHILE LIC SUSP DUI", null, null, "DUTTON AV / SEBASTOPOL RD", "SANTA ROSA", null, "ARIAS-GARFIAS", "JAIME", "A", null, "H", "M", "12-17-1981", "35", "CITED", "20170061811" ]
+, [ 38474, "89B87795-2E75-42B6-A419-0D41D451B13F", 38474, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006182", "171452465", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "MCMINN AV / SEBASTOPOL RD", "SANTA ROSA", null, "GALINDO", "BRUNO", "R", "JR", "H", "M", "11-29-1972", "44", "CITED", "20170061821" ]
+, [ 38475, "36B42205-C8AB-40B2-8740-A3C658DC1955", 38475, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006182", "171452465", "2", "I", "24252(A) VC", "DEFECTIVE LAMPS", null, null, "MCMINN AV / SEBASTOPOL RD", "SANTA ROSA", null, "GALINDO", "BRUNO", "R", "JR", "H", "M", "11-29-1972", "44", "CITED", "20170061822" ]
+, [ 38476, "2739CD9F-9738-4E7D-87B8-01369C7D0C48", 38476, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006183", "171450392", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "4TH ST / ROGERS WY", "SANTA ROSA", null, "LORENZ", "CALE", "GABRIEL", null, "H", "M", "10-21-1982", "34", "CITED", "20170061831" ]
+, [ 38477, "33289951-F31C-4688-B1D3-5B07E384C70E", 38477, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006183", "171450392", "2", "I", "4000(A)(1) VC", "REGISTRATION REQUIRED", null, null, "4TH ST / ROGERS WY", "SANTA ROSA", null, "LORENZ", "CALE", "GABRIEL", null, "H", "M", "10-21-1982", "34", "CITED", "20170061832" ]
+, [ 38478, "9AAF18E7-D868-4F21-ADBE-CAB1DFBBF9B9", 38478, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006183", "171450392", "3", "I", "16028 (A) VC", "NO PROOF OF INSURANCE", null, null, "4TH ST / ROGERS WY", "SANTA ROSA", null, "LORENZ", "CALE", "GABRIEL", null, "H", "M", "10-21-1982", "34", "CITED", "20170061833" ]
+, [ 38479, "0E940176-BDE8-4A80-B994-BE0EE4CAE844", 38479, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006183", "171450392", "4", "I", "5200 (A) VC", "DISPLAY LICENSE PLATES (INFRACT)", null, null, "4TH ST / ROGERS WY", "SANTA ROSA", null, "LORENZ", "CALE", "GABRIEL", null, "H", "M", "10-21-1982", "34", "CITED", "20170061834" ]
+, [ 38480, "3114249B-C689-43FF-A35A-77E72FB633FB", 38480, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006184", "171450281", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "FULTON RD / PLACER DR", "SANTA ROSA", null, "HANSEN", "NICOLE", "ANNETTE", null, "W", "F", "12-15-1981", "35", "CITED", "20170061841" ]
+, [ 38481, "4CA1B4D2-3362-476C-8AD6-2C23D534D682", 38481, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006185", "171444946", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "CORBY AV / HEARN AV", "SANTA ROSA", null, "VEGA-RODRIGUEZ", "MARCO", "ANTONIO", null, "H", "M", "06-17-1983", "34", "CITED", "20170061851" ]
+, [ 38482, "D47713AF-6684-4C7F-B307-92DDFEC3E88E", 38482, 1504075824, "905761", 1504075824, "905761", null, "08-26-2017", "2017006185", "171444946", "2", "I", "4000(A)(1) VC", "REGISTRATION REQUIRED", null, null, "CORBY AV / HEARN AV", "SANTA ROSA", null, "VEGA-RODRIGUEZ", "MARCO", "ANTONIO", null, "H", "M", "06-17-1983", "34", "CITED", "20170061852" ]
+, [ 38483, "DF5C2AB1-5562-42A6-A85B-06D801593BB4", 38483, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006186", "171452967", "1", "M", "14601.1(A) VC", "LICENSE SUSPENDED/REVOKED", null, null, "AIRWAY DR / HOPPER AV", "SANTA ROSA", null, "WITCHEY-STEVENS", "VADA", "MAE", null, "W", "F", "01-26-1934", "83", "CITED", "20170061861" ]
+, [ 38484, "C0E3DC18-99D4-412D-888D-AE0346C8BF15", 38484, 1504075824, "905761", 1504075824, "905761", null, "08-27-2017", "2017006187", "171453763", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "HEARN AV / SILVER SPUR DR", "SANTA ROSA", null, "GARCIA-CORTES", "JESUS", null, null, "H", "M", "12-24-1988", "28", "CITED", "20170061871" ]
+, [ 38485, "C4EF694B-8773-4CCC-B2B2-F0B35EA6AE7B", 38485, 1504075824, "905761", 1504075824, "905761", null, "08-24-2017", "2017006188", "170011189", "1", "M", "23152 (F) VC", "DUI  DRUGS", null, null, "E COTATI AV / SANTERO WY", "CO", null, "HYDE", "JACOB", "RONALD", null, "W", "M", "05-06-1996", "21", "CITED", "20170061881" ]
+, [ 38486, "45B8284B-3383-4513-9393-38A06D1D0FA5", 38486, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006189", "171453926", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "EB STONY POINT RD OFFRAMP / STONY POINT RD", "SANTA ROSA", null, "MEDINA-ROJAS", "ROSAURA", null, null, "H", "F", "09-19-1976", "40", "CITED", "20170061891" ]
+, [ 38487, "2950AA3B-9F22-4749-ABC1-F981D6A59532", 38487, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006190", "171453725", "1", "M", "12500 (A) VC", "DRIVER UNLICENSED", null, null, "MOORLAND AV / TODD RD", "SANTA ROSA", null, "POWELL", "LAMONT", "JEROME", null, "B", "M", "11-17-1983", "33", "CITED", "20170061901" ]
+, [ 38488, "0D039F4D-D53C-41AE-8350-A5BF6CE473B9", 38488, 1504075824, "905761", 1504075824, "905761", null, "08-28-2017", "2017006190", "171453725", "2", "I", "22349(A) VC", "EXCEED SPEED ON HIGHWAY", null, null, "MOORLAND AV / TODD RD", "SANTA ROSA", null, "POWELL", "LAMONT", "JEROME", null, "B", "M", "11-17-1983", "33", "CITED", "20170061902" ]
+, [ 38489, "4187D960-6608-4C60-8A13-C7E702439450", 38489, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006191", "170011400", "1", "F", "243 (D) PC", "BATTERY W/SERIOUS BODILY INJURY (FEL)", null, "1536", "RIDLEY AV", "SANTA ROSA", null, "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061911" ]
+, [ 38490, "3AB967BC-E8CA-41E2-9ED7-10351FF953A6", 38490, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006191", "170011400", "2", "M", "417 (A)(1) PC", "EXHIBIT DEADLY WEAPON OTHER THAN FIREARM (MISD)", null, "1536", "RIDLEY AV", "SANTA ROSA", null, "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061912" ]
+, [ 38491, "D00D3B1C-1664-4A77-9CD7-FC193D484D07", 38491, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006191", "170011400", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "1536", "RIDLEY AV", "SANTA ROSA", null, "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061913" ]
+, [ 38492, "C24AE742-E738-416C-B24D-9E7B8A5604F9", 38492, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006192", "170011414", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "DOLLAR TREE", "SANTA ROSA", null, "GEBREMARIAM", "FILMON", "TESFAMARIAM", null, "B", "M", "01-01-1983", "34", "ARRESTED/BOOKED", "20170061921" ]
+, [ 38493, "88B7093A-DDF6-4E2E-BBC0-F752DBFAB3A1", 38493, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006193", "170011411", "1", "F", "3056 PC", "VIOLATION PAROLE:FELONY", null, "600", "MORGAN ST", "SANTA ROSA", null, "RODRIGUEZ", "FRANKLIN", "STANLEY", null, "H", "M", "11-01-1991", "25", "ARRESTED/BOOKED", "20170061931" ]
+, [ 38494, "4E0BB507-8F5E-4A1E-B05B-E59318832919", 38494, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006194", "170011418", "1", "M", "602(O) PC", "TRESPASS REFUSE/FAIL TO LEAVE", null, "203", "6TH ST", "SANTA ROSA", null, "MAPLES", "JAMES", "RICHARD", null, "W", "M", "04-01-1961", "56", "CITED", "20170061941" ]
+, [ 38495, "0F7BC439-3186-432B-B562-9748C82BC888", 38495, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006195", "170011418", "1", "M", "602(O) PC", "TRESPASS REFUSE/FAIL TO LEAVE", null, "203", "6TH ST", "SANTA ROSA", null, "PRESLER", "FREDRICK", "CARL", null, "W", "M", "11-09-1963", "53", "CITED", "20170061951" ]
+, [ 38496, "4BDEF8AA-5B8B-4E1C-9CB4-578DAF42C114", 38496, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006196", "170011416", "1", "M", "11377 (A) HS", "POSSESS CONTROLLED SUBSTANCE (MISD)", null, "1671", "HENDLEY ST", "SANTA ROSA", null, "JACKSON", "SEPERINO", "MARTINEZ", null, "B", "M", "06-04-1969", "48", "CITED", "20170061961" ]
+, [ 38497, "40345D2F-C640-453B-9209-207378E7BD53", 38497, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006196", "170011416", "2", "M", "11364(A) HS", "POSSESS CONTROLLED SUBSTANCE PARAPHERNALIA", null, "1671", "HENDLEY ST", "SANTA ROSA", null, "JACKSON", "SEPERINO", "MARTINEZ", null, "B", "M", "06-04-1969", "48", "CITED", "20170061962" ]
+, [ 38498, "9C5D2993-5915-4A96-BFD8-B1F3A5F79E81", 38498, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006197", "170011399", "1", "F", "243 (D) PC", "BATTERY W/SERIOUS BODILY INJURY (FEL)", null, "585", "W COLLEGE AV", "SANTA ROSA", "A", "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061971" ]
+, [ 38499, "E83EB495-B47F-4714-8501-E32F59A80CC5", 38499, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006197", "170011399", "2", "M", "242 PC", "BATTERY", null, "585", "W COLLEGE AV", "SANTA ROSA", "A", "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061972" ]
+, [ 38500, "17E3DAA4-E022-499C-BF04-9EADE15DC31A", 38500, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006197", "170011399", "3", "M", "1203.2 PC", "VIOLATION OF PROBATION (MISD)", null, "585", "W COLLEGE AV", "SANTA ROSA", "A", "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061973" ]
+, [ 38501, "52D18438-536E-46B8-A122-5C1D2C32F71E", 38501, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006197", "170011399", "4", "M", "368 (A) PC", "CRIMES AGAINST ELDERLY/DEPENDANT ADULTS", null, "585", "W COLLEGE AV", "SANTA ROSA", "A", "FAJARDO", "JOSHUA", "ALBERTO", null, "H", "M", "02-21-1996", "21", "ARRESTED/BOOKED", "20170061974" ]
+, [ 38502, "95C82BA1-B4C3-4608-881B-F924E4A2D539", 38502, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006198", "170011413", "1", "F", "273 A (A) PC", "(FEL)CRUELTY TO CHILD WITH POSSIBLE INJURY OR DEATH", null, "1250", "HAHMAN DR", "SANTA ROSA", null, "HUG", "MICHELLE", "LEE", null, "W", "F", "12-06-1972", "44", "ARRESTED/BOOKED", "20170061981" ]
+, [ 38503, "0A717710-A24B-4C7F-890F-9DC010CECC97", 38503, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006201", "170011417", "1", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "MARLOW SHOPPING CENTER", "SANTA ROSA", null, "SPENCER", "SAMANTHA", "RENE", null, "W", "F", "03-04-1995", "22", "ARRESTED/BOOKED", "20170062011" ]
+, [ 38504, "02B008A3-844B-43FE-8AB1-505BA4D91029", 38504, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006201", "170011417", "2", "M", "BENCH WARRANT", "BENCH WARRANT (MISD)", null, null, "MARLOW SHOPPING CENTER", "SANTA ROSA", null, "SPENCER", "SAMANTHA", "RENE", null, "W", "F", "03-04-1995", "22", "ARRESTED/BOOKED", "20170062012" ]
+, [ 38505, "0FDBA91F-9496-4D3B-A205-60EDF9C1D345", 38505, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006202", "170011428", "1", "F", "BENCH WARRANT", "BENCH WARRANT (FELONY)", null, null, "BLUEBELLE / COFFEY", "SANTA ROSA", null, "BAKER", "ROBERT", "DALE", null, "W", "M", "12-29-1986", "30", "ARRESTED/BOOKED", "20170062021" ]
+, [ 38506, "957804AD-5BD8-477D-AB8B-1AC72727002D", 38506, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006203", "170011431", "1", "M", "23152 (A) VC", "DUI ALCOHOL", null, null, "FOUNTAINGROVE PW / MENDOCINO AV", "SANTA ROSA", null, "ORNELS AVILA", "JOSE", "LUIZ", null, "H", "M", "03-24-1991", "26", "ARRESTED/BOOKED", "20170062031" ]
+, [ 38507, "B8EA9B7E-4D66-49B1-9363-CB9FE7B6556E", 38507, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006204", "170011422", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "100", "CALISTOGA RD", "SANTA ROSA", null, "MEDINA", "JUANITA", "MARIE", null, "H", "F", "05-28-1981", "36", "CITED", "20170062041" ]
+, [ 38508, "46FDF130-E31B-4172-ABEF-FF5F3AAA8CA3", 38508, 1504075824, "905761", 1504075824, "905761", null, "08-29-2017", "2017006205", "170011432", "1", "M", "488 PC", "PETTY THEFT - SHOPLIFTING", null, "1116", "4TH ST", "SANTA ROSA", null, "DOHERTY", "PATRICIA", "ANNE", null, "W", "F", "07-26-1965", "52", "CITED", "20170062051" ]
+ ]
+}
