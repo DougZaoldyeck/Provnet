@@ -48,15 +48,15 @@ void TopKElements::quickselect(int left, int right, int k_smallest) {
 	}
 }
 
-vector<int> TopKElements::topKFrequent(vector<int>& nums, int k) {
+vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 	// build hash map : element and how often it appears
-	for (int n : nums) {
+	for (string n : nums) {
 		this->count_map[n] += 1;
 	}
 
 	// array of unique elements
 	size_t n = this->count_map.size();
-	for (pair<int, int> p : this->count_map) {
+	for (pair<string, int> p : this->count_map) {
 		this->unique.push_back(p.first);
 	}
 
@@ -67,7 +67,7 @@ vector<int> TopKElements::topKFrequent(vector<int>& nums, int k) {
 	// All the elements on the right are more frequent.
 	quickselect(0, n - 1, n - k);
 	// Return top k frequent elements
-	vector<int> top_k_frequent(k);
+	vector<string> top_k_frequent(k);
 	copy(this->unique.begin() + n - k, this->unique.end(), top_k_frequent.begin());
 	return top_k_frequent;
 }

@@ -12,14 +12,14 @@ using namespace std;
 class TopKElements {
 	/* this class was originally implemented by Changhao Chenli */
 	private:
-		vector<int> unique;
-		map<int, int> count_map;
+		vector<string> unique;
+		map<string, int> count_map;
 	
 	public:
 		int partition(int left, int right, int pivot_index);
 		void quickselect(int left, int right, int k_smallest);
 
-		vector<int> topKFrequent(vector<int>& nums, int k);
+		vector<string> topKFrequent(vector<string>& nums, int k);
 
 };
 
