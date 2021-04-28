@@ -35,7 +35,6 @@ public:
 	vector<string> list_records(int n, string mh_val);
 	void convert();
 	void next_record(int hf, string record, string nmh_val, vector<string> & similar);
-	void iterate(int hf, string mh_val);
 };
 
 #endif

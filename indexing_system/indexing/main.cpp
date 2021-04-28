@@ -131,6 +131,8 @@ int main(int argc, char *argv[]) {
 	TopKElements top_k;
 	results = top_k.topKFrequent(similar, tk);
 
+
+	// print out the top K results! // TODO change instances of k to another variable...
 	for (int i = 0; i < results.size(); i++) {
 		if (i == results.size() - 1)
 			cout << results[i] << endl;
