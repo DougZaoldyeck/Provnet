@@ -23,8 +23,7 @@ class Indexing
 {
 protected:
 	int k; // number of hash functions
-	vector<unordered_map<string, forward_list<string>>> hfs; // vector of hash functions
-	vector<unordered_map<string, vector<string>>> hfs_v; // vector of hash functions
+	vector<unordered_map<string, vector<string>>> hfs; // vector of hash functions
 
 public:
 	Indexing();
@@ -33,7 +32,6 @@ public:
 	
 	void add_record(int n, string record, string mh_val);
 	vector<string> list_records(int n, string mh_val);
-	void convert();
 	void next_record(int hf, string record, string nmh_val, vector<string> & similar);
 };
 

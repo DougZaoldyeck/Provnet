@@ -14,7 +14,7 @@
 #include "indexing.h"
 #include "topK.h"
 
-/* Usage: ./index <example.csv> <number of hash functions (i.e. k)> <new_record.csv> <topk num> */
+/* Usage: ./index <example.csv> <number of hash functions (i.e. num_hfn)> <new_record.csv> <topk num> */
 
 using std::ifstream;
 using std::stringstream;
@@ -24,7 +24,6 @@ using std::cerr;
 
 
 int main(int argc, char *argv[]) {
-	//int k = 800; // Number of hash functions.
 	string filename; 
 
 	// handle arguments
@@ -35,15 +34,15 @@ int main(int argc, char *argv[]) {
 	filename = argv[1];
 
 	istringstream ss(argv[2]);
-	int k; // number of hash functions
-	if (!(ss >> k)) {
+	int num_hfn; // number of hash functions
+	if (!(ss >> num_hfn)) {
 		cerr << "Invalid number: " << argv[2] << '\n';
 	} else if (!ss.eof()) {
 		cerr << "Trailing characters after number: " << argv[2] << '\n';
 	}
 	
 	// create indexing system
-	Indexing system = Indexing(k);
+	Indexing system = Indexing(num_hfn);
 
 	// handle csv file 
 	ifstream ifs;
@@ -73,9 +72,6 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
-
-    // convert all fll to vectors
-    system.convert();
 
 
 	// Find similarities across *new* data
@@ -107,7 +103,7 @@ int main(int argc, char *argv[]) {
 		cout << "new record: " << nrecord << endl;
 		while (getline(s, nmh_val, ',')){
 			if (nmh_val != ""){
-				system.add_record(hf, nrecord, nmh_val); // TODO why are we still using linked list? kinda useless at this point, correct?
+
 				system.next_record(hf, nrecord, nmh_val, similar); // add record to respective vector
 
 			}
@@ -132,7 +128,7 @@ int main(int argc, char *argv[]) {
 	results = top_k.topKFrequent(similar, tk);
 
 
-	// print out the top K results! // TODO change instances of k to another variable...
+	// print out the top K results!
 	for (int i = 0; i < results.size(); i++) {
 		if (i == results.size() - 1)
 			cout << results[i] << endl;
