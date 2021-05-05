@@ -68,6 +68,10 @@ vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 	quickselect(0, n - 1, n - k);
 	// Return top k frequent elements
 	vector<string> top_k_frequent(k);
-	copy(this->unique.begin() + n - k, this->unique.end(), top_k_frequent.begin());
+	if (k <= unique.size()) {
+		copy(this->unique.begin() + n - k, this->unique.end(), top_k_frequent.begin());
+	} else {
+		copy(this->unique.begin() + n - unique.size(), this->unique.end(), top_k_frequent.begin());
+	}
 	return top_k_frequent;
 }

@@ -10,6 +10,8 @@
 #include <map>
 #include <sstream>
 #include <string>
+#include <time.h>
+
 #include "sha256.h"
 #include "indexing.h"
 #include "topK.h"
@@ -42,7 +44,11 @@ int main(int argc, char *argv[]) {
 	}
 	
 	// create indexing system
+	clock_t t;
+	t = clock();
 	Indexing system = Indexing(num_hfn);
+	t = clock() - t;
+	printf("The indexing system took %f seconds to build\n", ((double)t)/CLOCKS_PER_SEC);
 
 	// handle csv file 
 	ifstream ifs;
@@ -57,7 +63,8 @@ int main(int argc, char *argv[]) {
 	string line, mh_val, record;
 
 
-	// read in csv file to indexing system.
+	// read in csv file to indexing system.	
+	t = clock();
     while (!ifs.eof()) {
 		getline(ifs, line);
 		stringstream s(line);
@@ -72,6 +79,9 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
+	
+	t = clock()-t;
+	printf("It took %f seconds to read in the csv file\n", ((double)t)/CLOCKS_PER_SEC);
 
 
 	// Find similarities across *new* data
@@ -92,6 +102,7 @@ int main(int argc, char *argv[]) {
 
 	// read in csv file to indexing system. also find list record ids with
 	// same minhash value!
+	t = clock();
 	vector<string> similar; // vector of all similar records
     while (!nfs.eof()) { // TODO this should only be one iteration. What else to check?
 		getline(nfs, nline);
@@ -110,12 +121,15 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
+	t = clock() - t;
+	printf("It took %f seconds to find similar records to new record\n", ((double)t)/CLOCKS_PER_SEC);
 
     // now that we have the vector of vectors of similar records, get the top K similar! 
     vector<string> results; // initiate the final array of most similar records
 
 
 	// The code below is for some vector 
+	t = clock();
 	istringstream ss_k(argv[4]);
 	int tk;
 	if (!(ss_k >> tk)) {
@@ -135,6 +149,8 @@ int main(int argc, char *argv[]) {
 		else
 			cout << results[i] << ",";
 	}
+	t = clock() - t;
+	printf("It took %f seconds to find the top %d similar\n", ((double)t)/CLOCKS_PER_SEC, tk);
 
 
 
