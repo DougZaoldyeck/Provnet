@@ -15,7 +15,7 @@ make
 # loop
 #   1. turn whatever file into 1 line of records in example.csv
 #   2. run it 500 times on k=1, 2, 3, 5, 10, 20
-#   3. store these values in a hash table of {k: [500 vals from first iteration + 500 vals from second +...]} etc. for each file.]
+#   3. store these values in a hash table (dict) of {k: [500 vals from first iteration + 500 vals from second +...]} etc. for each file.]
 # end loop
 # take averages/stdev for each k
 # print all the data out
@@ -23,7 +23,21 @@ make
 
 ## STEP 2: Test with different numbers of inserted records. e.g., when K=3, every time you load 200 records from the example.csv, you can pause and run Top-K algorithm to see how long it takes to find 3 most similar records; 
 
-# TODO I am confused here.... How is STEP 2 different from STEP 3?!
+# TODO python script that uses 1000 minhash value file for 1 5 10 20
+
+# loop 
+#   1. turn whatever data_x_file into 1 line record in example.csv
+#   2. fill it with 200 records, then run it with k = 1, 5, 10, 20
+#   3. fill it with 400 records, then run it with k = 1, 5, 10, 20
+#   4. fill it with 600 records, then run it with k = 1, 5, 10, 20
+#   5. fill it with 800 records, then run it with k = 1, 5, 10, 20
+#   6. fill it with 1000 records, then run it with k = 1, 5, 10, 20
+#   (these all have hash table of (filled: {k: [500 vals + 500 vals ...]})
+#   7. do loop again for next data_x_file
+# end loop
+# take averages/stdev for each k
+# print all the data out. 
+
 
 ## STEP 3: test with different numbers of MinHash values. The examples I shared on the Drive only contain 1000 MinHash values (and 200 MinHash values for small size files). You can load in different numbers of MinHash values with the examples I shared with you. e.g., you can load the first 400 columns, 600 columns, 800 columns, etc.  
 
@@ -31,18 +45,29 @@ make
 
 # loop 
 #   1. turn whatever data_x_file into 1 line record in example.csv
-#   2. fill it with 200, then run it with k = 1, 5, 10, 20
-#   3. fill it with 400, then run it with k = 1, 5, 10, 20
-#   4. fill it with 600, then run it with k = 1, 5, 10, 20
-#   5. fill it with 800, then run it with k = 1, 5, 10, 20
-#   6. fill it with 1000, then run it with k = 1, 5, 10, 20
-#   (these all have hash table of (filled: {k: [500 vals + 500 vals ...]})
+#   2. fill it with 200 mh_vals, then run it with k = 1, 5, 10, 20, 500 times each
+#   3. fill it with 400 mh_vals, then run it with k = 1, 5, 10, 20
+#   4. fill it with 600 mh_vals, then run it with k = 1, 5, 10, 20
+#   5. fill it with 800 mh_vals, then run it with k = 1, 5, 10, 20
+#   6. fill it with 1000 mh_vals, then run it with k = 1, 5, 10, 20
+#   (these all have hash table (dict) of (filled: {k: [500 vals + 500 vals ...]})
 #   7. do loop again for next data_x_file
 # end loop
 # take averages/stdev for each k
 # print all the data out. 
 
-## STEP 4: Still very confused on the outline here. Compare the times of different file sizes? can't we just use data from the other steps here??
+## STEP 4: for each file category, run 5 different files with k=1,2,3 as follows
 
-# TODO 
+# TODO python script
 
+# loop for each file type:
+#   loop for each of first 5 files in the file type
+#       1. turn data_x_0 file into 1 line record
+#       2. fill system with all mh_values, then run it with k = 1,2,3, 500 times each
+#       3. (hash table (dictionary) of values)
+#       
+#   endloop 
+#   take averages + stdevs
+# end loop
+# compare file types
+# 
