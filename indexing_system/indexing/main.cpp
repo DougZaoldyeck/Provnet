@@ -16,7 +16,7 @@
 #include "indexing.h"
 #include "topK.h"
 
-/* Usage: ./index <example.csv> <number of hash functions (i.e. num_hfn)> <new_record.csv> <topk num> */
+/* Usage: ./main <current_system.csv> <number of hash functions (i.e. hfn_cap)> <new_record.csv> <topk num> <mh_vak_num> */
 
 using std::ifstream;
 using std::stringstream;
@@ -29,26 +29,26 @@ int main(int argc, char *argv[]) {
 	string filename; 
 
 	// handle arguments
-	if (argc != 5) {
+	if (argc != 6) {
 		cout << "wrong number of args. see usage." << endl;
 		return 1;
 	}
 	filename = argv[1];
 
 	istringstream ss(argv[2]);
-	int num_hfn; // number of hash functions
-	if (!(ss >> num_hfn)) {
+	int hfn_cap; // number of hash functions 
+	if (!(ss >> hfn_cap)) {
 		cerr << "Invalid number: " << argv[2] << '\n';
 	} else if (!ss.eof()) {
 		cerr << "Trailing characters after number: " << argv[2] << '\n';
 	}
 	
 	// create indexing system
-	clock_t t;
-	t = clock();
-	Indexing system = Indexing(num_hfn);
-	t = clock() - t;
-	printf("The indexing system took %f seconds to build\n", ((double)t)/CLOCKS_PER_SEC);
+	//clock_t t;
+	//t = clock();
+	Indexing system = Indexing(hfn_cap);
+	//t = clock() - t;
+	//printf("The indexing system took %f seconds to build\n", ((double)t)/CLOCKS_PER_SEC);
 
 	// handle csv file 
 	ifstream ifs;
@@ -61,27 +61,37 @@ int main(int argc, char *argv[]) {
     }
 	
 	string line, mh_val, record;
+	
+	istringstream ss_records_cap(argv[5]); // number of minhash vals taken in
+	int records_cap;
+	if (!(ss_records_cap >> records_cap)) {
+		cerr << "Invalid number: " << argv[4] << '\n';
+	} else if (!ss_records_cap.eof()) {
+		cerr << "Trailing characters after number: " << argv[4] << '\n';
+	}
 
 
 	// read in csv file to indexing system.	
-	t = clock();
-    while (!ifs.eof()) {
+	//t = clock();
+	int record_count = 0; // just in case num_records > records_cap in the file..
+    while (!ifs.eof() && record_count < records_cap) {
 		getline(ifs, line);
 		stringstream s(line);
 		int hf = 0; // hash function number
 
 		//read each column
 		getline(s, record, ',');
-		while (getline(s, mh_val, ',')){
+		while (getline(s, mh_val, ',') && hf < hfn_cap){ // cap the number of minhash values being take in 
 			if (mh_val != ""){
 				system.add_record(hf, record, mh_val);
 			}
 			hf++;
 		}
+		record_count += 1;
     }
 	
-	t = clock()-t;
-	printf("It took %f seconds to read in the csv file\n", ((double)t)/CLOCKS_PER_SEC);
+	//t = clock()-t;
+	//printf("It took %f seconds to read in the csv file\n", ((double)t)/CLOCKS_PER_SEC);
 
 
 	// Find similarities across *new* data
@@ -102,7 +112,7 @@ int main(int argc, char *argv[]) {
 
 	// read in csv file to indexing system. also find list record ids with
 	// same minhash value!
-	t = clock();
+	//t = clock();
 	vector<string> similar; // vector of all similar records
     while (!nfs.eof()) { // TODO this should only be one iteration. What else to check?
 		getline(nfs, nline);
@@ -121,15 +131,15 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
-	t = clock() - t;
-	printf("It took %f seconds to find similar records to new record\n", ((double)t)/CLOCKS_PER_SEC);
+	//t = clock() - t;
+	//printf("It took %f seconds to find similar records to new record\n", ((double)t)/CLOCKS_PER_SEC);
 
     // now that we have the vector of vectors of similar records, get the top K similar! 
     vector<string> results; // initiate the final array of most similar records
 
 
 	// The code below is for some vector 
-	t = clock();
+	clock_t t = clock();
 	istringstream ss_k(argv[4]);
 	int tk;
 	if (!(ss_k >> tk)) {
@@ -149,8 +159,12 @@ int main(int argc, char *argv[]) {
 		else
 			cout << results[i] << ",";
 	}
+
+
+	// only thing to print:
 	t = clock() - t;
-	printf("It took %f seconds to find the top %d similar\n", ((double)t)/CLOCKS_PER_SEC, tk);
+	printf("%f\n", ((double)t)/CLOCKS_PER_SEC);
+	//printf("It took %f seconds to find the top %d similar\n", ((double)t)/CLOCKS_PER_SEC, tk);
 
 
 
