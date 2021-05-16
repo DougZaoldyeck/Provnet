@@ -1,0 +1,589 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "uyf9-d7tt",
+      "name" : "Population and population growth (2010 - Present)",
+      "attribution" : "U.S. Census Bureau",
+      "attributionLink" : "http://www.census.gov/",
+      "averageRating" : 0,
+      "category" : "Economy and Workforce",
+      "createdAt" : 1444069929,
+      "description" : "This population data comes from the U.S. Census Bureau's Population Estimates Program, which are published on an annual basis. It includes data for the following counties:  Orleans Parish, LA (New Orleans); Oklahoma County, OK (Oklahoma City); Hillsborough County, FL (Tampa); Wake County, NC (Raleigh); Fulton County, GA (Atlanta); Miami-Dade County, FL (Miami); Davidson County, TN (Nashville); Shelby County, TN (Memphis); and Jefferson County, KY (Louisville). This data covers the time period of 2010 to present.",
+      "displayType" : "table",
+      "downloadCount" : 877,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1444074739,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 13727484,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1444070156,
+      "publicationGroup" : 4642798,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1444069944,
+      "rowsUpdatedBy" : "ii98-542e",
+      "tableId" : 4642798,
+      "totalTimesRated" : 0,
+      "viewCount" : 513,
+      "viewLastModified" : 1444070156,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 224780299,
+        "name" : "RowID",
+        "dataTypeName" : "text",
+        "fieldName" : "rowid",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31843050,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 99,
+          "largest" : "Tampa. FL_respop72014_2014",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Memphis, TN_Calculation_2012",
+            "count" : 20
+          }, {
+            "item" : "Memphis, TN_respop72014_2014",
+            "count" : 19
+          }, {
+            "item" : "Memphis, TN_Calculation_2014",
+            "count" : 18
+          }, {
+            "item" : "Memphis, TN_respop72011_2011",
+            "count" : 17
+          }, {
+            "item" : "Memphis, TN_Calculation_2013",
+            "count" : 16
+          }, {
+            "item" : "Memphis, TN_respop72013_2013",
+            "count" : 15
+          }, {
+            "item" : "Memphis, TN_respop72010_2010",
+            "count" : 14
+          }, {
+            "item" : "Memphis, TN_Calculation_2011",
+            "count" : 13
+          }, {
+            "item" : "Benchmark Average_respop72011_2011",
+            "count" : 12
+          }, {
+            "item" : "Benchmark Average_Calculation_2013",
+            "count" : 11
+          }, {
+            "item" : "Benchmark Average_respop72014_2014",
+            "count" : 10
+          }, {
+            "item" : "Benchmark Average_respop72010_2010",
+            "count" : 9
+          }, {
+            "item" : "Benchmark Average_Calculation_2012",
+            "count" : 8
+          }, {
+            "item" : "Benchmark Average_respop72012_2012",
+            "count" : 7
+          }, {
+            "item" : "Benchmark Average_respop72013_2013",
+            "count" : 6
+          }, {
+            "item" : "Benchmark Average_Calculation_2014",
+            "count" : 5
+          }, {
+            "item" : "Benchmark Average_Calculation_2011",
+            "count" : 4
+          } ],
+          "smallest" : "Atlanta, GA_Calculation_2011"
+        },
+        "format" : { }
+      }, {
+        "id" : 224780300,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date",
+        "position" : 3,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 31843051,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 99,
+          "largest" : "2014-01-01T00:00:00",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2012-01-01T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2014-01-01T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2011-01-01T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2013-01-01T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2010-01-01T00:00:00",
+            "count" : 16
+          } ],
+          "smallest" : "2010-01-01T00:00:00"
+        },
+        "format" : {
+          "view" : "date_y",
+          "align" : "left"
+        }
+      }, {
+        "id" : 224780301,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31843052,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 99,
+          "average" : "2012.222222222222",
+          "largest" : "2014",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2012",
+            "count" : 20
+          }, {
+            "item" : "2014",
+            "count" : 19
+          }, {
+            "item" : "2011",
+            "count" : 18
+          }, {
+            "item" : "2013",
+            "count" : 17
+          }, {
+            "item" : "2010",
+            "count" : 16
+          } ],
+          "smallest" : "2010",
+          "sum" : "199210"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 224780302,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31843053,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 99,
+          "largest" : "Tampa. FL",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Tampa. FL",
+            "count" : 20
+          }, {
+            "item" : "Miami, FL",
+            "count" : 19
+          }, {
+            "item" : "Atlanta, GA",
+            "count" : 18
+          }, {
+            "item" : "Louisville, KY",
+            "count" : 17
+          }, {
+            "item" : "Baton Rouge, LA",
+            "count" : 16
+          }, {
+            "item" : "New Orleans, LA",
+            "count" : 15
+          }, {
+            "item" : "Raleigh, NC",
+            "count" : 14
+          }, {
+            "item" : "Oklahoma City, OK",
+            "count" : 13
+          }, {
+            "item" : "Nashville, TN",
+            "count" : 12
+          }, {
+            "item" : "Memphis, TN",
+            "count" : 11
+          }, {
+            "item" : "Benchmark Average",
+            "count" : 10
+          } ],
+          "smallest" : "Atlanta, GA"
+        },
+        "format" : { }
+      }, {
+        "id" : 224780303,
+        "name" : "IndicatorName",
+        "dataTypeName" : "text",
+        "fieldName" : "indicatorname",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31843054,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 99,
+          "largest" : "Population growth",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Population",
+            "count" : 20
+          }, {
+            "item" : "Population growth",
+            "count" : 19
+          } ],
+          "smallest" : "Population"
+        },
+        "format" : { }
+      }, {
+        "id" : 224780304,
+        "name" : "IndicatorValue",
+        "dataTypeName" : "number",
+        "fieldName" : "indicatorvalue",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31843055,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 99,
+          "average" : "541761.0668133123",
+          "largest" : "2662874",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.662485702903114",
+            "count" : 20
+          }, {
+            "item" : "938803",
+            "count" : 19
+          }, {
+            "item" : "-0.0598276495292032",
+            "count" : 18
+          }, {
+            "item" : "933756",
+            "count" : 17
+          }, {
+            "item" : "-0.0613867664175024",
+            "count" : 16
+          }, {
+            "item" : "939365",
+            "count" : 15
+          }, {
+            "item" : "928786",
+            "count" : 14
+          }, {
+            "item" : "0.53510711832435",
+            "count" : 13
+          }, {
+            "item" : "1024326.11111111",
+            "count" : 12
+          }, {
+            "item" : "1.04513455970853",
+            "count" : 11
+          }, {
+            "item" : "1061512.77777778",
+            "count" : 10
+          }, {
+            "item" : "1004099.66666667",
+            "count" : 9
+          }, {
+            "item" : "1.46536429395048",
+            "count" : 8
+          }, {
+            "item" : "1038988.33333333",
+            "count" : 7
+          }, {
+            "item" : "1050265.77777778",
+            "count" : 6
+          }, {
+            "item" : "1.04373257714393",
+            "count" : 5
+          }, {
+            "item" : "1.63371614775286",
+            "count" : 4
+          } ],
+          "smallest" : "-0.0613867664175024",
+          "sum" : "53634345.6145179157166464"
+        },
+        "format" : { }
+      }, {
+        "id" : 224780305,
+        "name" : "IndicatorID",
+        "dataTypeName" : "text",
+        "fieldName" : "indicatorid",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31843056,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 99,
+          "largest" : "respop72014",
+          "null" : 0,
+          "top" : [ {
+            "item" : "respop72012",
+            "count" : 20
+          }, {
+            "item" : "Calculation",
+            "count" : 19
+          }, {
+            "item" : "respop72014",
+            "count" : 18
+          }, {
+            "item" : "respop72011",
+            "count" : 17
+          }, {
+            "item" : "respop72013",
+            "count" : 16
+          }, {
+            "item" : "respop72010",
+            "count" : 15
+          } ],
+          "smallest" : "Calculation"
+        },
+        "format" : { }
+      }, {
+        "id" : 224780306,
+        "name" : "IndicatorTable",
+        "dataTypeName" : "text",
+        "fieldName" : "indicatortable",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31843057,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 99,
+          "largest" : "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014",
+            "count" : 20
+          } ],
+          "smallest" : "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Common Core" : {
+            "Contact Email" : "data@nola.gov",
+            "Contact Name" : "",
+            "Publisher" : "",
+            "Public Access Level" : ""
+          },
+          "Source Information" : {
+            "Source Department" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row"
+      },
+      "owner" : {
+        "id" : "ii98-542e",
+        "displayName" : "mschigoda",
+        "roleName" : "publisher",
+        "screenName" : "mschigoda",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ii98-542e",
+        "displayName" : "mschigoda",
+        "roleName" : "publisher",
+        "screenName" : "mschigoda",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "resultsnola" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "B788B377-0D28-4ED0-9549-4A80E6FD5B76", 1, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_respop72012_2012", "2012-01-01T00:00:00", "2012", "Tampa. FL", "Population", "1282032", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 2, "12AC12A0-0380-4A95-8747-13D67AB534EE", 2, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_Calculation_2012", "2012-01-01T00:00:00", "2012", "Tampa. FL", "Population growth", "0.810870317365458", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 3, "4B7B2627-7B04-492B-A24F-49A795B359B4", 3, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_respop72014_2014", "2014-01-01T00:00:00", "2014", "Tampa. FL", "Population", "1316298", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 4, "7B01D916-8142-4BDB-97ED-F2BAF114F362", 4, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_Calculation_2014", "2014-01-01T00:00:00", "2014", "Tampa. FL", "Population growth", "1.71178654632982", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 5, "D553C77D-DE68-4708-97FA-B865B3384C1D", 5, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_respop72011_2011", "2011-01-01T00:00:00", "2011", "Tampa. FL", "Population", "1271720", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 6, "A2BF90AA-1065-4404-A48B-23880F42FCF5", 6, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_Calculation_2013", "2013-01-01T00:00:00", "2013", "Tampa. FL", "Population growth", "0.944828210216282", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 7, "941ABA50-C13C-42E5-80CC-D4581F86BAD9", 7, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_respop72013_2013", "2013-01-01T00:00:00", "2013", "Tampa. FL", "Population", "1294145", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 8, "8BFF8EB0-62EB-4453-B480-6958B039BAC0", 8, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_respop72010_2010", "2010-01-01T00:00:00", "2010", "Tampa. FL", "Population", "1234145", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 9, "AC25714A-D979-484E-93F2-17F0D3B7D746", 9, 1444044736, "903988", 1444044736, "903988", null, "Tampa. FL_Calculation_2011", "2011-01-01T00:00:00", "2011", "Tampa. FL", "Population growth", "3.04461793387325", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 10, "7B73C422-6049-47C4-B5DA-1157040035DE", 10, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_respop72012_2012", "2012-01-01T00:00:00", "2012", "Miami, FL", "Population", "2610960", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 11, "FA178401-7CD7-41E5-893E-E6D35C064131", 11, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_Calculation_2012", "2012-01-01T00:00:00", "2012", "Miami, FL", "Population growth", "1.20329499099971", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 12, "54D18C40-BA19-4271-AB34-DA85DF4320A0", 12, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_respop72014_2014", "2014-01-01T00:00:00", "2014", "Miami, FL", "Population", "2662874", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 13, "A23B905C-4537-41AF-9DE6-2BB04F2DBF69", 13, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_Calculation_2014", "2014-01-01T00:00:00", "2014", "Miami, FL", "Population growth", "0.795195517107983", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 14, "6216340E-48D0-441A-B47A-D6C8E81FE6B2", 14, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_respop72011_2011", "2011-01-01T00:00:00", "2011", "Miami, FL", "Population", "2579916", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 15, "61AC8E5A-7FD2-4D06-BEC6-B6BD90FA532E", 15, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_Calculation_2013", "2013-01-01T00:00:00", "2013", "Miami, FL", "Population growth", "1.18370254618991", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 16, "7F129737-6CCE-4111-82AB-D846B39BC233", 16, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_respop72013_2013", "2013-01-01T00:00:00", "2013", "Miami, FL", "Population", "2641866", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 17, "C724D098-A9A5-4284-BA49-3FA0D672F5D9", 17, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_respop72010_2010", "2010-01-01T00:00:00", "2010", "Miami, FL", "Population", "2508689", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 18, "7AF7074F-A81C-423E-9AFA-E25ADE8453D8", 18, 1444044736, "903988", 1444044736, "903988", null, "Miami, FL_Calculation_2011", "2011-01-01T00:00:00", "2011", "Miami, FL", "Population growth", "2.83921203465236", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 19, "9A47A0B1-90F7-48FC-B517-14070B51E80A", 19, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_respop72012_2012", "2012-01-01T00:00:00", "2012", "Atlanta, GA", "Population", "977950", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 20, "6602954B-7387-40A8-9420-E37CC6C91139", 20, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_Calculation_2012", "2012-01-01T00:00:00", "2012", "Atlanta, GA", "Population growth", "2.90321867841521", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 21, "62B23F35-FED2-484C-BE0C-9A522B156C97", 21, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_respop72014_2014", "2014-01-01T00:00:00", "2014", "Atlanta, GA", "Population", "996319", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 22, "B5F9F1F3-3D21-4F8D-9BB6-7453B611C2E0", 22, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_Calculation_2014", "2014-01-01T00:00:00", "2014", "Atlanta, GA", "Population growth", "1.17779553802549", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 23, "2723E680-723C-498E-900C-D62CEEC73278", 23, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_respop72011_2011", "2011-01-01T00:00:00", "2011", "Atlanta, GA", "Population", "950359", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 24, "AE24CEE3-4240-4348-9816-685431C4C569", 24, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_Calculation_2013", "2013-01-01T00:00:00", "2013", "Atlanta, GA", "Population growth", "0.692366685413365", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 25, "9A37A293-5DAC-4DF6-A4A2-0A52CBAA2887", 25, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_respop72013_2013", "2013-01-01T00:00:00", "2013", "Atlanta, GA", "Population", "984721", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 26, "BC5BD515-33B2-4F26-A354-CA87F533E5E4", 26, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_respop72010_2010", "2010-01-01T00:00:00", "2010", "Atlanta, GA", "Population", "926149", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 27, "E26F41AF-1121-42B7-B34B-B1A506A6A9EB", 27, 1444044736, "903988", 1444044736, "903988", null, "Atlanta, GA_Calculation_2011", "2011-01-01T00:00:00", "2011", "Atlanta, GA", "Population growth", "2.61405022302027", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 28, "256DEC1E-50E8-40BB-8CDB-EB33FB034886", 28, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_respop72012_2012", "2012-01-01T00:00:00", "2012", "Louisville, KY", "Population", "751327", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 29, "68B88091-9ABE-4DB5-B704-0E26C0B34A85", 29, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_Calculation_2012", "2012-01-01T00:00:00", "2012", "Louisville, KY", "Population growth", "0.63825911310782", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 30, "52EFD431-E4EB-4B00-980A-C37A46302DB6", 30, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_respop72014_2014", "2014-01-01T00:00:00", "2014", "Louisville, KY", "Population", "760026", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 31, "7C9FC301-8ECD-4DCA-829E-AE181C48F1E7", 31, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_Calculation_2014", "2014-01-01T00:00:00", "2014", "Louisville, KY", "Population growth", "0.36234850425601", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 32, "E019BAF9-A4A6-46BB-9A18-976089230AAD", 32, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_respop72011_2011", "2011-01-01T00:00:00", "2011", "Louisville, KY", "Population", "746562", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 33, "3C8DF831-E918-4378-BC18-716A8C225B4B", 33, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_Calculation_2013", "2013-01-01T00:00:00", "2013", "Louisville, KY", "Population growth", "0.792597630592272", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 34, "0FD97D53-517C-4AD0-8D5D-22F6290A37D4", 34, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_respop72013_2013", "2013-01-01T00:00:00", "2013", "Louisville, KY", "Population", "757282", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 35, "6C32919A-9F7B-441C-80A1-EBA113CF7615", 35, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_respop72010_2010", "2010-01-01T00:00:00", "2010", "Louisville, KY", "Population", "742227", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 36, "48943C94-84C4-43C1-951C-7A0C893A4353", 36, 1444044736, "903988", 1444044736, "903988", null, "Louisville, KY_Calculation_2011", "2011-01-01T00:00:00", "2011", "Louisville, KY", "Population growth", "0.584053126604125", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 37, "864BB0A6-3743-4D75-8939-6E1A092E91F5", 37, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_respop72012_2012", "2012-01-01T00:00:00", "2012", "Baton Rouge, LA", "Population", "444296", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 38, "85D15192-EF11-44F8-8731-7E60F1BCC895", 38, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_Calculation_2012", "2012-01-01T00:00:00", "2012", "Baton Rouge, LA", "Population growth", "0.629192920786921", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 39, "C8E51AAA-6AC4-4890-A8CB-FB1402290691", 39, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_respop72014_2014", "2014-01-01T00:00:00", "2014", "Baton Rouge, LA", "Population", "446042", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 40, "A28D7049-0C34-46B1-8038-0B333075866C", 40, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_Calculation_2014", "2014-01-01T00:00:00", "2014", "Baton Rouge, LA", "Population growth", "0.171353241450866", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 41, "07FE4723-05EC-4548-9678-C20C1585399B", 41, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_respop72011_2011", "2011-01-01T00:00:00", "2011", "Baton Rouge, LA", "Population", "441518", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 42, "AC57A5D2-6FBD-409B-8A8D-95ADE584DC6D", 42, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_Calculation_2013", "2013-01-01T00:00:00", "2013", "Baton Rouge, LA", "Population growth", "0.221248897131642", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 43, "0F0CB3D7-CC88-4BCC-94C5-98302D051CBE", 43, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_respop72013_2013", "2013-01-01T00:00:00", "2013", "Baton Rouge, LA", "Population", "445279", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 44, "22FD3010-9CBA-4AFA-A15A-09F45B807416", 44, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_respop72010_2010", "2010-01-01T00:00:00", "2010", "Baton Rouge, LA", "Population", "440854", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 45, "21A9221D-9BC5-4DCB-A5AA-563DFF95724A", 45, 1444044736, "903988", 1444044736, "903988", null, "Baton Rouge, LA_Calculation_2011", "2011-01-01T00:00:00", "2011", "Baton Rouge, LA", "Population growth", "0.150616757475264", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 46, "0121774A-A340-4B3E-B9C5-69183B437A45", 46, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_respop72012_2012", "2012-01-01T00:00:00", "2012", "New Orleans, LA", "Population", "370167", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 47, "2246C6C6-27E1-4B0E-9CEB-888242898C37", 47, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_Calculation_2012", "2012-01-01T00:00:00", "2012", "New Orleans, LA", "Population growth", "2.57428431293765", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 48, "69CC3116-1780-4AB2-B3D6-7FFC1D746777", 48, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_respop72014_2014", "2014-01-01T00:00:00", "2014", "New Orleans, LA", "Population", "384320", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 49, "9F03A191-2B27-488A-A132-A943DAB62799", 49, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_Calculation_2014", "2014-01-01T00:00:00", "2014", "New Orleans, LA", "Population growth", "1.40208862128832", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 50, "6C0C1A9E-B412-4D3A-BBFB-1DC2CD93610D", 50, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_respop72011_2011", "2011-01-01T00:00:00", "2011", "New Orleans, LA", "Population", "360877", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 51, "B3E27D19-A27D-4F85-85ED-B99DBB312B60", 51, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_Calculation_2013", "2013-01-01T00:00:00", "2013", "New Orleans, LA", "Population growth", "2.38784116358292", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 52, "10442CC5-1CC0-479C-884E-35B6A94816C0", 52, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_respop72013_2013", "2013-01-01T00:00:00", "2013", "New Orleans, LA", "Population", "379006", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 53, "07BF9B3E-6E4B-464F-B1F6-C0DB4313606D", 53, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_respop72010_2010", "2010-01-01T00:00:00", "2010", "New Orleans, LA", "Population", "347987", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 54, "8D60868C-979A-45F0-9E00-9911421C2870", 54, 1444044736, "903988", 1444044736, "903988", null, "New Orleans, LA_Calculation_2011", "2011-01-01T00:00:00", "2011", "New Orleans, LA", "Population growth", "3.70416136234974", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 55, "862CBEA0-55E3-40AE-BF16-7B2B003AA7E0", 55, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_respop72012_2012", "2012-01-01T00:00:00", "2012", "Raleigh, NC", "Population", "952611", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 56, "B4DA9020-FE7D-4B29-A64A-E1DABFA647F5", 56, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_Calculation_2012", "2012-01-01T00:00:00", "2012", "Raleigh, NC", "Population growth", "2.50513811025147", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 57, "7FF3D243-5034-4F2A-9F0B-BAA9643E7059", 57, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_respop72014_2014", "2014-01-01T00:00:00", "2014", "Raleigh, NC", "Population", "998691", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 58, "FCE0D58B-8E69-4158-8335-7FCB393F5B07", 58, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_Calculation_2014", "2014-01-01T00:00:00", "2014", "Raleigh, NC", "Population growth", "2.42732486584946", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 59, "1DDFAE0B-F1EE-4EAF-8678-8E60F242F0AC", 59, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_respop72011_2011", "2011-01-01T00:00:00", "2011", "Raleigh, NC", "Population", "929330", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 60, "4B0B97EA-5488-4BB5-9D25-5AA8BB91E5F3", 60, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_Calculation_2013", "2013-01-01T00:00:00", "2013", "Raleigh, NC", "Population growth", "2.35279668196147", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 61, "79B862B7-93F2-46AF-BD0D-8AD723B8B034", 61, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_respop72013_2013", "2013-01-01T00:00:00", "2013", "Raleigh, NC", "Population", "975024", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 62, "87C2A7F6-C350-444A-BD03-3C69E8CD9E63", 62, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_respop72010_2010", "2010-01-01T00:00:00", "2010", "Raleigh, NC", "Population", "906908", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 63, "F343A6A9-80E6-46B1-B2D3-FA60E112213B", 63, 1444044736, "903988", 1444044736, "903988", null, "Raleigh, NC_Calculation_2011", "2011-01-01T00:00:00", "2011", "Raleigh, NC", "Population growth", "2.47235662272248", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 64, "DE3F29E8-48C9-4E1D-B769-AF61DB3D9F45", 64, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_respop72012_2012", "2012-01-01T00:00:00", "2012", "Oklahoma City, OK", "Population", "742635", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 65, "EF34796C-5A69-47A1-A91C-0AECA0654B69", 65, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_Calculation_2012", "2012-01-01T00:00:00", "2012", "Oklahoma City, OK", "Population growth", "1.71535561031131", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 66, "8F60829C-2CD3-4B11-874C-BE770A7DF007", 66, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_respop72014_2014", "2014-01-01T00:00:00", "2014", "Oklahoma City, OK", "Population", "766215", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 67, "00469B3F-03CE-420D-8E83-1B0E447B112C", 67, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_Calculation_2014", "2014-01-01T00:00:00", "2014", "Oklahoma City, OK", "Population growth", "1.39571875479708", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 68, "6F5DCD45-99F8-4968-BFE9-7FE29B229F11", 68, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_respop72011_2011", "2011-01-01T00:00:00", "2011", "Oklahoma City, OK", "Population", "730111", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 69, "339E57F7-172A-448A-8CA0-18D6FEF62046", 69, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_Calculation_2013", "2013-01-01T00:00:00", "2013", "Oklahoma City, OK", "Population growth", "1.75496711035704", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 70, "8BA0D016-AE2D-4F02-A40F-E9F2C898BEC7", 70, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_respop72013_2013", "2013-01-01T00:00:00", "2013", "Oklahoma City, OK", "Population", "755668", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 71, "A6EE60C8-F466-44EF-A28B-4BF5B9E39333", 71, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_respop72010_2010", "2010-01-01T00:00:00", "2010", "Oklahoma City, OK", "Population", "721094", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 72, "C9FC3C47-EE25-44EF-A979-B6CD13AC79B4", 72, 1444044736, "903988", 1444044736, "903988", null, "Oklahoma City, OK_Calculation_2011", "2011-01-01T00:00:00", "2011", "Oklahoma City, OK", "Population growth", "1.25046110493223", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 73, "CEBF341A-F01E-4C46-A948-7799FE07FDC3", 73, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_respop72012_2012", "2012-01-01T00:00:00", "2012", "Nashville, TN", "Population", "649142", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 74, "606E4A08-BD4F-4644-8020-489011505FED", 74, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_Calculation_2012", "2012-01-01T00:00:00", "2012", "Nashville, TN", "Population growth", "2.12046320141333", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 75, "268A8589-494E-457F-9980-7E149EFF2237", 75, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_respop72014_2014", "2014-01-01T00:00:00", "2014", "Nashville, TN", "Population", "668347", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 76, "5FACFD38-5E6D-4429-B109-C6D2281ED5DF", 76, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_Calculation_2014", "2014-01-01T00:00:00", "2014", "Nashville, TN", "Population growth", "1.4118978760079", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 77, "0AB5FA07-639B-4A31-9E14-B4423AFDEEB7", 77, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_respop72011_2011", "2011-01-01T00:00:00", "2011", "Nashville, TN", "Population", "635663", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 78, "B7FAB58E-7823-44E1-A8ED-0CA6C344AD6D", 78, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_Calculation_2013", "2013-01-01T00:00:00", "2013", "Nashville, TN", "Population growth", "1.52509004193227", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 79, "3BA695B1-9079-4DB7-AAA9-4C715A0E9C4B", 79, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_respop72013_2013", "2013-01-01T00:00:00", "2013", "Nashville, TN", "Population", "659042", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 80, "2EF12FB8-0FD3-439E-82AB-2DF95F98058C", 80, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_respop72010_2010", "2010-01-01T00:00:00", "2010", "Nashville, TN", "Population", "628045", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 81, "54C7C8CF-B22C-4041-BA5C-8564B4703804", 81, 1444044736, "903988", 1444044736, "903988", null, "Nashville, TN_Calculation_2011", "2011-01-01T00:00:00", "2011", "Nashville, TN", "Population growth", "1.21297040817139", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 82, "9751E381-33A5-476B-9C71-27333FAD004A", 82, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_respop72012_2012", "2012-01-01T00:00:00", "2012", "Memphis, TN", "Population", "939942", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 83, "F42276D3-51CA-415A-AB1C-5B225C1E468A", 83, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_Calculation_2012", "2012-01-01T00:00:00", "2012", "Memphis, TN", "Population growth", "0.662485702903114", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 84, "85C932CF-A158-4011-9208-44A4F39BBF23", 84, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_respop72014_2014", "2014-01-01T00:00:00", "2014", "Memphis, TN", "Population", "938803", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 85, "68E60DC9-B7CD-470B-A0B1-17F841473194", 85, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_Calculation_2014", "2014-01-01T00:00:00", "2014", "Memphis, TN", "Population growth", "-0.0598276495292032", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 86, "CED67763-DABB-47A7-9358-5A65D18EC6CF", 86, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_respop72011_2011", "2011-01-01T00:00:00", "2011", "Memphis, TN", "Population", "933756", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 87, "F7FFAE09-89F1-431A-9798-71ED0AC3901D", 87, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_Calculation_2013", "2013-01-01T00:00:00", "2013", "Memphis, TN", "Population growth", "-0.0613867664175024", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 88, "2618A1D8-9FF2-475B-B895-E08BCDF97013", 88, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_respop72013_2013", "2013-01-01T00:00:00", "2013", "Memphis, TN", "Population", "939365", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 89, "273D0BF7-3C94-4830-8BA8-AA61F777E374", 89, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_respop72010_2010", "2010-01-01T00:00:00", "2010", "Memphis, TN", "Population", "928786", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 90, "4EC6723F-A58F-4E8F-9366-38CBB339C48C", 90, 1444044736, "903988", 1444044736, "903988", null, "Memphis, TN_Calculation_2011", "2011-01-01T00:00:00", "2011", "Memphis, TN", "Population growth", "0.53510711832435", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 91, "1DAC499E-3A72-434B-94A6-353FDA783289", 91, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_respop72011_2011", "2011-01-01T00:00:00", "2011", "Benchmark Average", "Population", "1024326.11111111", "respop72011", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 92, "696C921E-C051-4B1B-A2C3-C672D9E30953", 92, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_Calculation_2013", "2013-01-01T00:00:00", "2013", "Benchmark Average", "Population growth", "1.04513455970853", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 93, "61149711-F875-4310-B4F6-843AF61361E9", 93, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_respop72014_2014", "2014-01-01T00:00:00", "2014", "Benchmark Average", "Population", "1061512.77777778", "respop72014", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 94, "4F549AF1-D748-4B5D-8602-27FBE183089F", 94, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_respop72010_2010", "2010-01-01T00:00:00", "2010", "Benchmark Average", "Population", "1004099.66666667", "respop72010", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 95, "789DD29F-DD98-4F24-983D-6665FB232A43", 95, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_Calculation_2012", "2012-01-01T00:00:00", "2012", "Benchmark Average", "Population growth", "1.46536429395048", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 96, "8E8D41B5-65F3-4B39-B756-AD7B334D64FA", 96, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_respop72012_2012", "2012-01-01T00:00:00", "2012", "Benchmark Average", "Population", "1038988.33333333", "respop72012", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 97, "932561D9-098C-4615-A9DB-94C882E686D7", 97, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_respop72013_2013", "2013-01-01T00:00:00", "2013", "Benchmark Average", "Population", "1050265.77777778", "respop72013", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 98, "638D2A6B-6FB4-4E36-AD85-BF330F8B4C40", 98, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_Calculation_2014", "2014-01-01T00:00:00", "2014", "Benchmark Average", "Population growth", "1.04373257714393", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+, [ 99, "E1543489-0ECB-4160-9540-606D8A975966", 99, 1444044736, "903988", 1444044736, "903988", null, "Benchmark Average_Calculation_2011", "2011-01-01T00:00:00", "2011", "Benchmark Average", "Population growth", "1.63371614775286", "Calculation", "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014" ]
+ ]
+}
