@@ -5,7 +5,6 @@
 #$ -r y
 #$ -N Tests_Task_1
 
-make clean
 make
 
 ## STEP 1: Test with different values of K, using the small files example

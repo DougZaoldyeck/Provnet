@@ -5,7 +5,6 @@
 #$ -r y
 #$ -N Test_Task_2
 
-make clean
 make
 
 ## STEP 2: Test with different numbers of inserted records. e.g., when K=3, every time you load 200 records from the example.csv, you can pause and run Top-K algorithm to see how long it takes to find 3 most similar records; 

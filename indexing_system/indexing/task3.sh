@@ -5,7 +5,6 @@
 #$ -r y
 #$ -N Test_Task_3
 
-make clean
 make
 
 ## STEP 3: test with different numbers of MinHash values. The examples I shared on the Drive only contain 1000 MinHash values (and 200 MinHash values for small size files). You can load in different numbers of MinHash values with the examples I shared with you. e.g., you can load the first 400 columns, 600 columns, 800 columns, etc.  

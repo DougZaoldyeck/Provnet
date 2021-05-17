@@ -31,7 +31,11 @@ def run_system(i):
             (output, err) = process.communicate()
             exit_code = process.wait()
             output = output.rstrip().split()
-            K_INSERT_DICT[j].append(int(output[0]))
+            try:
+                K_INSERT_DICT[j].append(int(output[0]))
+            except IndexError:
+                print(f'output: {output}')
+                print(f'file no: {i}, k-val: {j} WTH')
             K_FINDTK_DICT[j].append(int(output[1]))
 
 ## MAIN FUNCTION ##

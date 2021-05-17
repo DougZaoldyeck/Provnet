@@ -86,6 +86,8 @@ int main(int argc, char *argv[]) {
 		}
 		record_count += 1;
     }
+
+    while (!ifs.eof()) { getline(ifs, line); } // NOTE ADDED LINE
 	
 
 
@@ -140,11 +142,14 @@ int main(int argc, char *argv[]) {
 	} else if (!ss_k.eof()) {
 		cerr << "Trailing characters after number: " << argv[4] << '\n';
 	}
+	
 
     auto start_topk = high_resolution_clock::now();
 	TopKElements top_k;
 	results = top_k.topKFrequent(similar, tk);
     auto stop_topk = high_resolution_clock::now();
+	
+	cout << "finished part 2" << endl;
 
 
 	// print out the top K results!

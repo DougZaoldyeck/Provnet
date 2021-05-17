@@ -5,7 +5,6 @@
 #$ -r y
 #$ -N Test_Task_4
 
-make clean
 make
 
 ## STEP 4: for each file category, run 5 different files with k=1,2,3 as follows

@@ -14,46 +14,46 @@ K_INSERT_DICT =    {
                 200: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 400: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 600: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 800: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 1000: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
             }
 
 K_FINDTK_DICT =    {   
                 200: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 400: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 600: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 800: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
                 1000: {1: [],
                     5: [],
                     10:[],
-                    20:[],}
+                    20:[],},
             }
 
 ## FUNCTIONS ##
@@ -61,19 +61,20 @@ K_FINDTK_DICT =    {
 def run_system(i):
     for j in K_VALS: # for each k
         for records in RECORDS:
-            for _ in range(500): # every k, 500 times each
-                process = Popen([f'./main', f'../testing/40-200kb/example-1000minhash.csv', f'1000', f'../testing/40-200kb/input/data_{i}_0.csv', f'{j}', f'{records}'], stdout=PIPE)
+            for _ in range(3): # every k, 500 times each
+                process = Popen([f'./main', f'../testing/10-100mb/example-1000minhash.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'{records}'], stdout=PIPE, stderr=PIPE)
                 (output, err) = process.communicate()
                 exit_code = process.wait()
-                output = output.rstrip().split()
-                K_INSERT_DICT[records][j].append(int(output[0]))
-                K_FINDTK_DICT[records][j].append(int(output[1]))
+                #output = output.rstrip().split()
+                print(err)
+                K_INSERT_DICT[records][j].append(int(output.rstrip().split()[0]))
+                K_FINDTK_DICT[records][j].append(int(output.rstrip().split()[1]))
 
 ## MAIN FUNCTION ##
 
 def main():
     
-    for i in range(1, 21): # for each file
+    for i in range(21, 22): # for each file
         run_system(i)
 
     for records in RECORDS:
@@ -83,21 +84,21 @@ def main():
         for k in K_VALS:
             print(f'K-VALUE:                {k}')
             print(f'--------INSERTION-----------')
-            print(f'AVERAGE (microseconds): {numpy.average(K_INSERT_DICT[k])}')
-            print(f'STD DEV (microseconds): {numpy.std(K_INSERT_DICT[k])}')
+            print(f'AVERAGE (microseconds): {numpy.average(K_INSERT_DICT[records][k])}')
+            print(f'STD DEV (microseconds): {numpy.std(K_INSERT_DICT[records][k])}')
             print(f'--------FINDING TOPK--------')
-            print(f'AVERAGE (microseconds): {numpy.average(K_FINDTK_DICT[k])}')
-            print(f'STD DEV (microseconds): {numpy.std(K_FINDTK_DICT[k])}')
+            print(f'AVERAGE (microseconds): {numpy.average(K_FINDTK_DICT[records][k])}')
+            print(f'STD DEV (microseconds): {numpy.std(K_FINDTK_DICT[records][k])}')
             print()
 
     original_stdout = sys.stdout 
-    with open('./output/task1/insertion_data.csv', 'w') as f:
+    with open('./output/task2/insertion_data.csv', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_INSERT_DICT}')
         sys.stdout = original_stdout
     
-    with open('./output/task1/findtopk_data.csv', 'w') as f:
+    with open('./output/task2/findtopk_data.csv', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_FINDTK_DICT}')

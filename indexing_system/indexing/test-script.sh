@@ -3,23 +3,10 @@
 #$ -q *@@jung
 #$ -m abe
 #$ -r y
-#$ -N IndexingTest
+#$ -N FinalSemesterTests
 
 make clean
 make
-
-## STEP 1: Test with different values of K, using the small files example
-
-# TODO python script that prints out average + stdev times of small files. 
-# Steps:
-# loop
-#   1. turn whatever file into 1 line of records in example.csv
-#   2. run it 500 times on k=1, 2, 3, 5, 10, 20
-#   3. store these values in a hash table (dict) of {k: [500 vals from first iteration + 500 vals from second +...]} etc. for each file.]
-# end loop
-# take averages/stdev for each k
-# print all the data out
-
 
 ## STEP 2: Test with different numbers of inserted records. e.g., when K=3, every time you load 200 records from the example.csv, you can pause and run Top-K algorithm to see how long it takes to find 3 most similar records; 
 
@@ -37,6 +24,8 @@ make
 # end loop
 # take averages/stdev for each k
 # print all the data out. 
+
+./task2.py > output/task2.txt
 
 
 ## STEP 3: test with different numbers of MinHash values. The examples I shared on the Drive only contain 1000 MinHash values (and 200 MinHash values for small size files). You can load in different numbers of MinHash values with the examples I shared with you. e.g., you can load the first 400 columns, 600 columns, 800 columns, etc.  
@@ -56,6 +45,8 @@ make
 # take averages/stdev for each k
 # print all the data out. 
 
+./task3.py > output/task3.txt
+
 ## STEP 4: for each file category, run 5 different files with k=1,2,3 as follows
 
 # TODO python script
@@ -71,3 +62,5 @@ make
 # end loop
 # compare file types
 # 
+
+./task4.py > output/task4.txt

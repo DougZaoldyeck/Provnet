@@ -1,6 +1,7 @@
 /* This code was originally implemented by Changhao Chenli */
 
 #include "topK.h"
+#include <iostream>
 
 int TopKElements::partition(int left, int right, int pivot_index) {
 	int pivot_frequency = this->count_map[this->unique[pivot_index]];
@@ -54,11 +55,13 @@ vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 		this->count_map[n] += 1;
 	}
 
+
 	// array of unique elements
 	size_t n = this->count_map.size();
 	for (pair<string, int> p : this->count_map) {
 		this->unique.push_back(p.first);
 	}
+	
 
 	// kth top frequent element is (n - k)th less frequent.
 	// Do a partial sort: from less frequent to the most frequent, till
@@ -66,6 +69,7 @@ vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 	// All element on the left are less frequent.
 	// All the elements on the right are more frequent.
 	quickselect(0, n - 1, n - k);
+	std::cout <<"here!" << std::endl;
 	// Return top k frequent elements
 	vector<string> top_k_frequent(k);
 	if (k <= unique.size()) {
@@ -73,5 +77,6 @@ vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 	} else {
 		copy(this->unique.begin() + n - unique.size(), this->unique.end(), top_k_frequent.begin());
 	}
+	std::cout <<"here!" << std::endl;
 	return top_k_frequent;
 }
