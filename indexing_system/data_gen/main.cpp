@@ -23,7 +23,10 @@ int main(int argc, char *argv[]) {
     //char filename[100];
     //filename = argv;
     std::ofstream myfile;
-    myfile.open ("example.csv", std::ios_base::app);
+    string myname = argv[1];
+    string csv = ".csv";
+    myname = myname + csv;
+    myfile.open (myname, std::ios_base::app);
 
     FILE *f;
     f = fopen(argv[1], "r");
