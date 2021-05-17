@@ -46,11 +46,11 @@ vector<string> Indexing::list_records(int n, string mh_val) {
 	}
 
 	// print them out
-	cout << "hfn: " << n << " mh_val: " << mh_val << " R#: " << endl;
+	//cout << "hfn: " << n << " mh_val: " << mh_val << " R#: " << endl;
 	for (auto it = records.begin(); it != records.end(); it++) {
-		cout <<  *it << ",";
+	//	cout <<  *it << ",";
 	}
-	cout << endl;
+	//cout << endl;
 
 	return records;
 }

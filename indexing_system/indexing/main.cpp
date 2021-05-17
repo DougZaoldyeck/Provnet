@@ -10,14 +10,15 @@
 #include <map>
 #include <sstream>
 #include <string>
-#include <time.h>
+#include <chrono>
 
 #include "sha256.h"
 #include "indexing.h"
 #include "topK.h"
 
-/* Usage: ./main <current_system.csv> <number of hash functions (i.e. hfn_cap)> <new_record.csv> <topk num> <mh_vak_num> */
+/* Usage: ./main <current_system.csv> <number of hash functions (i.e. hfn_cap)> <new_record.csv> <topk num> <records_cap_num> */
 
+using namespace std::chrono;
 using std::ifstream;
 using std::stringstream;
 using std::getline;
@@ -45,10 +46,7 @@ int main(int argc, char *argv[]) {
 	
 	// create indexing system
 	//clock_t t;
-	//t = clock();
 	Indexing system = Indexing(hfn_cap);
-	//t = clock() - t;
-	//printf("The indexing system took %f seconds to build\n", ((double)t)/CLOCKS_PER_SEC);
 
 	// handle csv file 
 	ifstream ifs;
@@ -72,7 +70,6 @@ int main(int argc, char *argv[]) {
 
 
 	// read in csv file to indexing system.	
-	//t = clock();
 	int record_count = 0; // just in case num_records > records_cap in the file..
     while (!ifs.eof() && record_count < records_cap) {
 		getline(ifs, line);
@@ -90,8 +87,6 @@ int main(int argc, char *argv[]) {
 		record_count += 1;
     }
 	
-	//t = clock()-t;
-	//printf("It took %f seconds to read in the csv file\n", ((double)t)/CLOCKS_PER_SEC);
 
 
 	// Find similarities across *new* data
@@ -112,8 +107,8 @@ int main(int argc, char *argv[]) {
 
 	// read in csv file to indexing system. also find list record ids with
 	// same minhash value!
-	//t = clock();
 	vector<string> similar; // vector of all similar records
+    auto start_insertion = high_resolution_clock::now();
     while (!nfs.eof()) { // TODO this should only be one iteration. What else to check?
 		getline(nfs, nline);
 		stringstream s(nline);
@@ -121,7 +116,7 @@ int main(int argc, char *argv[]) {
 
 		//read each column
 		getline(s, nrecord, ',');
-		cout << "new record: " << nrecord << endl;
+		//cout << "new record: " << nrecord << endl;
 		while (getline(s, nmh_val, ',')){
 			if (nmh_val != ""){
 
@@ -131,15 +126,13 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
-	//t = clock() - t;
-	//printf("It took %f seconds to find similar records to new record\n", ((double)t)/CLOCKS_PER_SEC);
+    auto stop_insertion = high_resolution_clock::now();
 
     // now that we have the vector of vectors of similar records, get the top K similar! 
     vector<string> results; // initiate the final array of most similar records
 
 
-	// The code below is for some vector 
-	clock_t t = clock();
+	// The code below is for some vector
 	istringstream ss_k(argv[4]);
 	int tk;
 	if (!(ss_k >> tk)) {
@@ -148,22 +141,27 @@ int main(int argc, char *argv[]) {
 		cerr << "Trailing characters after number: " << argv[4] << '\n';
 	}
 
+    auto start_topk = high_resolution_clock::now();
 	TopKElements top_k;
 	results = top_k.topKFrequent(similar, tk);
+    auto stop_topk = high_resolution_clock::now();
 
 
 	// print out the top K results!
-	for (int i = 0; i < results.size(); i++) {
+	/*for (int i = 0; i < results.size(); i++) {
 		if (i == results.size() - 1)
 			cout << results[i] << endl;
 		else
 			cout << results[i] << ",";
-	}
+	}*/
 
 
 	// only thing to print:
-	t = clock() - t;
-	printf("%f\n", ((double)t)/CLOCKS_PER_SEC);
+    auto duration_insertion = duration_cast<microseconds>(stop_insertion - start_insertion);
+    auto duration_topk = duration_cast<microseconds>(stop_topk - start_topk);
+    cout << duration_insertion.count() << endl;
+    cout << duration_topk.count() << endl;
+
 	//printf("It took %f seconds to find the top %d similar\n", ((double)t)/CLOCKS_PER_SEC, tk);
 
 
