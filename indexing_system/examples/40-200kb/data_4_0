@@ -1,0 +1,1442 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "k5hp-eece",
+      "name" : "Electric Vehicle Charging Network",
+      "attribution" : "Austin Energy",
+      "averageRating" : 0,
+      "category" : "Utility",
+      "createdAt" : 1438719162,
+      "description" : "Austin Energy operates a network of electric vehicle charging stations powered by renewable energy through our GreenChoice® program. View the list of charging stations, locations, and more. Go to http://austinenergy.com/go/greenchoice  and http://austinenergy.com/wps/portal/ae/green-power/plug-in-austin/plug-in-austin to learn more.",
+      "displayType" : "table",
+      "downloadCount" : 1009,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1503350185,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 26633258,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1503350158,
+      "publicationGroup" : 3823733,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1503350044,
+      "rowsUpdatedBy" : "c433-zrb5",
+      "tableId" : 14413028,
+      "totalTimesRated" : 0,
+      "viewCount" : 582,
+      "viewLastModified" : 1503350158,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 316731380,
+        "name" : "Station Display Name",
+        "dataTypeName" : "text",
+        "fieldName" : "station_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 30300835,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "YETI RAMBLERS / EVSE4",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "ROSCOE PROPERTI / TRIO MAIN",
+            "count" : 20
+          }, {
+            "item" : "ROSCOE PROPERTI / VOLUME MAIN",
+            "count" : 19
+          }, {
+            "item" : "RPP GARAGE / GARAGE 2",
+            "count" : 18
+          }, {
+            "item" : "RPP GARAGE / GARAGE GW",
+            "count" : 17
+          }, {
+            "item" : "RPP GARAGE / ISLAND 2",
+            "count" : 16
+          }, {
+            "item" : "RPP GARAGE / ISLAND GW",
+            "count" : 15
+          }, {
+            "item" : "SLEEP INN / SLEEP INN 1",
+            "count" : 14
+          }, {
+            "item" : "SOLARWINDS / SOLARWINDS #1",
+            "count" : 13
+          }, {
+            "item" : "SOLARWINDS / SOLARWINDS #2",
+            "count" : 12
+          }, {
+            "item" : "SPRINGS AT TR / CLUBHOUSE",
+            "count" : 11
+          }, {
+            "item" : "STATION 1 / #1",
+            "count" : 10
+          }, {
+            "item" : "STATION 1 / @ THE DISTRICT",
+            "count" : 9
+          }, {
+            "item" : "STATION 1 / PLAZA 1",
+            "count" : 8
+          }, {
+            "item" : "STATION1-PP / PELOTON GARAGE",
+            "count" : 7
+          }, {
+            "item" : "STEINER RANCH / EV CHARGER #1",
+            "count" : 6
+          }, {
+            "item" : "SUSTAINABLEFOOD / SUSTAINABLEFOOD",
+            "count" : 5
+          }, {
+            "item" : "THE GROVE / MAIN STATION 1",
+            "count" : 4
+          }, {
+            "item" : "THE MEDVE GROUP / ARTS S AUSTIN",
+            "count" : 3
+          }, {
+            "item" : "THE MEDVE GROUP / BARTON HILLS",
+            "count" : 2
+          }, {
+            "item" : "THE MEDVE GROUP / TURTLE CREEK",
+            "count" : 1
+          } ],
+          "smallest" : "120 ENTRANCE / ACH MAIN"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 316731386,
+        "name" : "EVSE Latitude and Longitude",
+        "dataTypeName" : "location",
+        "fieldName" : "location_2",
+        "position" : 2,
+        "renderTypeName" : "location",
+        "tableColumnId" : 30300846,
+        "width" : 315,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "30.251792",
+            "longitude" : "-97.876256"
+          },
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "30.228786",
+              "longitude" : "-97.726326"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "30.28544",
+              "longitude" : "-97.715107"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "30.429442",
+              "longitude" : "-97.755212"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "30.429363",
+              "longitude" : "-97.755248"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "30.427967",
+              "longitude" : "-97.754411"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "30.428017",
+              "longitude" : "-97.754379"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "30.329889",
+              "longitude" : "-97.661712"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "30.251073",
+              "longitude" : "-97.86319"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "30.250799",
+              "longitude" : "-97.862755"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "30.394787",
+              "longitude" : "-97.653242"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "30.304182",
+              "longitude" : "-97.828161"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "30.22894",
+              "longitude" : "-97.719683"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "30.347873",
+              "longitude" : "-97.800826"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "30.386783",
+              "longitude" : "-97.768747"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "30.383357",
+              "longitude" : "-97.873053"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "30.278611",
+              "longitude" : "-97.710364"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "30.236473",
+              "longitude" : "-97.782607"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "30.221064",
+              "longitude" : "-97.770408"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "30.261911",
+              "longitude" : "-97.773946"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "30.204478",
+              "longitude" : "-97.783736"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "30.235856",
+            "longitude" : "-97.741577"
+          }
+        },
+        "format" : {
+          "view" : "coords",
+          "align" : "right"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 316744152,
+        "name" : "Port 1: Voltage (V)",
+        "dataTypeName" : "text",
+        "fieldName" : "port_1_voltage_v",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52227616,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "500V",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "240V",
+            "count" : 20
+          }, {
+            "item" : "120V",
+            "count" : 19
+          }, {
+            "item" : "500V",
+            "count" : 18
+          } ],
+          "smallest" : "120V"
+        },
+        "format" : { }
+      }, {
+        "id" : 316745573,
+        "name" : "Port 1: Current (A)",
+        "dataTypeName" : "text",
+        "fieldName" : "port_1_current_a",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52227654,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "30A",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "30A",
+            "count" : 20
+          }, {
+            "item" : "16A",
+            "count" : 19
+          }, {
+            "item" : "100A",
+            "count" : 18
+          }, {
+            "item" : "125A",
+            "count" : 17
+          } ],
+          "smallest" : "100A"
+        },
+        "format" : { }
+      }, {
+        "id" : 316747133,
+        "name" : "Port 1: Connector Type",
+        "dataTypeName" : "text",
+        "fieldName" : "port_1_connector_type",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52227735,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "NEMA 5-20R",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "J1772",
+            "count" : 20
+          }, {
+            "item" : "NEMA 5-20R",
+            "count" : 19
+          }, {
+            "item" : "CHAdeMO",
+            "count" : 18
+          }, {
+            "item" : "Combo",
+            "count" : 17
+          } ],
+          "smallest" : "CHAdeMO"
+        },
+        "format" : { }
+      }, {
+        "id" : 316747457,
+        "name" : "Port 2: Voltage (V)",
+        "dataTypeName" : "text",
+        "fieldName" : "port_2_voltage_v",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52227736,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "240V",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "240V",
+            "count" : 20
+          }, {
+            "item" : "--",
+            "count" : 19
+          } ],
+          "smallest" : "--"
+        },
+        "format" : { }
+      }, {
+        "id" : 316747747,
+        "name" : "Port 2: Current (A)",
+        "dataTypeName" : "text",
+        "fieldName" : "port_2_current_a",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52227788,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "30A",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "30A",
+            "count" : 20
+          }, {
+            "item" : "--",
+            "count" : 19
+          } ],
+          "smallest" : "--"
+        },
+        "format" : { }
+      }, {
+        "id" : 316747763,
+        "name" : "Port 2: Connector Type",
+        "dataTypeName" : "text",
+        "fieldName" : "port_2_connector_type",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52227804,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "J1772",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "J1772",
+            "count" : 20
+          }, {
+            "item" : "--",
+            "count" : 19
+          } ],
+          "smallest" : "--"
+        },
+        "format" : { }
+      }, {
+        "id" : 316749064,
+        "name" : "Org Name",
+        "dataTypeName" : "text",
+        "fieldName" : "organization_name",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228537,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Yeti Coolers",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Austin Independent School District",
+            "count" : 20
+          }, {
+            "item" : "Silicon Laboratories",
+            "count" : 19
+          }, {
+            "item" : "City of Austin Dept. of Aviation",
+            "count" : 18
+          }, {
+            "item" : "Brandywine Properties I Limited Inc.",
+            "count" : 17
+          }, {
+            "item" : "AUSTIN ENERGY",
+            "count" : 16
+          }, {
+            "item" : "US City of Austin Texas",
+            "count" : 15
+          }, {
+            "item" : "Trammell Crow- Austin",
+            "count" : 14
+          }, {
+            "item" : "Endeavor Real Estate Group",
+            "count" : 13
+          }, {
+            "item" : "Gables Park Tower",
+            "count" : 12
+          }, {
+            "item" : "Hanover- Green Water Block 1",
+            "count" : 11
+          }, {
+            "item" : "HPI Real Estate Company",
+            "count" : 10
+          }, {
+            "item" : "Ladera Bend",
+            "count" : 9
+          }, {
+            "item" : "Monogram Residential (Austin Energy Area)",
+            "count" : 8
+          }, {
+            "item" : "Mueller Market Retail , LLC",
+            "count" : 7
+          }, {
+            "item" : "National Instruments",
+            "count" : 6
+          }, {
+            "item" : "The Kenzie at the Domain",
+            "count" : 5
+          }, {
+            "item" : "Presidium Group",
+            "count" : 4
+          }, {
+            "item" : "THE MILLENNIUM RAINEY",
+            "count" : 3
+          }, {
+            "item" : "Roscoe Properties",
+            "count" : 2
+          }, {
+            "item" : "Research Park Plaza",
+            "count" : 1
+          } ],
+          "smallest" : "7700 Parmer"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 316749476,
+        "name" : "Address  1",
+        "dataTypeName" : "text",
+        "fieldName" : "address_1",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228887,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "San Antonio St",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "1520 Rutherford Ln",
+            "count" : 20
+          }, {
+            "item" : "11811 Domain Dr",
+            "count" : 19
+          }, {
+            "item" : "11501 Alterra Pkwy",
+            "count" : 18
+          }, {
+            "item" : "110 San Antonio St",
+            "count" : 17
+          }, {
+            "item" : "1801 E 51st St",
+            "count" : 16
+          }, {
+            "item" : "11500 N Mopac Expy",
+            "count" : 15
+          }, {
+            "item" : "846-888 Barton Springs Rd",
+            "count" : 14
+          }, {
+            "item" : "12455 Research Park Loop",
+            "count" : 13
+          }, {
+            "item" : "12301 Research Blvd",
+            "count" : 12
+          }, {
+            "item" : "Frontage Rd",
+            "count" : 11
+          }, {
+            "item" : "4100 Jackson Ave",
+            "count" : 10
+          }, {
+            "item" : "102-104 E 50th St",
+            "count" : 9
+          }, {
+            "item" : "301 Brazos St",
+            "count" : 8
+          }, {
+            "item" : "2921 E 17th St, Bldg. C",
+            "count" : 7
+          }, {
+            "item" : "7601 Southwest Pkwy",
+            "count" : 6
+          } ],
+          "smallest" : "1000 E 41st St"
+        },
+        "format" : { }
+      }, {
+        "id" : 316748104,
+        "name" : "Address  2",
+        "dataTypeName" : "text",
+        "fieldName" : "address_2_2",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228112,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "P400 Garage",
+          "non_null" : 4,
+          "null" : 313,
+          "top" : [ {
+            "item" : "P2",
+            "count" : 20
+          }, {
+            "item" : "2nd street",
+            "count" : 19
+          }, {
+            "item" : "P400 Garage",
+            "count" : 18
+          } ],
+          "smallest" : "2nd street"
+        },
+        "format" : { }
+      }, {
+        "id" : 316731382,
+        "name" : "Floor Label",
+        "dataTypeName" : "text",
+        "fieldName" : "floor_label",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 46283736,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "P1",
+          "non_null" : 53,
+          "null" : 264,
+          "top" : [ {
+            "item" : "G - 8",
+            "count" : 20
+          }, {
+            "item" : "G8",
+            "count" : 19
+          }, {
+            "item" : "1",
+            "count" : 18
+          }, {
+            "item" : "2",
+            "count" : 17
+          }, {
+            "item" : "3rd",
+            "count" : 16
+          }, {
+            "item" : "3",
+            "count" : 15
+          }, {
+            "item" : "L2",
+            "count" : 14
+          }, {
+            "item" : "L1",
+            "count" : 13
+          }, {
+            "item" : "L3 south ",
+            "count" : 12
+          }, {
+            "item" : "L4 south",
+            "count" : 11
+          }, {
+            "item" : "L5",
+            "count" : 10
+          }, {
+            "item" : "L7",
+            "count" : 9
+          }, {
+            "item" : "4th ",
+            "count" : 8
+          }, {
+            "item" : "4th",
+            "count" : 7
+          }, {
+            "item" : "M",
+            "count" : 6
+          }, {
+            "item" : "P1",
+            "count" : 5
+          }, {
+            "item" : "2nd",
+            "count" : 4
+          }, {
+            "item" : "1st",
+            "count" : 3
+          }, {
+            "item" : "B1",
+            "count" : 2
+          }, {
+            "item" : "B1 ml",
+            "count" : 1
+          } ],
+          "smallest" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 316731383,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 46756888,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Sunset Valley",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Austin",
+            "count" : 20
+          }, {
+            "item" : "Lakeway",
+            "count" : 19
+          }, {
+            "item" : "Cedar Park",
+            "count" : 18
+          }, {
+            "item" : "Sunset Valley",
+            "count" : 17
+          }, {
+            "item" : "Bee Cave",
+            "count" : 16
+          } ],
+          "smallest" : "Austin"
+        },
+        "format" : { }
+      }, {
+        "id" : 316731384,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 46756889,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Texas",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Texas",
+            "count" : 20
+          } ],
+          "smallest" : "Texas"
+        },
+        "format" : { }
+      }, {
+        "id" : 316731385,
+        "name" : "Postal Code",
+        "dataTypeName" : "number",
+        "fieldName" : "postal_code",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 30300840,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "78759",
+          "non_null" : 317,
+          "average" : "78728.91167192429",
+          "null" : 0,
+          "top" : [ {
+            "item" : "78704",
+            "count" : 20
+          }, {
+            "item" : "78729",
+            "count" : 19
+          }, {
+            "item" : "78723",
+            "count" : 18
+          }, {
+            "item" : "78735",
+            "count" : 17
+          }, {
+            "item" : "78759",
+            "count" : 16
+          }, {
+            "item" : "78701",
+            "count" : 15
+          }, {
+            "item" : "78719",
+            "count" : 14
+          }, {
+            "item" : "78702",
+            "count" : 13
+          }, {
+            "item" : "78745",
+            "count" : 12
+          }, {
+            "item" : "78746",
+            "count" : 11
+          }, {
+            "item" : "78749",
+            "count" : 10
+          }, {
+            "item" : "78750",
+            "count" : 9
+          }, {
+            "item" : "78703",
+            "count" : 8
+          }, {
+            "item" : "78758",
+            "count" : 7
+          }, {
+            "item" : "78727",
+            "count" : 6
+          }, {
+            "item" : "78731",
+            "count" : 5
+          }, {
+            "item" : "78757",
+            "count" : 4
+          }, {
+            "item" : "78754",
+            "count" : 3
+          }, {
+            "item" : "78725",
+            "count" : 2
+          }, {
+            "item" : "78753",
+            "count" : 1
+          } ],
+          "smallest" : "78613",
+          "sum" : "24957065"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 316748206,
+        "name" : "County",
+        "dataTypeName" : "text",
+        "fieldName" : "county",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228214,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Williamson County",
+          "non_null" : 312,
+          "null" : 5,
+          "top" : [ {
+            "item" : "Travis County",
+            "count" : 20
+          }, {
+            "item" : "Williamson County",
+            "count" : 19
+          } ],
+          "smallest" : "Travis County"
+        },
+        "format" : { }
+      }, {
+        "id" : 316748247,
+        "name" : "Country",
+        "dataTypeName" : "text",
+        "fieldName" : "country_2",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228215,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "United States",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "United States",
+            "count" : 20
+          } ],
+          "smallest" : "United States"
+        },
+        "format" : { }
+      }, {
+        "id" : 316748163,
+        "name" : "No. of Ports",
+        "dataTypeName" : "number",
+        "fieldName" : "no_of_ports",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 52228171,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "2",
+          "non_null" : 317,
+          "average" : "1.870662460567823",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2",
+            "count" : 20
+          }, {
+            "item" : "1",
+            "count" : 19
+          } ],
+          "smallest" : "1",
+          "sum" : "593"
+        },
+        "format" : { }
+      }, {
+        "id" : 316748644,
+        "name" : "Reservation",
+        "dataTypeName" : "text",
+        "fieldName" : "reservation",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228272,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Disabled",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Disabled",
+            "count" : 20
+          } ],
+          "smallest" : "Disabled"
+        },
+        "format" : { }
+      }, {
+        "id" : 316731387,
+        "name" : "Customer Category",
+        "dataTypeName" : "text",
+        "fieldName" : "country",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 30300839,
+        "width" : 261,
+        "cachedContents" : {
+          "largest" : "Workplace",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Hospitality",
+            "count" : 20
+          }, {
+            "item" : "Workplace",
+            "count" : 19
+          }, {
+            "item" : "Education",
+            "count" : 18
+          }, {
+            "item" : "Multifamily",
+            "count" : 17
+          }, {
+            "item" : "Retail",
+            "count" : 16
+          }, {
+            "item" : "Parking",
+            "count" : 15
+          }, {
+            "item" : "Municipal",
+            "count" : 14
+          }, {
+            "item" : "Parks and Recreation",
+            "count" : 13
+          }, {
+            "item" : "Healthcare",
+            "count" : 12
+          } ],
+          "smallest" : "Education"
+        },
+        "format" : {
+          "displayStyle" : "plain",
+          "align" : "left"
+        }
+      }, {
+        "id" : 316748687,
+        "name" : "Customer Subcategory",
+        "dataTypeName" : "text",
+        "fieldName" : "customer_subcategory",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 52228315,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "University / College",
+          "non_null" : 317,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Hotel / Resort",
+            "count" : 20
+          }, {
+            "item" : "General",
+            "count" : 19
+          }, {
+            "item" : "High School / Other",
+            "count" : 18
+          }, {
+            "item" : "Apartment",
+            "count" : 17
+          }, {
+            "item" : "High-Tech",
+            "count" : 16
+          }, {
+            "item" : "Commercial",
+            "count" : 15
+          }, {
+            "item" : "Municipal Parking",
+            "count" : 14
+          }, {
+            "item" : "Auto Dealership",
+            "count" : 13
+          }, {
+            "item" : "Municipal Workplace",
+            "count" : 12
+          }, {
+            "item" : "Municipal Fleet",
+            "count" : 11
+          }, {
+            "item" : "Big Box / Superstore",
+            "count" : 10
+          }, {
+            "item" : "Small Medical",
+            "count" : 9
+          }, {
+            "item" : "Shopping Center",
+            "count" : 8
+          }, {
+            "item" : "University / College",
+            "count" : 7
+          } ],
+          "smallest" : "Apartment"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "organization_name",
+            "ascending" : false
+          } ]
+        },
+        "custom_fields" : {
+          "Additional Information" : {
+            "Department" : "Austin Energy",
+            "Frequency" : "As Needed"
+          }
+        },
+        "rowLabel" : "Station",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "page" : true,
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "fxfz-wsmq",
+        "displayName" : "Shannon Wisner",
+        "profileImageUrlLarge" : "/api/users/fxfz-wsmq/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/fxfz-wsmq/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/fxfz-wsmq/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "Shannon Wisner",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 316749064,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "fxfz-wsmq",
+        "displayName" : "Shannon Wisner",
+        "profileImageUrlLarge" : "/api/users/fxfz-wsmq/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/fxfz-wsmq/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/fxfz-wsmq/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "Shannon Wisner",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "\"electric vehicles\"", "ev", "\"charging network\"", "\"austin energy\"" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "E4733DEC-E87B-40C6-AE07-F86BC9C7BA7C", 1, 1503350029, "937328", 1503350029, "937328", null, "120 ENTRANCE / ACH MAIN", [ null, "30.235856", "-97.741577", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin City Hotel", "2200 S. Interstate 35", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Hospitality", "Hotel / Resort" ]
+, [ 2, "3D471A5F-DC64-49A1-836E-80BD77EACDEC", 2, 1503350029, "937328", 1503350029, "937328", null, "7700 PARMER / 7700 PARMER", [ null, "30.460477", "-97.750024", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "7700 Parmer", "7700 W Parmer Ln", null, null, "Austin", "Texas", "78729", "Williamson County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 3, "2FFDA97F-C445-48EF-A707-F0F22783DD81", 3, 1503350029, "937328", 1503350029, "937328", null, "AISD PAC / AISD PAC #1", [ null, "30.305454", "-97.702666", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin Independent School District", "Mueller Blvd", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Education", "High School / Other" ]
+, [ 4, "7725788A-A36F-4C0F-BAFB-ACAD96BE766B", 4, 1503350029, "937328", 1503350029, "937328", null, "AISD PAC / AISD PAC #2", [ null, "30.30538", "-97.702537", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin Independent School District", "1301-1603 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Education", "High School / Other" ]
+, [ 5, "D15B85B7-832C-40C8-B404-7C2783900AF5", 5, 1503350029, "937328", 1503350029, "937328", null, "AISD PAC / AISD PAC #3", [ null, "30.305343", "-97.702408", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin Independent School District", "1301-1603 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Education", "High School / Other" ]
+, [ 6, "EE4CCD93-90EA-444E-AF19-3162A9973A44", 6, 1503350029, "937328", 1503350029, "937328", null, "AISD PAC / AISD PAC #4", [ null, "30.305269", "-97.702269", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin Independent School District", "1301-1603 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Education", "High School / Other" ]
+, [ 7, "12EC29C9-126B-41E2-AD7A-77CF6214E1E7", 7, 1503350029, "937328", 1503350029, "937328", null, "AISD PAC / AISD PAC #5", [ null, "30.305204", "-97.702108", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin Independent School District", "1301-1603 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Education", "High School / Other" ]
+, [ 8, "F55F6E5A-7EF9-431C-A3F2-48FEF1CE4555", 8, 1503350029, "937328", 1503350029, "937328", null, "AMBEROAKS-AE / AMBER 1", [ null, "30.470002", "-97.766435", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Camden Amber Oaks", "9001 Amberglen Blvd", null, null, "Austin", "Texas", "78729", "Williamson County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 9, "9DB740CA-6D7E-49F5-BAA1-99475DAD2C85", 9, 1503350029, "937328", 1503350029, "937328", null, "AMD GO GREEN / P100 FL4 OUTER", [ null, "30.251635", "-97.863914", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AMD ", "7171 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 10, "33076CBD-9F3C-4CEE-84E1-94EDB9EC7B5E", 10, 1503350029, "937328", 1503350029, "937328", null, "AMD GO GREEN / P100 FLOOR 5", [ null, "30.251499", "-97.863984", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AMD ", "7171 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 11, "0D5047F9-75E9-474E-A269-AB5C60102981", 11, 1503350029, "937328", 1503350029, "937328", null, "ARBORETUM / N CAPITAL TX 1", [ null, "30.390246", "-97.74825", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "OTR & Ohio General Partnership", "9442 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Retail", "General" ]
+, [ 12, "C0D77882-396F-4B97-9A3F-99B99489B809", 12, 1503350029, "937328", 1503350029, "937328", null, "AUSTIN / 400 - 1", [ null, "30.265028", "-97.748448", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Silicon Laboratories", "400 W Cesar Chavez St", null, "G - 8", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 13, "11362DAF-10B7-4755-911B-D56ABD67EC5E", 13, 1503350029, "937328", 1503350029, "937328", null, "AUSTIN / 400 - 2", [ null, "30.265052", "-97.74844", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Silicon Laboratories", "400 W Cesar Chavez St", null, "G - 8", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 14, "5EFD27D1-D7D9-486A-A810-75BE3447B975", 14, 1503350029, "937328", 1503350029, "937328", null, "AUSTIN / 400 - 3", [ null, "30.26505", "-97.74849", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Silicon Laboratories", "400 W Cesar Chavez St", null, "G - 8", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 15, "3EC1A172-4765-458D-8814-F1E694C2D5E6", 15, 1503350029, "937328", 1503350029, "937328", null, "AUSTIN / AUSTIN 200 1", [ null, "30.264423", "-97.746071", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Silicon Laboratories", "200 W Cesar Chavez St", null, "G8", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 16, "89BD546A-E5B2-42AF-9B0F-29853749E22B", 16, 1503350029, "937328", 1503350029, "937328", null, "AUSTIN / AUSTIN 200 2", [ null, "30.26445", "-97.746142", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Silicon Laboratories", "200 W Cesar Chavez St", null, "G8", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 17, "5D59A7EE-FE75-4AE5-8DFF-47408603AD41", 17, 1503350029, "937328", 1503350029, "937328", null, "AUSTIN / AUSTIN 200 3", [ null, "30.264505", "-97.746067", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Silicon Laboratories", "200 W Cesar Chavez St", null, "G8", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 18, "97525860-08D7-444E-9825-07DAEE280FC1", 18, 1503350029, "937328", 1503350029, "937328", null, "AVIATION / DOA - CONRAC1", [ null, "30.204711", "-97.666322", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "City of Austin Dept. of Aviation", "3819 Presidential Blvd", null, "1", "Austin", "Texas", "78719", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 19, "824A4E78-340C-409B-B9F7-1D44998F7846", 19, 1503350029, "937328", 1503350029, "937328", null, "AVIATION / DOA - CONRAC2", [ null, "30.204655", "-97.666451", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "City of Austin Dept. of Aviation", "3819 Presidential Blvd", null, "1", "Austin", "Texas", "78719", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 20, "FCA0AB16-006D-4FC0-80FA-9EB4854ADE00", 20, 1503350029, "937328", 1503350029, "937328", null, "AVIATION / LOT J NW", [ null, "30.207439", "-97.661026", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "City of Austin Dept. of Aviation", "10137 Hotel Dr", null, null, "Austin", "Texas", "78719", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 21, "F9292E38-5534-4D86-AF68-F6D619E295A8", 21, 1503350029, "937328", 1503350029, "937328", null, "AVIATION / LOT J SW", [ null, "30.207559", "-97.661039", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "City of Austin Dept. of Aviation", "10137 Hotel Dr", null, null, "Austin", "Texas", "78719", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 22, "A77DA5C0-F0CC-49AC-97CC-8E1310386357", 22, 1503350029, "937328", 1503350029, "937328", null, "AXO GROUP LLC / AUSTIN CHARGE", [ null, "30.266047", "-97.733139", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AXO Group LLC", "601-699 Brushy St", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 23, "A6BB7E44-8184-4BA1-9E60-5D1488D269B3", 23, 1503350029, "937328", 1503350029, "937328", null, "B-AUSTIN / STATION 1", [ null, "30.206406", "-97.807047", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Samdorosa Communities", "6700 Manchaca Rd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 24, "21F65ADC-877F-4325-86BB-782CA873DE51", 24, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / CAPITAL ST 1", [ null, "30.280123", "-97.824008", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Brandywine Properties I Limited Inc.", "1250 S Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 25, "F9D01908-090B-4E0C-B8A6-EECD65A1CD4A", 25, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / CAPITAL ST 2", [ null, "30.280357", "-97.824244", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Brandywine Properties I Limited Inc.", "1250 S Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 26, "CD06F3A1-C84A-4C4D-85A4-254AD7DC21D5", 26, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / ENCINO GARAGE", [ null, "30.243787", "-97.843763", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Brandywine Properties I Limited Inc.", "5707 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 27, "E2AC8F9E-1C4A-4FA6-817E-252345CF4D71", 27, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / GARAGE P1-L2-G", [ null, "30.244181", "-97.806692", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Brandywine Properties I Limited Inc.", "3711 S MoPac Expy", null, "2", "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 28, "E7B1C950-A8F4-4050-9A68-DC4BD720FB3D", 28, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / GARAGE P2-L2-GW", [ null, "30.24609", "-97.8046", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Brandywine Properties I Limited Inc.", "3711 S MoPac Expy", "P2", "2", "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 29, "162CB43A-CEB6-4CE5-942A-D2984D15BA2B", 29, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / SOUTHWEST ST1", [ null, "30.244005", "-97.845965", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Brandywine Properties I Limited Inc.", "5707 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 30, "974893D3-220E-443D-901D-663E034A64CA", 30, 1503350029, "937328", 1503350029, "937328", null, "BRANDYWINE AUST / SOUTHWEST ST2", [ null, "30.243945", "-97.845952", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Brandywine Properties I Limited Inc.", "5707 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 31, "9EE7A2AB-846A-4E74-B5E5-3AB719A193C2", 31, 1503350029, "937328", 1503350029, "937328", null, "CATHERINE / CATHERINE 1", [ null, "30.259096", "-97.747775", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "The Catherine", "300 Barton Springs Rd", null, "3rd", "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 32, "47A02ADB-D371-4BA6-B9B3-DEC5DDEE3392", 32, 1503350029, "937328", 1503350029, "937328", null, "CATHERINE / CATHERINE 2", [ null, "30.259099", "-97.747754", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "The Catherine", "300 Barton Springs Rd", null, "3", "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 33, "06FEA3E1-1189-4E7A-B93C-A7591485962A", 33, 1503350029, "937328", 1503350029, "937328", null, "CEDARHILLS-AE / CEDARHILL 1", [ null, "30.189638", "-97.856428", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Camden Cedar Hills", "4100 W Slaughter Ln", null, null, "Austin", "Texas", "78749", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 34, "81598609-B1E7-463E-A983-80F5B80A7C91", 34, 1503350029, "937328", 1503350029, "937328", null, "CHAMPION OFFICE / EV #1", [ null, "30.363141", "-97.793613", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Champion Office Park", "6433 Champion Grandview Way", null, "1", "Austin", "Texas", "78750", "Travis County", "United States", "2", "Disabled", "Workplace", "Commercial" ]
+, [ 35, "8D01A553-6124-4A61-AF4C-739AA77E6C1B", 35, 1503350029, "937328", 1503350029, "937328", null, "CHAMPION OFFICE / EV #2", [ null, "30.3632", "-97.793703", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Champion Office Park", "6433 Champion Grandview Way", null, "1", "Austin", "Texas", "78750", "Travis County", "United States", "2", "Disabled", "Workplace", "Commercial" ]
+, [ 36, "A6449498-FF20-4D3C-AE98-639B633A1BCB", 36, 1503350029, "937328", 1503350029, "937328", null, "CHEVY MAIN / AUTONATION MAIN", [ null, "30.409556", "-97.745947", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AutoNation Chevrolet", "11400 Research Blvd", null, null, "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Retail", "Auto Dealership" ]
+, [ 37, "091D2C61-D157-4F5E-8387-A39FF69C954B", 37, 1503350029, "937328", 1503350029, "937328", null, "CLAY COOLEY / QUICK CHARGER 1", [ null, "30.206127", "-97.758965", null, false ], "500V", "100A", "CHAdeMO", "--", "--", "--", "Clay Cooley Nissan of Austin", "4914 S IH 35 Frontage Rd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "1", "Disabled", "Retail", "Auto Dealership" ]
+, [ 38, "EF05B1CD-BB5D-4982-AAE0-F65D294953A9", 38, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ANIMAL SERVICE1", [ null, "30.251505", "-97.688644", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7201 Levander Loop", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 39, "4B8F5687-A78F-48E4-BEA9-D0FA47606E5C", 39, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ANIMAL SERVICE2", [ null, "30.251463", "-97.688644", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7201 Levander Loop", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 40, "7EF3A79E-F77B-4E07-A626-959542A85FED", 40, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CITY HALL STAT1", [ null, "30.264847", "-97.746872", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "301 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 41, "6DF65420-B7CF-4C48-A01C-F8B17DC86718", 41, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CITY HALL STAT2", [ null, "30.264807", "-97.746864", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "301 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 42, "C309555E-F79E-405A-B08E-833494AAA290", 42, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CONVENTION CTR1", [ null, "30.26372", "-97.742371", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "201 E 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 43, "7618BAB0-EABA-443C-B837-390938A4F030", 43, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CONVENTION CTR2", [ null, "30.2637", "-97.742294", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "201 E 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 44, "6FB13C3F-AF11-47D2-B8A0-FF3E69A9A5EC", 44, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CONVENTION CTR3", [ null, "30.263708", "-97.742325", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "201 E 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 45, "99BCA68B-91D8-4ACE-869B-050D0570221D", 45, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CTECC EVSE1", [ null, "30.29914", "-97.692227", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AUSTIN ENERGY", "5010 Old Manor Rd", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Workplace" ]
+, [ 46, "2E4B295B-EEA3-479A-BD92-F2B054EC67AE", 46, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / CTECC EVSE2", [ null, "30.299223", "-97.692164", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AUSTIN ENERGY", "5010 Old Manor Rd", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Workplace" ]
+, [ 47, "89A7EF6F-894C-4C64-B1D7-03E4AFA6934B", 47, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / HAMPTONLIBRARY1", [ null, "30.218", "-97.854866", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "5125 Convict Hill Rd", null, null, "Austin", "Texas", "78749", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 48, "672AF672-BB8C-4F54-9DAF-FEC27C47FF95", 48, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / HAMPTONLIBRARY2", [ null, "30.217978", "-97.854843", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "5125 Convict Hill Rd", null, null, "Austin", "Texas", "78749", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 49, "AA89455C-5BDB-4FAE-9258-F899881F4C68", 49, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / HOWSONBRCHLIBR1", [ null, "30.298466", "-97.767868", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2500 Exposition Blvd", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 50, "C4B980AE-D337-4CB3-A8B3-9C5CE890FBF6", 50, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / HOWSONBRCHLIBR2", [ null, "30.29847", "-97.767883", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2500 Exposition Blvd", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 51, "E59CB896-A6CC-4EBA-8BC1-A1936B0FF27E", 51, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / KRAMER 01", [ null, "30.394697", "-97.716885", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2526 Kramer Ln", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 52, "29855656-4665-494B-99E1-B77ED602AAA5", 52, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / MACC STATION 1", [ null, "30.258428", "-97.739549", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "68 Rainey St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 53, "2C4B8CAF-E45D-4831-BD3C-A7E0E174FA76", 53, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / MACC STATION 2", [ null, "30.258439", "-97.739541", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "68 Rainey St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 54, "E50441BF-B7A8-4DA6-93B2-48993F010C09", 54, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / MILWOOD LIB 1", [ null, "30.422258", "-97.716354", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "12500 Amherst Dr", null, null, "Austin", "Texas", "78727", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 55, "798E5D61-F399-4B47-A020-3043CE29F98F", 55, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / MILWOOD LIB 2", [ null, "30.422272", "-97.71637", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "12500 Amherst Dr", null, null, "Austin", "Texas", "78727", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 56, "5A79B21C-2F83-4D41-ABB3-AD024486A54C", 56, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / NWRECCENTER 1", [ null, "30.334032", "-97.751503", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2913 Northland Dr", null, null, "Austin", "Texas", "78731", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 57, "92E52EC7-C39B-4A38-A9F1-5D4FAA60F1EC", 57, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / NWRECCENTER 2", [ null, "30.334009000000002", "-97.751455", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "Marilyn Dr", null, null, "Austin", "Texas", "78757", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 58, "459487DA-F671-4042-BC22-0DD7D5A2F63D", 58, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / NWRECCENTER 3", [ null, "30.334024", "-97.75148", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2913 Northland Dr", null, null, "Austin", "Texas", "78731", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 59, "D7545A53-0C31-4D91-B9EB-28CFB5D02337", 59, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / NWRECCENTER 4", [ null, "30.334006", "-97.751429", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "Marilyn Dr", null, null, "Austin", "Texas", "78757", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 60, "89B27234-5FD7-49C0-B31A-859149879551", 60, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / OTC 3FL PKGSTA1", [ null, "30.25704", "-97.749207", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "505 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 61, "F2F80E34-7D90-4E73-869F-ADF95C85EE22", 61, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / OTC 3FL PKGSTA2", [ null, "30.257099", "-97.749138", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "505 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 62, "3E328625-52E7-48F0-97EC-E7F90FAC1661", 62, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / OTC 3FL PKGSTA3", [ null, "30.257202", "-97.749107", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "505 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 63, "09A402E6-EEBE-4897-90A6-5CD126DEBDB2", 63, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / PALMER STATION1", [ null, "30.259241", "-97.751763", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "736-820 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 64, "E36DD76D-2A49-49A9-9F16-27DB06F6A6EA", 64, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / PALMER STATION2", [ null, "30.259294", "-97.751762", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "736-820 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 65, "698400AD-C738-4082-900C-DB2D57DD1109", 65, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / PALMER STATION3", [ null, "30.259266", "-97.751841", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "736-820 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 66, "265D4385-0684-4572-A967-4E1A15B491E4", 66, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / PUBDITTMAR1", [ null, "30.185047", "-97.801982", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1009 W Dittmar Rd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 67, "E790516B-168A-48B9-BEA4-24219DEAD037", 67, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / PUBDITTMAR2", [ null, "30.185047", "-97.801928", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1009 W Dittmar Rd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 68, "EFCE0BBE-FA62-4F94-A054-946A754BA471", 68, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ROSEWOOD PARK 2", [ null, "30.271724", "-97.713954", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1182 N Pleasant Valley Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 69, "085B18BC-7ADC-40A9-B705-707D43A18C43", 69, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ROSEWOODPARK1", [ null, "30.271822", "-97.713966", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1182 N Pleasant Valley Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 70, "E39C09A6-2588-4A5E-AA4E-12A74D18196F", 70, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / RUTHERFORDCAMP1", [ null, "30.336962", "-97.680801", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 71, "DA73B105-9B7F-497B-8578-FA70315C3525", 71, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / RUTHERFORDCAMP2", [ null, "30.336996", "-97.680779", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 72, "20121236-C765-4253-A5C9-7F6944C7D06D", 72, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / RUTHERFORDCAMP3", [ null, "30.337023", "-97.680756", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 73, "E680659F-A30D-4FF8-8622-73B527AEAFBD", 73, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / TECHNICENTER1", [ null, "30.27771", "-97.665237", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "4201 Ed Bluestein Blvd", null, null, "Austin", "Texas", "78725", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 74, "A93C837D-6D43-480B-8AB9-7885FE76E876", 74, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / TECHNICENTER2", [ null, "30.277599", "-97.665176", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "4201 Ed Bluestein Blvd", null, null, "Austin", "Texas", "78725", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 75, "D6454F1B-D404-4EAC-9D6F-AEC698A77070", 75, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / TECHNICENTER3", [ null, "30.277645", "-97.665192", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "4201 Ed Bluestein Blvd", null, null, "Austin", "Texas", "78725", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 76, "4AC2A041-7B73-416D-807B-D7FAEFE1B2F2", 76, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / TLC  STATION 1", [ null, "30.258434", "-97.752075", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "721 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Workplace" ]
+, [ 77, "2FBF5064-ED52-437E-B6E1-6C0C8D45351B", 77, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / TLC STATI0N 2", [ null, "30.258398", "-97.751999", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "721 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Workplace" ]
+, [ 78, "CD2D350F-7590-452E-9416-08A9FA7B5C51", 78, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / WALNUTCREEKPRK1", [ null, "30.398497", "-97.679832", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "12138 N Lamar Blvd", null, null, "Austin", "Texas", "78753", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 79, "8B4B8503-8E06-4795-A7CC-42FB1CA050B3", 79, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / WALNUTCREEKPRK2", [ null, "30.398552", "-97.679832", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "12138 N Lamar Blvd", null, null, "Austin", "Texas", "78753", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 80, "B2432B88-5FDC-4200-88B1-978CE52C5646", 80, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ZILKER PARK PH1", [ null, "30.264322", "-97.770737", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2100 Barton Spring Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 81, "290000EE-22FD-402E-A8B8-48788E6D7AF4", 81, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ZILKER PARK PH2", [ null, "30.264336", "-97.770645", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2100 Barton Spring RD", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 82, "FF6F7AF9-CDB2-4FA0-9997-301BA373FFAC", 82, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ZILKERPARKPOLO1", [ null, "30.266584", "-97.774925", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2310 Andrew Zilker Rd", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 83, "5F7A3A01-B11F-47C0-9B84-CC6F586DB951", 83, 1503350029, "937328", 1503350029, "937328", null, "COA FACILITIES / ZILKERPARKPOLO2", [ null, "30.266611", "-97.774918", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2310 Andrew Zilker Rd", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Parks and Recreation", "Municipal Parking" ]
+, [ 84, "E66F7213-35B0-45B7-AB7C-4ADDFE48F58B", 84, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / BARTON #1", [ null, "30.258631", "-97.74855", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "401-599 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 85, "D0C139D8-7DC2-4354-939D-23F1E39D09E9", 85, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / BARTON #2", [ null, "30.258635", "-97.748543", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "400-598 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 86, "6B8B5730-CFDE-422E-A896-48C194132963", 86, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / BARTON #3", [ null, "30.258631", "-97.748566", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "401-599 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 87, "0E73E52C-2507-42E0-968C-AE96DFE3FB23", 87, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / BARTON #4", [ null, "30.258627", "-97.748573", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "401-599 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 88, "FBB34418-97B6-4F37-B161-389A8205B8EE", 88, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ED BLUE #1", [ null, "30.277622", "-97.666313", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "4201 Ed Bluestein Blvd", null, null, "Austin", "Texas", "78725", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 89, "C38B5F62-D07E-4FBD-BF72-E045B3D64382", 89, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ED BLUE #3", [ null, "30.277632", "-97.666283", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "4201 Ed Bluestein Blvd", null, null, "Austin", "Texas", "78725", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 90, "1FD7A002-79B7-490B-AB39-3B10C540A267", 90, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / FLOOR 4 ADA", [ null, "30.269745", "-97.734467", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "625 E 10th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 91, "1044C5E8-A15B-4CB9-9EB3-D6B9CFA5663A", 91, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / FLOOR4", [ null, "30.269112", "-97.734062", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "900 N Interstate 35", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 92, "FAE5808D-0012-44D8-86CF-0213C04AAFEE", 92, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / MEINARD #1", [ null, "30.211361", "-97.752083", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "4393-4799 Meinardus Dr", null, null, "Austin", "Texas", "78744", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 93, "D194E734-E847-4D23-A72F-51540E702EC1", 93, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / MEINARD #2", [ null, "30.211357", "-97.752083", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "4393-4799 Meinardus Dr", null, null, "Austin", "Texas", "78744", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 94, "3F70FC81-072D-4393-ABE3-62C1541D2E5C", 94, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ROOF 1", [ null, "30.268921", "-97.734787", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "700-798 E 9th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 95, "BE23CFFF-1457-4908-A788-DEBD20610744", 95, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ROOF2", [ null, "30.268908", "-97.734749", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "700-798 E 9th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 96, "842176EC-CCBC-4322-88CC-BC526A321E1D", 96, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ROOF3", [ null, "30.268894", "-97.734703", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "700-798 E 9th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 97, "D53B8791-22DD-4A8E-8EA7-2A70FD128BDB", 97, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ROOF4", [ null, "30.268885", "-97.734673", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "700-798 E 9th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 98, "32E5ED98-B57A-47AF-9959-8C9DEF02D481", 98, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ROOF5", [ null, "30.268883", "-97.734665", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "700-798 E 9th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 99, "01ECCDAC-C483-4148-B176-5647DE24C081", 99, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / ROOF6", [ null, "30.268866", "-97.734612", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "700-798 E 9th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 100, "739BEB69-3653-4F13-A6A9-13F47F7E706D", 100, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #1", [ null, "30.335861", "-97.679398", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 101, "11C0296A-98D3-43F0-97DE-2FFFF48F1138", 101, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #2", [ null, "30.335873", "-97.679359", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 102, "BA6B1E8B-6372-4A33-A6B2-CB521E5E03C0", 102, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #3", [ null, "30.335857", "-97.679413", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 103, "2CDCABDC-B8EF-4EEF-BC0C-9AC8F46ADB83", 103, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #4", [ null, "30.335852", "-97.679428", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 104, "89E62B21-F9AA-477C-9668-362A8E33D484", 104, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #5", [ null, "30.335863", "-97.679329", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 105, "B67F930C-9BEC-4DF5-BF4F-8D4D8205866D", 105, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #6", [ null, "30.335842", "-97.679443", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 106, "D5DFC9F9-3398-4354-B88B-8509467D3C60", 106, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #7", [ null, "30.335838", "-97.679451", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 107, "3DE23CC0-BE6E-44C8-9DB3-C6AA883B0DD4", 107, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #8", [ null, "30.335829", "-97.679459", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 108, "8FAC2B8A-E1B5-4AAE-B532-FBFFB0DD20AE", 108, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / RUTHERFORD #9", [ null, "30.335875", "-97.679382", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1520 Rutherford Ln", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 109, "AAC76EE2-2A91-44C3-9DF7-0747665A7A77", 109, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / SPRING #1", [ null, "30.259113", "-97.699699", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "800-816 Springdale Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 110, "CB2B73E3-9D2C-49C8-B923-D305AD7DFAF4", 110, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / SPRING #2", [ null, "30.259312", "-97.699577", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "800-816 Springdale Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 111, "104AD7E3-C6DC-4B7C-BB5C-8803382ECEC6", 111, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / TOOMEY #1", [ null, "30.263723", "-97.759262", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1501 Toomey Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 112, "E3864F3B-551C-4A7A-8B95-C91CC44729DE", 112, 1503350029, "937328", 1503350029, "937328", null, "COA FLEET - PIE / TOOMEY #2", [ null, "30.263716", "-97.759239", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "US City of Austin Texas", "1501-1615 Toomey Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Fleet" ]
+, [ 113, "144AF22D-C6DD-415F-AAD6-5403E5E08960", 113, 1503350029, "937328", 1503350029, "937328", null, "DEVLOPER / TRAMMELL CROW 1", [ null, "30.265913", "-97.749044", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Trammell Crow- Austin", "500 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 114, "8CE4F545-82AA-4DF0-84F3-D0270A39C597", 114, 1503350029, "937328", 1503350029, "937328", null, "DEVLOPER / TRAMMELL CROW 2", [ null, "30.265895", "-97.749109", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Trammell Crow- Austin", "500 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 115, "C4F88108-EAFA-4751-9099-D6815FEE54B1", 115, 1503350029, "937328", 1503350029, "937328", null, "DEVLOPER / TRAMMELL CROW 3", [ null, "30.265932", "-97.749109", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Trammell Crow- Austin", "500 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 116, "8E2A01FC-FA42-41A5-8D11-07F57282ECEF", 116, 1503350029, "937328", 1503350029, "937328", null, "DEVLOPER / TRAMMELL CROW 4", [ null, "30.265914", "-97.749008", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Trammell Crow- Austin", "500 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 117, "4D053D40-4751-4FEC-A967-F42EBE3279BB", 117, 1503350029, "937328", 1503350029, "937328", null, "DEVLOPER / TRAMMELL CROW 6", [ null, "30.265909", "-97.748953", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Trammell Crow- Austin", "500 W 2nd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 118, "308B555C-C347-4B1C-8E0B-9A420C598C0E", 118, 1503350029, "937328", 1503350029, "937328", null, "DEVLOPER / TRAMMELLCROW5", [ null, "30.265885", "-97.748891", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Trammell Crow- Austin", "San Antonio St", "2nd street", null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 119, "BA695ECB-E45D-405E-81C4-0C795D3907AF", 119, 1503350029, "937328", 1503350029, "937328", null, "DOMAINTOWER / DTLVL1 1", [ null, "30.401181", "-97.719499", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Management, Inc", "10721 domain Dr", null, "1", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 120, "9BDB7DF9-4EDC-4E87-8D80-19FF9EBBEC33", 120, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #1", [ null, "30.401174", "-97.719445", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Endeavor Real Estate Group", "11811 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 121, "CB6F9A14-6971-4739-A37E-078EE6737F65", 121, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #2", [ null, "30.401844", "-97.718785", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11811 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 122, "518FEB57-2E89-413E-A1F8-A1D05167A763", 122, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #3", [ null, "30.40175", "-97.720173", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11811 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 123, "5EAAACD8-DE77-437E-B413-AFC336343F49", 123, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #4", [ null, "30.393684", "-97.723166", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11811 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 124, "BF03E474-829A-4351-8840-90EFBF99263A", 124, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #5", [ null, "30.403697", "-97.722512", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11811 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 125, "269603EE-ABB2-44A3-9670-31E1B74DBFB5", 125, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #6", [ null, "30.403745", "-97.7225", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11811 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 126, "B3AB34F3-225C-437B-99AE-24DD2AA0EB8B", 126, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / BLUE GARAGE #7", [ null, "30.403779", "-97.722489", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11811 Domain Dr", null, "1", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 127, "06511485-8122-49AC-8966-E4FC39362643", 127, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / ENDEAVOR STAT1", [ null, "30.403822", "-97.722477", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "2110 E 4th St", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 128, "AEB6D593-4CA2-4F6E-8320-8D4550809BA0", 128, 1503350029, "937328", 1503350029, "937328", null, "DOMAIN / LEFT STATION", [ null, "30.403862", "-97.72246", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "1", "Disabled", "Parking", "Commercial" ]
+, [ 129, "318B3239-A7B9-40EC-981E-FC6D9F2E55B2", 129, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / NORDSTROM L1 #1", [ null, "30.403736", "-97.722504", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 130, "F9292494-5880-4BCD-A92A-EDFACF33D97B", 130, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / NORDSTROM L1 #2", [ null, "30.403664", "-97.722523", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 131, "164453D4-E340-4381-91B9-D82A6ECA27DE", 131, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / NORDSTROM L1 #3", [ null, "30.258756", "-97.720097", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 132, "8B33BF18-E9B3-48CE-A73E-6B3AE75B3B2D", 132, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / NORDSTROM L2 #1", [ null, "30.401522", "-97.720071", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, "L2", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 133, "1CBF0EC0-4E2A-496E-BAA2-502CB37F9549", 133, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / NORDSTROM L2 #2", [ null, "30.401589", "-97.720053", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 134, "D8B9BE86-680A-498B-9A52-9A696684164E", 134, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / NORDSTROM L2 #3", [ null, "30.401656", "-97.720026", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 135, "A7732DF1-DC25-499A-B713-469C444B254F", 135, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / PALM WAY #1", [ null, "30.401517", "-97.719927", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "Palm Way", null, "L1", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 136, "8FE8E633-A60C-4683-96B6-BEE775E7C274", 136, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / PALM WAY #2", [ null, "30.40157", "-97.719909", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "Palm Way", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 137, "27E9719D-7B78-495A-99E9-9D17D1011249", 137, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / PALM WAY #3", [ null, "30.401619", "-97.719889", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "Palm Way", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 138, "544AFE1E-F959-48B4-AE50-B02A713DC31C", 138, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / RED GARAGE #1", [ null, "30.403636", "-97.719927", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Domain Dr", null, "L1", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 139, "0CE512D1-DB64-4B3A-8EF1-FC0D92330369", 139, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / RED GARAGE #2", [ null, "30.403631", "-97.719901", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 140, "C1F2B5B4-AE84-4EC5-88D8-30FC7FA65687", 140, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / RED GARAGE #3", [ null, "30.403626", "-97.719878", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 141, "C1B760F4-7FE1-4E07-B12B-E77759FF7948", 141, 1503350029, "937328", 1503350029, "937328", null, "ENDEAVOR REG / RED GARAGE #4", [ null, "30.402172", "-97.723338", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Domain Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 142, "E821128F-831F-448A-9E2D-A39FB5199E9C", 142, 1503350029, "937328", 1503350029, "937328", null, "DOMAIN / RIGHT STATION", [ null, "30.402165", "-97.723231", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11501 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "1", "Disabled", "Parking", "Commercial" ]
+, [ 143, "C50A5058-A950-496E-BC30-4B6845BD73BD", 143, 1503350029, "937328", 1503350029, "937328", null, "DOMAIN / STATION 1", [ null, "30.402156", "-97.723219", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "11616-11876 Farm to Market Rd 1325", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 144, "8098FB0F-7563-4C55-ADE4-53D5F5A948F7", 144, 1503350029, "937328", 1503350029, "937328", null, "DOMAIN / STATION 2", [ null, "30.402146", "-97.72321", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Endeavor Real Estate Group", "Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Parking", "Commercial" ]
+, [ 145, "80BF2442-2DF1-4A46-B155-73A0841A4D25", 145, 1503350029, "937328", 1503350029, "937328", null, "GAINESRANCH / GAINES 1", [ null, "30.244044", "-97.818364", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Camden Gaines Ranch", "4424 Gaines Ranch Loop", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 146, "55827C82-39B2-471A-B595-3D734205E835", 146, 1503350029, "937328", 1503350029, "937328", null, "GALLERIA OAKS / GALLERIA OAKS 1", [ null, "30.313121", "-97.946493", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "RMR Real Estate Services", "3927 Ranch Rd 620 S", null, "1", "Austin", "Texas", "78738", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 147, "05BF49D9-53F0-4F2A-9015-64A41FF1F37A", 147, 1503350029, "937328", 1503350029, "937328", null, "GALLERIA OAKS / GALLERIA OAKS 2", [ null, "30.313186", "-97.946482", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "RMR Real Estate Services", "3927 Ranch Rd 620 S", null, "1", "Austin", "Texas", "78738", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 148, "E03125FE-9D4D-492D-A93A-2E90314E4167", 148, 1503350029, "937328", 1503350029, "937328", null, "GALLERY DOMAIN / GALLERY DOMAIN", [ null, "30.396207", "-97.722102", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Domain Parkside Apartments", "11100 Alterra Pkwy", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 149, "7DF11D32-7625-442B-A2CD-683541F58BB6", 149, 1503350029, "937328", 1503350029, "937328", null, "GARAGE 1 / GARAGE ONE", [ null, "30.211727", "-97.772285", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "SUR512", "5010 S Congress Ave", null, "1", "Austin", "Texas", "78745", null, "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 150, "8AC5E7B2-759E-4AD7-9CEE-86B8EC8E0DA3", 150, 1503350029, "937328", 1503350029, "937328", null, "GPT / GABLES 1", [ null, "30.268637", "-97.754851", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Gables Park Tower", "898-900 W 3rd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 151, "DF40BC0A-9BFC-446F-B87D-28FE955212D1", 151, 1503350029, "937328", 1503350029, "937328", null, "GPT / GPT 2", [ null, "30.268498", "-97.754605", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Gables Park Tower", "830 W 3rd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 152, "40FB4FF6-0347-4B4C-B125-BCC30D799E38", 152, 1503350029, "937328", 1503350029, "937328", null, "GPT / GPT 3", [ null, "30.268396", "-97.754401", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Gables Park Tower", "787-799 W 3rd St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 153, "6898E548-E97B-4530-B7FD-8598BEE99DB1", 153, 1503350029, "937328", 1503350029, "937328", null, "HABITAT SUITES / DUAL PORT", [ null, "30.329139", "-97.709555", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Habitat Suites Hotel", "500 E Highland Mall Blvd", null, null, "Austin", "Texas", "78752", "Travis County", "United States", "2", "Disabled", "Hospitality", "Hotel / Resort" ]
+, [ 154, "6696BF2F-1783-4C6D-B374-CC46710122AD", 154, 1503350029, "937328", 1503350029, "937328", null, "HABITAT SUITES / SINGLE PORT", [ null, "30.329076", "-97.709553", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Habitat Suites Hotel", "500 E Highland Mall Blvd", null, null, "Austin", "Texas", "78752", "Travis County", "United States", "1", "Disabled", "Hospitality", "Hotel / Resort" ]
+, [ 155, "C6D86418-8DCB-4E87-8798-C33552714D91", 155, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L1", [ null, "30.265311", "-97.74952", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "110 San Antonio St", null, "L1", "Austin", "Texas", "78701", null, "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 156, "A821D986-8F6C-4ECA-ACBD-D0F9B76AF512", 156, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L2", [ null, "30.265147", "-97.749142", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "100-110 San Antonio St", null, "L2", "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 157, "62279F0E-8D8E-4F34-BDED-B1F751F4A282", 157, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L3", [ null, "30.265425", "-97.749045", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "110 San Antonio St", null, "L3 south ", "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 158, "E9ACDEFC-82FC-4EA9-A1BA-20EC66EBA3A0", 158, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L4", [ null, "30.265222", "-97.749115", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "110 San Antonio St", null, "L4 south", "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 159, "8EF42683-0F03-45F1-8669-83E2063D4931", 159, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L5", [ null, "30.265299", "-97.749118", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "110 San Antonio St", null, "L5", "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 160, "912726D1-40DE-49EB-A312-BFF519E116E7", 160, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L6", [ null, "30.265239", "-97.74912", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "110 San Antonio St", null, "L5", "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 161, "DA59D429-2A5E-4D8A-B911-4BAA883603A3", 161, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / L7", [ null, "30.265166", "-97.749131", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Hanover- Green Water Block 1", "110 San Antonio St", null, "L7", "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 162, "869D1F8F-FA04-4473-A5C2-3DCA0985EF20", 162, 1503350029, "937328", 1503350029, "937328", null, "HANOVER / LANTANA HILLS", [ null, "30.24912", "-97.862418", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Hanover- Green Water Block 1", "6601Rialto Blvd", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 163, "9AB77F61-98C4-48AE-BEA4-9DAD35093FFD", 163, 1503350029, "937328", 1503350029, "937328", null, "HEB / HEB LAKEWAY #1", [ null, "30.344323", "-97.967673", null, false ], "240V", "30A", "J1772", "--", "--", "--", "H-E-B Grocery- (Austin Energy)", "2000 Ranch Rd 620 S", null, null, "Lakeway", "Texas", "78734", "Travis County", "United States", "1", "Disabled", "Retail", "Big Box / Superstore" ]
+, [ 164, "BAE85DC1-A69F-4188-A79B-95115D58A0B4", 164, 1503350029, "937328", 1503350029, "937328", null, "HEB / HEB LAKEWAY #2", [ null, "30.344254", "-97.967587", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "H-E-B Grocery- (Austin Energy)", "2000 Ranch Rd 620 S", null, null, "Lakeway", "Texas", "78734", "Travis County", "United States", "2", "Disabled", "Retail", "Big Box / Superstore" ]
+, [ 165, "2879942A-5818-4645-A596-5FC852B56CC1", 165, 1503350029, "937328", 1503350029, "937328", null, "HPE AUSTIN / TXN04 A", [ null, "30.445476", "-97.690074", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Hewlett Packard Enterprise", "14231 Tandem Blvd", null, null, "Austin", "Texas", "78728", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 166, "B5708149-13B7-47AF-9770-44152BA71AFB", 166, 1503350029, "937328", 1503350029, "937328", null, "HPE AUSTIN / TXN04 B", [ null, "30.445485", "-97.690128", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Hewlett Packard Enterprise", "14231 Tandem Blvd", null, null, "Austin", "Texas", "78728", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 167, "651AF97B-23D4-41D0-8EF5-B907A8DCE06E", 167, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / 3900 SC #1", [ null, "30.337898", "-97.807867", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "HPI Real Estate Company", "3900 N Capital of Texas Hwy", null, "4th ", "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 168, "AACB4F19-D51D-463C-9371-AB47D5741F03", 168, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / 3900 SC #2", [ null, "30.337882", "-97.807765", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "HPI Real Estate Company", "3900 N Capital of Texas Hwy", null, "4th", "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 169, "F7F6262B-3DFC-4572-AEA7-43B26B934F91", 169, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / EV 1", [ null, "30.33688", "-97.806575", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Company", "3700 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 170, "2BF255F1-BC27-4229-8AD7-03270CA912C4", 170, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / EV 2", [ null, "30.336797", "-97.806151", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Company", "3700 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 171, "D4EAC8C6-756A-4C4C-A016-C54717427E2B", 171, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / EV 3", [ null, "30.336765", "-97.806189", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Company", "3700 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 172, "F5E4EC06-20FF-4E65-AC26-2F0382985644", 172, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / EV 4", [ null, "30.336723", "-97.806259", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Company", "3700 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 173, "61775B3B-7C43-4CF3-891A-AFBAFFDD084E", 173, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / EV 5", [ null, "30.336623", "-97.807619", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Company", "4339 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 174, "7B8C3E15-AE86-455C-A282-0D20D0F83458", 174, 1503350029, "937328", 1503350029, "937328", null, "HPI 3700 / EV 6", [ null, "30.336616", "-97.8076", null, false ], "240V", "30A", "J1772", "--", "--", "--", "HPI Real Estate Company", "4339 N Capital of Texas Hwy", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 175, "4C4A313D-8E92-4CD1-9F45-59E40E53E7B5", 175, 1503350029, "937328", 1503350029, "937328", null, "INT-BIO EV CHGR / INTBIO EV CHGR1", [ null, "30.33089", "-97.668908", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "INTERNATIONAL BIOMEDICAL", "8206 Cross Park Dr", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 176, "BFD595FB-237F-48C4-BDA7-E3DD209C1DB1", 176, 1503350029, "937328", 1503350029, "937328", null, "INT-BIO EV CHGR / INTBIO EV CHGR2", [ null, "30.330901", "-97.668947", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "INTERNATIONAL BIOMEDICAL", "8206 Cross Park Dr", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 177, "BB3A4E5B-9618-46CB-832A-2D3B8D398C52", 177, 1503350029, "937328", 1503350029, "937328", null, "LADERA BEND / BUILDING 3", [ null, "30.371215", "-97.800887", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Ladera Bend", "6585-6621 Jester Blvd", null, null, "Austin", "Texas", "78750", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 178, "8EB0CE53-6EE3-4F8F-92D1-865962660BC4", 178, 1503350029, "937328", 1503350029, "937328", null, "LADERA BEND / GATED GARAGE 2", [ null, "30.372159", "-97.80166", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Ladera Bend", "7300 Ranch Rd 2222", null, "M", "Austin", "Texas", "78730", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 179, "61188789-1B48-4343-B08E-1F2E2B4AAB14", 179, 1503350029, "937328", 1503350029, "937328", null, "LADERA BEND / GATED GARAGE GW", [ null, "30.372427", "-97.801834", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Ladera Bend", "7300 Ranch Rd 2222", null, null, "Austin", "Texas", "78730", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 180, "5658C4B4-DD87-4C76-9F15-7E864FC4E64E", 180, 1503350029, "937328", 1503350029, "937328", null, "LAKELINE WEST / STATION 1", [ null, "30.474919", "-97.809793", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "North American Properties", "2800 S Lakeline Blvd", null, null, "Cedar Park", "Texas", "78613", "Williamson County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 181, "C3E0F556-57ED-4241-9BEC-C03E031A1927", 181, 1503350029, "937328", 1503350029, "937328", null, "LAMARHEIGHTS-AE / LAMAR 1", [ null, "30.322464", "-97.7292", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Camden Lamar Heights", "5400 N Lamar Blvd", null, null, "Austin", "Texas", "78751", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 182, "82F5D278-D19B-47C1-9A92-261FB3548DDF", 182, 1503350029, "937328", 1503350029, "937328", null, "LCPM / GARAGE 1", [ null, "30.306188", "-97.743433", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Highland Resources, Inc.", "3800 N Lamar Blvd", null, "1", "Austin", "Texas", "78705", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 183, "837ECD8D-CA07-4BAC-9CD3-13057CE3E976", 183, 1503350029, "937328", 1503350029, "937328", null, "LEASING OFFICE / STATION 1", [ null, "30.231128000000002", "-97.889867", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Ocotillo Apartments", "8000 US-290", null, null, "Austin", "Texas", "78737", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 184, "DED370D3-8EC1-4E20-89B3-B85320AC1938", 184, 1503350029, "937328", 1503350029, "937328", null, "LIVESTRONG / 2201 E 6TH ST", [ null, "30.25997", "-97.718658", null, false ], "240V", "30A", "J1772", "--", "--", "--", "LIVESTRONG Foundation", "2201 E 6th St", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "1", "Disabled", "Healthcare", "Small Medical" ]
+, [ 185, "15730DB4-0794-4AF4-AB35-AE1B25B8FF8C", 185, 1503350029, "937328", 1503350029, "937328", null, "MIRA VISTA / STATION 1", [ null, "30.269525", "-97.786972", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "CLPF-Mira Vista LLC", "2705 Bee Cave Rd", null, "P1", "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 186, "CD4665FE-AE12-48CC-B725-601545512E28", 186, 1503350029, "937328", 1503350029, "937328", null, "MONOGRAM / HANDICAP", [ null, "30.270571", "-97.748993", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Monogram Residential (Austin Energy Area)", "615 W 7th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 187, "6C832F9F-4693-404C-B67A-5C1BA4CCAB03", 187, 1503350029, "937328", 1503350029, "937328", null, "MONOGRAM / PARKING 2-3", [ null, "30.270562", "-97.748959", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Monogram Residential (Austin Energy Area)", "615 W 7th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 188, "B7EF5D08-69F4-491E-A8C8-900EC89892FD", 188, 1503350029, "937328", 1503350029, "937328", null, "MONOGRAM / PARKING 4-5", [ null, "30.270567", "-97.748906", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Monogram Residential (Austin Energy Area)", "615 W 7th St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 189, "1D3F4E60-4696-42B2-9C47-E049E38AA6D3", 189, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER 1", [ null, "30.301411", "-97.699019", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "Garcia Street", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 190, "8F828045-C0C1-480D-82EB-CE2DCC802E65", 190, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER 2", [ null, "30.302981", "-97.698722", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "1801 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 191, "3D35B85E-9B51-46C1-8A8C-D7CAFEB0AB1F", 191, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER 3", [ null, "30.301581", "-97.699416", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "1801 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 192, "08707EA1-9BF3-4F1D-8B1F-26897A2037FA", 192, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER 4", [ null, "30.301615", "-97.69867", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "Garcia St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 193, "5C920421-D50D-4EF0-9E24-87D49201A77F", 193, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER 5", [ null, "30.302555", "-97.69899", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "1801 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 194, "1F94F57E-EB3D-4DCD-8861-F26A155BB48B", 194, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER 6", [ null, "30.301591", "-97.699535", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "1801 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 195, "A70D35BA-D446-41D6-8C41-D27F22999F36", 195, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLER ST2", [ null, "30.301649", "-97.698956", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "1801 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 196, "38F50AE3-CE38-474D-954D-D70C2E769D65", 196, 1503350029, "937328", 1503350029, "937328", null, "MUELLER MARKET / MUELLERST1", [ null, "30.302909", "-97.69916", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Mueller Market Retail , LLC", "1801 E 51st St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 197, "D74E00F7-F7A0-462C-A6F7-E132F3F9061B", 197, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 1&2", [ null, "30.408792", "-97.725312", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "2nd", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 198, "E9C457A6-3F84-42D0-A7FE-E0AE12902A5E", 198, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 11&12;", [ null, "30.408722", "-97.725271", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "1st", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 199, "4EABC635-94CA-42BF-94C9-FAAFA29F58BC", 199, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 13&14;", [ null, "30.408775", "-97.725228", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "1st", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 200, "7F0323FD-24F9-4717-AB52-274541FDECE5", 200, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 15&16;", [ null, "30.408822", "-97.725196", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "1st", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 201, "343C7F9E-D7C8-4AB4-AD09-520C5D1DD181", 201, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 17&18;", [ null, "30.408534", "-97.727744", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "1st", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 202, "3295BEBF-423E-4073-9B8D-6DACA588FE4C", 202, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 19&20;", [ null, "30.40854", "-97.72767", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "1st", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 203, "76B13824-2E29-46C6-9956-F8E321859ED4", 203, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 3&4", [ null, "30.408744", "-97.725343", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "2nd", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 204, "1123B932-B0F3-4853-B655-436540DF4C2D", 204, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 5&6", [ null, "30.408705", "-97.725377", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "2nd", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 205, "0254A047-6C6F-4229-A65E-2189D03EB083", 205, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 7&8", [ null, "30.408505", "-97.727699", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "2nd", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 206, "9AB2FA80-0142-4272-9292-606C7985EF73", 206, 1503350029, "937328", 1503350029, "937328", null, "NATIONAL INSTRU / 9&10;", [ null, "30.408686", "-97.725307", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "National Instruments", "11500 N Mopac Expy", null, "1st", "Austin", "Texas", "78759", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 207, "A8DF031F-F60D-4AFB-9267-ECA4870FAA34", 207, 1503350029, "937328", 1503350029, "937328", null, "NEIGHBORHOOD HO / 912 E11TH STAT1", [ null, "30.270014", "-97.730825", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "Neighborhood Housing & Community Development", "912 E 11th St", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Municipal", "Municipal Parking" ]
+, [ 208, "CE058E58-AE74-4B9D-8B2E-BDA1A7A2552B", 208, 1503350029, "937328", 1503350029, "937328", null, "NISSAN-TOWN NOR / QUICK CHARGER 1", [ null, "30.374418", "-97.732155", null, false ], "500V", "100A", "CHAdeMO", "--", "--", "--", "NNA DL - Town North Nissan", "9160 Research Blvd", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "1", "Disabled", "Retail", "Auto Dealership" ]
+, [ 209, "D1645879-678E-4492-83A4-DB762D47F017", 209, 1503350029, "937328", 1503350029, "937328", null, "NORTHPOINTCENTR / NORTHPOINT", [ null, "30.351629", "-97.752035", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Northpoint Centre", "6834 Austin Center Blvd", null, null, "Austin", "Texas", "78731", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 210, "0AEC7A03-E3BC-4632-9CD3-457BDE19C92D", 210, 1503350029, "937328", 1503350029, "937328", null, "OPHTHALMOLOGY / AUSTIN EYE STA1", [ null, "30.296713", "-97.719788", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Austin Eye", "1009 E 40th St", null, null, "Austin", "Texas", "78751", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 211, "CAF2882E-C14F-43DA-839C-D4C572D6FE47", 211, 1503350029, "937328", 1503350029, "937328", null, "PARKING LEVEL 1 / GATEWAY 1 MAIN", [ null, "30.3987", "-97.724056", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "The Kenzie at the Domain", "11301 Domain Dr", null, "2nd", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 212, "F46AC3C1-F25F-4DDA-B27C-10B67E2328AB", 212, 1503350029, "937328", 1503350029, "937328", null, "PARKING LEVEL 1 / KENZIE 2", [ null, "30.399504", "-97.723519", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "The Kenzie at the Domain", "11301 Domain Dr", null, "2", "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 213, "F5AB9F21-1270-4C51-89E7-BFDB0F6E31EA", 213, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / ACCSOAUSTIN1", [ null, "30.216026", "-97.796371", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1820 W Stassney Ln", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 214, "EDE6D72D-C112-468F-86C2-4506D80F07C6", 214, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / ERCOT 1", [ null, "30.2165", "-97.691795", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7620 Metro Center Dr", null, null, "Austin", "Texas", "78744", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 215, "1040440F-3929-4A45-92FC-042013078D00", 215, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / ERCOT 2", [ null, "30.216521", "-97.691645", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7620 Metro Center Dr", null, null, "Austin", "Texas", "78744", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 216, "AA73B530-CD4E-4AF8-A81E-9726E2CACFDE", 216, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / ERCOT 3", [ null, "30.216505", "-97.691533", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7615-7639 Metro Center Dr", null, null, "Austin", "Texas", "78744", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 217, "F04C9983-E45E-40B5-86BD-166FE3EEF3AF", 217, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / HEB 6EA1", [ null, "30.299752", "-97.720467", null, false ], "240V", "30A", "J1772", "--", "--", "--", "AUSTIN ENERGY", "1000 E 41st St", null, null, "Austin", "Texas", "78751", "Travis County", "United States", "1", "Disabled", "Retail", "Big Box / Superstore" ]
+, [ 218, "49FC5F38-A663-4589-BC6F-AB3F0A4CCDC5", 218, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PALMER STATION4", [ null, "30.259888", "-97.752644", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "846-888 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 219, "9E10FC4E-16A9-4C80-9EE6-15EA4103459B", 219, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PALMER STATION5", [ null, "30.259881", "-97.752744", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "846-888 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 220, "635CA6B4-BF0E-4A1F-9846-E84A3EC1322A", 220, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PALMER STATION6", [ null, "30.259925", "-97.752708", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "846-888 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 221, "9C62CC68-ADC2-43F2-86C8-99276B17332A", 221, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PALMER STATION7", [ null, "30.259888", "-97.752687", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "846-888 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 222, "11E8DC99-1F1D-47EB-9705-3845E8F7BBB6", 222, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PALMER STATION8", [ null, "30.2599", "-97.752776", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "900 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 223, "09BDF607-75B5-4F41-827A-24A09B8D6D03", 223, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PALMER STATION9", [ null, "30.25989", "-97.752711", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "900 Barton Springs Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 224, "4CE2F5D5-0716-4106-BB0A-DB7552827AA3", 224, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB CAMP MABRY1", [ null, "30.316576", "-97.757643", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "Camp Mabry 1 Mile Track", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Parking", "General" ]
+, [ 225, "8D3F4F71-5493-49C7-A324-3D0FE2357A6B", 225, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB CAMP MABRY2", [ null, "30.31659", "-97.757581", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "Camp Mabry 1 Mile Track", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Parking", "General" ]
+, [ 226, "FCB15C67-E946-4CA7-883B-B86625451100", 226, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB LOCKHART 1", [ null, "30.168498", "-97.795821", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "319 W Slaughter Ln", null, null, "Austin", "Texas", "78748", "Travis County", "United States", "2", "Disabled", "Retail", "General" ]
+, [ 227, "A44AA622-EE52-4345-8262-1901A14BF3E4", 227, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB M STATION 1", [ null, "30.283607", "-97.708234", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2906 E Martin Luther King Jr Blvd", null, null, "Austin", "Texas", "78722", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 228, "0063A73E-5B67-4A9E-B16F-92F91168972D", 228, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB UTANTONIO 1", [ null, "30.2885", "-97.742343", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2418-2422 San Antonio St", null, null, "Austin", "Texas", "78705", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 229, "A1125397-3EF8-4D3D-BFA4-D86014974644", 229, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB UTANTONIO 2", [ null, "30.288454", "-97.742343", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2420 San Antonio St", null, null, "Austin", "Texas", "78705", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 230, "2A8A2F8A-FDBA-4607-90B4-F20CA1BB1A1B", 230, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB UTPICKLE1", [ null, "30.389653", "-97.725036", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AUSTIN ENERGY", "Rd A", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 231, "D6D5D0B3-785D-49CE-9F97-9193BC63DBB1", 231, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB UTPICKLE2", [ null, "30.389602", "-97.725084", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AUSTIN ENERGY", "Rd A", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 232, "EAE9EFC1-2CA1-4C4C-AF78-1C14B4FE0DFF", 232, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-ACC EVIEW1", [ null, "30.268135", "-97.706108", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "3401 Webberville Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 233, "015E9CFE-0833-4F44-8363-1ECA006F9B48", 233, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-ACC EVIEW2", [ null, "30.268106", "-97.70613", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "3401 Webberville Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 234, "F00E67EB-2EFF-490D-97B2-C6B9E7B02C5F", 234, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-ACC NRIDGE1", [ null, "30.40304", "-97.703682", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "11928 Stonehollow Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 235, "53C46DF2-168C-42A4-8D49-B0F70ACED2E9", 235, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-ACC NRIDGE2", [ null, "30.402954", "-97.703636", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "11928 Stonehollow Dr", null, null, "Austin", "Texas", "78758", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 236, "1AC455A6-187B-414B-AE24-19FA913DB3E9", 236, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCHIGHLAND1", [ null, "30.322672", "-97.712753", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "5930 Middle Fiskville Rd", null, null, "Austin", "Texas", "78752", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 237, "0EE47CFF-3EEC-4AF0-82B2-1E15B1847FD5", 237, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCHIGHLAND2", [ null, "30.32288", "-97.711792", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "5930 Middle Fiskville Rd", null, null, "Austin", "Texas", "78752", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 238, "D656363F-2945-4AE2-B571-89F14C42C5D4", 238, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCPINNACLE1", [ null, "30.231403", "-97.883194", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7748 Hwy 290 W", null, null, "Austin", "Texas", "78736", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 239, "2427356C-81B2-4434-869A-4B8D4AFCA362", 239, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCPINNACLE2", [ null, "30.23143", "-97.883171", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "7748 Hwy 290 W", null, null, "Austin", "Texas", "78736", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 240, "67D91414-2653-4FF3-BACE-23C90F19FA27", 240, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCRIOGRAND1", [ null, "30.277252", "-97.747261", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1212 Rio Grande St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 241, "EBB17D86-C302-4520-BFBD-7D8C2640D01A", 241, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCRIOGRAND2", [ null, "30.277239", "-97.747215", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1212 Rio Grande St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 242, "40571B6B-EAAF-44B0-859E-DDF0BE0134E1", 242, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCRIVERSID1", [ null, "30.235128", "-97.705193", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1020 Grove Blvd", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 243, "716C4861-39C2-45C2-B32C-9A850D38B276", 243, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCRIVERSID2", [ null, "30.235104", "-97.705184", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1230-1290 Grove Blvd", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 244, "F1492CBA-600A-4A66-AEED-2D3D100DDCF2", 244, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCSOAUSTIN2", [ null, "30.21609", "-97.796324", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "5517 Manchaca Rd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 245, "C804D7BC-20A4-458B-A3EB-469EF6C7F4EE", 245, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCSVSCTRST1", [ null, "30.339029", "-97.662231", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "9101 Tuscany Way", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 246, "0992EC96-DB2B-4B0B-AF05-3CCF80579A03", 246, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBACCSVSCTRST2", [ null, "30.338486", "-97.662247", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "9101 Tuscany Way", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Education", "University / College" ]
+, [ 247, "5F1CA19B-1502-4CEC-AB38-388F67948AD3", 247, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBAISDBURGERC", [ null, "30.228455", "-97.809379", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "3200 Jones Rd", null, null, "Sunset Valley", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Parking", "High School / Other" ]
+, [ 248, "F7CE0607-1CE2-4AE9-8E2C-429AA5E94C81", 248, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBAMLI1", [ null, "30.265999", "-97.748375", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "263-299 San Antonio St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 249, "5D305246-5BDF-4853-A2F9-11CB273C83B4", 249, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-CENTRALMKTN", [ null, "30.308495", "-97.740775", null, false ], "240V", "30A", "J1772", "--", "--", "--", "AUSTIN ENERGY", "4001 N Lamar Blvd", null, null, "Austin", "Texas", "78705", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 250, "200346CD-E658-47A3-830D-747C91B19C9E", 250, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-CENTRALMKTS", [ null, "30.232234", "-97.798404", null, false ], "240V", "30A", "J1772", "--", "--", "--", "AUSTIN ENERGY", "4465-4475 S Lamar Blvd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "1", "Disabled", "Retail", "Shopping Center" ]
+, [ 251, "44527870-D9E3-4B85-B28A-767B9338F7F9", 251, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBCHASEESCAL1", [ null, "30.27567", "-97.817127", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "4301 Westbank Dr", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Retail", "Commercial" ]
+, [ 252, "42616185-2C6D-41AA-9253-6176930424B2", 252, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-DELL1", [ null, "30.302507", "-97.70694", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "4900 Mueller Blvd", null, null, "Austin", "Texas", "78722", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 253, "DF71B759-1F12-4EF5-9D80-BA2984497AF5", 253, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-DELL2", [ null, "30.302489", "-97.70692", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1345 Philomena St", null, null, "Austin", "Texas", "78723", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 254, "B873E16B-38D9-4946-84BC-7FF86D459503", 254, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-DELL3", [ null, "30.302517", "-97.706963", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "4900 Mueller Blvd", null, null, "Austin", "Texas", "78722", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 255, "EB3EFD9B-2830-43C5-89C7-22EAE18002B9", 255, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBDENNYSNORTH1", [ null, "30.276489", "-97.729614", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1601 N Interstate 35", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Retail", "General" ]
+, [ 256, "901EB52A-49D5-4817-A40B-67D5C5838F86", 256, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBDENNYSNORTH2", [ null, "30.27652", "-97.729645", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1601 N Interstate 35", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Retail", "General" ]
+, [ 257, "D088498E-E6DB-4577-B149-D12CB2537889", 257, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBGABLES 5TH 1", [ null, "30.273914", "-97.764313", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1611 W 5th St", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 258, "8A7927FB-5284-44B2-81EC-6A5B25B7C4F6", 258, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBGABLES 5TH 2", [ null, "30.273823", "-97.764206", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "1611 W 5th St", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 259, "162A49C9-FD67-4150-8E47-2C504E6C7526", 259, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBGABLESPARK 1", [ null, "30.267687", "-97.755051", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "115 Sandra Muraida Way", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 260, "37631E89-9235-4BAD-A007-DE569F0E3A89", 260, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBGABLESPARK 2", [ null, "30.267736", "-97.754929", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "115 Sandra Muraida Way", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 261, "881FFCF0-6C60-4642-9284-2C5BCBB2BB70", 261, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBGABLESPRESS1", [ null, "30.272982", "-97.760445", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "507 Pressler St", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 262, "24ABFA12-8164-4699-9C0F-144C4ED1267D", 262, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBGABLESPRESS2", [ null, "30.27289", "-97.760269", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "507 Pressler St", null, null, "Austin", "Texas", "78703", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 263, "0A900254-E0BF-4A85-9E51-AF37ACB62A84", 263, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBHARCON L2", [ null, "30.373046", "-97.806478", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AUSTIN ENERGY", "6601 Vaught Ranch Rd", null, null, "Austin", "Texas", "78730", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 264, "822CAFF6-A225-4FF0-BA39-644A4C844B9F", 264, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBHEBBRODIEST1", [ null, "30.21613", "-97.829525", null, false ], "240V", "30A", "J1772", "--", "--", "--", "AUSTIN ENERGY", "6900 Brodie Ln", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "1", "Disabled", "Retail", "Big Box / Superstore" ]
+, [ 265, "B1F39307-F5FA-4946-954A-D6F6133A996D", 265, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-HEBCONGRESS", [ null, "30.238693", "-97.753968", null, false ], "240V", "30A", "J1772", "--", "--", "--", "AUSTIN ENERGY", "2400-2424 S Congress Ave", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "1", "Disabled", "Retail", "Big Box / Superstore" ]
+, [ 266, "470FC7D6-EB71-4829-8D8A-6B5AD3148149", 266, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBHILL.CGAL1", [ null, "30.309265", "-97.942333", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "12901 Hill Country Blvd", null, null, "Bee Cave", "Texas", "78738", "Travis County", "United States", "2", "Disabled", "Retail", "Shopping Center" ]
+, [ 267, "519F8390-9DEA-4C6A-A643-531CB25D36C2", 267, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBHILL.CGAL2", [ null, "30.30783", "-97.938626", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "12701 Hill Country Blvd", null, null, "Bee Cave", "Texas", "78738", "Travis County", "United States", "2", "Disabled", "Retail", "Shopping Center" ]
+, [ 268, "4DEF32B7-6E8E-4BED-96E7-94B9A6C32D6C", 268, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBLIFEWORKSST1", [ null, "30.264948", "-97.708034", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "835 N Pleasant Valley Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 269, "F31486C5-3A6D-491D-8F11-060BBF21CD62", 269, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBLIFEWORKSST2", [ null, "30.264925", "-97.708077", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "835 N Pleasant Valley Rd", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 270, "F9CD5EBC-BFEB-482E-85BC-33C2FEDC4005", 270, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBLOSTPARROTS1", [ null, "30.382643", "-97.933861", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "15116 Storm Dr", null, null, "Austin", "Texas", "78734", "Travis County", "United States", "2", "Disabled", "Hospitality", "Hotel / Resort" ]
+, [ 271, "1E0D4362-D34B-453A-9413-7BB117B4D02C", 271, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBPEARSON CTR1", [ null, "30.417437", "-97.664087", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "400 Center Ridge Dr", null, null, "Austin", "Texas", "78753", "Travis County", "United States", "2", "Disabled", "Education", "Small Medical" ]
+, [ 272, "2CCD5EA5-B857-4926-A292-DAD541334A67", 272, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBPEARSONH LN1", [ null, "30.416589", "-97.666054", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "Center Line Pass", null, null, "Austin", "Texas", "78753", "Travis County", "United States", "2", "Disabled", "Education", "Small Medical" ]
+, [ 273, "8BF9D520-BD6B-4A60-85AA-44A8C0C4A4E7", 273, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-STDAVIDSST1", [ null, "30.268719", "-97.738899", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "710 Trinity St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Healthcare", "Small Medical" ]
+, [ 274, "6D4D9AFA-DBA8-4C95-9BA0-68ABB7541567", 274, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUB-STDAVIDSST2", [ null, "30.268694", "-97.738907", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "710 Trinity St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Healthcare", "Small Medical" ]
+, [ 275, "E05A2771-B4B9-4414-A844-7E7279628819", 275, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / PUBWYNDHAMGARD1", [ null, "30.222803", "-97.746101", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "3401 S I H 35", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Hospitality", "Hotel / Resort" ]
+, [ 276, "5D5DA654-3279-4BC3-8DA0-4310C08AA80F", 276, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / SEAHOLMDC", [ null, "30.266814", "-97.754094", null, false ], "500V", "125A", "Combo", "--", "--", "--", "AUSTIN ENERGY", "811 1/2 Electric Drive", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "1", "Disabled", "Parking", "Municipal Parking" ]
+, [ 277, "30F4FAE6-53E0-474F-8098-3819415939B1", 277, 1503350029, "937328", 1503350029, "937328", null, "PLUGNEVERYWHERE / SEAHOLML2", [ null, "30.266793", "-97.754031", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "AUSTIN ENERGY", "811 1/2 Electric Drive", null, null, "Austin", "Texas", "78703", null, "United States", "2", "Disabled", "Parking", "Municipal Parking" ]
+, [ 278, "8FD8E8A5-3D56-496F-BF28-FD9AC6371CAB", 278, 1503350029, "937328", 1503350029, "937328", null, "PRESIDIUM / ELEVATION", [ null, "30.233914", "-97.727254", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Presidium Group", "1911 Willow Creek Dr", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 279, "0D05EE52-68BC-42D2-B2E7-D11F2AE9D2A9", 279, 1503350029, "937328", 1503350029, "937328", null, "PRESIDIUM / LAUREL", [ null, "30.436594", "-97.777617", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Presidium Group", "8312 Fathom Cir", null, null, "Austin", "Texas", "78750", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 280, "D6E359CE-17C2-4B93-8650-8BC87242C7F6", 280, 1503350029, "937328", 1503350029, "937328", null, "PRESIDIUM / VIOLET", [ null, "30.191582", "-97.775626", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Presidium Group", "409 E William Cannon Dr", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 281, "9CEC78BD-6CD9-4152-9449-9B2B6A6F7FF1", 281, 1503350029, "937328", 1503350029, "937328", null, "PRESIDIUM / VUE", [ null, "30.333857", "-97.691302", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Presidium Group", "7607 Blessing Ave", null, null, "Austin", "Texas", "78752", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 282, "717ADBE3-5C5B-4041-9BD2-89D550FE3958", 282, 1503350029, "937328", 1503350029, "937328", null, "RAINEY STREET / MILLENNIUM 01", [ null, "30.260803", "-97.737765", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "THE MILLENNIUM RAINEY", "91 Rainey St", null, "L2", "Austin", "Texas", "78701", null, "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 283, "D1E65E8A-87D7-44AE-8D76-B7D24BCA053E", 283, 1503350029, "937328", 1503350029, "937328", null, "RAINEY STREET / MILLENNIUM 02", [ null, "30.260538", "-97.738296", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "THE MILLENNIUM RAINEY", "92 Rainey St", null, "3", "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 284, "5D584B37-F889-4677-A8D9-960FBC3F9EB2", 284, 1503350029, "937328", 1503350029, "937328", null, "ROSCOE PROPERTI / CURRENT MAIN", [ null, "30.231758", "-97.729473", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Roscoe Properties", "2057-2105 Willow Creek Dr", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 285, "8D4989CF-3A58-4BDF-A4EB-7BB010C46561", 285, 1503350029, "937328", 1503350029, "937328", null, "ROSCOE PROPERTI / MESH MAIN", [ null, "30.240977", "-97.726259", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Roscoe Properties", "2100-2134 Elmont Dr", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 286, "DDC3AFB2-F7A0-4B5B-8E82-096CFD53F006", 286, 1503350029, "937328", 1503350029, "937328", null, "ROSCOE PROPERTI / THE CONNECTION", [ null, "30.227456", "-97.726096", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Roscoe Properties", "4404 E Oltorf St", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 287, "638B3139-D707-4240-90B5-94DD1BD6AE21", 287, 1503350029, "937328", 1503350029, "937328", null, "ROSCOE PROPERTI / TIMBERCREEK 1", [ null, "30.256475", "-97.751759", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Roscoe Properties", "614 S 1st St", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 288, "6C4AA87E-6B34-43ED-87E2-763E57498C36", 288, 1503350029, "937328", 1503350029, "937328", null, "ROSCOE PROPERTI / TRIO MAIN", [ null, "30.228786", "-97.726326", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Roscoe Properties", "2413-2433 S Pleasant Valley Rd", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 289, "F3B87A98-C2F7-4E43-9F57-7DAEB01E60A1", 289, 1503350029, "937328", 1503350029, "937328", null, "ROSCOE PROPERTI / VOLUME MAIN", [ null, "30.28544", "-97.715107", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Roscoe Properties", "1715 E 32nd St", null, null, "Austin", "Texas", "78722", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 290, "2BCB475D-AF10-4D65-BFE4-F1A89DB52485", 290, 1503350029, "937328", 1503350029, "937328", null, "RPP GARAGE / GARAGE 2", [ null, "30.429442", "-97.755212", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Research Park Plaza", "12455 Research Park Loop", null, null, "Austin", "Texas", "78727", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 291, "95784B6F-6F0F-4B51-BFEF-287F7ED54352", 291, 1503350029, "937328", 1503350029, "937328", null, "RPP GARAGE / GARAGE GW", [ null, "30.429363", "-97.755248", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Research Park Plaza", "12455 Research Park Loop", null, null, "Austin", "Texas", "78727", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 292, "D9352554-CF14-475B-9A41-C837F8BCCE59", 292, 1503350029, "937328", 1503350029, "937328", null, "RPP GARAGE / ISLAND 2", [ null, "30.427967", "-97.754411", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Research Park Plaza", "12301 Research Blvd", null, null, "Austin", "Texas", "78759", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 293, "D9BC1FA2-510D-4C82-8AC6-6BE31784726F", 293, 1503350029, "937328", 1503350029, "937328", null, "RPP GARAGE / ISLAND GW", [ null, "30.428017", "-97.754379", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Research Park Plaza", "12301 Research Blvd", null, null, "Austin", "Texas", "78759", null, "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 294, "496A3963-F0D1-48B9-BED6-2E8A82ACF193", 294, 1503350029, "937328", 1503350029, "937328", null, "SLEEP INN / SLEEP INN 1", [ null, "30.329889", "-97.661712", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Sleep Inn & Suites - Austin Northeast", "8410 E Hwy 290", null, null, "Austin", "Texas", "78754", "Travis County", "United States", "2", "Disabled", "Hospitality", "Hotel / Resort" ]
+, [ 295, "6C581CD9-82FE-4D59-A774-4C6784539956", 295, 1503350029, "937328", 1503350029, "937328", null, "SOLARWINDS / SOLARWINDS #1", [ null, "30.251073", "-97.86319", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "HPI Real Estate Management, Inc", "7171 Southwest Parkway", "P400 Garage", "2nd", "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 296, "CDC2A486-A556-4130-ACAE-FA8FDC4CF522", 296, 1503350029, "937328", 1503350029, "937328", null, "SOLARWINDS / SOLARWINDS #2", [ null, "30.250799", "-97.862755", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "HPI Real Estate Management, Inc", "7171 Southwest Pkwy", "P400 Garage", null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "High-Tech" ]
+, [ 297, "0482F76A-1343-4F80-8790-4575829704B8", 297, 1503350029, "937328", 1503350029, "937328", null, "SPRINGS AT TR / CLUBHOUSE", [ null, "30.394787", "-97.653242", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Springs at Tech Ridge", "1304-1444 Farm to Market 734", null, null, "Austin", "Texas", "78753", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 298, "2561F7C6-4C9B-4DF4-888F-9AAF19B4A91D", 298, 1503350029, "937328", 1503350029, "937328", null, "STATION 1 / #1", [ null, "30.304182", "-97.828161", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "CapRidge Partners", "115 Wild Basin Rd", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 299, "B34BD70F-77EA-4917-A9E3-E3D82CB697A4", 299, 1503350029, "937328", 1503350029, "937328", null, "STATION 1 / @ THE DISTRICT", [ null, "30.22894", "-97.719683", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Hawthorne at the District", "2303 Cromwell Cir", null, null, "Austin", "Texas", "78741", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 300, "81D97AE3-41A5-491A-8EF5-85E21DE734AA", 300, 1503350029, "937328", 1503350029, "937328", null, "STATION 1 / PLAZA 1", [ null, "30.347873", "-97.800826", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Plaza on the Lake Acquisition, LLC", "5001 Plaza on the Lake", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 301, "4775A8D5-B089-4151-A0A6-231AB1A4CEA1", 301, 1503350029, "937328", 1503350029, "937328", null, "STATION1-PP / PELOTON GARAGE", [ null, "30.386783", "-97.768747", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Peloton Real Estate Partners-Austin", "8310 N Capital of Texas Hwy", null, "1", "Austin", "Texas", "78731", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 302, "6D5C907C-E429-4FEC-B485-EFC4DE38ECF0", 302, 1503350029, "937328", 1503350029, "937328", null, "STEINER RANCH / EV CHARGER #1", [ null, "30.383357", "-97.873053", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Bell Steiner Ranch Apartments", "4800 Steiner Ranch Blvd", null, null, "Austin", "Texas", "78732", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 303, "65C547F6-B200-4972-89C9-53E69E55C6A7", 303, 1503350029, "937328", 1503350029, "937328", null, "SUSTAINABLEFOOD / SUSTAINABLEFOOD", [ null, "30.278611", "-97.710364", null, false ], "240V", "30A", "J1772", "--", "--", "--", "Sustainable Food Center", "2921 E 17th St", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "1", "Disabled", "Workplace", "General" ]
+, [ 304, "DEFFC5B0-F0F6-4AC0-9453-FB4E194B9E34", 304, 1503350029, "937328", 1503350029, "937328", null, "THE GROVE / MAIN STATION 1", [ null, "30.236473", "-97.782607", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "The Grove", "3707 Manchaca Rd", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 305, "DCE4201F-DB2C-4065-9E33-2D7D5743E796", 305, 1503350029, "937328", 1503350029, "937328", null, "THE MEDVE GROUP / ARTS S AUSTIN", [ null, "30.221064", "-97.770408", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Daniel Medve Properties", "400 W St Elmo Rd", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 306, "1785344C-8E39-4555-8276-DE37A1677213", 306, 1503350029, "937328", 1503350029, "937328", null, "THE MEDVE GROUP / BARTON HILLS", [ null, "30.261911", "-97.773946", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Daniel Medve Properties", "1244-1298 Barton Hills Dr", null, null, "Austin", "Texas", "78704", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 307, "621651B8-36D5-418F-9060-5C701616441E", 307, 1503350029, "937328", 1503350029, "937328", null, "THE MEDVE GROUP / TURTLE CREEK", [ null, "30.204478", "-97.783736", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Daniel Medve Properties", "5946 S 1st St", null, null, "Austin", "Texas", "78745", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 308, "452349F6-1ABA-4D7B-9B07-B76BAE0E6972", 308, 1503350029, "937328", 1503350029, "937328", null, "THE PRESERVE / MAIN GATEWAY 1", [ null, "30.246834", "-97.846018", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "The Preserve at Travis Creek", "5604 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 309, "2FE944DE-C252-4CFB-97A2-A8355C372856", 309, 1503350029, "937328", 1503350029, "937328", null, "TIG REAL ESTATE / PIE-STATION 1", [ null, "30.265768", "-97.779681", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "TIG REAL ESTATE SERVICES, INC.", "Frontage Rd", null, null, "Austin", "Texas", "78746", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 310, "4BBFB9AD-8555-4AF6-9C5E-1C8ADD1484AC", 310, 1503350029, "937328", 1503350029, "937328", null, "W1 / W1", [ null, "30.314723", "-97.756396", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Westminster", "4100 Jackson Ave", null, null, "Austin", "Texas", "78731", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 311, "FB87E6FE-EFF8-4DB7-8AD4-28515E520BBB", 311, 1503350029, "937328", 1503350029, "937328", null, "WALLERCREEKSIDE / CREEKSIDE1", [ null, "30.315229", "-97.724395", null, false ], "240V", "30A", "J1772", "--", "--", "--", "PIE-M- 51st Living LTD", "102-104 E 50th St", null, null, "Austin", "Texas", "78751", "Travis County", "United States", "1", "Disabled", "Multifamily", "Apartment" ]
+, [ 312, "C781D578-B286-4423-BD30-8356A9EF9D71", 312, 1503350029, "937328", 1503350029, "937328", null, "WHITLEY MAIN / PIE-M WHITLEY", [ null, "30.265199", "-97.742194", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Whitley", "301 Brazos St", null, null, "Austin", "Texas", "78701", "Travis County", "United States", "2", "Disabled", "Multifamily", "Apartment" ]
+, [ 313, "5A5DC312-7F76-420B-834A-6FB69DC3EC1D", 313, 1503350029, "937328", 1503350029, "937328", null, "WORKPLACE / PIE-P SUST FOOD", [ null, "30.278064", "-97.710187", null, false ], "120V", "16A", "NEMA 5-20R", "240V", "30A", "J1772", "AUSTIN ENERGY", "2921 E 17th St, Bldg. C", null, null, "Austin", "Texas", "78702", "Travis County", "United States", "2", "Disabled", "Workplace", "Commercial" ]
+, [ 314, "9F803C7B-59DE-4E99-90F9-1A99DEAAEF91", 314, 1503350029, "937328", 1503350029, "937328", null, "YETI RAMBLERS / EVSE #1", [ null, "30.256412", "-97.871799", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Yeti Coolers", "7601 Southwest Pkwy", null, "B1", "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 315, "B9A88EB7-8AD0-4647-8D0F-D9B38656EF95", 315, 1503350029, "937328", 1503350029, "937328", null, "YETI RAMBLERS / EVSE #2", [ null, "30.255806", "-97.872517", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Yeti Coolers", "7601 Southwest Pkwy", null, "B1 ml", "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 316, "B4F301F4-2490-46F2-B5CF-AB51054269B5", 316, 1503350029, "937328", 1503350029, "937328", null, "YETI RAMBLERS / EVSE #3", [ null, "30.25183", "-97.876086", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Yeti Coolers", "7601 Southwest Pkwy", null, null, "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+, [ 317, "628460EB-865A-45B2-9249-1A5387FA356F", 317, 1503350029, "937328", 1503350029, "937328", null, "YETI RAMBLERS / EVSE4", [ null, "30.251792", "-97.876256", null, false ], "240V", "30A", "J1772", "240V", "30A", "J1772", "Yeti Coolers", "7601 Southwest Pkwy", null, "B2", "Austin", "Texas", "78735", "Travis County", "United States", "2", "Disabled", "Workplace", "General" ]
+ ]
+}

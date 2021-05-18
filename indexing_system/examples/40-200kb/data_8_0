@@ -1,0 +1,2345 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qmw9-b8ep",
+      "name" : "Crime & Safety (2010-2014)",
+      "attribution" : "The Baltimore Neighborhood Indicators Alliance-Jacob France Institute at the University of Baltimore (known as BNIA-JFI)",
+      "attributionLink" : "http://bniajfi.org",
+      "averageRating" : 0,
+      "category" : "Neighborhoods",
+      "createdAt" : 1431633488,
+      "description" : "All crime data for Vital Signs indicators are provided by the Baltimore City Police Department. BNIA-JFI normalizes this data by population to establish crime rates. Normalizing data allows for the rates to reflect the concentration of the crime relative to the population in the area and allows for comparison between areas of different populations.",
+      "displayType" : "table",
+      "downloadCount" : 1821,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1460740591,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 19943354,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1460734409,
+      "publicationGroup" : 2837110,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1460734293,
+      "rowsUpdatedBy" : "6r9a-dfdj",
+      "tableId" : 9899255,
+      "totalTimesRated" : 0,
+      "viewCount" : 937,
+      "viewLastModified" : 1486356461,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 250780450,
+        "name" : "Neighborhood",
+        "dataTypeName" : "text",
+        "fieldName" : "neighborhood",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28319678,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 56,
+          "largest" : "Westport/Mount Winans/Lakeland",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Orangeville/East Highlandtown",
+            "count" : 20
+          }, {
+            "item" : "Patterson Park North & East",
+            "count" : 19
+          }, {
+            "item" : "Penn North/Reservoir Hill",
+            "count" : 18
+          }, {
+            "item" : "Pimlico/Arlington/Hilltop",
+            "count" : 17
+          }, {
+            "item" : "Poppleton/The Terraces/Hollins Market",
+            "count" : 16
+          }, {
+            "item" : "Sandtown-Winchester/Harlem Park",
+            "count" : 15
+          }, {
+            "item" : "South Baltimore",
+            "count" : 14
+          }, {
+            "item" : "Southeastern",
+            "count" : 13
+          }, {
+            "item" : "Southern Park Heights",
+            "count" : 12
+          }, {
+            "item" : "Southwest Baltimore",
+            "count" : 11
+          }, {
+            "item" : "The Waverlies",
+            "count" : 10
+          }, {
+            "item" : "Upton/Druid Heights",
+            "count" : 9
+          }, {
+            "item" : "Washington Village/Pigtown",
+            "count" : 8
+          }, {
+            "item" : "Westport/Mount Winans/Lakeland",
+            "count" : 7
+          }, {
+            "item" : "Baltimore City",
+            "count" : 6
+          } ],
+          "smallest" : "Allendale/Irvington/S. Hilton"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780451,
+        "name" : "crime10",
+        "dataTypeName" : "number",
+        "fieldName" : "crime10",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319679,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "68.23214285714286",
+          "largest" : "424.4",
+          "null" : 0,
+          "top" : [ {
+            "item" : "85.9",
+            "count" : 20
+          }, {
+            "item" : "75.7",
+            "count" : 19
+          }, {
+            "item" : "64.2",
+            "count" : 18
+          }, {
+            "item" : "58.1",
+            "count" : 17
+          }, {
+            "item" : "80.2",
+            "count" : 16
+          }, {
+            "item" : "69.5",
+            "count" : 15
+          }, {
+            "item" : "35.6",
+            "count" : 14
+          }, {
+            "item" : "57.8",
+            "count" : 13
+          }, {
+            "item" : "59.5",
+            "count" : 12
+          }, {
+            "item" : "79.3",
+            "count" : 11
+          }, {
+            "item" : "70.6",
+            "count" : 10
+          }, {
+            "item" : "65.2",
+            "count" : 9
+          }, {
+            "item" : "123.9",
+            "count" : 8
+          }, {
+            "item" : "78.5",
+            "count" : 7
+          }, {
+            "item" : "61.4",
+            "count" : 6
+          } ],
+          "smallest" : "15.4",
+          "sum" : "3821.0"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780452,
+        "name" : "crime11",
+        "dataTypeName" : "number",
+        "fieldName" : "crime11",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319683,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "70.13571428571429",
+          "largest" : "417.4",
+          "null" : 0,
+          "top" : [ {
+            "item" : "91.2",
+            "count" : 20
+          }, {
+            "item" : "82.6",
+            "count" : 19
+          }, {
+            "item" : "63.0",
+            "count" : 18
+          }, {
+            "item" : "54.6",
+            "count" : 17
+          }, {
+            "item" : "89.9",
+            "count" : 16
+          }, {
+            "item" : "64.2",
+            "count" : 15
+          }, {
+            "item" : "25.1",
+            "count" : 14
+          }, {
+            "item" : "67.7",
+            "count" : 13
+          }, {
+            "item" : "55.0",
+            "count" : 12
+          }, {
+            "item" : "82.7",
+            "count" : 11
+          }, {
+            "item" : "78.4",
+            "count" : 10
+          }, {
+            "item" : "76.2",
+            "count" : 9
+          }, {
+            "item" : "111.2",
+            "count" : 8
+          }, {
+            "item" : "79.8",
+            "count" : 7
+          }, {
+            "item" : "63.6",
+            "count" : 6
+          } ],
+          "smallest" : "15.3",
+          "sum" : "3927.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780453,
+        "name" : "crime12",
+        "dataTypeName" : "number",
+        "fieldName" : "crime12",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319685,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "66.62142857142857",
+          "largest" : "331.4",
+          "null" : 0,
+          "top" : [ {
+            "item" : "85.6",
+            "count" : 20
+          }, {
+            "item" : "79.4",
+            "count" : 19
+          }, {
+            "item" : "71.5",
+            "count" : 18
+          }, {
+            "item" : "57.0",
+            "count" : 17
+          }, {
+            "item" : "69.8",
+            "count" : 16
+          }, {
+            "item" : "63.3",
+            "count" : 15
+          }, {
+            "item" : "53.2",
+            "count" : 14
+          }, {
+            "item" : "61.8",
+            "count" : 13
+          }, {
+            "item" : "55.9",
+            "count" : 12
+          }, {
+            "item" : "76.0",
+            "count" : 11
+          }, {
+            "item" : "80.4",
+            "count" : 10
+          }, {
+            "item" : "87.4",
+            "count" : 9
+          }, {
+            "item" : "121.4",
+            "count" : 8
+          }, {
+            "item" : "76.6",
+            "count" : 7
+          } ],
+          "smallest" : "14.7",
+          "sum" : "3730.8"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780454,
+        "name" : "crime13",
+        "dataTypeName" : "number",
+        "fieldName" : "crime13",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319686,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "67.79642857142857",
+          "largest" : "292.0",
+          "null" : 0,
+          "top" : [ {
+            "item" : "56.4",
+            "count" : 20
+          }, {
+            "item" : "89.6",
+            "count" : 19
+          }, {
+            "item" : "60.8",
+            "count" : 18
+          }, {
+            "item" : "58.2",
+            "count" : 17
+          }, {
+            "item" : "84.9",
+            "count" : 16
+          }, {
+            "item" : "68.7",
+            "count" : 15
+          }, {
+            "item" : "47.6",
+            "count" : 14
+          }, {
+            "item" : "62.5",
+            "count" : 13
+          }, {
+            "item" : "58.0",
+            "count" : 12
+          }, {
+            "item" : "83.7",
+            "count" : 11
+          }, {
+            "item" : "81.6",
+            "count" : 10
+          }, {
+            "item" : "79.1",
+            "count" : 9
+          }, {
+            "item" : "141.4",
+            "count" : 8
+          }, {
+            "item" : "73.7",
+            "count" : 7
+          }, {
+            "item" : "63.3",
+            "count" : 6
+          } ],
+          "smallest" : "17.5",
+          "sum" : "3796.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 251073627,
+        "name" : "crime14",
+        "dataTypeName" : "number",
+        "description" : "Part 1 Crime Rate per 1,000 Residents (2014)",
+        "fieldName" : "crime14",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35678202,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "64.64642857142857",
+          "largest" : "243.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "38.9",
+            "count" : 20
+          }, {
+            "item" : "79.5",
+            "count" : 19
+          }, {
+            "item" : "59.6",
+            "count" : 18
+          }, {
+            "item" : "55.7",
+            "count" : 17
+          }, {
+            "item" : "82.0",
+            "count" : 16
+          }, {
+            "item" : "63.1",
+            "count" : 15
+          }, {
+            "item" : "49.8",
+            "count" : 14
+          }, {
+            "item" : "83.7",
+            "count" : 13
+          }, {
+            "item" : "51.6",
+            "count" : 12
+          }, {
+            "item" : "80.7",
+            "count" : 11
+          }, {
+            "item" : "75.2",
+            "count" : 10
+          }, {
+            "item" : "77.9",
+            "count" : 9
+          }, {
+            "item" : "139.4",
+            "count" : 8
+          }, {
+            "item" : "71.2",
+            "count" : 7
+          }, {
+            "item" : "60.5",
+            "count" : 6
+          } ],
+          "smallest" : "14.6",
+          "sum" : "3620.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780455,
+        "name" : "viol10",
+        "dataTypeName" : "number",
+        "fieldName" : "viol10",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319687,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "16.90892857142857",
+          "largest" : "97.9",
+          "null" : 0,
+          "top" : [ {
+            "item" : "12.6",
+            "count" : 20
+          }, {
+            "item" : "8.4",
+            "count" : 19
+          }, {
+            "item" : "7.1",
+            "count" : 18
+          }, {
+            "item" : "23.4",
+            "count" : 17
+          }, {
+            "item" : "26.5",
+            "count" : 16
+          }, {
+            "item" : "27.1",
+            "count" : 15
+          }, {
+            "item" : "3.0",
+            "count" : 14
+          }, {
+            "item" : "10.7",
+            "count" : 13
+          }, {
+            "item" : "18.7",
+            "count" : 12
+          }, {
+            "item" : "28.8",
+            "count" : 11
+          }, {
+            "item" : "18.4",
+            "count" : 10
+          }, {
+            "item" : "27.3",
+            "count" : 9
+          }, {
+            "item" : "25.4",
+            "count" : 8
+          }, {
+            "item" : "19.5",
+            "count" : 7
+          }, {
+            "item" : "15.6",
+            "count" : 6
+          } ],
+          "smallest" : "1.8",
+          "sum" : "946.9"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780456,
+        "name" : "viol11",
+        "dataTypeName" : "number",
+        "fieldName" : "viol11",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319688,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "16.31607142857143",
+          "largest" : "94.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "11.3",
+            "count" : 20
+          }, {
+            "item" : "22.7",
+            "count" : 19
+          }, {
+            "item" : "18.2",
+            "count" : 18
+          }, {
+            "item" : "16.7",
+            "count" : 17
+          }, {
+            "item" : "30.1",
+            "count" : 16
+          }, {
+            "item" : "21.5",
+            "count" : 15
+          }, {
+            "item" : "3.3",
+            "count" : 14
+          }, {
+            "item" : "14.5",
+            "count" : 13
+          }, {
+            "item" : "18.1",
+            "count" : 12
+          }, {
+            "item" : "24.9",
+            "count" : 11
+          }, {
+            "item" : "18.6",
+            "count" : 10
+          }, {
+            "item" : "23.2",
+            "count" : 9
+          }, {
+            "item" : "26.3",
+            "count" : 8
+          }, {
+            "item" : "18.3",
+            "count" : 7
+          }, {
+            "item" : "15.1",
+            "count" : 6
+          } ],
+          "smallest" : "1.2",
+          "sum" : "913.7"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780457,
+        "name" : "viol12",
+        "dataTypeName" : "number",
+        "fieldName" : "viol12",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319689,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "15.63571428571429",
+          "largest" : "64.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "7.0",
+            "count" : 20
+          }, {
+            "item" : "8.9",
+            "count" : 19
+          }, {
+            "item" : "20.7",
+            "count" : 18
+          }, {
+            "item" : "18.7",
+            "count" : 17
+          }, {
+            "item" : "22.8",
+            "count" : 16
+          }, {
+            "item" : "23.0",
+            "count" : 15
+          }, {
+            "item" : "3.4",
+            "count" : 14
+          }, {
+            "item" : "13.6",
+            "count" : 13
+          }, {
+            "item" : "18.8",
+            "count" : 12
+          }, {
+            "item" : "24.8",
+            "count" : 11
+          }, {
+            "item" : "20.6",
+            "count" : 10
+          }, {
+            "item" : "28.7",
+            "count" : 9
+          }, {
+            "item" : "23.1",
+            "count" : 8
+          }, {
+            "item" : "17.7",
+            "count" : 7
+          }, {
+            "item" : "14.7",
+            "count" : 6
+          } ],
+          "smallest" : "1.2",
+          "sum" : "875.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780458,
+        "name" : "viol13",
+        "dataTypeName" : "number",
+        "fieldName" : "viol13",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319690,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "15.57142857142857",
+          "largest" : "67.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9.2",
+            "count" : 20
+          }, {
+            "item" : "15.4",
+            "count" : 19
+          }, {
+            "item" : "2.3",
+            "count" : 18
+          }, {
+            "item" : "9.6",
+            "count" : 17
+          }, {
+            "item" : "11.6",
+            "count" : 16
+          }, {
+            "item" : "22.4",
+            "count" : 15
+          }, {
+            "item" : "2.8",
+            "count" : 14
+          }, {
+            "item" : "12.6",
+            "count" : 13
+          }, {
+            "item" : "16.9",
+            "count" : 12
+          }, {
+            "item" : "23.8",
+            "count" : 11
+          }, {
+            "item" : "18.6",
+            "count" : 10
+          }, {
+            "item" : "21.9",
+            "count" : 9
+          }, {
+            "item" : "22.0",
+            "count" : 8
+          }, {
+            "item" : "20.6",
+            "count" : 7
+          }, {
+            "item" : "14.8",
+            "count" : 6
+          } ],
+          "smallest" : "1.0",
+          "sum" : "872.0"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780648,
+        "name" : "viol14",
+        "dataTypeName" : "number",
+        "description" : "Violent Crime Rate per 1,000 Residents (2014)",
+        "fieldName" : "viol14",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627040,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "14.54107142857143",
+          "largest" : "58.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9.0",
+            "count" : 20
+          }, {
+            "item" : "7.8",
+            "count" : 19
+          }, {
+            "item" : "17.3",
+            "count" : 18
+          }, {
+            "item" : "17.4",
+            "count" : 17
+          }, {
+            "item" : "22.2",
+            "count" : 16
+          }, {
+            "item" : "20.5",
+            "count" : 15
+          }, {
+            "item" : "2.3",
+            "count" : 14
+          }, {
+            "item" : "12.5",
+            "count" : 13
+          }, {
+            "item" : "17.2",
+            "count" : 12
+          }, {
+            "item" : "23.9",
+            "count" : 11
+          }, {
+            "item" : "17.9",
+            "count" : 10
+          }, {
+            "item" : "20.8",
+            "count" : 9
+          }, {
+            "item" : "25.1",
+            "count" : 8
+          }, {
+            "item" : "16.0",
+            "count" : 7
+          }, {
+            "item" : "13.7",
+            "count" : 6
+          } ],
+          "smallest" : "0.5",
+          "sum" : "814.3"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780459,
+        "name" : "prop11",
+        "dataTypeName" : "number",
+        "fieldName" : "prop11",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319691,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "53.825",
+          "largest" : "323.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "85.6",
+            "count" : 20
+          }, {
+            "item" : "61.2",
+            "count" : 19
+          }, {
+            "item" : "44.8",
+            "count" : 18
+          }, {
+            "item" : "37.9",
+            "count" : 17
+          }, {
+            "item" : "59.8",
+            "count" : 16
+          }, {
+            "item" : "42.6",
+            "count" : 15
+          }, {
+            "item" : "21.8",
+            "count" : 14
+          }, {
+            "item" : "53.2",
+            "count" : 13
+          }, {
+            "item" : "37.0",
+            "count" : 12
+          }, {
+            "item" : "57.8",
+            "count" : 11
+          }, {
+            "item" : "53.0",
+            "count" : 10
+          }, {
+            "item" : "84.9",
+            "count" : 9
+          }, {
+            "item" : "61.5",
+            "count" : 8
+          }, {
+            "item" : "48.5",
+            "count" : 7
+          } ],
+          "smallest" : "14.0",
+          "sum" : "3014.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780460,
+        "name" : "prop12",
+        "dataTypeName" : "number",
+        "fieldName" : "prop12",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319692,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "50.975",
+          "largest" : "266.5",
+          "null" : 0,
+          "top" : [ {
+            "item" : "37.3",
+            "count" : 20
+          }, {
+            "item" : "61.2",
+            "count" : 19
+          }, {
+            "item" : "50.8",
+            "count" : 18
+          }, {
+            "item" : "38.3",
+            "count" : 17
+          }, {
+            "item" : "47.0",
+            "count" : 16
+          }, {
+            "item" : "40.3",
+            "count" : 15
+          }, {
+            "item" : "49.8",
+            "count" : 14
+          }, {
+            "item" : "48.2",
+            "count" : 13
+          }, {
+            "item" : "37.0",
+            "count" : 12
+          }, {
+            "item" : "51.2",
+            "count" : 11
+          }, {
+            "item" : "59.7",
+            "count" : 10
+          }, {
+            "item" : "58.7",
+            "count" : 9
+          }, {
+            "item" : "98.3",
+            "count" : 8
+          }, {
+            "item" : "58.9",
+            "count" : 7
+          } ],
+          "smallest" : "13.5",
+          "sum" : "2854.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780461,
+        "name" : "prop13",
+        "dataTypeName" : "number",
+        "fieldName" : "prop13",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319693,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "51.16607142857143",
+          "largest" : "220.9",
+          "null" : 0,
+          "top" : [ {
+            "item" : "35.2",
+            "count" : 20
+          }, {
+            "item" : "69.6",
+            "count" : 19
+          }, {
+            "item" : "43.8",
+            "count" : 18
+          }, {
+            "item" : "42.3",
+            "count" : 17
+          }, {
+            "item" : "58.0",
+            "count" : 16
+          }, {
+            "item" : "44.4",
+            "count" : 15
+          }, {
+            "item" : "44.3",
+            "count" : 14
+          }, {
+            "item" : "49.2",
+            "count" : 13
+          }, {
+            "item" : "40.5",
+            "count" : 12
+          }, {
+            "item" : "58.5",
+            "count" : 11
+          }, {
+            "item" : "61.8",
+            "count" : 10
+          }, {
+            "item" : "55.4",
+            "count" : 9
+          }, {
+            "item" : "118.7",
+            "count" : 8
+          }, {
+            "item" : "51.4",
+            "count" : 7
+          }, {
+            "item" : "47.6",
+            "count" : 6
+          } ],
+          "smallest" : "16.1",
+          "sum" : "2865.3"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780701,
+        "name" : "prop14",
+        "dataTypeName" : "number",
+        "description" : "Property Crime Rate per 1,000 Residents (2014)",
+        "fieldName" : "prop14",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627087,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "49.25178571428571",
+          "largest" : "180.0",
+          "null" : 0,
+          "top" : [ {
+            "item" : "26.5",
+            "count" : 20
+          }, {
+            "item" : "56.6",
+            "count" : 19
+          }, {
+            "item" : "41.1",
+            "count" : 18
+          }, {
+            "item" : "37.0",
+            "count" : 17
+          }, {
+            "item" : "58.8",
+            "count" : 16
+          }, {
+            "item" : "41.9",
+            "count" : 15
+          }, {
+            "item" : "47.1",
+            "count" : 14
+          }, {
+            "item" : "70.3",
+            "count" : 13
+          }, {
+            "item" : "33.8",
+            "count" : 12
+          }, {
+            "item" : "55.8",
+            "count" : 11
+          }, {
+            "item" : "55.2",
+            "count" : 10
+          }, {
+            "item" : "113.4",
+            "count" : 9
+          }, {
+            "item" : "54.8",
+            "count" : 8
+          }, {
+            "item" : "45.9",
+            "count" : 7
+          } ],
+          "smallest" : "14.0",
+          "sum" : "2758.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780462,
+        "name" : "juvarr11",
+        "dataTypeName" : "number",
+        "fieldName" : "juvarr11",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319694,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "98.13035714285714",
+          "largest" : "1005.6",
+          "null" : 0,
+          "top" : [ {
+            "item" : "54.8",
+            "count" : 20
+          }, {
+            "item" : "46.5",
+            "count" : 19
+          }, {
+            "item" : "100.7",
+            "count" : 18
+          }, {
+            "item" : "64.6",
+            "count" : 17
+          }, {
+            "item" : "111.9",
+            "count" : 16
+          }, {
+            "item" : "211.6",
+            "count" : 15
+          }, {
+            "item" : "69.9",
+            "count" : 14
+          }, {
+            "item" : "20.1",
+            "count" : 13
+          }, {
+            "item" : "67.6",
+            "count" : 12
+          }, {
+            "item" : "132.7",
+            "count" : 11
+          }, {
+            "item" : "44.2",
+            "count" : 10
+          }, {
+            "item" : "250.2",
+            "count" : 9
+          }, {
+            "item" : "91.7",
+            "count" : 8
+          }, {
+            "item" : "41.9",
+            "count" : 7
+          }, {
+            "item" : "79.2",
+            "count" : 6
+          } ],
+          "smallest" : "13.8",
+          "sum" : "5495.3"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780463,
+        "name" : "juvviol11",
+        "dataTypeName" : "number",
+        "fieldName" : "juvviol11",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319695,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "23.23928571428571",
+          "largest" : "355.6",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4.7",
+            "count" : 20
+          }, {
+            "item" : "13.4",
+            "count" : 19
+          }, {
+            "item" : "7.1",
+            "count" : 18
+          }, {
+            "item" : "10.5",
+            "count" : 17
+          }, {
+            "item" : "19.9",
+            "count" : 16
+          }, {
+            "item" : "21.8",
+            "count" : 15
+          }, {
+            "item" : "10.8",
+            "count" : 14
+          }, {
+            "item" : "3.7",
+            "count" : 13
+          }, {
+            "item" : "15.7",
+            "count" : 12
+          }, {
+            "item" : "15.8",
+            "count" : 11
+          }, {
+            "item" : "10.7",
+            "count" : 10
+          }, {
+            "item" : "33.4",
+            "count" : 9
+          }, {
+            "item" : "17.9",
+            "count" : 8
+          }, {
+            "item" : "16.6",
+            "count" : 7
+          } ],
+          "smallest" : "1.0",
+          "sum" : "1301.4"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780464,
+        "name" : "juvdrug11",
+        "dataTypeName" : "number",
+        "fieldName" : "juvdrug11",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319696,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "30.51607142857143",
+          "largest" : "227.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.3",
+            "count" : 20
+          }, {
+            "item" : "20.9",
+            "count" : 19
+          }, {
+            "item" : "66.1",
+            "count" : 18
+          }, {
+            "item" : "35.5",
+            "count" : 17
+          }, {
+            "item" : "48.7",
+            "count" : 16
+          }, {
+            "item" : "107.9",
+            "count" : 15
+          }, {
+            "item" : "0.0",
+            "count" : 14
+          }, {
+            "item" : "9.2",
+            "count" : 13
+          }, {
+            "item" : "29.4",
+            "count" : 12
+          }, {
+            "item" : "81.4",
+            "count" : 11
+          }, {
+            "item" : "12.0",
+            "count" : 10
+          }, {
+            "item" : "137.8",
+            "count" : 9
+          }, {
+            "item" : "38.0",
+            "count" : 8
+          }, {
+            "item" : "15.1",
+            "count" : 7
+          }, {
+            "item" : "30.3",
+            "count" : 6
+          } ],
+          "smallest" : "0.0",
+          "sum" : "1708.9"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780465,
+        "name" : "domvio10",
+        "dataTypeName" : "number",
+        "fieldName" : "domvio10",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319697,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "52.21071428571429",
+          "largest" : "91.9",
+          "null" : 0,
+          "top" : [ {
+            "item" : "54.3",
+            "count" : 20
+          }, {
+            "item" : "53.5",
+            "count" : 19
+          }, {
+            "item" : "63.2",
+            "count" : 18
+          }, {
+            "item" : "51.1",
+            "count" : 17
+          }, {
+            "item" : "64.5",
+            "count" : 16
+          }, {
+            "item" : "59.5",
+            "count" : 15
+          }, {
+            "item" : "19.4",
+            "count" : 14
+          }, {
+            "item" : "59.4",
+            "count" : 13
+          }, {
+            "item" : "57.1",
+            "count" : 12
+          }, {
+            "item" : "72.0",
+            "count" : 11
+          }, {
+            "item" : "61.1",
+            "count" : 10
+          }, {
+            "item" : "64.9",
+            "count" : 9
+          }, {
+            "item" : "83.0",
+            "count" : 8
+          }, {
+            "item" : "52.8",
+            "count" : 7
+          }, {
+            "item" : "50.5",
+            "count" : 6
+          } ],
+          "smallest" : "19.4",
+          "sum" : "2923.8"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780466,
+        "name" : "domvio11",
+        "dataTypeName" : "number",
+        "fieldName" : "domvio11",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319698,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "55.58571428571429",
+          "largest" : "102.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "39.9",
+            "count" : 20
+          }, {
+            "item" : "60.2",
+            "count" : 19
+          }, {
+            "item" : "63.0",
+            "count" : 18
+          }, {
+            "item" : "50.9",
+            "count" : 17
+          }, {
+            "item" : "68.6",
+            "count" : 16
+          }, {
+            "item" : "67.9",
+            "count" : 15
+          }, {
+            "item" : "22.1",
+            "count" : 14
+          }, {
+            "item" : "63.9",
+            "count" : 13
+          }, {
+            "item" : "64.1",
+            "count" : 12
+          }, {
+            "item" : "77.2",
+            "count" : 11
+          }, {
+            "item" : "68.7",
+            "count" : 10
+          }, {
+            "item" : "62.9",
+            "count" : 9
+          }, {
+            "item" : "80.1",
+            "count" : 8
+          }, {
+            "item" : "63.1",
+            "count" : 7
+          }, {
+            "item" : "53.7",
+            "count" : 6
+          } ],
+          "smallest" : "19.4",
+          "sum" : "3112.8"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780923,
+        "name" : "domvio12",
+        "dataTypeName" : "number",
+        "description" : "Domestic Violence Calls For Service per 1,000 Residents (2012)",
+        "fieldName" : "domvio12",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627129,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "53.89821428571429",
+          "largest" : "87.4",
+          "null" : 0,
+          "top" : [ {
+            "item" : "45.4",
+            "count" : 20
+          }, {
+            "item" : "60.5",
+            "count" : 19
+          }, {
+            "item" : "58.9",
+            "count" : 18
+          }, {
+            "item" : "50.5",
+            "count" : 17
+          }, {
+            "item" : "69.6",
+            "count" : 16
+          }, {
+            "item" : "67.9",
+            "count" : 15
+          }, {
+            "item" : "39.2",
+            "count" : 14
+          }, {
+            "item" : "58.5",
+            "count" : 13
+          }, {
+            "item" : "55.3",
+            "count" : 12
+          }, {
+            "item" : "65.2",
+            "count" : 11
+          }, {
+            "item" : "65.7",
+            "count" : 10
+          }, {
+            "item" : "70.7",
+            "count" : 9
+          }, {
+            "item" : "87.4",
+            "count" : 8
+          }, {
+            "item" : "58.6",
+            "count" : 7
+          }, {
+            "item" : "52.1",
+            "count" : 6
+          } ],
+          "smallest" : "20.6",
+          "sum" : "3018.3"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780467,
+        "name" : "shoot11",
+        "dataTypeName" : "number",
+        "fieldName" : "shoot11",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319699,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "2.466071428571429",
+          "largest" : "12.0",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2.5",
+            "count" : 20
+          }, {
+            "item" : "2.0",
+            "count" : 19
+          }, {
+            "item" : "1.5",
+            "count" : 18
+          }, {
+            "item" : "2.9",
+            "count" : 17
+          }, {
+            "item" : "0.0",
+            "count" : 16
+          }, {
+            "item" : "0.8",
+            "count" : 15
+          }, {
+            "item" : "6.0",
+            "count" : 14
+          }, {
+            "item" : "0.3",
+            "count" : 13
+          }, {
+            "item" : "0.9",
+            "count" : 12
+          }, {
+            "item" : "7.3",
+            "count" : 11
+          }, {
+            "item" : "1.0",
+            "count" : 10
+          }, {
+            "item" : "2.3",
+            "count" : 9
+          }, {
+            "item" : "12.0",
+            "count" : 8
+          }, {
+            "item" : "0.6",
+            "count" : 7
+          }, {
+            "item" : "3.5",
+            "count" : 6
+          }, {
+            "item" : "0.5",
+            "count" : 5
+          }, {
+            "item" : "1.7",
+            "count" : 4
+          }, {
+            "item" : "2.4",
+            "count" : 3
+          }, {
+            "item" : "3.0",
+            "count" : 2
+          }, {
+            "item" : "0.1",
+            "count" : 1
+          } ],
+          "smallest" : "0.0",
+          "sum" : "138.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780930,
+        "name" : "shoot12",
+        "dataTypeName" : "number",
+        "description" : "Number of Shootings per 1,000 Residents (2012)",
+        "fieldName" : "shoot12",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627130,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 52,
+          "average" : "2.790384615384615",
+          "largest" : "12.1",
+          "null" : 4,
+          "top" : [ {
+            "item" : "2.3",
+            "count" : 20
+          }, {
+            "item" : "1.1",
+            "count" : 19
+          }, {
+            "item" : "2.2",
+            "count" : 18
+          }, {
+            "item" : "2.1",
+            "count" : 17
+          }, {
+            "item" : "0.1",
+            "count" : 16
+          }, {
+            "item" : "0.8",
+            "count" : 15
+          }, {
+            "item" : "5.2",
+            "count" : 14
+          }, {
+            "item" : "1.2",
+            "count" : 13
+          }, {
+            "item" : "1.5",
+            "count" : 12
+          }, {
+            "item" : "3.9",
+            "count" : 11
+          }, {
+            "item" : "2.4",
+            "count" : 10
+          }, {
+            "item" : "1.9",
+            "count" : 9
+          }, {
+            "item" : "10.4",
+            "count" : 8
+          }, {
+            "item" : "2.0",
+            "count" : 7
+          }, {
+            "item" : "0.2",
+            "count" : 6
+          }, {
+            "item" : "3.5",
+            "count" : 5
+          }, {
+            "item" : "1.8",
+            "count" : 4
+          }, {
+            "item" : "1.7",
+            "count" : 3
+          }, {
+            "item" : "3.3",
+            "count" : 2
+          }, {
+            "item" : "3.8",
+            "count" : 1
+          } ],
+          "smallest" : "0.1",
+          "sum" : "145.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780468,
+        "name" : "caslt11",
+        "dataTypeName" : "number",
+        "fieldName" : "caslt11",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319700,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "93.78035714285714",
+          "largest" : "599.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "59.2",
+            "count" : 20
+          }, {
+            "item" : "89.1",
+            "count" : 19
+          }, {
+            "item" : "131.6",
+            "count" : 18
+          }, {
+            "item" : "100.5",
+            "count" : 17
+          }, {
+            "item" : "157.3",
+            "count" : 16
+          }, {
+            "item" : "156.0",
+            "count" : 15
+          }, {
+            "item" : "28.8",
+            "count" : 14
+          }, {
+            "item" : "4.6",
+            "count" : 13
+          }, {
+            "item" : "106.1",
+            "count" : 12
+          }, {
+            "item" : "173.8",
+            "count" : 11
+          }, {
+            "item" : "95.6",
+            "count" : 10
+          }, {
+            "item" : "147.0",
+            "count" : 9
+          }, {
+            "item" : "151.0",
+            "count" : 8
+          }, {
+            "item" : "113.8",
+            "count" : 7
+          }, {
+            "item" : "85.4",
+            "count" : 6
+          } ],
+          "smallest" : "4.6",
+          "sum" : "5251.7"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780954,
+        "name" : "caslt12",
+        "dataTypeName" : "number",
+        "description" : "Number of Common Assault Calls for Service per 1,000 Residents (2012)",
+        "fieldName" : "caslt12",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627154,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "97.83928571428571",
+          "largest" : "467.9",
+          "null" : 0,
+          "top" : [ {
+            "item" : "55.1",
+            "count" : 20
+          }, {
+            "item" : "93.4",
+            "count" : 19
+          }, {
+            "item" : "121.1",
+            "count" : 18
+          }, {
+            "item" : "109.9",
+            "count" : 17
+          }, {
+            "item" : "163.2",
+            "count" : 16
+          }, {
+            "item" : "153.6",
+            "count" : 15
+          }, {
+            "item" : "48.2",
+            "count" : 14
+          }, {
+            "item" : "100.5",
+            "count" : 13
+          }, {
+            "item" : "90.8",
+            "count" : 12
+          }, {
+            "item" : "167.8",
+            "count" : 11
+          }, {
+            "item" : "104.7",
+            "count" : 10
+          }, {
+            "item" : "166.5",
+            "count" : 9
+          }, {
+            "item" : "170.8",
+            "count" : 8
+          }, {
+            "item" : "104.1",
+            "count" : 7
+          }, {
+            "item" : "91.4",
+            "count" : 6
+          } ],
+          "smallest" : "12.5",
+          "sum" : "5479.0"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780469,
+        "name" : "narc11",
+        "dataTypeName" : "number",
+        "fieldName" : "narc11",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319701,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "92.49464285714286",
+          "largest" : "464.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.6",
+            "count" : 20
+          }, {
+            "item" : "62.9",
+            "count" : 19
+          }, {
+            "item" : "287.3",
+            "count" : 18
+          }, {
+            "item" : "188.3",
+            "count" : 17
+          }, {
+            "item" : "208.6",
+            "count" : 16
+          }, {
+            "item" : "464.8",
+            "count" : 15
+          }, {
+            "item" : "21.5",
+            "count" : 14
+          }, {
+            "item" : "42.5",
+            "count" : 13
+          }, {
+            "item" : "116.7",
+            "count" : 12
+          }, {
+            "item" : "259.8",
+            "count" : 11
+          }, {
+            "item" : "53.3",
+            "count" : 10
+          }, {
+            "item" : "215.5",
+            "count" : 9
+          }, {
+            "item" : "147.0",
+            "count" : 8
+          }, {
+            "item" : "38.2",
+            "count" : 7
+          }, {
+            "item" : "90.0",
+            "count" : 6
+          } ],
+          "smallest" : "1.6",
+          "sum" : "5179.7"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780931,
+        "name" : "narc12",
+        "dataTypeName" : "number",
+        "description" : "Number of Narcotics Calls for Service per 1,000 Residents (2012)",
+        "fieldName" : "narc12",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627131,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "93.82321428571429",
+          "largest" : "406.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.7",
+            "count" : 20
+          }, {
+            "item" : "68.0",
+            "count" : 19
+          }, {
+            "item" : "210.6",
+            "count" : 18
+          }, {
+            "item" : "215.8",
+            "count" : 17
+          }, {
+            "item" : "259.9",
+            "count" : 16
+          }, {
+            "item" : "406.2",
+            "count" : 15
+          }, {
+            "item" : "26.2",
+            "count" : 14
+          }, {
+            "item" : "70.9",
+            "count" : 13
+          }, {
+            "item" : "152.9",
+            "count" : 12
+          }, {
+            "item" : "244.1",
+            "count" : 11
+          }, {
+            "item" : "47.1",
+            "count" : 10
+          }, {
+            "item" : "183.0",
+            "count" : 9
+          }, {
+            "item" : "185.0",
+            "count" : 8
+          }, {
+            "item" : "57.0",
+            "count" : 7
+          }, {
+            "item" : "89.7",
+            "count" : 6
+          } ],
+          "smallest" : "1.0",
+          "sum" : "5254.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780470,
+        "name" : "caracc11",
+        "dataTypeName" : "number",
+        "fieldName" : "caracc11",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319702,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "60.76785714285714",
+          "largest" : "550.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "45.4",
+            "count" : 20
+          }, {
+            "item" : "28.1",
+            "count" : 19
+          }, {
+            "item" : "39.3",
+            "count" : 18
+          }, {
+            "item" : "37.4",
+            "count" : 17
+          }, {
+            "item" : "51.9",
+            "count" : 16
+          }, {
+            "item" : "39.4",
+            "count" : 15
+          }, {
+            "item" : "21.5",
+            "count" : 14
+          }, {
+            "item" : "79.4",
+            "count" : 13
+          }, {
+            "item" : "38.5",
+            "count" : 12
+          }, {
+            "item" : "46.4",
+            "count" : 11
+          }, {
+            "item" : "64.9",
+            "count" : 10
+          }, {
+            "item" : "43.0",
+            "count" : 9
+          }, {
+            "item" : "123.8",
+            "count" : 8
+          }, {
+            "item" : "73.7",
+            "count" : 7
+          }, {
+            "item" : "54.4",
+            "count" : 6
+          } ],
+          "smallest" : "9.6",
+          "sum" : "3403.0"
+        },
+        "format" : { }
+      }, {
+        "id" : 250781091,
+        "name" : "caracc12",
+        "dataTypeName" : "number",
+        "description" : "Number of Automobile Accident Calls for Service per 1,000 Residents (2012)",
+        "fieldName" : "caracc12",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627264,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "57.89821428571429",
+          "largest" : "429.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "41.4",
+            "count" : 20
+          }, {
+            "item" : "33.2",
+            "count" : 19
+          }, {
+            "item" : "41.5",
+            "count" : 18
+          }, {
+            "item" : "38.0",
+            "count" : 17
+          }, {
+            "item" : "55.6",
+            "count" : 16
+          }, {
+            "item" : "40.4",
+            "count" : 15
+          }, {
+            "item" : "33.4",
+            "count" : 14
+          }, {
+            "item" : "84.5",
+            "count" : 13
+          }, {
+            "item" : "40.2",
+            "count" : 12
+          }, {
+            "item" : "50.1",
+            "count" : 11
+          }, {
+            "item" : "55.7",
+            "count" : 10
+          }, {
+            "item" : "52.9",
+            "count" : 9
+          }, {
+            "item" : "121.9",
+            "count" : 8
+          }, {
+            "item" : "79.6",
+            "count" : 7
+          }, {
+            "item" : "51.3",
+            "count" : 6
+          } ],
+          "smallest" : "10.5",
+          "sum" : "3242.3"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780471,
+        "name" : "gunhom11",
+        "dataTypeName" : "number",
+        "fieldName" : "gunhom11",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319703,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "0.2392857142857143",
+          "largest" : "1.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.2",
+            "count" : 20
+          }, {
+            "item" : "0.3",
+            "count" : 19
+          }, {
+            "item" : "0.0",
+            "count" : 18
+          }, {
+            "item" : "0.5",
+            "count" : 17
+          }, {
+            "item" : "0.1",
+            "count" : 16
+          }, {
+            "item" : "0.6",
+            "count" : 15
+          }, {
+            "item" : "0.4",
+            "count" : 14
+          }, {
+            "item" : "1.1",
+            "count" : 13
+          }, {
+            "item" : "0.7",
+            "count" : 12
+          } ],
+          "smallest" : "0.0",
+          "sum" : "13.4"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780472,
+        "name" : "gunhom12",
+        "dataTypeName" : "number",
+        "fieldName" : "gunhom12",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319704,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "0.3035714285714286",
+          "largest" : "1.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.6",
+            "count" : 20
+          }, {
+            "item" : "0.2",
+            "count" : 19
+          }, {
+            "item" : "0.3",
+            "count" : 18
+          }, {
+            "item" : "0.0",
+            "count" : 17
+          }, {
+            "item" : "0.4",
+            "count" : 16
+          }, {
+            "item" : "0.1",
+            "count" : 15
+          }, {
+            "item" : "0.8",
+            "count" : 14
+          }, {
+            "item" : "0.5",
+            "count" : 13
+          }, {
+            "item" : "1.3",
+            "count" : 12
+          }, {
+            "item" : "0.7",
+            "count" : 11
+          }, {
+            "item" : "0.9",
+            "count" : 10
+          } ],
+          "smallest" : "0.0",
+          "sum" : "17.0"
+        },
+        "format" : { }
+      }, {
+        "id" : 250780473,
+        "name" : "gunhom13",
+        "dataTypeName" : "number",
+        "fieldName" : "gunhom13",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28319705,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "0.3071428571428571",
+          "largest" : "1.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.4",
+            "count" : 20
+          }, {
+            "item" : "0.0",
+            "count" : 19
+          }, {
+            "item" : "0.5",
+            "count" : 18
+          }, {
+            "item" : "0.1",
+            "count" : 17
+          }, {
+            "item" : "0.6",
+            "count" : 16
+          }, {
+            "item" : "0.2",
+            "count" : 15
+          }, {
+            "item" : "0.3",
+            "count" : 14
+          }, {
+            "item" : "1.0",
+            "count" : 13
+          }, {
+            "item" : "1.2",
+            "count" : 12
+          }, {
+            "item" : "1.1",
+            "count" : 11
+          }, {
+            "item" : "0.9",
+            "count" : 10
+          }, {
+            "item" : "0.7",
+            "count" : 9
+          } ],
+          "smallest" : "0.0",
+          "sum" : "17.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 250781175,
+        "name" : "gunhom14",
+        "dataTypeName" : "number",
+        "description" : "Rate of Gun Homicides per 1,000 Residents (2014)",
+        "fieldName" : "gunhom14",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627348,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 43,
+          "average" : "0.3302325581395349",
+          "largest" : "0.8",
+          "null" : 13,
+          "top" : [ {
+            "item" : "0.4",
+            "count" : 20
+          }, {
+            "item" : "0.1",
+            "count" : 19
+          }, {
+            "item" : "0.3",
+            "count" : 18
+          }, {
+            "item" : "0.2",
+            "count" : 17
+          }, {
+            "item" : "0.6",
+            "count" : 16
+          }, {
+            "item" : "0.8",
+            "count" : 15
+          }, {
+            "item" : "0.5",
+            "count" : 14
+          }, {
+            "item" : "0.7",
+            "count" : 13
+          } ],
+          "smallest" : "0.1",
+          "sum" : "14.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 250781183,
+        "name" : "arrest14",
+        "dataTypeName" : "number",
+        "description" : "Number of Adult Arrests per 1,000 Residents (Over Age of 18) (2014)",
+        "fieldName" : "arrest14",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35627350,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 56,
+          "average" : "54.61428571428571",
+          "largest" : "241.5",
+          "null" : 0,
+          "top" : [ {
+            "item" : "88.4",
+            "count" : 20
+          }, {
+            "item" : "56.8",
+            "count" : 19
+          }, {
+            "item" : "94.1",
+            "count" : 18
+          }, {
+            "item" : "73.7",
+            "count" : 17
+          }, {
+            "item" : "82.6",
+            "count" : 16
+          }, {
+            "item" : "107.5",
+            "count" : 15
+          }, {
+            "item" : "21.3",
+            "count" : 14
+          }, {
+            "item" : "85.0",
+            "count" : 13
+          }, {
+            "item" : "47.1",
+            "count" : 12
+          }, {
+            "item" : "147.3",
+            "count" : 11
+          }, {
+            "item" : "28.8",
+            "count" : 10
+          }, {
+            "item" : "103.3",
+            "count" : 9
+          }, {
+            "item" : "129.5",
+            "count" : 8
+          }, {
+            "item" : "60.7",
+            "count" : 7
+          }, {
+            "item" : "48.7",
+            "count" : 6
+          } ],
+          "smallest" : "1.4",
+          "sum" : "3058.4"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "rowIdentifier" : "0",
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "roleName" : "administrator",
+        "screenName" : "Open Baltimore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "roleName" : "administrator",
+        "screenName" : "Open Baltimore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "crime", "bnia" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "97FFC573-7B40-405F-A253-7C1F4531D9D8", 1, 1460709068, "697390", 1460709068, "697390", null, "Allendale/Irvington/S. Hilton", "40.6", "46.2", "45.4", "47.3", "55.1", "12.6", "12.5", "13.9", "12.6", "10.1", "33.7", "31.6", "33.9", "44.5", "54.8", "12.4", "22.2", "59.4", "65.4", "61.0", "2.5", "2.3", "84.4", "79.7", "78.8", "79.7", "44.0", "43.0", "0.2", "0.6", "0.4", "0.4", "34.5" ]
+, [ 2, "A461B266-3DA0-48B6-B9EF-91B7FB538C56", 2, 1460709068, "697390", 1460709068, "697390", null, "Beechfield/Ten Hills/West Hills", "33.6", "36.1", "36.6", "36.0", "46.6", "8.4", "7.2", "7.0", "6.4", "6.9", "28.9", "29.6", "28.7", "38.7", "22.0", "9.1", "5.3", "47.9", "44.8", "42.4", "2.0", "1.1", "51.2", "50.6", "24.7", "32.6", "31.9", "29.8", "0.2", "0.2", "0.0", "0.1", "16.5" ]
+, [ 3, "63FEF3E5-CEE2-4F4D-88FD-E6B507C0776D", 3, 1460709068, "697390", 1460709068, "697390", null, "Belair-Edison", "50.3", "57.1", "52.7", "57.4", "56.6", "13.3", "14.1", "14.9", "12.3", "10.2", "43.0", "37.7", "43.3", "45.4", "54.8", "17.5", "16.2", "51.1", "57.8", "60.9", "1.5", "2.2", "77.6", "81.5", "50.2", "53.9", "45.4", "46.1", "0.3", "0.3", "0.5", "0.3", "41.6" ]
+, [ 4, "24939917-0DB1-4D98-8298-76489773D9D1", 4, 1460709068, "697390", 1460709068, "697390", null, "Brooklyn/Curtis Bay/Hawkins Point", "81.7", "79.1", "62.1", "61.3", "54.9", "25.3", "21.3", "15.2", "16.1", "14.1", "57.8", "46.9", "43.7", "40.1", "83.3", "16.8", "30.8", "68.0", "74.1", "63.5", "2.9", "2.1", "158.5", "144.6", "101.1", "85.0", "39.9", "39.6", "0.3", "0.2", "0.1", "0.2", "94.1" ]
+, [ 5, "18FF90C1-7467-484E-84FB-CC0FB333DEAC", 5, 1460709068, "697390", 1460709068, "697390", null, "Canton", "61.0", "64.8", "57.9", "56.4", "46.5", "8.3", "7.7", "6.7", "6.9", "6.3", "57.2", "51.2", "49.1", "39.5", "81.5", "14.8", "7.4", "34.3", "39.6", "35.8", "0.0", "0.1", "46.2", "44.3", "4.0", "3.7", "32.8", "34.6", "0.0", "0.0", "0.0", null, "8.6" ]
+, [ 6, "B4598BEE-F718-446E-8141-180392D8586B", 6, 1460709068, "697390", 1460709068, "697390", null, "Cedonia/Frankford", "43.7", "48.4", "46.7", "52.2", "52.3", "12.0", "11.3", "12.1", "11.8", "12.8", "37.1", "34.6", "39.5", "38.8", "46.5", "9.5", "10.7", "60.2", "70.2", "66.7", "0.8", "0.8", "10.7", "61.6", "22.8", "24.2", "26.5", "24.8", "0.3", "0.3", "0.0", "0.4", "21.7" ]
+, [ 7, "10847AB4-A99B-47E4-8D1E-AC2DCA617851", 7, 1460709068, "697390", 1460709068, "697390", null, "Cherry Hill", "60.0", "64.7", "59.1", "50.6", "53.5", "22.6", "22.2", "19.6", "16.2", "15.5", "42.6", "39.5", "33.2", "37.1", "61.6", "13.8", "29.4", "62.9", "71.1", "78.6", "6.0", "5.2", "110.2", "125.1", "97.4", "94.6", "25.2", "21.6", "0.5", "0.4", "0.4", "0.1", "77.0" ]
+, [ 8, "4491E50F-B905-43FD-9F70-D6B39A158936", 8, 1460709068, "697390", 1460709068, "697390", null, "Chinquapin Park/Belvedere", "43.6", "33.4", "44.5", "42.8", "47.7", "12.6", "7.1", "9.0", "9.2", "9.0", "26.3", "35.5", "32.9", "37.9", "37.9", "10.2", "7.3", "39.7", "44.2", "47.3", "0.3", "1.2", "60.1", "64.0", "17.9", "27.2", "38.9", "35.1", "0.0", "0.4", "0.1", null, "13.4" ]
+, [ 9, "467F5F26-CC53-4CCF-B5E0-2950270E3BAF", 9, 1460709068, "697390", 1460709068, "697390", null, "Claremont/Armistead", "52.6", "63.2", "49.0", "50.1", "46.3", "13.2", "12.6", "8.9", "7.9", "9.8", "50.5", "40.1", "41.7", "36.0", "18.7", "7.7", "3.3", "60.4", "68.8", "67.4", "0.9", "1.5", "10.9", "67.8", "19.9", "25.4", "60.1", "64.4", "0.1", "0.1", "0.0", null, "29.2" ]
+, [ 10, "BDC81FE0-65BC-4768-BB3A-6E477C1A7468", 10, 1460709068, "697390", 1460709068, "697390", null, "Clifton-Berea", "57.9", "61.0", "56.4", "57.1", "55.0", "23.3", "23.5", "20.0", "15.4", "16.8", "37.5", "36.5", "40.2", "36.8", "144.9", "33.2", "63.7", "49.7", "63.5", "61.8", "7.3", "3.9", "121.0", "130.5", "201.9", "264.8", "47.0", "45.8", "0.6", "0.8", "0.6", "0.6", "131.9" ]
+, [ 11, "0D8E6FEC-1D99-4625-994C-824E3F0B2887", 11, 1460709068, "697390", 1460709068, "697390", null, "Cross-Country/Cheswolde", "15.4", "15.3", "14.7", "17.5", "14.6", "1.8", "1.2", "1.2", "1.0", "0.5", "14.0", "13.5", "16.1", "14.0", "13.8", "1.4", "0.0", "22.6", "19.4", "20.6", "0.0", null, "12.2", "12.5", "1.6", "1.0", "9.6", "10.5", "0.0", "0.0", "0.0", null, "1.4" ]
+, [ 12, "93712998-A2E1-4307-83C4-72CDCA50BE52", 12, 1460709068, "697390", 1460709068, "697390", null, "Dickeyville/Franklintown", "49.5", "42.2", "38.0", "38.0", "29.3", "7.1", "6.1", "8.5", "7.8", "7.8", "36.1", "29.5", "29.7", "21.2", "29.5", "6.8", "11.3", "55.4", "57.5", "45.4", "1.0", "2.4", "67.5", "57.5", "19.3", "45.6", "51.0", "44.9", "0.0", "0.5", "0.0", null, "28.6" ]
+, [ 13, "6BFB3309-B469-409E-BE55-0D4C9A7EC001", 13, 1460709068, "697390", 1460709068, "697390", null, "Dorchester/Ashburton", "52.4", "50.7", "48.7", "55.1", "56.4", "15.4", "16.4", "13.5", "14.5", "12.6", "34.3", "35.2", "38.8", "42.8", "56.3", "11.8", "14.3", "51.6", "49.0", "52.0", "2.3", "1.9", "82.7", "84.3", "82.8", "101.7", "45.8", "37.1", "0.3", "0.3", "0.1", "0.6", "28.3" ]
+, [ 14, "9811784C-A890-47F5-83F7-89A50BA9F760", 14, 1460709068, "697390", 1460709068, "697390", null, "Downtown/Seton Hill", "424.4", "417.4", "331.4", "292.0", "243.3", "97.9", "94.1", "64.8", "67.8", "58.8", "323.3", "266.5", "220.9", "180.0", "1005.6", "355.6", "227.8", "91.9", "102.2", "81.3", "12.0", "10.4", "599.1", "467.9", "389.8", "378.2", "550.2", "429.3", "0.5", "0.2", "0.2", "0.3", "241.5" ]
+, [ 15, "D3298006-2378-4D11-9299-CD275775C47E", 15, 1460709068, "697390", 1460709068, "697390", null, "Edmondson Village", "28.5", "40.5", "43.8", "36.8", "38.9", "8.2", "10.1", "11.1", "8.9", "8.6", "30.4", "32.7", "27.5", "29.7", "58.7", "7.8", "29.9", "43.4", "43.2", "44.3", "2.0", "2.0", "60.6", "62.9", "82.2", "65.4", "28.7", "33.9", "0.5", "0.3", "0.4", "0.8", "25.3" ]
+, [ 16, "D4981B7B-ADFF-437B-ABAF-662953F1A724", 16, 1460709068, "697390", 1460709068, "697390", null, "Fells Point", "62.3", "87.8", "91.0", "78.2", "71.0", "13.5", "17.5", "17.5", "15.4", "13.5", "70.4", "73.6", "61.7", "57.0", "27.5", "3.9", "3.9", "40.5", "39.9", "48.7", "0.6", "0.2", "74.8", "81.0", "13.5", "13.6", "49.9", "50.6", "0.0", "0.0", "0.2", null, "23.5" ]
+, [ 17, "932A3C4F-CF74-41CB-957E-7CAFE938E66A", 17, 1460709068, "697390", 1460709068, "697390", null, "Forest Park/Walbrook", "48.7", "45.3", "46.8", "51.4", "50.0", "10.4", "11.8", "11.8", "13.1", "11.8", "33.5", "35.0", "37.6", "37.8", "27.4", "4.7", "5.7", "51.4", "51.1", "56.7", "3.5", "3.5", "74.1", "88.2", "91.1", "63.0", "31.6", "32.3", "0.6", "0.8", "0.3", "0.4", "24.8" ]
+, [ 18, "3EA99D5D-8D3D-4042-BAC5-9C64335E4E2C", 18, 1460709068, "697390", 1460709068, "697390", null, "Glen-Fallstaff", "53.6", "51.6", "55.0", "58.3", "51.8", "11.7", "11.4", "13.3", "12.2", "11.3", "40.2", "41.6", "44.9", "39.8", "41.4", "4.8", "8.3", "47.2", "49.3", "47.7", "0.5", "1.1", "70.7", "70.5", "54.0", "48.9", "72.6", "72.1", "0.1", "0.0", "0.2", "0.1", "22.4" ]
+, [ 19, "3FB841C6-4AEF-465D-8134-BD93E431DF7F", 19, 1460709068, "697390", 1460709068, "697390", null, "Greater Charles Village/Barclay", "74.3", "67.3", "69.2", "70.1", "68.8", "17.1", "15.2", "16.2", "14.9", "16.7", "52.1", "53.0", "54.1", "51.6", "324.0", "98.0", "46.0", "43.3", "41.3", "47.0", "1.7", "1.8", "76.4", "84.8", "59.7", "59.2", "53.9", "51.6", "0.2", "0.3", "0.3", "0.2", "34.9" ]
+, [ 20, "76CA6201-B223-46C0-879D-C415A548898C", 20, 1460709068, "697390", 1460709068, "697390", null, "Greater Govans", "42.2", "38.2", "44.4", "40.0", "39.9", "12.1", "9.2", "11.2", "9.8", "9.0", "29.0", "33.1", "29.8", "30.6", "39.8", "13.9", "13.9", "45.0", "42.6", "45.6", "2.4", "1.7", "66.9", "70.7", "51.5", "78.3", "34.1", "28.6", "0.2", "0.3", "0.2", "0.4", "58.7" ]
+, [ 21, "C3C7F841-B795-4690-8EA1-3B336EF838F6", 21, 1460709068, "697390", 1460709068, "697390", null, "Greater Mondawmin", "112.4", "107.1", "98.6", "93.9", "102.9", "24.8", "22.0", "27.6", "25.3", "27.4", "85.1", "71.0", "67.5", "74.2", "144.4", "22.0", "38.7", "62.5", "65.5", "60.5", "3.0", "3.3", "132.5", "129.5", "169.9", "168.1", "108.3", "94.9", "0.2", "0.4", "1.0", "0.2", "84.4" ]
+, [ 22, "C0D19F62-2E6A-4597-8370-3648C21A3A8D", 22, 1460709068, "697390", 1460709068, "697390", null, "Greater Roland Park/Poplar Hill", "32.1", "28.6", "29.4", "30.8", "28.2", "2.0", "3.7", "2.0", "2.3", "2.2", "24.9", "27.4", "28.3", "26.0", "21.6", "9.3", "3.1", "32.5", "29.0", "28.5", "0.1", null, "15.6", "14.5", "1.6", "1.9", "69.3", "29.0", "0.0", "0.0", "0.0", null, "3.3" ]
+, [ 23, "73DCC445-9AC5-4BBF-AB28-4D1D041F160F", 23, 1460709068, "697390", 1460709068, "697390", null, "Greater Rosemont", "63.5", "66.4", "60.0", "63.2", "63.0", "19.5", "19.0", "16.9", "19.5", "18.5", "47.4", "43.1", "42.9", "43.4", "107.9", "21.6", "36.7", "64.3", "62.6", "56.9", "4.2", "3.8", "114.8", "114.5", "148.0", "168.6", "37.7", "39.2", "0.4", "0.6", "0.6", "0.4", "56.8" ]
+, [ 24, "5CA11946-6D7E-4CDD-A893-6CE4DC30819C", 24, 1460709068, "697390", 1460709068, "697390", null, "Greenmount East", "57.4", "67.4", "87.5", "79.7", "66.5", "19.7", "22.7", "26.1", "27.0", "19.6", "44.7", "61.3", "51.7", "46.2", "116.6", "7.2", "66.0", "50.0", "63.1", "70.9", "5.9", "12.1", "133.1", "156.4", "222.5", "217.1", "80.9", "91.6", "0.5", "1.3", "1.0", "0.2", "81.9" ]
+, [ 25, "9E2829DD-D283-48A5-BD9E-810848077D76", 25, 1460709068, "697390", 1460709068, "697390", null, "Hamilton", "40.8", "45.4", "42.1", "47.2", "50.1", "9.5", "7.5", "7.2", "9.6", "9.5", "37.9", "34.9", "36.3", "39.9", "28.0", "4.7", "3.3", "42.5", "43.8", "46.5", "0.5", "0.5", "10.5", "50.1", "35.1", "32.7", "42.1", "35.8", "0.1", "0.2", "0.1", "0.1", "14.8" ]
+, [ 26, "31E3E11B-F63B-4D0D-8A70-FEBCDFB127A0", 26, 1460709068, "697390", 1460709068, "697390", null, "Harbor East/Little Italy", "119.3", "165.3", "139.3", "155.5", "159.4", "28.5", "24.0", "27.2", "32.2", "28.1", "141.3", "112.1", "119.5", "129.5", "116.9", "49.8", "17.3", "74.9", "75.5", "67.0", "2.2", "0.4", "149.4", "139.3", "38.7", "42.0", "93.0", "117.3", "0.0", "0.2", "0.4", null, "90.7" ]
+, [ 27, "36B37DFB-4E11-4514-9557-781E4E58042A", 27, 1460709068, "697390", 1460709068, "697390", null, "Harford/Echodale", "41.5", "49.3", "41.5", "45.6", "44.2", "10.7", "11.9", "7.3", "9.6", "8.8", "37.4", "34.1", "35.2", "34.6", "47.2", "10.1", "9.4", "44.1", "49.2", "46.9", "1.1", "0.8", "43.6", "55.1", "29.0", "23.0", "28.1", "28.0", "0.2", "0.1", "0.2", "0.1", "25.7" ]
+, [ 28, "A3944E8D-AD44-4E51-9869-97A1C271010A", 28, 1460709068, "697390", 1460709068, "697390", null, "Highlandtown", "77.5", "71.4", "76.1", "96.1", "88.8", "20.7", "16.6", "20.8", "21.1", "20.8", "54.9", "55.3", "74.3", "67.0", "70.3", "15.3", "24.5", "46.2", "52.8", "56.6", "0.3", "2.2", "98.9", "105.7", "59.9", "78.2", "50.9", "50.9", "0.0", "0.3", "0.1", "0.3", "66.6" ]
+, [ 29, "D93D6E09-2EB4-4D71-AFEC-EDACE27E59FB", 29, 1460709068, "697390", 1460709068, "697390", null, "Howard Park/West Arlington", "50.5", "48.2", "47.0", "57.6", "45.3", "11.4", "12.9", "9.7", "11.6", "7.8", "35.3", "37.3", "45.2", "36.5", "46.5", "11.2", "9.3", "46.3", "45.5", "46.1", "1.1", "1.6", "61.3", "54.3", "39.3", "32.0", "54.4", "52.7", "0.1", "0.1", "0.4", "0.2", "13.6" ]
+, [ 30, "7DA7ABD6-24B7-4AB1-B2A3-CFE3A506B4FF", 30, 1460709068, "697390", 1460709068, "697390", null, "Inner Harbor/Federal Hill", "165.2", "128.3", "97.8", "88.3", "79.3", "18.7", "16.9", "13.1", "11.6", "10.4", "111.4", "84.6", "75.7", "68.4", "359.0", "83.3", "48.1", "57.3", "61.7", "41.5", "0.5", "0.5", "122.5", "72.0", "39.5", "29.6", "119.8", "72.8", "0.1", "0.1", "0.1", null, "26.0" ]
+, [ 31, "6CE6398E-D859-48FA-999D-2155AE8258F2", 31, 1460709068, "697390", 1460709068, "697390", null, "Lauraville", "39.6", "47.2", "40.3", "43.3", "38.9", "6.3", "8.6", "7.0", "7.6", "5.9", "38.5", "33.3", "35.2", "32.5", "27.0", "10.5", "4.5", "48.8", "54.8", "44.2", "1.1", "0.7", "58.6", "48.9", "20.5", "28.8", "45.4", "41.4", "0.1", "0.0", "0.2", "0.1", "15.2" ]
+, [ 32, "1163B869-DAD8-4AF1-B09D-6197CA9C9F63", 32, 1460709068, "697390", 1460709068, "697390", null, "Loch Raven", "34.3", "37.8", "42.5", "42.7", "43.7", "8.4", "8.0", "8.7", "11.1", "8.4", "29.8", "33.8", "31.3", "34.7", "20.4", "4.5", "7.0", "45.1", "43.4", "45.4", "0.7", "1.2", "63.7", "55.1", "31.4", "29.1", "38.5", "42.8", "0.0", "0.1", "0.1", "0.1", "14.0" ]
+, [ 33, "04088178-1B56-4C12-AFBE-077B3E86C32B", 33, 1460709068, "697390", 1460709068, "697390", null, "Madison/East End", "65.5", "73.5", "78.5", "86.2", "71.8", "25.1", "20.9", "27.0", "25.8", "24.2", "52.6", "51.5", "59.2", "46.5", "108.3", "13.0", "49.1", "63.2", "75.4", "76.1", "5.0", "4.6", "140.2", "145.1", "170.7", "179.8", "32.1", "35.3", "0.4", "0.6", "1.2", "0.6", "154.6" ]
+, [ 34, "4C90BD1C-0886-4EF1-9885-952595916C37", 34, 1460709068, "697390", 1460709068, "697390", null, "Medfield/Hampden/Woodberry/Remington", "51.2", "46.5", "44.8", "56.4", "51.5", "7.1", "8.9", "7.5", "9.2", "9.1", "37.6", "37.3", "46.1", "42.0", "71.8", "17.1", "13.7", "34.2", "35.3", "30.6", "0.1", "0.2", "64.8", "62.6", "22.1", "20.6", "43.9", "41.4", "0.0", "0.0", "0.1", null, "11.4" ]
+, [ 35, "73C73FCC-DB00-4B49-A496-35FB2D2B4E5D", 35, 1460709068, "697390", 1460709068, "697390", null, "Midtown", "92.9", "99.5", "95.8", "92.0", "84.2", "15.2", "13.9", "14.4", "16.4", "12.3", "85.6", "81.4", "74.8", "70.5", "198.0", "67.1", "63.8", "25.0", "24.1", "23.4", "1.4", "0.9", "67.0", "71.1", "28.6", "33.7", "68.2", "62.0", "0.1", "0.1", "0.1", "0.1", "20.0" ]
+, [ 36, "724E32A6-82A3-48D2-8C66-77C2D6B95DF4", 36, 1460709068, "697390", 1460709068, "697390", null, "Midway/Coldstream", "66.4", "72.6", "72.4", "68.4", "69.9", "22.0", "22.7", "20.3", "21.0", "19.5", "50.0", "52.2", "45.9", "49.1", "85.6", "13.6", "38.1", "58.1", "72.6", "70.4", "6.5", "4.6", "135.3", "126.1", "159.7", "127.7", "55.8", "62.2", "1.1", "0.5", "1.1", "0.4", "110.1" ]
+, [ 37, "7ECB6038-0534-4B78-A7FB-3865F6A5EEEE", 37, 1460709068, "697390", 1460709068, "697390", null, "Morrell Park/Violetville", "68.0", "62.8", "54.3", "59.8", "58.8", "6.6", "11.3", "8.9", "11.4", "11.7", "51.5", "45.4", "48.1", "46.7", "26.0", "4.1", "1.4", "59.3", "57.3", "51.5", "2.0", "1.6", "85.1", "101.4", "20.6", "20.9", "59.0", "55.7", "0.1", "0.0", "0.0", "0.1", "20.1" ]
+, [ 38, "8346484C-D079-41BB-921E-397746DB34CF", 38, 1460709068, "697390", 1460709068, "697390", null, "Mount Washington/Coldspring", "33.1", "28.8", "32.9", "28.8", "30.0", "2.3", "2.3", "1.9", "2.3", "3.1", "26.5", "31.0", "26.3", "26.5", "25.1", "2.5", "2.5", "45.3", "39.9", "35.4", "0.2", null, "14.5", "13.0", "3.3", "3.7", "28.1", "49.1", "0.0", "0.0", "0.0", null, "4.4" ]
+, [ 39, "6889A2A9-A6FA-40F8-84FF-5823FC6B6417", 39, 1460709068, "697390", 1460709068, "697390", null, "North Baltimore/Guilford/Homeland", "25.8", "27.7", "25.4", "32.8", "29.9", "3.1", "3.4", "3.4", "3.4", "3.4", "24.3", "22.0", "29.2", "26.5", "21.0", "1.0", "4.0", "29.1", "24.4", "23.6", "0.1", "0.3", "15.7", "20.3", "7.6", "9.2", "28.4", "35.0", "0.1", "0.1", "0.0", null, "7.7" ]
+, [ 40, "0BFA02C7-CF6E-4D85-8216-9B99E78B835A", 40, 1460709068, "697390", 1460709068, "697390", null, "Northwood", "39.9", "46.1", "39.2", "37.3", "41.8", "9.6", "11.0", "8.3", "9.1", "6.8", "35.1", "30.9", "27.1", "34.2", "54.7", "20.3", "15.4", "39.2", "42.8", "39.1", "1.7", "1.4", "50.0", "51.2", "44.2", "45.2", "49.0", "40.3", "0.2", "0.2", "0.2", "0.1", "14.7" ]
+, [ 41, "B1013E86-2014-4B6D-8AB9-B96880280DBA", 41, 1460709068, "697390", 1460709068, "697390", null, "Oldtown/Middle East", "102.4", "112.2", "90.9", "95.7", "82.6", "27.8", "26.7", "26.4", "33.1", "26.6", "85.6", "64.5", "61.1", "54.7", "145.6", "44.9", "40.9", "63.7", "75.3", "64.8", "4.9", "5.7", "159.0", "143.5", "138.3", "102.2", "89.6", "81.8", "0.7", "0.3", "0.4", "0.4", "89.7" ]
+, [ 42, "492E04FD-92DD-416D-BB57-C45FE3642AC2", 42, 1460709068, "697390", 1460709068, "697390", null, "Orangeville/East Highlandtown", "85.9", "91.2", "85.6", "93.6", "81.0", "20.4", "16.1", "18.7", "20.7", "18.9", "75.1", "66.9", "71.6", "60.9", "64.3", "12.6", "22.4", "54.3", "57.4", "60.5", "2.3", "1.6", "59.2", "133.3", "88.6", "97.6", "114.4", "129.1", "0.1", "0.1", "0.1", "0.3", "88.4" ]
+, [ 43, "CD06B64A-188C-46C6-90B0-BA38E010FBB1", 43, 1460709068, "697390", 1460709068, "697390", null, "Patterson Park North & East", "75.7", "82.6", "79.4", "89.6", "79.5", "17.5", "21.4", "18.2", "19.2", "22.4", "61.2", "61.2", "69.6", "56.6", "72.8", "13.4", "20.9", "53.5", "60.2", "57.6", "1.9", "1.0", "89.1", "93.4", "62.9", "68.0", "33.4", "33.2", "0.1", "0.1", "0.0", "0.1", "56.8" ]
+, [ 44, "2F8C1606-26A4-4814-AC98-6BA95C5DB2F5", 44, 1460709068, "697390", 1460709068, "697390", null, "Penn North/Reservoir Hill", "64.2", "63.0", "71.5", "60.8", "59.6", "18.8", "18.2", "20.7", "15.6", "17.3", "44.8", "50.8", "43.8", "41.1", "100.7", "7.1", "66.1", "63.2", "63.0", "58.9", "3.6", "4.7", "131.6", "121.1", "287.3", "210.6", "39.3", "41.5", "0.6", "0.7", "1.0", "0.5", "94.1" ]
+, [ 45, "13B15832-3D12-444C-B8C3-B5F5366D0B0F", 45, 1460709068, "697390", 1460709068, "697390", null, "Pimlico/Arlington/Hilltop", "58.1", "54.6", "57.0", "58.2", "55.7", "23.4", "16.7", "18.7", "14.1", "17.4", "37.9", "38.3", "42.3", "37.0", "64.6", "10.5", "35.5", "51.1", "50.9", "50.5", "2.7", "4.1", "100.5", "109.9", "188.3", "215.8", "37.4", "38.0", "0.3", "0.4", "0.5", "0.8", "73.7" ]
+, [ 46, "2A0D2E80-EB82-4E97-9F1B-75A7E608210C", 46, 1460709068, "697390", 1460709068, "697390", null, "Poppleton/The Terraces/Hollins Market", "80.2", "89.9", "69.8", "84.9", "82.0", "26.5", "30.1", "22.8", "25.6", "22.2", "59.8", "47.0", "58.0", "58.8", "111.9", "19.9", "48.7", "64.5", "68.6", "69.6", "2.8", "2.8", "157.3", "163.2", "208.6", "259.9", "51.9", "55.6", "0.2", "0.2", "0.2", "0.2", "82.6" ]
+, [ 47, "7B04E965-7CA8-4667-ADF6-C6E40B13357F", 47, 1460709068, "697390", 1460709068, "697390", null, "Sandtown-Winchester/Harlem Park", "69.5", "64.2", "63.3", "68.7", "63.1", "27.1", "21.5", "23.0", "22.4", "20.5", "42.6", "40.3", "44.4", "41.9", "211.6", "21.8", "107.9", "59.5", "67.9", "67.9", "6.4", "7.4", "156.0", "153.6", "464.8", "406.2", "39.4", "40.4", "0.6", "0.6", "0.9", "0.3", "107.5" ]
+, [ 48, "C7096789-15D1-4AE0-8BD9-6E2317E1C217", 48, 1460709068, "697390", 1460709068, "697390", null, "South Baltimore", "35.6", "25.1", "53.2", "47.6", "49.8", "3.0", "3.3", "3.4", "2.8", "2.3", "21.8", "49.8", "44.3", "47.1", "69.9", "10.8", "0.0", "19.4", "22.1", "39.2", "0.2", null, "28.8", "48.2", "21.5", "26.2", "21.5", "33.4", "0.0", "0.0", "0.0", null, "21.3" ]
+, [ 49, "D8915ADC-6C96-40FC-873D-46EA8496D844", 49, 1460709068, "697390", 1460709068, "697390", null, "Southeastern", "57.8", "67.7", "61.8", "62.5", "83.7", "10.7", "14.5", "13.6", "12.6", "12.5", "53.2", "48.2", "49.2", "70.3", "20.1", "3.7", "9.2", "59.4", "63.9", "58.5", "1.1", "0.8", "4.6", "100.5", "42.5", "70.9", "79.4", "84.5", "0.0", "0.0", "0.0", "0.3", "85.0" ]
+, [ 50, "620E13C1-CAC7-4065-B920-37707808BE3C", 50, 1460709068, "697390", 1460709068, "697390", null, "Southern Park Heights", "59.5", "55.0", "55.9", "58.0", "51.6", "18.7", "18.1", "18.8", "16.9", "17.2", "37.0", "37.0", "40.5", "33.8", "67.6", "15.7", "29.4", "57.1", "64.1", "55.3", "4.6", "3.8", "106.1", "90.8", "116.7", "152.9", "38.5", "40.2", "0.3", "0.7", "0.6", "0.8", "47.1" ]
+, [ 51, "FB935B34-1AE5-4949-969A-8217ABF9FB53", 51, 1460709068, "697390", 1460709068, "697390", null, "Southwest Baltimore", "79.3", "82.7", "76.0", "83.7", "80.7", "28.8", "24.9", "24.8", "23.8", "23.9", "57.8", "51.2", "58.5", "55.8", "132.7", "15.8", "81.4", "72.0", "77.2", "65.2", "4.1", "6.3", "173.8", "167.8", "259.8", "244.1", "46.4", "50.1", "0.5", "0.4", "0.7", "0.7", "147.3" ]
+, [ 52, "7866B6E2-D8CD-4C62-8697-2F293D345693", 52, 1460709068, "697390", 1460709068, "697390", null, "The Waverlies", "70.6", "78.4", "80.4", "81.6", "75.2", "18.4", "18.6", "20.6", "18.6", "17.9", "59.8", "59.7", "61.8", "56.6", "44.2", "10.7", "12.0", "61.1", "68.7", "65.7", "4.1", "4.9", "95.6", "104.7", "53.3", "47.1", "64.9", "55.7", "0.4", "0.8", "0.3", "0.4", "28.8" ]
+, [ 53, "CA2D14F9-084F-413D-81F7-45B4E1E4C727", 53, 1460709068, "697390", 1460709068, "697390", null, "Upton/Druid Heights", "65.2", "76.2", "87.4", "79.1", "77.9", "27.3", "23.2", "28.7", "21.9", "20.8", "53.0", "58.7", "55.4", "55.2", "250.2", "33.4", "137.8", "64.9", "62.9", "70.7", "3.7", "8.7", "147.0", "166.5", "215.5", "183.0", "43.0", "52.9", "0.3", "0.9", "0.7", "0.3", "103.3" ]
+, [ 54, "AD4B132B-CC54-430D-95EE-96AB64156947", 54, 1460709068, "697390", 1460709068, "697390", null, "Washington Village/Pigtown", "123.9", "111.2", "121.4", "141.4", "139.4", "25.4", "26.3", "23.1", "22.0", "25.1", "84.9", "98.3", "118.7", "113.4", "91.7", "17.9", "38.0", "83.0", "80.1", "87.4", "3.8", "2.0", "151.0", "170.8", "147.0", "185.0", "123.8", "121.9", "0.5", "0.0", "0.5", "0.2", "129.5" ]
+, [ 55, "6C1D15CD-17DE-42DB-8ED8-3D2DC4EE3BF3", 55, 1460709068, "697390", 1460709068, "697390", null, "Westport/Mount Winans/Lakeland", "78.5", "79.8", "76.6", "73.7", "71.2", "19.5", "18.3", "17.7", "20.6", "16.0", "61.5", "58.9", "51.4", "54.8", "41.9", "4.7", "15.1", "52.8", "63.1", "58.6", "1.7", "2.8", "113.8", "104.1", "38.2", "57.0", "73.7", "79.6", "0.0", "0.6", "0.1", "0.7", "60.7" ]
+, [ 56, "EB99E72E-862D-412F-86C1-879F3A847D83", 56, 1460709068, "697390", 1460709068, "697390", null, "Baltimore City", "61.4", "63.6", "61.8", "63.3", "60.5", "15.6", "15.1", "14.7", "14.8", "13.7", "48.5", "47.0", "47.6", "45.9", "79.2", "16.6", "30.3", "50.5", "53.7", "52.1", "2.3", "2.4", "85.4", "91.4", "90.0", "89.7", "54.4", "51.3", "0.2", "0.3", "0.3", "0.3", "48.7" ]
+ ]
+}

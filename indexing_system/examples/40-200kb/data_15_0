@@ -1,0 +1,1020 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "cgck-srxx",
+      "name" : "Golf Courses",
+      "attribution" : "New York State Office of Parks, Recreation and Historic Preservation",
+      "attributionLink" : "http://nysparks.com/golf-courses/",
+      "averageRating" : 0,
+      "category" : "Recreation",
+      "createdAt" : 1360950523,
+      "description" : "The New York State Office of Parks, Recreation and Historic Preservation (OPRHP) oversees more than 214 state parks and historic sites, encompassing nearly 335,000 acres, that are visited by 60 million people annually. These facilities contribute to the economic vitality and quality of life of local communities and directly support New York’s tourism industry. Parks also provide a place for families and children to be active and exercise, promoting healthy lifestyles. The agency is responsible for the operation and stewardship of the state park system as well as advancing a statewide parks, historic preservation, and open space mission.From the famed Bethpage Black, to the rolling terrain of the Robert Trent Jones' designed 18-hole course at Green Lakes State Park, New York's state park golf courses rank among the best public courses in the world. For more information, visit http://nysparks.com/golf-courses/",
+      "displayType" : "table",
+      "downloadCount" : 1876,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1446503812,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 9917229,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1421256006,
+      "publicationGroup" : 679652,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1421255816,
+      "rowsUpdatedBy" : "795e-enqb",
+      "tableId" : 2104855,
+      "totalTimesRated" : 0,
+      "viewCount" : 2635,
+      "viewLastModified" : 1446493663,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 184526252,
+        "name" : "State Park",
+        "dataTypeName" : "text",
+        "description" : "Name of State Park",
+        "fieldName" : "state_park",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7883630,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 29,
+          "largest" : "Wellesley Island",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Alfred E. Smith/Sunken Meadow",
+            "count" : 20
+          }, {
+            "item" : "Battle Island",
+            "count" : 19
+          }, {
+            "item" : "Beaver Island",
+            "count" : 18
+          }, {
+            "item" : "Bethpage",
+            "count" : 17
+          }, {
+            "item" : "Bonavista",
+            "count" : 16
+          }, {
+            "item" : "Chenango Valley",
+            "count" : 15
+          }, {
+            "item" : "Fair Haven Beach",
+            "count" : 14
+          }, {
+            "item" : "Green Lakes",
+            "count" : 13
+          }, {
+            "item" : "Indian Hills",
+            "count" : 12
+          }, {
+            "item" : "James Baird",
+            "count" : 11
+          }, {
+            "item" : "Jones Beach",
+            "count" : 10
+          }, {
+            "item" : "Mark Twain",
+            "count" : 9
+          }, {
+            "item" : "Montauk Downs",
+            "count" : 8
+          }, {
+            "item" : "Ogden & Ruth Livingston Mills",
+            "count" : 7
+          }, {
+            "item" : "Pinnacle",
+            "count" : 6
+          }, {
+            "item" : "Robert Moses",
+            "count" : 5
+          }, {
+            "item" : "Rockland Lake",
+            "count" : 4
+          }, {
+            "item" : "Sag Harbor",
+            "count" : 3
+          }, {
+            "item" : "Saratoga Spa",
+            "count" : 2
+          }, {
+            "item" : "St. Lawrence",
+            "count" : 1
+          } ],
+          "smallest" : "Alfred E. Smith/Sunken Meadow"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 184526253,
+        "name" : "Course Name",
+        "dataTypeName" : "text",
+        "description" : "Name of Golf Course",
+        "fieldName" : "course_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7883631,
+        "width" : 193,
+        "cachedContents" : {
+          "non_null" : 12,
+          "largest" : "Yellow",
+          "null" : 17,
+          "top" : [ {
+            "item" : "Blue",
+            "count" : 20
+          }, {
+            "item" : "Green",
+            "count" : 19
+          }, {
+            "item" : "Red",
+            "count" : 18
+          }, {
+            "item" : "Black",
+            "count" : 17
+          }, {
+            "item" : "Yellow",
+            "count" : 16
+          }, {
+            "item" : "Pitch/Putt",
+            "count" : 15
+          }, {
+            "item" : "Executive",
+            "count" : 14
+          } ],
+          "smallest" : "Black"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 184526254,
+        "name" : "Region",
+        "dataTypeName" : "number",
+        "description" : "State Park Region",
+        "fieldName" : "region",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7883632,
+        "width" : 159,
+        "cachedContents" : {
+          "non_null" : 29,
+          "average" : "7.448275862068966",
+          "largest" : "11",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9",
+            "count" : 20
+          }, {
+            "item" : "5",
+            "count" : 19
+          }, {
+            "item" : "1",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "7",
+            "count" : 16
+          }, {
+            "item" : "8",
+            "count" : 15
+          }, {
+            "item" : "11",
+            "count" : 14
+          }, {
+            "item" : "10",
+            "count" : 13
+          } ],
+          "smallest" : "1",
+          "sum" : "216"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "center"
+        }
+      }, {
+        "id" : 184526255,
+        "name" : "County",
+        "dataTypeName" : "text",
+        "description" : "Name of county",
+        "fieldName" : "county",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7883633,
+        "width" : 179,
+        "cachedContents" : {
+          "non_null" : 29,
+          "largest" : "Suffolk",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Suffolk",
+            "count" : 20
+          }, {
+            "item" : "Oswego",
+            "count" : 19
+          }, {
+            "item" : "Erie",
+            "count" : 18
+          }, {
+            "item" : "Nassau",
+            "count" : 17
+          }, {
+            "item" : "Seneca",
+            "count" : 16
+          }, {
+            "item" : "Broome",
+            "count" : 15
+          }, {
+            "item" : "Cayuga",
+            "count" : 14
+          }, {
+            "item" : "Onondaga",
+            "count" : 13
+          }, {
+            "item" : "Steuben",
+            "count" : 12
+          }, {
+            "item" : "Dutchess",
+            "count" : 11
+          }, {
+            "item" : "Chemung",
+            "count" : 10
+          }, {
+            "item" : "Rockland",
+            "count" : 9
+          }, {
+            "item" : "Saratoga",
+            "count" : 8
+          }, {
+            "item" : "St. Lawrence",
+            "count" : 7
+          }, {
+            "item" : "Jefferson",
+            "count" : 6
+          } ],
+          "smallest" : "Broome"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 184526256,
+        "name" : "Facility URL",
+        "dataTypeName" : "url",
+        "description" : "URL of facility",
+        "fieldName" : "facility_url",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 7883634,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 27,
+          "largest" : {
+            "url" : "http://nysparks.com/parks/81/details.aspx"
+          },
+          "null" : 2,
+          "top" : [ {
+            "item" : {
+              "url" : "http://nysparks.com/parks/37/details.aspx"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/44/details.aspx"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/56/details.aspx"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/108/details.aspx"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/160/details.aspx"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/41/details.aspx"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/12/details.aspx"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/172/details.aspx"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/101/details.aspx"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/10/details.aspx"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/138/details.aspx"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/29/details.aspx"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/33/details.aspx"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/4/details.aspx"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/7/details.aspx"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/81/details.aspx"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/112/details.aspx"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/70/details.aspx"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/parks/52/details.aspx"
+            },
+            "count" : 2
+          } ],
+          "smallest" : {
+            "url" : "http://nysparks.com/parks/10/details.aspx"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 184526257,
+        "name" : "Golf URL",
+        "dataTypeName" : "url",
+        "description" : "URL of golf course",
+        "fieldName" : "golf_url",
+        "position" : 6,
+        "renderTypeName" : "url",
+        "tableColumnId" : 7883635,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 29,
+          "largest" : {
+            "url" : "http://nysparks.com/golf-courses/9/details.aspx"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/13/details.aspx"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/5/details.aspx"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/4/details.aspx"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/11/details.aspx"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/10/details.aspx"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/20/details.aspx"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/9/details.aspx"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/14/details.aspx"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/19/details.aspx"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/1/details.aspx"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/18/details.aspx"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/3/details.aspx"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/8/details.aspx"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/21/details.aspx"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/16/details.aspx"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/12/details.aspx"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/6/details.aspx"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/17/details.aspx"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/15/details.aspx"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://nysparks.com/golf-courses/2/details.aspx"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://nysparks.com/golf-courses/1/details.aspx"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 184526258,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "X coordinate of site",
+        "fieldName" : "x",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7883636,
+        "width" : 161,
+        "cachedContents" : {
+          "non_null" : 29,
+          "average" : "-74.64826177867586",
+          "largest" : "-71.9385278002",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-73.2632063245",
+            "count" : 20
+          }, {
+            "item" : "-76.4360441829",
+            "count" : 19
+          }, {
+            "item" : "-78.9531063633",
+            "count" : 18
+          }, {
+            "item" : "-73.4568035403",
+            "count" : 17
+          }, {
+            "item" : "-76.8677249793",
+            "count" : 16
+          }, {
+            "item" : "-75.8362368401",
+            "count" : 15
+          }, {
+            "item" : "-76.6913106828",
+            "count" : 14
+          }, {
+            "item" : "-75.9818848047",
+            "count" : 13
+          }, {
+            "item" : "-77.1547655357",
+            "count" : 12
+          }, {
+            "item" : "-73.7954318134",
+            "count" : 11
+          }, {
+            "item" : "-73.5164273182",
+            "count" : 10
+          }, {
+            "item" : "-76.8356909125",
+            "count" : 9
+          }, {
+            "item" : "-71.9385278002",
+            "count" : 8
+          }, {
+            "item" : "-73.9348059546",
+            "count" : 7
+          }, {
+            "item" : "-77.2145609228",
+            "count" : 6
+          }, {
+            "item" : "-73.2651424363",
+            "count" : 5
+          }, {
+            "item" : "-73.9219192445",
+            "count" : 4
+          }, {
+            "item" : "-72.2605666428",
+            "count" : 3
+          }, {
+            "item" : "-73.8039355929",
+            "count" : 2
+          }, {
+            "item" : "-75.5765698357",
+            "count" : 1
+          } ],
+          "smallest" : "-78.9531063633",
+          "sum" : "-2164.7995915816"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 184526259,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "Y coordinate of site",
+        "fieldName" : "y",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7883637,
+        "width" : 168,
+        "cachedContents" : {
+          "non_null" : 29,
+          "average" : "41.88326276136897",
+          "largest" : "44.6298363383",
+          "null" : 0,
+          "top" : [ {
+            "item" : "40.9099922695",
+            "count" : 20
+          }, {
+            "item" : "43.3616709338",
+            "count" : 19
+          }, {
+            "item" : "42.9657659397",
+            "count" : 18
+          }, {
+            "item" : "40.7475174105",
+            "count" : 17
+          }, {
+            "item" : "42.6731942171",
+            "count" : 16
+          }, {
+            "item" : "42.2155402507",
+            "count" : 15
+          }, {
+            "item" : "43.3417081221",
+            "count" : 14
+          }, {
+            "item" : "43.0469783183",
+            "count" : 13
+          }, {
+            "item" : "42.0930548903",
+            "count" : 12
+          }, {
+            "item" : "41.6880050951",
+            "count" : 11
+          }, {
+            "item" : "40.596010848",
+            "count" : 10
+          }, {
+            "item" : "42.211660694",
+            "count" : 9
+          }, {
+            "item" : "41.0492876822",
+            "count" : 8
+          }, {
+            "item" : "41.8530053952",
+            "count" : 7
+          }, {
+            "item" : "42.0973529692",
+            "count" : 6
+          }, {
+            "item" : "40.6235177464",
+            "count" : 5
+          }, {
+            "item" : "41.1362106822",
+            "count" : 4
+          }, {
+            "item" : "40.9970245166",
+            "count" : 3
+          }, {
+            "item" : "43.0508914472",
+            "count" : 2
+          }, {
+            "item" : "44.6298363383",
+            "count" : 1
+          } ],
+          "smallest" : "40.596010848",
+          "sum" : "1214.6146200797"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 184526260,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 9,
+        "renderTypeName" : "location",
+        "tableColumnId" : 7883638,
+        "width" : 219,
+        "cachedContents" : {
+          "non_null" : 29,
+          "largest" : {
+            "latitude" : "44.3292380029",
+            "longitude" : "-76.0154482065"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "40.9099922695",
+              "longitude" : "-73.2632063245"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "43.3616709338",
+              "longitude" : "-76.4360441829"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "42.9657659397",
+              "longitude" : "-78.9531063633"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "40.7475174105",
+              "longitude" : "-73.4568035403"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "42.6731942171",
+              "longitude" : "-76.8677249793"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "42.2155402507",
+              "longitude" : "-75.8362368401"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "43.3417081221",
+              "longitude" : "-76.6913106828"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "43.0469783183",
+              "longitude" : "-75.9818848047"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "42.0930548903",
+              "longitude" : "-77.1547655357"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "41.6880050951",
+              "longitude" : "-73.7954318134"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "40.596010848",
+              "longitude" : "-73.5164273182"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "42.211660694",
+              "longitude" : "-76.8356909125"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "41.0492876822",
+              "longitude" : "-71.9385278002"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "41.8530053952",
+              "longitude" : "-73.9348059546"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "42.0973529692",
+              "longitude" : "-77.2145609228"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "40.6235177464",
+              "longitude" : "-73.2651424363"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "41.1362106822",
+              "longitude" : "-73.9219192445"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "40.9970245166",
+              "longitude" : "-72.2605666428"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "43.0508914472",
+              "longitude" : "-73.8039355929"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "44.6298363383",
+              "longitude" : "-75.5765698357"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "40.9099922695",
+            "longitude" : "-73.2632063245"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Posting Frequency" : "As needed",
+            "Organization" : "Public Affairs Bureau",
+            "Contact Information" : "Notes@parks.ny.gov",
+            "Time Period" : "Present",
+            "Coverage" : "Statewide",
+            "Granularity" : "Facility",
+            "Units" : "Golf Courses",
+            "Dataset Owner" : "Public Affairs Bureau",
+            "Data Frequency" : "Quarterly"
+          },
+          "Common Core" : {
+            "Contact Email" : "opendata@its.ny.gov",
+            "Contact Name" : "Open Data NY",
+            "Publisher" : "State of New York"
+          },
+          "Local Data" : {
+            "County_Column" : "county",
+            "County Filter" : "Yes"
+          },
+          "Dataset Information" : {
+            "Agency" : "Parks, Recreation and Historic Preservation, Office of"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "county"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "12dAVtTW_omV_ZwjIYdQSDNS8ughuTz_TdmH0rMN29o",
+          "blobId" : "",
+          "name" : "Golf Courses Overview.pdf",
+          "filename" : "Golf Courses Overview.pdf"
+        }, {
+          "assetId" : "9eM6MbRwqTKCRmOxjDj_YfU-v-ubO4B4J7qr7Ls8SKg",
+          "blobId" : "",
+          "name" : "OPRHP_GolfCourses_DataDictionary.pdf",
+          "filename" : "OPRHP_GolfCourses_DataDictionary.pdf"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "NY Open Data",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 184526255,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "roleName" : "publisher",
+        "screenName" : "NY Open Data",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "parks", "recreation", "golf" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "157ED2B4-F018-441E-97FA-0F7EA3AA16F7", 1, 1361385501, "706580", 1361385501, "706580", "{\n}", "Alfred E. Smith/Sunken Meadow", "Blue", "9", "Suffolk", [ "http://nysparks.com/parks/37/details.aspx", null ], [ "http://nysparks.com/golf-courses/13/details.aspx", null ], "-73.2632063245", "40.9099922695", [ null, "40.9099922695", "-73.2632063245", null, false ] ]
+, [ 2, "54F3D629-3F65-4D41-A474-32D2D73483CB", 2, 1361385501, "706580", 1361385501, "706580", "{\n}", "Alfred E. Smith/Sunken Meadow", "Green", "9", "Suffolk", [ "http://nysparks.com/parks/37/details.aspx", null ], [ "http://nysparks.com/golf-courses/13/details.aspx", null ], "-73.2632063245", "40.9099922695", [ null, "40.9099922695", "-73.2632063245", null, false ] ]
+, [ 3, "77DD3C5C-EBBC-44A2-9419-C1CDE7B4F8BD", 3, 1361385501, "706580", 1361385501, "706580", "{\n}", "Alfred E. Smith/Sunken Meadow", "Red", "9", "Suffolk", [ "http://nysparks.com/parks/37/details.aspx", null ], [ "http://nysparks.com/golf-courses/13/details.aspx", null ], "-73.2632063245", "40.9099922695", [ null, "40.9099922695", "-73.2632063245", null, false ] ]
+, [ 4, "36354A1C-BF67-41E1-ACB3-3C275CC048B3", 4, 1361385501, "706580", 1361385501, "706580", "{\n}", "Battle Island", null, "5", "Oswego", [ "http://nysparks.com/parks/44/details.aspx", null ], [ "http://nysparks.com/golf-courses/5/details.aspx", null ], "-76.4360441829", "43.3616709338", [ null, "43.3616709338", "-76.4360441829", null, false ] ]
+, [ 5, "88FD4FE5-966B-47FE-865C-D3218E48702D", 5, 1361385501, "706580", 1361385501, "706580", "{\n}", "Beaver Island", null, "1", "Erie", [ "http://nysparks.com/parks/56/details.aspx", null ], [ "http://nysparks.com/golf-courses/4/details.aspx", null ], "-78.9531063633", "42.9657659397", [ null, "42.9657659397", "-78.9531063633", null, false ] ]
+, [ 6, "688B6DB1-E807-4DD9-A6D2-6A2AD92B84F0", 6, 1361385501, "706580", 1361385501, "706580", "{\n}", "Bethpage", "Black", "9", "Nassau", [ "http://nysparks.com/parks/108/details.aspx", null ], [ "http://nysparks.com/golf-courses/11/details.aspx", null ], "-73.4568035403", "40.7475174105", [ null, "40.7475174105", "-73.4568035403", null, false ] ]
+, [ 7, "BB3DE4A2-8A9E-473F-9ADC-06A48C27FCFC", 7, 1361385501, "706580", 1361385501, "706580", "{\n}", "Bethpage", "Blue", "9", "Nassau", [ "http://nysparks.com/parks/108/details.aspx", null ], [ "http://nysparks.com/golf-courses/11/details.aspx", null ], "-73.4568035403", "40.7475174105", [ null, "40.7475174105", "-73.4568035403", null, false ] ]
+, [ 8, "2CCB8122-3B7C-4691-9134-85D386092AE5", 8, 1361385501, "706580", 1361385501, "706580", "{\n}", "Bethpage", "Green", "9", "Nassau", [ "http://nysparks.com/parks/108/details.aspx", null ], [ "http://nysparks.com/golf-courses/11/details.aspx", null ], "-73.4568035403", "40.7475174105", [ null, "40.7475174105", "-73.4568035403", null, false ] ]
+, [ 9, "5AAF7528-C5C6-488D-B280-A58B8F5952C7", 9, 1361385501, "706580", 1361385501, "706580", "{\n}", "Bethpage", "Red", "9", "Nassau", [ "http://nysparks.com/parks/108/details.aspx", null ], [ "http://nysparks.com/golf-courses/11/details.aspx", null ], "-73.4568035403", "40.7475174105", [ null, "40.7475174105", "-73.4568035403", null, false ] ]
+, [ 10, "1F2EFAB1-3CE4-4D58-95F5-CA66D430676C", 10, 1361385501, "706580", 1361385501, "706580", "{\n}", "Bethpage", "Yellow", "9", "Nassau", [ "http://nysparks.com/parks/108/details.aspx", null ], [ "http://nysparks.com/golf-courses/11/details.aspx", null ], "-73.4568035403", "40.7475174105", [ null, "40.7475174105", "-73.4568035403", null, false ] ]
+, [ 11, "38234CE6-7F68-4579-84FE-9F1559E1EC2C", 11, 1361385501, "706580", 1361385501, "706580", "{\n}", "Bonavista", null, "4", "Seneca", [ "http://nysparks.com/parks/160/details.aspx", null ], [ "http://nysparks.com/golf-courses/10/details.aspx", null ], "-76.8677249793", "42.6731942171", [ null, "42.6731942171", "-76.8677249793", null, false ] ]
+, [ 12, "C6313DBC-9E40-4779-B0AB-3EC6E6F6C608", 12, 1361385501, "706580", 1361385501, "706580", "{\n}", "Chenango Valley", null, "5", "Broome", [ "http://nysparks.com/parks/41/details.aspx", null ], [ "http://nysparks.com/golf-courses/20/details.aspx", null ], "-75.8362368401", "42.2155402507", [ null, "42.2155402507", "-75.8362368401", null, false ] ]
+, [ 13, "2EB0DE6F-AE68-4647-AB1C-84A521BF37EA", 13, 1361385501, "706580", 1361385501, "706580", "{\n}", "Fair Haven Beach", null, "4", "Cayuga", [ "http://nysparks.com/parks/12/details.aspx", null ], [ "http://nysparks.com/golf-courses/9/details.aspx", null ], "-76.6913106828", "43.3417081221", [ null, "43.3417081221", "-76.6913106828", null, false ] ]
+, [ 14, "DB6F50C4-7902-4D41-A9C7-7365F4DF0593", 14, 1361385501, "706580", 1361385501, "706580", "{\n}", "Green Lakes", null, "5", "Onondaga", [ "http://nysparks.com/parks/172/details.aspx", null ], [ "http://nysparks.com/golf-courses/14/details.aspx", null ], "-75.9818848047", "43.0469783183", [ null, "43.0469783183", "-75.9818848047", null, false ] ]
+, [ 15, "E505D075-6EB6-456C-AD81-8CADBF84916F", 15, 1361385501, "706580", 1361385501, "706580", "{\n}", "Indian Hills", null, "4", "Steuben", [ null, null ], [ "http://nysparks.com/golf-courses/19/details.aspx", null ], "-77.1547655357", "42.0930548903", [ null, "42.0930548903", "-77.1547655357", null, false ] ]
+, [ 16, "D32A3940-ADE2-4E7E-89CF-E02A1A8048A6", 16, 1361385501, "706580", 1361385501, "706580", "{\n}", "James Baird", null, "7", "Dutchess", [ "http://nysparks.com/parks/101/details.aspx", null ], [ "http://nysparks.com/golf-courses/1/details.aspx", null ], "-73.7954318134", "41.6880050951", [ null, "41.6880050951", "-73.7954318134", null, false ] ]
+, [ 17, "23AEA6A5-A07D-4852-8A93-F7271A2EC048", 17, 1361385501, "706580", 1361385501, "706580", "{\n}", "Jones Beach", "Pitch/Putt", "9", "Nassau", [ "http://nysparks.com/parks/10/details.aspx", null ], [ "http://nysparks.com/golf-courses/18/details.aspx", null ], "-73.5164273182", "40.596010848", [ null, "40.596010848", "-73.5164273182", null, false ] ]
+, [ 18, "8AC12561-92AA-4844-BBF0-46A419415AFC", 18, 1361385501, "706580", 1361385501, "706580", "{\n}", "Mark Twain", null, "4", "Chemung", [ "http://nysparks.com/parks/138/details.aspx", null ], [ "http://nysparks.com/golf-courses/3/details.aspx", null ], "-76.8356909125", "42.211660694", [ null, "42.211660694", "-76.8356909125", null, false ] ]
+, [ 19, "E1824FDC-41EC-4C08-AB06-BD510B6C8D31", 19, 1361385501, "706580", 1361385501, "706580", "{\n}", "Montauk Downs", null, "9", "Suffolk", [ "http://nysparks.com/parks/29/details.aspx", null ], [ "http://nysparks.com/golf-courses/8/details.aspx", null ], "-71.9385278002", "41.0492876822", [ null, "41.0492876822", "-71.9385278002", null, false ] ]
+, [ 20, "4FEFAC55-6F19-4D53-ACC4-61D2EE276729", 20, 1361385501, "706580", 1361385501, "706580", "{\n}", "Ogden & Ruth Livingston Mills", null, "7", "Dutchess", [ "http://nysparks.com/parks/33/details.aspx", null ], [ "http://nysparks.com/golf-courses/21/details.aspx", null ], "-73.9348059546", "41.8530053952", [ null, "41.8530053952", "-73.9348059546", null, false ] ]
+, [ 21, "8099E267-706A-4333-9533-1119B675E76A", 21, 1361385501, "706580", 1361385501, "706580", "{\n}", "Pinnacle", null, "4", "Steuben", [ "http://nysparks.com/parks/4/details.aspx", null ], [ "http://nysparks.com/golf-courses/16/details.aspx", null ], "-77.2145609228", "42.0973529692", [ null, "42.0973529692", "-77.2145609228", null, false ] ]
+, [ 22, "E78C896F-D38A-41E6-B350-E0744748EC16", 22, 1361385501, "706580", 1361385501, "706580", "{\n}", "Robert Moses", "Pitch/Putt", "9", "Suffolk", [ "http://nysparks.com/parks/7/details.aspx", null ], [ "http://nysparks.com/golf-courses/12/details.aspx", null ], "-73.2651424363", "40.6235177464", [ null, "40.6235177464", "-73.2651424363", null, false ] ]
+, [ 23, "F1F3052F-DF56-42E7-8B9C-54BE47C6E453", 23, 1361385501, "706580", 1361385501, "706580", "{\n}", "Rockland Lake", null, "8", "Rockland", [ "http://nysparks.com/parks/81/details.aspx", null ], [ "http://nysparks.com/golf-courses/6/details.aspx", null ], "-73.9219192445", "41.1362106822", [ null, "41.1362106822", "-73.9219192445", null, false ] ]
+, [ 24, "DA5DFE29-EF7F-4C95-970D-B0EC1C05FDC2", 24, 1361385501, "706580", 1361385501, "706580", "{\n}", "Rockland Lake", "Executive", "8", "Rockland", [ "http://nysparks.com/parks/81/details.aspx", null ], [ "http://nysparks.com/golf-courses/6/details.aspx", null ], "-73.9219192445", "41.1362106822", [ null, "41.1362106822", "-73.9219192445", null, false ] ]
+, [ 25, "0A34D468-8E7B-46EB-A797-939BF924C2DF", 25, 1361385501, "706580", 1361385501, "706580", "{\n}", "Sag Harbor", null, "9", "Suffolk", [ null, null ], [ "http://nysparks.com/golf-courses/17/details.aspx", null ], "-72.2605666428", "40.9970245166", [ null, "40.9970245166", "-72.2605666428", null, false ] ]
+, [ 26, "885E05D4-E6C4-45D3-9847-280CA06B3BC8", 26, 1361385501, "706580", 1361385501, "706580", "{\n}", "Saratoga Spa", null, "11", "Saratoga", [ "http://nysparks.com/parks/112/details.aspx", null ], [ "http://nysparks.com/golf-courses/15/details.aspx", null ], "-73.8039355929", "43.0508914472", [ null, "43.0508914472", "-73.8039355929", null, false ] ]
+, [ 27, "991694FB-A881-49D0-9FCE-A11BFF21F8D8", 27, 1361385501, "706580", 1361385501, "706580", "{\n}", "Saratoga Spa", "Executive", "11", "Saratoga", [ "http://nysparks.com/parks/112/details.aspx", null ], [ "http://nysparks.com/golf-courses/15/details.aspx", null ], "-73.8039355929", "43.0508914472", [ null, "43.0508914472", "-73.8039355929", null, false ] ]
+, [ 28, "B98A7B7F-1C79-4DF1-8AC5-F6AD7AE997F0", 28, 1361385501, "706580", 1361385501, "706580", "{\n}", "St. Lawrence", null, "10", "St. Lawrence", [ "http://nysparks.com/parks/70/details.aspx", null ], [ "http://nysparks.com/golf-courses/2/details.aspx", null ], "-75.5765698357", "44.6298363383", [ null, "44.6298363383", "-75.5765698357", null, false ] ]
+, [ 29, "81B8AB3C-3332-4575-9A8A-3F97F6A7CED8", 29, 1361385501, "706580", 1361385501, "706580", "{\n}", "Wellesley Island", null, "10", "Jefferson", [ "http://nysparks.com/parks/52/details.aspx", null ], [ "http://nysparks.com/golf-courses/7/details.aspx", null ], "-76.0154482065", "44.3292380029", [ null, "44.3292380029", "-76.0154482065", null, false ] ]
+ ]
+}

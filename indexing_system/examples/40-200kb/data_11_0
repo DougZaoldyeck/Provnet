@@ -1,0 +1,1395 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "3fys-ggpk",
+      "name" : "Anne Arundel County Crime Rate By Type",
+      "attribution" : "MSAC",
+      "attributionLink" : "http://www.goccp.maryland.gov/msac/crime-statistics-county.php?id=18",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1406305904,
+      "description" : "Historical crime rates per 100,000 people, 1975 - present. In June 2017 we changed the update frequency of this dataset from annual to as-needed because sometimes there is a lag that is often 6 months after the annual date before the new data is available.",
+      "displayType" : "table",
+      "downloadCount" : 1752,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1498169515,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8507676,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1406306253,
+      "publicationGroup" : 1661053,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1406306199,
+      "rowsUpdatedBy" : "wdx2-yd94",
+      "tableId" : 1661058,
+      "totalTimesRated" : 0,
+      "viewCount" : 947,
+      "viewLastModified" : 1498169369,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 159025951,
+        "name" : "YEAR",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008874,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "1993.5",
+          "largest" : "2012",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1975",
+            "count" : 20
+          }, {
+            "item" : "1976",
+            "count" : 19
+          }, {
+            "item" : "1977",
+            "count" : 18
+          }, {
+            "item" : "1978",
+            "count" : 17
+          }, {
+            "item" : "1979",
+            "count" : 16
+          }, {
+            "item" : "1980",
+            "count" : 15
+          }, {
+            "item" : "1981",
+            "count" : 14
+          }, {
+            "item" : "1982",
+            "count" : 13
+          }, {
+            "item" : "1983",
+            "count" : 12
+          }, {
+            "item" : "1984",
+            "count" : 11
+          }, {
+            "item" : "1985",
+            "count" : 10
+          }, {
+            "item" : "1986",
+            "count" : 9
+          }, {
+            "item" : "1987",
+            "count" : 8
+          }, {
+            "item" : "1988",
+            "count" : 7
+          }, {
+            "item" : "1989",
+            "count" : 6
+          }, {
+            "item" : "1990",
+            "count" : 5
+          }, {
+            "item" : "1991",
+            "count" : 4
+          }, {
+            "item" : "1992",
+            "count" : 3
+          }, {
+            "item" : "1993",
+            "count" : 2
+          }, {
+            "item" : "1994",
+            "count" : 1
+          } ],
+          "smallest" : "1975",
+          "sum" : "75753"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 159025952,
+        "name" : "POPULATION",
+        "dataTypeName" : "number",
+        "fieldName" : "population",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008875,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "445078.4473684211",
+          "largest" : "549659",
+          "null" : 0,
+          "top" : [ {
+            "item" : "331390",
+            "count" : 20
+          }, {
+            "item" : "340345",
+            "count" : 19
+          }, {
+            "item" : "347538",
+            "count" : 18
+          }, {
+            "item" : "363169",
+            "count" : 17
+          }, {
+            "item" : "361749",
+            "count" : 16
+          }, {
+            "item" : "370099",
+            "count" : 15
+          }, {
+            "item" : "376172",
+            "count" : 14
+          }, {
+            "item" : "376525",
+            "count" : 13
+          }, {
+            "item" : "379967",
+            "count" : 12
+          }, {
+            "item" : "388659",
+            "count" : 11
+          }, {
+            "item" : "392718",
+            "count" : 10
+          }, {
+            "item" : "399108",
+            "count" : 9
+          }, {
+            "item" : "412522",
+            "count" : 8
+          }, {
+            "item" : "422647",
+            "count" : 7
+          }, {
+            "item" : "424124",
+            "count" : 6
+          }, {
+            "item" : "427239",
+            "count" : 5
+          }, {
+            "item" : "434253",
+            "count" : 4
+          }, {
+            "item" : "438543",
+            "count" : 3
+          }, {
+            "item" : "445772",
+            "count" : 2
+          }, {
+            "item" : "449440",
+            "count" : 1
+          } ],
+          "smallest" : "331390",
+          "sum" : "16912981"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025953,
+        "name" : "MURDER",
+        "dataTypeName" : "number",
+        "fieldName" : "murder",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008876,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "3.660526315789474",
+          "largest" : "6.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4.8",
+            "count" : 20
+          }, {
+            "item" : "2.9",
+            "count" : 19
+          }, {
+            "item" : "4.6",
+            "count" : 18
+          }, {
+            "item" : "4.7",
+            "count" : 17
+          }, {
+            "item" : "3.6",
+            "count" : 16
+          }, {
+            "item" : "5.4",
+            "count" : 15
+          }, {
+            "item" : "6.1",
+            "count" : 14
+          }, {
+            "item" : "5.0",
+            "count" : 13
+          }, {
+            "item" : "3.4",
+            "count" : 12
+          }, {
+            "item" : "4.1",
+            "count" : 11
+          }, {
+            "item" : "4.3",
+            "count" : 10
+          }, {
+            "item" : "3.7",
+            "count" : 9
+          }, {
+            "item" : "2.8",
+            "count" : 8
+          }, {
+            "item" : "2.7",
+            "count" : 7
+          }, {
+            "item" : "4.9",
+            "count" : 6
+          }, {
+            "item" : "2.4",
+            "count" : 5
+          }, {
+            "item" : "3.5",
+            "count" : 4
+          }, {
+            "item" : "2.6",
+            "count" : 3
+          }, {
+            "item" : "1.5",
+            "count" : 2
+          }, {
+            "item" : "2.2",
+            "count" : 1
+          } ],
+          "smallest" : "1.5",
+          "sum" : "139.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025954,
+        "name" : "RAPE",
+        "dataTypeName" : "number",
+        "fieldName" : "rape",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008877,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "23.71315789473684",
+          "largest" : "34.0",
+          "null" : 0,
+          "top" : [ {
+            "item" : "22.3",
+            "count" : 20
+          }, {
+            "item" : "22.6",
+            "count" : 19
+          }, {
+            "item" : "34.0",
+            "count" : 18
+          }, {
+            "item" : "18.7",
+            "count" : 17
+          }, {
+            "item" : "23.2",
+            "count" : 16
+          }, {
+            "item" : "31.6",
+            "count" : 15
+          }, {
+            "item" : "22.0",
+            "count" : 14
+          }, {
+            "item" : "25.0",
+            "count" : 13
+          }, {
+            "item" : "28.8",
+            "count" : 12
+          }, {
+            "item" : "33.3",
+            "count" : 11
+          }, {
+            "item" : "27.9",
+            "count" : 10
+          }, {
+            "item" : "19.6",
+            "count" : 9
+          }, {
+            "item" : "29.2",
+            "count" : 8
+          }, {
+            "item" : "30.7",
+            "count" : 7
+          }, {
+            "item" : "29.0",
+            "count" : 6
+          }, {
+            "item" : "31.0",
+            "count" : 5
+          }, {
+            "item" : "29.4",
+            "count" : 4
+          }, {
+            "item" : "24.2",
+            "count" : 3
+          }, {
+            "item" : "18.6",
+            "count" : 2
+          }, {
+            "item" : "19.4",
+            "count" : 1
+          } ],
+          "smallest" : "16.8",
+          "sum" : "901.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025955,
+        "name" : "ROBBERY",
+        "dataTypeName" : "number",
+        "fieldName" : "robbery",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008878,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "128.5736842105263",
+          "largest" : "184.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "124.6",
+            "count" : 20
+          }, {
+            "item" : "97.0",
+            "count" : 19
+          }, {
+            "item" : "113.9",
+            "count" : 18
+          }, {
+            "item" : "96.1",
+            "count" : 17
+          }, {
+            "item" : "83.2",
+            "count" : 16
+          }, {
+            "item" : "95.1",
+            "count" : 15
+          }, {
+            "item" : "129.7",
+            "count" : 14
+          }, {
+            "item" : "111.5",
+            "count" : 13
+          }, {
+            "item" : "122.4",
+            "count" : 12
+          }, {
+            "item" : "107.0",
+            "count" : 11
+          }, {
+            "item" : "106.2",
+            "count" : 10
+          }, {
+            "item" : "92.5",
+            "count" : 9
+          }, {
+            "item" : "92.8",
+            "count" : 8
+          }, {
+            "item" : "99.4",
+            "count" : 7
+          }, {
+            "item" : "110.3",
+            "count" : 6
+          }, {
+            "item" : "108.1",
+            "count" : 5
+          }, {
+            "item" : "148.1",
+            "count" : 4
+          }, {
+            "item" : "149.4",
+            "count" : 3
+          }, {
+            "item" : "145.1",
+            "count" : 2
+          }, {
+            "item" : "154.0",
+            "count" : 1
+          } ],
+          "smallest" : "83.2",
+          "sum" : "4885.8"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025956,
+        "name" : "AGG. ASSAULT",
+        "dataTypeName" : "number",
+        "fieldName" : "agg_assault",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008879,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "325.5026315789474",
+          "largest" : "590.0",
+          "null" : 0,
+          "top" : [ {
+            "item" : "456.9",
+            "count" : 20
+          }, {
+            "item" : "181.9",
+            "count" : 19
+          }, {
+            "item" : "188.8",
+            "count" : 18
+          }, {
+            "item" : "195.5",
+            "count" : 17
+          }, {
+            "item" : "201.2",
+            "count" : 16
+          }, {
+            "item" : "220.2",
+            "count" : 15
+          }, {
+            "item" : "218.0",
+            "count" : 14
+          }, {
+            "item" : "224.2",
+            "count" : 13
+          }, {
+            "item" : "246.1",
+            "count" : 12
+          }, {
+            "item" : "279.2",
+            "count" : 11
+          }, {
+            "item" : "306.6",
+            "count" : 10
+          }, {
+            "item" : "245.3",
+            "count" : 9
+          }, {
+            "item" : "217.0",
+            "count" : 8
+          }, {
+            "item" : "230.7",
+            "count" : 7
+          }, {
+            "item" : "211.0",
+            "count" : 6
+          }, {
+            "item" : "238.0",
+            "count" : 5
+          }, {
+            "item" : "245.7",
+            "count" : 4
+          }, {
+            "item" : "268.4",
+            "count" : 3
+          }, {
+            "item" : "312.7",
+            "count" : 2
+          }, {
+            "item" : "286.4",
+            "count" : 1
+          } ],
+          "smallest" : "181.9",
+          "sum" : "12369.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025957,
+        "name" : "VIOLENT CRIME RATE",
+        "dataTypeName" : "number",
+        "fieldName" : "violent_crime_rate",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008880,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "481.4657894736842",
+          "largest" : "764.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "608.6",
+            "count" : 20
+          }, {
+            "item" : "304.4",
+            "count" : 19
+          }, {
+            "item" : "341.3",
+            "count" : 18
+          }, {
+            "item" : "315.0",
+            "count" : 17
+          }, {
+            "item" : "311.3",
+            "count" : 16
+          }, {
+            "item" : "352.3",
+            "count" : 15
+          }, {
+            "item" : "376.4",
+            "count" : 14
+          }, {
+            "item" : "362.8",
+            "count" : 13
+          }, {
+            "item" : "390.6",
+            "count" : 12
+          }, {
+            "item" : "415.3",
+            "count" : 11
+          }, {
+            "item" : "445.6",
+            "count" : 10
+          }, {
+            "item" : "376.1",
+            "count" : 9
+          }, {
+            "item" : "342.3",
+            "count" : 8
+          }, {
+            "item" : "354.0",
+            "count" : 7
+          }, {
+            "item" : "355.3",
+            "count" : 6
+          }, {
+            "item" : "380.6",
+            "count" : 5
+          }, {
+            "item" : "425.6",
+            "count" : 4
+          }, {
+            "item" : "451.5",
+            "count" : 3
+          }, {
+            "item" : "494.4",
+            "count" : 2
+          }, {
+            "item" : "472.1",
+            "count" : 1
+          } ],
+          "smallest" : "304.4",
+          "sum" : "18295.7"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025958,
+        "name" : "VIOLENT CRIME RATE PERCENT CHANGE",
+        "dataTypeName" : "percent",
+        "fieldName" : "violent_crime_rate_percent_change",
+        "position" : 9,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 21008881,
+        "width" : 496,
+        "cachedContents" : {
+          "non_null" : 37,
+          "average" : "-0.1405405405405405",
+          "largest" : "19.9",
+          "null" : 1,
+          "top" : [ {
+            "item" : "-50.0",
+            "count" : 20
+          }, {
+            "item" : "12.1",
+            "count" : 19
+          }, {
+            "item" : "-7.7",
+            "count" : 18
+          }, {
+            "item" : "-1.2",
+            "count" : 17
+          }, {
+            "item" : "13.2",
+            "count" : 16
+          }, {
+            "item" : "6.8",
+            "count" : 15
+          }, {
+            "item" : "-3.6",
+            "count" : 14
+          }, {
+            "item" : "7.7",
+            "count" : 13
+          }, {
+            "item" : "6.3",
+            "count" : 12
+          }, {
+            "item" : "7.3",
+            "count" : 11
+          }, {
+            "item" : "-15.6",
+            "count" : 10
+          }, {
+            "item" : "-9.0",
+            "count" : 9
+          }, {
+            "item" : "3.4",
+            "count" : 8
+          }, {
+            "item" : "0.4",
+            "count" : 7
+          }, {
+            "item" : "7.1",
+            "count" : 6
+          }, {
+            "item" : "11.8",
+            "count" : 5
+          }, {
+            "item" : "6.1",
+            "count" : 4
+          }, {
+            "item" : "9.5",
+            "count" : 3
+          }, {
+            "item" : "-4.5",
+            "count" : 2
+          }, {
+            "item" : "-9.1",
+            "count" : 1
+          } ],
+          "smallest" : "-50.0",
+          "sum" : "-5.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025959,
+        "name" : "B & E",
+        "dataTypeName" : "number",
+        "fieldName" : "b_e",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008882,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "928.2263157894737",
+          "largest" : "1708.6",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1708.6",
+            "count" : 20
+          }, {
+            "item" : "1367.1",
+            "count" : 19
+          }, {
+            "item" : "1464.9",
+            "count" : 18
+          }, {
+            "item" : "1292.5",
+            "count" : 17
+          }, {
+            "item" : "1224.6",
+            "count" : 16
+          }, {
+            "item" : "1471.0",
+            "count" : 15
+          }, {
+            "item" : "1357.1",
+            "count" : 14
+          }, {
+            "item" : "1225.4",
+            "count" : 13
+          }, {
+            "item" : "1155.9",
+            "count" : 12
+          }, {
+            "item" : "1098.4",
+            "count" : 11
+          }, {
+            "item" : "1190.4",
+            "count" : 10
+          }, {
+            "item" : "1348.5",
+            "count" : 9
+          }, {
+            "item" : "1100.3",
+            "count" : 8
+          }, {
+            "item" : "978.1",
+            "count" : 7
+          }, {
+            "item" : "945.2",
+            "count" : 6
+          }, {
+            "item" : "1013.3",
+            "count" : 5
+          }, {
+            "item" : "980.8",
+            "count" : 4
+          }, {
+            "item" : "958.9",
+            "count" : 3
+          }, {
+            "item" : "903.8",
+            "count" : 2
+          }, {
+            "item" : "810.8",
+            "count" : 1
+          } ],
+          "smallest" : "416.2",
+          "sum" : "35272.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025960,
+        "name" : "LARCENY THEFT",
+        "dataTypeName" : "number",
+        "fieldName" : "larceny_theft",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008883,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "2812.289473684211",
+          "largest" : "3843.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3843.2",
+            "count" : 20
+          }, {
+            "item" : "3389.2",
+            "count" : 19
+          }, {
+            "item" : "3102.7",
+            "count" : 18
+          }, {
+            "item" : "2786.6",
+            "count" : 17
+          }, {
+            "item" : "2939.3",
+            "count" : 16
+          }, {
+            "item" : "3300.5",
+            "count" : 15
+          }, {
+            "item" : "3359.6",
+            "count" : 14
+          }, {
+            "item" : "3098.6",
+            "count" : 13
+          }, {
+            "item" : "2649.4",
+            "count" : 12
+          }, {
+            "item" : "2606.7",
+            "count" : 11
+          }, {
+            "item" : "2445.0",
+            "count" : 10
+          }, {
+            "item" : "2831.1",
+            "count" : 9
+          }, {
+            "item" : "2830.4",
+            "count" : 8
+          }, {
+            "item" : "2739.2",
+            "count" : 7
+          }, {
+            "item" : "2745.2",
+            "count" : 6
+          }, {
+            "item" : "2913.6",
+            "count" : 5
+          }, {
+            "item" : "3155.3",
+            "count" : 4
+          }, {
+            "item" : "3110.1",
+            "count" : 3
+          }, {
+            "item" : "2977.5",
+            "count" : 2
+          }, {
+            "item" : "2955.0",
+            "count" : 1
+          } ],
+          "smallest" : "2055.6",
+          "sum" : "106867.0"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025961,
+        "name" : "M/V THEFT",
+        "dataTypeName" : "number",
+        "fieldName" : "m_v_theft",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008884,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "344.65",
+          "largest" : "599.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "599.3",
+            "count" : 20
+          }, {
+            "item" : "446.6",
+            "count" : 19
+          }, {
+            "item" : "413.2",
+            "count" : 18
+          }, {
+            "item" : "319.7",
+            "count" : 17
+          }, {
+            "item" : "349.4",
+            "count" : 16
+          }, {
+            "item" : "365.6",
+            "count" : 15
+          }, {
+            "item" : "339.2",
+            "count" : 14
+          }, {
+            "item" : "299.6",
+            "count" : 13
+          }, {
+            "item" : "250.3",
+            "count" : 12
+          }, {
+            "item" : "242.1",
+            "count" : 11
+          }, {
+            "item" : "285.4",
+            "count" : 10
+          }, {
+            "item" : "384.1",
+            "count" : 9
+          }, {
+            "item" : "406.3",
+            "count" : 8
+          }, {
+            "item" : "426.1",
+            "count" : 7
+          }, {
+            "item" : "425.6",
+            "count" : 6
+          }, {
+            "item" : "514.2",
+            "count" : 5
+          }, {
+            "item" : "479.9",
+            "count" : 4
+          }, {
+            "item" : "479.1",
+            "count" : 3
+          }, {
+            "item" : "415.9",
+            "count" : 2
+          }, {
+            "item" : "401.8",
+            "count" : 1
+          } ],
+          "smallest" : "153.3",
+          "sum" : "13096.7"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025962,
+        "name" : "PROPERTY CRIME RATE",
+        "dataTypeName" : "number",
+        "fieldName" : "property_crime_rate",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008885,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "4085.173684210526",
+          "largest" : "6151.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "6151.1",
+            "count" : 20
+          }, {
+            "item" : "5203.0",
+            "count" : 19
+          }, {
+            "item" : "4980.8",
+            "count" : 18
+          }, {
+            "item" : "4398.8",
+            "count" : 17
+          }, {
+            "item" : "4513.4",
+            "count" : 16
+          }, {
+            "item" : "5137.0",
+            "count" : 15
+          }, {
+            "item" : "5055.9",
+            "count" : 14
+          }, {
+            "item" : "4623.6",
+            "count" : 13
+          }, {
+            "item" : "4055.6",
+            "count" : 12
+          }, {
+            "item" : "3947.2",
+            "count" : 11
+          }, {
+            "item" : "3920.9",
+            "count" : 10
+          }, {
+            "item" : "4563.7",
+            "count" : 9
+          }, {
+            "item" : "4337.0",
+            "count" : 8
+          }, {
+            "item" : "4143.4",
+            "count" : 7
+          }, {
+            "item" : "4116.0",
+            "count" : 6
+          }, {
+            "item" : "4441.1",
+            "count" : 5
+          }, {
+            "item" : "4616.0",
+            "count" : 4
+          }, {
+            "item" : "4548.0",
+            "count" : 3
+          }, {
+            "item" : "4297.3",
+            "count" : 2
+          }, {
+            "item" : "4167.6",
+            "count" : 1
+          } ],
+          "smallest" : "2668.8",
+          "sum" : "155236.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025963,
+        "name" : "PROPERTY CRIME RATE PERCENT CHANGE",
+        "dataTypeName" : "percent",
+        "fieldName" : "property_crime_rate_percent_change",
+        "position" : 14,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 21008886,
+        "width" : 508,
+        "cachedContents" : {
+          "non_null" : 37,
+          "average" : "-1.989189189189189",
+          "largest" : "16.4",
+          "null" : 1,
+          "top" : [ {
+            "item" : "-15.4",
+            "count" : 20
+          }, {
+            "item" : "-4.3",
+            "count" : 19
+          }, {
+            "item" : "-11.7",
+            "count" : 18
+          }, {
+            "item" : "2.6",
+            "count" : 17
+          }, {
+            "item" : "13.8",
+            "count" : 16
+          }, {
+            "item" : "-1.6",
+            "count" : 15
+          }, {
+            "item" : "-8.6",
+            "count" : 14
+          }, {
+            "item" : "-12.3",
+            "count" : 13
+          }, {
+            "item" : "-2.7",
+            "count" : 12
+          }, {
+            "item" : "-0.7",
+            "count" : 11
+          }, {
+            "item" : "16.4",
+            "count" : 10
+          }, {
+            "item" : "-5.0",
+            "count" : 9
+          }, {
+            "item" : "-4.5",
+            "count" : 8
+          }, {
+            "item" : "7.9",
+            "count" : 7
+          }, {
+            "item" : "3.9",
+            "count" : 6
+          }, {
+            "item" : "-1.5",
+            "count" : 5
+          }, {
+            "item" : "-5.5",
+            "count" : 4
+          }, {
+            "item" : "-3.0",
+            "count" : 3
+          }, {
+            "item" : "1.3",
+            "count" : 2
+          }, {
+            "item" : "3.7",
+            "count" : 1
+          } ],
+          "smallest" : "-15.4",
+          "sum" : "-73.6"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025964,
+        "name" : "TOTAL CRIME RATE",
+        "dataTypeName" : "number",
+        "fieldName" : "total_crime_rate",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21008887,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 38,
+          "average" : "4566.628947368421",
+          "largest" : "6759.7",
+          "null" : 0,
+          "top" : [ {
+            "item" : "6759.7",
+            "count" : 20
+          }, {
+            "item" : "5507.4",
+            "count" : 19
+          }, {
+            "item" : "5322.0",
+            "count" : 18
+          }, {
+            "item" : "4713.8",
+            "count" : 17
+          }, {
+            "item" : "4824.6",
+            "count" : 16
+          }, {
+            "item" : "5489.3",
+            "count" : 15
+          }, {
+            "item" : "5432.4",
+            "count" : 14
+          }, {
+            "item" : "4986.4",
+            "count" : 13
+          }, {
+            "item" : "4446.2",
+            "count" : 12
+          }, {
+            "item" : "4362.4",
+            "count" : 11
+          }, {
+            "item" : "4366.5",
+            "count" : 10
+          }, {
+            "item" : "4939.8",
+            "count" : 9
+          }, {
+            "item" : "4679.3",
+            "count" : 8
+          }, {
+            "item" : "4497.4",
+            "count" : 7
+          }, {
+            "item" : "4471.3",
+            "count" : 6
+          }, {
+            "item" : "4821.7",
+            "count" : 5
+          }, {
+            "item" : "5041.5",
+            "count" : 4
+          }, {
+            "item" : "4999.5",
+            "count" : 3
+          }, {
+            "item" : "4791.7",
+            "count" : 2
+          }, {
+            "item" : "4639.8",
+            "count" : 1
+          } ],
+          "smallest" : "3102.5",
+          "sum" : "173531.9"
+        },
+        "format" : { }
+      }, {
+        "id" : 159025965,
+        "name" : "TOTAL CRIME RATE PERCENT CHANGE",
+        "dataTypeName" : "percent",
+        "fieldName" : "total_crime_ratae_percent_change",
+        "position" : 16,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 21008888,
+        "width" : 484,
+        "cachedContents" : {
+          "non_null" : 37,
+          "average" : "-1.872972972972973",
+          "largest" : "13.8",
+          "null" : 1,
+          "top" : [ {
+            "item" : "-18.5",
+            "count" : 20
+          }, {
+            "item" : "-3.4",
+            "count" : 19
+          }, {
+            "item" : "-11.4",
+            "count" : 18
+          }, {
+            "item" : "2.4",
+            "count" : 17
+          }, {
+            "item" : "13.8",
+            "count" : 16
+          }, {
+            "item" : "-1.0",
+            "count" : 15
+          }, {
+            "item" : "-8.2",
+            "count" : 14
+          }, {
+            "item" : "-10.8",
+            "count" : 13
+          }, {
+            "item" : "-1.9",
+            "count" : 12
+          }, {
+            "item" : "0.1",
+            "count" : 11
+          }, {
+            "item" : "13.1",
+            "count" : 10
+          }, {
+            "item" : "-5.3",
+            "count" : 9
+          }, {
+            "item" : "-3.9",
+            "count" : 8
+          }, {
+            "item" : "-0.6",
+            "count" : 7
+          }, {
+            "item" : "7.8",
+            "count" : 6
+          }, {
+            "item" : "4.6",
+            "count" : 5
+          }, {
+            "item" : "-0.8",
+            "count" : 4
+          }, {
+            "item" : "-4.2",
+            "count" : 3
+          }, {
+            "item" : "-3.2",
+            "count" : 2
+          }, {
+            "item" : "0.2",
+            "count" : 1
+          } ],
+          "smallest" : "-18.5",
+          "sum" : "-69.3"
+        },
+        "format" : {
+          "view" : "percent_bar_and_text",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Jurisdiction" : {
+            "Jurisdiction" : "State of Maryland"
+          },
+          "Agency" : {
+            "State Agency Performing Data Updates" : "Anne Arundel County"
+          },
+          "Time Period" : {
+            "Update Frequency" : "Annually",
+            "Time Period of Content" : "1975 - Present",
+            "Date Metadata Written" : "June 2017"
+          },
+          "GIS Download" : {
+            "Place Keywords" : "Anne Arundel County"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "wdx2-yd94",
+        "displayName" : "Scott Shaffer",
+        "roleName" : "editor",
+        "screenName" : "Scott Shaffer",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "wdx2-yd94",
+        "displayName" : "Scott Shaffer",
+        "roleName" : "editor",
+        "screenName" : "Scott Shaffer",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "anne arundel", "crime", "public safety", "violent crime", "property crime" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "CD9D7960-B15B-464A-82E9-C6252143048B", 1, 1406280708, "889642", 1406280708, "889642", "{\n}", "1975", "331390", "4.8", "22.3", "124.6", "456.9", "608.6", null, "1708.6", "3843.2", "599.3", "6151.1", null, "6759.7", null ]
+, [ 2, "568477C3-9029-48C6-B344-921D7DF9C292", 2, 1406280708, "889642", 1406280708, "889642", "{\n}", "1976", "340345", "2.9", "22.6", "97.0", "181.9", "304.4", "-50.0", "1367.1", "3389.2", "446.6", "5203.0", "-15.4", "5507.4", "-18.5" ]
+, [ 3, "61D658CA-BA16-4806-A0BB-C34AD9B4B668", 3, 1406280708, "889642", 1406280708, "889642", "{\n}", "1977", "347538", "4.6", "34.0", "113.9", "188.8", "341.3", "12.1", "1464.9", "3102.7", "413.2", "4980.8", "-4.3", "5322.0", "-3.4" ]
+, [ 4, "57D8DC5A-EAC3-451E-9A83-17140706EFFE", 4, 1406280708, "889642", 1406280708, "889642", "{\n}", "1978", "363169", "4.7", "18.7", "96.1", "195.5", "315.0", "-7.7", "1292.5", "2786.6", "319.7", "4398.8", "-11.7", "4713.8", "-11.4" ]
+, [ 5, "A98FB3D4-1D2C-4CA3-B02F-621655600903", 5, 1406280708, "889642", 1406280708, "889642", "{\n}", "1979", "361749", "3.6", "23.2", "83.2", "201.2", "311.3", "-1.2", "1224.6", "2939.3", "349.4", "4513.4", "2.6", "4824.6", "2.4" ]
+, [ 6, "8F56CD52-A65A-490A-927D-E5C36346138C", 6, 1406280708, "889642", 1406280708, "889642", "{\n}", "1980", "370099", "5.4", "31.6", "95.1", "220.2", "352.3", "13.2", "1471.0", "3300.5", "365.6", "5137.0", "13.8", "5489.3", "13.8" ]
+, [ 7, "13D47574-214E-4EA6-83D3-4441CEC64BC6", 7, 1406280708, "889642", 1406280708, "889642", "{\n}", "1981", "376172", "6.1", "22.6", "129.7", "218.0", "376.4", "6.8", "1357.1", "3359.6", "339.2", "5055.9", "-1.6", "5432.4", "-1.0" ]
+, [ 8, "D65E5052-B9DE-466C-A0B4-B1A36D7CDE05", 8, 1406280708, "889642", 1406280708, "889642", "{\n}", "1982", "376525", "5.0", "22.0", "111.5", "224.2", "362.8", "-3.6", "1225.4", "3098.6", "299.6", "4623.6", "-8.6", "4986.4", "-8.2" ]
+, [ 9, "CCD84CB4-7699-43F8-89B9-0FD6F621D6A3", 9, 1406280708, "889642", 1406280708, "889642", "{\n}", "1983", "379967", "3.4", "18.7", "122.4", "246.1", "390.6", "7.7", "1155.9", "2649.4", "250.3", "4055.6", "-12.3", "4446.2", "-10.8" ]
+, [ 10, "34EAFE53-B300-47E8-BDAF-5413FB73B282", 10, 1406280708, "889642", 1406280708, "889642", "{\n}", "1984", "388659", "4.1", "25.0", "107.0", "279.2", "415.3", "6.3", "1098.4", "2606.7", "242.1", "3947.2", "-2.7", "4362.4", "-1.9" ]
+, [ 11, "7E8058BA-736C-402A-8778-2BC573AD3D3F", 11, 1406280708, "889642", 1406280708, "889642", "{\n}", "1985", "392718", "4.1", "28.8", "106.2", "306.6", "445.6", "7.3", "1190.4", "2445.0", "285.4", "3920.9", "-0.7", "4366.5", "0.1" ]
+, [ 12, "28DC0A10-5BE0-4682-9D4C-8A66960E0185", 12, 1406280708, "889642", 1406280708, "889642", "{\n}", "1986", "399108", "5.0", "33.3", "92.5", "245.3", "376.1", "-15.6", "1348.5", "2831.1", "384.1", "4563.7", "16.4", "4939.8", "13.1" ]
+, [ 13, "0F0F65B1-FC63-486D-94E9-328D3A161794", 13, 1406280708, "889642", 1406280708, "889642", "{\n}", "1987", "412522", "4.6", "27.9", "92.8", "217.0", "342.3", "-9.0", "1100.3", "2830.4", "406.3", "4337.0", "-5.0", "4679.3", "-5.3" ]
+, [ 14, "BF465CC2-0D07-42A3-894E-F1730BB530D0", 14, 1406280708, "889642", 1406280708, "889642", "{\n}", "1988", "422647", "4.3", "19.6", "99.4", "230.7", "354.0", "3.4", "978.1", "2739.2", "426.1", "4143.4", "-4.5", "4497.4", "-3.9" ]
+, [ 15, "1F8DEF8C-D0F7-4182-A3EB-6162D8F067D2", 15, 1406280708, "889642", 1406280708, "889642", "{\n}", "1989", "424124", "4.7", "29.2", "110.3", "211.0", "355.3", "0.4", "945.2", "2745.2", "425.6", "4116.0", "-0.7", "4471.3", "-0.6" ]
+, [ 16, "35B4A0FD-A8E2-40B8-AB9B-3B5C4918B529", 16, 1406280708, "889642", 1406280708, "889642", "{\n}", "1990", "427239", "3.7", "30.7", "108.1", "238.0", "380.6", "7.1", "1013.3", "2913.6", "514.2", "4441.1", "7.9", "4821.7", "7.8" ]
+, [ 17, "4B413319-29F3-4DD7-8BB5-D91B5D791F9E", 17, 1406280708, "889642", 1406280708, "889642", "{\n}", "1991", "434253", "2.8", "29.0", "148.1", "245.7", "425.6", "11.8", "980.8", "3155.3", "479.9", "4616.0", "3.9", "5041.5", "4.6" ]
+, [ 18, "E0AE639E-23B3-4B78-BF6E-298917331158", 18, 1406280708, "889642", 1406280708, "889642", "{\n}", "1992", "438543", "2.7", "31.0", "149.4", "268.4", "451.5", "6.1", "958.9", "3110.1", "479.1", "4548.0", "-1.5", "4999.5", "-0.8" ]
+, [ 19, "2256131A-34CD-421B-9D56-803389C273ED", 19, 1406280708, "889642", 1406280708, "889642", "{\n}", "1993", "445772", "4.9", "31.6", "145.1", "312.7", "494.4", "9.5", "903.8", "2977.5", "415.9", "4297.3", "-5.5", "4791.7", "-4.2" ]
+, [ 20, "7D5A099A-FFC8-4156-9AF0-A9067147BD35", 20, 1406280708, "889642", 1406280708, "889642", "{\n}", "1994", "449440", "2.4", "29.4", "154.0", "286.4", "472.1", "-4.5", "810.8", "2955.0", "401.8", "4167.6", "-3.0", "4639.8", "-3.2" ]
+, [ 21, "F294665B-CD40-460B-9F25-37F9E2807FBA", 21, 1406280708, "889642", 1406280708, "889642", "{\n}", "1995", "459455", "3.7", "24.2", "166.1", "235.3", "429.2", "-9.1", "761.3", "3054.7", "405.5", "4221.5", "1.3", "4650.7", "0.2" ]
+, [ 22, "C06575AC-0A16-45B3-845D-00CF3E1DB8AB", 22, 1406280708, "889642", 1406280708, "889642", "{\n}", "1996", "462188", "3.5", "18.6", "166.8", "274.1", "463.0", "7.9", "866.1", "3122.8", "388.8", "4377.7", "3.7", "4840.7", "4.1" ]
+, [ 23, "6FA414D0-B7A1-4E5B-B87A-DF5F805EC6E9", 23, 1406280708, "889642", 1406280708, "889642", "{\n}", "1997", "464193", "2.6", "19.4", "124.9", "305.0", "452.0", "-2.4", "822.3", "3027.8", "379.2", "4229.3", "-3.4", "4681.2", "-3.3" ]
+, [ 24, "42566E12-2FDD-4D6E-961C-E8077F9E5EDF", 24, 1406280708, "889642", 1406280708, "889642", "{\n}", "1998", "473811", "1.5", "24.7", "133.2", "382.6", "542.0", "19.9", "744.0", "2834.9", "322.7", "3901.6", "-7.7", "4443.5", "-5.1" ]
+, [ 25, "94F80C35-9FEA-49B6-ADF6-76061E4D8C74", 25, 1406280708, "889642", 1406280708, "889642", "{\n}", "1999", "479474", "1.5", "24.4", "112.8", "449.9", "588.6", "8.6", "728.9", "2798.7", "295.7", "3823.4", "-2.0", "4411.9", "-0.7" ]
+, [ 26, "1F78BA9D-2343-4128-9B3C-5A9B11FEAF81", 26, 1406280708, "889642", 1406280708, "889642", "{\n}", "2000", "489656", "2.2", "23.9", "131.9", "533.0", "691.1", "17.4", "642.7", "2737.0", "285.5", "3665.2", "-4.1", "4356.3", "-1.3" ]
+, [ 27, "197ED449-27FF-478A-8D16-10FF094C1CE5", 27, 1406280708, "889642", 1406280708, "889642", "{\n}", "2001", "496929", "2.2", "23.9", "148.1", "590.0", "764.3", "10.6", "645.2", "2766.4", "253.2", "3664.7", "0.0", "4429.0", "1.7" ]
+, [ 28, "18B1E156-F080-4208-B94E-3D67578B40FD", 28, 1406280708, "889642", 1406280708, "889642", "{\n}", "2002", "504601", "3.4", "18.6", "149.4", "543.4", "714.8", "-6.5", "632.4", "2675.6", "294.1", "3602.1", "-1.7", "4316.9", "-2.5" ]
+, [ 29, "0DA861B2-569E-4BD5-91F1-BAE83022462C", 29, 1406280708, "889642", 1406280708, "889642", "{\n}", "2003", "508071", "4.7", "18.3", "148.2", "518.2", "689.5", "-3.5", "611.5", "2604.8", "283.6", "3499.9", "-2.8", "4189.4", "-3.0" ]
+, [ 30, "2903456B-3788-475B-9CD4-6F45AD1C3F51", 30, 1406280708, "889642", 1406280708, "889642", "{\n}", "2004", "511140", "3.1", "21.5", "150.1", "470.1", "644.8", "-6.5", "584.2", "2424.2", "319.1", "3327.5", "-4.9", "3972.3", "-5.2" ]
+, [ 31, "16756015-4744-4AF3-987F-45506D24D23D", 31, 1406280708, "889642", 1406280708, "889642", "{\n}", "2005", "512445", "3.1", "17.2", "168.8", "428.9", "618.0", "-4.2", "609.2", "2397.9", "297.4", "3304.5", "-0.7", "3922.6", "-1.3" ]
+, [ 32, "F2FB8A6C-6F47-4A87-A012-6145B10CBBBF", 32, 1406280708, "889642", 1406280708, "889642", "{\n}", "2006", "512277", "4.5", "21.5", "184.1", "408.2", "618.2", "0.0", "667.6", "2384.8", "322.9", "3375.3", "2.1", "3993.5", "1.8" ]
+, [ 33, "A204B91A-C458-41AA-A2C4-B8915F70439C", 33, 1406280708, "889642", 1406280708, "889642", "{\n}", "2007", "508164", "3.9", "17.7", "179.1", "403.0", "603.7", "-2.3", "671.4", "2616.3", "328.0", "3615.8", "7.1", "4219.5", "5.7" ]
+, [ 34, "FB555988-0EBC-47F4-BCB0-A3A80EE607E0", 34, 1406280708, "889642", 1406280708, "889642", "{\n}", "2008", "511145", "3.5", "21.3", "158.5", "390.1", "573.4", "-5.0", "668.9", "2798.0", "309.3", "3776.2", "4.4", "4349.6", "3.1" ]
+, [ 35, "57FE748B-9946-4C37-BCBE-BCE793676879", 35, 1406280708, "889642", 1406280708, "889642", "{\n}", "2009", "517763", "3.1", "18.3", "144.1", "398.4", "564.0", "-1.6", "592.4", "2465.0", "219.0", "3276.4", "-13.2", "3840.4", "-11.7" ]
+, [ 36, "1EA11512-AB31-4AC6-B9A1-932183DCA732", 36, 1406280708, "889642", 1406280708, "889642", "{\n}", "2010", "527278", "3.6", "21.4", "125.4", "405.3", "555.7", "-1.5", "542.4", "2225.0", "234.4", "3001.8", "-8.4", "3557.5", "-7.4" ]
+, [ 37, "EA5D0CB4-7501-42EF-BECD-AEE23FDD8790", 37, 1406280708, "889642", 1406280708, "889642", "{\n}", "2011", "542753", "2.8", "16.8", "110.0", "363.3", "492.9", "-11.3", "416.2", "2099.3", "153.3", "2668.8", "-11.1", "3161.7", "-11.1" ]
+, [ 38, "194A9045-F771-4D73-870B-DA9A5ABD76D4", 38, 1406280708, "889642", 1406280708, "889642", "{\n}", "2012", "549659", "2.4", "18.2", "97.9", "296.5", "415.0", "-15.8", "470.3", "2055.6", "161.6", "2687.5", "0.7", "3102.5", "-1.9" ]
+ ]
+}

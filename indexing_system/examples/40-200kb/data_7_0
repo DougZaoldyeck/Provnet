@@ -1,0 +1,1013 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "h5i4-nb9a",
+      "name" : "BPD Cameras",
+      "averageRating" : 0,
+      "createdAt" : 1360775681,
+      "displayType" : "geoRows",
+      "downloadCount" : 585,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1494534708,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 15696035,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 6255457,
+      "publicationStage" : "published",
+      "tableId" : 6255457,
+      "totalTimesRated" : 0,
+      "viewCount" : 98,
+      "viewLastModified" : 1494532594,
+      "viewType" : "tabular",
+      "childViews" : [ "" ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 234804429,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33417151,
+        "cachedContents" : {
+          "largest" : "932 - Riggs - Braddish",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1113-Division St - Islamic Way",
+            "count" : "2"
+          }, {
+            "item" : "53 - Charles-Baltimore",
+            "count" : "1"
+          }, {
+            "item" : "304-Behind 2711 Berea Rd.",
+            "count" : "1"
+          }, {
+            "item" : "343-835 Seagull Ave.",
+            "count" : "1"
+          }, {
+            "item" : "530-Greenmount Ave - E Preston St",
+            "count" : "1"
+          }, {
+            "item" : "40 - N Eutaw St-W Saratoga",
+            "count" : "1"
+          }, {
+            "item" : "2212 Latrobe 916 Webb ct",
+            "count" : "1"
+          }, {
+            "item" : "221-Fleet St - S Broadway St (East)",
+            "count" : "1"
+          }, {
+            "item" : "31 - Park Ave - W Franklin St",
+            "count" : "1"
+          }, {
+            "item" : "33 -Park Ave - W Saratoga St",
+            "count" : "1"
+          }, {
+            "item" : "922 - Poplar Grove St - Rayner Ave",
+            "count" : "1"
+          }, {
+            "item" : "1029-Lombard & Carrolton",
+            "count" : "1"
+          }, {
+            "item" : "1009-MCHenry St - S Mount St",
+            "count" : "1"
+          }, {
+            "item" : "205-E Baltimore St - S Washington St",
+            "count" : "1"
+          }, {
+            "item" : "209-E Lombard St - S Chapel St",
+            "count" : "1"
+          }, {
+            "item" : "1004-Parrish - McHenry",
+            "count" : "1"
+          }, {
+            "item" : "513-Greenmount Ave - E 23rd St",
+            "count" : "1"
+          }, {
+            "item" : "307-Behind Bldg 1200",
+            "count" : "1"
+          }, {
+            "item" : "2316-Perkins 330 Ballou ct",
+            "count" : "1"
+          }, {
+            "item" : "926 - Edmonson Ave - Denison St",
+            "count" : "1"
+          } ],
+          "not_null" : "592",
+          "smallest" : "01 - Eutaw-Lexington Market",
+          "cardinality" : "591"
+        },
+        "format" : { }
+      }, {
+        "id" : 234804404,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 1,
+        "renderTypeName" : "point",
+        "tableColumnId" : 33417126,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : {
+              "coordinates" : [ -76.604706, 39.300228 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.63350147971053, 39.30434818409336 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69887989759445, 39.36173878676679 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69657185673714, 39.36016166734574 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69433355331421, 39.35900135754103 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69390171766281, 39.35877634438256 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69277787208557, 39.35818425560414 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.68254166666667, 39.35383333333333 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.691223532, 39.3574044743 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.68969467282295, 39.35644425288283 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.68816715478897, 39.35566237819138 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.68757438659668, 39.35499663714035 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.68628424406052, 39.35389535063389 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.6852368414402, 39.35301493113853 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.68332308530807, 39.35185450263003 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.6938266158104, 39.29348883651356 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.6824634373188, 39.29387908474198 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.680281, 39.346305 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69784992933273, 39.36090097891113 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -76.69965907931328, 39.36236195168674 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          } ],
+          "not_null" : "592",
+          "cardinality" : "590"
+        },
+        "format" : { }
+      }, {
+        "id" : 234804465,
+        "name" : "Descriptio",
+        "dataTypeName" : "text",
+        "fieldName" : "descriptio",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33417187,
+        "cachedContents" : {
+          "largest" : "929",
+          "null" : "0",
+          "top" : [ {
+            "item" : "",
+            "count" : "57"
+          }, {
+            "item" : "1102",
+            "count" : "2"
+          }, {
+            "item" : "1118",
+            "count" : "2"
+          }, {
+            "item" : "1113",
+            "count" : "2"
+          }, {
+            "item" : "728",
+            "count" : "1"
+          }, {
+            "item" : "1626",
+            "count" : "1"
+          }, {
+            "item" : "1116",
+            "count" : "1"
+          }, {
+            "item" : "703",
+            "count" : "1"
+          }, {
+            "item" : "25",
+            "count" : "1"
+          }, {
+            "item" : "837",
+            "count" : "1"
+          }, {
+            "item" : "1715",
+            "count" : "1"
+          }, {
+            "item" : "1112",
+            "count" : "1"
+          }, {
+            "item" : "68",
+            "count" : "1"
+          }, {
+            "item" : "602",
+            "count" : "1"
+          }, {
+            "item" : "32",
+            "count" : "1"
+          }, {
+            "item" : "204",
+            "count" : "1"
+          }, {
+            "item" : "324",
+            "count" : "1"
+          }, {
+            "item" : "304",
+            "count" : "1"
+          }, {
+            "item" : "43",
+            "count" : "1"
+          }, {
+            "item" : "1716",
+            "count" : "1"
+          } ],
+          "not_null" : "592",
+          "smallest" : "",
+          "cardinality" : "533"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "geo" : {
+          "isNbe" : true,
+          "parentUid" : "y3f4-umna"
+        }
+      },
+      "owner" : {
+        "id" : "jp5u-a9z8",
+        "displayName" : "brad chranko",
+        "profileImageUrlLarge" : "/api/users/jp5u-a9z8/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/jp5u-a9z8/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/jp5u-a9z8/profile_images/TINY",
+        "screenName" : "brad chranko"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "jp5u-a9z8",
+        "displayName" : "brad chranko",
+        "profileImageUrlLarge" : "/api/users/jp5u-a9z8/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/jp5u-a9z8/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/jp5u-a9z8/profile_images/TINY",
+        "screenName" : "brad chranko"
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ "row-2btm-k6xn.79sn", "00000000-0000-0000-EAD7-305F3381E5A0", 0, 1450720039, null, 1450720039, null, "{ }", "535 - Greenmount  - 30th", "POINT (-76.60947777777777 39.32478055555556)", "" ]
+, [ "row-m42n.gxqt_rcwn", "00000000-0000-0000-6513-16EE9DCEDD3C", 0, 1450720039, null, 1450720039, null, "{ }", "2508-JFX North", "POINT (-76.610525 39.29905277777777)", "" ]
+, [ "row-6t2y~hiuj_ty9p", "00000000-0000-0000-90C6-6C1594358A32", 0, 1450720039, null, 1450720039, null, "{ }", "2507-JFX south", "POINT (-76.61066666666666 39.30105833333333)", "" ]
+, [ "row-5b7g~ih4u.mrcd", "00000000-0000-0000-D45D-242C615ECCFC", 0, 1450720039, null, 1450720039, null, "{ }", "2506-Fallsway and Eager", "POINT (-76.61072777777777 39.30126388888888)", "" ]
+, [ "row-id2d.yyxp~uym9", "00000000-0000-0000-129C-D97BDBEB7D71", 0, 1450720039, null, 1450720039, null, "{ }", "2505-Warden St Lot", "POINT (-76.60982777777777 39.302175)", "" ]
+, [ "row-dxip-pr2y_mbja", "00000000-0000-0000-7210-431E83B4D730", 0, 1450720039, null, 1450720039, null, "{ }", "2504-Eager St(widows Peak)", "POINT (-76.60820555555554 39.30102777777778)", "" ]
+, [ "row-5w8j~d4k7_hue3", "00000000-0000-0000-F505-D754B10067D2", 0, 1450720039, null, 1450720039, null, "{ }", "2503-Monument and Fallsway", "POINT (-76.61058888888888 39.29773888888889)", "" ]
+, [ "row-k4dr.yttv_ik9k", "00000000-0000-0000-D051-87295B8B5F47", 0, 1450720039, null, 1450720039, null, "{ }", "2502-Madison and Constitution", "POINT (-76.6089361111111 39.2988)", "" ]
+, [ "row-pihu~3pb4~9c39", "00000000-0000-0000-5844-28465D800E97", 0, 1450720039, null, 1450720039, null, "{ }", "930 - Rosedale - Brighton", "POINT (-76.66911388888889 39.30514166666666)", "" ]
+, [ "row-pha6-j4g3-gxz8", "00000000-0000-0000-9937-D88123F4ACF5", 0, 1450720039, null, 1450720039, null, "{ }", "932 - Riggs - Braddish", "POINT (-76.660925 39.30039166666666)", "" ]
+, [ "row-p8x5_c9vx_54cx", "00000000-0000-0000-3BB6-49905FD1D2F8", 0, 1450720039, null, 1450720039, null, "{ }", "931 - Riggs - Dukeland", "POINT (-76.66348333333335 39.30029722222222)", "" ]
+, [ "row-jbdq_y73n~bwzk", "00000000-0000-0000-9D60-78DE8EC1EF23", 0, 1450720039, null, 1450720039, null, "{ }", "1113-Division St - Islamic Way", "POINT (-76.63350147971053 39.30434818409336)", "1113" ]
+, [ "row-5rne~uy3u_hqu6", "00000000-0000-0000-24F5-8F96E41ABFDA", 0, 1450720039, null, 1450720039, null, "{ }", "1029-Lombard & Carrolton", "POINT (-76.6366138888889 39.286625)", "1029" ]
+, [ "row-3cnj~yuuj_hgnr", "00000000-0000-0000-F8FA-4F1800504C12", 0, 1450720039, null, 1450720039, null, "{ }", "1118-Division St - Mosher St", "POINT (-76.63157400307077 39.30275305569003)", "1118" ]
+, [ "row-7t9h.atrx.b5u8", "00000000-0000-0000-960E-503830E3D853", 0, 1450720039, null, 1450720039, null, "{ }", "1920 - Charles and Conway", "POINT (-76.61468888888888 39.28421111111111)", "" ]
+, [ "row-ng2h_icwy~bzcn", "00000000-0000-0000-F966-0BD04A2E7965", 0, 1450720039, null, 1450720039, null, "{ }", "1921 - Sharp and Conway", "POINT (-76.61765555555554 39.28406111111111)", "" ]
+, [ "row-83xe-9fi2~8kcw", "00000000-0000-0000-DF3F-09225B4199A8", 0, 1450720039, null, 1450720039, null, "{ }", "1922 - 182 Hamburg st", "POINT (-76.61844722222222 39.27830555555556)", "" ]
+, [ "row-beum~zq4a~kt3m", "00000000-0000-0000-8617-592B6E8E69E4", 0, 1450720039, null, 1450720039, null, "{ }", "1116-Mosher St - Argyle St", "POINT (-76.63454009804764 39.30059140289045)", "1116" ]
+, [ "row-wwcu~w5b8.ckct", "00000000-0000-0000-5A74-28B4E8CA1963", 0, 1450720039, null, 1450720039, null, "{ }", "1113-Division St - Islamic Way", "POINT (-76.63350147971053 39.30434818409336)", "1113" ]
+, [ "row-5ekr.dgji.8vku", "00000000-0000-0000-9636-A6787078AB32", 0, 1450720039, null, 1450720039, null, "{ }", "1111-Division - Laurens", "POINT (-76.63450850277033 39.30512204068196)", "1111" ]
+, [ "row-ecvg.aef9.phy4", "00000000-0000-0000-F08F-3B659D79E28E", 0, 1450720039, null, 1450720039, null, "{ }", "1107-Division - Presstman", "POINT (-76.63644287497533 39.30669205827265)", "1107" ]
+, [ "row-3nsv_wmrp~ziaw", "00000000-0000-0000-8A1F-4642EB23EA6D", 0, 1450720039, null, 1450720039, null, "{ }", "1102-Carey St - Baker St", "POINT (-76.64127059169711 39.30762937394409)", "1102" ]
+, [ "row-7evn~w5pr.76rd", "00000000-0000-0000-4EA2-7ED15073F63A", 0, 1450720039, null, 1450720039, null, "{ }", "625 - Milton & E Biddle St", "POINT (-76.582694 39.304777)", "625" ]
+, [ "row-huqi~wm8c_jfjq", "00000000-0000-0000-E822-B81C84649276", 0, 1450720039, null, 1450720039, null, "{ }", "1966 Avenue Market Parking Lot", "POINT (-76.63521220705451 39.30340229710768)", "" ]
+, [ "row-8f4a~vtsx.4itz", "00000000-0000-0000-1452-3A288C1AEB00", 0, 1450720039, null, 1450720039, null, "{ }", "01 - Eutaw-Lexington Market", "POINT (-76.621074 39.290996)", "1" ]
+, [ "row-yp2k_cqtj_js9n", "00000000-0000-0000-47FA-5032948F41D4", 0, 1450720039, null, 1450720039, null, "{ }", "02 - Eutaw-Fayette", "POINT (-76.62100940934023 39.29039532424097)", "2" ]
+, [ "row-bhpz-ezmf.q39p", "00000000-0000-0000-A682-F878D88B6EA1", 0, 1450720039, null, 1450720039, null, "{ }", "03 - Eutaw-Baltimore", "POINT (-76.620985 39.289324)", "3" ]
+, [ "row-ice7~x6w2-kg8d", "00000000-0000-0000-7A4A-B474D5F18C51", 0, 1450720039, null, 1450720039, null, "{ }", "04 - Eutaw-Redwood", "POINT (-76.620948 39.288678)", "4" ]
+, [ "row-q8pf_knnf.cbdi", "00000000-0000-0000-3712-3A01253D8F40", 0, 1450720039, null, 1450720039, null, "{ }", "05 - Eutaw-Lombard", "POINT (-76.620854 39.287528)", "5" ]
+, [ "row-iwhc_u9bv~gphb", "00000000-0000-0000-D1C6-EBC6F880C88A", 0, 1450720039, null, 1450720039, null, "{ }", "06 - Eutaw-Camden", "POINT (-76.620675 39.285245)", "6" ]
+, [ "row-mx9y_fjyx.ck58", "00000000-0000-0000-C992-C3B3918B0359", 0, 1450720039, null, 1450720039, null, "{ }", "07 - Paca-Pratt", "POINT (-76.622129 39.286257)", "7" ]
+, [ "row-awtw~d2h7.9w3e", "00000000-0000-0000-E012-8C26111B33F9", 0, 1450720039, null, 1450720039, null, "{ }", "08 - Greene-Lombard", "POINT (-76.623616 39.287415)", "8" ]
+, [ "row-9ihz-wse3_uu99", "00000000-0000-0000-765F-3E9A78846466", 0, 1450720039, null, 1450720039, null, "{ }", "09 - Greene-Baltimore", "POINT (-76.623695 39.289222)", "9" ]
+, [ "row-929q-rav7_jzaa", "00000000-0000-0000-6E25-D1429EE72DE9", 0, 1450720039, null, 1450720039, null, "{ }", "10 - Greene-Fayette", "POINT (-76.623777 39.290333)", "10" ]
+, [ "row-nnxp-uk5d.33dn", "00000000-0000-0000-8078-22EDC15D37E4", 0, 1450720039, null, 1450720039, null, "{ }", "11 - Greene-Lexington", "POINT (-76.623837 39.291377)", "11" ]
+, [ "row-fw7q.dymd_j35v", "00000000-0000-0000-4D85-9AC2C6C2F693", 0, 1450720039, null, 1450720039, null, "{ }", "12 - Paca-Fayette", "POINT (-76.622411 39.29037)", "12" ]
+, [ "row-3yae-6bib.37wv", "00000000-0000-0000-C05D-43C37F8206CE", 0, 1450720039, null, 1450720039, null, "{ }", "13 - Howard-Lombard", "POINT (-76.6193449773696 39.28756912674072)", "13" ]
+, [ "row-yzek_v3xz.f34g", "00000000-0000-0000-F57B-0F3AD0C62AB7", 0, 1450720039, null, 1450720039, null, "{ }", "14 - Howard-Pratt", "POINT (-76.619369 39.286315)", "14" ]
+, [ "row-9dqm~epmi_mqwc", "00000000-0000-0000-FF2F-FFC23ADC70B4", 0, 1450720039, null, 1450720039, null, "{ }", "15 - Howard-Camden", "POINT (-76.619283 39.285302)", "15" ]
+, [ "row-dr3z_t9dh.wjrh", "00000000-0000-0000-0397-8CF5517D589C", 0, 1450720039, null, 1450720039, null, "{ }", "16 -S Hanover- W Pratt", "POINT (-76.616191 39.286452)", "16" ]
+, [ "row-w352.b7dw-sidj", "00000000-0000-0000-D0DF-E64E1FA1358C", 0, 1450720039, null, 1450720039, null, "{ }", "17 - Hopkins Pl - W Lombard St", "POINT (-76.617692 39.287668)", "17" ]
+, [ "row-su4q~zfm4~fkhw", "00000000-0000-0000-62E9-655AC05D5AA4", 0, 1450720039, null, 1450720039, null, "{ }", "18 - Park Ave-W Baltimore St", "POINT (-76.61779 39.289384)", "18" ]
+, [ "row-vetc-yk9y~m7vh", "00000000-0000-0000-B4F0-D06A01F5873D", 0, 1450720039, null, 1450720039, null, "{ }", "19 -S Howard St - W Baltimore St", "POINT (-76.61948 39.289386)", "19" ]
+, [ "row-8ka2~7zym.5xyv", "00000000-0000-0000-B4EA-BE11A3A075CA", 0, 1450720039, null, 1450720039, null, "{ }", "20 - N Howard St-W Fayette St", "POINT (-76.61949 39.290447)", "20" ]
+, [ "row-duee~9g4k~kud4", "00000000-0000-0000-A9DC-3F1F4D17BB4C", 0, 1450720039, null, 1450720039, null, "{ }", "21 -N Howard St - W Lexington St", "POINT (-76.619664 39.291602)", "21" ]
+, [ "row-ryhc.9x5k.ptjh", "00000000-0000-0000-6DD0-77B87B14D0F0", 0, 1450720039, null, 1450720039, null, "{ }", "22 - Park Ave-W Lexington St", "POINT (-76.61802 39.291581)", "22" ]
+, [ "row-h3xt_79hr-urr9", "00000000-0000-0000-586B-5C689DF9CEB8", 0, 1450720039, null, 1450720039, null, "{ }", "23-N Liberty St - W Lexington St", "POINT (-76.617084 39.29167)", "23" ]
+, [ "row-rvq2.i897_ndwb", "00000000-0000-0000-8445-331F3B643DE4", 0, 1450720039, null, 1450720039, null, "{ }", "24 - N Liberty St-W Fayette St", "POINT (-76.617674 39.290451)", "24" ]
+, [ "row-83pm~7sc9-v7xn", "00000000-0000-0000-F140-AE26A573C3D3", 0, 1450720039, null, 1450720039, null, "{ }", "25 - Park Ave - W Fayette St", "POINT (-76.617985 39.290501)", "25" ]
+, [ "row-p2ka~dx4w_cqar", "00000000-0000-0000-CC73-94DE09A16219", 0, 1450720039, null, 1450720039, null, "{ }", "26 - N Liberty St-Clay St", "POINT (-76.6168431896496 39.29234439807268)", "26" ]
+, [ "row-bpjt~4ax8.sgtv", "00000000-0000-0000-2E8B-22F938041990", 0, 1450720039, null, 1450720039, null, "{ }", "27 - Cathedral St - W Saratoga St", "POINT (-76.616777 39.293019)", "27" ]
+, [ "row-xccy_9vsc-9ija", "00000000-0000-0000-C07A-111B6EECE4F9", 0, 1450720039, null, 1450720039, null, "{ }", "28 - Cathedral St-W Mulberry St", "POINT (-76.616793 39.294053)", "28" ]
+, [ "row-u4b8_s784_vsyr", "00000000-0000-0000-ACED-AA50DE80AE76", 0, 1450720039, null, 1450720039, null, "{ }", "29 - N Charles St - E Mulberry St", "POINT (-76.615489 39.294151)", "29" ]
+, [ "row-53qu_5hwa~mu5r", "00000000-0000-0000-A7AF-0DCBC737BA58", 0, 1450720039, null, 1450720039, null, "{ }", "30 - Cathedral St-W Franklin St", "POINT (-76.616872 39.295048)", "30" ]
+, [ "row-gs96.rt3i.u8bd", "00000000-0000-0000-A023-3E15497F6097", 0, 1450720039, null, 1450720039, null, "{ }", "31 - Park Ave - W Franklin St", "POINT (-76.618324 39.295011)", "31" ]
+, [ "row-y3ju~x68j~9ejb", "00000000-0000-0000-C618-9BEA3B6CFDBF", 0, 1450720039, null, 1450720039, null, "{ }", "32 - Park Ave-W Mulberry St", "POINT (-76.618224 39.294017)", "32" ]
+, [ "row-we53-byq4_5hfr", "00000000-0000-0000-5A6B-70EB57A475C1", 0, 1450720039, null, 1450720039, null, "{ }", "33 -Park Ave - W Saratoga St", "POINT (-76.618158 39.292954)", "33" ]
+, [ "row-fi3j-dua3~rptk", "00000000-0000-0000-B256-D8776313BEEA", 0, 1450720039, null, 1450720039, null, "{ }", "34 - N Howard St - W Saratoga St", "POINT (-76.619659 39.292896)", "34" ]
+, [ "row-2pmd-dbza-3kwt", "00000000-0000-0000-DCA7-D15FBFA03D5B", 0, 1450720039, null, 1450720039, null, "{ }", "35 - N Howard St - W Mulberry St", "POINT (-76.619773 39.293987)", "35" ]
+, [ "row-ze3r~napw.vzf4", "00000000-0000-0000-2B19-16919B7CE2EC", 0, 1450720039, null, 1450720039, null, "{ }", "36 - N Howard St-W Franklin St", "POINT (-76.61979737353023 39.29495596870342)", "36" ]
+, [ "row-zprk_vrk4.yhi6", "00000000-0000-0000-5654-7045D13A95A8", 0, 1450720039, null, 1450720039, null, "{ }", "37 - N Howard St - W Centre St", "POINT (-76.619917 39.296209)", "37" ]
+, [ "row-dre3-5zbj.63hu", "00000000-0000-0000-4075-15843AE2289A", 0, 1450720039, null, 1450720039, null, "{ }", "38 - N Eutaw St-George St", "POINT (-76.621317 39.29579)", "38" ]
+, [ "row-v56m_wp2i.59ay", "00000000-0000-0000-8609-B2141AE6859A", 0, 1450720039, null, 1450720039, null, "{ }", "39 - S Paca St - W Baltimore St", "POINT (-76.62233 39.289278)", "39" ]
+, [ "row-sqfy~pu9r~b4jp", "00000000-0000-0000-53C6-17A6F14964DF", 0, 1450720039, null, 1450720039, null, "{ }", "40 - N Eutaw St-W Saratoga", "POINT (-76.621145 39.29283)", "40" ]
+, [ "row-njsy.k7s5.868u", "00000000-0000-0000-5927-48378BC43ADC", 0, 1450720039, null, 1450720039, null, "{ }", "41 - N Paca St - W Saratoga St", "POINT (-76.622539 39.292822)", "41" ]
+, [ "row-4ffx_ytqj~9syh", "00000000-0000-0000-ABE5-28E446B27F37", 0, 1450720039, null, 1450720039, null, "{ }", "42 - N Paca St-W Mulberry St", "POINT (-76.622571 39.293837)", "42" ]
+, [ "row-4iv3_etsm-aqj7", "00000000-0000-0000-9733-9A7A2E34BA0F", 0, 1450720039, null, 1450720039, null, "{ }", "43 - N Paca St - W Lexington St", "POINT (-76.622441 39.291428)", "43" ]
+, [ "row-z8ed-c2p7_zix4", "00000000-0000-0000-E26E-D7FA86451D90", 0, 1450720039, null, 1450720039, null, "{ }", "44 - N Greene St-W Franklin St", "POINT (-76.623951 39.294792)", "44" ]
+, [ "row-zmp2_jhu4-37qu", "00000000-0000-0000-3484-9DDE7B5FC2E2", 0, 1450720039, null, 1450720039, null, "{ }", "45 - N Greene St - W Saratoga St", "POINT (-76.623895 39.29284)", "45" ]
+, [ "row-ws45.y56j~93vr", "00000000-0000-0000-D10F-7E2701F94BFA", 0, 1450720039, null, 1450720039, null, "{ }", "46 - N Eutaw St-W Franklin St", "POINT (-76.62126 39.29489)", "46" ]
+, [ "row-im9t-dyjz.54q3", "00000000-0000-0000-D6FC-8D9F66EFB8E2", 0, 1450720039, null, 1450720039, null, "{ }", "47 - N Eutaw St - Druid Hill Ave", "POINT (-76.62127017974854 39.29669586515518)", "47" ]
+, [ "row-n957_tx6q_msqg", "00000000-0000-0000-2EC9-C6642A869B6A", 0, 1450720039, null, 1450720039, null, "{ }", "48 - N Eutaw St-W Mulberry St", "POINT (-76.621199 39.293915)", "48" ]
+, [ "row-r457_3mj5.8jyx", "00000000-0000-0000-FFF8-3A1EC04E7DBE", 0, 1450720039, null, 1450720039, null, "{ }", "49 - N Paca St - George St", "POINT (-76.622656 39.295792)", "49" ]
+, [ "row-3cu5.9655~w7ez", "00000000-0000-0000-90E2-2375D02C1600", 0, 1450720039, null, 1450720039, null, "{ }", "50 - Cathedral St-W Centre St", "POINT (-76.6169571877 39.2962994055)", "50" ]
+, [ "row-at78~vedu_jxgp", "00000000-0000-0000-6BDE-9724E240E6FC", 0, 1450720039, null, 1450720039, null, "{ }", "51-Center Plaza", "POINT (-76.61647439002991 39.29132167379627)", "51" ]
+, [ "row-ur4f.i765-pc7i", "00000000-0000-0000-D9F9-0C58F121E3AA", 0, 1450720039, null, 1450720039, null, "{ }", "52- Hopkins Plaza", "POINT (-76.61627054214478 39.28878908065192)", "52" ]
+, [ "row-3xap-s23n_j3aj", "00000000-0000-0000-6EFF-9BEBA3FA3365", 0, 1450720039, null, 1450720039, null, "{ }", "53 - Charles-Baltimore", "POINT (-76.615144 39.289526)", "53" ]
+, [ "row-cxqp~smuw.hqr2", "00000000-0000-0000-20DB-3D089ACCF37F", 0, 1450720039, null, 1450720039, null, "{ }", "54 - S Charles St-E Lombard St", "POINT (-76.614863 39.287744)", "54" ]
+, [ "row-k56x.g9zg-9icu", "00000000-0000-0000-41B8-0E449EC496BA", 0, 1450720039, null, 1450720039, null, "{ }", "55 - Saint Paul St - E Lexington St", "POINT (-76.613976 39.29117)", "55" ]
+, [ "row-fuac_fzgc-d24i", "00000000-0000-0000-B5A4-8A5CC142BBA1", 0, 1450720039, null, 1450720039, null, "{ }", "56 - Light St-E Redwood St", "POINT (-76.6137170792 39.2888202196)", "56" ]
+, [ "row-7psk-38jz~aau2", "00000000-0000-0000-54B1-1EA2110DAC17", 0, 1450720039, null, 1450720039, null, "{ }", "57 - N Calvert St - E Fayette St", "POINT (-76.612448 39.290387)", "57" ]
+, [ "row-eqhz-i8qg_t5gs", "00000000-0000-0000-F538-5A5E99DD60BF", 0, 1450720039, null, 1450720039, null, "{ }", "58 - S Calvert St-E Redwood St", "POINT (-76.612025 39.288933)", "58" ]
+, [ "row-fj89-5v3j~p93i", "00000000-0000-0000-2FEE-16FA2AE40844", 0, 1450720039, null, 1450720039, null, "{ }", "59 - S Calvert St - E Lombard St", "POINT (-76.612135 39.287825)", "59" ]
+, [ "row-ef2v~bwks.q8k5", "00000000-0000-0000-40F6-2BEE4FE5C61C", 0, 1450720039, null, 1450720039, null, "{ }", "60 - Guilford Ave-E Lexington St", "POINT (-76.611114 39.291245)", "60" ]
+, [ "row-gjqm_3zi8.hscv", "00000000-0000-0000-B5C1-D8604920C347", 0, 1450720039, null, 1450720039, null, "{ }", "61 - South St - E Baltimore St", "POINT (-76.611048 39.289701)", "61" ]
+, [ "row-mwre.emtr-a9gc", "00000000-0000-0000-820F-5558B871B199", 0, 1450720039, null, 1450720039, null, "{ }", "62 - South St-Water St", "POINT (-76.610961 39.288566)", "62" ]
+, [ "row-f9zg_wgac.2aph", "00000000-0000-0000-BD8D-8914F4634036", 0, 1450720039, null, 1450720039, null, "{ }", "63 - N Holliday St - E Saratoga St", "POINT (-76.610355 39.292495)", "63" ]
+, [ "row-ek7i.wkum-z24b", "00000000-0000-0000-DD93-4DD63D534747", 0, 1450720039, null, 1450720039, null, "{ }", "64 - N Holiday St-E Fayette St", "POINT (-76.610276 39.290498)", "64" ]
+, [ "row-excz~ysz7~zjv7", "00000000-0000-0000-2E54-69E6C5E85F24", 0, 1450720039, null, 1450720039, null, "{ }", "65 - Commerce St - E Lombard St", "POINT (-76.610116 39.287849)", "65" ]
+, [ "row-hvqp.8nfv_me7t", "00000000-0000-0000-932E-26EFA4AE1A02", 0, 1450720039, null, 1450720039, null, "{ }", "66 - Commerce St - E Pratt St", "POINT (-76.610022 39.286662)", "66" ]
+, [ "row-tt69.eh4s.hc28", "00000000-0000-0000-8A20-6D9C32B3A03E", 0, 1450720039, null, 1450720039, null, "{ }", "67 - Custom House Ave", "POINT (-76.6097554564476 39.28921049389631)", "67" ]
+, [ "row-79hz.zdpb_ff5y", "00000000-0000-0000-8EFA-5B829713F8AF", 0, 1450720039, null, 1450720039, null, "{ }", "68 - S Gay St - E Baltimore St", "POINT (-76.608945 39.289772)", "68" ]
+, [ "row-2ad7_5uzd-ffzs", "00000000-0000-0000-A7A7-97B59B15F62C", 0, 1450720039, null, 1450720039, null, "{ }", "69 - S Gay St - Water St", "POINT (-76.608832 39.288624)", "69" ]
+, [ "row-xuy4_5ddz.p3hn", "00000000-0000-0000-02AE-9C5A456D53FE", 0, 1450720039, null, 1450720039, null, "{ }", "70 - E Saratoga St - E Lexington Stb", "POINT (-76.6078296304 39.291377722)", "70" ]
+, [ "row-3sgi~gx5t.jffw", "00000000-0000-0000-6E11-7A18F8DC4B01", 0, 1450720039, null, 1450720039, null, "{ }", "71 - Market Pl - E Lombard St", "POINT (-76.606944 39.287904)", "71" ]
+, [ "row-xe6r_zu34.kewp", "00000000-0000-0000-8825-AC6B82F346B1", 0, 1450720039, null, 1450720039, null, "{ }", "72 - Pearl St - W Lexington St", "POINT (-76.624648 39.291325)", "72" ]
+, [ "row-hxui~cxm3_k8g3", "00000000-0000-0000-A180-2386B9170DE3", 0, 1450720039, null, 1450720039, null, "{ }", "73 - N Greene St - W Mulberry St", "POINT (-76.62393 39.293779)", "73" ]
+, [ "row-q5wr.qh86~ztrv", "00000000-0000-0000-6AEB-CB039BE2A710", 0, 1450720039, null, 1450720039, null, "{ }", "74 - Druid Hill Ave - Saint Mary St", "POINT (-76.6228714585 39.2975053831)", "74" ]
+, [ "row-svua_uapi~yd9e", "00000000-0000-0000-EE24-D9AC940914F7", 0, 1450720039, null, 1450720039, null, "{ }", "75 - Pennsylvania Ave -Saint Mary St", "POINT (-76.6250628232956 39.2958219903579)", "75" ]
+, [ "row-csta_8guv-9en2", "00000000-0000-0000-9969-41C43901B1F2", 0, 1450720039, null, 1450720039, null, "{ }", "76 - N Eutaw St &amp; W Monument St", "POINT (-76.621448 39.297269)", "76" ]
+, [ "row-gbj5-pxsc_aa9i", "00000000-0000-0000-D44A-66B88A8CD36F", 0, 1450720039, null, 1450720039, null, "{ }", "77 - Saratoga-Charles", "POINT (-76.615414 39.292327)", "77" ]
+, [ "row-77zm_m6ue_bbr9", "00000000-0000-0000-A0EA-38085593337C", 0, 1450720039, null, 1450720039, null, "{ }", "201-E Fayette St - N Broadway", "POINT (-76.594117 39.293968)", "201" ]
+, [ "row-fibe.ifzi~tkri", "00000000-0000-0000-6C20-A000AC01D870", 0, 1450720039, null, 1450720039, null, "{ }", "202-E Fairmount Ave - N Broadway", "POINT (-76.594029 39.292632)", "202" ]
+, [ "row-4rx6-xu6p~udrf", "00000000-0000-0000-BED0-261E52B17714", 0, 1450720039, null, 1450720039, null, "{ }", "203-E Baltimore St - S Broadway", "POINT (-76.593944 39.291542)", "203" ]
+, [ "row-jwif~rwfv~qam7", "00000000-0000-0000-ED40-207BB666F8DF", 0, 1450720039, null, 1450720039, null, "{ }", "204-E Baltimore St - S Ann St", "POINT (-76.591777 39.291616)", "204" ]
+, [ "row-3a2a-ypyw_6apj", "00000000-0000-0000-295D-D7670ED09F99", 0, 1450720039, null, 1450720039, null, "{ }", "205-E Baltimore St - S Washington St", "POINT (-76.589201 39.291747)", "205" ]
+, [ "row-nf67-cj84_awag", "00000000-0000-0000-FA6D-E80F31F01317", 0, 1450720039, null, 1450720039, null, "{ }", "206-E Lombard St - S Broadway", "POINT (-76.593869 39.290399)", "206" ]
+, [ "row-6e68_qvk5-wuiv", "00000000-0000-0000-8400-9D72AACF94C0", 0, 1450720039, null, 1450720039, null, "{ }", "207-E Lombard St - S Ann St", "POINT (-76.59171 39.290499)", "207" ]
+, [ "row-k2i3-bdkx-xx6u", "00000000-0000-0000-8E18-B5117CE022F4", 0, 1450720039, null, 1450720039, null, "{ }", "208-E Lombard St - S Durham St", "POINT (-76.591047 39.29052)", "208" ]
+, [ "row-y8jf~2dss.ycui", "00000000-0000-0000-9307-51A8CC7292C7", 0, 1450720039, null, 1450720039, null, "{ }", "209-E Lombard St - S Chapel St", "POINT (-76.589749 39.290555)", "209" ]
+, [ "row-p9a3~3kxn_2gjt", "00000000-0000-0000-09CF-B35F67290144", 0, 1450720039, null, 1450720039, null, "{ }", "210-E Lombard St - S Washington St", "POINT (-76.589106 39.290573)", "210" ]
+, [ "row-evwx-jptp~kywp", "00000000-0000-0000-F607-A5E73924CA2D", 0, 1450720039, null, 1450720039, null, "{ }", "211-E Pratt St - S Broadway", "POINT (-76.593803 39.289257)", "211" ]
+, [ "row-2nug.dpv7-c4zv", "00000000-0000-0000-6242-683DEC47A002", 0, 1450720039, null, 1450720039, null, "{ }", "212-E Pratt St - N Bond St", "POINT (-76.59571141004562 39.28913991254447)", "212" ]
+, [ "row-2xzd_m3s8~icm7", "00000000-0000-0000-4A63-238772EEF15C", 0, 1450720039, null, 1450720039, null, "{ }", "213-Gough St - S Broadway", "POINT (-76.593704 39.287623)", "213" ]
+, [ "row-2yn7~nwd6_xbne", "00000000-0000-0000-14C4-03720B84B844", 0, 1450720039, null, 1450720039, null, "{ }", "214-Gough St - S Regester St", "POINT (-76.592432 39.287696)", "214" ]
+, [ "row-3sqp-9h5h~gv2r", "00000000-0000-0000-556E-3CDEB16C0C6D", 0, 1450720039, null, 1450720039, null, "{ }", "215-Bank St - S Broadway", "POINT (-76.593638 39.286609)", "215" ]
+, [ "row-jfum~yyhp_yit3", "00000000-0000-0000-7E4A-B4AFD627C00D", 0, 1450720039, null, 1450720039, null, "{ }", "216-Bank St - S Bond St", "POINT (-76.59544 39.286512)", "216" ]
+, [ "row-vmnd~w7sk~tsvp", "00000000-0000-0000-FE28-5D94BC210ABB", 0, 1450720039, null, 1450720039, null, "{ }", "218-Eastern Ave - S Broadway", "POINT (-76.593557 39.285578)", "218" ]
+, [ "row-rnd3_rueb_w8bh", "00000000-0000-0000-B1FE-3D7B49CCC8F2", 0, 1450720039, null, 1450720039, null, "{ }", "219-Eastern Ave - S Ann St", "POINT (-76.591406 39.285686)", "219" ]
+, [ "row-gapd-j52v~s4wj", "00000000-0000-0000-440D-E624CE58DDB9", 0, 1450720039, null, 1450720039, null, "{ }", "220-Fleet St - S Broadway", "POINT (-76.59356564283371 39.28460387354584)", "220" ]
+, [ "row-m4wv-4ire-5dts", "00000000-0000-0000-F35D-03416A9DC5D8", 0, 1450720039, null, 1450720039, null, "{ }", "221-Fleet St - S Broadway St (East)", "POINT (-76.59326 39.284564)", "221" ]
+, [ "row-884r_ghbs~cfik", "00000000-0000-0000-685B-3B566A07C40E", 0, 1450720039, null, 1450720039, null, "{ }", "222-Fleet St - S Ann St", "POINT (-76.591353 39.284726)", "222" ]
+, [ "row-xb9c~g7te.rkbu", "00000000-0000-0000-B4F4-DE9DFB651797", 0, 1450720039, null, 1450720039, null, "{ }", "223-Fleet St - S Caroline St", "POINT (-76.596724 39.284425)", "223" ]
+, [ "row-3eqb-qqyg_qhhf", "00000000-0000-0000-7190-4D5CCC2B1716", 0, 1450720039, null, 1450720039, null, "{ }", "224-Fleet St - S Eden St", "POINT (-76.598245 39.284346)", "224" ]
+, [ "row-zvjy~uwsm.7492", "00000000-0000-0000-431A-15B4D1DE75DF", 0, 1450720039, null, 1450720039, null, "{ }", "225-S Broadway - Aliceanna St(East)", "POINT (-76.5931847691536 39.2835346957123)", "225" ]
+, [ "row-exd8_cfu3~yktd", "00000000-0000-0000-479E-59D4EB8922C8", 0, 1450720039, null, 1450720039, null, "{ }", "227-Thames St - S Broadway", "POINT (-76.593125 39.281841)", "227" ]
+, [ "row-96zv.ttu5-y4rw", "00000000-0000-0000-E56F-2BBAC76F7AAD", 0, 1450720039, null, 1450720039, null, "{ }", "307-Behind Bldg 1200", "POINT (-76.6314049065113 39.25054306120661)", "307" ]
+, [ "row-nd25-n5f8~qg29", "00000000-0000-0000-D015-3824184B0ECF", 0, 1450720039, null, 1450720039, null, "{ }", "302-Back of 1312 Shellbanks", "POINT (-76.63222458257191 39.25093656179605)", "302" ]
+, [ "row-2rmj.ez2u-85cf", "00000000-0000-0000-7E7D-7A06ADA9C586", 0, 1450720039, null, 1450720039, null, "{ }", "305-Shellbanks Rd - Blyden Rd", "POINT (-76.631866 39.250484)", "305" ]
+, [ "row-2ygu-58q2-4b7p", "00000000-0000-0000-46DC-469F6A53645F", 0, 1450720039, null, 1450720039, null, "{ }", "303-Berea Rd - Slater Rd", "POINT (-76.63301 39.250116)", "303" ]
+, [ "row-8c83-989j_z3c6", "00000000-0000-0000-D24F-4CC57E2235B0", 0, 1450720039, null, 1450720039, null, "{ }", "308-Fisk Rd - Slater Rd", "POINT (-76.63199614762503 39.24901086313518)", "308" ]
+, [ "row-ytct.2hha-ycr4", "00000000-0000-0000-940F-3E113A573B22", 0, 1450720039, null, 1450720039, null, "{ }", "309-Behind 1201 Slater Rd", "POINT (-76.63219881862668 39.24875486950877)", "309" ]
+, [ "row-qy99~eave-2uu7", "00000000-0000-0000-1BED-9E2441225BF4", 0, 1450720039, null, 1450720039, null, "{ }", "306-Back of 1301 Slater Rd.", "POINT (-76.63295086054555 39.24962970161173)", "306" ]
+, [ "row-bfku.g97g~5t2i", "00000000-0000-0000-D013-8337DF890DA6", 0, 1450720039, null, 1450720039, null, "{ }", "310-Giles Rd - Shellbanks Rd", "POINT (-76.630346 39.249721)", "310" ]
+, [ "row-grtq~xvgx_bj8b", "00000000-0000-0000-C299-A43FC355ED55", 0, 1450720039, null, 1450720039, null, "{ }", "311-Rear of 2701 Giles-Shellbanks", "POINT (-76.62997849643642 39.24942904911602)", "311" ]
+, [ "row-9pzs~rdim-byh9", "00000000-0000-0000-E0A2-EB20D5FDAC67", 0, 1450720039, null, 1450720039, null, "{ }", "313-Spelman Rd - Woodview Rd", "POINT (-76.629266 39.248579)", "313" ]
+, [ "row-ghn9.284p~66p4", "00000000-0000-0000-2EBE-24A4BADD2346", 0, 1450720039, null, 1450720039, null, "{ }", "314-Woodview Rd - Round Rd", "POINT (-76.628517 39.248612)", "314" ]
+, [ "row-x83x.fxtb-29zy", "00000000-0000-0000-7B4F-90BA3B0EB598", 0, 1450720039, null, 1450720039, null, "{ }", "312-Sethlow Rd - Slater Rd", "POINT (-76.630831 39.248398)", "312" ]
+, [ "row-asan_93j5.z25c", "00000000-0000-0000-3264-628E7B821CE4", 0, 1450720039, null, 1450720039, null, "{ }", "315-Rear of Comm Ctr.", "POINT (-76.62975668907166 39.24815335508407)", "315" ]
+, [ "row-a4cv-b977-ip5d", "00000000-0000-0000-16DB-FD201181EEB8", 0, 1450720039, null, 1450720039, null, "{ }", "316- Behind Community Center 1039", "POINT (-76.63008024481715 39.24715462301298)", "316" ]
+, [ "row-e9i9.8gvi~j3sk", "00000000-0000-0000-EEEC-1626D5FD7F23", 0, 1450720039, null, 1450720039, null, "{ }", "317-Spelman Rd - Claflin Ct", "POINT (-76.628802 39.247049)", "317" ]
+, [ "row-bwmh_fegs_2nd4", "00000000-0000-0000-6D10-AF150AEDB78C", 0, 1450720039, null, 1450720039, null, "{ }", "319-Spelman Rd - S Denham Cir", "POINT (-76.62841466045771 39.24586355224435)", "319" ]
+, [ "row-dvuw.86sd_usdr", "00000000-0000-0000-8384-5285993FB39D", 0, 1450720039, null, 1450720039, null, "{ }", "318- 2822 Round Rd.", "POINT (-76.62769833066102 39.2464110941083)", "318" ]
+, [ "row-84y4~nmid.3cbc", "00000000-0000-0000-01FE-EB8CFC75A159", 0, 1450720039, null, 1450720039, null, "{ }", "322-2824 N Denham Cir", "POINT (-76.628547 39.244608)", "322" ]
+, [ "row-mgjn_c7pm-ujkn", "00000000-0000-0000-74FC-5C01D8300195", 0, 1450720039, null, 1450720039, null, "{ }", "321-Rear of 2822 Denham", "POINT (-76.62879377603531 39.24451515416843)", "321" ]
+, [ "row-24mk.4a3a~yqny", "00000000-0000-0000-A053-0488E59A6F81", 0, 1450720039, null, 1450720039, null, "{ }", "323- Off 2820 Spellman", "POINT (-76.62797972559929 39.24487036222853)", "323" ]
+, [ "row-yg46.n4tb.mzy2", "00000000-0000-0000-5108-279EA8E18D02", 0, 1450720039, null, 1450720039, null, "{ }", "324-Bridgeview Rd - Spelman Rd", "POINT (-76.62751572343545 39.24516063447664)", "324" ]
+, [ "row-svz6-7nvd~7788", "00000000-0000-0000-1FB4-075E8D1DD30E", 0, 1450720039, null, 1450720039, null, "{ }", "327-3301 Round Rd.", "POINT (-76.62585 39.244914)", "327" ]
+, [ "row-iej9_9sx8-gvds", "00000000-0000-0000-9660-66C3629294F3", 0, 1450720039, null, 1450720039, null, "{ }", "326-Side of 2901 Denham Cir.", "POINT (-76.62650721263086 39.24429465760859)", "326" ]
+, [ "row-q98e~vhnq_3fqf", "00000000-0000-0000-CD45-B241577DDC90", 0, 1450720039, null, 1450720039, null, "{ }", "333-Bethune Rd - Spelman Rd", "POINT (-76.626069 39.243618)", "333" ]
+, [ "row-vbx5.65ip-bum3", "00000000-0000-0000-47B4-4ACA1551228E", 0, 1450720039, null, 1450720039, null, "{ }", "301-Behind 2708 Berea Rd.", "POINT (-76.63329475490167 39.25065259288995)", "301" ]
+, [ "row-ysk7-9gjj-gukf", "00000000-0000-0000-492A-5F041BBBFE44", 0, 1450720039, null, 1450720039, null, "{ }", "304-Behind 2711 Berea Rd.", "POINT (-76.632756 39.250272)", "304" ]
+, [ "row-negd-bq43_t84w", "00000000-0000-0000-DAFB-50B1FC5A4E60", 0, 1450720039, null, 1450720039, null, "{ }", "352-Maint. Backyard 1", "POINT (-76.63086041808128 39.24823955624256)", "352" ]
+, [ "row-6br5.twz2.a7th", "00000000-0000-0000-1936-4AD092FE69F9", 0, 1450720039, null, 1450720039, null, "{ }", "353-Maint Backyard 2", "POINT (-76.6306646168232 39.2480089938705)", "353" ]
+, [ "row-ysbe.dbas~ekiu", "00000000-0000-0000-95DE-F888417758BC", 0, 1450720039, null, 1450720039, null, "{ }", "355-Maint. Garage Doors", "POINT (-76.6310441493988 39.24795914244714)", "355" ]
+, [ "row-zbc3_32fj~66k3", "00000000-0000-0000-DFC6-363B54EDF9C8", 0, 1450720039, null, 1450720039, null, "{ }", "354-Back of Comm. Ctr.", "POINT (-76.6296923160553 39.24849608195489)", "354" ]
+, [ "row-yrbz-vjeu_74ce", "00000000-0000-0000-B56B-62BDFA684572", 0, 1450720039, null, 1450720039, null, "{ }", "356-Back of Comm. Ctr. 2", "POINT (-76.6305211186409 39.24811181231925)", "356" ]
+, [ "row-9bc4-fzje-cy42", "00000000-0000-0000-70D9-827F7CCCEBC6", 0, 1450720039, null, 1450720039, null, "{ }", "328-Behind 911 Coppin Court", "POINT (-76.624986 39.245028)", "328" ]
+, [ "row-cw22_q3xg~9i26", "00000000-0000-0000-FE05-B33D63363731", 0, 1450720039, null, 1450720039, null, "{ }", "325-Rear of 2917 S Denham Cir.", "POINT (-76.62781829894932 39.24393730532749)", "325" ]
+, [ "row-qimy-bhra~c66w", "00000000-0000-0000-D81F-8E05D04DDEDA", 0, 1450720039, null, 1450720039, null, "{ }", "335-3430 Spelman Rd", "POINT (-76.625678 39.242839)", "335" ]
+, [ "row-yaku.k4ah~irj2", "00000000-0000-0000-8FC1-E9AD8411CFD5", 0, 1450720039, null, 1450720039, null, "{ }", "336-3456 Spelman Rd", "POINT (-76.625283 39.242625)", "336" ]
+, [ "row-ssse-ewff.uiny", "00000000-0000-0000-6FC2-59EA18F39FFB", 0, 1450720039, null, 1450720039, null, "{ }", "337-3446 Spelman Rd(Parking Lot)", "POINT (-76.625503 39.242225)", "337" ]
+, [ "row-fw45_uk99-ymvt", "00000000-0000-0000-666D-ED1B3CE062BC", 0, 1450720039, null, 1450720039, null, "{ }", "338-Spellman Rd. LLC#7076", "POINT (-76.62395507097244 39.2425053904732)", "338" ]
+, [ "row-9nc4.wsg6.5ztb", "00000000-0000-0000-4CEC-2019806641EF", 0, 1450720039, null, 1450720039, null, "{ }", "339-3486 Spelman Rd.", "POINT (-76.62401981794665 39.24204446311966)", "339" ]
+, [ "row-urzf-4yaw~6q9w", "00000000-0000-0000-F940-E16B77CCDAE2", 0, 1450720039, null, 1450720039, null, "{ }", "332-3401 Round Rd.", "POINT (-76.6245967182681 39.24395149812875)", "332" ]
+, [ "row-f8wk_z7b3~6d3z", "00000000-0000-0000-F1FD-33391DEC2C08", 0, 1450720039, null, 1450720039, null, "{ }", "331-Rear of 3411 Round Rd.", "POINT (-76.6238016694216 39.24413016229553)", "331" ]
+, [ "row-wenc.et7d-4jkf", "00000000-0000-0000-F859-97B681AE2E56", 0, 1450720039, null, 1450720039, null, "{ }", "341-Seagull Ave. LLC#7076", "POINT (-76.622775 39.2433)", "341" ]
+, [ "row-vjqk.kqsu_wjny", "00000000-0000-0000-6ADA-1C8C39E49873", 0, 1450720039, null, 1450720039, null, "{ }", "340-Seagull Ave. behind UMBC", "POINT (-76.62229478359222 39.24291461834412)", "340" ]
+, [ "row-t6yr~vpqf~9yx6", "00000000-0000-0000-55F6-1AE6186716CB", 0, 1450720039, null, 1450720039, null, "{ }", "344-Seagull Ave - Bethune Rd", "POINT (-76.620876 39.245257)", "344" ]
+, [ "row-b8gt-6w5k_5jtj", "00000000-0000-0000-7E62-CE64360743A8", 0, 1450720039, null, 1450720039, null, "{ }", "343-835 Seagull Ave.", "POINT (-76.621161 39.244783)", "343" ]
+, [ "row-bviv~5e48_qvnk", "00000000-0000-0000-ABEF-3DEF887AAE6E", 0, 1450720039, null, 1450720039, null, "{ }", "342-Behind 835 Seagull Ave", "POINT (-76.6207954287529 39.24450165207217)", "342" ]
+, [ "row-2hqh~drw6.jwfy", "00000000-0000-0000-07A4-C3CF07378743", 0, 1450720039, null, 1450720039, null, "{ }", "330-Bethune Rd - Bunche Rd", "POINT (-76.623826 39.245061)", "330" ]
+, [ "row-tbta.r55k~nx2a", "00000000-0000-0000-09D7-E7CB8049EADE", 0, 1450720039, null, 1450720039, null, "{ }", "329-Coppin Ct - Bunche Rd .", "POINT (-76.624343 39.245411)", "329" ]
+, [ "row-4pj3.jqjd.banz", "00000000-0000-0000-B904-C3847F38E8D2", 0, 1450720039, null, 1450720039, null, "{ }", "348-2627 Carver Rd", "POINT (-76.626256 39.247836)", "348" ]
+, [ "row-d96c.p7dj_3xim", "00000000-0000-0000-E634-F9C12473106D", 0, 1450720039, null, 1450720039, null, "{ }", "346-Carver Rd - Bridgeview Rd", "POINT (-76.6254 39.246813)", "346" ]
+, [ "row-vy2p~iynu~seuc", "00000000-0000-0000-2518-0F1BB5491FD0", 0, 1450720039, null, 1450720039, null, "{ }", "347-Rear of 2805 Carver Rd.", "POINT (-76.625636 39.247806)", "347" ]
+, [ "row-bp99-t72r~j843", "00000000-0000-0000-319D-BEDB08FEC4F0", 0, 1450720039, null, 1450720039, null, "{ }", "349-2609 Carver Rd.", "POINT (-76.625822 39.248642)", "349" ]
+, [ "row-5ive.5863_ipmd", "00000000-0000-0000-3F53-EB612399DDD8", 0, 1450720039, null, 1450720039, null, "{ }", "350-2615 Carver Rd. (in circle)", "POINT (-76.625322 39.24845)", "350" ]
+, [ "row-da4f~5tmc_gq42", "00000000-0000-0000-3489-1605E54D8159", 0, 1450720039, null, 1450720039, null, "{ }", "320-Side of 2810 Denham Cr.", "POINT (-76.62912223843638 39.24541761151036)", "320" ]
+, [ "row-269m~bwuk_rrs5", "00000000-0000-0000-474D-3D36D27F9819", 0, 1450720039, null, 1450720039, null, "{ }", "345-Carver Rd. Front of School", "POINT (-76.62468329071999 39.24636595538039)", "345" ]
+, [ "row-xsuy.9sts_ms9w", "00000000-0000-0000-5E9B-3ED1311F0227", 0, 1450720039, null, 1450720039, null, "{ }", "334-Back Circle 1019 Bethune Rd.", "POINT (-76.626792 39.242728)", "334" ]
+, [ "row-4ynu~dyyb-7iiu", "00000000-0000-0000-259E-6AB3C3508D0E", 0, 1450720039, null, 1450720039, null, "{ }", "402-Eastern Ave - Oldham St", "POINT (-76.55581 39.28705)", "402" ]
+, [ "row-2pqz_c875-k636", "00000000-0000-0000-9B70-DD87163848FE", 0, 1450720039, null, 1450720039, null, "{ }", "403-Eastern Ave - S Lehigh St", "POINT (-76.558053 39.287142)", "403" ]
+, [ "row-riny_rb4p.bdy6", "00000000-0000-0000-7640-BDAE60F337A4", 0, 1450720039, null, 1450720039, null, "{ }", "404-Eastern Ave - S Newkirk St", "POINT (-76.556592 39.287034)", "404" ]
+, [ "row-u7fu~fi2b.camp", "00000000-0000-0000-73A9-21910BEDCF63", 0, 1450720039, null, 1450720039, null, "{ }", "509-Greenmount Ave - E 25th St", "POINT (-76.60946388888888 39.31814722222222)", "501" ]
+, [ "row-h9kg-mhm3-u7w2", "00000000-0000-0000-F4DD-949DDA200084", 0, 1450720039, null, 1450720039, null, "{ }", "508-Falls St Alley - E 25th St", "POINT (-76.61216944444443 39.31806111111111)", "502" ]
+, [ "row-8rdk~jqq6_wrj9", "00000000-0000-0000-03EC-1D89F31FA954", 0, 1450720039, null, 1450720039, null, "{ }", "510-Boone St - E 24th St", "POINT (-76.60876944444443 39.31658888888889)", "503" ]
+, [ "row-9f63_zk4b.juwa", "00000000-0000-0000-44C7-E3D0586F5BE1", 0, 1450720039, null, 1450720039, null, "{ }", "512-Brentwood Ave - E 24th St", "POINT (-76.61042777777777 39.31625833333333)", "504" ]
+, [ "row-rvem_ddfp.4m52", "00000000-0000-0000-9BC1-2E5EE044878D", 0, 1450720039, null, 1450720039, null, "{ }", "501-Guilford Ave - E 28th St", "POINT (-76.61315555555555 39.32208055555556)", "505" ]
+, [ "row-t94b~xd3i~2725", "00000000-0000-0000-4FFE-18DE223D00F6", 0, 1450720039, null, 1450720039, null, "{ }", "511-Cokesbury Ave - E 23rd St", "POINT (-76.60744444444444 39.31603611111111)", "506" ]
+, [ "row-htd6.qfea_6b8b", "00000000-0000-0000-06BF-DF47933936F8", 0, 1450720039, null, 1450720039, null, "{ }", "513-Greenmount Ave - E 23rd St", "POINT (-76.60952499999999 39.31549166666667)", "507" ]
+, [ "row-hp5j_mcvf-i8ac", "00000000-0000-0000-33BA-182AFB012627", 0, 1450720039, null, 1450720039, null, "{ }", "515-23rd ST. - Boone", "POINT (-76.60820277777778 39.31543888888889)", "508" ]
+, [ "row-2wzj.pf3e~hb9w", "00000000-0000-0000-B8ED-491CF434A391", 0, 1450720039, null, 1450720039, null, "{ }", "514-Guilford Ave - E 23rd St", "POINT (-76.61271666666666 39.315425)", "509" ]
+, [ "row-spbt~f6ne~md5w", "00000000-0000-0000-FF59-9ED50809319D", 0, 1450720039, null, 1450720039, null, "{ }", "516-Greenmount Ave - E 22nd St", "POINT (-76.60955555555554 39.31450833333333)", "510" ]
+, [ "row-g8ht~cttb_bkes", "00000000-0000-0000-1398-4306B0BB6D1E", 0, 1450720039, null, 1450720039, null, "{ }", "517-Homewood Ave - E 22nd St", "POINT (-76.60732222222222 39.31462777777777)", "511" ]
+, [ "row-xw43.b4k4_5tdu", "00000000-0000-0000-B55B-C894F226A54F", 0, 1450720039, null, 1450720039, null, "{ }", "518-Barclay St - 21st1/2 St", "POINT (-76.6112111111111 39.31400833333333)", "512" ]
+, [ "row-3kmq_8cei.mbdk", "00000000-0000-0000-95E9-6E845E6C86BF", 0, 1450720039, null, 1450720039, null, "{ }", "520-Boone St - E 21st St", "POINT (-76.60845277777777 39.31353888888889)", "513" ]
+, [ "row-ctik.zq7p_2uhj", "00000000-0000-0000-2FBE-0139FE851AD2", 0, 1450720039, null, 1450720039, null, "{ }", "521-Greenmount Ave - Worsley St", "POINT (-76.60953611111111 39.31273611111111)", "514" ]
+, [ "row-7ux8.r38j-mqxg", "00000000-0000-0000-C06D-8C46F7BA3DFF", 0, 1450720039, null, 1450720039, null, "{ }", "522-Barclay St - E 20th St", "POINT (-76.61105277777777 39.31243333333333)", "515" ]
+, [ "row-uzqd-h5xm-75rz", "00000000-0000-0000-E3C7-B7388EB3C7BC", 0, 1450720039, null, 1450720039, null, "{ }", "506-Greenmount Ave - E Lorraine Ave", "POINT (-76.60953333333333 39.32001111111111)", "516" ]
+, [ "row-3e3c.4tbc~evr5", "00000000-0000-0000-08A6-7217EC5873EE", 0, 1450720039, null, 1450720039, null, "{ }", "523-Barclay St - Heaver St", "POINT (-76.61103055555554 39.31201666666667)", "517" ]
+, [ "row-xr6z-jxhp-cyuz", "00000000-0000-0000-C9A6-80864FF24A11", 0, 1450720039, null, 1450720039, null, "{ }", "525-E North Ave - Guilford Ave", "POINT (-76.61180833333333 39.31130555555556)", "518" ]
+, [ "row-uidy.h2u5.my7d", "00000000-0000-0000-547D-BBCC3B392BFB", 0, 1450720039, null, 1450720039, null, "{ }", "502-Greenmount Ave - E 28th St", "POINT (-76.60950833333332 39.32215)", "519" ]
+, [ "row-rkhc-m4pb_fscu", "00000000-0000-0000-CC2C-974F89FAF75A", 0, 1450720039, null, 1450720039, null, "{ }", "526- N Calvert St - McAllister St", "POINT (-76.61363055555555 39.31057777777777)", "520" ]
+, [ "row-8dgp.5a9z_syxt", "00000000-0000-0000-2A77-AAEB340714FA", 0, 1450720039, null, 1450720039, null, "{ }", "528-Barclay St - E Lafayette Ave", "POINT (-76.61089166666666 39.31003333333333)", "521" ]
+, [ "row-d5zj_zqw4_n4jc", "00000000-0000-0000-4398-830FCFF9402A", 0, 1450720039, null, 1450720039, null, "{ }", "527-Guilford Ave - E Lafayette Ave", "POINT (-76.61238055555555 39.31009166666667)", "522" ]
+, [ "row-mrs5~fdm5.pgbx", "00000000-0000-0000-1422-E5050DC2BD8F", 0, 1450720039, null, 1450720039, null, "{ }", "507-Guilford Ave - E 26th St", "POINT (-76.61295277777778 39.31951944444445)", "523" ]
+, [ "row-vp8q.deqz.fzp9", "00000000-0000-0000-82A2-391904DA0A9E", 0, 1450720039, null, 1450720039, null, "{ }", "529-Barclay St - Pitman Pl", "POINT (-76.61075 39.30846388888889)", "524" ]
+, [ "row-nenf-euzc-8hvf", "00000000-0000-0000-5D71-940E20746244", 0, 1450720039, null, 1450720039, null, "{ }", "530-Greenmount Ave - E Preston St", "POINT (-76.6082 39.30483888888889)", "525" ]
+, [ "row-5tm7_262d_y5x4", "00000000-0000-0000-E5B0-350B78A4890C", 0, 1450720039, null, 1450720039, null, "{ }", "531-Greenmount Ave - E Biddle St", "POINT (-76.60793055555555 39.30378333333333)", "526" ]
+, [ "row-5pp4_urij-88mg", "00000000-0000-0000-5F4E-12D4CF5E595A", 0, 1450720039, null, 1450720039, null, "{ }", "503-Greenmount-27th", "POINT (-76.60953333333333 39.32092222222222)", "527" ]
+, [ "row-mxm8_iwm9~vt32", "00000000-0000-0000-420A-76D4D32F680E", 0, 1450720039, null, 1450720039, null, "{ }", "504-Barclay St - E 27th St", "POINT (-76.61114722222221 39.32088055555556)", "528" ]
+, [ "row-px6v_vxcc_88xz", "00000000-0000-0000-01AB-21E34F07C77E", 0, 1450720039, null, 1450720039, null, "{ }", "519-Guilford Ave - E 21st St", "POINT (-76.61260555555555 39.31339722222222)", "529" ]
+, [ "row-ygvk-q544-4ebm", "00000000-0000-0000-7A0D-EADDD0883ABF", 0, 1450720039, null, 1450720039, null, "{ }", "532-Greenmount Ave - E Chase St", "POINT (-76.60764166666667 39.30273333333333)", "530" ]
+, [ "row-9wfy-6ivt-e9ki", "00000000-0000-0000-CC47-99E5C6BD46B2", 0, 1450720039, null, 1450720039, null, "{ }", "533-Greenmount Ave - E Eager St", "POINT (-76.60726944444444 39.30136111111111)", "531" ]
+, [ "row-m934.s4ny.drr2", "00000000-0000-0000-138C-43ABC70BE600", 0, 1450720039, null, 1450720039, null, "{ }", "524-Greenmount - E North Ave", "POINT (-76.60961944444443 39.31121666666667)", "532" ]
+, [ "row-uq9a-g6rx~fzf3", "00000000-0000-0000-DA3A-9DECBD14F372", 0, 1450720039, null, 1450720039, null, "{ }", "505-Barclay St - Whitridge Ave", "POINT (-76.61115833333332 39.32152222222223)", "533" ]
+, [ "row-vbrb.zpar_q5jm", "00000000-0000-0000-EC2D-96BC8B8B93E5", 0, 1450720039, null, 1450720039, null, "{ }", "401-Eastern Ave - S Macon St", "POINT (-76.557327 39.287016)", "401" ]
+, [ "row-jksv-izjp~hdwx", "00000000-0000-0000-9ACB-28A54777E2D6", 0, 1450720039, null, 1450720039, null, "{ }", "601-E Monument St - N Chester St", "POINT (-76.587869 39.298647)", "601" ]
+, [ "row-u7b8_nxwg.7q7j", "00000000-0000-0000-2D56-AE42AE8FAE9A", 0, 1450720039, null, 1450720039, null, "{ }", "602-McElderry St - N Duncan St", "POINT (-76.58714979887009 39.29760709115317)", "602" ]
+, [ "row-3935.8xhs-sbzm", "00000000-0000-0000-11B5-1FEF416347C6", 0, 1450720039, null, 1450720039, null, "{ }", "603 Monumnet/Collington", "POINT (-76.586667 39.298691)", "603" ]
+, [ "row-vzzu.mgxd_4jpt", "00000000-0000-0000-7D00-67F17C81D467", 0, 1450720039, null, 1450720039, null, "{ }", "604-E Madison St - N Mederia St", "POINT (-76.58599108457565 39.29969726179092)", "604" ]
+, [ "row-dah6_74nb_vq7j", "00000000-0000-0000-AB2C-B139CA284D53", 0, 1450720039, null, 1450720039, null, "{ }", "605-E Monument St - N Patterson Park Ave", "POINT (-76.58499330282211 39.29866982722047)", "605" ]
+, [ "row-mptt_96hi.rbk4", "00000000-0000-0000-BF9F-AAA32503DA96", 0, 1450720039, null, 1450720039, null, "{ }", "606-McElderry St - N Bradford St", "POINT (-76.58429861068726 39.29762162085662)", "606" ]
+, [ "row-i4wa.8ds4~8pnb", "00000000-0000-0000-7451-718162865E38", 0, 1450720039, null, 1450720039, null, "{ }", "607-E Monument St - N Montford Ave", "POINT (-76.583721 39.298807)", "607" ]
+, [ "row-x6pz.fmcn-4rag", "00000000-0000-0000-3AA2-D3CA879352C7", 0, 1450720039, null, 1450720039, null, "{ }", "608-E Madison -N Port", "POINT (-76.583081 39.299893)", "608" ]
+, [ "row-gpnt.cnty_xayv", "00000000-0000-0000-1292-C3B96337A77D", 0, 1450720039, null, 1450720039, null, "{ }", "609-E Monument St - N Milton Ave", "POINT (-76.582319 39.298861)", "609" ]
+, [ "row-f7r3~6ncd-k4vw", "00000000-0000-0000-F16B-CF1E71F8E159", 0, 1450720039, null, 1450720039, null, "{ }", "610 - McElderry St - N Rose St", "POINT (-76.5814688802 39.2978105067)", "610" ]
+, [ "row-f5g4~nwhw.tw7w", "00000000-0000-0000-A19C-1FF69C905F3A", 0, 1450720039, null, 1450720039, null, "{ }", "611-E Monument St - N Luzerne Ave", "POINT (-76.580905 39.298915)", "611" ]
+, [ "row-8bg5_3i2g_qxee", "00000000-0000-0000-8873-9E5561B2D8F6", 0, 1450720039, null, 1450720039, null, "{ }", "612-E Madison St - N Glover St", "POINT (-76.580263 39.299997)", "612" ]
+, [ "row-n2gj.2kgc-bvs8", "00000000-0000-0000-CBA2-6C714638E7F4", 0, 1450720039, null, 1450720039, null, "{ }", "613-E Monument St - N Lakewood Ave", "POINT (-76.579493 39.298966)", "613" ]
+, [ "row-v2u7~8myi-5rhv", "00000000-0000-0000-8B62-95495C45E6A8", 0, 1450720039, null, 1450720039, null, "{ }", "614-McElderry St - N Belnord Ave", "POINT (-76.57863110303879 39.29795061404889)", "614" ]
+, [ "row-bdpj_5nyb~sibi", "00000000-0000-0000-173C-927D7D948B0D", 0, 1450720039, null, 1450720039, null, "{ }", "615-E Monument St - N Kenwood Ave", "POINT (-76.578085 39.299029)", "615" ]
+, [ "row-5n4t_vpzi-xdbb", "00000000-0000-0000-E789-AA34CC54E481", 0, 1450720039, null, 1450720039, null, "{ }", "616-E Madison St - N Streeper St", "POINT (-76.577437 39.300113)", "616" ]
+, [ "row-tr9c~bxq2_6zgf", "00000000-0000-0000-E729-EEBB5912892F", 0, 1450720039, null, 1450720039, null, "{ }", "617-McElderry St - N Linwood Ave", "POINT (-76.57646656036377 39.29790702513436)", "617" ]
+, [ "row-vm42_8kp3_jfu3", "00000000-0000-0000-E4EF-9EBD4C752444", 0, 1450720039, null, 1450720039, null, "{ }", "618-E Monument St - N Curley St", "POINT (-76.575962 39.299112)", "618" ]
+, [ "row-g4yp-dmm8_rk6m", "00000000-0000-0000-E380-07B4A5814287", 0, 1450720039, null, 1450720039, null, "{ }", "619-McElderry St - N Potomac St", "POINT (-76.575066447258 39.2980658131924)", "619" ]
+, [ "row-v2wb_appz-t5b9", "00000000-0000-0000-C19F-C63684226963", 0, 1450720039, null, 1450720039, null, "{ }", "620 E Monument - Decker", "POINT (-76.5744173527 39.2990932566)", "620" ]
+, [ "row-xupx.3g43-jm2b", "00000000-0000-0000-9316-EA91927D66BE", 0, 1450720039, null, 1450720039, null, "{ }", "621-E Madison St - N Ellwood Ave", "POINT (-76.573908 39.300243)", "621" ]
+, [ "row-97x7-94fa.uxht", "00000000-0000-0000-AA0B-37CA1393D74F", 0, 1450720039, null, 1450720039, null, "{ }", "622-E Monument St - N Robinson St", "POINT (-76.573121 39.299225)", "622" ]
+, [ "row-76nd~w3vj.uhw8", "00000000-0000-0000-694E-F753E6F90708", 0, 1450720039, null, 1450720039, null, "{ }", "623-E Madison St - N Curley St", "POINT (-76.57604 39.300151)", "623" ]
+, [ "row-s2dm-nhe9-mu66", "00000000-0000-0000-0177-DC77BF896970", 0, 1450720039, null, 1450720039, null, "{ }", "624-McElderry St - N Robinson St", "POINT (-76.573086977005 39.29804090528554)", "624" ]
+, [ "row-u4vi_5htm_m8je", "00000000-0000-0000-4B28-DC4CBE56BEFC", 0, 1450720039, null, 1450720039, null, "{ }", "701-Thomas Ave - Presbury St", "POINT (-76.658071 39.307524)", "701" ]
+, [ "row-q533~mxqi.x7qi", "00000000-0000-0000-9F04-F284C936F773", 0, 1450720039, null, 1450720039, null, "{ }", "702- Thomas Ave - Westwood Ave", "POINT (-76.658115 39.308432)", "702" ]
+, [ "row-uhb3_sinr.zb4e", "00000000-0000-0000-9B13-FC9430D6016C", 0, 1450720039, null, 1450720039, null, "{ }", "703-W North Ave - Thomas Ave", "POINT (-76.65818 39.309431)", "703" ]
+, [ "row-6sev_3nxv.sb6e", "00000000-0000-0000-F8C9-2D85ED68E514", 0, 1450720039, null, 1450720039, null, "{ }", "704-N Warwick Ave - Westwood Ave", "POINT (-76.657154 39.308489)", "704" ]
+, [ "row-4pg7_dzyy.fmmq", "00000000-0000-0000-B761-CF5B72849909", 0, 1450720039, null, 1450720039, null, "{ }", "705-Moreland Ave - Westwood Ave", "POINT (-76.655912 39.308514)", "705" ]
+, [ "row-fwyh-39jj-g728", "00000000-0000-0000-CCE9-0D8D295A4A1F", 0, 1450720039, null, 1450720039, null, "{ }", "706-W North Ave - Moreland Ave", "POINT (-76.655994 39.309508)", "706" ]
+, [ "row-phdt.3g8q-ugpc", "00000000-0000-0000-59F9-38790748ABE1", 0, 1450720039, null, 1450720039, null, "{ }", "707-N Bentalou St - Westwood Ave", "POINT (-76.654071 39.308598)", "707" ]
+, [ "row-rf3x_ehzu.eyf4", "00000000-0000-0000-B233-935C410816F2", 0, 1450720039, null, 1450720039, null, "{ }", "708-N Smallwood St - Westwood Ave", "POINT (-76.652666 39.308666)", "708" ]
+, [ "row-qigj_wqhk~qm56", "00000000-0000-0000-6539-9AA9ECD57095", 0, 1450720039, null, 1450720039, null, "{ }", "709-W North Ave - N Smallwood St", "POINT (-76.652712 39.309613)", "709" ]
+, [ "row-afng-u2w4_93jv", "00000000-0000-0000-5895-E746D4C1E07D", 0, 1450720039, null, 1450720039, null, "{ }", "710-N Smallwood St - Ridgehill Ave", "POINT (-76.652804 39.311245)", "710" ]
+, [ "row-tknf_c4te~a2uf", "00000000-0000-0000-6D7C-A807A0BA0C2F", 0, 1450720039, null, 1450720039, null, "{ }", "711-N Pulaski St - Westwood Ave", "POINT (-76.651259 39.308694)", "711" ]
+, [ "row-hxz6-8avc~fttg", "00000000-0000-0000-C0DF-F1EBF169174C", 0, 1450720039, null, 1450720039, null, "{ }", "712-W North Ave - N Pulaski St", "POINT (-76.651339 39.30968)", "712" ]
+, [ "row-ki6h~mj2m_s74k", "00000000-0000-0000-679A-9EC1DFB937E0", 0, 1450720039, null, 1450720039, null, "{ }", "713-N Pulaski St - Herbert St", "POINT (-76.651376 39.310219)", "10713" ]
+, [ "row-cugb-6n3t.ccvf", "00000000-0000-0000-4D98-FA2628A3BCB1", 0, 1450720039, null, 1450720039, null, "{ }", "714-N Pulaski St - Walbrook Ave", "POINT (-76.651397 39.310763)", "714" ]
+, [ "row-5e8w.zxpw~gy5s", "00000000-0000-0000-D17D-3BBAB6EC516C", 0, 1450720039, null, 1450720039, null, "{ }", "715-W North Ave - N Payson St", "POINT (-76.649921 39.30973)", "715" ]
+, [ "row-wkii.ds6m~r2hw", "00000000-0000-0000-E186-EC5B9181AB5A", 0, 1450720039, null, 1450720039, null, "{ }", "716-N Payson St - Herbert St", "POINT (-76.649955 39.310392)", "716" ]
+, [ "row-6aqj.p7ua.z42x", "00000000-0000-0000-8FCB-82202EFF8C05", 0, 1450720039, null, 1450720039, null, "{ }", "717-N Payson St - Walbrook Ave", "POINT (-76.649988 39.310831)", "717" ]
+, [ "row-h8pr_yw8m.u2vj", "00000000-0000-0000-4884-95BB9D85B64A", 0, 1450720039, null, 1450720039, null, "{ }", "718-N Payson St - Ridgehill Ave", "POINT (-76.650011 39.31158)", "718" ]
+, [ "row-kmkz_hfmm~qhcd", "00000000-0000-0000-159C-7E99DDA207BD", 0, 1450720039, null, 1450720039, null, "{ }", "719-Appleton St - Westwood Ave", "POINT (-76.648996 39.308785)", "719" ]
+, [ "row-y9k3~iggt-6mze", "00000000-0000-0000-6D6D-BD0510804763", 0, 1450720039, null, 1450720039, null, "{ }", "720-N Monroe St - Westwood Ave", "POINT (-76.648124 39.308812)", "720" ]
+, [ "row-e73e.8q5b~n6k7", "00000000-0000-0000-DB10-2204527A025A", 0, 1450720039, null, 1450720039, null, "{ }", "721-W North Ave - N Monroe St", "POINT (-76.64818 39.309813)", "721" ]
+, [ "row-8c2m_qe3g.huh3", "00000000-0000-0000-96F8-FB8E4BE29182", 0, 1450720039, null, 1450720039, null, "{ }", "722-N Monroe St - Walbrook Ave", "POINT (-76.648237 39.310883)", "722" ]
+, [ "row-ear9_4rnv-2s4y", "00000000-0000-0000-D391-1511405BCF1C", 0, 1450720039, null, 1450720039, null, "{ }", "723-N Fulton Ave - Westwood Ave", "POINT (-76.646459 39.308853)", "723" ]
+, [ "row-nugy~dsw5.cn6r", "00000000-0000-0000-EB7D-4E990F764FBE", 0, 1450720039, null, 1450720039, null, "{ }", "724-W North Ave - N Fulton Ave", "POINT (-76.646518 39.309889)", "724" ]
+, [ "row-k3er~nkvs_dqsa", "00000000-0000-0000-B376-D931D04436E0", 0, 1450720039, null, 1450720039, null, "{ }", "725-N Fulton Ave - Walbrook Ave", "POINT (-76.64663314819336 39.31084758918878)", "725" ]
+, [ "row-fszy_6pqd~k7ki", "00000000-0000-0000-90EF-444400EF9751", 0, 1450720039, null, 1450720039, null, "{ }", "726-N Mount St - Westwood Ave", "POINT (-76.644946 39.308893)", "726" ]
+, [ "row-jwvp.qhbe.58ah", "00000000-0000-0000-A461-823884ED1FA0", 0, 1450720039, null, 1450720039, null, "{ }", "727-W North Ave - N Carey St", "POINT (-76.64372 39.310024)", "727" ]
+, [ "row-utz4_f6h3-7t3m", "00000000-0000-0000-6EDE-999E9D21EB47", 0, 1450720039, null, 1450720039, null, "{ }", "728-W North Ave - Pennsylvania Ave", "POINT (-76.64239257574081 39.30989087879423)", "728" ]
+, [ "row-zwwk-5x5y_k2xc", "00000000-0000-0000-3BEF-1DAA2BE4324A", 0, 1450720039, null, 1450720039, null, "{ }", "729-Cumberland St  &amp;  N Calhoun St", "POINT (-76.6434888889 39.308031)", "729" ]
+, [ "row-6rby-gpr9.khr3", "00000000-0000-0000-E59F-B01119DAB727", 0, 1450720039, null, 1450720039, null, "{ }", "730-Cumberland St - Pennsylvania Ave", "POINT (-76.64162546396255 39.30921121216148)", "730" ]
+, [ "row-zfh2_j4zd_dtm2", "00000000-0000-0000-9B9D-2E1C4061C2F8", 0, 1450720039, null, 1450720039, null, "{ }", "731-W North Ave - Division St", "POINT (-76.640912 39.310153)", "731" ]
+, [ "row-fntg.gwat_5yb2", "00000000-0000-0000-CB50-C39FD2953E87", 0, 1450720039, null, 1450720039, null, "{ }", "732-Whitelock St - Woodbrook Ave", "POINT (-76.64121 39.310515)", "732" ]
+, [ "row-4niu~icb5.d6w4", "00000000-0000-0000-67E5-AA692733EBC2", 0, 1450720039, null, 1450720039, null, "{ }", "733-Ettiing St - Whitelock St", "POINT (-76.640704 39.310861)", "10733" ]
+, [ "row-hpap~e4m9~62qn", "00000000-0000-0000-F18C-A15C26C6F19B", 0, 1450720039, null, 1450720039, null, "{ }", "734-Whitelock St - Francis St", "POINT (-76.640141 39.311185)", "734" ]
+, [ "row-a9sb.r4st_dgtd", "00000000-0000-0000-F17F-309D35E71DE7", 0, 1450720039, null, 1450720039, null, "{ }", "735-Druid Hill Ave - Whitelock St", "POINT (-76.63929596543312 39.31156044406966)", "735" ]
+, [ "row-22wv.j99g.t5jr", "00000000-0000-0000-CBAF-12C7DF0C64FE", 0, 1450720039, null, 1450720039, null, "{ }", "742-W North Ave - McCulloh St", "POINT (-76.636986 39.310319)", "742" ]
+, [ "row-wh87_gxy4.ndri", "00000000-0000-0000-A21A-125BFACEEB06", 0, 1450720039, null, 1450720039, null, "{ }", "801-Reisterstown Rd - Keyworth Ave", "POINT (-76.663122 39.33267)", "801" ]
+, [ "row-ayre.9h85-ccs5", "00000000-0000-0000-821A-860EA90FC6C4", 0, 1450720039, null, 1450720039, null, "{ }", "802-Reisterstown Rd - Shirley Ave", "POINT (-76.664031 39.333873)", "802" ]
+, [ "row-rr96_i9yf_iu7b", "00000000-0000-0000-8A3D-392FC09F361E", 0, 1450720039, null, 1450720039, null, "{ }", "803-Towonda Ave - Oswego Ave", "POINT (-76.66598930954933 39.33446547089893)", "803" ]
+, [ "row-9w7i~ty5e_4ner", "00000000-0000-0000-5AFF-5E71AE65B39F", 0, 1450720039, null, 1450720039, null, "{ }", "804-Reisterstown Rd - Grantley Ave", "POINT (-76.666884 39.337571)", "804" ]
+, [ "row-j3g2~gcsk.c62g", "00000000-0000-0000-337C-5150C0EDEF01", 0, 1450720039, null, 1450720039, null, "{ }", "805-Boarman Ave - Willowdale Ave", "POINT (-76.669476 39.337273)", "805" ]
+, [ "row-2knd.xiqj_45aa", "00000000-0000-0000-E83F-7B952C32852D", 0, 1450720039, null, 1450720039, null, "{ }", "806-Park Heights Ave - W Garrison Ave", "POINT (-76.67358264327049 39.34739927367743)", "806" ]
+, [ "row-bwrr~ytkq.7pvn", "00000000-0000-0000-0933-A570356BE02E", 0, 1450720039, null, 1450720039, null, "{ }", "807-Reisterstown Rd - Laporte St", "POINT (-76.668406 39.339445)", "807" ]
+, [ "row-3fwy.vrrn_cvb8", "00000000-0000-0000-76C8-E1240EBA4E7B", 0, 1450720039, null, 1450720039, null, "{ }", "808-Reisterstown Rd - St Ambrose Ave", "POINT (-76.67148515582085 39.34027301326582)", "808" ]
+, [ "row-jkvb~4c97-2dut", "00000000-0000-0000-3B5D-FB292388471D", 0, 1450720039, null, 1450720039, null, "{ }", "809-W Belvedere Ave - Litchfield Ave", "POINT (-76.680281 39.346305)", "809" ]
+, [ "row-3e3z-bk6f_ud4t", "00000000-0000-0000-1D9C-6A3CD750E811", 0, 1450720039, null, 1450720039, null, "{ }", "810-Park Heights Ave - Woodland", "POINT (-76.6714 39.345195)", "810" ]
+, [ "row-4cy4.2wcu.3z89", "00000000-0000-0000-A795-BD345CCCCC03", 0, 1450720039, null, 1450720039, null, "{ }", "811-W Garrison Ave - Denmore Ave", "POINT (-76.674801 39.346728)", "811" ]
+, [ "row-dj6y_e8qf_7aje", "00000000-0000-0000-812A-10E5C86B1D90", 0, 1450720039, null, 1450720039, null, "{ }", "812-W Garrison Ave - Palmer Ave", "POINT (-76.672387 39.348089)", "812" ]
+, [ "row-mh6y~vnzt~y8dw", "00000000-0000-0000-6ABE-C6204C58211B", 0, 1450720039, null, 1450720039, null, "{ }", "813-Pimlico Rd - Sumter Ave", "POINT (-76.666714 39.342397)", "813" ]
+, [ "row-zzxc_pnsj-kyv4", "00000000-0000-0000-8950-A75C3EE7BB1D", 0, 1450720039, null, 1450720039, null, "{ }", "814-Pimlico Rd - W Cold Spring Ln", "POINT (-76.66510552167892 39.34020040899882)", "814" ]
+, [ "row-mztm_z7vy-j3us", "00000000-0000-0000-81CC-0E90AE538E5F", 0, 1450720039, null, 1450720039, null, "{ }", "815 - Quantico Ave - Pimlico Rd", "POINT (-76.662933 39.337417)", "815" ]
+, [ "row-ntrc-bnf5~632s", "00000000-0000-0000-2F07-6D1A26B861F6", 0, 1450720039, null, 1450720039, null, "{ }", "816-Pimlico Rd - Loyola Northway", "POINT (-76.66361957788467 39.3385398251061)", "816" ]
+, [ "row-smdp~vcbg_ap2z", "00000000-0000-0000-52B8-2D538CA7FFB7", 0, 1450720039, null, 1450720039, null, "{ }", "817-Pimlico Rd - Rosewood Ave", "POINT (-76.663974 39.338999)", "817" ]
+, [ "row-ugje~52fp~rvkw", "00000000-0000-0000-1757-624736A48664", 0, 1450720039, null, 1450720039, null, "{ }", "818-Winner Ave - Avondale Ave", "POINT (-76.67768239974976 39.35287286005084)", "818" ]
+, [ "row-hqnb-xdmz.ehd3", "00000000-0000-0000-15A6-CF8CABBF5494", 0, 1450720039, null, 1450720039, null, "{ }", "819-Park Heights Ave - Hayward Ave", "POINT (-76.67887330055237 39.35000441410686)", "819" ]
+, [ "row-ghwn.td9f~6tt2", "00000000-0000-0000-6187-1BB66FBF76D7", 0, 1450720039, null, 1450720039, null, "{ }", "820-Park Heights-Rogers", "POINT (-76.68332308530807 39.35185450263003)", "820" ]
+, [ "row-kxbm-pqma_93ze", "00000000-0000-0000-FD01-5D20549816D1", 0, 1450720039, null, 1450720039, null, "{ }", "821-Park Heights Ave - Manhattan Ave", "POINT (-76.6852368414402 39.35301493113853)", "821" ]
+, [ "row-r4r8~9cmv~9vcv", "00000000-0000-0000-7BD7-20779BD8D2C6", 0, 1450720039, null, 1450720039, null, "{ }", "822-Park Heights Ave - Glen Ave", "POINT (-76.68816715478897 39.35566237819138)", "822" ]
+, [ "row-46jn.ukjc~nbis", "00000000-0000-0000-3B33-235833688280", 0, 1450720039, null, 1450720039, null, "{ }", "823 Park Heights Ave - Taney", "POINT (-76.691223532 39.3574044743)", "823" ]
+, [ "row-dpy2~x3cz~niis", "00000000-0000-0000-B88B-730FB83F83DA", 0, 1450720039, null, 1450720039, null, "{ }", "824-Park Heights Ave - W Strathmore Ave", "POINT (-76.69390171766281 39.35877634438256)", "824" ]
+, [ "row-j264_e4us-zkp5", "00000000-0000-0000-7765-8D6B90912ADB", 0, 1450720039, null, 1450720039, null, "{ }", "825-Park Heights Ave - Fords Ln.", "POINT (-76.69657185673714 39.36016166734574)", "825" ]
+, [ "row-8pbj_frqf.dt9k", "00000000-0000-0000-B61F-BCD4C1024F9D", 0, 1450720039, null, 1450720039, null, "{ }", "826-Park Heights Ave - Clarks Ln.", "POINT (-76.69965907931328 39.36236195168674)", "826" ]
+, [ "row-h7et_5fju-g3qu", "00000000-0000-0000-E9E0-5CAD3B2115D5", 0, 1450720039, null, 1450720039, null, "{ }", "827-Park Heights Ave - Fallstaff Rd", "POINT (-76.70281872153282 39.36494683432851)", "827" ]
+, [ "row-qhwt.4as3-pe5c", "00000000-0000-0000-5E70-C81E7581DECF", 0, 1450720039, null, 1450720039, null, "{ }", "828-Park Heights Ave - W Belvedere Ave", "POINT (-76.67585045099258 39.34886986249796)", "828" ]
+, [ "row-54um~5eug.xsft", "00000000-0000-0000-BC35-EE2C216A4597", 0, 1450720039, null, 1450720039, null, "{ }", "829-Park Heights Ave - Virginia Ave", "POINT (-76.67046993970871 39.34411056003898)", "829" ]
+, [ "row-tmkj.kutd.3p2u", "00000000-0000-0000-2F2A-240161E44651", 0, 1450720039, null, 1450720039, null, "{ }", "830-Park Heights Ave - Wiley Ave", "POINT (-76.6675691306591 39.34101772125064)", "830" ]
+, [ "row-rkbf_ycud_bunm", "00000000-0000-0000-C5EB-F58F38418EC8", 0, 1450720039, null, 1450720039, null, "{ }", "831-Park Heights Ave - Oswego Ave", "POINT (-76.66328 39.33563)", "831" ]
+, [ "row-2j4x_3qk9~jkwv", "00000000-0000-0000-D12C-1E4B6A52BB8D", 0, 1450720039, null, 1450720039, null, "{ }", "832-Park Heights Ave - Trainor Ave(JCC)", "POINT (-76.68628424406052 39.35389535063389)", "832" ]
+, [ "row-nkea_268f_c8xb", "00000000-0000-0000-9306-42A9C0C5B483", 0, 1450720039, null, 1450720039, null, "{ }", "833-Park Heights Ave - Trainor Ave", "POINT (-76.68757438659668 39.35499663714035)", "833" ]
+, [ "row-7m6p~w4r8-fgd2", "00000000-0000-0000-CC97-509F3202C292", 0, 1450720039, null, 1450720039, null, "{ }", "834-Park Heights Ave - Menlo Dr", "POINT (-76.68969467282295 39.35644425288283)", "834" ]
+, [ "row-wner_u8ye.u9vw", "00000000-0000-0000-8D1E-CD4457F7A34F", 0, 1450720039, null, 1450720039, null, "{ }", "835-Park Heights Ave - Pinkney Rd", "POINT (-76.69277787208557 39.35818425560414)", "835" ]
+, [ "row-2td2~j7z3~ukeu", "00000000-0000-0000-803A-A38DC4B11056", 0, 1450720039, null, 1450720039, null, "{ }", "836-Park Heights Ave - W Strathmore Ave", "POINT (-76.69433355331421 39.35900135754103)", "836" ]
+, [ "row-y58m.etzq_x4cg", "00000000-0000-0000-0AF9-CFEFCC9EBF63", 0, 1450720039, null, 1450720039, null, "{ }", "837-Park Heights Ave - Bancroft Rd", "POINT (-76.69784992933273 39.36090097891113)", "837" ]
+, [ "row-cud2~mv9k~c89i", "00000000-0000-0000-071E-31C4033ECBC8", 0, 1450720039, null, 1450720039, null, "{ }", "838-Park Heights Ave - N.Bancroft Rd", "POINT (-76.69887989759445 39.36173878676679)", "838" ]
+, [ "row-tzqz~4itv~2zwv", "00000000-0000-0000-0F87-65D7BE42917D", 0, 1450720039, null, 1450720039, null, "{ }", "405-Eastern Ave - S Ponca St", "POINT (-76.554981 39.287102)", "405" ]
+, [ "row-v9zz~wjfw.7iy9", "00000000-0000-0000-FB37-61EDCAEADCD4", 0, 1450720039, null, 1450720039, null, "{ }", "901- W North Ave - Bloomingdale Rd", "POINT (-76.67114 39.308965)", "901" ]
+, [ "row-3q4j_skh9-tih2", "00000000-0000-0000-FEE6-5F5430CF68C6", 0, 1450720039, null, 1450720039, null, "{ }", "902 W North Ave - N Rosedale St - 1.1.9.2", "POINT (-76.669338 39.309002)", "902" ]
+, [ "row-wkm4_4rr9~bvq7", "00000000-0000-0000-53FD-D96AB3A0A200", 0, 1450720039, null, 1450720039, null, "{ }", "903- W North Ave - N Longwood St", "POINT (-76.667563 39.309079)", "903" ]
+, [ "row-cr9c~244s.kkvv", "00000000-0000-0000-59F2-33B02813338D", 0, 1450720039, null, 1450720039, null, "{ }", "904- North Ave - Poplar Grove St", "POINT (-76.66566878557205 39.30923196543881)", "904" ]
+, [ "row-sysi.ardt-wy93", "00000000-0000-0000-AA52-B31420FC76CD", 0, 1450720039, null, 1450720039, null, "{ }", "905- W North Ave - N Dukeland St", "POINT (-76.664032 39.309212)", "905" ]
+, [ "row-afzq.xham~ykdh", "00000000-0000-0000-1B73-A91115C67E56", 0, 1450720039, null, 1450720039, null, "{ }", "906-W North Ave - Braddish Ave", "POINT (-76.661155 39.309311)", "906" ]
+, [ "row-zt5s_kphq_z6ad", "00000000-0000-0000-C24C-9C2F20B5CF05", 0, 1450720039, null, 1450720039, null, "{ }", "907- Westwood Ave (Dead End)", "POINT (-76.66477024555206 39.30817769116516)", "907" ]
+, [ "row-bhdz_em3d_79ti", "00000000-0000-0000-2BF4-010203EC2796", 0, 1450720039, null, 1450720039, null, "{ }", "908- N Rosedale St - Grayson St", "POINT (-76.669179 39.306478)", "908" ]
+, [ "row-anrx~9g3z.w6wj", "00000000-0000-0000-40A3-2C36277C2A6F", 0, 1450720039, null, 1450720039, null, "{ }", "909- Poplar Grove St - Presbury St", "POINT (-76.665568202734 39.30715868262892)", "909" ]
+, [ "row-6myz.d685_5dxd", "00000000-0000-0000-8C65-243C6B27C919", 0, 1450720039, null, 1450720039, null, "{ }", "910- Baker St - N Dukeland St", "POINT (-76.663825 39.306043)", "910" ]
+, [ "row-p9h8_2iuc~ma9t", "00000000-0000-0000-1EB9-58FD5D08D292", 0, 1450720039, null, 1450720039, null, "{ }", "911- Bloomingdale Rd - Brighton St", "POINT (-76.667005 39.305242)", "911" ]
+, [ "row-zx5d-rf5p~udxf", "00000000-0000-0000-204C-598DD6E613C9", 0, 1450720039, null, 1450720039, null, "{ }", "912-Poplar Grove St - Pressman St", "POINT (-76.66559234261513 39.30466090750337)", "912" ]
+, [ "row-ia3v-suv2~g8qp", "00000000-0000-0000-30C9-337F7AC506CB", 0, 1450720039, null, 1450720039, null, "{ }", "913- Blooomingdale Rd - Belmont Ave", "POINT (-76.66616901755333 39.30353703527621)", "913" ]
+, [ "row-gtym~zwv7.sprk", "00000000-0000-0000-078B-006924131D26", 0, 1450720039, null, 1450720039, null, "{ }", "914 - N Rosedale St - Normount Ct", "POINT (-76.668978 39.302958)", "914" ]
+, [ "row-8x4g.7ztf~c2w8", "00000000-0000-0000-A4F3-FCC3F329D70D", 0, 1450720039, null, 1450720039, null, "{ }", "915- Winchester St - N Longwood St", "POINT (-76.667342 39.301316)", "915" ]
+, [ "row-4x8u.7fkr-9fbz", "00000000-0000-0000-EA44-E453FA30C6C6", 0, 1450720039, null, 1450720039, null, "{ }", "916- Bloomingdale Rd - Ellicott Driveway", "POINT (-76.66565135121346 39.30217549645636)", "916" ]
+, [ "row-8jji.x4g9_apu2", "00000000-0000-0000-AF2D-5FE2C29B0E70", 0, 1450720039, null, 1450720039, null, "{ }", "917 - Ellicott Driveway - N Dukeland St", "POINT (-76.66352704167366 39.30243390029608)", "917" ]
+, [ "row-mphe.8gri.462f", "00000000-0000-0000-423F-4116BCE0D5D4", 0, 1450720039, null, 1450720039, null, "{ }", "918- Poplar Grove St - Riggs Ave", "POINT (-76.66512966156006 39.30018917967114)", "918" ]
+, [ "row-cmzr.3dkv-b776", "00000000-0000-0000-009C-53598780B02E", 0, 1450720039, null, 1450720039, null, "{ }", "919- Mosher St - N Dukeland St", "POINT (-76.663437 39.299255)", "919" ]
+, [ "row-mj46-prdn.makh", "00000000-0000-0000-944F-5697AEFDED93", 0, 1450720039, null, 1450720039, null, "{ }", "920 - Poplar Grove St - W. Lafayette Ave", "POINT (-76.66520610451698 39.29797655981847)", "920" ]
+, [ "row-rmf7-cmbu.x3uf", "00000000-0000-0000-ABEE-8D26BF2F69E1", 0, 1450720039, null, 1450720039, null, "{ }", "921-N Franklintown Rd - N Longwood St", "POINT (-76.666835 39.296935)", "921" ]
+, [ "row-cnmn~swei_nxbz", "00000000-0000-0000-C61D-1593C7DA9D56", 0, 1450720039, null, 1450720039, null, "{ }", "922 - Poplar Grove St - Rayner Ave", "POINT (-76.66509747505188 39.29618524130141)", "922" ]
+, [ "row-camc.viac~9htr", "00000000-0000-0000-D325-FFD00529F981", 0, 1450720039, null, 1450720039, null, "{ }", "923 - Poplar Grove St - Edmonson Ave", "POINT (-76.66480779647827 39.29452049864725)", "923" ]
+, [ "row-4fsn_4wf9~3cyf", "00000000-0000-0000-AD9A-20C2758CF1DE", 0, 1450720039, null, 1450720039, null, "{ }", "924 - Edmonson Ave - Braddish Ave", "POINT (-76.65927708148956 39.29474364288384)", "924" ]
+, [ "row-agq9-fj4i-5ete", "00000000-0000-0000-8BAD-03943C382BAD", 0, 1450720039, null, 1450720039, null, "{ }", "925- Edmonson Ave - N Warwick Ave", "POINT (-76.65621533989906 39.29482148372927)", "925" ]
+, [ "row-5zvu-yaq6.gehs", "00000000-0000-0000-5A79-9C0A95A5A5BE", 0, 1450720039, null, 1450720039, null, "{ }", "926 - Edmonson Ave - Denison St", "POINT (-76.6740533709526 39.29418837567582)", "926" ]
+, [ "row-meec_ehda_ip25", "00000000-0000-0000-6686-AAA91DC3FF92", 0, 1450720039, null, 1450720039, null, "{ }", "927 - Edmonson Ave - Swan Ave", "POINT (-76.6938266158104 39.29348883651356)", "927" ]
+, [ "row-qaci_2j7t~quuw", "00000000-0000-0000-4FB5-3270D6E56484", 0, 1450720039, null, 1450720039, null, "{ }", "928 - Edmonson Ave - N Loudon Ave", "POINT (-76.6824634373188 39.29387908474198)", "928" ]
+, [ "row-4ag2_3shx.c2tq", "00000000-0000-0000-F025-FF6321A73AB7", 0, 1450720039, null, 1450720039, null, "{ }", "929 - Edmonson Ave - Allendale St", "POINT (-76.6782858967781 39.29406175337814)", "929" ]
+, [ "row-j879.2fyw~7duw", "00000000-0000-0000-A81B-51D5FD0AEB11", 0, 1450720039, null, 1450720039, null, "{ }", "1001-W Pratt St - S Stricker St", "POINT (-76.640803 39.285454)", "1001" ]
+, [ "row-kact~z5eg-87ve", "00000000-0000-0000-5AB4-0B11869B5329", 0, 1450720039, null, 1450720039, null, "{ }", "1002-McHenry - Stricker", "POINT (-76.6407376528 39.2844481691)", "1002" ]
+, [ "row-abr4~crvg.2yrv", "00000000-0000-0000-A6E0-12AA86569D9C", 0, 1450720039, null, 1450720039, null, "{ }", "1003-S Stricker St - Ramsay St", "POINT (-76.640686 39.283346)", "1003" ]
+, [ "row-j6v9-tbef_h9pg", "00000000-0000-0000-9DB7-09DD77A1F190", 0, 1450720039, null, 1450720039, null, "{ }", "1004-Parrish - McHenry", "POINT (-76.6414377093 39.2844481691)", "1004" ]
+, [ "row-jxey~5vun~6dkb", "00000000-0000-0000-7492-472581CEBCA1", 0, 1450720039, null, 1450720039, null, "{ }", "1005-Parrish-Ramsey", "POINT (-76.641401 39.283308)", "1005" ]
+, [ "row-bif3~sg3w-9q6q", "00000000-0000-0000-50D8-12F47822E72F", 0, 1450720039, null, 1450720039, null, "{ }", "1006 McHenry St - S Gilmor St", "POINT (-76.64211362600327 39.28440041960381)", "1006" ]
+, [ "row-wnm6_r7sp_4emd", "00000000-0000-0000-D44B-FC8FF42C051F", 0, 1450720039, null, 1450720039, null, "{ }", "1007-S Gilmor St - Ramsay St", "POINT (-76.64208948612213 39.28327518406798)", "1007" ]
+, [ "row-4q2j-twmk~tqr7", "00000000-0000-0000-7B35-71A2300C24CC", 0, 1450720039, null, 1450720039, null, "{ }", "1008-W Pratt St - S Mount St", "POINT (-76.64362102746964 39.2853201097617)", "1008" ]
+, [ "row-krap_rjb8-dp83", "00000000-0000-0000-FE68-2D5327E4CF0D", 0, 1450720039, null, 1450720039, null, "{ }", "1009-MCHenry St - S Mount St", "POINT (-76.64355397224426 39.2843651265129)", "1009" ]
+, [ "row-g7xg~b8bb~jq2r", "00000000-0000-0000-4013-A767EFF126BA", 0, 1450720039, null, 1450720039, null, "{ }", "1010-S Mount St - Ramsey St", "POINT (-76.64351105690002 39.28325857529001)", "1010" ]
+, [ "row-vki4.8yka~q9kb", "00000000-0000-0000-EEE0-4C306AF56AB9", 0, 1450720039, null, 1450720039, null, "{ }", "1011-W Pratt St - S Fulton Ave", "POINT (-76.645048 39.285251)", "1011" ]
+, [ "row-2sza.qzgj~kfim", "00000000-0000-0000-DDC9-B2BA461DBF38", 0, 1450720039, null, 1450720039, null, "{ }", "1012-S Fulton St - McHenry St", "POINT (-76.64498090744019 39.28433398553556)", "1012" ]
+, [ "row-dxgh_6xz9~cizg", "00000000-0000-0000-7F65-BFC439428187", 0, 1450720039, null, 1450720039, null, "{ }", "1013-Wilhelm St - S Fulton Ave", "POINT (-76.644949 39.28377)", "1013" ]
+, [ "row-tqbf~tkd2-q4bk", "00000000-0000-0000-E5C9-7542E8FD40D7", 0, 1450720039, null, 1450720039, null, "{ }", "1014-Ramsay St - S Fulton Ave", "POINT (-76.6449111700058 39.28320667283344)", "1014" ]
+, [ "row-jqp4-kxnx_6v9g", "00000000-0000-0000-EC24-6911A7686622", 0, 1450720039, null, 1450720039, null, "{ }", "1015-McHenry St - S Addison St", "POINT (-76.64578825235367 39.28430699667734)", "1015" ]
+, [ "row-xkxf~2km9.qf99", "00000000-0000-0000-B128-6D1E5C03D056", 0, 1450720039, null, 1450720039, null, "{ }", "1016-W Pratt St - S Monroe St", "POINT (-76.646775 39.285175)", "1016" ]
+, [ "row-9vis~5s6g~q9fa", "00000000-0000-0000-395F-83492CB9F489", 0, 1450720039, null, 1450720039, null, "{ }", "1017-S Monroe St - Wilhelm St", "POINT (-76.6466861111 39.283694)", "1017" ]
+, [ "row-4mbd_maq7_4dqi", "00000000-0000-0000-59B0-314D06A43D1F", 0, 1450720039, null, 1450720039, null, "{ }", "1018-S Monroe St - Ramsay St", "POINT (-76.646666 39.283147)", "1018" ]
+, [ "row-bgez_xde5.2aib", "00000000-0000-0000-C2D7-EDB2415B72D7", 0, 1450720039, null, 1450720039, null, "{ }", "1019-S Payson St - McHenry St", "POINT (-76.64844363927841 39.28419904114046)", "1019" ]
+, [ "row-wwtg-4sar~a6gz", "00000000-0000-0000-F732-6348012CFE3D", 0, 1450720039, null, 1450720039, null, "{ }", "1020-S Payson St - Ramsay St", "POINT (-76.648399 39.283082)", "1020" ]
+, [ "row-z948.4kjx_8gtv", "00000000-0000-0000-2F92-3E31C4D31201", 0, 1450720039, null, 1450720039, null, "{ }", "1021-S Payson St - Ashton St", "POINT (-76.648393 39.282815)", "1021" ]
+, [ "row-fpgm~bfq2~q8eq", "00000000-0000-0000-D4A7-458D5C33BE03", 0, 1450720039, null, 1450720039, null, "{ }", "1022-S Pulaski St - McHenry", "POINT (-76.6498249769 39.2841720522)", "1022" ]
+, [ "row-6ab7_b46i_9rrq", "00000000-0000-0000-6E7E-4DC765D5A1DE", 0, 1450720039, null, 1450720039, null, "{ }", "1023-S Pulaski St - Wilhelm St", "POINT (-76.64978474378586 39.28359905445131)", "1023" ]
+, [ "row-gdaf-9n5a~2d7i", "00000000-0000-0000-22B7-D680FB11D2FD", 0, 1450720039, null, 1450720039, null, "{ }", "1024-S Pulaski St - Ramsay St", "POINT (-76.649783 39.283009)", "1024" ]
+, [ "row-djav~5qfr~revx", "00000000-0000-0000-E971-76828A04238E", 0, 1450720039, null, 1450720039, null, "{ }", "1025-S Pulaski St - Ashton St", "POINT (-76.649772 39.282387)", "1025" ]
+, [ "row-txjq~twyd_vxpw", "00000000-0000-0000-D1F4-B96AF01F6891", 0, 1450720039, null, 1450720039, null, "{ }", "1026-S Smallwood St - Ramsay St", "POINT (-76.651205 39.28293)", "1026" ]
+, [ "row-h4yi_iryi-v5fs", "00000000-0000-0000-9511-DDFDEB3C1B5E", 0, 1450720039, null, 1450720039, null, "{ }", "1027 Smallwood/Ashton", "POINT (-76.651191 39.281932)", "1027" ]
+, [ "row-5tpw-8nb8~5qha", "00000000-0000-0000-82F1-971A76E77A87", 0, 1450720039, null, 1450720039, null, "{ }", "1028-Pratt - Carey", "POINT (-76.637984 39.285587)", "1028" ]
+, [ "row-x4uw_zv5u.z3jv", "00000000-0000-0000-D731-D30BBDA54AB7", 0, 1450720039, null, 1450720039, null, "{ }", "1964-PENNSYLVANIA-LAURENS", "POINT (-76.63559 39.304339)", "1433" ]
+, [ "row-t4xx~d2jm~jx2f", "00000000-0000-0000-0CCB-6494881795EC", 0, 1450720039, null, 1450720039, null, "{ }", "1965-Fremont-Laurens", "POINT (-76.63683 39.303422)", "1434" ]
+, [ "row-u2rf-9eg7~mucu", "00000000-0000-0000-BE27-FAB629254C8C", 0, 1450720039, null, 1450720039, null, "{ }", "1901 - Rusty Scupper", "POINT (-76.60772904753685 39.28191947960688)", "1401" ]
+, [ "row-e5n9_rrzc_8fky", "00000000-0000-0000-A6D1-1EFDCDEFF395", 0, 1450720039, null, 1450720039, null, "{ }", "1902 - Rash Field", "POINT (-76.6093048453331 39.2818592716027)", "1202" ]
+, [ "row-b7yy_ku3j-8fqg", "00000000-0000-0000-96DE-73CD119DB580", 0, 1450720039, null, 1450720039, null, "{ }", "1903 - Carousel", "POINT (-76.61000087857246 39.28184681476778)", "1203" ]
+, [ "row-k7dc.kidf.eze2", "00000000-0000-0000-029F-E77E3A81BA8D", 0, 1450720039, null, 1450720039, null, "{ }", "1904 - Science Center", "POINT (-76.61162495613098 39.2820066773143)", "1204" ]
+, [ "row-f4v4_mvde_pik8", "00000000-0000-0000-FFD9-83268214A80B", 0, 1450720039, null, 1450720039, null, "{ }", "1905 - Spirit Of Baltimore", "POINT (-76.61081 39.285747)", "1205" ]
+, [ "row-8pk4~nif2~m7sf", "00000000-0000-0000-46DC-0505FF5F7CF5", 0, 1450720039, null, 1450720039, null, "{ }", "1906 - Visitor Center", "POINT (-76.61248460412025 39.28426547533669)", "1206" ]
+, [ "row-chgn~mm8w_hfqi", "00000000-0000-0000-D54D-95F808A4A151", 0, 1450720039, null, 1450720039, null, "{ }", "1907- Light Street Food Hall", "POINT (-76.61190927028656 39.28539069496333)", "1207" ]
+, [ "row-wny4_m2wk-4rdx", "00000000-0000-0000-1ADE-ADF9E713D5C2", 0, 1450720039, null, 1450720039, null, "{ }", "1908 - Constellation", "POINT (-76.61138892173767 39.28595122198001)", "1208" ]
+, [ "row-5p6x.9h8p_4a6c", "00000000-0000-0000-E072-6ED40D3C1337", 0, 1450720039, null, 1450720039, null, "{ }", "1909 - Constellation Pier", "POINT (-76.61082163453102 39.28525471458497)", "1209" ]
+, [ "row-vqhp-4u6f~bei8", "00000000-0000-0000-1636-6BFA06CED626", 0, 1450720039, null, 1450720039, null, "{ }", "1910 - Trade Center", "POINT (-76.61017656326294 39.28600104638662)", "1210" ]
+, [ "row-q49r-rfs9_sr2y", "00000000-0000-0000-1B49-D64B077ACDF8", 0, 1450720039, null, 1450720039, null, "{ }", "1911 - Pier 5 Hotel", "POINT (-76.6060084104538 39.28375683691608)", "1211" ]
+, [ "row-szq8.8tw4~rgha", "00000000-0000-0000-F391-8CA9662B1F39", 0, 1450720039, null, 1450720039, null, "{ }", "1912 - Pier 5 Lighthouse", "POINT (-76.60521179437637 39.28337483665311)", "1212" ]
+, [ "row-adxm~dasd-ny6p", "00000000-0000-0000-F174-C56FDFC59BB1", 0, 1450720039, null, 1450720039, null, "{ }", "1913 - Pier 6 Pavillion", "POINT (-76.60462 39.283761)", "1213" ]
+, [ "row-xytd~xxbc_gy43", "00000000-0000-0000-296F-E565AC32DECC", 0, 1450720039, null, 1450720039, null, "{ }", "1985-HOLLINS-CARROLLTON", "POINT (-76.63668 39.287619)", "1350" ]
+, [ "row-dq7k_cjqa-7a7q", "00000000-0000-0000-8857-AF490F9B4F5B", 0, 1450720039, null, 1450720039, null, "{ }", "1945-McElderry-Chester", "POINT (-76.58778 39.297525)", "1429" ]
+, [ "row-kbui.m8zj.bfjc", "00000000-0000-0000-1F9B-7642BB2C6391", 0, 1450720039, null, 1450720039, null, "{ }", "2001-McCulloh 553 Dolphin St", "POINT (-76.6287703888 39.2997098869)", "1501" ]
+, [ "row-rrtv-873w-6c9j", "00000000-0000-0000-91DD-FC6E9436213B", 0, 1450720039, null, 1450720039, null, "{ }", "2002-McCulloh 569 Dolphin St", "POINT (-76.6282466472 39.2994741658)", "1502" ]
+, [ "row-ts9i~w5tf-g5hb", "00000000-0000-0000-F181-2C6FFAFE29CA", 0, 1450720039, null, 1450720039, null, "{ }", "2003-McCulloh 520 Hoffman St", "POINT (-76.6278198126 39.2995690325)", "1503" ]
+, [ "row-2ma2_zvqn-w647", "00000000-0000-0000-66F2-5BCFA688C17B", 0, 1450720039, null, 1450720039, null, "{ }", "2004-McCulloh 517 Dolphin St", "POINT (-76.6282128202 39.3001948569)", "1504" ]
+, [ "row-fdab~44qc~8694", "00000000-0000-0000-D066-09CA20923277", 0, 1450720039, null, 1450720039, null, "{ }", "2005-McCulloh 534 Preston St", "POINT (-76.6270148409 39.2994445713)", "1505" ]
+, [ "row-i72m_4pux-53zr", "00000000-0000-0000-7897-CF45B31FF038", 0, 1450720039, null, 1450720039, null, "{ }", "2006-McCulloh 503 Dolphin St", "POINT (-76.6277109067 39.300440885)", "1506" ]
+, [ "row-t8iw~ayrq~78zn", "00000000-0000-0000-950E-37030EE943FD", 0, 1450720039, null, 1450720039, null, "{ }", "2007-McCulloh 535 Hoffman St", "POINT (-76.6279515809 39.2990360227)", "1507" ]
+, [ "row-vd3k_wj2k~umm6", "00000000-0000-0000-C4C7-7D823F450A33", 0, 1450720039, null, 1450720039, null, "{ }", "2008-McCulloh 570 Preston St", "POINT (-76.6273129223 39.2985525119)", "1508" ]
+, [ "row-rzrf~g6tb~g8k5", "00000000-0000-0000-9BFB-4954190E5E94", 0, 1450720039, null, 1450720039, null, "{ }", "2009-McCulloh 556 Preston St", "POINT (-76.6269140382 39.2988624383)", "1509" ]
+, [ "row-358g~ivk5_sidu", "00000000-0000-0000-6F86-6F4A3099BC6C", 0, 1450720039, null, 1450720039, null, "{ }", "2010-McCulloh 516 Preston St", "POINT (-76.6265228709 39.2990795615)", "1510" ]
+, [ "row-nqbs~axbn_5ej6", "00000000-0000-0000-08F3-865A58562923", 0, 1450720039, null, 1450720039, null, "{ }", "2011-McCulloh 514 Preston St", "POINT (-76.6266011363 39.2993649117)", "1511" ]
+, [ "row-scer.7bed_nxv5", "00000000-0000-0000-36B2-25D3145F167C", 0, 1450720039, null, 1450720039, null, "{ }", "2012-McCulloh 1020 Druid Hill Rd", "POINT (-76.6264790015 39.299944205)", "1512" ]
+, [ "row-pac2_ptqs.eygf", "00000000-0000-0000-1966-715EBC41D64B", 0, 1450720039, null, 1450720039, null, "{ }", "2013-McCulloh 1135 Tiffany Ct", "POINT (-76.6259568964 39.3020182455)", "1513" ]
+, [ "row-hqz9~mj8n-9g3v", "00000000-0000-0000-FDFD-8201C73C63B3", 0, 1450720039, null, 1450720039, null, "{ }", "2014-McCulloh 1101 Tiffany Ct", "POINT (-76.625438252 39.3016029967)", "1514" ]
+, [ "row-mbn8_5dns~c2ev", "00000000-0000-0000-38F2-8EC211ABDFC4", 0, 1450720039, null, 1450720039, null, "{ }", "2015-McCulloh 1035 Tiffany Ct", "POINT (-76.62537447000759 39.30068399897763)", "1515" ]
+, [ "row-inf3.dsjq-3pjn", "00000000-0000-0000-D343-057B5055E3B9", 0, 1450720039, null, 1450720039, null, "{ }", "2016-McCulloh 1001 Tiffany Ct", "POINT (-76.6244635924 39.3008151081)", "1516" ]
+, [ "row-q36f_7syp~cya4", "00000000-0000-0000-AB95-0C5191E05BC4", 0, 1450720039, null, 1450720039, null, "{ }", "2017-McCulloh 440 Oxford Ct", "POINT (-76.6251184875 39.3005504917)", "1517" ]
+, [ "row-7ze8.jti2.ugfk", "00000000-0000-0000-C8DA-390F30C89B4C", 0, 1450720039, null, 1450720039, null, "{ }", "2018-McCulloh 443 Manse Ct", "POINT (-76.6264967193 39.3013736878)", "1518" ]
+, [ "row-b32z.w4j8.kcdy", "00000000-0000-0000-0EFE-C40F994F0DD8", 0, 1450720039, null, 1450720039, null, "{ }", "2019-McCulloh 1134 Stoddard Ct", "POINT (-76.6271579964 39.3011098319)", "1519" ]
+, [ "row-24mm.jqmk~a7b3", "00000000-0000-0000-BC9A-FFC1DF778988", 0, 1450720039, null, 1450720039, null, "{ }", "2020-McCulloh 1100 Stoddard CT", "POINT (-76.6266532116 39.3007018995)", "1520" ]
+, [ "row-w67j~cdi2.xkc2", "00000000-0000-0000-F096-0A624E4BDF25", 0, 1450720039, null, 1450720039, null, "{ }", "2021-McCulloh 1034 Stoddard Ct", "POINT (-76.626190747 39.3003258812)", "1521" ]
+, [ "row-ueyk-8vh2-aw4p", "00000000-0000-0000-DAE4-D5281850F7B0", 0, 1450720039, null, 1450720039, null, "{ }", "2022-McCulloh 1000 Stoddard Ct", "POINT (-76.625654182 39.2998910227)", "1522" ]
+, [ "row-33n9.684d-rmwa", "00000000-0000-0000-CE10-6260C3555EDD", 0, 1450720039, null, 1450720039, null, "{ }", "2023- McCulloh 442 Walton Ct", "POINT (-76.6247474938 39.2999781031)", "1523" ]
+, [ "row-euib~myvt.f35s", "00000000-0000-0000-08C1-45B34BA76655", 0, 1450720039, null, 1450720039, null, "{ }", "2024-McCulloh 900 Stoddard Ct", "POINT (-76.6244783596 39.2989138943)", "1524" ]
+, [ "row-prj7~4g3g_6eqx", "00000000-0000-0000-A84C-7A0060D5BD9C", 0, 1450720039, null, 1450720039, null, "{ }", "2102-Gilmor-1638 Bruce Ct", "POINT (-76.645597161 39.3072756718)", "1602" ]
+, [ "row-fasx.m99v.e2sc", "00000000-0000-0000-D959-DA52E7F04BDD", 0, 1450720039, null, 1450720039, null, "{ }", "2106-1679 Bakbury Ct", "POINT (-76.6451063846 39.3078620282)", "1606" ]
+, [ "row-8a9y~te2g-2drw", "00000000-0000-0000-F4C4-FBA7E3126932", 0, 1450720039, null, 1450720039, null, "{ }", "2110-1606 Vincent Ct", "POINT (-76.6444488131 39.3074507205)", "1610" ]
+, [ "row-csaf~gkre-juec", "00000000-0000-0000-A4CC-CF82C780B413", 0, 1450720039, null, 1450720039, null, "{ }", "2112-1641 Vincent Ct", "POINT (-76.6441246569 39.3073932159)", "1612" ]
+, [ "row-rep3_pp47-krs9", "00000000-0000-0000-B62E-8E56133E9325", 0, 1450720039, null, 1450720039, null, "{ }", "2109-1600 Vincent Ct", "POINT (-76.6442991088 39.3068188366)", "1609" ]
+, [ "row-ixiq-5qzi~rpim", "00000000-0000-0000-FD6F-5AA591F58663", 0, 1450720039, null, 1450720039, null, "{ }", "2108-Gilmor-1600 Mountmor Ct", "POINT (-76.6447164386 39.3068001197)", "1608" ]
+, [ "row-s7ra.yvxt.esa3", "00000000-0000-0000-A615-D1450CF5EB29", 0, 1450720039, null, 1450720039, null, "{ }", "2105-1601 Bakbury Ct", "POINT (-76.64497297781604 39.30679367066666)", "1605" ]
+, [ "row-5z48.4d85-zc2h", "00000000-0000-0000-4B7E-5A6216AF97AA", 0, 1450720039, null, 1450720039, null, "{ }", "2114-1605-2 Spray Ct", "POINT (-76.6445150205 39.3057859556)", "1614" ]
+, [ "row-mryq~me33_fda5", "00000000-0000-0000-CEF8-52E8038ADD2C", 0, 1450720039, null, 1450720039, null, "{ }", "2115-1601-8 Spray Ct", "POINT (-76.6440916961 39.3059009898)", "1615" ]
+, [ "row-we95_3qs4.j4w9", "00000000-0000-0000-1699-56786345B934", 0, 1450720039, null, 1450720039, null, "{ }", "2117-1519 Presser Ct", "POINT (-76.6435599253 39.3057260041)", "1617" ]
+, [ "row-uip4-ir45_74ci", "00000000-0000-0000-386A-82F491DCF633", 0, 1450720039, null, 1450720039, null, "{ }", "2116-1500 Pressman Ct", "POINT (-76.6439059639 39.3054551286)", "1616" ]
+, [ "row-sfcc~ynzq~hfzd", "00000000-0000-0000-044E-89C116D5E162", 0, 1450720039, null, 1450720039, null, "{ }", "2119-1638 Balmor Ct", "POINT (-76.6440863631 39.305191826)", "1619" ]
+, [ "row-ucrm-34cs_q5ez", "00000000-0000-0000-5918-80CB39A170AD", 0, 1450720039, null, 1450720039, null, "{ }", "2120-1458 Mountmor Ct", "POINT (-76.6446301159 39.3052478738)", "1620" ]
+, [ "row-km4k.rqky-e7ei", "00000000-0000-0000-31E6-CBABE1284EB3", 0, 1450720039, null, 1450720039, null, "{ }", "2121-1428 Mountmor Ct", "POINT (-76.644510936 39.3048090595)", "1621" ]
+, [ "row-mc8i~eizi.vrz4", "00000000-0000-0000-2972-F12EF087F938", 0, 1450720039, null, 1450720039, null, "{ }", "2125-1601 Booker Ct", "POINT (-76.6434085854 39.304574796)", "1625" ]
+, [ "row-i64w.v96w.rd2i", "00000000-0000-0000-9FAD-7397965A3B74", 0, 1450720039, null, 1450720039, null, "{ }", "2123-1401 Mountmor Ct", "POINT (-76.6442812851 39.3044347827)", "1623" ]
+, [ "row-hgi6~355y~xhh2", "00000000-0000-0000-D8D4-28C8043D2E1F", 0, 1450720039, null, 1450720039, null, "{ }", "2127-1631 Lorman Ct", "POINT (-76.6442252772 39.3040667402)", "1627" ]
+, [ "row-rhd4.jfg8-8cy2", "00000000-0000-0000-C4EC-28A4855D30DA", 0, 1450720039, null, 1450720039, null, "{ }", "2130-1628 Delano Ct", "POINT (-76.6438455305 39.3037600683)", "1630" ]
+, [ "row-zedu_szrh-zxt6", "00000000-0000-0000-5F9A-5AE17CDE337E", 0, 1450720039, null, 1450720039, null, "{ }", "2126-1629 Lorman Ct", "POINT (-76.6438630163 39.304000985)", "1626" ]
+, [ "row-i74e.tq23_3tza", "00000000-0000-0000-22A8-EF685A8D30BC", 0, 1450720039, null, 1450720039, null, "{ }", "2124-1639 Booker Ct", "POINT (-76.6440483349 39.3044729982)", "1624" ]
+, [ "row-axc7-suis-3jw5", "00000000-0000-0000-3689-F5F3BA89A2FD", 0, 1450720039, null, 1450720039, null, "{ }", "2201-Latrobe 800 Abbott ct", "POINT (-76.6061664384 39.3012529811)", "1701" ]
+, [ "row-kiez_puzt_85rc", "00000000-0000-0000-3FF2-4414B4D81B50", 0, 1450720039, null, 1450720039, null, "{ }", "2202-Latrobe 856 Abbott Ct", "POINT (-76.6050176161 39.301329715)", "1702" ]
+, [ "row-ham5_4vbe-d56c", "00000000-0000-0000-93DF-48F8F0A93B69", 0, 1450720039, null, 1450720039, null, "{ }", "2203-Latrobe 818 WebbCt", "POINT (-76.6056869228 39.3010088572)", "1703" ]
+, [ "row-xijv-u7pp.nna6", "00000000-0000-0000-5AF2-605FDF273ADD", 0, 1450720039, null, 1450720039, null, "{ }", "2204-Latrobe 800 McAleer Ct", "POINT (-76.6059576314 39.3002994414)", "1704" ]
+, [ "row-y9a5.fkuc_zjpi", "00000000-0000-0000-B61F-F07ABE016036", 0, 1450720039, null, 1450720039, null, "{ }", "2205-Latrobe 834 McAleer Ct", "POINT (-76.6052971148 39.3003119142)", "1705" ]
+, [ "row-6yfd~w9vt-63hx", "00000000-0000-0000-6A24-BFC2395BCEAE", 0, 1450720039, null, 1450720039, null, "{ }", "2206-Latrobe 864 McAleer Ct", "POINT (-76.6047406199 39.3000418737)", "1706" ]
+, [ "row-sagj~ddjt_zmit", "00000000-0000-0000-F37E-04A9076EFA9B", 0, 1450720039, null, 1450720039, null, "{ }", "2207-Latrobe 831 McAleer Ct - Unit) - 1289", "POINT (-76.6052816304 39.2999771435)", "1707" ]
+, [ "row-t35c_sfkq.inki", "00000000-0000-0000-C39A-A2E8C4AEC824", 0, 1450720039, null, 1450720039, null, "{ }", "2208-Latrobe 859 Homewood Ave", "POINT (-76.6058995376 39.2999501721)", "1708" ]
+, [ "row-jr9c.3ucf_abhv", "00000000-0000-0000-1924-58E6D323A34D", 0, 1450720039, null, 1450720039, null, "{ }", "2209-Latrobe 820 Hillman Ct", "POINT (-76.6057097275 39.2993874996)", "1709" ]
+, [ "row-eyrk-x4ey_7ngg", "00000000-0000-0000-8A97-A17B3B1C55D8", 0, 1450720039, null, 1450720039, null, "{ }", "2210-Latrobe 819 Hillman Ave", "POINT (-76.6060758059 39.2993496933)", "1710" ]
+, [ "row-8db2~m9a6~t9rr", "00000000-0000-0000-409D-D1A03E8CA946", 0, 1450720039, null, 1450720039, null, "{ }", "2211-Latrobe 819 Homewood Ave", "POINT (-76.6043042487 39.3013080691)", "1711" ]
+, [ "row-58pn~fu8g_urre", "00000000-0000-0000-55C6-ECF8C18177D8", 0, 1450720039, null, 1450720039, null, "{ }", "2212 Latrobe 916 Webb ct", "POINT (-76.6037329303 39.300778554)", "1712" ]
+, [ "row-xfm3~etsf~nfmi", "00000000-0000-0000-1E21-F8E2E6280675", 0, 1450720039, null, 1450720039, null, "{ }", "2213- Latrobe 921 Webb ct", "POINT (-76.6043028539 39.3004376374)", "1713" ]
+, [ "row-5gxz_kzq2.h7tp", "00000000-0000-0000-3C30-21924B9F3AFD", 0, 1450720039, null, 1450720039, null, "{ }", "2214-Latrobe 922 Ashland ct", "POINT (-76.6037847596 39.3002226321)", "1714" ]
+, [ "row-nri4~5dvi_jkna", "00000000-0000-0000-BAD9-06C4568997DD", 0, 1450720039, null, 1450720039, null, "{ }", "2215- Latrobe 859 McAleer Ct", "POINT (-76.604397337 39.2998221948)", "1715" ]
+, [ "row-az5w_hape_7q4e", "00000000-0000-0000-E04D-732935CD502F", 0, 1450720039, null, 1450720039, null, "{ }", "2216-Latrobe ct 943 Wilmot", "POINT (-76.6039010428 39.2992073681)", "1716" ]
+, [ "row-vgah_chmw-mbw8", "00000000-0000-0000-7D96-465D6CCEAAB5", 0, 1450720039, null, 1450720039, null, "{ }", "2217-Latrobe 1000 Abbott Ct", "POINT (-76.6027394913 39.3013607878)", "1717" ]
+, [ "row-cgiy.narr~ynw3", "00000000-0000-0000-CC57-8828622FEA70", 0, 1450720039, null, 1450720039, null, "{ }", "2218-Latrobe 1101 Webb CT", "POINT (-76.6027147878 39.300600819)", "1718" ]
+, [ "row-bt5u~nugh_ycb9", "00000000-0000-0000-B169-AF743B824DB8", 0, 1450720039, null, 1450720039, null, "{ }", "2219-Latrobe 1000 Ashland ct", "POINT (-76.6028714242 39.3002718001)", "1719" ]
+, [ "row-yqzm-s863-4dyp", "00000000-0000-0000-FE1C-F3213296F610", 0, 1450720039, null, 1450720039, null, "{ }", "2220-Latrobe 1020 McAleer ct", "POINT (-76.6031175261 39.2998685472)", "1720" ]
+, [ "row-9kc7-kmpw~92h2", "00000000-0000-0000-0DCE-6C11A6313DE2", 0, 1450720039, null, 1450720039, null, "{ }", "2221-Latrobe 1001 McAleer ct", "POINT (-76.6035472525 39.2997155135)", "1721" ]
+, [ "row-3smk~d4hj-kdgm", "00000000-0000-0000-8B12-F017D1AD7928", 0, 1450720039, null, 1450720039, null, "{ }", "2222-Latrobe 1116 McAleer Ct", "POINT (-76.602135833 39.3001485892)", "1722" ]
+, [ "row-yudv-kupt-6fpu", "00000000-0000-0000-4913-E24CADB52B53", 0, 1450720039, null, 1450720039, null, "{ }", "2223-Latrobe 1130 McAleer Ct", "POINT (-76.6022393402 39.2999091532)", "1723" ]
+, [ "row-yner~uqqi-w8e5", "00000000-0000-0000-5A5C-BC8BA0B6A67D", 0, 1450720039, null, 1450720039, null, "{ }", "2224-Latrobe 1101Wilmot Ct", "POINT (-76.6027287109 39.2992878313)", "1724" ]
+, [ "row-3jwh.6v32~vys3", "00000000-0000-0000-8629-FEBA37254DE2", 0, 1450720039, null, 1450720039, null, "{ }", "2225-Latrobe 901 valley ct", "POINT (-76.604706 39.300228)", "1725" ]
+, [ "row-2tit~htds_frt4", "00000000-0000-0000-AF41-0AE37D071A28", 0, 1450720039, null, 1450720039, null, "{ }", "2226-Latrobe 901 valley ct", "POINT (-76.604706 39.300228)", "1726" ]
+, [ "row-c2dh-sdpw~una9", "00000000-0000-0000-7324-7F0054842AB0", 0, 1450720039, null, 1450720039, null, "{ }", "2227-Latrobe 901 McAleer Ct", "POINT (-76.604636 39.29965)", "1727" ]
+, [ "row-75zu-7gpt~76v7", "00000000-0000-0000-5F34-44F61EAB9F76", 0, 1450720039, null, 1450720039, null, "{ }", "2301-Perkins 200 Spring Ct", "POINT (-76.5983139856 39.2889742398)", "1801" ]
+, [ "row-htv6.meh5_jqab", "00000000-0000-0000-6A45-5E8FE690D3BD", 0, 1450720039, null, 1450720039, null, "{ }", "2302-Perkins 299 Spring Ct", "POINT (-76.5980440382 39.287503727)", "1802" ]
+, [ "row-cf3c.rqs2.izvs", "00000000-0000-0000-B003-6098CB267A3B", 0, 1450720039, null, 1450720039, null, "{ }", "2303-Perkins 264 Ballou Ct", "POINT (-76.5975136321 39.2880273743)", "1803" ]
+, [ "row-b8i3_sd9m_vunk", "00000000-0000-0000-D139-6A75785DB5B3", 0, 1450720039, null, 1450720039, null, "{ }", "2304-Perkins 229 Ballou Ct", "POINT (-76.5972128062 39.2886074523)", "1804" ]
+, [ "row-uytq-vmuc~j4w3", "00000000-0000-0000-2D00-A15F17AB9B6D", 0, 1450720039, null, 1450720039, null, "{ }", "2305-Perkins 269 Dallas Ct", "POINT (-76.5964394079 39.288149116)", "1805" ]
+, [ "row-ewty.6ekc~sy9w", "00000000-0000-0000-B28A-914465462E16", 0, 1450720039, null, 1450720039, null, "{ }", "2306-Perkins 231 Mason ct", "POINT (-76.5957734031 39.28864223)", "1806" ]
+, [ "row-7wcm.6y78.fkmu", "00000000-0000-0000-1E7B-4D617151BA14", 0, 1450720039, null, 1450720039, null, "{ }", "2307-Perkins 299 Mason Ct", "POINT (-76.5957529869 39.2876245462)", "1807" ]
+, [ "row-xqjy_xznn~3wz5", "00000000-0000-0000-5F67-B616251AFB12", 0, 1450720039, null, 1450720039, null, "{ }", "2308-Perkins 295 Mason Court", "POINT (-76.5956307911 39.2876798677)", "1808" ]
+, [ "row-q7w4_paap_ued9", "00000000-0000-0000-BE85-737BF710AB8B", 0, 1450720039, null, 1450720039, null, "{ }", "2309-Perkins 200 Herring Ct", "POINT (-76.5950165111 39.2891128213)", "1809" ]
+, [ "row-cipk_iyuy_f9u5", "00000000-0000-0000-EEE5-AF34841220D8", 0, 1450720039, null, 1450720039, null, "{ }", "2310-Perkins 270 Herring Ct", "POINT (-76.5953375322 39.2880371173)", "1810" ]
+, [ "row-spze.q4bd-ehjy", "00000000-0000-0000-9E81-EDD3D182B4F6", 0, 1450720039, null, 1450720039, null, "{ }", "2311-Perkins 299 Herring Ct", "POINT (-76.5948263201 39.2876651606)", "1811" ]
+, [ "row-qme9~ri2q-eb7j", "00000000-0000-0000-A7AF-01EDC87C2E6A", 0, 1450720039, null, 1450720039, null, "{ }", "2312-Perkins 354 Spring Ct", "POINT (-76.5981564528 39.2864913947)", "1812" ]
+, [ "row-qp6y~5mtu_mdtv", "00000000-0000-0000-E488-A87D4150937D", 0, 1450720039, null, 1450720039, null, "{ }", "217 Bank and Caroline", "POINT (-76.596843 39.286468)", "217" ]
+, [ "row-te5y~cczx-6q7t", "00000000-0000-0000-B0CC-8D4AD9D66451", 0, 1450720039, null, 1450720039, null, "{ }", "2313-Perkins Community Bldg", "POINT (-76.5977388249 39.2869517079)", "1813" ]
+, [ "row-qbem_4vy4_m8ei", "00000000-0000-0000-4A7F-0ED189213614", 0, 1450720039, null, 1450720039, null, "{ }", "2314-Perkins 1413 Gough st", "POINT (-76.5974326449 39.2873558717)", "1814" ]
+, [ "row-mawf~mhju_khew", "00000000-0000-0000-F207-1E31465C98BF", 0, 1450720039, null, 1450720039, null, "{ }", "2315-Perkins 319 Ballou Ct", "POINT (-76.5971263143 39.2871109486)", "1815" ]
+, [ "row-j84s-whzn-cf7e", "00000000-0000-0000-2F79-02270C73CFE9", 0, 1450720039, null, 1450720039, null, "{ }", "2316-Perkins 330 Ballou ct", "POINT (-76.5973706291 39.2868832013)", "1816" ]
+, [ "row-r3gx-qaky_cv65", "00000000-0000-0000-417D-6A465DCBC5C0", 0, 1450720039, null, 1450720039, null, "{ }", "2317-Perkins 326 Dallas Ct", "POINT (-76.5966261795 39.2870146689)", "1817" ]
+, [ "row-9cqj-dh8v-yibn", "00000000-0000-0000-59BF-B41A67EBFC9E", 0, 1450720039, null, 1450720039, null, "{ }", "2318-Perkins 336 Mason Ct", "POINT (-76.5960446372 39.2868506334)", "1818" ]
+, [ "row-27qt~38jm~4htd", "00000000-0000-0000-D58F-E1D721056A32", 0, 1450720039, null, 1450720039, null, "{ }", "2319-Perkins 329 Mason Ct", "POINT (-76.5957165457 39.2869796386)", "1819" ]
+, [ "row-eeyz_2952~cqkt", "00000000-0000-0000-6F96-0A99BF69D9AA", 0, 1450720039, null, 1450720039, null, "{ }", "2320-Perkins 326 Herring Ct", "POINT (-76.5952611737 39.2870654561)", "1820" ]
+, [ "row-6ewv~s43s.r8pg", "00000000-0000-0000-6898-B300859F1100", 0, 1450720039, null, 1450720039, null, "{ }", "2401-231 Orleans St", "POINT (-76.6040430381 39.2945785712)", "1901" ]
+, [ "row-2xuc.rtum~sas7", "00000000-0000-0000-F19C-912BCC30F46E", 0, 1450720039, null, 1450720039, null, "{ }", "2402-310 Forrest St", "POINT (-76.6030845205 39.2945427961)", "1902" ]
+, [ "row-abmh_hg4p.rx6r", "00000000-0000-0000-7E5B-2544A00F541B", 0, 1450720039, null, 1450720039, null, "{ }", "2403-1110 New Hope Cir", "POINT (-76.6018525995 39.2937395048)", "1903" ]
+, [ "row-mr82~vkwe~k5mi", "00000000-0000-0000-FAB0-2B13433EA5E3", 0, 1450720039, null, 1450720039, null, "{ }", "2404-1021 New Hope Cir", "POINT (-76.6027038003 39.2932459545)", "1904" ]
+, [ "row-rrzc_26fk.4tkg", "00000000-0000-0000-4554-C00B9AA8F1DC", 0, 1450720039, null, 1450720039, null, "{ }", "2405-1008 New Hope Cir", "POINT (-76.6032342085 39.2939118563)", "1905" ]
+, [ "row-57u2_vpi7_7tpr", "00000000-0000-0000-1685-9C8EDEFA1563", 0, 1450720039, null, 1450720039, null, "{ }", "2406-1124 Colvin St.", "POINT (-76.601830969 39.2929457986)", "1906" ]
+, [ "row-jjja~nvrs_y5wk", "00000000-0000-0000-7699-22EE45094790", 0, 1450720039, null, 1450720039, null, "{ }", "2407-215 Saint Mathews St.", "POINT (-76.6038930508 39.2936321888)", "1907" ]
+, [ "row-yydm.g35s~bzw6", "00000000-0000-0000-C5D9-227133DFC3DE", 0, 1450720039, null, 1450720039, null, "{ }", "2408-1100 Colvin St.", "POINT (-76.603336867 39.2926182397)", "1908" ]
+, [ "row-szt5.3zrw~9icq", "00000000-0000-0000-12E5-4E40CEFDB49F", 0, 1450720039, null, 1450720039, null, "{ }", "2409-SE.Corner of N.Tot Lot", "POINT (-76.6021399962 39.2942348796)", "1909" ]
+, [ "row-6ybb_fcan~nwrz", "00000000-0000-0000-CF44-44CD5FB2A37D", 0, 1450720039, null, 1450720039, null, "{ }", "2410-NW. Corner of S.Tot Lot", "POINT (-76.6022129024 39.29329526)", "1910" ]
+, [ "row-9enr_9qc7~ikre", "00000000-0000-0000-796D-099C4E4AB8BF", 0, 1450720039, null, 1450720039, null, "{ }", "2411-SE. Corner of W. Tot Lot", "POINT (-76.6031810765 39.2930222098)", "1911" ]
+, [ "row-asbb-25q6~upck", "00000000-0000-0000-78B5-3E2732CCB57A", 0, 1450720039, null, 1450720039, null, "{ }", "2412- Courtyard Play Area", "POINT (-76.6013260817 39.2934312526)", "1912" ]
+, [ "row-adyu.3bu5.pcti", "00000000-0000-0000-3B07-9671D2B37159", 0, 1450720039, null, 1450720039, null, "{ }", "2413-NE. Elderly Bldg. Central Ave.", "POINT (-76.6001393683 39.2934731262)", "1913" ]
+, [ "row-5znu_rjnn_3bv4", "00000000-0000-0000-A635-30EB0137E992", 0, 1450720039, null, 1450720039, null, "{ }", "2414-NE. Community Center", "POINT (-76.6012283354 39.293917434)", "1914" ]
+, [ "row-uv5w.maxa~8785", "00000000-0000-0000-2C35-E1238BC994B5", 0, 1450720039, null, 1450720039, null, "{ }", "2415-SE. Elderly Bldg. Central Ave.", "POINT (-76.6001159428 39.2928534162)", "1915" ]
+, [ "row-3hbx.ncdg~7znt", "00000000-0000-0000-7DBC-DA7D83E86C90", 0, 1450720039, null, 1450720039, null, "{ }", "2416-SW. Elderly Bldg. Fayette St.", "POINT (-76.6006969936 39.2928157636)", "1916" ]
+, [ "row-dyhk_2nc3-3p4g", "00000000-0000-0000-4C33-29D286446967", 0, 1450720039, null, 1450720039, null, "{ }", "2417-Elderly Bldg. Court Yard", "POINT (-76.6006844896 39.2930004994)", "1917" ]
+, [ "row-ij82_tdfg.kgvr", "00000000-0000-0000-3B5C-8BB3BC543C62", 0, 1450720039, null, 1450720039, null, "{ }", "2418-Youth Center Fayette St.", "POINT (-76.6029833333 39.2918166667)", "1918" ]
+, [ "row-wd5f~ix47_bhta", "00000000-0000-0000-E2BD-4DC0DD0FA868", 0, 1450720039, null, 1450720039, null, "{ }", "2419-Daycare Center 1106 Fayette St.", "POINT (-76.6022267019 39.2920336344)", "1919" ]
+, [ "row-sws7.fccc_eeng", "00000000-0000-0000-BE52-A48E6F04A40A", 0, 1450720039, null, 1450720039, null, "{ }", "2420-Daycare Center Play Area", "POINT (-76.6019978447 39.2924814959)", "1920" ]
+, [ "row-8znn-97aw_mad2", "00000000-0000-0000-F82A-7CE4DFC2C1E0", 0, 1450720039, null, 1450720039, null, "{ }", "2421-NW Senior Center", "POINT (-76.6007341298 39.2934769883)", "1921" ]
+, [ "row-5h7t~8dus~8ths", "00000000-0000-0000-CE07-140154F891A9", 0, 1450720039, null, 1450720039, null, "{ }", "1986 Boyd St Side Entrance", "POINT (-76.6361888888889 39.28735555555556)", "" ]
+, [ "row-4wkc_2pat.dh4b", "00000000-0000-0000-70DF-9622E4F00A20", 0, 1450720039, null, 1450720039, null, "{ }", "1987 Arlington Ave East Entrance", "POINT (-76.63516111111112 39.28746666666667)", "" ]
+, [ "row-jrag-97si_efcu", "00000000-0000-0000-2801-D15BB617727B", 0, 1450720039, null, 1450720039, null, "{ }", "226 aliceanna and broadway west", "POINT (-76.59343333333332 39.28352222222222)", "226" ]
+, [ "row-xnzr.m3nb-pkif", "00000000-0000-0000-FDE1-3B3E32262113", 0, 1450720039, null, 1450720039, null, "{ }", "839 3500 Northern Pkwy(E&T)", "POINT (-76.68254166666667 39.35383333333333)", "839" ]
+, [ "row-ib5h_8nch.2fjn", "00000000-0000-0000-F822-499557B71469", 0, 1450720039, null, 1450720039, null, "{ }", "78-St Paul and Franklin", "POINT (-76.61423888888888 39.29520555555556)", "78" ]
+, [ "row-ahjz~krdb-brd8", "00000000-0000-0000-97E3-6495081F81EA", 0, 1450720039, null, 1450720039, null, "{ }", "1924 -  Pratt/Light", "POINT (-76.61358784200524 39.28646977265915)", "1424" ]
+, [ "row-ef86-x5cp-66yk", "00000000-0000-0000-458C-3F9514DA7182", 0, 1450720039, null, 1450720039, null, "{ }", "1923 - Pratt/Sharp", "POINT (-76.61754444444443 39.28636944444444)", "1423" ]
+, [ "row-67ui-aenk.8hff", "00000000-0000-0000-A4E1-D12C6C039D90", 0, 1450720039, null, 1450720039, null, "{ }", "1101 - Pennsylvania - Baker", "POINT (-76.640359447638 39.30829679060109)", "1101" ]
+, [ "row-rddu_xvpk_k8em", "00000000-0000-0000-0173-773B4DD871B6", 0, 1450720039, null, 1450720039, null, "{ }", "1103 - Pennsylvania - Gold", "POINT (-76.63938897742757 39.30749505870838)", "1102" ]
+, [ "row-ic4e_r3h7-9383", "00000000-0000-0000-6AEC-8C76ACC8AD9A", 0, 1450720039, null, 1450720039, null, "{ }", "1104 - Pennsylvania - Bloom", "POINT (-76.6384299343576 39.30671945353741)", "1104" ]
+, [ "row-eu3i~xgrq~uuzb", "00000000-0000-0000-0A3C-5042CFAC0083", 0, 1450720039, null, 1450720039, null, "{ }", "1106 - Pennsylvania - Presstman", "POINT (-76.63747448203168 39.30586944223781)", "1106" ]
+, [ "row-sfy7~i6zz.2if4", "00000000-0000-0000-AC79-D35B84A3A27D", 0, 1450720039, null, 1450720039, null, "{ }", "1105 -Freemont - Presstman", "POINT (-76.63801740986247 39.30558949828878)", "1105" ]
+, [ "row-iyj7~4w5b-84q2", "00000000-0000-0000-24EE-EF7E63B6096E", 0, 1450720039, null, 1450720039, null, "{ }", "1109 - Pennsylvania - Robert", "POINT (-76.63662011132276 39.30519574404727)", "1109" ]
+, [ "row-kwiw_uybu.7pdx", "00000000-0000-0000-ED10-C2CBA373BE3D", 0, 1450720039, null, 1450720039, null, "{ }", "1108 - Division - Robert", "POINT (-76.63543773476431 39.30591732598181)", "1108" ]
+, [ "row-5npu_igwi.8prb", "00000000-0000-0000-D5BA-CE0CB7DD41CE", 0, 1450720039, null, 1450720039, null, "{ }", "1110 - Freemont - Robert", "POINT (-76.63749054713664 39.30462960780963)", "1110" ]
+, [ "row-dpyh~zc3b~6x4n", "00000000-0000-0000-7004-ED6159C1ACCE", 0, 1450720039, null, 1450720039, null, "{ }", "1112 - Pennsylvania - Wilson", "POINT (-76.63458211987803 39.3035731625793)", "1112" ]
+, [ "row-q65e_mnav.mixt", "00000000-0000-0000-0DE4-09879519E923", 0, 1450720039, null, 1450720039, null, "{ }", "1114 - Pennsylvania - Pitcher", "POINT (-76.63413345647851 39.30310856236742)", "1114" ]
+, [ "row-j9ci_jzws.kbhh", "00000000-0000-0000-2E65-AB3F766137D2", 0, 1450720039, null, 1450720039, null, "{ }", "1115 - Fremont - Pitcher", "POINT (-76.63588256275133 39.30170510062247)", "1115" ]
+, [ "row-ywqt.iw5a.xbi9", "00000000-0000-0000-E25E-BDFBF288E152", 0, 1450720039, null, 1450720039, null, "{ }", "1118 - Pennsylvania - Mosher", "POINT (-76.63265592932589 39.30195561065715)", "1118" ]
+, [ "row-3yk2.p5ei~eb2b", "00000000-0000-0000-E8A3-DD64B42DDC9A", 0, 1450720039, null, 1450720039, null, "{ }", "2101 Behind 1638 Bruce Ct", "POINT (-76.64562240235104 39.30783962867702)", "1601" ]
+, [ "row-4iuf~4f8x_2nw5", "00000000-0000-0000-F4EE-AF9DEB80508B", 0, 1450720039, null, 1450720039, null, "{ }", "2103 Behind 1600 Bruce Ct", "POINT (-76.64555851397863 39.30676856525924)", "1603" ]
+, [ "row-856q-9hzs-9fje", "00000000-0000-0000-20BC-3E93E96B2DEB", 0, 1450720039, null, 1450720039, null, "{ }", "2104-1605 Bruce Ct", "POINT (-76.64523892740945 39.306768699594)", "1604" ]
+, [ "row-3d5x_3kue~k352", "00000000-0000-0000-C26D-4A6F6975CD7A", 0, 1450720039, null, 1450720039, null, "{ }", "2107-1678 Mountmor Ct", "POINT (-76.64467223740317 39.30787884014206)", "1607" ]
+, [ "row-zdtx_jfia~nmwu", "00000000-0000-0000-5530-8ED3B9D32A26", 0, 1450720039, null, 1450720039, null, "{ }", "2111-1679 Vincent Ct", "POINT (-76.64400996813869 39.30789761729893)", "1611" ]
+, [ "row-ukmw_qek8-jfaq", "00000000-0000-0000-3740-F4F504B35A62", 0, 1450720039, null, 1450720039, null, "{ }", "2113-1600 Spray Ct", "POINT (-76.64464309932373 39.30621419719377)", "1613" ]
+, [ "row-3a92.v7ie.2u89", "00000000-0000-0000-25B2-014CB77C2169", 0, 1450720039, null, 1450720039, null, "{ }", "2118-Prestman St & Gilmor St", "POINT (-76.64334440901054 39.30525916821063)", "1618" ]
+, [ "row-cjpv~w9q5-9b7k", "00000000-0000-0000-8267-F5F618D49275", 0, 1450720039, null, 1450720039, null, "{ }", "2122 Behind1629 Balmor Ct", "POINT (-76.64386956197787 39.30496870034295)", "1622" ]
+, [ "row-59xq_cxuj_esiw", "00000000-0000-0000-57C2-2E66F94F1504", 0, 1450720039, null, 1450720039, null, "{ }", "2128-1649 Lorman Ct", "POINT (-76.64452954824094 39.30401996240907)", "1628" ]
+, [ "row-57hy~r9fw-k72a", "00000000-0000-0000-9884-762BB07D940A", 0, 1450720039, null, 1450720039, null, "{ }", "2129-1658 Delano Ct", "POINT (-76.64451078947553 39.30377614743436)", "1629" ]
+, [ "row-r7rs-m93i-3zmp", "00000000-0000-0000-C944-02103EA823A9", 0, 1450720039, null, 1450720039, null, "{ }", "2131-1600 Delano Ct", "POINT (-76.64328635533143 39.30379381104869)", "1631" ]
+, [ "row-r4pq.rdmg_gkit", "00000000-0000-0000-1F6D-BB64076552D8", 0, 1450720039, null, 1450720039, null, "{ }", "79 - Charles & Fayette", "POINT (-76.61539166666667 39.29028611111111)", "79" ]
+, [ "row-2chn~8xb4.68b6", "00000000-0000-0000-AABA-1D4077AB4BF9", 0, 1450720039, null, 1450720039, null, "{ }", "737 - North and Bentalou", "POINT (-76.6540948761361 39.30956689439192)", "737" ]
+, [ "row-zgqs-jiat_4abw", "00000000-0000-0000-8EBF-12406182CA64", 0, 1450720039, null, 1450720039, null, "{ }", "1201 North and Aisquith", "POINT (-76.6026063676475 39.31177833927831)", "" ]
+, [ "row-4fub~u8b2.sgad", "00000000-0000-0000-43A4-0F5529D592FF", 0, 1450720039, null, 1450720039, null, "{ }", "1202 North and Harford", "POINT (-76.59937607354041 39.31193614965031)", "" ]
+, [ "row-3a5v.3tsi~yniq", "00000000-0000-0000-DF17-C7DB1301A88C", 0, 1450720039, null, 1450720039, null, "{ }", "1203 North and Broadway", "POINT (-76.59513265295733 39.31221052098746)", "" ]
+, [ "row-5i67_39ib.m2a3", "00000000-0000-0000-0E5E-75F3DD3D35F3", 0, 1450720039, null, 1450720039, null, "{ }", "1204 North and Wolfe", "POINT (-76.59170300376306 39.31226029615829)", "" ]
+, [ "row-s7ti-4e6u_hr63", "00000000-0000-0000-8C6C-45593A59B1DB", 0, 1450720039, null, 1450720039, null, "{ }", "1205 North and Washington", "POINT (-76.59041842735647 39.31231670646029)", "" ]
+, [ "row-w454~i4iz-2hii", "00000000-0000-0000-7352-28D1A5BE1C03", 0, 1450720039, null, 1450720039, null, "{ }", "1206 North and Chester", "POINT (-76.5886731666187 39.31239469409911)", "" ]
+, [ "row-tymx.wd37~wws4", "00000000-0000-0000-05F2-DCF7A6C7E470", 0, 1450720039, null, 1450720039, null, "{ }", "1207 North and Collington", "POINT (-76.58746959023556 39.31244913292262)", "" ]
+, [ "row-qbsm.mv6q_bbna", "00000000-0000-0000-39FD-7BDB4FC1C527", 0, 1450720039, null, 1450720039, null, "{ }", "1209 North and Port", "POINT (-76.58378524852453 39.31254007393724)", "" ]
+, [ "row-vybx.tne3~m433", "00000000-0000-0000-0BA1-17C9FD0F510E", 0, 1450720039, null, 1450720039, null, "{ }", "1208 North and Belair", "POINT (-76.58403041048656 39.31271332956563)", "" ]
+, [ "row-r654_mq7m~bpe5", "00000000-0000-0000-9992-8C7C41146B48", 0, 1450720039, null, 1450720039, null, "{ }", "1210 North and Milton", "POINT (-76.58311610602921 39.31276174761437)", "" ]
+, [ "row-xmwh_ad5x~gdrz", "00000000-0000-0000-BA9A-E2FC536DE53C", 0, 1450720039, null, 1450720039, null, "{ }", "1401 Belair and Ravenwood", "POINT (-76.5808862454073 39.31532134026922)", "" ]
+, [ "row-avqi-tkbh-g6xe", "00000000-0000-0000-893B-5E2B2567609F", 0, 1450720039, null, 1450720039, null, "{ }", "1402 Belair and Elmora", "POINT (-76.58025192124266 39.31590204783952)", "" ]
+, [ "row-9p7j~4ny8.fhup", "00000000-0000-0000-BBE0-A4990883D1D9", 0, 1450720039, null, 1450720039, null, "{ }", "1403 Belair and Lyndale", "POINT (-76.57952628919054 39.31647791599674)", "" ]
+, [ "row-xvce_r3jt-v4kx", "00000000-0000-0000-2F41-E0443066EB20", 0, 1450720039, null, 1450720039, null, "{ }", "1404 Belair and Elmley", "POINT (-76.57892259257733 39.31705549658236)", "" ]
+, [ "row-gcxf-34fu-2hac", "00000000-0000-0000-DD9E-ECB393BCB180", 0, 1450720039, null, 1450720039, null, "{ }", "1405 Belair(across from shopping center)", "POINT (-76.5771425501327 39.3187572701527)", "" ]
+, [ "row-9ee4-nj5v-nu8f", "00000000-0000-0000-DA24-412E2F09884D", 0, 1450720039, null, 1450720039, null, "{ }", "1406 Belair and Cliftmont", "POINT (-76.57589217575828 39.31968222409318)", "" ]
+, [ "row-6r2d~x467-mcxs", "00000000-0000-0000-BE81-3B32CD88E0C2", 0, 1450720039, null, 1450720039, null, "{ }", "1407 Belair and Mareco", "POINT (-76.57470542171735 39.32066599756703)", "" ]
+, [ "row-r9wr-kt8k~p233", "00000000-0000-0000-F113-934A6902F292", 0, 1450720039, null, 1450720039, null, "{ }", "1408 Belair and Clifton Park Terrace", "POINT (-76.57465176704801 39.32092062836623)", "" ]
+, [ "row-bmqt_vppj.x8k3", "00000000-0000-0000-CF2E-DFEFF7A59DB3", 0, 1450720039, null, 1450720039, null, "{ }", "1409 Belair and Erdman", "POINT (-76.57369283410719 39.32159690195721)", "" ]
+, [ "row-xtak.bgqb.ru9w", "00000000-0000-0000-ABA8-5046E2B63820", 0, 1450720039, null, 1450720039, null, "{ }", "1410 Belair and Sheldon", "POINT (-76.56479913556821 39.32871157698948)", "" ]
+, [ "row-vu4u-zv4z.q749", "00000000-0000-0000-AF6B-015B5081FFAC", 0, 1450720039, null, 1450720039, null, "{ }", "1301 Harford and 20th", "POINT (-76.59906881859646 39.31297000870627)", "" ]
+, [ "row-rpeu_apta_pcpd", "00000000-0000-0000-DF02-B7DF552A83D2", 0, 1450720039, null, 1450720039, null, "{ }", "1302 Harford and Broadway", "POINT (-76.59791601982953 39.31419386059974)", "" ]
+, [ "row-w86e~4i35-5n5j", "00000000-0000-0000-B525-3B76D68704ED", 0, 1450720039, null, 1450720039, null, "{ }", "1303 Harford and Darley", "POINT (-76.59700112232869 39.31515566959352)", "" ]
+, [ "row-umk6_quqz.zuch", "00000000-0000-0000-B7AF-372EF95A0D18", 0, 1450720039, null, 1450720039, null, "{ }", "1304 Harford and Cliftview", "POINT (-76.59636314051392 39.31571960996741)", "" ]
+, [ "row-zwvu~47rd.wfns", "00000000-0000-0000-9B1D-2E60F5319A01", 0, 1450720039, null, 1450720039, null, "{ }", "1305 Harford and 25th", "POINT (-76.59547050390702 39.31663757470525)", "" ]
+, [ "row-uyhq.yp62-qv5z", "00000000-0000-0000-7FA8-9BFA03D3D557", 0, 1450720039, null, 1450720039, null, "{ }", "1306 Harford(harbor city school)", "POINT (-76.59420055589743 39.31783548392114)", "" ]
+, [ "row-zp7p-pw64_26nt", "00000000-0000-0000-07E7-AABA77BF657D", 0, 1450720039, null, 1450720039, null, "{ }", "1307 Harford and Montpelier", "POINT (-76.593276398356 39.31863760465416)", "" ]
+, [ "row-9tha~aark_ej3k", "00000000-0000-0000-E757-D60289722068", 0, 1450720039, null, 1450720039, null, "{ }", "1308 Harford and Homestead", "POINT (-76.59275515705134 39.31914221620374)", "" ]
+, [ "row-7sgk~ce3b~qg4a", "00000000-0000-0000-BF6D-A1B6752CFA9B", 0, 1450720039, null, 1450720039, null, "{ }", "1309 Harford and Abbotston", "POINT (-76.5910808808932 39.32079736982417)", "" ]
+, [ "row-9i55~qywy.6dn8", "00000000-0000-0000-954A-1EB42A2469D4", 0, 1450720039, null, 1450720039, null, "{ }", "1310 Harford and Alameda", "POINT (-76.59063888340752 39.3212028056569)", "" ]
+, [ "row-gqtu-cjki.b6yp", "00000000-0000-0000-F317-DD60502F6186", 0, 1450720039, null, 1450720039, null, "{ }", "1311 Harford and Tivoly", "POINT (-76.58990177382661 39.32186787267688)", "" ]
+, [ "row-2pq6~4xzq.nuw3", "00000000-0000-0000-243B-30F55B483F57", 0, 1450720039, null, 1450720039, null, "{ }", "1312 Harford and Fenwick", "POINT (-76.58924262866057 39.32235170282339)", "" ]
+, [ "row-mgy8_4jb8-37a6", "00000000-0000-0000-253D-8987E1A025FD", 0, 1450720039, null, 1450720039, null, "{ }", "1313 Harford and Hugo", "POINT (-76.58847863386814 39.32293026138491)", "" ]
+, [ "row-n782.6ffa-jnb4", "00000000-0000-0000-CA88-7DFD5F00F2AC", 0, 1450720039, null, 1450720039, null, "{ }", "626 Montofrd - Ashland", "POINT (-76.58386666666667 39.30089444444444)", "" ]
+, [ "row-ixqs-jw8a.pszk", "00000000-0000-0000-986D-0088CAF25B8F", 0, 1450720039, null, 1450720039, null, "{ }", "351-Carver Rd Front of Rec Center", "POINT (-76.62332398447882 39.24626665343226)", "351" ]
+, [ "row-49sz.ekft~tspr", "00000000-0000-0000-CE48-147AEB6C3011", 0, 1450720039, null, 1450720039, null, "{ }", "627-Collington & Jefferson", "POINT (-76.58652222222221 39.29653888888889)", "627" ]
+, [ "row-zwe8~g7bq~wy5f", "00000000-0000-0000-1DC8-5DFCBFCB4592", 0, 1450720039, null, 1450720039, null, "{ }", "628-Jefferson & Glover", "POINT (-76.58004722222222 39.29681111111111)", "628" ]
+, [ "row-yk39~fhk6.qyyx", "00000000-0000-0000-446A-5CA39A7ED456", 0, 1450720039, null, 1450720039, null, "{ }", "840-Park Heights & Oakford", "POINT (-76.66688888888889 39.34038888888889)", "840" ]
+, [ "row-8ydt_6jnq.mqid", "00000000-0000-0000-A0B0-7D61AADDBC2B", 0, 1450720039, null, 1450720039, null, "{ }", "2501-Greenmount and Madison", "POINT (-76.60660833333333 39.29895555555555)", "" ]
+, [ "row-jbcw-wfcq~ychx", "00000000-0000-0000-AB15-5CDF0734F2AD", 0, 1450720039, null, 1450720039, null, "{ }", "534 - Greenmount - 29th", "POINT (-76.60952222222221 39.32348055555556)", "" ]
+, [ "row-zr6g_ga5q.2nt3", "00000000-0000-0000-3BE1-3E5217A08FC5", 0, 1450720039, null, 1450720039, null, "{ }", "536 - Greenmount - 31st", "POINT (-76.60943333333333 39.32604444444445)", "" ]
+, [ "row-9w72~n97y~mh2s", "00000000-0000-0000-E79C-385E38E78FCD", 0, 1450720039, null, 1450720039, null, "{ }", "537 - Greenmount - 32nd", "POINT (-76.60938333333333 39.32708611111112)", "" ]
+, [ "row-5fty.txjv~bcih", "00000000-0000-0000-3F3D-B6703C13ADD6", 0, 1450720039, null, 1450720039, null, "{ }", "538 - Greenmount - 33rd", "POINT (-76.60941944444444 39.32826388888889)", "" ]
+, [ "row-sz7k-hmye-7xpx", "00000000-0000-0000-5CF2-8ACCA1E78CFE", 0, 1450720039, null, 1450720039, null, "{ }", "2132 - 1521 Mountmor", "POINT (-76.64434722222222 39.30634722222222)", "" ]
+, [ "row-wsms.u4vh.5p4f", "00000000-0000-0000-4239-4369315A1EA1", 0, 1450720039, null, 1450720039, null, "{ }", "2601 N Charles St - Center St", "POINT (-76.61559779240923 39.29641315161354)", "2601" ]
+, [ "row-2ehm_gejc-32is", "00000000-0000-0000-0A61-D0BCFC88A292", 0, 1450720039, null, 1450720039, null, "{ }", "2602 N Charles St - Madison St", "POINT (-76.6157197934735 39.29851804503426)", "2602" ]
+, [ "row-yaye_9arh_exgh", "00000000-0000-0000-94EC-E915B82AD836", 0, 1450720039, null, 1450720039, null, "{ }", "2603 N Charles St - Read Ave", "POINT (-76.61573202681544 39.29975306759935)", "2603" ]
+, [ "row-b5sd-dm4g-ztah", "00000000-0000-0000-1455-4E37A51AFA75", 0, 1450720039, null, 1450720039, null, "{ }", "2604 Park Ave - Read St", "POINT (-76.61848996338053 39.30033640180055)", "2604" ]
+, [ "row-gkp9_4zx6_yjve", "00000000-0000-0000-5178-9543D28B882F", 0, 1450720039, null, 1450720039, null, "{ }", "2605 N Charles - Eager St", "POINT (-76.61580229236847 39.30110555555555)", "2605" ]
+, [ "row-yk6t_34he_8i2a", "00000000-0000-0000-91E6-EE9695CA6204", 0, 1450720039, null, 1450720039, null, "{ }", "2606 N Charles St - Chase St", "POINT (-76.6158820031692 39.30246152784923)", "2606" ]
+, [ "row-p2ic_bjrs_hbwu", "00000000-0000-0000-A039-704D7324B43A", 0, 1450720039, null, 1450720039, null, "{ }", "2607 N Charles St - E Biddle St", "POINT (-76.61595468588028 39.30352159992223)", "2607" ]
+, [ "row-xvjq.ds4x.dvxz", "00000000-0000-0000-96B4-14E156F0EECF", 0, 1450720039, null, 1450720039, null, "{ }", "2608 N Charles St - Preston St", "POINT (-76.61603324504988 39.30459525863834)", "2608" ]
+, [ "row-f4m4-8v5f_m5yi", "00000000-0000-0000-223E-7E56F9080FBC", 0, 1450720039, null, 1450720039, null, "{ }", "2609 N Charles - Mt Royal Ave", "POINT (-76.61604841927274 39.30547574829475)", "2609" ]
+, [ "row-2wgr-6hnq.drr4", "00000000-0000-0000-D784-F0FDD5BE12B9", 0, 1450720039, null, 1450720039, null, "{ }", "2610 N Charles St - Lanvale St", "POINT (-76.61631391186941 39.30882272425739)", "2610" ]
+, [ "row-yq7e~4dhu_5ayg", "00000000-0000-0000-5C67-92219C9F021B", 0, 1450720039, null, 1450720039, null, "{ }", "2611 N Charles St - North Ave", "POINT (-76.61644554627678 39.31108681621197)", "2611" ]
+, [ "row-kxwc_gkrx-c59r", "00000000-0000-0000-884F-F523A93A4DE1", 0, 1450720039, null, 1450720039, null, "{ }", "2612 N Charles St - 20th St", "POINT (-76.61653886163006 39.31229561523002)", "2612" ]
+ ]
+}

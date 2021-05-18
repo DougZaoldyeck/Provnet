@@ -1,0 +1,736 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "mjnm-ha2j",
+      "name" : "DOMESTIC PROPERTY AND CASUALTY INSURERS",
+      "attribution" : "Department of Insurance",
+      "attributionLink" : "http://www.ct.gov/cid/cwp/view.asp?q=390172",
+      "averageRating" : 0,
+      "category" : "Business",
+      "createdAt" : 1401289637,
+      "description" : "LICENSED PROPERTY AND CASUALTY INSURANCE COMPANIES. ASSETS, LIABILITIES, CAPITAL AND SURPLUS, AND DIRECT WRITTEN PREMIUMS IN CONNECTICUT FOR 2012. DOMESTIC (IN-STATE) PROPERTY AND CASUALTY INSURERS",
+      "displayType" : "table",
+      "downloadCount" : 1428,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1414727562,
+      "licenseId" : "OPEN_DATABASE_LICENSE",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8088615,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1401289831,
+      "publicationGroup" : 1597334,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1401289645,
+      "rowsUpdatedBy" : "cvy9-n6sb",
+      "tableId" : 1597334,
+      "totalTimesRated" : 0,
+      "viewCount" : 544,
+      "viewLastModified" : 1401289831,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 150257188,
+        "name" : "NAIC GROUPCODE",
+        "dataTypeName" : "number",
+        "fieldName" : "naic_groupcode",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19973763,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 69,
+          "average" : "2254.550724637681",
+          "largest" : "4770",
+          "null" : 4,
+          "top" : [ {
+            "item" : "3416",
+            "count" : 20
+          }, {
+            "item" : "1",
+            "count" : 19
+          }, {
+            "item" : "4636",
+            "count" : 18
+          }, {
+            "item" : "3548",
+            "count" : 17
+          }, {
+            "item" : "158",
+            "count" : 16
+          }, {
+            "item" : "4770",
+            "count" : 15
+          }, {
+            "item" : "586",
+            "count" : 14
+          }, {
+            "item" : "38",
+            "count" : 13
+          }, {
+            "item" : "31",
+            "count" : 12
+          }, {
+            "item" : "91",
+            "count" : 11
+          }, {
+            "item" : "361",
+            "count" : 10
+          }, {
+            "item" : "501",
+            "count" : 9
+          }, {
+            "item" : "175",
+            "count" : 8
+          }, {
+            "item" : "50",
+            "count" : 7
+          }, {
+            "item" : "787",
+            "count" : 6
+          }, {
+            "item" : "4753",
+            "count" : 5
+          }, {
+            "item" : "4071",
+            "count" : 4
+          }, {
+            "item" : "4702",
+            "count" : 3
+          }, {
+            "item" : "1314",
+            "count" : 2
+          } ],
+          "smallest" : "1",
+          "sum" : "155564"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 150257189,
+        "name" : "NAIC COMPANY CODE",
+        "dataTypeName" : "number",
+        "fieldName" : "naic_company_code",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19973764,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 71,
+          "average" : "25968.22535211268",
+          "largest" : "44792",
+          "null" : 2,
+          "top" : [ {
+            "item" : "10344",
+            "count" : 20
+          }, {
+            "item" : "11000",
+            "count" : 19
+          }, {
+            "item" : "20613",
+            "count" : 18
+          }, {
+            "item" : "13815",
+            "count" : 17
+          }, {
+            "item" : "24767",
+            "count" : 16
+          }, {
+            "item" : "24775",
+            "count" : 15
+          }, {
+            "item" : "24791",
+            "count" : 14
+          }, {
+            "item" : "19070",
+            "count" : 13
+          }, {
+            "item" : "37354",
+            "count" : 12
+          }, {
+            "item" : "41769",
+            "count" : 11
+          }, {
+            "item" : "28188",
+            "count" : 10
+          }, {
+            "item" : "19038",
+            "count" : 9
+          }, {
+            "item" : "31194",
+            "count" : 8
+          }, {
+            "item" : "36170",
+            "count" : 7
+          }, {
+            "item" : "19046",
+            "count" : 6
+          }, {
+            "item" : "40282",
+            "count" : 5
+          }, {
+            "item" : "36137",
+            "count" : 4
+          }, {
+            "item" : "41750",
+            "count" : 3
+          }, {
+            "item" : "29696",
+            "count" : 2
+          }, {
+            "item" : "27998",
+            "count" : 1
+          } ],
+          "smallest" : "10019",
+          "sum" : "1843744"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 150257190,
+        "name" : "COMPANY NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "company_name",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19973765,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 71,
+          "largest" : "United States Fidelity & Guar Co",
+          "null" : 2,
+          "top" : [ {
+            "item" : "Rvi Amer Ins Co",
+            "count" : 20
+          }, {
+            "item" : "Sentinel Ins Co Ltd",
+            "count" : 19
+          }, {
+            "item" : "Sparta Ins Co",
+            "count" : 18
+          }, {
+            "item" : "Sparta Specialty Ins Co",
+            "count" : 17
+          }, {
+            "item" : "St Paul Fire & Marine Ins Co",
+            "count" : 16
+          }, {
+            "item" : "St Paul Guardian Ins Co",
+            "count" : 15
+          }, {
+            "item" : "St Paul Mercury Ins Co",
+            "count" : 14
+          }, {
+            "item" : "Standard Fire Ins Co",
+            "count" : 13
+          }, {
+            "item" : "Thames Ins Co Inc",
+            "count" : 12
+          }, {
+            "item" : "The Travelers Cas Co",
+            "count" : 11
+          }, {
+            "item" : "Travco Ins Co",
+            "count" : 10
+          }, {
+            "item" : "Travelers Cas & Surety Co",
+            "count" : 9
+          }, {
+            "item" : "Travelers Cas & Surety Co Of Amer",
+            "count" : 8
+          }, {
+            "item" : "Travelers Cas Co Of CT",
+            "count" : 7
+          }, {
+            "item" : "Travelers Cas Ins Co Of Amer",
+            "count" : 6
+          }, {
+            "item" : "Travelers Commercial Cas Co",
+            "count" : 5
+          }, {
+            "item" : "Travelers Commercial Ins Co",
+            "count" : 4
+          }, {
+            "item" : "Travelers Constitution State Ins Co",
+            "count" : 3
+          }, {
+            "item" : "Travelers Excess & Surplus Lines Co",
+            "count" : 2
+          }, {
+            "item" : "Travelers Home & Marine Ins Co",
+            "count" : 1
+          } ],
+          "smallest" : "Aetna Ins Co of CT"
+        },
+        "format" : { }
+      }, {
+        "id" : 150257191,
+        "name" : "ADMITTED ASSETS",
+        "dataTypeName" : "number",
+        "fieldName" : "admitted_assets",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19973766,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 71,
+          "average" : "1978962356.985915",
+          "largest" : "24620337797",
+          "null" : 2,
+          "top" : [ {
+            "item" : "62694145",
+            "count" : 20
+          }, {
+            "item" : "201618882",
+            "count" : 19
+          }, {
+            "item" : "535398235",
+            "count" : 18
+          }, {
+            "item" : "104689633",
+            "count" : 17
+          }, {
+            "item" : "18761764152",
+            "count" : 16
+          }, {
+            "item" : "76411867",
+            "count" : 15
+          }, {
+            "item" : "353863098",
+            "count" : 14
+          }, {
+            "item" : "3440165126",
+            "count" : 13
+          }, {
+            "item" : "30716591",
+            "count" : 12
+          }, {
+            "item" : "200869226",
+            "count" : 11
+          }, {
+            "item" : "217622410",
+            "count" : 10
+          }, {
+            "item" : "15137117645",
+            "count" : 9
+          }, {
+            "item" : "4339558778",
+            "count" : 8
+          }, {
+            "item" : "318933010",
+            "count" : 7
+          }, {
+            "item" : "1841383098",
+            "count" : 6
+          }, {
+            "item" : "321694253",
+            "count" : 5
+          }, {
+            "item" : "333341483",
+            "count" : 4
+          }, {
+            "item" : "199264120",
+            "count" : 3
+          }, {
+            "item" : "198063357",
+            "count" : 2
+          }, {
+            "item" : "412274926",
+            "count" : 1
+          } ],
+          "smallest" : "7127405",
+          "sum" : "140506327346"
+        },
+        "format" : { }
+      }, {
+        "id" : 150257192,
+        "name" : "LIABILITIES",
+        "dataTypeName" : "number",
+        "fieldName" : "liabilities",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19973767,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 71,
+          "average" : "1212743819.859155",
+          "largest" : "14175862147",
+          "null" : 2,
+          "top" : [ {
+            "item" : "23164815",
+            "count" : 20
+          }, {
+            "item" : "70374461",
+            "count" : 19
+          }, {
+            "item" : "281130247",
+            "count" : 18
+          }, {
+            "item" : "58656978",
+            "count" : 17
+          }, {
+            "item" : "12761100471",
+            "count" : 16
+          }, {
+            "item" : "50978295",
+            "count" : 15
+          }, {
+            "item" : "224841268",
+            "count" : 14
+          }, {
+            "item" : "2382408789",
+            "count" : 13
+          }, {
+            "item" : "16455458",
+            "count" : 12
+          }, {
+            "item" : "142354589",
+            "count" : 11
+          }, {
+            "item" : "151502610",
+            "count" : 10
+          }, {
+            "item" : "9987600111",
+            "count" : 9
+          }, {
+            "item" : "2559106957",
+            "count" : 8
+          }, {
+            "item" : "230544257",
+            "count" : 7
+          }, {
+            "item" : "1334830847",
+            "count" : 6
+          }, {
+            "item" : "232733169",
+            "count" : 5
+          }, {
+            "item" : "245940479",
+            "count" : 4
+          }, {
+            "item" : "140291161",
+            "count" : 3
+          }, {
+            "item" : "136896342",
+            "count" : 2
+          }, {
+            "item" : "298815610",
+            "count" : 1
+          } ],
+          "smallest" : "42207",
+          "sum" : "86104811210"
+        },
+        "format" : { }
+      }, {
+        "id" : 150257193,
+        "name" : "CAPITAL & SURPLUS",
+        "dataTypeName" : "number",
+        "fieldName" : "capital_surplus",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19973768,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 71,
+          "average" : "766218537.0704225",
+          "largest" : "13012537573",
+          "null" : 2,
+          "top" : [ {
+            "item" : "39529330",
+            "count" : 20
+          }, {
+            "item" : "131244420",
+            "count" : 19
+          }, {
+            "item" : "254267988",
+            "count" : 18
+          }, {
+            "item" : "46032655",
+            "count" : 17
+          }, {
+            "item" : "6000663680",
+            "count" : 16
+          }, {
+            "item" : "25433572",
+            "count" : 15
+          }, {
+            "item" : "129021830",
+            "count" : 14
+          }, {
+            "item" : "1057756337",
+            "count" : 13
+          }, {
+            "item" : "14261133",
+            "count" : 12
+          }, {
+            "item" : "58514637",
+            "count" : 11
+          }, {
+            "item" : "66119799",
+            "count" : 10
+          }, {
+            "item" : "5149517534",
+            "count" : 9
+          }, {
+            "item" : "1780451821",
+            "count" : 8
+          }, {
+            "item" : "88388753",
+            "count" : 7
+          }, {
+            "item" : "506552250",
+            "count" : 6
+          }, {
+            "item" : "88961084",
+            "count" : 5
+          }, {
+            "item" : "87401004",
+            "count" : 4
+          }, {
+            "item" : "58972959",
+            "count" : 3
+          }, {
+            "item" : "61167015",
+            "count" : 2
+          }, {
+            "item" : "113459316",
+            "count" : 1
+          } ],
+          "smallest" : "4222563",
+          "sum" : "54401516132"
+        },
+        "format" : { }
+      }, {
+        "id" : 150257194,
+        "name" : "DIRECT WRITTEN PREMIUMS",
+        "dataTypeName" : "money",
+        "fieldName" : "direct_written_premiums",
+        "position" : 8,
+        "renderTypeName" : "money",
+        "tableColumnId" : 19973769,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 71,
+          "average" : "17090892.54929577",
+          "largest" : "196990701",
+          "null" : 2,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "50013513",
+            "count" : 19
+          }, {
+            "item" : "15942340",
+            "count" : 18
+          }, {
+            "item" : "34104272",
+            "count" : 17
+          }, {
+            "item" : "50048004",
+            "count" : 16
+          }, {
+            "item" : "48383599",
+            "count" : 15
+          }, {
+            "item" : "2275958",
+            "count" : 14
+          } ],
+          "smallest" : "-3411",
+          "sum" : "1213453371"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Database License",
+        "termsLink" : "http://opendatacommons.org/licenses/odbl/1.0/"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "cvy9-n6sb",
+        "displayName" : "Tyler Kleykamp",
+        "lastNotificationSeenAt" : 1502911331,
+        "roleName" : "administrator",
+        "screenName" : "Tyler Kleykamp",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "cvy9-n6sb",
+        "displayName" : "Tyler Kleykamp",
+        "lastNotificationSeenAt" : 1502911331,
+        "roleName" : "administrator",
+        "screenName" : "Tyler Kleykamp",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "insurance", "companies" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "315A83DD-CE5F-4E21-8754-312FCFE72F82", 1, 1401264440, "875279", 1401264440, "875279", "{\n}", "3416", "15610", "AXIS Specialty Ins Co", "93558717", "28641254", "64917463", "0" ]
+, [ 2, "987FED77-B1EA-4DE5-ADD6-9510C15D7216", 2, 1401264440, "875279", 1401264440, "875279", "{\n}", "1", "36153", "Aetna Ins Co of CT", "22370829", "7335774", "15035055", "1189660" ]
+, [ 3, "B5791DA1-359D-46DA-961E-F95E97657025", 3, 1401264440, "875279", 1401264440, "875279", "{\n}", "4636", "10829", "Alterra Reins USA Inc", "1299208139", "627581314", "671626825", "0" ]
+, [ 4, "25CB6239-391D-4ECC-BD43-4754BAF7440F", 4, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "10819", "American Equity Specialty Ins Co", "76280480", "48352435", "27928045", "0" ]
+, [ 5, "A59D403D-3CA9-4235-8200-5671AE29B3F3", 5, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "19062", "Automobile Ins Co Of Hartford CT", "983096013", "687983164", "295112849", "12172530" ]
+, [ 6, "6A29D055-6BE5-42B2-B1F6-CF5CFB8F4DAA", 6, 1401264440, "875279", 1401264440, "875279", "{\n}", null, "37540", "Beazley Ins Co Inc", "237009995", "117628525", "119381470", "3406856" ]
+, [ 7, "917E6BD5-C4C3-4895-AAC7-A45E6D77E19B", 7, 1401264440, "875279", 1401264440, "875279", "{\n}", null, "11171", "CBIA Comp Serv Inc", "20677206", "16206691", "4470515", "5171682" ]
+, [ 8, "4F16A59C-2EF8-4C04-8C29-20460539217C", 8, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25615", "Charter Oak Fire Ins Co", "918495654", "686324572", "232171082", "33937625" ]
+, [ 9, "CD6E1058-1A55-494D-8B9B-FE7ABF8A222A", 9, 1401264440, "875279", 1401264440, "875279", "{\n}", "158", "10019", "Clearwater Select Ins Co", "118599401", "7325571", "111273830", "0" ]
+, [ 10, "8D08107A-77E2-4DE9-9A1B-8563FF259122", 10, 1401264440, "875279", 1401264440, "875279", "{\n}", "4770", "15890", "Connecticut Medical Ins Co", "440773044", "197024702", "243748342", "28142266" ]
+, [ 11, "286CF041-188B-4FE4-A7BE-B4FA4A0F65BC", 11, 1401264440, "875279", 1401264440, "875279", "{\n}", "586", "10062", "Covenant Ins Co", "79333656", "55887359", "23446297", "40793817" ]
+, [ 12, "2016B1DB-7AB6-4DF5-A1CC-69F58FBD468E", 12, 1401264440, "875279", 1401264440, "875279", "{\n}", "38", "44792", "Executive Risk Speciality Ins Co", "254071789", "126141752", "127930037", "5384433" ]
+, [ 13, "7BB0DBD3-560A-4EC2-B0CB-38E7123B0756", 13, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "41483", "Farmington Cas Co", "1002985303", "733742651", "269242652", "12564703" ]
+, [ 14, "BD0EF72F-6D31-4E48-9E6D-D3B20F0109B7", 14, 1401264440, "875279", 1401264440, "875279", "{\n}", "31", "39136", "Finial Reins Co", "1203006328", "486715886", "716290442", "0" ]
+, [ 15, "D4D8521E-AF76-45D6-B244-38ED25E8A5B4", 15, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "21822", "First State Ins Co", "516824107", "486750341", "30073766", "0" ]
+, [ 16, "78987E1E-FA85-4589-85A6-D365653C59B5", 16, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "29930", "First Trenton Ind Co", "836702784", "560614229", "276088555", "0" ]
+, [ 17, "9617CBED-1612-4CE6-A2DE-4B93C544C2D9", 17, 1401264440, "875279", 1401264440, "875279", "{\n}", "31", "38962", "Genesis Ins Co", "189749161", "54581241", "135167920", "5373" ]
+, [ 18, "0D03D52F-9531-4C7E-A256-9781510B218C", 18, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "42811", "Gulf Underwriters Ins Co", "48398502", "1976321", "46422182", "0" ]
+, [ 19, "519A0D97-D995-437E-A9AF-12E9815F385D", 19, 1401264440, "875279", 1401264440, "875279", "{\n}", "361", "14438", "HSB Specialty Ins Co", "50029596", "42207", "49987389", "0" ]
+, [ 20, "37CEB9FB-168A-4056-A107-5CD26F499677", 20, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "22357", "Hartford Accident & Ind Co", "11063287312", "7955733014", "3107554297", "21939028" ]
+, [ 21, "FB0F2536-63BA-4764-8DBA-A85C203E7952", 21, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "19682", "Hartford Fire In Co", "24620337797", "11607800224", "13012537573", "47953376" ]
+, [ 22, "8C33FDE8-ED56-4AF0-B48A-BAD678352821", 22, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "38261", "Hartford Ins Co Of The Southeast", "171617965", "117184591", "54433374", "3497487" ]
+, [ 23, "A50CDE7D-D587-44B8-8403-ADE9584FFC9F", 23, 1401264440, "875279", 1401264440, "875279", "{\n}", "361", "11452", "Hartford Steam Boil Inspec & Ins Co", "1353891212", "704672194", "649219018", "868700" ]
+, [ 24, "0B89F19B-52C5-48B3-AFFD-166084FBC964", 24, 1401264440, "875279", 1401264440, "875279", "{\n}", "361", "29890", "Hartford Steam Boil Inspec Ins Co CT", "97518214", "49312363", "48205851", "1887" ]
+, [ 25, "34DF36BF-E223-4F93-BAB7-8DA9A9AF129B", 25, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "30104", "Hartford Underwriters Ins Co", "1558032772", "943768335", "614264437", "44022526" ]
+, [ 26, "185B1382-C4B7-4AF3-A4B7-A847717B3BE3", 26, 1401264440, "875279", 1401264440, "875279", "{\n}", "501", "17221", "Homesite Ins Co", "217409976", "155258039", "62151937", "23446353" ]
+, [ 27, "A28137A5-68A0-4FB1-8689-5F0DCBA98E9A", 27, 1401264440, "875279", 1401264440, "875279", "{\n}", "175", "32085", "Litchfield Mut Fire Ins Co", "7127405", "2904842", "4222563", "2941155" ]
+, [ 28, "A62DB9D3-ED12-4356-9EE7-17EFC3F26FDA", 28, 1401264440, "875279", 1401264440, "875279", "{\n}", "50", "14532", "Middlesex Mut Assur Co", "271825623", "167187891", "104637732", "126793493" ]
+, [ 29, "3D8F9D44-6B1F-4C4F-B818-0D1A655A99E2", 29, 1401264440, "875279", 1401264440, "875279", "{\n}", "31", "20052", "National Liab & Fire Ins Co", "1419008623", "704540732", "714467891", "2637301" ]
+, [ 30, "4E382F88-45F2-4E6C-88A1-169C230C6275", 30, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "21830", "New England Ins Co", "53024397", "7391722", "45632675", "0" ]
+, [ 31, "53F83062-64C1-4A9D-A01D-0FF7BEDA8CB1", 31, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "41629", "New England Reins Corp", "53485717", "6357131", "47128587", "0" ]
+, [ 32, "80A1BFBE-58A5-4251-BD85-1FC5CAB5B3CC", 32, 1401264440, "875279", 1401264440, "875279", "{\n}", "787", "14826", "New London Cnty Mut Ins Co", "120758572", "62587886", "58170687", "34552072" ]
+, [ 33, "AD0E4DE0-4A60-47A5-BDD4-6F82D744958A", 33, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "24031", "Northland Cas Co", "102448996", "69807712", "32641284", "0" ]
+, [ 34, "5A4AAB1C-B2DD-49F2-A4B7-0FAB462D921B", 34, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "24015", "Northland Ins Co", "1150634059", "626012721", "524621339", "1576974" ]
+, [ 35, "E00C73F0-7600-4D8D-9DD8-DEE26423C2D8", 35, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "39608", "Nutmeg Ins Co", "392009309", "164133843", "227875465", "0" ]
+, [ 36, "E66E7006-AFE5-431E-8019-D69F78BB4404", 36, 1401264440, "875279", 1401264440, "875279", "{\n}", "158", "23680", "Odyssey Reins Co", "8171574189", "5016783227", "3154790962", "0" ]
+, [ 37, "33C641BF-0B76-4B5E-BD23-708E2266A609", 37, 1401264440, "875279", 1401264440, "875279", "{\n}", "4753", "29807", "PXRE Reins Co", "106967653", "73305067", "33662585", "0" ]
+, [ 38, "F92885CD-7913-4919-8C26-847B5899FE6A", 38, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "10046", "Pacific Ins Co Ltd", "618716891", "398515670", "220201221", "14584713" ]
+, [ 39, "A94C160D-B72A-4136-B367-463CEC93DF4B", 39, 1401264440, "875279", 1401264440, "875279", "{\n}", "175", "14923", "Patrons Mut Ins Co Of Ct", "41673856", "25083777", "16590079", "55595480" ]
+, [ 40, "1452F870-0F51-4D2E-9EDE-D4C812FE7197", 40, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25623", "Phoenix Ins Co", "3860080572", "2469433674", "1390646898", "18723374" ]
+, [ 41, "3F810724-71C5-48A9-8699-7782BEB0BC6A", 41, 1401264440, "875279", 1401264440, "875279", "{\n}", "4071", "23132", "RVI Natl Ins Co", "14945384", "74897", "14870487", "0" ]
+, [ 42, "224F11D7-DFEE-405D-ABA3-73EA2FF9F958", 42, 1401264440, "875279", 1401264440, "875279", "{\n}", "4071", "10344", "Rvi Amer Ins Co", "62694145", "23164815", "39529330", "1222955" ]
+, [ 43, "E4DD2ECC-1E5F-4A1F-A58D-B6681B9BFC5B", 43, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "11000", "Sentinel Ins Co Ltd", "201618882", "70374461", "131244420", "52781669" ]
+, [ 44, "CC82FF18-D7B7-4691-A62A-1BA856DB45D2", 44, 1401264440, "875279", 1401264440, "875279", "{\n}", "4702", "20613", "Sparta Ins Co", "535398235", "281130247", "254267988", "7719506" ]
+, [ 45, "08409523-8193-4EEE-BF3A-028C78809E2F", 45, 1401264440, "875279", 1401264440, "875279", "{\n}", "4702", "13815", "Sparta Specialty Ins Co", "104689633", "58656978", "46032655", "0" ]
+, [ 46, "C4878862-5B2A-41DB-9F14-5640D54E782A", 46, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "24767", "St Paul Fire & Marine Ins Co", "18761764152", "12761100471", "6000663680", "8434033" ]
+, [ 47, "3D3D6E8E-E370-41D9-B785-EDD0B2A8807A", 47, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "24775", "St Paul Guardian Ins Co", "76411867", "50978295", "25433572", "72709" ]
+, [ 48, "06637CE3-658A-4820-9D26-79A59A9DA6CF", 48, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "24791", "St Paul Mercury Ins Co", "353863098", "224841268", "129021830", "6027848" ]
+, [ 49, "EB212485-E162-47B3-8F5A-77C777136D96", 49, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "19070", "Standard Fire Ins Co", "3440165126", "2382408789", "1057756337", "86351941" ]
+, [ 50, "93622702-DD2C-49A5-8812-1D3061F1EB40", 50, 1401264440, "875279", 1401264440, "875279", "{\n}", "787", "37354", "Thames Ins Co Inc", "30716591", "16455458", "14261133", "0" ]
+, [ 51, "686DCAA2-DE78-446B-903B-1F15069FC47E", 51, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "41769", "The Travelers Cas Co", "200869226", "142354589", "58514637", "0" ]
+, [ 52, "3D312749-4ED3-486A-B24C-B6CCA14EAE5A", 52, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "28188", "Travco Ins Co", "217622410", "151502610", "66119799", "13509" ]
+, [ 53, "F5643030-5691-4F7D-89A4-22F18F43CB86", 53, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "19038", "Travelers Cas & Surety Co", "15137117645", "9987600111", "5149517534", "12945373" ]
+, [ 54, "C0A40848-B87D-4ABD-96A8-4867788E6424", 54, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "31194", "Travelers Cas & Surety Co Of Amer", "4339558778", "2559106957", "1780451821", "35143553" ]
+, [ 55, "D9FB2605-F1AC-4819-8F7A-05516312FD48", 55, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "36170", "Travelers Cas Co Of CT", "318933010", "230544257", "88388753", "-80" ]
+, [ 56, "1B50F5AB-7249-4CDB-9CFC-F68A3111A827", 56, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "19046", "Travelers Cas Ins Co Of Amer", "1841383098", "1334830847", "506552250", "23442698" ]
+, [ 57, "9237B088-611B-4490-8634-1A030C630528", 57, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "40282", "Travelers Commercial Cas Co", "321694253", "232733169", "88961084", "0" ]
+, [ 58, "4A21EA03-226D-45A8-B7A9-4AB07BB9C8D8", 58, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "36137", "Travelers Commercial Ins Co", "333341483", "245940479", "87401004", "-3411" ]
+, [ 59, "5DE91D34-DE39-4E28-9225-ED7D4025D329", 59, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "41750", "Travelers Constitution State Ins Co", "199264120", "140291161", "58972959", "0" ]
+, [ 60, "209228B0-5A4F-43BE-8404-6850CC004EF6", 60, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "29696", "Travelers Excess & Surplus Lines Co", "198063357", "136896342", "61167015", "0" ]
+, [ 61, "D8BC2628-BBB0-4805-9586-79B10D0B7989", 61, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "27998", "Travelers Home & Marine Ins Co", "412274926", "298815610", "113459316", "196990701" ]
+, [ 62, "1A18337F-2F42-4B6A-BB19-9E4070832810", 62, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25658", "Travelers Ind Co", "21295148223", "14175862147", "7119286075", "39639817" ]
+, [ 63, "22A33410-7FA6-454C-A3CE-A0963780B40A", 63, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25666", "Travelers Ind Co Of Amer", "638950805", "458215582", "180735223", "50013513" ]
+, [ 64, "7AD8B31B-0151-4ECD-B54F-47949C5F296F", 64, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25682", "Travelers Ind Co Of CT", "1065153399", "715028110", "350125289", "15942340" ]
+, [ 65, "7A18C068-911C-46CC-9E44-BC0B31A0C0C5", 65, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "38130", "Travelers Personal Ins Co", "192366830", "131488740", "60878090", "0" ]
+, [ 66, "D1A6E2B7-E7D7-449F-BBBA-F4C0AFE2B08A", 66, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "36145", "Travelers Personal Security Ins Co", "201354390", "138013728", "63340662", "34104272" ]
+, [ 67, "45F57C70-3598-4097-B9A1-1DEAF2DE82D1", 67, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25674", "Travelers Prop Cas Co Of Amer", "841745403", "391666450", "450078953", "50048004" ]
+, [ 68, "75CD3B22-80B7-42E9-98D2-3C377DE9AD95", 68, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "36161", "Travelers Prop Cas Ins Co", "224134374", "157503880", "66630494", "0" ]
+, [ 69, "9EB19D50-7D5C-46D7-8C3C-974CFE85370A", 69, 1401264440, "875279", 1401264440, "875279", "{\n}", "1314", "34894", "Trenwick Amer Reins Corp", "94723430", "59622916", "35100514", "0" ]
+, [ 70, "A7FF3116-DC49-47EA-A92E-183CAD04EBA3", 70, 1401264440, "875279", 1401264440, "875279", "{\n}", "91", "27120", "Trumbull Ins Co", "210543586", "119229101", "91314485", "48383599" ]
+, [ 71, "766D204D-9081-4365-8F53-19DF6610DD1D", 71, 1401264440, "875279", 1401264440, "875279", "{\n}", "3548", "25887", "United States Fidelity & Guar Co", "4797215673", "2169748101", "2627467572", "2275958" ]
+, [ 72, "9DDF98AD-DAEE-4FF9-A920-B6F6E2E564F7", 72, 1401264440, "875279", 1401264440, "875279", "{\n  \"invalidCells\" : {\n    \"19973763\" : \"ASSETS, LIABILITIES, CAPITAL AND SURPLUS, AND DIRECT WRITTEN PREMIUMS IN CONNECTICUT FOR 2012\"\n  }\n}", null, null, null, null, null, null, null ]
+, [ 73, "5AD180BE-2D29-45C4-B857-0A4262D6F206", 73, 1401264440, "875279", 1401264440, "875279", "{\n  \"invalidCells\" : {\n    \"19973763\" : \"DOMESTIC PROPERTY AND CASUALTY INSURERS\"\n  }\n}", null, null, null, null, null, null, null ]
+ ]
+}

@@ -1,0 +1,1045 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "hc8x-tcnd",
+      "name" : "FDNY Firehouse Listing",
+      "attribution" : "Fire Department of New York City (FDNY)",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1311984656,
+      "description" : "Listing of all NYC fire houses with addresses",
+      "displayType" : "table",
+      "downloadCount" : 4084,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1505586855,
+      "newBackend" : false,
+      "numberOfComments" : 1,
+      "oid" : 26812014,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1505586836,
+      "publicationGroup" : 239012,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1505586808,
+      "rowsUpdatedBy" : "d5dp-fses",
+      "tableId" : 14467620,
+      "totalTimesRated" : 0,
+      "viewCount" : 16544,
+      "viewLastModified" : 1505586836,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 320495312,
+        "name" : "FacilityName",
+        "dataTypeName" : "text",
+        "fieldName" : "facilityname",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1503108,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "Squad 61/Battalion 20",
+          "non_null" : 218,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Engine 157/Ladder 80",
+            "count" : 20
+          }, {
+            "item" : "Engine 158",
+            "count" : 19
+          }, {
+            "item" : "Engine 166/Ladder 86",
+            "count" : 18
+          }, {
+            "item" : "Engine 154/District Office 8/ Staten Island Borough Command",
+            "count" : 17
+          }, {
+            "item" : "Engine 152/Battalion 21",
+            "count" : 16
+          }, {
+            "item" : "Engine 161/Ladder 81",
+            "count" : 15
+          }, {
+            "item" : "Engine 160/Rescue 5/Division 8",
+            "count" : 14
+          }, {
+            "item" : "Engine 159",
+            "count" : 13
+          }, {
+            "item" : "Engine 162/Ladder 82/Battalion 23",
+            "count" : 12
+          }, {
+            "item" : "Engine 167/Ladder 87",
+            "count" : 11
+          }, {
+            "item" : "Engine 164/Ladder 84",
+            "count" : 10
+          }, {
+            "item" : "Engine 168/EMS Station 23",
+            "count" : 9
+          }, {
+            "item" : "Engine 151/Ladder 76",
+            "count" : 8
+          } ],
+          "smallest" : "Bronx Borough Command, District Office 6 & 7 "
+        },
+        "format" : { }
+      }, {
+        "id" : 320495313,
+        "name" : "FacilityAddress",
+        "dataTypeName" : "text",
+        "fieldName" : "facilityaddress",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1503109,
+        "width" : 280,
+        "cachedContents" : {
+          "largest" : "Saint George Ferry Terminal",
+          "non_null" : 218,
+          "null" : 0,
+          "top" : [ {
+            "item" : "1573 Castleton Avenue",
+            "count" : 20
+          }, {
+            "item" : "65 Harbor Road",
+            "count" : 19
+          }, {
+            "item" : "1400 Richmond Avenue",
+            "count" : 18
+          }, {
+            "item" : "3730 Victory Boulevard",
+            "count" : 17
+          }, {
+            "item" : "256 Hylan Boulevard",
+            "count" : 16
+          }, {
+            "item" : "278 Mc Clean Avenue",
+            "count" : 15
+          }, {
+            "item" : "1850 Clove Road",
+            "count" : 14
+          }, {
+            "item" : "1592 Richmond Road",
+            "count" : 13
+          }, {
+            "item" : "256 Nelson Avenue",
+            "count" : 12
+          }, {
+            "item" : "345 Annadale Road",
+            "count" : 11
+          }, {
+            "item" : "1560 Drumgoole Road West",
+            "count" : 10
+          }, {
+            "item" : "1100 Rossville Avenue",
+            "count" : 9
+          }, {
+            "item" : "7219 Amboy Road",
+            "count" : 8
+          } ],
+          "smallest" : "100-104 Duane Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495314,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "fieldName" : "borough",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1503110,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Staten Island",
+          "non_null" : 218,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Manhattan",
+            "count" : 20
+          }, {
+            "item" : "Bronx",
+            "count" : 19
+          }, {
+            "item" : "Brooklyn",
+            "count" : 18
+          }, {
+            "item" : "Queens",
+            "count" : 17
+          }, {
+            "item" : "Staten Island",
+            "count" : 16
+          } ],
+          "smallest" : "Bronx"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495528,
+        "name" : "Postcode",
+        "dataTypeName" : "number",
+        "fieldName" : "postcode",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53386642,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "11695",
+          "non_null" : 213,
+          "average" : "10783.77464788732",
+          "null" : 5,
+          "top" : [ {
+            "item" : "10457",
+            "count" : 20
+          }, {
+            "item" : "11221",
+            "count" : 19
+          }, {
+            "item" : "11205",
+            "count" : 18
+          }, {
+            "item" : "11211",
+            "count" : 17
+          }, {
+            "item" : "11207",
+            "count" : 16
+          }, {
+            "item" : "11377",
+            "count" : 15
+          }, {
+            "item" : "11101",
+            "count" : 14
+          }, {
+            "item" : "11368",
+            "count" : 13
+          }, {
+            "item" : "11385",
+            "count" : 12
+          }, {
+            "item" : "11417",
+            "count" : 11
+          }, {
+            "item" : "11418",
+            "count" : 10
+          }, {
+            "item" : "11419",
+            "count" : 9
+          }, {
+            "item" : "11432",
+            "count" : 8
+          }, {
+            "item" : "11435",
+            "count" : 7
+          }, {
+            "item" : "11433",
+            "count" : 6
+          }, {
+            "item" : "11423",
+            "count" : 5
+          }, {
+            "item" : "11429",
+            "count" : 4
+          }, {
+            "item" : "11436",
+            "count" : 3
+          }, {
+            "item" : "11412",
+            "count" : 2
+          }, {
+            "item" : "11413",
+            "count" : 1
+          } ],
+          "smallest" : "10001",
+          "sum" : "2296944"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 320495315,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285468,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "40.892803",
+          "non_null" : 213,
+          "average" : "40.71912543661972",
+          "null" : 5,
+          "top" : [ {
+            "item" : "40.596826",
+            "count" : 20
+          }, {
+            "item" : "40.607485",
+            "count" : 19
+          }, {
+            "item" : "40.590935",
+            "count" : 18
+          }, {
+            "item" : "40.543205",
+            "count" : 17
+          }, {
+            "item" : "40.554174",
+            "count" : 16
+          }, {
+            "item" : "40.535332",
+            "count" : 15
+          }, {
+            "item" : "40.553977",
+            "count" : 14
+          }, {
+            "item" : "40.512518",
+            "count" : 13
+          } ],
+          "smallest" : "40.512518",
+          "sum" : "8673.173718"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495316,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285469,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "-73.716559",
+          "non_null" : 213,
+          "average" : "-73.93744015962441",
+          "null" : 5,
+          "top" : [ {
+            "item" : "-74.070138",
+            "count" : 20
+          }, {
+            "item" : "-74.089111",
+            "count" : 19
+          }, {
+            "item" : "-74.100895",
+            "count" : 18
+          }, {
+            "item" : "-74.147097",
+            "count" : 17
+          }, {
+            "item" : "-74.175809",
+            "count" : 16
+          }, {
+            "item" : "-74.195611",
+            "count" : 15
+          }, {
+            "item" : "-74.212812",
+            "count" : 14
+          }, {
+            "item" : "-74.238822",
+            "count" : 13
+          } ],
+          "smallest" : "-74.238822",
+          "sum" : "-15748.674754"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495317,
+        "name" : "Community Board",
+        "dataTypeName" : "number",
+        "fieldName" : "community_board",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285470,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "84",
+          "non_null" : 213,
+          "average" : "7.075117370892019",
+          "null" : 5,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "3",
+            "count" : 19
+          }, {
+            "item" : "2",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "5",
+            "count" : 16
+          }, {
+            "item" : "6",
+            "count" : 15
+          }, {
+            "item" : "7",
+            "count" : 14
+          }, {
+            "item" : "8",
+            "count" : 13
+          }, {
+            "item" : "11",
+            "count" : 12
+          }, {
+            "item" : "9",
+            "count" : 11
+          }, {
+            "item" : "10",
+            "count" : 10
+          }, {
+            "item" : "12",
+            "count" : 9
+          }, {
+            "item" : "16",
+            "count" : 8
+          }, {
+            "item" : "17",
+            "count" : 7
+          }, {
+            "item" : "14",
+            "count" : 6
+          }, {
+            "item" : "15",
+            "count" : 5
+          }, {
+            "item" : "13",
+            "count" : 4
+          }, {
+            "item" : "18",
+            "count" : 3
+          }, {
+            "item" : "84",
+            "count" : 2
+          } ],
+          "smallest" : "1",
+          "sum" : "1507"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495318,
+        "name" : "Community Council ",
+        "dataTypeName" : "number",
+        "fieldName" : "community_council",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285471,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "51",
+          "non_null" : 213,
+          "average" : "25.62910798122066",
+          "null" : 5,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "8",
+            "count" : 16
+          }, {
+            "item" : "7",
+            "count" : 15
+          }, {
+            "item" : "17",
+            "count" : 14
+          }, {
+            "item" : "16",
+            "count" : 13
+          }, {
+            "item" : "15",
+            "count" : 12
+          }, {
+            "item" : "13",
+            "count" : 11
+          }, {
+            "item" : "12",
+            "count" : 10
+          }, {
+            "item" : "33",
+            "count" : 9
+          }, {
+            "item" : "38",
+            "count" : 8
+          }, {
+            "item" : "39",
+            "count" : 7
+          }, {
+            "item" : "36",
+            "count" : 6
+          }, {
+            "item" : "41",
+            "count" : 5
+          }, {
+            "item" : "37",
+            "count" : 4
+          }, {
+            "item" : "34",
+            "count" : 3
+          }, {
+            "item" : "47",
+            "count" : 2
+          }, {
+            "item" : "26",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "5459"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495319,
+        "name" : "Census Tract",
+        "dataTypeName" : "number",
+        "fieldName" : "census_tract",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285472,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "157902",
+          "non_null" : 213,
+          "average" : "5949.535211267606",
+          "null" : 5,
+          "top" : [ {
+            "item" : "8",
+            "count" : 20
+          }, {
+            "item" : "50",
+            "count" : 19
+          }, {
+            "item" : "9602",
+            "count" : 18
+          }, {
+            "item" : "15601",
+            "count" : 17
+          }, {
+            "item" : "17012",
+            "count" : 16
+          }, {
+            "item" : "20804",
+            "count" : 15
+          }, {
+            "item" : "20801",
+            "count" : 14
+          }, {
+            "item" : "248",
+            "count" : 13
+          } ],
+          "smallest" : "1",
+          "sum" : "1267251"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495320,
+        "name" : "BIN",
+        "dataTypeName" : "number",
+        "fieldName" : "bin",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285473,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "5154879",
+          "non_null" : 213,
+          "average" : "2900421.431924883",
+          "null" : 5,
+          "top" : [ {
+            "item" : "5045654",
+            "count" : 20
+          }, {
+            "item" : "5046179",
+            "count" : 19
+          }, {
+            "item" : "5048682",
+            "count" : 18
+          }, {
+            "item" : "5067428",
+            "count" : 17
+          }, {
+            "item" : "5075428",
+            "count" : 16
+          }, {
+            "item" : "5083491",
+            "count" : 15
+          }, {
+            "item" : "5154879",
+            "count" : 14
+          }, {
+            "item" : "5089056",
+            "count" : 13
+          } ],
+          "smallest" : "1000867",
+          "sum" : "617789765"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495321,
+        "name" : "BBL",
+        "dataTypeName" : "number",
+        "fieldName" : "bbl",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53285474,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "5080400010",
+          "non_null" : 213,
+          "average" : "2849843402.971831",
+          "null" : 5,
+          "top" : [ {
+            "item" : "5031080025",
+            "count" : 20
+          }, {
+            "item" : "5031530038",
+            "count" : 19
+          }, {
+            "item" : "5033060008",
+            "count" : 18
+          }, {
+            "item" : "5052710031",
+            "count" : 17
+          }, {
+            "item" : "5056420006",
+            "count" : 16
+          }, {
+            "item" : "5068280065",
+            "count" : 15
+          }, {
+            "item" : "5070670252",
+            "count" : 14
+          }, {
+            "item" : "5080400010",
+            "count" : 13
+          } ],
+          "smallest" : "1000350001",
+          "sum" : "607016644833"
+        },
+        "format" : { }
+      }, {
+        "id" : 320495322,
+        "name" : "NTA",
+        "dataTypeName" : "text",
+        "fieldName" : "nta",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 53285475,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Woodside                                                                   ",
+          "non_null" : 213,
+          "null" : 5,
+          "top" : [ {
+            "item" : "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+            "count" : 20
+          }, {
+            "item" : "Midtown-Midtown South                                                      ",
+            "count" : 19
+          }, {
+            "item" : "Bushwick North                                                             ",
+            "count" : 18
+          }, {
+            "item" : "East New York                                                              ",
+            "count" : 17
+          }, {
+            "item" : "Flatbush                                                                   ",
+            "count" : 16
+          }, {
+            "item" : "Hunters Point-Sunnyside-West Maspeth                                       ",
+            "count" : 15
+          }, {
+            "item" : "Douglas Manor-Douglaston-Little Neck                                       ",
+            "count" : 14
+          }, {
+            "item" : "Glen Oaks-Floral Park-New Hyde Park                                        ",
+            "count" : 13
+          }, {
+            "item" : "Woodhaven                                                                  ",
+            "count" : 12
+          }, {
+            "item" : "Ozone Park                                                                 ",
+            "count" : 11
+          }, {
+            "item" : "Richmond Hill                                                              ",
+            "count" : 10
+          }, {
+            "item" : "South Ozone Park                                                           ",
+            "count" : 9
+          }, {
+            "item" : "Briarwood-Jamaica Hills                                                    ",
+            "count" : 8
+          }, {
+            "item" : "Jamaica                                                                    ",
+            "count" : 7
+          }, {
+            "item" : "South Jamaica                                                              ",
+            "count" : 6
+          }, {
+            "item" : "Hollis                                                                     ",
+            "count" : 5
+          }, {
+            "item" : "Queens Village                                                             ",
+            "count" : 4
+          }, {
+            "item" : "Baisley Park                                                               ",
+            "count" : 3
+          }, {
+            "item" : "St. Albans                                                                 ",
+            "count" : 2
+          }, {
+            "item" : "Springfield Gardens South-Brookville                                       ",
+            "count" : 1
+          } ],
+          "smallest" : "Allerton-Pelham Gardens                                                    "
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Fire Department of New York City (FDNY)"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "lastAuthenticatedAt" : 1505692825,
+        "lastNotificationSeenAt" : 1496414226,
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "lastAuthenticatedAt" : 1505692825,
+        "lastNotificationSeenAt" : 1496414226,
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "fire department", "fdny", "fd", "fires", "community board", "station", "fire station", "fire house", "emergency", "911" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "CACA4BFE-0B53-4D69-B1F6-2257512A46FB", 1, 1505586807, "994730", 1505586807, "994730", null, "Engine 4/Ladder 15", "42 South Street", "Manhattan", "10005", "40.703466", "-74.007538", "1", "1", "7", "1000867", "1000350001", "Battery Park City-Lower Manhattan                                          " ]
+, [ 2, "B1EA0854-D1B6-4625-B989-BE033C1265D7", 2, 1505586807, "994730", 1505586807, "994730", null, "Engine 10/Ladder 10", "124 Liberty Street", "Manhattan", "10006", "40.710072", "-74.012523", "1", "1", "13", "1075700", "1000520022", "Battery Park City-Lower Manhattan                                          " ]
+, [ 3, "1A7C9162-1800-4904-8EFC-2F1082C6218B", 3, 1505586807, "994730", 1505586807, "994730", null, "Engine 6", "49 Beekman Street", "Manhattan", "10038", "40.710048", "-74.005245", "1", "1", "1501", "1001287", "1000930030", "Battery Park City-Lower Manhattan                                          " ]
+, [ 4, "88ADDD28-AF12-4D56-BC30-B7FC0DE0AFF4", 4, 1505586807, "994730", 1505586807, "994730", null, "Engine 7/Ladder 1/Battalion 1/Manhattan Borough Command", "100-104 Duane Street", "Manhattan", "10007", "40.715463", "-74.005938", "1", "1", "33", "1001647", "1001500025", "SoHo-TriBeCa-Civic Center-Little Italy                                     " ]
+, [ 5, "8E16D94C-6016-4429-88E1-DB7E6FFD7A99", 5, 1505586807, "994730", 1505586807, "994730", null, "Ladder 8", "14 North Moore Street", "Manhattan", "10013", "40.719759", "-74.006678", "1", "1", "33", "1002150", "1001890035", "SoHo-TriBeCa-Civic Center-Little Italy                                     " ]
+, [ 6, "33A40A6D-028C-4EC7-AAA0-4214EC67424C", 6, 1505586807, "994730", 1505586807, "994730", null, "Engine 9/Ladder 6", "75 Canal Street", "Manhattan", "10002", "40.715213", "-73.992901", "3", "1", "16", "1003898", "1003000030", "Chinatown                                                                  " ]
+, [ 7, "D153660B-8BBD-408B-8C28-7813793B3486", 7, 1505586807, "994730", 1505586807, "994730", null, "Engine 15/Ladder 18/Battalion 4", "25 Pitt Street", "Manhattan", "10002", "40.716395", "-73.983478", "3", "1", "12", "1004078", "1003420060", "Lower East Side                                                            " ]
+, [ 8, "2C75A22D-620B-48E9-A119-A8972E881466", 8, 1505586807, "994730", 1505586807, "994730", null, "Engine 28/Ladder 11", "222 East 2nd Street", "Manhattan", "10009", "40.721682", "-73.982622", "3", "2", "2202", "1004608", "1003850058", "Lower East Side                                                            " ]
+, [ 9, "18836351-7903-4BE3-A172-F9FD1146921C", 9, 1505586807, "994730", 1505586807, "994730", null, "Engine 5", "340 East 14th Street", "Manhattan", "10003", "40.731752", "-73.983536", "3", "2", "40", "1006520", "1004550028", "East Village                                                               " ]
+, [ 10, "BB52AE03-2D2D-4888-B6FC-E1FE99864818", 10, 1505586807, "994730", 1505586807, "994730", null, "Engine 55", "363 Broome Street", "Manhattan", "10013", "40.720033", "-73.995689", "2", "1", "41", "1066722", "1004700012", "SoHo-TriBeCa-Civic Center-Little Italy                                     " ]
+, [ 11, "B97D1C07-FB15-4D9E-85DC-58F599014BF8", 11, 1505586807, "994730", 1505586807, "994730", null, "Ladder 20/Division 1", "253 Lafayette Street", "Manhattan", "10012", "40.723072", "-73.996804", "2", "1", "43", "1007523", "1004950007", "SoHo-TriBeCa-Civic Center-Little Italy                                     " ]
+, [ 12, "33A1CF1D-3403-46CB-9415-12E81EA3F893", 12, 1505586807, "994730", 1505586807, "994730", null, "Engine 24/Ladder 5/Battalion 2", "227-29 6th Avenue", "Manhattan", "10014", "40.727914", "-74.003157", "2", "3", "37", "1080044", "1005200037", "SoHo-TriBeCa-Civic Center-Little Italy                                     " ]
+, [ 13, "3FC185C9-440A-4C6E-8D0E-EBB448E0FAE8", 13, 1505586807, "994730", 1505586807, "994730", null, "Engine 33/Ladder 9", "42 Great Jones Street", "Manhattan", "10012", "40.726815", "-73.992643", "2", "1", "5502", "1008526", "1005310049", "West Village                                                               " ]
+, [ 14, "C7D50074-DA64-4006-A23F-74432CAB04EA", 14, 1505586807, "994730", 1505586807, "994730", null, "Ladder 3/Battalion 6", "108 East 13th Street", "Manhattan", "10003", "40.733329", "-73.989421", "3", "2", "42", "1009010", "1005580011", "East Village                                                               " ]
+, [ 15, "15ACE4E3-65DD-475E-AC1E-1747450C55AD", 15, 1505586807, "994730", 1505586807, "994730", null, "Squad 18", "132 West 10th Street", "Manhattan", "10014", "40.734625", "-74.000346", "2", "3", "71", "1010686", "1006100051", "West Village                                                               " ]
+, [ 16, "E9C4BCB3-8404-4BDD-A645-F759A3D1E609", 16, 1505586807, "994730", 1505586807, "994730", null, "Engine 34/Ladder 21", "440 West 38th Street", "Manhattan", "10018", "40.756635", "-73.996217", "4", "3", "111", "1012982", "1007350061", "Hudson Yards-Chelsea-Flatiron-Union Square                                 " ]
+, [ 17, "D47B2F33-484C-4607-A898-46CDA544C15E", 17, 1505586807, "994730", 1505586807, "994730", null, "Engine 26", "220 West 37th Street", "Manhattan", "10018", "40.753239", "-73.990078", "5", "3", "109", "1014447", "1007860061", "Midtown-Midtown South                                                      " ]
+, [ 18, "507FB069-F1AE-4507-B02F-F1776A58F560", 18, 1505586807, "994730", 1505586807, "994730", null, "Engine 3/Ladder 12/Battalion 7", "150 West 19th Street", "Manhattan", "10011", "40.741044", "-73.996041", "4", "3", "87", "1014724", "1007940066", "Hudson Yards-Chelsea-Flatiron-Union Square                                 " ]
+, [ 19, "A2AE26E2-ABD8-4745-9DAE-F88ED1DA1BCA", 19, 1505586807, "994730", 1505586807, "994730", null, "Engine 1/Ladder 24", "142-46 West 31st Street", "Manhattan", "10001", "40.74843", "-73.990447", "5", "3", "101", "1015173", "1008060066", "Midtown-Midtown South                                                      " ]
+, [ 20, "EC938B77-146D-48C3-8037-B93B8DBEDDC4", 20, 1505586807, "994730", 1505586807, "994730", null, "Engine 14", "14 East 18th Street", "Manhattan", "10003", "40.738143", "-73.990964", "5", "2", "52", "1016141", "1008460066", "Hudson Yards-Chelsea-Flatiron-Union Square                                 " ]
+, [ 21, "3435AC52-FE3D-4050-B0C7-73DAF717DA44", 21, 1505586807, "994730", 1505586807, "994730", null, "Engine 16 / Ladder 7 ", "234 East 29th Street", "Manhattan", "10016", "40.742209", "-73.979535", "6", "2", "66", "1019903", "1009090035", "Murray Hill-Kips Bay                                                       " ]
+, [ 22, "1362CC38-4E8D-4268-B7F1-DC34D07040DA", 22, 1505586807, "994730", 1505586807, "994730", null, "Engine 21", "238 East 40th Street", "Manhattan", "10016", "40.748845", "-73.973888", "6", "4", "88", "1020385", "1009200042", "Turtle Bay-East Midtown                                                    " ]
+, [ 23, "F5C22724-DF2D-4469-8546-D410BFA409C8", 23, 1505586807, "994730", 1505586807, "994730", null, "Engine 54/Ladder 4/Battalion 9", "782 8th Avenue", "Manhattan", "10036", "40.760792", "-73.987182", "5", "3", "125", "1024767", "1010190061", "Midtown-Midtown South                                                      " ]
+, [ 24, "50F59AE0-047E-4242-96D3-03EB4571A35C", 24, 1505586807, "994730", 1505586807, "994730", null, "Engine 23", "215 West 58th Street", "Manhattan", "10019", "40.766544", "-73.98035", "5", "4", "137", "1024915", "1010300023", "Midtown-Midtown South                                                      " ]
+, [ 25, "0EA7CE86-B168-4B94-BCCF-CE79F1DF9535", 25, 1505586807, "994730", 1505586807, "994730", null, "Rescue 1", "530 West 43rd Street", "Manhattan", "10036", "40.760892", "-73.996405", "4", "3", "129", "1070109", "1010710049", "Clinton                                                                    " ]
+, [ 26, "E79576B6-DF84-4812-A0A4-DDD83FC5B140", 26, 1505586807, "994730", 1505586807, "994730", null, "Engine 40/Ladder 35", "131 Amsterdam Avenue  ", "Manhattan", "10023", "40.774505", "-73.984619", "7", "6", "149", "1077844", "1011377501", "Lincoln Square                                                             " ]
+, [ 27, "4100BC87-5B6F-4273-B291-F7BFEB4B0339", 27, 1505586807, "994730", 1505586807, "994730", null, "Ladder 25/District Office 4/Division 3", "205-207 West 77th Street", "Manhattan", "10024", "40.781992", "-73.979627", "7", "6", "163", "1030885", "1011690026", "Upper West Side                                                            " ]
+, [ 28, "ED07A27B-529B-453F-B056-6AB0EC3C1607", 28, 1505586807, "994730", 1505586807, "994730", null, "Engine 74", "120 West 83rd Street ", "Manhattan", "10024", "40.784881", "-73.974434", "7", "6", "169", "1032079", "1012130041", "Upper West Side                                                            " ]
+, [ 29, "80C03863-14B0-4B3E-9F92-8C3D08524257", 29, 1505586807, "994730", 1505586807, "994730", null, "Engine 65", "33 West 43rd Street", "Manhattan", "10036", "40.754676", "-73.98161", "5", "4", "96", "1076256", "1012590018", "Midtown-Midtown South                                                      " ]
+, [ 30, "0B286F32-683E-44B9-B3BA-0052B8214A52", 30, 1505586807, "994730", 1505586807, "994730", null, "Engine 8 / Ladder 2 / Battalion 8", "167 East 51st Street", "Manhattan", "10022", "40.756812", "-73.971142", "6", "4", "100", "1036462", "1013060033", "Turtle Bay-East Midtown                                                    " ]
+, [ 31, "BE36768A-82AF-499F-94EA-97EE5A05AE54", 31, 1505586807, "994730", 1505586807, "994730", null, "Engine 39/Ladder 16", "157-59 East 67th Street", "Manhattan", "10065", "40.76696", "-73.963856", "8", "4", "120", "1072190", "1014020029", "Upper East Side-Carnegie Hill                                              " ]
+, [ 32, "2DBCD82E-DA1B-499D-969B-D8022A730F96", 32, 1505586807, "994730", 1505586807, "994730", null, "Engine 44", "221 East 75th Street", "Manhattan", "10021", "40.771427", "-73.958521", "8", "4", "134", "1044059", "1014300010", "Lenox Hill-Roosevelt Island                                                " ]
+, [ 33, "35CB0093-5C6D-4B28-87DA-6D66D85C3074", 33, 1505586807, "994730", 1505586807, "994730", null, "Engine 22/Ladder 13/Battalion 10", "159 East 85th Street", "Manhattan", "10028", "40.778584", "-73.955516", "8", "5", "14801", "1047937", "1015140027", "Upper East Side-Carnegie Hill                                              " ]
+, [ 34, "92124CA6-0418-417B-A4DC-2DB2F655CBC4", 34, 1505586807, "994730", 1505586807, "994730", null, "Engine 58/Ladder 26", "1367 5th Avenue", "Manhattan", "10029", "40.798873", "-73.947759", "11", "9", "184", "1080501", "1016180001", "East Harlem North                                                          " ]
+, [ 35, "C872A06B-BAC4-445E-A87D-21169350348B", 35, 1505586807, "994730", 1505586807, "994730", null, "Engine 53/Ladder 43", "1836-46 3rd  Avenue", "Manhattan", "10029", "40.788714", "-73.946774", "11", "8", "166", "1051850", "1016290040", "East Harlem South                                                          " ]
+, [ 36, "76F6C36F-0F24-4613-A07B-EF58F3990CF0", 36, 1505586807, "994730", 1505586807, "994730", null, "Engine 91", "242 East 111th Street", "Manhattan", "10029", "40.794327", "-73.941345", "11", "8", "180", "1052473", "1016600030", "East Harlem North                                                          " ]
+, [ 37, "FC29EF52-638D-4247-9F16-EBBF0C7B0B2F", 37, 1505586807, "994730", 1505586807, "994730", null, "Engine 35/Ladder 14", "2282 3rd Avenue", "Manhattan", "10035", "40.803129", "-73.936244", "11", "8", "196", "1054465", "1017730033", "East Harlem North                                                          " ]
+, [ 38, "7E4FE37D-E5AE-4FAE-AC84-94C6487FDA69", 38, 1505586807, "994730", 1505586807, "994730", null, "Engine 76/Ladder 22/Battalion 11", "145-51 West 100th Street", "Manhattan", "10025", "40.795924", "-73.966726", "7", "7", "189", "1055910", "1018550005", "Upper West Side                                                            " ]
+, [ 39, "79ED288F-9D52-426F-B534-0947DAB66C1B", 39, 1505586807, "994730", 1505586807, "994730", null, "Engine 47", "502 West 113th Street", "Manhattan", "10025", "40.805068", "-73.962929", "9", "7", "199", "1057000", "1018840039", "Morningside Heights                                                        " ]
+, [ 40, "05E7991F-92C0-4AF8-B8B9-36494034C658", 40, 1505586807, "994730", 1505586807, "994730", null, "Engine 59/Ladder 30", "111 West 133rd Street", "Manhattan", "10030", "40.813057", "-73.942358", "10", "9", "226", "1058225", "1019180024", "Central Harlem North-Polo Grounds                                          " ]
+, [ 41, "FC34D82C-8788-4AD5-99B7-FD1B97E3F79D", 41, 1505586807, "994730", 1505586807, "994730", null, "Engine 37/Ladder 40", "415 West 125th Street", "Manhattan", "10027", "40.81177", "-73.954858", "9", "7", "20901", "1059547", "1019660061", "Morningside Heights                                                        " ]
+, [ 42, "2E1874A0-74F9-4E58-9506-261DD363464A", 42, 1505586807, "994730", 1505586807, "994730", null, "Engine 69/Ladder 28/Battalion 16", "248 West 143rd Street", "Manhattan", "10030", "40.821105", "-73.941849", "10", "9", "232", "1075491", "1020280051", "Central Harlem North-Polo Grounds                                          " ]
+, [ 43, "AE8AF230-BC9F-4EAE-A1AD-1A29FC103B0C", 43, 1505586807, "994730", 1505586807, "994730", null, "Engine 80/Ladder 23", "503 West 139th Street", "Manhattan", "10031", "40.821586", "-73.950689", "9", "7", "225", "1075504", "1020710027", "Hamilton Heights                                                           " ]
+, [ 44, "34C45B7C-8BB4-4FED-B39E-62511BAB0EFD", 44, 1505586807, "994730", 1505586807, "994730", null, "Engine 84/Ladder 34", "513 West 161st Street", "Manhattan", "10032", "40.83564", "-73.940856", "12", "7", "245", "1062872", "1021200046", "Washington Heights South                                                   " ]
+, [ 45, "A84CE4BE-C3AA-4A57-B508-8B2D60D2F53E", 45, 1505586807, "994730", 1505586807, "994730", null, "Engine 67", "518 West 170th Street", "Manhattan", "10032", "40.841394", "-73.936836", "12", "10", "253", "1063024", "1021260034", "Washington Heights South                                                   " ]
+, [ 46, "EA54F2BE-9327-404E-BD04-FEE468D0E411", 46, 1505586807, "994730", 1505586807, "994730", null, "Engine 93/Ladder 45/Battalion 13", "515 West 181st Street", "Manhattan", "10033", "40.848398", "-73.931516", "12", "10", "269", "1075518", "1021550030", "Washington Heights North                                                   " ]
+, [ 47, "ACFDF165-8833-49FD-AF86-8838037F0058", 47, 1505586807, "994730", 1505586807, "994730", null, "Engine 95/Ladder 36", "29 Vermilyea Avenue", "Manhattan", "10034", "40.864975", "-73.925403", "12", "10", "291", "1064801", "1022240015", "Marble Hill-Inwood                                                         " ]
+, [ 48, "514F5A38-0AE7-4E62-99A3-211661D58128", 48, 1505586807, "994730", 1505586807, "994730", null, "Marine 1", "Little West 12th Street/Hudson River", "Manhattan", null, null, null, null, null, null, null, null, null ]
+, [ 49, "799CBEBC-8616-4E37-AE72-0D63F2E15721", 49, 1505586807, "994730", 1505586807, "994730", null, "Engine 60/Ladder 17/Battalion 14", "341 East 143rd Street", "Bronx", "10454", "40.813024", "-73.922395", "1", "8", "41", "2000656", "2023060052", "Mott Haven-Port Morris                                                     " ]
+, [ 50, "A341BA1A-6471-409B-B599-1FAE3BC86288", 50, 1505586807, "994730", 1505586807, "994730", null, "Squad 41", "330 East 150th Street", "Bronx", "10451", "40.817502", "-73.92037", "1", "17", "65", "2000930", "2023310033", "Melrose South-Mott Haven North                                             " ]
+, [ 51, "ACAAA198-9817-480B-BADC-5CA7B80FDEC0", 51, 1505586807, "994730", 1505586807, "994730", null, "Engine 71/Ladder 55/Division 6", "720 Melrose Avenue", "Bronx", "10455", "40.820422", "-73.915778", "1", "17", "69", "2001400", "2023770001", "Melrose South-Mott Haven North                                             " ]
+, [ 52, "232ED8D9-09B7-418C-940C-ABFDFCD8B3F7", 52, 1505586807, "994730", 1505586807, "994730", null, "Engine 50/Ladder 19", "1155 Washington Avenue", "Bronx", "10456", "40.829652", "-73.907831", "3", "16", "185", "2001584", "2023880045", "Morrisania-Melrose                                                         " ]
+, [ 53, "E0E7767F-564B-48CC-A02E-47460D5D0492", 53, 1505586807, "994730", 1505586807, "994730", null, "Engine 92/Ladder 44/Battalion 17", "1259 Morris Avenue", "Bronx", "10456", "40.834627", "-73.91331", "4", "16", "17901", "2096490", "2024500040", "East Concourse-Concourse Village                                           " ]
+, [ 54, "E26F2675-7C23-4844-8860-CD4594B3CA5B", 54, 1505586807, "994730", 1505586807, "994730", null, "EMS Station 17 ", "1080 Ogden Avenue", "Bronx", "10452", "40.835037", "-73.928176", "4", "8", "193", "2003255", "2025140009", "Highbridge                                                                 " ]
+, [ 55, "0A08F0D2-D687-4814-B167-30BEE77EF2A2", 55, 1505586807, "994730", 1505586807, "994730", null, "Engine 68/Ladder 49", "1160 Ogden Avenue ", "Bronx", "10452", "40.836711", "-73.927231", "4", "16", "199", "2003268", "2025140056", "Highbridge                                                                 " ]
+, [ 56, "1E39CFE4-E7FB-405E-ACA8-131D1B6AEA04", 56, 1505586807, "994730", 1505586807, "994730", null, "EMS Station 26", "1264 Boston Road", "Bronx", "10456", "40.830637", "-73.900986", "3", "17", "151", "2004749", "2026630022", "Morrisania-Melrose                                                         " ]
+, [ 57, "C835ACA9-8C30-443F-B5C5-D20D2C04EA2A", 57, 1505586807, "994730", 1505586807, "994730", null, "Engine 73/Ladder 42/Battalion 26", "655 Prospect Avenue", "Bronx", "10455", "40.815233", "-73.903418", "1", "17", "79", "2094318", "2026750033", "Melrose South-Mott Haven North                                             " ]
+, [ 58, "5267B92A-235E-4CEB-B1A6-43C89D022FED", 58, 1505586807, "994730", 1505586807, "994730", null, "Engine 94/Ladder 48/Battalion 3", "1226 Seneca Avenue", "Bronx", "10474", "40.818659", "-73.888853", "2", "17", "11502", "2006440", "2027620054", "Hunts Point                                                                " ]
+, [ 59, "35632AA2-765F-4FFE-B3D3-2DB0FA521465", 59, 1505586807, "994730", 1505586807, "994730", null, "Engine 42", "1781 Monroe Avenue", "Bronx", "10457", "40.846283", "-73.906532", "5", "15", "22901", "2007448", "2027970035", "Mount Hope                                                                 " ]
+, [ 60, "6C916130-BA03-42B0-8CF4-F5BE07AAB96F", 60, 1505586807, "994730", 1505586807, "994730", null, "Engine 43/Ladder 59", "1901 Sedgwick Avenue", "Bronx", "10453", "40.854413", "-73.917148", "5", "16", "247", "2009252", "2028810140", "University Heights-Morris Heights                                          " ]
+, [ 61, "D25A4BB7-164C-4751-AD44-BC74DE608113", 61, 1505586807, "994730", 1505586807, "994730", null, "Rescue 3", "1655 Washington Avenue", "Bronx", "10457", "40.841012", "-73.901458", "3", "16", "167", "2117925", "2029050030", "Claremont-Bathgate                                                         " ]
+, [ 62, "7752BBA5-CFDF-411D-B95A-480C157AFBFC", 62, 1505586807, "994730", 1505586807, "994730", null, "Engine 46, Ladder 27", "460 Cross Bronx Expressway", "Bronx", "10457", "40.844121", "-73.900366", "6", "15", "165", "2009509", "2029070010", "Claremont-Bathgate                                                         " ]
+, [ 63, "D50BC577-D6CF-48F8-A4CC-62E498DE0AEB", 63, 1505586807, "994730", 1505586807, "994730", null, "Bronx Borough Command, District Office 6 & 7 ", "451 East 176th Street", "Bronx", "10457", "40.84622", "-73.899437", "6", "15", "395", "2009541", "2029090040", "Claremont-Bathgate                                                         " ]
+, [ 64, "6D43C027-230F-4242-A9DF-892790DF2092", 64, 1505586807, "994730", 1505586807, "994730", null, "Engine 82/Ladder 31", "1213 Intervale Avenue", "Bronx", "10459", "40.828518", "-73.894951", "3", "17", "125", "2010447", "2029730038", "Morrisania-Melrose                                                         " ]
+, [ 65, "72396C6A-3FF1-4449-9449-18FAB56D3E33", 65, 1505586807, "994730", 1505586807, "994730", null, "Engine 48/Ladder 56/Division 7", "2417 Webster Avenue", "Bronx", "10458", "40.8594", "-73.893546", "5", "15", "39902", "2011061", "2030250025", "Bedford Park-Fordham North                                                 " ]
+, [ 66, "5D14210B-624E-440F-B068-5BC66B0FCFA9", 66, 1505586807, "994730", 1505586807, "994730", null, "Engine 88/Ladder 38", "2225 Belmont Avenue", "Bronx", "10457", "40.851495", "-73.88775", "6", "15", "391", "2086781", "2030860038", "Belmont                                                                    " ]
+, [ 67, "D33CEDD7-58A6-4BDA-A79C-108579EE636F", 67, 1505586807, "994730", 1505586807, "994730", null, "Engine 45/Ladder 58/Battalion 18", "925 East Tremont Avenue", "Bronx", "10460", "40.84172", "-73.883628", "6", "17", "363", "2013192", "2031260012", "East Tremont                                                               " ]
+, [ 68, "4165F428-C057-4373-B7A7-25830241112F", 68, 1505586807, "994730", 1505586807, "994730", null, "Engine 75/Ladder 33/Battalion 19", "2175 Walton Avenue", "Bronx", "10453", "40.856116", "-73.904179", "5", "14", "239", "2118039", "2031860037", "Fordham South                                                              " ]
+, [ 69, "7AB57380-3ACE-4BC1-8E9E-45A9CCC165D8", 69, 1505586807, "994730", 1505586807, "994730", null, "Engine 81/Ladder 46", "3025 Bailey Avenue", "Bronx", "10463", "40.876728", "-73.903539", "8", "14", "277", "2000000", "2032660001", "Van Cortlandt Village                                                      " ]
+, [ 70, "57717C73-6198-4766-B378-6EE564F26262", 70, 1505586807, "994730", 1505586807, "994730", null, "Engine 79/Ladder 37/Battalion 27", "2928 Briggs Avenue", "Bronx", "10458", "40.870433", "-73.886796", "7", "11", "40702", "2016936", "2032970009", "Bedford Park-Fordham North                                                 " ]
+, [ 71, "5BC2B3C6-8038-4433-8203-8F5E765DD9EF", 71, 1505586807, "994730", 1505586807, "994730", null, "  Engine 96/Ladder 54", "1689 Story Avenue", "Bronx", "10473", "40.822794", "-73.869368", "9", "18", "46", "2022629", "2036600001", "Soundview-Castle Hill-Clason Point-Harding Park                            " ]
+, [ 72, "759F7FA2-55FB-4E10-B270-DB2C1CB8022B", 72, 1505586807, "994730", 1505586807, "994730", null, "Engine 64/Ladder 47/District Office 7", "1214 Castle Hill Avenue", "Bronx", "10462", "40.832288", "-73.851115", "9", "18", "92", "2094871", "2038210007", "Westchester-Unionport                                                      " ]
+, [ 73, "772FA72C-C051-40CF-BE9C-91783F8119EF", 73, 1505586807, "994730", 1505586807, "994730", null, "Engine 90/Ladder 41", "1843 White Plains Road", "Bronx", "10462", "40.846244", "-73.866503", "11", "15", "236", "2043470", "2040490049", "Van Nest-Morris Park-Westchester Square                                    " ]
+, [ 74, "C32A97BA-9C9E-4399-A459-F8487FDEE1EA", 74, 1505586807, "994730", 1505586807, "994730", null, "Squad 61/Battalion 20", "1518 Williamsbridge Road", "Bronx", "10461", "40.844894", "-73.846663", "11", "13", "200", "2044205", "2040820011", "Van Nest-Morris Park-Westchester Square                                    " ]
+, [ 75, "D71A29CA-DC28-4EF7-9296-F96E5908A6B8", 75, 1505586807, "994730", 1505586807, "994730", null, "Engine 97", "1454 Astor Avenue", "Bronx", "10469", "40.859597", "-73.844218", "11", "13", "314", "2050740", "2043890023", "Allerton-Pelham Gardens                                                    " ]
+, [ 76, "FF49D173-6C37-4D33-BDFB-075E456049B3", 76, 1505586807, "994730", 1505586807, "994730", null, "Engine 62/Ladder 32", "3431 White Plains Road", "Bronx", "10467", "40.876176", "-73.867003", "12", "12", "374", "2056968", "2046280053", "Williamsbridge-Olinville                                                   " ]
+, [ 77, "C88DAA9C-D5C5-41E4-B0D7-BC334FA8220C", 77, 1505586807, "994730", 1505586807, "994730", null, "Engine 38/Ladder 51", "3446 Eastchester Road", "Bronx", "10469", "40.877627", "-73.846678", "12", "12", "386", "2060238", "2047230045", "Eastchester-Edenwald-Baychester                                            " ]
+, [ 78, "036FB302-1D59-414B-BF01-BE33F0DB3BF3", 78, 1505586807, "994730", 1505586807, "994730", null, "Engine 63/Ladder 39/Battalion 15", "755 East 233rd Street", "Bronx", "10466", "40.892803", "-73.855483", "12", "12", "434", "2068155", "2049970013", "Woodlawn-Wakefield                                                         " ]
+, [ 79, "9E4FF988-6484-4EBE-AE8B-83ED3F5F1548", 79, 1505586807, "994730", 1505586807, "994730", null, "Engine 66/Ladder 61", "21 Asch Loop West", "Bronx", "10475", "40.870016", "-73.830873", "10", "12", "46201", "2072355", "2051410103", "Co-op City                                                                 " ]
+, [ 80, "1CB52A1A-8828-4900-AAC1-68DDF70F610B", 80, 1505586807, "994730", 1505586807, "994730", null, "Engine 89/Ladder 50", "2924 Bruckner Boulevard", "Bronx", "10465", "40.83332", "-73.827418", "10", "13", "164", "2076433", "2054190125", "Schuylerville-Throgs Neck-Edgewater Park                                   " ]
+, [ 81, "7C3045D3-61C8-4FBE-B2D8-085492532294", 81, 1505586807, "994730", 1505586807, "994730", null, "Engine 72", "3929 East Tremont Avenue", "Bronx", "10465", "40.821377", "-73.818597", "10", "13", "130", "2077258", "2054430170", "Schuylerville-Throgs Neck-Edgewater Park                                   " ]
+, [ 82, "217941BB-C7C6-4E1F-B5BE-0DC9D7B11263", 82, 1505586807, "994730", 1505586807, "994730", null, "Engine 70/Ladder 53", "169 Schofield Street", "Bronx", "10464", "40.845338", "-73.784737", "10", "13", "516", "2082474", "2056420118", "Pelham Bay-Country Club-City Island                                        " ]
+, [ 83, "758E96F0-AD14-4F5C-B23F-156F6BDDF9EF", 83, 1505586807, "994730", 1505586807, "994730", null, "Engine 207/Ladder 110/Battalion 31/Division 11/Brooklyn Borough Command", "172 Tillary Street", "Brooklyn", "11201", "40.695983", "-73.983159", "2", "35", "15", "3000252", "3001340006", "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill                           " ]
+, [ 84, "46403B83-0CEF-4241-88C2-0D9F57E5BDF4", 84, 1505586807, "994730", 1505586807, "994730", null, "Engine 226", "409 State Street", "Brooklyn", "11217", "40.686982", "-73.982876", "2", "33", "41", "3000562", "3001720048", "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill                           " ]
+, [ 85, "515888F1-54ED-4FB9-B1A7-FB57AE1EAC76", 85, 1505586807, "994730", 1505586807, "994730", null, "Engine 205/Ladder 118", "74 Middagh Street", "Brooklyn", "11201", "40.700172", "-73.992239", "2", "33", "1", "3001600", "3002160022", "Brooklyn Heights-Cobble Hill                                               " ]
+, [ 86, "3F00C15D-1E42-4D47-867E-A4A0B183ED10", 86, 1505586807, "994730", 1505586807, "994730", null, "Engine 224", "274 Hicks Street", "Brooklyn", "11201", "40.692948", "-73.996971", "2", "33", "7", "3002336", "3002600036", "Brooklyn Heights-Cobble Hill                                               " ]
+, [ 87, "EE6F377A-F92A-4332-8469-5BB351A9D836", 87, 1505586807, "994730", 1505586807, "994730", null, "Engine 279/Ladder 131", "252 Lorraine Street", "Brooklyn", "11231", "40.672335", "-73.999611", "6", "38", "53", "3008207", "3004860018", "Carroll Gardens-Columbia Street-Red Hook                                   " ]
+, [ 88, "949F5867-6E34-4823-A249-48194F66EAFC", 88, 1505586807, "994730", 1505586807, "994730", null, "Engine 202/Ladder 101/Battalion 32", "31 Richards Street", "Brooklyn", "11231", "40.680489", "-74.006522", "6", "38", "59", "3008254", "3005120022", "Carroll Gardens-Columbia Street-Red Hook                                   " ]
+, [ 89, "841B1F4B-7096-488B-9B7D-92073D73C048", 89, 1505586807, "994730", 1505586807, "994730", null, "Engine 228", "436 39th Street", "Brooklyn", "11232", "40.652045", "-74.005218", "7", "38", "84", "3010534", "3007090019", "Sunset Park West                                                           " ]
+, [ 90, "824748E8-99E6-4D74-8C5E-8C88A06F8824", 90, 1505586807, "994730", 1505586807, "994730", null, "Engine 201/Ladder 114/Battalion 40", "5113-5117 4th Avenue", "Brooklyn", "11220", "40.645773", "-74.01329", "7", "38", "78", "3414005", "3007990003", "Sunset Park West                                                           " ]
+, [ 91, "602BAB53-76B5-484F-B9AB-E065E13BE9C9", 91, 1505586807, "994730", 1505586807, "994730", null, "Squad 1", "788 Union Street", "Brooklyn", "11215", "40.674858", "-73.976491", "6", "39", "157", "3020193", "3009570023", "Park Slope-Gowanus                                                         " ]
+, [ 92, "F7391F97-6C97-4DA2-AEBB-29C8068B8E5D", 92, 1505586807, "994730", 1505586807, "994730", null, "Engine 239", "395 4th Avenue", "Brooklyn", "11215", "40.671829", "-73.987476", "6", "39", "137", "3021578", "3009930005", "Park Slope-Gowanus                                                         " ]
+, [ 93, "ED228715-87D4-4EBD-AC07-B77F27B64727", 93, 1505586807, "994730", 1505586807, "994730", null, "Engine 220/Ladder 122", "530-532 11th Street", "Brooklyn", "11215", "40.665115", "-73.981408", "6", "39", "151", "3026278", "3010960025", "Park Slope-Gowanus                                                         " ]
+, [ 94, "F04063CC-B998-476D-97B4-5FBC88B8225A", 94, 1505586807, "994730", 1505586807, "994730", null, "Ladder 105", "494 Dean Street", "Brooklyn", "11217", "40.681357", "-73.973561", "8", "35", "161", "3027813", "3011360011", "Prospect Heights                                                           " ]
+, [ 95, "524789E8-3DFF-4435-8ADD-8EC9F1CB50CA", 95, 1505586807, "994730", 1505586807, "994730", null, "Engine 280/Ladder 132", "489-91 Saint Johnï¿½s Place", "Brooklyn", null, null, null, null, null, null, null, null, null ]
+, [ 96, "97A14556-929E-4E08-B1E2-251610936958", 96, 1505586807, "994730", 1505586807, "994730", null, "Rescue 2", "1472 Bergen Street", "Brooklyn", "11213", "40.675264", "-73.934917", "8", "36", "345", "3035830", "3013530014", "Crown Heights North                                                        " ]
+, [ 97, "AA575A52-CAA4-45A5-B55A-F4B74171ADC3", 97, 1505586807, "994730", 1505586807, "994730", null, "Engine 234/Ladder 123/Battalion 38", "1352 Saint Johnï¿½s Place", "Brooklyn", null, null, null, null, null, null, null, null, null ]
+, [ 98, "838A99E2-4BE8-4F47-8ED0-3B04B140162A", 98, 1505586807, "994730", 1505586807, "994730", null, "Engine 227", "423-25 Ralph Avenue", "Brooklyn", "11233", "40.674798", "-73.922015", "16", "41", "303", "3038838", "3014450002", "Ocean Hill                                                                 " ]
+, [ 99, "493754CD-DFDB-4BF7-BD0B-9924A5E7AE82", 99, 1505586807, "994730", 1505586807, "994730", null, "Engine 233/Ladder 176", "25 Rockaway Avenue", "Brooklyn", "11233", "40.682616", "-73.911687", "16", "37", "369", "3040990", "3015120001", "Ocean Hill                                                                 " ]
+, [ 100, "95066F9E-CAED-496E-A761-062DB33A13F4", 100, 1505586807, "994730", 1505586807, "994730", null, "Engine 217", "940 Dekalb Avenue", "Brooklyn", "11221", "40.692896", "-73.938066", "3", "36", "281", "3043215", "3016010023", "Stuyvesant Heights                                                         " ]
+, [ 101, "BEF4C09C-F370-40DD-AFB5-E699C2690814", 101, 1505586807, "994730", 1505586807, "994730", null, "Engine 222/Battalion 37", "32 Ralph Avenue", "Brooklyn", "11221", "40.689385", "-73.924006", "3", "41", "387", "3044596", "3016330039", "Stuyvesant Heights                                                         " ]
+, [ 102, "FEE0A7FB-C37E-4FE4-A4B3-25F3278990B7", 102, 1505586807, "994730", 1505586807, "994730", null, "Engine 214/Ladder 111", "495 Hancock Street", "Brooklyn", "11233", "40.684161", "-73.935957", "3", "36", "275", "3045695", "3016540045", "Stuyvesant Heights                                                         " ]
+, [ 103, "CF7CBFE2-67CC-49C4-AE81-0E4B85AE6651", 103, 1505586807, "994730", 1505586807, "994730", null, "Engine 230", "701 Park Avenue", "Brooklyn", "11206", "40.697792", "-73.947874", "3", "36", "257", "3048373", "3017300049", "Bedford                                                                    " ]
+, [ 104, "FBD9722E-D497-4553-BBB7-AE31BF67E2A5", 104, 1505586807, "994730", 1505586807, "994730", null, "Engine 235/Battalion 57", "206 Monroe Street", "Brooklyn", "11216", "40.685357", "-73.951464", "3", "36", "245", "3051323", "3018170048", "Bedford                                                                    " ]
+, [ 105, "37CF6680-C64D-47AF-ABF6-5349F81D5FAA", 105, 1505586807, "994730", 1505586807, "994730", null, "Ladder 102", "850-56 Bedford Avenue", "Brooklyn", "11205", "40.695635", "-73.956361", "3", "33", "1237", "3054771", "3019000050", "Bedford                                                                    " ]
+, [ 106, "4133C875-69DC-4AAB-B040-C03CCD1AD6ED", 106, 1505586807, "994730", 1505586807, "994730", null, "Marine 6", "Building 292 Brooklyn Navy Yard", "Brooklyn", "11205", "40.702562", "-73.972211", "2", "33", "543", "3000000", "3020230001", "park-cemetery-etc-Brooklyn                                                 " ]
+, [ 107, "083ADCD2-7E13-4D2F-A679-3172790BC0F8", 107, 1505586807, "994730", 1505586807, "994730", null, "Engine 210", "160 Carlton Avenue", "Brooklyn", "11205", "40.692758", "-73.972774", "2", "35", "183", "3058296", "3020720033", "Fort Greene                                                                " ]
+, [ 108, "373AD7A0-6210-4401-8BC7-C2EBB3C555CB", 108, 1505586807, "994730", 1505586807, "994730", null, "Engine 211/Ladder 119", "26 Hooper Street", "Brooklyn", "11249", "40.701506", "-73.962398", "1", "33", "539", "3060298", "3022030016", "Williamsburg                                                               " ]
+, [ 109, "8EA7032D-65AD-4291-A573-F9E35B999CC5", 109, 1505586807, "994730", 1505586807, "994730", null, "Engine 221/Ladder 104", "161 South 2nd Street", "Brooklyn", "11211", "40.712978", "-73.961259", "1", "34", "551", "3062972", "3024060035", "North Side-South Side                                                      " ]
+, [ 110, "1AFDD3C7-7FE5-488B-9FB7-DD9A619D12F6", 110, 1505586807, "994730", 1505586807, "994730", null, "Engine 216/Ladder 108/Battalion 35", "187 Union Avenue", "Brooklyn", "11211", "40.706024", "-73.950317", "1", "34", "527", "3063633", "3024650100", "North Side-South Side                                                      " ]
+, [ 111, "98C6A87D-62FD-4F96-8796-3FD48F590018", 111, 1505586807, "994730", 1505586807, "994730", null, "Engine 238/Ladder 106", "205 Greenpoint Avenue", "Brooklyn", "11222", "40.730511", "-73.951056", "1", "33", "579", "3064786", "3025600050", "Greenpoint                                                                 " ]
+, [ 112, "1F6BBBB0-B4E2-474B-AA26-A0358B8697E1", 112, 1505586807, "994730", 1505586807, "994730", null, "Engine 229/Ladder 146", "75-77 Richardson Street", "Brooklyn", "11211", "40.718405", "-73.949027", "1", "33", "515", "3067898", "3027220028", "North Side-South Side                                                      " ]
+, [ 113, "ABBC4232-86F8-472B-AD5B-75E40A1C397F", 113, 1505586807, "994730", 1505586807, "994730", null, "Engine 206", "1201 Grand Street", "Brooklyn", "11211", "40.715147", "-73.927956", "1", "34", "449", "3070506", "3029290053", "East Williamsburg                                                          " ]
+, [ 114, "37D0F62F-F31B-42BB-A43B-31BD49476AE8", 114, 1505586807, "994730", 1505586807, "994730", null, "Engine 237", "43 Morgan Avenue", "Brooklyn", "11237", "40.705334", "-73.93162", "1", "34", "453", "3071494", "3031020023", "Bushwick North                                                             " ]
+, [ 115, "A48BBAC4-8D80-4F6F-BD80-FB3A73F05112", 115, 1505586807, "994730", 1505586807, "994730", null, "Engine 218", "650 Hart Street", "Brooklyn", "11221", "40.698379", "-73.926877", "4", "34", "423", "3073407", "3032280013", "Bushwick South                                                             " ]
+, [ 116, "6892EC27-CDAF-43D2-9889-B9BDE768CA96", 116, 1505586807, "994730", 1505586807, "994730", null, "Engine 271/Ladder 124/Battalion 28", "392 Himrod Street", "Brooklyn", "11237", "40.703721", "-73.916253", "4", "37", "443", "3074885", "3032810022", "Bushwick North                                                             " ]
+, [ 117, "8BAB5657-F06B-49A0-AFBB-8914242FB1C3", 117, 1505586807, "994730", 1505586807, "994730", null, "Engine 277/Ladder 112", "582 Knickerbocker Avenue", "Brooklyn", "11221", "40.696564", "-73.914423", "4", "37", "433", "3076461", "3033430029", "Bushwick North                                                             " ]
+, [ 118, "696DE9D1-515A-47D3-804F-09F767ACB71F", 118, 1505586807, "994730", 1505586807, "994730", null, "Squad 252", "617 Central Avenue", "Brooklyn", "11207", "40.688473", "-73.908246", "4", "37", "411", "3079480", "3034290003", "Bushwick South                                                             " ]
+, [ 119, "8DE9F694-FDF0-469A-8514-813C8018F772", 119, 1505586807, "994730", 1505586807, "994730", null, "Engine 231/Ladder 120/Battalion 44", "107 Watkins Street", "Brooklyn", "11212", "40.670374", "-73.908033", "16", "37", "906", "3080767", "3035070005", "Brownsville                                                                " ]
+, [ 120, "FEE6E6CB-8744-45A8-A329-4D3E67257976", 120, 1505586807, "994730", 1505586807, "994730", null, "Engine 283/Division 15", "885 Howard Avenue", "Brooklyn", "11212", "40.660877", "-73.918214", "16", "41", "894", "3081953", "3035800020", "Brownsville                                                                " ]
+, [ 121, "B948B33B-78B9-446A-90A3-FD632F7F231C", 121, 1505586807, "994730", 1505586807, "994730", null, "Engine 332/Ladder 175", "165 Bradford Street", "Brooklyn", "11207", "40.675359", "-73.892863", "5", "37", "1198", "3083579", "3036910001", "East New York                                                              " ]
+, [ 122, "8C6165CF-948D-469F-B0E7-E51CF4E2BADC", 122, 1505586807, "994730", 1505586807, "994730", null, "Engine 290/Ladder 103", "480 Sheffield Avenue", "Brooklyn", "11207", "40.665206", "-73.895179", "5", "42", "1126", "3084622", "3038040043", "East New York (Pennsylvania Ave)                                           " ]
+, [ 123, "0BFD4808-C667-4DEA-A017-57D1F4126491", 123, 1505586807, "994730", 1505586807, "994730", null, "Engine 236", "998 Liberty Avenue", "Brooklyn", "11208", "40.677864", "-73.872853", "5", "37", "1196", "3094289", "3041940020", "East New York                                                              " ]
+, [ 124, "AF9BFFF0-A9BF-4610-B384-2209B316C491", 124, 1505586807, "994730", 1505586807, "994730", null, "Engine 225/Ladder 107/Battalion 39", "799 Lincoln Avenue", "Brooklyn", "11208", "40.669602", "-73.865685", "5", "42", "1208", "3095894", "3042710075", "East New York                                                              " ]
+, [ 125, "BDE25280-4EE3-4FEB-B1F3-94BF89B2813F", 125, 1505586807, "994730", 1505586807, "994730", null, "Engine 310/Ladder 174/Battalion 58", "5105 Snyder Avenue", "Brooklyn", "11203", "40.65019", "-73.929035", "17", "41", "862", "3102909", "3046990040", "Rugby-Remsen Village                                                       " ]
+, [ 126, "2CB42146-A983-4E05-AF63-4295A375DBFA", 126, 1505586807, "994730", 1505586807, "994730", null, "Engine 249/Ladder 113", "491 Rogers Avenue", "Brooklyn", "11225", "40.660226", "-73.953483", "9", "40", "800", "3114990", "3050330004", "Prospect Lefferts Gardens-Wingate                                          " ]
+, [ 127, "2D6C0CB6-4B19-4E42-9A4D-1188BE058DB7", 127, 1505586807, "994730", 1505586807, "994730", null, "Engine 248", "2900 Snyder Avenue", "Brooklyn", "11226", "40.648867", "-73.950471", "17", "40", "824", "3117400", "3051110024", "Erasmus                                                                    " ]
+, [ 128, "C79D4039-033D-4BD6-B7EB-A28955D9B0D2", 128, 1505586807, "994730", 1505586807, "994730", null, "Engine 281/Ladder 147", "1210 Cortelyou Road", "Brooklyn", "11218", "40.64012", "-73.966847", "14", "40", "526", "3118638", "3051550004", "Flatbush                                                                   " ]
+, [ 129, "AB06AE30-1C76-45E7-BB9E-26D61A7A586E", 129, 1505586807, "994730", 1505586807, "994730", null, "Engine 255/Ladder 157", "1367 Rogers Avenue", "Brooklyn", "11210", "40.636755", "-73.950974", "14", "45", "788", "3120929", "3052290009", "Flatbush                                                                   " ]
+, [ 130, "678A6B50-9580-49FB-A23A-360468D08F30", 130, 1505586807, "994730", 1505586807, "994730", null, "Engine 240/Battalion 48", "1307 Prospect Avenue", "Brooklyn", "11218", "40.651165", "-73.975736", "7", "39", "504", "3122838", "3052850021", "Windsor Terrace                                                            " ]
+, [ 131, "683601F6-1A47-4B19-8FE8-681B5D31B457", 131, 1505586807, "994730", 1505586807, "994730", null, "Engine 282/Ladder 148", "4210-12 12th Avenue", "Brooklyn", "11219", "40.640157", "-73.990379", "12", "39", "224", "3135859", "3055970044", "Borough Park                                                               " ]
+, [ 132, "38E4E5FA-8682-48FB-9603-2B3412FB4EB3", 132, 1505586807, "994730", 1505586807, "994730", null, "Engine 247", "1336 60th Street", "Brooklyn", "11219", "40.62835", "-73.997741", "12", "44", "192", "3141309", "3057190022", "Borough Park                                                               " ]
+, [ 133, "1ECF9E8D-659F-4D76-960B-8C76C13073DC", 133, 1505586807, "994730", 1505586807, "994730", null, "Engine 241/Ladder 109", "6630 3rd Avenue", "Brooklyn", "11220", "40.638064", "-74.024825", "10", "43", "70", "3144349", "3058410040", "Bay Ridge                                                                  " ]
+, [ 134, "72C08B39-7944-4ED2-BE64-44E984E4E8F5", 134, 1505586807, "994730", 1505586807, "994730", null, "Engine 242", "9219 5th Avenue", "Brooklyn", "11209", "40.617597", "-74.029547", "10", "43", "160", "3155323", "3061090019", "Bay Ridge                                                                  " ]
+, [ 135, "5ED4BEB9-CE1F-4726-8788-53A4CB57829C", 135, 1505586807, "994730", 1505586807, "994730", null, "Engine 284/Ladder 149", "1157 79th Street", "Brooklyn", "11228", "40.619961", "-74.012986", "10", "43", "202", "3161800", "3062540053", "Dyker Heights                                                              " ]
+, [ 136, "F5C0552D-71FC-4715-886E-158912FEE1D4", 136, 1505586807, "994730", 1505586807, "994730", null, "Engine 243/Ladder 168/Battalion 42", "8653 18th Avenue", "Brooklyn", "11214", "40.606301", "-74.003637", "11", "47", "278", "3166596", "3063690024", "Bensonhurst West                                                           " ]
+, [ 137, "B74B674A-0551-49CC-B1DA-1EEB5D73EC06", 137, 1505586807, "994730", 1505586807, "994730", null, "Engine 250", "126 Foster Avenue", "Brooklyn", "11230", "40.627771", "-73.976148", "14", "44", "46201", "3170273", "3064990011", "Flatbush                                                                   " ]
+, [ 138, "F59899E7-D562-40B3-8ADA-A6960995205D", 138, 1505586807, "994730", 1505586807, "994730", null, "Engine 330/Ladder 172 ", "2312 65th Street", "Brooklyn", "11204", "40.612343", "-73.978973", "11", "44", "434", "3173419", "3065800006", "Bensonhurst East                                                           " ]
+, [ 139, "F2341A3A-78D8-4B2A-83C1-73E7F76DD2B3", 139, 1505586807, "994730", 1505586807, "994730", null, "Engine 276/Ladder 156/Battalion 33", "1635 East 14th Street", "Brooklyn", "11229", "40.609428", "-73.959346", "15", "48", "554", "3182420", "3067770064", "Homecrest                                                                  " ]
+, [ 140, "FFDD888C-A8E0-4176-B8B5-4EF7E6DEE4B4", 140, 1505586807, "994730", 1505586807, "994730", null, "Engine 253", "2429 86th Street", "Brooklyn", "11214", "40.598744", "-73.988542", "11", "47", "298", "3185380", "3068590065", "Bensonhurst East                                                           " ]
+, [ 141, "69B3509B-C1D9-4C27-9512-DF7D26DCE2D1", 141, 1505586807, "994730", 1505586807, "994730", null, "Engine 318/Ladder 166", "2510-14 Neptune Avenue", "Brooklyn", "11224", "40.578073", "-73.992901", "13", "47", "328", "3188880", "3070130007", "Seagate-Coney Island                                                       " ]
+, [ 142, "90BFF61C-9185-40F3-84B7-9CCEBCE764B0", 142, 1505586807, "994730", 1505586807, "994730", null, "Engine 254/Ladder 153", "901 Avenue U", "Brooklyn", "11223", "40.59823", "-73.961967", "15", "47", "394", "3192210", "3071120049", "Homecrest                                                                  " ]
+, [ 143, "E53B9695-D6B2-40D1-B618-54CF2A34B4A5", 143, 1505586807, "994730", 1505586807, "994730", null, "Engine 245/Ladder 161/Battalion 43", "2929 West 8th Street", "Brooklyn", "11224", "40.576795", "-73.976468", "13", "48", "354", "3196591", "3072790290", "West Brighton                                                              " ]
+, [ 144, "18731761-3A7D-4191-ABA8-30A4F33DD5CF", 144, 1505586807, "994730", 1505586807, "994730", null, "Engine 257/Ladder 170", "1361 Rockaway Parkway", "Brooklyn", "11236", "40.646469", "-73.903789", "18", "42", "974", "3229407", "3081660033", "Canarsie                                                                   " ]
+, [ 145, "6033F85A-2269-47D7-9B9A-44C1AD750961", 145, 1505586807, "994730", 1505586807, "994730", null, "Engine 323", "6405 Avenue N", "Brooklyn", "11234", "40.619881", "-73.915718", "18", "46", "69602", "3235919", "3083640006", "Georgetown-Marine Park-Bergen Beach-Mill Basin                             " ]
+, [ 146, "EE61D788-F791-4A76-928C-61D3C9A3FDF6", 146, 1505586807, "994730", 1505586807, "994730", null, "Engine 309/Ladder 159", "1851 East 48th Street", "Brooklyn", "11234", "40.615732", "-73.928488", "18", "46", "672", "3239495", "3084880016", "Flatlands                                                                  " ]
+, [ 147, "A5C3D792-B235-4E3A-A2EB-34B91364278E", 147, 1505586807, "994730", 1505586807, "994730", null, "Engine 246/Ladder 169", "2732 East 11th Street", "Brooklyn", "11235", "40.584374", "-73.959127", "15", "48", "608", "3246894", "3087610038", "Sheepshead Bay-Gerritsen Beach-Manhattan Beach                             " ]
+, [ 148, "A9500381-0AE1-4B75-A123-F15D37B6999E", 148, 1505586807, "994730", 1505586807, "994730", null, "Engine 321", "2165 Gerritsen Avenue", "Brooklyn", "11229", "40.602306", "-73.935658", "15", "46", "638", "3248186", "3088170049", "Madison                                                                    " ]
+, [ 149, "50DE9B90-946C-4241-B2E2-BAC86E0F4351", 149, 1505586807, "994730", 1505586807, "994730", null, "Engine 258/Ladder 115", "10-40 47th Avenue", "Queens", "11101", "40.745286", "-73.95215", "2", "26", "7", "4000333", "4000460034", "Hunters Point-Sunnyside-West Maspeth                                       " ]
+, [ 150, "5A3D07AF-E838-45B9-B0C4-6E60842A8659", 150, 1505586807, "994730", 1505586807, "994730", null, "Engine 325/Ladder 163", "41-24 51st Street", "Queens", "11377", "40.745335", "-73.913527", "2", "26", "25302", "4000979", "4001310031", "Hunters Point-Sunnyside-West Maspeth                                       " ]
+, [ 151, "7B94E9AD-C005-4A2F-9444-7443F7D7FDBA", 151, 1505586807, "994730", 1505586807, "994730", null, "Engine 259/Ladder 128/Battalion 45", "33-51 Greenpoint Avenue", "Queens", "11101", "40.735961", "-73.933706", "2", "26", "199", "4003673", "4003070029", "Hunters Point-Sunnyside-West Maspeth                                       " ]
+, [ 152, "B68C3BAC-DC13-4BF1-AA10-4FDB173CA8BE", 152, 1505586807, "994730", 1505586807, "994730", null, "Engine 260", "11-15 37th Avenue", "Queens", "11101", "40.759696", "-73.940603", "1", "26", "85", "4004305", "4003520035", "Queensbridge-Ravenswood-Long Island City                                   " ]
+, [ 153, "DE6D6819-F6AF-44BF-BCD7-1E3752700B14", 153, 1505586807, "994730", 1505586807, "994730", null, "Engine 261/Ladder 116", "3720-22 29th Street", "Queens", null, null, null, null, null, null, null, null, null ]
+, [ 154, "1BC683AC-84B7-4CEA-904D-348FE50BEF3B", 154, 1505586807, "994730", 1505586807, "994730", null, "Engine 262", "30-89 21st Street", "Queens", "11102", "40.767664", "-73.929574", "1", "22", "79", "4006338", "4005510016", "Old Astoria                                                                " ]
+, [ 155, "82EF844D-7216-4819-814C-573BC4E156E8", 155, 1505586807, "994730", 1505586807, "994730", null, "Engine 263/Ladder 117/Battalion 49", "42-06 Astoria Boulevard", "Queens", "11103", "40.768508", "-73.908822", "1", "22", "141", "4011565", "4006880017", "Astoria                                                                    " ]
+, [ 156, "0B52673A-590E-4DCC-AF58-0A13FE95F88A", 156, 1505586807, "994730", 1505586807, "994730", null, "Engine 312", "22-63 35th Street", "Queens", "11105", "40.773796", "-73.910194", "1", "22", "117", "4016405", "4008220007", "Steinway                                                                   " ]
+, [ 157, "D5D63FE7-CCEF-44FB-AAB1-A6573F566A8F", 157, 1505586807, "994730", 1505586807, "994730", null, "Engine 307/Ladder 154", "81-17 North Boulevard", "Queens", null, null, null, null, null, null, null, null, null ]
+, [ 158, "989304BB-53B9-44CC-93CA-ACE2544BFBC3", 158, 1505586807, "994730", 1505586807, "994730", null, "Engine 289/Ladder 138", "97-28 43rd Avenue", "Queens", "11368", "40.746168", "-73.866158", "4", "21", "409", "4040712", "4016280018", "North Corona                                                               " ]
+, [ 159, "17FB154E-FF0D-46A5-8340-BA151AA8F1B6", 159, 1505586807, "994730", 1505586807, "994730", null, "Engine 316", "27-12 Kearney Street", "Queens", "11369", "40.762621", "-73.869024", "3", "21", "367", "4041276", "4016580005", "East Elmhurst                                                              " ]
+, [ 160, "F71EE6AE-8D9A-4606-AEBC-700BE0DAB0FB", 160, 1505586807, "994730", 1505586807, "994730", null, "Engine 324/Division 14", "108-01 Horace Harding Blvd.", "Queens", "11368", "40.737732", "-73.851904", "4", "21", "43701", "4048310", "4019640065", "Corona                                                                     " ]
+, [ 161, "EA5DCF4F-599F-4582-957D-D44501AFA242", 161, 1505586807, "994730", 1505586807, "994730", null, "Eng 292/Rescue 4", "64-18 Queens Boulevard", "Queens", "11377", "40.741049", "-73.900971", "2", "26", "245", "4053652", "4023250037", "Woodside                                                                   " ]
+, [ 162, "DE2F63C4-D4FF-4D34-919E-1F6DEC3FF7FA", 162, 1505586807, "994730", 1505586807, "994730", null, "Squad 288/Hazmat 1", "56-29 68th Street", "Queens", "11378", "40.72625", "-73.896512", "5", "30", "511", "4055348", "4023950004", "Maspeth                                                                    " ]
+, [ 163, "DDC7A60F-9484-4868-9CF7-CAF65576D445", 163, 1505586807, "994730", 1505586807, "994730", null, "Engine 287/Ladder 136/Battalion 46", "86-53 Grand Avenue", "Queens", "11373", "40.736156", "-73.87905", "4", "25", "475", "4057367", "4024770026", "Elmhurst                                                                   " ]
+, [ 164, "6BFEF5D6-99AD-4E22-BBFE-9BCB0C57EFDE", 164, 1505586807, "994730", 1505586807, "994730", null, "Engine 291/Ladder 140", "56-07 Metropolitan Avenue", "Queens", "11385", "40.71295", "-73.906791", "5", "30", "595", "4440960", "4026460018", "Ridgewood                                                                  " ]
+, [ 165, "1B36E799-86A9-4BC9-8476-4D57F2DCAB92", 165, 1505586807, "994730", 1505586807, "994730", null, "Engine 305/Ladder 151", "111-02 Queens Boulevard", "Queens", "11375", "40.718522", "-73.837437", "6", "29", "76901", "4078827", "4032940020", "Forest Hills                                                               " ]
+, [ 166, "C3D92C52-A39F-47C5-B1FE-778DCD9E668C", 166, 1505586807, "994730", 1505586807, "994730", null, "Engine 286/Ladder 135", "66-44 Myrtle Avenue", "Queens", "11385", "40.701448", "-73.88674", "5", "30", "629", "4090228", "4037000021", "Glendale                                                                   " ]
+, [ 167, "6AFA3554-B671-4F61-9701-0B09224AE884", 167, 1505586807, "994730", 1505586807, "994730", null, "Engine 319", "78-11 67th Road", "Queens", "11379", "40.712445", "-73.875009", "5", "30", "621", "4091550", "4037760056", "Middle Village                                                             " ]
+, [ 168, "AADCEDE2-7EA1-425D-B724-D7E14F01C513", 168, 1505586807, "994730", 1505586807, "994730", null, "Engine 297/Ladder 130", "119-11 14th Road", "Queens", "11356", "40.784806", "-73.848387", "7", "19", "929", "4098032", "4040540017", "College Point                                                              " ]
+, [ 169, "E4C497B1-F1B6-4FBC-A097-FBB0334A693D", 169, 1505586807, "994730", 1505586807, "994730", null, "Engine 295/Ladder 144", "12-49 149th Street", "Queens", "11357", "40.789118", "-73.81633", "7", "19", "981", "4102462", "4045050007", "Whitestone                                                                 " ]
+, [ 170, "20893A0F-267B-4224-861B-35F7B22DFB0F", 170, 1505586807, "994730", 1505586807, "994730", null, "Engine 273/Ladder 129", "40-18 Union Street", "Queens", "11354", "40.760003", "-73.826312", "7", "20", "853", "4113561", "4050190066", "Flushing                                                                   " ]
+, [ 171, "AA38DF92-CF45-4145-9065-F63644CFE6E0", 171, 1505586807, "994730", 1505586807, "994730", null, "Engine 274/Battalion 52", "41-20 Murray Street", "Queens", "11355", "40.762562", "-73.812512", "7", "20", "1167", "4114925", "4050580037", "Murray Hill                                                                " ]
+, [ 172, "C5BCCFA3-BC9A-428F-838F-4014250A206D", 172, 1505586807, "994730", 1505586807, "994730", null, "Engine 320/Ladder 167", "36-18 Francis Lewis Boulevard", "Queens", "11358", "40.763428", "-73.786616", "11", "19", "1139", "4120143", "4053190008", "Auburndale                                                                 " ]
+, [ 173, "F58E5ADC-A79A-4D26-B8B3-07FAB2D631E9", 173, 1505586807, "994730", 1505586807, "994730", null, "Engine 306/Battalion 53", "40-18 214th Place", "Queens", "11361", "40.764348", "-73.769596", "11", "19", "1123", "4138284", "4062880032", "Bayside-Bayside Hills                                                      " ]
+, [ 174, "2DADFF95-C560-4498-A414-F9992F1E7B7B", 174, 1505586807, "994730", 1505586807, "994730", null, "Engine 315/Ladder 125", "159-06 Union Turnpike", "Queens", "11366", "40.720329", "-73.807761", "8", "24", "1265", "4148377", "4068540028", "Pomonok-Flushing Heights-Hillcrest                                         " ]
+, [ 175, "C9330AF5-C223-4B92-A5BA-122C44C22D01", 175, 1505586807, "994730", 1505586807, "994730", null, "Engine 299/Ladder 152", "61-20 Utopia Parkway", "Queens", "11365", "40.738613", "-73.792967", "8", "24", "1341", "4148798", "4068910003", "Fresh Meadows-Utopia                                                       " ]
+, [ 176, "8C8ECE36-2550-4A97-B12F-7B1CA953289A", 176, 1505586807, "994730", 1505586807, "994730", null, "Engine 326/Ladder 160", "64-04 Springfield Boulevard", "Queens", "11364", "40.747071", "-73.755681", "11", "23", "1367", "4162454", "4076210012", "Oakland Gardens                                                            " ]
+, [ 177, "FE6E29D5-30FA-4540-BA29-BECF5C4E8B70", 177, 1505586807, "994730", 1505586807, "994730", null, "Engine 313/Ladder 164", "44-01 244th Street", "Queens", "11363", "40.766659", "-73.742451", "11", "19", "1479", "4168901", "4081120192", "Douglas Manor-Douglaston-Little Neck                                       " ]
+, [ 178, "35BA030D-D8E5-4CFC-A922-3D5653FEAB8A", 178, 1505586807, "994730", 1505586807, "994730", null, "Engine 251", "254-20 Union Turnpike", "Queens", "11004", "40.744582", "-73.716559", "13", "23", "157902", "4177508", "4086910013", "Glen Oaks-Floral Park-New Hyde Park                                        " ]
+, [ 179, "2624377C-30AA-48A6-ACFC-83CAA13AFF2E", 179, 1505586807, "994730", 1505586807, "994730", null, "Engine 293", "89-40 87th Street", "Queens", "11421", "40.689493", "-73.856104", "9", "32", "8", "4185536", "4089680025", "Woodhaven                                                                  " ]
+, [ 180, "336742F0-3D3B-453C-9F4D-EF1230DD7A31", 180, 1505586807, "994730", 1505586807, "994730", null, "Engine 285/Ladder 142", "103-17 98th Street", "Queens", "11417", "40.682684", "-73.842194", "10", "32", "4002", "4438526", "4091210011", "Ozone Park                                                                 " ]
+, [ 181, "55F43427-C833-4A41-B0F2-22BDE580BF89", 181, 1505586807, "994730", 1505586807, "994730", null, "Ladder 143", "101-02 Jamaica Avenue", "Queens", "11418", "40.695038", "-73.846268", "9", "32", "28", "4194106", "4092860006", "Richmond Hill                                                              " ]
+, [ 182, "52128C1F-8E0D-4FDB-99B6-89898397A55C", 182, 1505586807, "994730", 1505586807, "994730", null, "Squad 270/Division 13", "91-45 121st Street", "Queens", "11418", "40.695411", "-73.82626", "9", "29", "14202", "4196913", "4093750007", "Richmond Hill                                                              " ]
+, [ 183, "BAB4574C-71F9-4463-9D5D-0811653FB409", 183, 1505586807, "994730", 1505586807, "994730", null, "Engine 308/Battalion 51", "107-12 Lefferts Boulevard", "Queens", "11419", "40.684043", "-73.823106", "10", "28", "106", "4205407", "4095980010", "South Ozone Park                                                           " ]
+, [ 184, "3B736D04-19B5-49F3-9DE4-1124431365AD", 184, 1505586807, "994730", 1505586807, "994730", null, "Engine 298/Ladder 127/Battalion 50", "153-11 Hillside Avenue", "Queens", "11432", "40.70731", "-73.804242", "8", "24", "236", "4207481", "4097060066", "Briarwood-Jamaica Hills                                                    " ]
+, [ 185, "6859FD6E-D8C1-45B3-B056-00A6B1AD5CC2", 185, 1505586807, "994730", 1505586807, "994730", null, "Engine 303/Ladder 126", "104-12 Princeton Street", "Queens", "11435", "40.693876", "-73.806943", "12", "28", "204", "4214846", "4100460014", "Jamaica                                                                    " ]
+, [ 186, "10634284-C328-4CF4-9808-557B26B7E3F3", 186, 1505586807, "994730", 1505586807, "994730", null, "Engine 275", "111-36 Merrick Boulevard", "Queens", "11433", "40.694052", "-73.781115", "12", "27", "266", "4217371", "4102080045", "South Jamaica                                                              " ]
+, [ 187, "627B43D7-466B-464E-B3D0-78E9F1A4A287", 187, 1505586807, "994730", 1505586807, "994730", null, "Engine 301/Ladder 150", "91-04 197th Street", "Queens", "11423", "40.714494", "-73.762763", "12", "23", "484", "4222434", "4104640025", "Hollis                                                                     " ]
+, [ 188, "A3CEC0BA-B38A-49BF-8381-FC83F203B5D0", 188, 1505586807, "994730", 1505586807, "994730", null, "Engine 304/Ladder 162", "218-44 97th Avenue", "Queens", "11429", "40.71706", "-73.735871", "13", "27", "568", "4230875", "4107700023", "Queens Village                                                             " ]
+, [ 189, "EEE777A6-D50C-4C04-BB58-1E3C566A4054", 189, 1505586807, "994730", 1505586807, "994730", null, "Engine 302/Ladder 155", "143-15 Rockaway Boulevard", "Queens", "11436", "40.673836", "-73.795461", "12", "28", "182", "4261544", "4120460002", "Baisley Park                                                               " ]
+, [ 190, "59A1EB37-F219-46C7-9986-FB89E2866EBD", 190, 1505586807, "994730", 1505586807, "994730", null, "Engine 317/Ladder 165/Battalion 54", "117-11 196th Street", "Queens", "11412", "40.69301", "-73.755814", "12", "27", "394", "4271743", "4126170040", "St. Albans                                                                 " ]
+, [ 191, "D87FE33F-40E0-435B-B529-CDD62A47E0F4", 191, 1505586807, "994730", 1505586807, "994730", null, "Engine 311/Ladder 158", "145-50 Springfield Boulevard", "Queens", "11413", "40.663404", "-73.759473", "13", "31", "320", "4286093", "4133610200", "Springfield Gardens South-Brookville                                       " ]
+, [ 192, "43BB509D-022F-4C5A-A866-DB8C5BFB3DF1", 192, 1505586807, "994730", 1505586807, "994730", null, "Engine 314", "142-04 Brookville Boulevard", "Queens", "11422", "40.663992", "-73.740515", "13", "31", "654", "4287743", "4135380015", "Rosedale                                                                   " ]
+, [ 193, "CDB0AE7E-D8F3-4031-932F-73559C680AD8", 193, 1505586807, "994730", 1505586807, "994730", null, "Engine 331/Ladder 173", "158-57 Cross Bay Boulevard", "Queens", "11414", "40.65993", "-73.840045", "10", "32", "892", "4295071", "4141630101", "Lindenwood-Howard Beach                                                    " ]
+, [ 194, "CDD08C77-9B84-43AB-B45C-177266F42F04", 194, 1505586807, "994730", 1505586807, "994730", null, "Engine 264/Engine 328/Ladder 134", "16-15 Central Avenue", "Queens", "11691", "40.604897", "-73.752226", "14", "31", "103202", "4529057", "4155590025", "Far Rockaway-Bayswater                                                     " ]
+, [ 195, "E0E8BB57-53F0-451D-B0DC-EBA0DC38FC81", 195, 1505586807, "994730", 1505586807, "994730", null, "Engine 265/Ladder 121/Battalion 47 EMS Station 47", "48-06 Rockaway Beach Boulevard", "Queens", "11691", "40.593377", "-73.778978", "14", "31", "97204", "4539800", "4158400001", "Hammels-Arverne-Edgemere                                                   " ]
+, [ 196, "7FA231C4-40DE-4089-8900-DFAC3AE17CAD", 196, 1505586807, "994730", 1505586807, "994730", null, "Engine 266/Battalion 47", "92-20 Rockaway Beach Boulevard", "Queens", "11693", "40.58633", "-73.815775", "14", "32", "94202", "4439014", "4161270001", "Hammels-Arverne-Edgemere                                                   " ]
+, [ 197, "F5FE8977-22B6-43EB-8041-3BBB487ABEA1", 197, 1505586807, "994730", 1505586807, "994730", null, "Engine 268/Ladder 137", "257 Beach 116th Street", "Queens", "11694", "40.580627", "-73.837683", "14", "32", "93402", "4304442", "4162120017", "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel                      " ]
+, [ 198, "3AC96D29-48C8-4718-A95C-4360669C164D", 198, 1505586807, "994730", 1505586807, "994730", null, "Engine 329", "402 Beach 169th Street", "Queens", "11695", "40.566034", "-73.881874", "84", "32", "918", "4307098", "4163250001", "park-cemetery-etc-Queens                                                   " ]
+, [ 199, "B9E3B415-A13A-47BD-A30C-6634A982DABE", 199, 1505586807, "994730", 1505586807, "994730", null, "Marine 9", "Saint George Ferry Terminal", "Staten Island", "10301", "40.644112", "-74.072559", "1", "49", "3", "5000000", "5000020001", "West New Brighton-New Brighton-St. George                                  " ]
+, [ 200, "797C2067-6C5E-486F-9E07-1ED526A3CE1E", 200, 1505586807, "994730", 1505586807, "994730", null, "Engine 155/Ladder 78", "14 Brighton Avenue", "Staten Island", "10301", "40.637734", "-74.087746", "1", "49", "77", "5002472", "5001030020", "West New Brighton-New Brighton-St. George                                  " ]
+, [ 201, "4231F562-11D5-4D0A-BC4A-BB3FB5923369", 201, 1505586807, "994730", 1505586807, "994730", null, "Ladder 79/Battalion 22", "1189 Castleton Avenue", "Staten Island", "10310", "40.63415", "-74.122199", "1", "49", "13302", "5005308", "5001980136", "West New Brighton-New Brighton-St. George                                  " ]
+, [ 202, "15F55AAC-66D9-4528-B818-446920DC6DFE", 202, 1505586807, "994730", 1505586807, "994730", null, "Engine 156", "412 Broadway", "Staten Island", "10310", "40.631093", "-74.116574", "1", "49", "125", "5005815", "5002170050", "West New Brighton-New Brighton-St. George                                  " ]
+, [ 203, "B2D3F0F7-1652-4BBC-BB33-DD4D2A75F260", 203, 1505586807, "994730", 1505586807, "994730", null, "Engine 163/Ladder 83", "875 Jewett Avenue", "Staten Island", "10314", "40.615251", "-74.130971", "1", "50", "151", "5010816", "5003770018", "Westerleigh                                                                " ]
+, [ 204, "5EEF554F-18DC-40D6-A3D2-81F57E7BBADE", 204, 1505586807, "994730", 1505586807, "994730", null, "Engine 153/Ladder 77", "74 Broad Street", "Staten Island", "10304", "40.625167", "-74.077772", "1", "49", "27", "5013836", "5005290009", "Stapleton-Rosebank                                                         " ]
+, [ 205, "46709FA3-0617-429C-856C-1C937AB92CE1", 205, 1505586807, "994730", 1505586807, "994730", null, "Engine 165/Ladder 85", "3067 Richmond Road", "Staten Island", "10306", "40.575827", "-74.123727", "2", "50", "181", "5023532", "5009490001", "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill                   " ]
+, [ 206, "57DD6E96-FC2F-444F-9AB4-DC4DDE68873F", 206, 1505586807, "994730", 1505586807, "994730", null, "Engine 157/Ladder 80", "1573 Castleton Avenue", "Staten Island", "10302", "40.636052", "-74.135343", "1", "49", "207", "5025442", "5010800002", "Port Richmond                                                              " ]
+, [ 207, "79E4F26D-0DD1-46B8-80D7-3EB7C3B6DF1D", 207, 1505586807, "994730", 1505586807, "994730", null, "Engine 158", "65 Harbor Road", "Staten Island", "10303", "40.635547", "-74.160224", "1", "49", "223", "5027755", "5012270025", "Mariner's Harbor-Arlington-Port Ivory-Graniteville                         " ]
+, [ 208, "8A03FBD6-3844-4A56-A501-7384355E721D", 208, 1505586807, "994730", 1505586807, "994730", null, "Engine 166/Ladder 86", "1400 Richmond Avenue", "Staten Island", "10314", "40.614265", "-74.157735", "2", "50", "29104", "5031692", "5016120005", "New Springville-Bloomfield-Travis                                          " ]
+, [ 209, "0CD3E379-615C-48DA-BB00-99F4A03C5056", 209, 1505586807, "994730", 1505586807, "994730", null, "Engine 154/District Office 8/ Staten Island Borough Command", "3730 Victory Boulevard", "Staten Island", "10314", "40.598213", "-74.180462", "2", "50", "29102", "5041882", "5026650025", "New Springville-Bloomfield-Travis                                          " ]
+, [ 210, "EC43DA6F-EDD3-47B7-B589-DBBE06315794", 210, 1505586807, "994730", 1505586807, "994730", null, "Engine 152/Battalion 21", "256 Hylan Boulevard", "Staten Island", "10305", "40.611873", "-74.070467", "1", "49", "8", "5042846", "5028560015", "Stapleton-Rosebank                                                         " ]
+, [ 211, "03DDDB74-ECFA-48B6-A694-924AEC13516C", 211, 1505586807, "994730", 1505586807, "994730", null, "Engine 161/Ladder 81", "278 Mc Clean Avenue", "Staten Island", "10305", "40.596826", "-74.070138", "2", "50", "74", "5045654", "5031080025", "Grasmere-Arrochar-Ft. Wadsworth                                            " ]
+, [ 212, "7C40D1B0-9ADF-42F3-B151-C91AB6681C9D", 212, 1505586807, "994730", 1505586807, "994730", null, "Engine 160/Rescue 5/Division 8", "1850 Clove Road", "Staten Island", "10304", "40.607485", "-74.089111", "2", "50", "50", "5046179", "5031530038", "Grasmere-Arrochar-Ft. Wadsworth                                            " ]
+, [ 213, "4E82D11D-5020-436D-A702-A403276FE18F", 213, 1505586807, "994730", 1505586807, "994730", null, "Engine 159", "1592 Richmond Road", "Staten Island", "10304", "40.590935", "-74.100895", "2", "50", "9602", "5048682", "5033060008", "Old Town-Dongan Hills-South Beach                                          " ]
+, [ 214, "895E202E-F558-49ED-9736-BF6DBEF7AFE8", 214, 1505586807, "994730", 1505586807, "994730", null, "Engine 162/Ladder 82/Battalion 23", "256 Nelson Avenue", "Staten Island", "10308", "40.543205", "-74.147097", "3", "51", "15601", "5067428", "5052710031", "Great Kills                                                                " ]
+, [ 215, "A46A099D-9BF2-4F96-B6C6-117A53967FD9", 215, 1505586807, "994730", 1505586807, "994730", null, "Engine 167/Ladder 87", "345 Annadale Road", "Staten Island", "10312", "40.554174", "-74.175809", "3", "51", "17012", "5075428", "5056420006", "Annadale-Huguenot-Prince's Bay-Eltingville                                 " ]
+, [ 216, "E5878E70-7E64-4530-A229-B5A07F82E7F2", 216, 1505586807, "994730", 1505586807, "994730", null, "Engine 164/Ladder 84", "1560 Drumgoole Road West", "Staten Island", "10312", "40.535332", "-74.195611", "3", "51", "20804", "5083491", "5068280065", "Rossville-Woodrow                                                          " ]
+, [ 217, "31D561B6-248E-47AC-BDFB-BB7043425A16", 217, 1505586807, "994730", 1505586807, "994730", null, "Engine 168/EMS Station 23", "1100 Rossville Avenue", "Staten Island", "10309", "40.553977", "-74.212812", "3", "51", "20801", "5154879", "5070670252", "Rossville-Woodrow                                                          " ]
+, [ 218, "02134CDC-430E-4123-A9A8-48EF79DE508E", 218, 1505586807, "994730", 1505586807, "994730", null, "Engine 151/Ladder 76", "7219 Amboy Road", "Staten Island", "10307", "40.512518", "-74.238822", "3", "51", "248", "5089056", "5080400010", "Charleston-Richmond Valley-Tottenville                                     " ]
+ ]
+}

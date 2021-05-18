@@ -1,0 +1,1345 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "e7d3-dxh5",
+      "name" : "2013 Housing Inventory",
+      "attribution" : "San Francisco Planning Department",
+      "attributionLink" : "http://www.sf-planning.org/ftp/files/publications_reports/Housing_Inventory_2013.pdf",
+      "averageRating" : 0,
+      "category" : "Housing and Buildings",
+      "createdAt" : 1399415531,
+      "description" : "Excel workbook of all housing construction from the 2013 Housing Inventory.",
+      "displayType" : "table",
+      "downloadCount" : 1238,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1474483596,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 13459942,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1443047701,
+      "publicationGroup" : 1571946,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1443047323,
+      "rowsUpdatedBy" : "hwt3-twww",
+      "tableId" : 4432448,
+      "totalTimesRated" : 0,
+      "viewCount" : 1336,
+      "viewLastModified" : 1474483504,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 223137417,
+        "name" : "STDADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "standardaddress",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586566,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 218,
+          "largest" : "99 NIAGARA AV",
+          "null" : 0,
+          "top" : [ {
+            "item" : "624 VISITACION AV",
+            "count" : 20
+          }, {
+            "item" : "633 LAKEVIEW AV",
+            "count" : 19
+          }, {
+            "item" : "6426 FULTON ST",
+            "count" : 18
+          }, {
+            "item" : "678 10TH AV",
+            "count" : 17
+          }, {
+            "item" : "725 14TH AV",
+            "count" : 16
+          }, {
+            "item" : "749 CORBETT AV",
+            "count" : 15
+          }, {
+            "item" : "775 CLEMENTINA ST",
+            "count" : 14
+          }, {
+            "item" : "838 KANSAS ST",
+            "count" : 13
+          }, {
+            "item" : "848 CAYUGA AV",
+            "count" : 12
+          }, {
+            "item" : "99 NIAGARA AV",
+            "count" : 11
+          }, {
+            "item" : "3962 CLAY ST",
+            "count" : 10
+          }, {
+            "item" : "1123 FOLSOM ST",
+            "count" : 9
+          }, {
+            "item" : "480 ELLIS ST",
+            "count" : 8
+          } ],
+          "smallest" : "1001 CALIFORNIA ST"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 223137418,
+        "name" : "PRJ_NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586567,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 15,
+          "largest" : "Venn Apartments",
+          "null" : 203,
+          "top" : [ {
+            "item" : "Trinity Place",
+            "count" : 20
+          }, {
+            "item" : "Rincon Green",
+            "count" : 19
+          }, {
+            "item" : "Nema",
+            "count" : 18
+          }, {
+            "item" : "Vara",
+            "count" : 17
+          }, {
+            "item" : "Rene Cazenave Apartments",
+            "count" : 16
+          }, {
+            "item" : "Venn Apartments",
+            "count" : 15
+          }, {
+            "item" : "Etta Apartments",
+            "count" : 14
+          }, {
+            "item" : "Helen Rogers Senior Community",
+            "count" : 13
+          }, {
+            "item" : "38 Dolores",
+            "count" : 12
+          }, {
+            "item" : "Bayview Hill Gardens",
+            "count" : 11
+          }, {
+            "item" : "300 Ivy",
+            "count" : 10
+          }, {
+            "item" : "Natoma Court Bridge Housing",
+            "count" : 9
+          }, {
+            "item" : "Pacific Terrace",
+            "count" : 8
+          }, {
+            "item" : "ICON",
+            "count" : 7
+          }, {
+            "item" : "3500 Nineteeth",
+            "count" : 6
+          } ],
+          "smallest" : "300 Ivy"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 223137419,
+        "name" : "BLOCK",
+        "dataTypeName" : "text",
+        "fieldName" : "block",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586568,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 218,
+          "largest" : "991",
+          "null" : 0,
+          "top" : [ {
+            "item" : "6250",
+            "count" : 20
+          }, {
+            "item" : "7053",
+            "count" : 19
+          }, {
+            "item" : "1683",
+            "count" : 18
+          }, {
+            "item" : "1635",
+            "count" : 17
+          }, {
+            "item" : "1657",
+            "count" : 16
+          }, {
+            "item" : "2755",
+            "count" : 15
+          }, {
+            "item" : "3729",
+            "count" : 14
+          }, {
+            "item" : "4093",
+            "count" : 13
+          }, {
+            "item" : "3209",
+            "count" : 12
+          }, {
+            "item" : "7031",
+            "count" : 11
+          }, {
+            "item" : "991",
+            "count" : 10
+          }, {
+            "item" : "3755",
+            "count" : 9
+          }, {
+            "item" : "323",
+            "count" : 8
+          } ],
+          "smallest" : "1028"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 223137420,
+        "name" : "LOT",
+        "dataTypeName" : "number",
+        "fieldName" : "lot",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19586569,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 194,
+          "average" : "23.89175257731959",
+          "largest" : "102",
+          "null" : 24,
+          "top" : [ {
+            "item" : "9",
+            "count" : 20
+          }, {
+            "item" : "8",
+            "count" : 19
+          }, {
+            "item" : "13",
+            "count" : 18
+          }, {
+            "item" : "1",
+            "count" : 17
+          }, {
+            "item" : "36",
+            "count" : 16
+          }, {
+            "item" : "2",
+            "count" : 15
+          }, {
+            "item" : "12",
+            "count" : 14
+          }, {
+            "item" : "4",
+            "count" : 13
+          }, {
+            "item" : "65",
+            "count" : 12
+          }, {
+            "item" : "22",
+            "count" : 11
+          }, {
+            "item" : "14",
+            "count" : 10
+          }, {
+            "item" : "25",
+            "count" : 9
+          }, {
+            "item" : "23",
+            "count" : 8
+          }, {
+            "item" : "20",
+            "count" : 7
+          }, {
+            "item" : "7",
+            "count" : 6
+          }, {
+            "item" : "3",
+            "count" : 5
+          }, {
+            "item" : "83",
+            "count" : 4
+          }, {
+            "item" : "11",
+            "count" : 3
+          }, {
+            "item" : "24",
+            "count" : 2
+          }, {
+            "item" : "29",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "4635"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137421,
+        "name" : "UNITS",
+        "dataTypeName" : "number",
+        "fieldName" : "units",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19586570,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 218,
+          "average" : "11.56422018348624",
+          "largest" : "418",
+          "null" : 0,
+          "top" : [ {
+            "item" : "418",
+            "count" : 20
+          }, {
+            "item" : "326",
+            "count" : 19
+          }, {
+            "item" : "317",
+            "count" : 18
+          }, {
+            "item" : "202",
+            "count" : 17
+          }, {
+            "item" : "120",
+            "count" : 16
+          }, {
+            "item" : "113",
+            "count" : 15
+          }, {
+            "item" : "107",
+            "count" : 14
+          }, {
+            "item" : "100",
+            "count" : 13
+          }, {
+            "item" : "81",
+            "count" : 12
+          }, {
+            "item" : "73",
+            "count" : 11
+          }, {
+            "item" : "-418",
+            "count" : 10
+          }, {
+            "item" : "63",
+            "count" : 9
+          }, {
+            "item" : "60",
+            "count" : 8
+          }, {
+            "item" : "54",
+            "count" : 7
+          }, {
+            "item" : "44",
+            "count" : 6
+          }, {
+            "item" : "41",
+            "count" : 5
+          }, {
+            "item" : "35",
+            "count" : 4
+          }, {
+            "item" : "23",
+            "count" : 3
+          }, {
+            "item" : "21",
+            "count" : 2
+          }, {
+            "item" : "20",
+            "count" : 1
+          } ],
+          "smallest" : "-418",
+          "sum" : "2521"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137422,
+        "name" : "NETUNITS",
+        "dataTypeName" : "number",
+        "fieldName" : "netunits",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19586571,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 218,
+          "average" : "8.990825688073394",
+          "largest" : "418",
+          "null" : 0,
+          "top" : [ {
+            "item" : "418",
+            "count" : 20
+          }, {
+            "item" : "326",
+            "count" : 19
+          }, {
+            "item" : "317",
+            "count" : 18
+          }, {
+            "item" : "202",
+            "count" : 17
+          }, {
+            "item" : "120",
+            "count" : 16
+          }, {
+            "item" : "113",
+            "count" : 15
+          }, {
+            "item" : "107",
+            "count" : 14
+          }, {
+            "item" : "100",
+            "count" : 13
+          }, {
+            "item" : "81",
+            "count" : 12
+          }, {
+            "item" : "73",
+            "count" : 11
+          }, {
+            "item" : "-418",
+            "count" : 10
+          }, {
+            "item" : "63",
+            "count" : 9
+          }, {
+            "item" : "60",
+            "count" : 8
+          }, {
+            "item" : "54",
+            "count" : 7
+          }, {
+            "item" : "44",
+            "count" : 6
+          }, {
+            "item" : "41",
+            "count" : 5
+          }, {
+            "item" : "35",
+            "count" : 4
+          }, {
+            "item" : "23",
+            "count" : 3
+          }, {
+            "item" : "21",
+            "count" : 2
+          }, {
+            "item" : "20",
+            "count" : 1
+          } ],
+          "smallest" : "-418",
+          "sum" : "1960"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137423,
+        "name" : "AFF_HSG",
+        "dataTypeName" : "number",
+        "fieldName" : "aff_hsg",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19586572,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 53,
+          "average" : "13.43396226415094",
+          "largest" : "120",
+          "null" : 165,
+          "top" : [ {
+            "item" : "63",
+            "count" : 20
+          }, {
+            "item" : "49",
+            "count" : 19
+          }, {
+            "item" : "38",
+            "count" : 18
+          }, {
+            "item" : "40",
+            "count" : 17
+          }, {
+            "item" : "120",
+            "count" : 16
+          }, {
+            "item" : "14",
+            "count" : 15
+          }, {
+            "item" : "0",
+            "count" : 14
+          }, {
+            "item" : "100",
+            "count" : 13
+          }, {
+            "item" : "73",
+            "count" : 12
+          }, {
+            "item" : "9",
+            "count" : 11
+          }, {
+            "item" : "60",
+            "count" : 10
+          }, {
+            "item" : "54",
+            "count" : 9
+          }, {
+            "item" : "44",
+            "count" : 8
+          }, {
+            "item" : "2",
+            "count" : 7
+          }, {
+            "item" : "1",
+            "count" : 6
+          }, {
+            "item" : "13",
+            "count" : 5
+          } ],
+          "smallest" : "0",
+          "sum" : "712"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137424,
+        "name" : "AFF_TARGET",
+        "dataTypeName" : "text",
+        "fieldName" : "aff_cat",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586573,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 46,
+          "largest" : "VLI",
+          "null" : 172,
+          "top" : [ {
+            "item" : "LI",
+            "count" : 20
+          }, {
+            "item" : "VLI",
+            "count" : 19
+          }, {
+            "item" : "MOD",
+            "count" : 18
+          }, {
+            "item" : "SEC",
+            "count" : 17
+          } ],
+          "smallest" : "LI"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 223137425,
+        "name" : "CNG_TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "change_type",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586574,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 139,
+          "largest" : "New Construction",
+          "null" : 79,
+          "top" : [ {
+            "item" : "New Construction",
+            "count" : 20
+          }, {
+            "item" : "Demolition",
+            "count" : 19
+          }, {
+            "item" : "Conversion",
+            "count" : 18
+          }, {
+            "item" : "Expansion",
+            "count" : 17
+          } ],
+          "smallest" : "Conversion"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 223137426,
+        "name" : "EXISTUSE",
+        "dataTypeName" : "text",
+        "fieldName" : "existuse",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586575,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 160,
+          "largest" : "VACANT LOT",
+          "null" : 58,
+          "top" : [ {
+            "item" : "TOURIST HOTEL/MOTEL",
+            "count" : 20
+          }, {
+            "item" : "VACANT LOT",
+            "count" : 19
+          }, {
+            "item" : "AUTO REPAIRS",
+            "count" : 18
+          }, {
+            "item" : "PRKNG GARAGE/PUBLIC",
+            "count" : 17
+          }, {
+            "item" : "APARTMENTS",
+            "count" : 16
+          }, {
+            "item" : "OFFICE",
+            "count" : 15
+          }, {
+            "item" : "FOOD/BEVERAGE HNDLNG",
+            "count" : 14
+          }, {
+            "item" : "RETAIL SALES",
+            "count" : 13
+          }, {
+            "item" : "1 FAMILY DWELLING",
+            "count" : 12
+          }, {
+            "item" : "2 FAMILY DWELLING",
+            "count" : 11
+          }, {
+            "item" : "STORAGE SHED",
+            "count" : 10
+          }, {
+            "item" : "CHURCH",
+            "count" : 9
+          }, {
+            "item" : "RESIDENTIAL HOTEL",
+            "count" : 8
+          } ],
+          "smallest" : "1 FAMILY DWELLING"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137427,
+        "name" : "PROPUSE",
+        "dataTypeName" : "text",
+        "fieldName" : "propuse",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586576,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 200,
+          "largest" : "RESIDENTIAL HOTEL",
+          "null" : 18,
+          "top" : [ {
+            "item" : "APARTMENTS",
+            "count" : 20
+          }, {
+            "item" : "ARTIST LIVE/WORK",
+            "count" : 19
+          }, {
+            "item" : "2 FAMILY DWELLING",
+            "count" : 18
+          }, {
+            "item" : "1 FAMILY DWELLING",
+            "count" : 17
+          }, {
+            "item" : "RESIDENTIAL HOTEL",
+            "count" : 16
+          } ],
+          "smallest" : "1 FAMILY DWELLING"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137428,
+        "name" : "ACTDATE",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "actdate",
+        "position" : 12,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 19586577,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 214,
+          "largest" : "2013-11-27T00:00:00",
+          "null" : 4,
+          "top" : [ {
+            "item" : "2013-09-06T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2013-01-30T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2013-06-18T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2013-07-11T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2013-09-10T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2013-08-28T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2013-06-19T00:00:00",
+            "count" : 14
+          } ],
+          "smallest" : "2013-01-02T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 223137429,
+        "name" : " Zoning",
+        "dataTypeName" : "text",
+        "fieldName" : "zoning",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586578,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 218,
+          "largest" : "UMU",
+          "null" : 0,
+          "top" : [ {
+            "item" : "RH-1 (D)",
+            "count" : 20
+          }, {
+            "item" : "RM-4",
+            "count" : 19
+          }, {
+            "item" : "RH-2",
+            "count" : 18
+          }, {
+            "item" : "RH-1",
+            "count" : 17
+          }, {
+            "item" : "RM-1",
+            "count" : 16
+          }, {
+            "item" : "RM-2",
+            "count" : 15
+          }, {
+            "item" : "C-3-G",
+            "count" : 14
+          }, {
+            "item" : "C-3-S",
+            "count" : 13
+          }, {
+            "item" : "RH-3",
+            "count" : 12
+          }, {
+            "item" : "RC-4",
+            "count" : 11
+          }, {
+            "item" : "NC-2",
+            "count" : 10
+          }, {
+            "item" : "UMU",
+            "count" : 9
+          }, {
+            "item" : "NCD-POLK STREET",
+            "count" : 8
+          }, {
+            "item" : "NC-1",
+            "count" : 7
+          }, {
+            "item" : "RH-2 ",
+            "count" : 6
+          }, {
+            "item" : "RTO",
+            "count" : 5
+          }, {
+            "item" : "RM-3",
+            "count" : 4
+          }, {
+            "item" : "NCT-3",
+            "count" : 3
+          }, {
+            "item" : "NCT-Mission",
+            "count" : 2
+          }, {
+            "item" : "NCD-TARAVAL STREET",
+            "count" : 1
+          } ],
+          "smallest" : "C-3-G"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137430,
+        "name" : "PD_NO",
+        "dataTypeName" : "number",
+        "fieldName" : "pd_no",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19586579,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 218,
+          "average" : "8.371559633027523",
+          "largest" : "15",
+          "null" : 0,
+          "top" : [ {
+            "item" : "12",
+            "count" : 20
+          }, {
+            "item" : "3",
+            "count" : 19
+          }, {
+            "item" : "9",
+            "count" : 18
+          }, {
+            "item" : "10",
+            "count" : 17
+          }, {
+            "item" : "6",
+            "count" : 16
+          }, {
+            "item" : "13",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          }, {
+            "item" : "15",
+            "count" : 13
+          }, {
+            "item" : "14",
+            "count" : 12
+          }, {
+            "item" : "11",
+            "count" : 11
+          }, {
+            "item" : "2",
+            "count" : 10
+          }, {
+            "item" : "5",
+            "count" : 9
+          }, {
+            "item" : "7",
+            "count" : 8
+          }, {
+            "item" : "8",
+            "count" : 7
+          }, {
+            "item" : "1",
+            "count" : 6
+          }, {
+            "item" : "0",
+            "count" : 5
+          } ],
+          "smallest" : "0",
+          "sum" : "1825"
+        },
+        "format" : { }
+      }, {
+        "id" : 223137431,
+        "name" : "SD_NO",
+        "dataTypeName" : "number",
+        "fieldName" : "supervisor",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 19586580,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 218,
+          "average" : "6.729357798165138",
+          "largest" : "11",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9",
+            "count" : 20
+          }, {
+            "item" : "3",
+            "count" : 19
+          }, {
+            "item" : "10",
+            "count" : 18
+          }, {
+            "item" : "11",
+            "count" : 17
+          }, {
+            "item" : "5",
+            "count" : 16
+          }, {
+            "item" : "6",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          }, {
+            "item" : "2",
+            "count" : 13
+          }, {
+            "item" : "8",
+            "count" : 12
+          }, {
+            "item" : "7",
+            "count" : 11
+          }, {
+            "item" : "1",
+            "count" : 10
+          }, {
+            "item" : "0",
+            "count" : 9
+          } ],
+          "smallest" : "0",
+          "sum" : "1467"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 223137432,
+        "name" : "PLANAREA",
+        "dataTypeName" : "text",
+        "fieldName" : "planarea",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19586581,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 78,
+          "largest" : "West Soma",
+          "null" : 140,
+          "top" : [ {
+            "item" : "Eastern Neighborhoods",
+            "count" : 20
+          }, {
+            "item" : "Bayview",
+            "count" : 19
+          }, {
+            "item" : "West Soma",
+            "count" : 18
+          }, {
+            "item" : "Mid-Market",
+            "count" : 17
+          }, {
+            "item" : "South of Market",
+            "count" : 16
+          }, {
+            "item" : "Van Ness Corridor",
+            "count" : 15
+          }, {
+            "item" : "A-2",
+            "count" : 14
+          }, {
+            "item" : "Visitacion Valley",
+            "count" : 13
+          }, {
+            "item" : "Market/Octavia",
+            "count" : 12
+          }, {
+            "item" : "Japantown",
+            "count" : 11
+          }, {
+            "item" : "Glen Park",
+            "count" : 10
+          }, {
+            "item" : "Fishermans Wharf",
+            "count" : 9
+          }, {
+            "item" : "Balboa Park",
+            "count" : 8
+          }, {
+            "item" : "Rincon Hill",
+            "count" : 7
+          }, {
+            "item" : "Geary Corridor",
+            "count" : 6
+          }, {
+            "item" : "Chinatown",
+            "count" : 5
+          } ],
+          "smallest" : "A-2"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "name"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "attachments" : [ {
+          "filename" : "CPC_DataDictionary_annual_housing_inventory.xlsx",
+          "assetId" : "Od74EZ2cyGmumtgfRCYeIUc8DAceo1fRTgyRFdqIa5U",
+          "blobId" : "",
+          "name" : "CPC_DataDictionary_annual_housing_inventory.xlsx"
+        } ],
+        "custom_fields" : {
+          "Department Metrics" : {
+            "Frequency" : "Annual",
+            "Publishing Department" : "Planning"
+          },
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Daily",
+            "Publishing frequency" : "Annually"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "hwt3-twww",
+        "displayName" : "Information & Analysis Group (IAG) - SFPlanning",
+        "roleName" : "editor",
+        "screenName" : "Information & Analysis Group (IAG) - SFPlanning",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 223137418,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "hwt3-twww",
+        "displayName" : "Information & Analysis Group (IAG) - SFPlanning",
+        "roleName" : "editor",
+        "screenName" : "Information & Analysis Group (IAG) - SFPlanning",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "2013", "housing", "new housing construction", "housing units", "net new units", "demolition", "merger", "conversion", "alteration", "housing stock", "housing inventory", "illegal units removed" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 11, "83528BEF-52F8-474A-BEA0-40845EA637C9", 11, 1399390336, "860520", 1399390336, "860520", "{\n}", "1190 MISSION ST", null, "3702", "52", "-418", "-418", null, "LI", "Demolition", null, null, "2013-07-30T00:00:00", "RH-1 (D)", "12", "9", null ]
+, [ 14, "D961B531-5C12-4E7F-963B-9EBE8E02E4B8", 14, 1399390336, "860520", 1399390336, "860520", "{\n}", "60 WEST POINT RD", null, "4624", "9", "54", "54", "54", "VLI", "New Construction", null, "APARTMENTS", "2013-07-18T00:00:00", "RH-2", "14", "5", null ]
+, [ 15, "A9C93F3A-9C27-4B82-9906-D1996921BD64", 15, 1399390336, "860520", 1399390336, "860520", "{\n}", "374 05TH ST", null, "3753", "8", "44", "44", "44", "LI", "Conversion", "TOURIST HOTEL/MOTEL", "APARTMENTS", "2013-10-02T00:00:00", "RH-2", "14", "5", null ]
+, [ 17, "D635802C-9DF9-4DDA-9F76-E96AE785BF3C", 17, 1399390336, "860520", 1399390336, "860520", "{\n}", "1461 PINE ST", null, "668", "13", "35", "35", "0", null, "New Construction", null, "APARTMENTS", "2013-03-14T00:00:00", "RH-1", "12", "9", null ]
+, [ 18, "4028E669-C0C0-4341-97E6-99EF4B216669", 18, 1399390336, "860520", 1399390336, "860520", "{\n}", "48 HARRIET ST", null, "3731", "102", "23", "23", "0", null, "New Construction", null, "APARTMENTS", "2013-02-20T00:00:00", "RH-1", "11", "9", null ]
+, [ 1, "C93BA216-03B8-478D-BE6C-FB6C37A17B21", 1, 1399390336, "860520", 1399400730, "860520", "{\n}", "1190 MISSION ST", "Trinity Place", "3702", "52", "418", "418", "63", "LI", "New Construction", null, null, "2013-10-03T00:00:00", "RH-1 (D)", "12", "9", null ]
+, [ 2, "ACC88E4F-D09E-4834-9631-27B629AD8388", 2, 1399390336, "860520", 1399400743, "860520", "{\n}", "333 HARRISON ST", "Rincon Green", "3766", "9", "326", "326", "49", "LI", "New Construction", null, "APARTMENTS", "2013-02-27T00:00:00", "RM-4", "3", "3", null ]
+, [ 3, "C4A52E22-80A4-4A8B-A8A2-D2810054C83F", 3, 1399390336, "860520", 1399400772, "860520", null, "1407 MARKET ST", "Nema", "3507", "41", "317", "317", "38", "LI", "New Construction", null, null, null, "RH-2", "9", "10", "Eastern Neighborhoods" ]
+, [ 4, "E5CAAEDE-FE49-4A21-8763-6CC85F1C31A0", 4, 1399390336, "860520", 1399400779, "860520", null, "1880 MISSION ST", "Vara", "3547", "29", "202", "202", "40", "LI", "New Construction", null, "APARTMENTS", "2013-09-30T00:00:00", "RH-1", "12", "11", null ]
+, [ 5, "8A102761-5B02-49A8-9430-5DD932079AE8", 5, 1399390336, "860520", 1399400789, "860520", null, "25 ESSEX ST", "Rene Cazenave Apartments", "3749", "64", "120", "120", "120", "VLI", "New Construction", null, "APARTMENTS", "2013-11-22T00:00:00", "RM-1", "10", "10", "Bayview" ]
+, [ 6, "4B473A90-5EAF-4DC3-BE6E-5432BA605857", 6, 1399390336, "860520", 1399400813, "860520", "{\n}", "1844 MARKET ST", "Venn Apartments", "871", "16", "113", "113", "14", "LI", "New Construction", null, null, null, "RM-2", "6", "5", null ]
+, [ 7, "D66EB982-8BA1-4CD6-BC10-3E6864743366", 7, 1399390336, "860520", 1399400817, "860520", "{\n}", "1285 SUTTER ST", "Etta Apartments", "691", "8", "107", "107", "0", null, "New Construction", null, "APARTMENTS", "2013-09-30T00:00:00", "RH-1", "9", "6", "West Soma" ]
+, [ 9, "32C321A8-9C39-431A-B665-8CAD6189FAB4", 9, 1399390336, "860520", 1399400826, "860520", "{\n}", "38 DOLORES ST", "38 Dolores", "3535", "1", "81", "81", "0", null, "New Construction", null, "APARTMENTS", "2013-11-20T00:00:00", "RH-1", "13", "11", null ]
+, [ 8, "166CA680-6D7F-423D-BD8F-A05D708BE67B", 8, 1399390336, "860520", 1399400847, "860520", "{\n}", "701 GOLDEN GATE AV", "Helen Rogers Senior Community", "768", "13", "100", "100", "100", "VLI", "New Construction", null, "APARTMENTS", "2013-02-27T00:00:00", "RM-2", "6", "5", null ]
+, [ 10, "0736F834-674B-42D4-872B-603531EC7381", 10, 1399390336, "860520", 1399400858, "860520", "{\n}", "1075 LE CONTE AV", "Bayview Hill Gardens", "5476", "9", "73", "73", "73", "VLI", "New Construction", null, "APARTMENTS", "2013-11-18T00:00:00", "C-3-G", "4", "6", "Mid-Market" ]
+, [ 13, "E14E54B5-781F-4642-B749-FA2BB59721D4", 13, 1399390336, "860520", 1399400869, "860520", "{\n}", "474 NATOMA", "Natoma Court Bridge Housing", "3725", "101", "60", "60", "60", "VLI", "New Construction", null, "APARTMENTS", null, "C-3-S", "4", "6", "South of Market" ]
+, [ 12, "33293585-C6EE-4BA5-9D18-5D3356EE6114", 12, 1399390336, "860520", 1399400884, "860520", "{\n}", "401 GROVE ST", "300 Ivy", "808", "36", "63", "63", "9", "MOD", "New Construction", null, null, null, "RH-2", "15", "4", null ]
+, [ 16, "0F824F34-124A-4813-9F83-D05789C6AAED", 16, 1399390336, "860520", 1399400911, "860520", "{\n}", "1591 PACIFIC AV", "Pacific Terrace", "596", "24", "41", "41", "0", null, "New Construction", null, "APARTMENTS", "2013-06-19T00:00:00", "RH-2", "9", "10", "Eastern Neighborhoods" ]
+, [ 19, "084E55DD-E657-4863-B0A5-01EE79AB742E", 19, 1399390336, "860520", 1399390336, "860520", "{\n}", "1301 DIVISADERO ST", null, "1101", "48", "21", "21", null, null, "New Construction", "VACANT LOT", "APARTMENTS", "2013-08-19T00:00:00", "RM-1", "2", "2", null ]
+, [ 20, "61449829-11E0-4D1B-A66F-DB0B7DB041A4", 20, 1399390336, "860520", 1399390336, "860520", "{\n}", "2652 HARRISON ST", null, "3639", "2", "20", "20", "0", null, "New Construction", null, "APARTMENTS", "2013-10-18T00:00:00", "RH-3", "3", "2", null ]
+, [ 21, "802F124D-042A-44DD-AF46-4EE42C21D517", 21, 1399390336, "860520", 1399390336, "860520", "{\n}", "1816 EDDY ST", null, "1127", "64", "19", "19", null, null, "Conversion", "VACANT LOT", "APARTMENTS", "2013-05-15T00:00:00", "RC-4", "4", "3", "Van Ness Corridor" ]
+, [ 24, "0F45A039-AB87-4091-B1C3-601BE367EC39", 24, 1399390336, "860520", 1399390336, "860520", "{\n}", "616 20TH ST", null, "4058", "8", "16", "16", "2", "MOD", "New Construction", null, "APARTMENTS", "2013-11-21T00:00:00", "RH-2", "14", "5", null ]
+, [ 25, "808DC4A3-B6B8-44EB-B4D6-874E63533CD9", 25, 1399390336, "860520", 1399390336, "860520", "{\n}", "2829 CALIFORNIA ST", null, "1028", "28", "13", "13", "2", "MOD", "New Construction", null, "APARTMENTS", "2013-02-06T00:00:00", "RH-1", "12", "11", null ]
+, [ 26, "C62CCD5D-C6BB-404A-8AAC-6EB9FB7BD62D", 26, 1399390336, "860520", 1399390336, "860520", "{\n}", "537 NATOMA ST", null, "3726", "47", "13", "13", "1", "MOD", "New Construction", null, "APARTMENTS", "2013-04-15T00:00:00", "RH-2", "7", "8", null ]
+, [ 27, "15F5E059-6346-4A72-8555-022E785BA855", 27, 1399390336, "860520", 1399390336, "860520", "{\n}", "61 WEST POINT RD", null, "4624", "4", "13", "13", "13", "VLI", "New Construction", null, "APARTMENTS", "2013-04-09T00:00:00", "UMU", "8", "9", "Eastern Neighborhoods" ]
+, [ 28, "0CE62465-74D4-459F-BF15-975B1D8F1894", 28, 1399390336, "860520", 1399390336, "860520", "{\n}", "200 DOLORES ST", null, "3557", "63", "10", "10", "2", "MOD", "New Construction", null, "APARTMENTS", "2013-09-13T00:00:00", "UMU", "8", "9", "Eastern Neighborhoods" ]
+, [ 29, "F7C67BE5-1876-4E13-96F1-CD395CE185DC", 29, 1399390336, "860520", 1399390336, "860520", "{\n}", "3135 24TH ST", null, "6520", "36", "9", "9", null, null, "Conversion", "AUTO REPAIRS", "APARTMENTS", "2013-09-26T00:00:00", "UMU", "8", "9", "Eastern Neighborhoods" ]
+, [ 30, "EF36142A-EC6A-416E-B048-261138669F3E", 30, 1399390336, "860520", 1399390336, "860520", "{\n}", "1945 HYDE ST", null, "123", "2", "7", "7", "0", null, "Conversion", "PRKNG GARAGE/PUBLIC", "APARTMENTS", "2013-11-26T00:00:00", "RM-1", "12", "11", null ]
+, [ 31, "781515E6-359E-45FD-9B67-7E8CAEF2AF40", 31, 1399390336, "860520", 1399390336, "860520", "{\n}", "3575 KEITH ST", null, "5476", "17", "7", "7", null, null, "New Construction", null, "APARTMENTS", "2013-07-15T00:00:00", "RH-2", "15", "4", null ]
+, [ 32, "2782F0ED-8E3C-41F2-80F5-03FBD4964278", 32, 1399390336, "860520", 1399390336, "860520", "{\n}", "248 OCEAN AV", null, "3211", "9", "5", "5", null, null, "Conversion", "VACANT LOT", "APARTMENTS", "2013-08-01T00:00:00", "RH-1", "15", "4", null ]
+, [ 33, "0B774DE9-A6A9-4F63-B842-0112C34F387D", 33, 1399390336, "860520", 1399390336, "860520", "{\n}", "1268 LOMBARD ST", null, "500", "15", "4", "4", null, null, "New Construction", null, "APARTMENTS", "2013-10-11T00:00:00", "RH-2", "15", "4", null ]
+, [ 34, "66472460-F6E7-4FF0-8E5A-19C032BBE68C", 34, 1399390336, "860520", 1399390336, "860520", "{\n}", "2130 POST ST", null, "681", "39", "71", "4", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-09-05T00:00:00", "RH-2", "15", "4", null ]
+, [ 35, "C0475634-EDB9-4930-ABEE-A2326EA393B0", 35, 1399390336, "860520", 1399390336, "860520", "{\n}", "333 RANDOLPH ST", null, "7118", "49", "4", "4", null, null, "Conversion", "OFFICE", "ARTIST LIVE/WORK", "2013-10-17T00:00:00", "RH-1", "13", "7", null ]
+, [ 36, "2F4A3DA8-36DA-4CC8-9CEF-1A412D9957F8", 36, 1399390336, "860520", 1399390336, "860520", "{\n}", "960 HARRISON ST", null, "3753", "21", "4", "4", null, null, "Conversion", "OFFICE", "APARTMENTS", "2013-06-04T00:00:00", "RH-2", "14", "5", null ]
+, [ 37, "C330BB31-60BF-40B4-9667-C4F610567311", 37, 1399390336, "860520", 1399390336, "860520", "{\n}", "1340 NATOMA ST", null, "3548", "65", "3", "3", null, null, "Conversion", "VACANT LOT", "APARTMENTS", "2013-09-03T00:00:00", "RH-1 (D)", "14", "7", null ]
+, [ 38, "84CA864E-4434-4B07-8EF1-1CA070D2B6BE", 38, 1399390336, "860520", 1399390336, "860520", "{\n}", "1340 NATOMA ST", null, "3548", "65", "3", "3", null, null, "New Construction", null, "APARTMENTS", "2013-08-28T00:00:00", "RH-1", "11", "9", null ]
+, [ 39, "7D836589-81EF-4A1C-9759-E7F45502DCF7", 39, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"003E\"\n  }\n}", "1456 CHESTNUT ST", null, "480", null, "3", "3", null, null, "New Construction", null, "APARTMENTS", "2013-03-29T00:00:00", "RH-1", "11", "9", null ]
+, [ 40, "665040E1-6CFC-4B66-8CBC-2300D83AABB9", 40, 1399390336, "860520", 1399390336, "860520", "{\n}", "210 17TH AV", null, "1417", "31", "3", "3", null, null, "New Construction", null, "APARTMENTS", "2013-02-07T00:00:00", "C-3-G", "4", "6", "Mid-Market" ]
+, [ 41, "A8E654BA-59CE-4507-AFFA-15D038D2C6F5", 41, 1399390336, "860520", 1399390336, "860520", "{\n}", "547 GROVE ST", null, "807", "22", "3", "3", null, null, "New Construction", null, "APARTMENTS", "2013-01-31T00:00:00", "RH-1", "13", "11", null ]
+, [ 42, "E070D128-0003-4C7C-8AFC-221A2ADA5E60", 42, 1399390336, "860520", 1399390336, "860520", "{\n}", "995 SUTTER ST", null, "300", "12", "3", "3", null, null, "Expansion", null, "APARTMENTS", "2013-04-24T00:00:00", "RH-2", "7", "8", null ]
+, [ 43, "4583411B-A5DD-4282-A0DF-4DB8A6D4A9D6", 43, 1399390336, "860520", 1399390336, "860520", "{\n}", "999 SUTTER ST", null, "300", "12", "3", "3", null, null, "New Construction", null, "APARTMENTS", "2013-05-01T00:00:00", "RH-3", "2", "2", null ]
+, [ 44, "80788A61-40DC-4F35-B590-D9DC2D484C4F", 44, 1399390336, "860520", 1399390336, "860520", "{\n}", "1001 CALIFORNIA ST", null, "254", "80", "14", "2", null, null, "Conversion", "FOOD/BEVERAGE HNDLNG", "APARTMENTS", "2013-01-08T00:00:00", "RH-3", "2", "2", null ]
+, [ 45, "9FA4165E-C20A-4093-9311-E89299E4575B", 45, 1399390336, "860520", 1399390336, "860520", "{\n}", "1654 CHESTNUT ST", null, "482", "14", "2", "2", null, null, "New Construction", null, "2 FAMILY DWELLING", "2013-03-29T00:00:00", "NCD-POLK STREET", "3", "3", null ]
+, [ 46, "C6CB769C-25BD-4801-B92D-65F3073AABFB", 46, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"028A\"\n  }\n}", "2135 GREENWICH ST", null, "516", null, "2", "2", null, null, "New Construction", null, "2 FAMILY DWELLING", "2013-03-21T00:00:00", "RH-1", "13", "7", null ]
+, [ 47, "3909F918-7D8C-4A81-BF4B-A7B7C04BEF24", 47, 1399390336, "860520", 1399390336, "860520", "{\n}", "2239 TARAVAL ST", null, "2393", "42", "2", "2", null, null, "Conversion", "RETAIL SALES", "2 FAMILY DWELLING", "2013-10-23T00:00:00", "RH-1", "15", "4", null ]
+, [ 48, "06A3B354-0C45-42F6-B6D1-928E7FBF7782", 48, 1399390336, "860520", 1399390336, "860520", "{\n}", "226 CABRILLO ST", null, "1641", "26", "2", "2", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-03-08T00:00:00", "RH-1", "13", "11", null ]
+, [ 49, "6EEE09BE-9281-4178-BBB6-B30705C2DE04", 49, 1399390336, "860520", 1399390336, "860520", "{\n}", "230 LILY ST", null, "839", "25", "8", "2", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-05-15T00:00:00", "RH-1", "11", "9", null ]
+, [ 50, "79443416-B924-4DF8-8905-B154A45EC48C", 50, 1399390336, "860520", 1399390336, "860520", "{\n}", "236 LILY ST", null, "839", "25", "8", "2", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-08-01T00:00:00", "RH-2", "10", "10", "Bayview" ]
+, [ 51, "4E841A6A-FA4A-4A89-9EF9-AB862320F2BF", 51, 1399390336, "860520", 1399390336, "860520", "{\n}", "309 MORAGA ST", null, "2040", "1", "2", "2", null, null, "New Construction", null, null, "2013-01-08T00:00:00", "RH-3", "2", "2", null ]
+, [ 52, "965DDFD3-7A1B-42FF-A897-173363DAF564", 52, 1399390336, "860520", 1399390336, "860520", "{\n}", "313 MORAGA ST", null, "2040", "1", "2", "2", null, null, "New Construction", null, null, "2013-01-08T00:00:00", "RH-2", "10", "10", "Bayview" ]
+, [ 23, "D85BA7F7-3448-44E8-8C7A-E418230F3770", 23, 1399390336, "860520", 1399400932, "860520", "{\n}", "3500 19TH ST", "3500 Nineteeth", "3588", "12", "17", "17", null, null, "New Construction", null, "APARTMENTS", "2013-11-26T00:00:00", "RH-2", "15", "4", null ]
+, [ 53, "F30610B0-B1C6-44B3-AD93-1CEA05EAA1BD", 53, 1399390336, "860520", 1399390336, "860520", "{\n}", "315 MORAGA ST", null, "2040", "1", "2", "2", null, null, "New Construction", null, "2 FAMILY DWELLING", "2013-01-08T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 54, "A023E8C0-BE6D-4DD7-B83A-9C71A4587D45", 54, 1399390336, "860520", 1399390336, "860520", "{\n}", "335 OAK ST", null, "839", "25", "8", "2", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-05-15T00:00:00", "NCD-POLK STREET", "3", "3", null ]
+, [ 55, "38228024-20C9-4F06-9550-DE77C23DC1AE", 55, 1399390336, "860520", 1399390336, "860520", "{\n}", "339 OAK ST", null, "839", "25", "8", "2", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-08-01T00:00:00", "RH-1", "15", "4", null ]
+, [ 56, "29FBF734-6EB8-4303-9CFC-A425A4C31401", 56, 1399390336, "860520", 1399390336, "860520", "{\n}", "1022 RHODE ISLAND ST", null, "4158", "2", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-18T00:00:00", "RH-3", "2", "2", null ]
+, [ 57, "50DB654C-5D2B-4A5A-9709-E6272CFD9260", 57, 1399390336, "860520", 1399390336, "860520", "{\n}", "1122 PAGE ST", null, "1219", "8", "4", "1", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-10-28T00:00:00", "RH-3", "2", "2", null ]
+, [ 58, "B32B05A9-2A4C-4662-A834-F80A75CBDFE0", 58, 1399390336, "860520", 1399390336, "860520", "{\n}", "118 BRODERICK ST", null, "1237", "23", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-02-06T00:00:00", "RH-1", "12", "11", null ]
+, [ 59, "01F66081-40AB-40FB-A663-0CC41B580981", 59, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"015A\"\n  }\n}", "1267 BAY ST", null, "473", null, "3", "1", null, null, "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-11-19T00:00:00", "NC-1", "7", "8", null ]
+, [ 60, "DFDC3359-969D-42F1-A1D9-490199AA486F", 60, 1399390336, "860520", 1399390336, "860520", "{\n}", "134 ORD ST", null, "2657", "4", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-05-03T00:00:00", "RH-2", "7", "8", null ]
+, [ 61, "3B54ED3D-8AB9-4496-9204-691A044631EB", 61, 1399390336, "860520", 1399390336, "860520", "{\n}", "1370 35TH AV", null, "1789", "22", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-06-14T00:00:00", "RH-1", "12", "10", "Visitacion Valley" ]
+, [ 62, "BAD47F26-69D0-4159-894F-DB731F859F99", 62, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"019B\"\n  }\n}", "1391 08TH AV", null, "1763", null, "18", "1", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-09-16T00:00:00", "RH-2 ", "1", "1", null ]
+, [ 63, "6E55773C-4115-44EB-B5B0-9970A66EFD3A", 63, 1399390336, "860520", 1399390336, "860520", "{\n}", "14 COSTA ST", null, "5557", "8", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-02-11T00:00:00", "RH-2", "10", "10", "Bayview" ]
+, [ 64, "9C5171F8-6A27-4F00-8701-257496E030C9", 64, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"022A\"\n  }\n}", "1443 CHURCH ST", null, "6566", null, "2", "1", null, null, "Expansion", "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-21T00:00:00", "NC-1", "7", "8", null ]
+, [ 65, "BEA5496C-E114-4EC5-AAE7-8123C607F4FE", 65, 1399390336, "860520", 1399390336, "860520", "{\n}", "152 ELSIE ST", null, "5618", "20", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-09-20T00:00:00", "RH-2", "10", "10", "Bayview" ]
+, [ 66, "C44592E8-472F-4E21-8348-D4CE2A4D4FA5", 66, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"002E\"\n  }\n}", "1536 FRANCISCO ST", null, "471", null, "3", "1", "1", "SEC", "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-10-08T00:00:00", "RH-2", "10", "10", "Bayview" ]
+, [ 67, "90CAB069-0D20-4EB5-95E2-31FA1B45286E", 67, 1399390336, "860520", 1399390336, "860520", "{\n}", "157 APOLLO ST", null, "5405", "23", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-07-22T00:00:00", "RH-1", "7", "8", null ]
+, [ 68, "2FDA226F-8370-4BE5-AB92-1137C4B8D2A2", 68, 1399390336, "860520", 1399390336, "860520", "{\n}", "1650 CHESTNUT ST", null, "482", "14", "2", "1", null, null, "Expansion", "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-21T00:00:00", "RTO", "8", "8", "Market/Octavia" ]
+, [ 69, "6A23F9F6-6481-4C5E-9507-F9171113CB05", 69, 1399390336, "860520", 1399390336, "860520", "{\n}", "1671 CHURCH ST", null, "6618", "23", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-01-04T00:00:00", "RM-3", "5", "5", "A-2" ]
+, [ 70, "B062EB30-C924-41F8-AAFE-8A28F2243199", 70, 1399390336, "860520", 1399390336, "860520", "{\n}", "169 DELTA ST", null, "6202", "46", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-08-30T00:00:00", "NCT-3", "6", "8", "Market/Octavia" ]
+, [ 71, "C307B0CC-FAEA-4FD0-B1DB-3E296E464FC8", 71, 1399390336, "860520", 1399390336, "860520", "{\n}", "1719 PALOU AV", null, "5328", "53", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-28T00:00:00", "RH-2", "13", "11", null ]
+, [ 72, "EAE6062B-3C95-4A57-8EA2-92995A4CD384", 72, 1399390336, "860520", 1399390336, "860520", "{\n}", "1721 CHURCH ST", null, "6633", "20", "1", "1", "1", "SEC", "Conversion", "STORAGE SHED", "1 FAMILY DWELLING", "2013-11-13T00:00:00", "NCT-Mission", "8", "9", "Eastern Neighborhoods" ]
+, [ 73, "EB80B5BD-FCCB-4109-888E-D4F867EA7668", 73, 1399390336, "860520", 1399390336, "860520", "{\n}", "1765 QUESADA AV", null, "5338", "56", "2", "1", null, null, "Expansion", "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-13T00:00:00", "RH-1", "15", "4", null ]
+, [ 74, "C04BCCCA-7D96-4BF9-A415-C575C6E14E4E", 74, 1399390336, "860520", 1399390336, "860520", "{\n}", "1786 MCKINNON AV", null, "5297", "23", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-11T00:00:00", "NC-1", "3", "3", null ]
+, [ 75, "CEFBAAF4-AA93-4E57-966F-BCCA51985F49", 75, 1399390336, "860520", 1399390336, "860520", "{\n}", "188 BROAD ST", null, "7107", "23", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-07-01T00:00:00", "RH-2", "2", "2", null ]
+, [ 76, "9CEA3E9D-B5FC-4082-8F9A-93D278DAE105", 76, 1399390336, "860520", 1399390336, "860520", "{\n}", "2082 PINE ST", null, "651", "10", "3", "1", "1", "SEC", "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-04-10T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 77, "F5EC3974-8B18-42F3-999E-1BED2F1CA1CC", 77, 1399390336, "860520", 1399390336, "860520", "{\n}", "2192 FUNSTON AV", null, "2205", "35", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-02-07T00:00:00", "RTO", "7", "8", "Market/Octavia" ]
+, [ 78, "ECD4961F-FE59-4314-B049-13BE08D4F8D1", 78, 1399390336, "860520", 1399390336, "860520", "{\n}", "2224 CASTRO ST", null, "7536", "37", "2", "1", null, null, "Expansion", "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-15T00:00:00", "RH-1", "12", "11", null ]
+, [ 79, "0251DCEA-107F-460B-9E76-D8CA0C24B53F", 79, 1399390336, "860520", 1399390336, "860520", "{\n}", "2258 15TH ST", null, "3540", "23", "3", "1", null, null, "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-04-15T00:00:00", "RH-2", "5", "5", "Japantown" ]
+, [ 80, "BB47E332-24C6-4CA7-AF8E-5EDCC10E9839", 80, 1399390336, "860520", 1399390336, "860520", "{\n}", "2260 15TH ST", null, "3540", "23", "3", "1", "1", "SEC", "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-05-31T00:00:00", "NC-1", "1", "1", null ]
+, [ 81, "614FD117-752A-42E7-BCA5-90181066FD0E", 81, 1399390336, "860520", 1399390336, "860520", "{\n}", "2335 DIAMOND ST", null, "7551", "17", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-04-04T00:00:00", "RM-3", "5", "5", null ]
+, [ 82, "774B7346-D900-46D8-A8B1-5471EA325DA7", 82, 1399390336, "860520", 1399390336, "860520", "{\n}", "234 09TH ST", null, "3518", "4", "1", "1", null, null, "Conversion", "OFFICE", "1 FAMILY DWELLING", "2013-06-04T00:00:00", "RH-3", "2", "2", null ]
+, [ 83, "9DC4BEF2-E4F4-4D22-AEC6-FEC2A499D1D1", 83, 1399390336, "860520", 1399390336, "860520", "{\n}", "26 CHENERY ST", null, "6656", "5", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-08-01T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 84, "D160E514-FA9D-40DE-AFBA-30F167E196B8", 84, 1399390336, "860520", 1399390336, "860520", "{\n}", "260 ARBOR ST", null, "7554", "7", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-03-08T00:00:00", "RH-1", "14", "7", null ]
+, [ 85, "72EE2A4C-FC91-4528-8504-2C10ECD62D91", 85, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"029A\"\n  }\n}", "273 MAGELLAN AV", null, "2864", null, "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-09-26T00:00:00", "C-3-G", "4", "6", null ]
+, [ 86, "08953679-59DE-4700-ACBC-4D6CFF834FFE", 86, 1399390336, "860520", 1399390336, "860520", "{\n}", "28 PRECITA AV", null, "5518", "23", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-02-07T00:00:00", "RH-2", "7", "8", null ]
+, [ 87, "FF961DD5-8064-418B-8649-88417B3FF9B8", 87, 1399390336, "860520", 1399390336, "860520", "{\n}", "283 GRANADA AV", null, "6941", "2", "1", "1", null, null, "Conversion", "STORAGE SHED", "1 FAMILY DWELLING", "2013-07-03T00:00:00", "NCD-TARAVAL STREET", "15", "4", null ]
+, [ 88, "82704348-4C10-4052-AF5A-0386F7D2D563", 88, 1399390336, "860520", 1399390336, "860520", "{\n}", "30 CONRAD ST", null, "7552", "3", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-10-15T00:00:00", "RH-3", "6", "8", null ]
+, [ 89, "EC7FD596-2281-4E9C-BD78-DDCCF4EF0F96", 89, 1399390336, "860520", 1399390336, "860520", "{\n}", "31 PARNASSUS AV", null, "1279", "83", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-19T00:00:00", "RH-2", "1", "1", null ]
+, [ 90, "A7849644-2165-41E5-8DEC-4330075706B1", 90, 1399390336, "860520", 1399390336, "860520", "{\n}", "31 PARNASSUS AV", null, "1279", "83", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-01-23T00:00:00", "RH-3", "6", "8", null ]
+, [ 91, "3A5685DF-7502-4AE7-9D3D-08F8B85EA137", 91, 1399390336, "860520", 1399390336, "860520", "{\n}", "312 CONNECTICUT ST", null, "4035", "3", "1", "1", null, null, "Conversion", "CHURCH", "1 FAMILY DWELLING", "2013-10-16T00:00:00", "RH-2", "7", "8", null ]
+, [ 92, "FC20D3EE-F3F1-43D6-B456-CC30DF288D66", 92, 1399390336, "860520", 1399390336, "860520", "{\n}", "338 SOUTH VAN NESS AV", null, "3548", "7", "3", "1", null, null, "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-04-18T00:00:00", "NCT-UPPER MARKET", "7", "8", null ]
+, [ 93, "FE5372C5-2152-4C60-B2DE-C5090D478957", 93, 1399390336, "860520", 1399390336, "860520", "{\n}", "34 PLEASANT ST", null, "221", "20", "3", "1", "1", "SEC", "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-11-06T00:00:00", "RM-1", "1", "1", null ]
+, [ 94, "BE870A34-583D-4206-B540-731F376B6209", 94, 1399390336, "860520", 1399390336, "860520", "{\n}", "351 17TH AV", null, "1449", "11", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-28T00:00:00", "RTO", "6", "5", "Market/Octavia" ]
+, [ 95, "DD601190-A01E-4403-9244-143BB8F92885", 95, 1399390336, "860520", 1399390336, "860520", "{\n}", "371 VERNON ST", null, "7004", "4", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-11-26T00:00:00", "RH-1", "7", "8", null ]
+, [ 96, "68C5F37A-DE53-4ACB-9BE3-55865F4D5B4D", 96, 1399390336, "860520", 1399390336, "860520", "{\n}", "38 FLORA ST", null, "5355", "10", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-06-10T00:00:00", "RCD", "9", "6", "West Soma" ]
+, [ 97, "0BDC9117-9FD3-413B-A885-34A1D1E525C9", 97, 1399390336, "860520", 1399390336, "860520", "{\n}", "3977 25TH ST", null, "6549", "31", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-11-06T00:00:00", "RTO", "6", "5", "Market/Octavia" ]
+, [ 98, "4B1CEE7B-2ED9-4C77-8A9E-1C8FFE8C56A0", 98, 1399390336, "860520", 1399390336, "860520", "{\n}", "40 ELGIN PK", null, "3502", "76", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-09-20T00:00:00", "RH-1", "15", "4", null ]
+, [ 99, "4FA4138E-C831-49DF-9923-E52178146DD9", 99, 1399390336, "860520", 1399390336, "860520", "{\n}", "42 MIRAMAR AV", null, "7016", "33", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-04-12T00:00:00", "RH-1", "15", "4", null ]
+, [ 100, "928F10F3-40CC-4E81-9E71-A9BE2FF5D945", 100, 1399390336, "860520", 1399390336, "860520", "{\n}", "42 NEWMAN ST", null, "5715", "1", "2", "1", null, null, "Conversion", "OFFICE", "2 FAMILY DWELLING", "2013-06-19T00:00:00", "RH-2", "12", "11", "Glen Park" ]
+, [ 101, "6B2F95B6-D09C-42DE-9B01-4F5C5C55B9EF", 101, 1399390336, "860520", 1399390336, "860520", "{\n}", "4324 ANZA ST", null, "1510", "22", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-02T00:00:00", "NC-1", "12", "11", null ]
+, [ 102, "8A2935E5-05EB-4A66-BA1D-F27463C848E6", 102, 1399390336, "860520", 1399390336, "860520", "{\n}", "436 MORAGA ST", null, "1933", "24", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-10T00:00:00", "DTR-Transbay        DTR- Rincon Hill", "0", "0", null ]
+, [ 103, "B4821D82-3DA6-4BBC-89EA-749E193F8301", 103, 1399390336, "860520", 1399390336, "860520", "{\n}", "443 VERNON ST", null, "6995", "55", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-03-19T00:00:00", "RH-1", "12", "11", null ]
+, [ 104, "267A8079-79B0-41F2-9A4D-2BD0D5D71D9B", 104, 1399390336, "860520", 1399390336, "860520", "{\n}", "444 IVY ST", null, "807", "22", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-07-29T00:00:00", "RH-1", "15", "4", null ]
+, [ 105, "321AD37A-086A-4AC4-89AA-B38C3372EFC6", 105, 1399390336, "860520", 1399390336, "860520", "{\n}", "448 DIAMOND ST", null, "2768", "8", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-06-28T00:00:00", "RH-1", "13", "11", null ]
+, [ 106, "EB234C2D-AFB5-440D-A051-4D67C0EE09D7", 106, 1399390336, "860520", 1399390336, "860520", "{\n}", "451 34TH AV", null, "1466", "9", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-01-24T00:00:00", "RH-2", "7", "8", null ]
+, [ 107, "C1DD8D7F-0FC8-462E-80A0-66E2F5699ACF", 107, 1399390336, "860520", 1399390336, "860520", "{\n}", "466 SANCHEZ ST", null, "3581", "12", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-07-11T00:00:00", "RH-1", "7", "8", null ]
+, [ 108, "09DC9197-87DF-4BBC-8AD6-EFBF4F7B143B", 108, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"013B\"\n  }\n}", "470 33RD AV", null, "1464", null, "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-11-20T00:00:00", "RH-1", "2", "2", null ]
+, [ 109, "75449C09-52CE-428C-873C-A7E67CD7D0FD", 109, 1399390336, "860520", 1399390336, "860520", "{\n}", "539 FAXON AV", null, "6934", "2", "1", "1", null, null, "Expansion", null, "1 FAMILY DWELLING", "2013-03-20T00:00:00", "RH-1", "2", "2", null ]
+, [ 110, "63B2FF14-D24E-4AF3-ADB5-C7EA4CCF8596", 110, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"026A\"\n  }\n}", "55 DOLORES ST", null, "3534", null, "6", "1", "1", "SEC", "Expansion", "APARTMENTS", "APARTMENTS", "2013-04-16T00:00:00", "UMU", "8", "9", "Eastern Neighborhoods" ]
+, [ 111, "7F5A6C39-B6DE-4739-BDE8-1E93DD9CC701", 111, 1399390336, "860520", 1399390336, "860520", "{\n}", "55 WATERVILLE ST", null, "5379", "29", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-05-07T00:00:00", "RH-3", "3", "2", "Fishermans Wharf" ]
+, [ 112, "8A6676F1-17D2-4DC0-AB04-A5A6C38CAAAF", 112, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"008A\"\n  }\n}", "585 KANSAS ST", null, "4009", null, "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-07-24T00:00:00", "RH-1", "15", "4", null ]
+, [ 113, "4B1DEC9A-4151-4D31-AF45-D9A3C36C2302", 113, 1399390336, "860520", 1399390336, "860520", "{\n}", "590 35TH AV", null, "1510", "25", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-08-19T00:00:00", "RH-1(D)", "14", "7", null ]
+, [ 114, "AAAD6CE5-344F-49F8-BAC0-19D4F3D3A7E0", 114, 1399390336, "860520", 1399390336, "860520", "{\n}", "605 KEARNY ST", null, "226", "7", "1", "1", null, null, "Conversion", "RETAIL SALES", "1 FAMILY DWELLING", "2013-06-26T00:00:00", "RH-2", "11", "9", null ]
+, [ 115, "31AC21B5-D20E-4195-A9CE-6CC76D5CF9AE", 115, 1399390336, "860520", 1399390336, "860520", "{\n}", "62 BAY VIEW ST", null, "5343", "13", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-25T00:00:00", "RH-1", "12", "9", null ]
+, [ 116, "578771F4-5EE9-4D85-A612-AA3D462732E7", 116, 1399390336, "860520", 1399390336, "860520", "{\n}", "626 PARIS ST", null, "6345", "7", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-10-07T00:00:00", "NC-2", "5", "2", null ]
+, [ 117, "594A3FF5-730C-45AB-AD92-B66B338E6542", 117, 1399390336, "860520", 1399390336, "860520", "{\n}", "639 NATOMA ST", null, "3727", "35", "3", "1", null, null, "Expansion", "2 FAMILY DWELLING", "APARTMENTS", "2013-06-07T00:00:00", "RH-2", "13", "7", "Balboa Park" ]
+, [ 118, "D4D6783E-8813-4742-AC21-17CF8FEFCF3C", 118, 1399390336, "860520", 1399390336, "860520", "{\n}", "670 COMMERCIAL ST", null, "227", "32", "4", "1", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-06-26T00:00:00", "RH-2", "2", "2", null ]
+, [ 119, "0DBA4BDD-604B-437C-88DF-7C198D9B3A10", 119, 1399390336, "860520", 1399390336, "860520", "{\n}", "680 DOUGLASS ST", null, "2802", "6", "1", "1", null, null, "New Construction", null, "1 FAMILY DWELLING", "2013-05-01T00:00:00", "RH-2", "2", "2", null ]
+, [ 120, "3834AC7B-B918-493F-B158-C9A3998F7405", 120, 1399390336, "860520", 1399390336, "860520", "{\n}", "701 43RD AV", null, "1601", "1", "2", "1", null, null, "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-02-12T00:00:00", "RH-1", "7", "8", null ]
+, [ 121, "88AA814B-BFB1-42F8-843E-EA965F99D0F8", 121, 1399390336, "860520", 1399390336, "860520", "{\n}", "7327 GEARY BL", null, "1507", "38", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-15T00:00:00", "RH-1", "12", "11", null ]
+, [ 122, "9E208058-FBF6-43C9-BA50-8AC8DA49D48A", 122, 1399390336, "860520", 1399390336, "860520", "{\n}", "76 DIAMOND ST", null, "2649", "13", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-05-13T00:00:00", "RH-1", "12", "11", null ]
+, [ 123, "CB2E1415-B8D2-41BF-9D13-FE1F9EE6BC48", 123, 1399390336, "860520", 1399390336, "860520", "{\n}", "817 YORK ST", null, "4088", "30", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-11-25T00:00:00", "RH-2", "14", "7", null ]
+, [ 124, "E275A2B3-60AA-4506-9324-22879D125C74", 124, 1399390336, "860520", 1399390336, "860520", "{\n}", "875 43RD AV", null, "1686", "16", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-09-20T00:00:00", "RH-2", "6", "5", null ]
+, [ 125, "F76E8514-A9E9-4168-B482-F9D393C02B2F", 125, 1399390336, "860520", 1399390336, "860520", "{\n}", "915 FLORIDA ST", null, "4145", "29", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-11-27T00:00:00", "RH-2", "6", "5", null ]
+, [ 126, "E4E52E3F-5A1E-497F-9377-BD7CB623C77C", 126, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"027A\"\n  }\n}", "921 POST ST", null, "302", null, "4", "1", null, null, "Expansion", "APARTMENTS", "APARTMENTS", "2013-04-16T00:00:00", "NC-2", "9", "10", "Eastern Neighborhoods" ]
+, [ 127, "9D77CB19-2EE2-4591-947E-9EE789A0BDC7", 127, 1399390336, "860520", 1399390336, "860520", "{\n}", "926 SHOTWELL ST", null, "3641", "75", "2", "1", "1", "SEC", "Expansion", "1 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-04-25T00:00:00", "RH-2", "14", "7", null ]
+, [ 128, "06A218AE-B381-4862-AF6B-830BCA421A20", 128, 1399390336, "860520", 1399390336, "860520", "{\n}", "929 BRODERICK ST", null, "1152", "6", "6", "1", "1", "SEC", "Expansion", "APARTMENTS", "APARTMENTS", "2013-07-29T00:00:00", "NCT-24TH-MISSION", "8", "9", "Eastern Neighborhoods" ]
+, [ 129, "A984810E-6169-4BF5-8162-9B165675AF4C", 129, 1399390336, "860520", 1399390336, "860520", "{\n}", "100 HAMILTON ST", null, "5931", "1", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-21T00:00:00", "RH-2", "14", "7", null ]
+, [ 130, "6C0D8DB4-73E3-4803-9C84-B0A8C9EDB1F3", 130, 1399390336, "860520", 1399390336, "860520", "{\n}", "1044 PRAGUE ST", null, "6460", "8", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-28T00:00:00", "DTR-Rincon Hill    DTR- South Beach", "9", "6", "Rincon Hill" ]
+, [ 131, "AB4AD61A-5A19-4AB8-A1B1-02F8AFA20629", 131, 1399390336, "860520", 1399390336, "860520", "{\n}", "119 JULES AV", null, "6987", "16", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-11T00:00:00", "NC-1", "13", "11", null ]
+, [ 132, "1AD3E1F4-9000-4BD0-B857-1CF42D24753C", 132, 1399390336, "860520", 1399390336, "860520", "{\n}", "1190 SILVER AV", null, "5917", "1", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-18T00:00:00", "RTO", "6", "5", "Market/Octavia" ]
+, [ 133, "78BC5F99-7B1C-4A92-8F38-B2E638A06D7C", 133, 1399390336, "860520", 1399390336, "860520", "{\n}", "1201 35TH AV", null, "1715", "1", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-04-10T00:00:00", "UMU", "8", "9", "Eastern Neighborhoods" ]
+, [ 134, "BAB587C9-06D5-4D99-83B6-3BC19177DB31", 134, 1399390336, "860520", 1399390336, "860520", "{\n}", "1222 08TH AV", null, "1743", "42", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-07-25T00:00:00", "RTO", "6", "5", "Market/Octavia" ]
+, [ 135, "704C9B9F-6E89-4A4C-B8B3-A6AF4CCD000F", 135, 1399390336, "860520", 1399390336, "860520", "{\n}", "1222 08TH AV", null, "1743", "42", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-07-25T00:00:00", "RM-3", "3", "3", null ]
+, [ 136, "718EF023-71D0-494B-96A1-CC7983D98C89", 136, 1399390336, "860520", 1399390336, "860520", "{\n}", "1226 DE HARO ST", null, "4217", "2", "1", "-1", null, null, null, "2 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-14T00:00:00", "RH-1", "1", "1", "Geary Corridor" ]
+, [ 137, "16E68DCE-D4F9-403D-96A2-0C6173E3E9CC", 137, 1399390336, "860520", 1399390336, "860520", "{\n}", "1226 FELTON ST", null, "5937", "46", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-08-19T00:00:00", "RH-1", "11", "9", null ]
+, [ 138, "CEEF2F5D-C510-49ED-9ECC-47ADBC4A971E", 138, 1399390336, "860520", 1399390336, "860520", "{\n}", "123 PRECITA AV", null, "5501", "36", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-01T00:00:00", "NCT-VALENCIA STREET", "8", "8", "Eastern Neighborhoods" ]
+, [ 139, "2F2EB032-2E0A-4BB2-9D7B-3BDBE351CCA2", 139, 1399390336, "860520", 1399390336, "860520", "{\n}", "1325 41ST AV", null, "1796", "4", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-08-05T00:00:00", "RH-2", "1", "1", "Geary Corridor" ]
+, [ 140, "B6981259-BC66-4FD3-80A7-14D5207AE965", 140, 1399390336, "860520", 1399390336, "860520", "{\n}", "1335 05TH AV", null, "1760", "9", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-05T00:00:00", "RM-1", "10", "10", "Bayview" ]
+, [ 141, "5E474FD7-DFDF-412B-B795-61511C5F6DDE", 141, 1399390336, "860520", 1399390336, "860520", "{\n}", "134 ATHENS ST", null, "5959", "6", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-08-29T00:00:00", "RH-1", "13", "7", null ]
+, [ 142, "701E7DA0-2238-47BB-93BA-952C86C506DB", 142, 1399390336, "860520", 1399390336, "860520", "{\n}", "1340 NATOMA ST", null, "3548", "65", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-09-04T00:00:00", "RH-1", "13", "11", null ]
+, [ 143, "CF2C564E-5C24-4167-A2F7-0B5A18DA53BD", 143, 1399390336, "860520", 1399390336, "860520", "{\n}", "135 SEVILLE ST", null, "6448", "54", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-09-06T00:00:00", "RH-1", "13", "11", null ]
+, [ 144, "00288F58-5F74-4876-ADBB-7E15FD37D042", 144, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"010N\"\n  }\n}", "1364 46TH AV", null, "1800", null, "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-01-30T00:00:00", "MUR", "9", "6", "Eastern Neighborhoods" ]
+, [ 145, "E3F42539-9CAB-430D-A387-6F372BBE45A8", 145, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"010R\"\n  }\n}", "1366 36TH AV", null, "1790", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-27T00:00:00", "NCT-3", "7", "8", "Market/Octavia" ]
+, [ 146, "F5FC08F7-BF70-4CBA-9E08-CE732407602C", 146, 1399390336, "860520", 1399390336, "860520", "{\n}", "1371 34TH AV", null, "1789", "14", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-11-08T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 147, "AD2278AF-DFAC-49F3-BA5C-23E334D6C2B2", 147, 1399390336, "860520", 1399390336, "860520", "{\n}", "139 PANAMA ST", null, "7178", "13", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-18T00:00:00", "RH-1", "1", "2", null ]
+, [ 148, "1C2A5EDB-D5EB-4F18-8F72-F113ACC8C9CA", 148, 1399390336, "860520", 1399390336, "860520", "{\n}", "14 ARDENWOOD WY", null, "2541", "22", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-25T00:00:00", "RH-2", "7", "8", null ]
+, [ 149, "FCD5BE03-EB17-4073-AEB2-6BAC34365039", 149, 1399390336, "860520", 1399390336, "860520", "{\n}", "14 COSTA ST", null, "5557", "8", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-09-06T00:00:00", "RTO", "8", "8", "Market/Octavia" ]
+, [ 150, "D1715A56-4406-4851-A44F-EE31BA321EBC", 150, 1399390336, "860520", 1399390336, "860520", "{\n}", "141 GRANADA AV", null, "6983", "11", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-04T00:00:00", "RH-1", "12", "11", null ]
+, [ 151, "074F637C-C832-4EE3-B2CD-BDEA64CE5AF4", 151, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"003E\"\n  }\n}", "1456 CHESTNUT ST", null, "480", null, "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-04-02T00:00:00", "RH-2", "11", "9", null ]
+, [ 152, "AF93277F-CF92-40E7-AB76-D3E0DE9A525C", 152, 1399390336, "860520", 1399390336, "860520", "{\n}", "149 PANAMA ST", null, "7178", "12", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-09-12T00:00:00", "NCT-HAYES", "5", "5", "Market/Octavia" ]
+, [ 153, "3A26BF0F-095A-4DD9-A276-E3491D0C1EC4", 153, 1399390336, "860520", 1399390336, "860520", "{\n}", "1496 38TH AV", null, "1816", "24", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-26T00:00:00", "RH-3", "5", "5", null ]
+, [ 154, "0AF7722E-470D-4684-A521-526FDF3EC936", 154, 1399390336, "860520", 1399390336, "860520", "{\n}", "15 BRUCE AV", null, "6977", "14", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-18T00:00:00", "RH-1", "12", "10", "Visitacion Valley" ]
+, [ 155, "9F3FE848-F8FB-404A-A3D2-487D77B732E7", 155, 1399390336, "860520", 1399390336, "860520", "{\n}", "1531 THOMAS AV", null, "5361", "28", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-10T00:00:00", "RH-1", "13", "11", null ]
+, [ 156, "7130C949-559C-4F57-872F-04F7BABF3F6D", 156, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"008B\"\n  }\n}", "1554 SHAFTER AV", null, "5341", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-22T00:00:00", "RH-2", "11", "9", null ]
+, [ 157, "9583A358-1AC4-453E-A4D4-86302FC3F178", 157, 1399390336, "860520", 1399390336, "860520", "{\n}", "1618 35TH AV", null, "1909", "32", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-08-27T00:00:00", "RH-1", "14", "7", null ]
+, [ 158, "F3EF1C97-63C7-4AC2-AA32-50A8B991380E", 158, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"003D\"\n  }\n}", "167 ELLINGTON AV", null, "7043", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-21T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 159, "0481BE8C-225B-4926-813F-BA52A9444E53", 159, 1399390336, "860520", 1399390336, "860520", "{\n}", "168 CLIPPER ST", null, "6549", "21", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-11-04T00:00:00", "RH-2", "1", "1", null ]
+, [ 160, "4EEB74ED-43D3-4D64-A888-DDF249A427F2", 160, 1399390336, "860520", 1399390336, "860520", "{\n}", "170 10TH AV", null, "1369", "21", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-01-30T00:00:00", "RH-2", "14", "7", null ]
+, [ 161, "0AB3FA81-8863-442F-A50E-ED968D8EA1D5", 161, 1399390336, "860520", 1399390336, "860520", "{\n}", "18 VALLEY ST", null, "6616", "10", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-01-30T00:00:00", "RH-2", "7", "8", null ]
+, [ 162, "608734BF-8A71-497B-A53F-8C3A98391FAA", 162, 1399390336, "860520", 1399390336, "860520", "{\n}", "180 GUERRERO ST", null, "3534", "11", "4", "-1", null, null, null, "APARTMENTS", "APARTMENTS", "2013-01-23T00:00:00", "RH-1", "13", "11", null ]
+, [ 163, "B772EB66-940C-4AB9-8546-794087F0C2CA", 163, 1399390336, "860520", 1399390336, "860520", "{\n}", "1886 32ND AV", null, "2068", "28", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-04-05T00:00:00", "RTO", "5", "5", "Market/Octavia" ]
+, [ 164, "11B75F7C-448A-43C8-B6FD-CF19EA8B31AF", 164, 1399390336, "860520", 1399390336, "860520", "{\n}", "1973 FILBERT ST", null, "531", "22", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-07-31T00:00:00", "RH-2", "7", "8", null ]
+, [ 165, "B0DB8C60-873A-48B4-9524-01ECEC59ECC6", 165, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"001H\"\n  }\n}", "20 LEDYARD ST", null, "5396", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-18T00:00:00", "RH-1 (D)", "7", "8", "Glen Park" ]
+, [ 166, "0FEE42DB-3DEF-4621-BADB-D2EA0A691825", 166, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"001A\"\n  }\n}", "206 LISBON ST", null, "6016", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-18T00:00:00", "RH-2", "1", "1", "Geary Corridor" ]
+, [ 167, "708F0249-10D4-4384-A369-17E3E0AB7C3C", 167, 1399390336, "860520", 1399390336, "860520", "{\n}", "2187 REVERE AV", null, "5347", "28", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-05-02T00:00:00", "RH-3", "7", "8", null ]
+, [ 168, "95BC6316-994A-414D-8C0D-0945E441A7BF", 168, 1399390336, "860520", 1399390336, "860520", "{\n}", "227 DOUGLASS ST", null, "2692", "29", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-10-09T00:00:00", "RH-2", "1", "1", "Geary Corridor" ]
+, [ 169, "8C21A583-3519-4F1C-B648-9C0B40F3B52B", 169, 1399390336, "860520", 1399390336, "860520", "{\n}", "230 02ND AV", null, "1432", "37", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-02-04T00:00:00", "RED", "9", "6", "Eastern Neighborhoods" ]
+, [ 170, "0FE6DCF1-9A70-4C06-ABEC-0CF2D50EFBBA", 170, 1399390336, "860520", 1399390336, "860520", "{\n}", "2462 35TH AV", null, "2391", "31", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-13T00:00:00", "RH-1", "13", "11", null ]
+, [ 171, "32806DA0-BCDB-4DB6-9A45-20ABBE03FDA6", 171, 1399390336, "860520", 1399390336, "860520", "{\n}", "2463 30TH AV", null, "2395", "12", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-04T00:00:00", "RC-4", "4", "6", null ]
+, [ 172, "D35059FD-3526-4C75-9A3C-93C227C1409D", 172, 1399390336, "860520", 1399390336, "860520", "{\n}", "247 THERESA ST", null, "6780", "10", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-05-09T00:00:00", "RH-1 (D)", "14", "7", null ]
+, [ 173, "13C04978-7268-40CA-BE28-5F6CD459E556", 173, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586568\" : \"7045B\"\n  }\n}", "251 ROME ST", null, "7045B", "33", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-09-06T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 174, "F7901767-3E26-4D03-8AA4-7BE868B7939D", 174, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"024D\"\n  }\n}", "2546 43RD AV", null, "2443", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-15T00:00:00", "RH-1", "13", "11", null ]
+, [ 175, "CD1DFB07-AA90-4CB2-92A6-2DEFC6B53859", 175, 1399390336, "860520", 1399390336, "860520", "{\n}", "257 SAGAMORE ST", null, "7148", "37", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-27T00:00:00", "RED", "4", "6", "Eastern Neighborhoods" ]
+, [ 176, "D8C9E04D-01F5-42B3-893D-904DA8174AE0", 176, 1399390336, "860520", 1399390336, "860520", "{\n}", "2619 PACIFIC AV", null, "585", "16", "4", "-1", null, null, null, "APARTMENTS", "APARTMENTS", "2013-06-18T00:00:00", "RH-2", "13", "7", null ]
+, [ 177, "A3D97FB5-72D3-4E2A-8824-ED1C57357F8F", 177, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"003B\"\n  }\n}", "2626 FILBERT ST", null, "943", null, "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-06-18T00:00:00", "RH-1", "12", "11", null ]
+, [ 178, "FEB898C3-91DF-48A1-94B8-48F274B83C77", 178, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"001D\"\n  }\n}", "2659 LEAVENWORTH ST", null, "27", null, "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-06-18T00:00:00", "RTO", "5", "5", "Market/Octavia" ]
+, [ 179, "A6408EB1-BBA2-40EE-BDAF-3E1FDF67C941", 179, 1399390336, "860520", 1399390336, "860520", "{\n}", "2726 NORIEGA ST", null, "2015", "36", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-04-08T00:00:00", "RTO", "8", "8", "Market/Octavia" ]
+, [ 180, "DDA9A35D-3917-44DF-93A6-1677093AE869", 180, 1399390336, "860520", 1399390336, "860520", "{\n}", "28 PRINCETON ST", null, "5865", "5", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-25T00:00:00", "RH-1", "10", "10", "Bayview" ]
+, [ 181, "37A8C7CD-DBB0-4FBE-A743-366340C7FEA6", 181, 1399390336, "860520", 1399390336, "860520", "{\n}", "2919 LAGUNA ST", null, "531", "4", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-02-21T00:00:00", "NC-1", "13", "7", null ]
+, [ 182, "198573E3-8259-45FB-B6B1-B74EE30E8DC7", 182, 1399390336, "860520", 1399390336, "860520", "{\n}", "2937 PIERCE ST", null, "536", "2", "1", "-1", null, null, null, "2 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-09-03T00:00:00", "RH-1", "13", "7", null ]
+, [ 183, "DD289133-E813-472A-AA76-7CE9415F4912", 183, 1399390336, "860520", 1399390336, "860520", "{\n}", "306 BRAZIL AV", null, "6080", "43", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-20T00:00:00", "RH-3", "9", "10", "Eastern Neighborhoods" ]
+, [ 184, "7D78B626-DF58-47D9-8D7E-9FE68C02506E", 184, 1399390336, "860520", 1399390336, "860520", "{\n}", "306 MUNICH ST", null, "6074", "2", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-02T00:00:00", "RH-2", "1", "1", null ]
+, [ 185, "03487110-CFDC-46B6-B081-383C5BB6E861", 185, 1399390336, "860520", 1399390336, "860520", "{\n}", "348 POINT LOBOS AV", null, "1482", "11", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-17T00:00:00", "RH-1 (D)", "15", "4", null ]
+, [ 186, "4D928526-8C91-4BED-8FBF-BD6B466B0C7F", 186, 1399390336, "860520", 1399390336, "860520", "{\n}", "349 BANKS ST", null, "5685", "19", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-21T00:00:00", "RH-1", "13", "11", null ]
+, [ 187, "50B4ED12-37F5-4EBF-BC95-1038F3D88A93", 187, 1399390336, "860520", 1399390336, "860520", "{\n}", "358 HEARST AV", null, "3117", "20", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-08-09T00:00:00", "RM-1", "10", "10", "Bayview" ]
+, [ 188, "2E0D4DF3-2763-4496-8595-E966AEF85259", 188, 1399390336, "860520", 1399390336, "860520", "{\n}", "367 HEAD ST", null, "7117", "5", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-04-23T00:00:00", "CCB", "3", "3", "Chinatown" ]
+, [ 189, "79E050BC-7A78-4FA4-80EA-206BC688CCC6", 189, 1399390336, "860520", 1399390336, "860520", "{\n}", "400 AVALON AV", null, "6009", "50", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-30T00:00:00", "RM-1", "10", "10", "Bayview" ]
+, [ 190, "9A17E391-BC53-40CE-BECA-01B0F741078E", 190, 1399390336, "860520", 1399390336, "860520", "{\n}", "4005 FOLSOM ST", null, "5727", "29", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-08T00:00:00", "UMU", "9", "10", "Eastern Neighborhoods" ]
+, [ 191, "33A91FB1-5DCA-48BA-B027-C994DCB34EB5", 191, 1399390336, "860520", 1399390336, "860520", "{\n}", "415 LYON ST", null, "1198", "5", "8", "-1", null, null, null, "APARTMENTS", "APARTMENTS", "2013-03-25T00:00:00", "RH-2", "10", "10", "Bayview" ]
+, [ 192, "E8E8A4C1-EEFE-4DB1-BBA3-20B2FE09AA92", 192, 1399390336, "860520", 1399390336, "860520", "{\n}", "4150 SAN BRUNO AV", null, "6236", "60", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-09T00:00:00", "RH-1", "12", "10", "Visitacion Valley" ]
+, [ 193, "68EDE319-22D8-4C5C-BA7E-63DBFB0FC628", 193, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"002H\"\n  }\n}", "422 VICENTE ST", null, "2416", null, "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-10-24T00:00:00", "RH-1", "12", "11", null ]
+, [ 194, "82297890-988C-402B-92EB-B3E6049E78BD", 194, 1399390336, "860520", 1399390336, "860520", "{\n}", "43 BRIDGEVIEW DR", null, "5337", "10", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-05-03T00:00:00", "RH-1", "13", "11", null ]
+, [ 195, "ACD085E9-AD68-4C1D-94EC-A6ABFC1393B3", 195, 1399390336, "860520", 1399390336, "860520", "{\n}", "437 HOFFMAN AV", null, "6503", "24", "1", "-1", null, null, null, "2 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-12T00:00:00", "RED ", "4", "6", "West Soma" ]
+, [ 196, "D3F0186D-4677-4A02-B7C5-49B1E38E324F", 196, 1399390336, "860520", 1399390336, "860520", "{\n}", "45 BURNSIDE AV", null, "6736", "17", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-04T00:00:00", "RH-2", "1", "1", null ]
+, [ 197, "2C08F266-50CE-4D4B-B458-9BECF7831A1B", 197, 1399390336, "860520", 1399390336, "860520", "{\n}", "48 MAJESTIC AV", null, "7049", "11", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-03-28T00:00:00", "CCB", "3", "3", "Chinatown" ]
+, [ 198, "08663982-35D9-4591-A5D9-7445F2C51A3F", 198, 1399390336, "860520", 1399390336, "860520", "{\n}", "494 PACHECO ST", null, "2126", "23", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-10-15T00:00:00", "RH-2", "1", "1", null ]
+, [ 199, "6EFD58F3-5ADC-4710-9068-FB62E1B1C81E", 199, 1399390336, "860520", 1399390336, "860520", "{\n}", "50 CARR ST", null, "5462", "14", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-22T00:00:00", "RH-2", "7", "8", null ]
+, [ 200, "6862EB8E-FA63-4A29-A1B6-4B9E8CF12AE6", 200, 1399390336, "860520", 1399390336, "860520", "{\n}", "520 LAKEVIEW AV", null, "7019", "22", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-24T00:00:00", "RH-2", "1", "1", null ]
+, [ 201, "52879132-38AB-4823-A7DE-E84A85DECD23", 201, 1399390336, "860520", 1399390336, "860520", "{\n}", "54 INA CT", null, "6004", "17", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-09-06T00:00:00", "NCT-3", "5", "5", "Market/Octavia" ]
+, [ 202, "00AA8191-C02F-44E9-95A2-0B25CC197889", 202, 1399390336, "860520", 1399390336, "860520", "{\n}", "550 MONTEREY BL", null, "3093", "9", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-08-15T00:00:00", "RH-2", "1", "1", null ]
+, [ 203, "0724D804-FEAF-43F6-B8BC-00B7A0D61F8C", 203, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586568\" : \"2968B\"\n  }\n}", "559 TERESITA BL", null, "2968B", "8", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-01-28T00:00:00", "RM-1", "1", "1", "Geary Corridor" ]
+, [ 204, "EF2FEBE7-655D-44C6-963A-1FAD27DEA86D", 204, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586568\" : \"2501A\"\n  }\n}", "60 ESCONDIDO AV", null, "2501A", "10", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-05-15T00:00:00", "RM-1", "7", "8", null ]
+, [ 205, "CAEEBD8C-54A8-452C-B658-04B2359D003D", 205, 1399390336, "860520", 1399390336, "860520", "{\n}", "60 MONTANA ST", null, "7057", "15", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-10-01T00:00:00", "RH-3", "7", "8", null ]
+, [ 206, "1E729245-210B-414A-A012-E733DFF29762", 206, 1399390336, "860520", 1399390336, "860520", "{\n}", "624 VISITACION AV", null, "6250", "7", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-12T00:00:00", "RED-MX", "9", "6", "West Soma" ]
+, [ 207, "1DC519AC-5B23-4426-86C2-D7B33E884B05", 207, 1399390336, "860520", 1399390336, "860520", "{\n}", "633 LAKEVIEW AV", null, "7053", "34", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-09-12T00:00:00", "RH-2", "8", "9", "Eastern Neighborhoods" ]
+, [ 208, "76BE8BA0-1C5C-4324-AAA5-2DEA2C0B6F0C", 208, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"014I\"\n  }\n}", "6426 FULTON ST", null, "1683", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-08T00:00:00", "RH-2", "9", "10", "Eastern Neighborhoods" ]
+, [ 209, "88405E28-85DA-4579-A3B3-E060C2B6E522", 209, 1399390336, "860520", 1399390336, "860520", "{\n}", "678 10TH AV", null, "1635", "21", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-22T00:00:00", "RH-1", "12", "11", null ]
+, [ 210, "D34D17CA-4222-4382-82FB-1DB76F1A13F1", 210, 1399390336, "860520", 1399390336, "860520", "{\n}", "725 14TH AV", null, "1657", "3", "2", "-1", null, null, null, "2 FAMILY DWELLING", "2 FAMILY DWELLING", "2013-03-08T00:00:00", "RH-2", "1", "1", null ]
+, [ 211, "B277B489-3A28-4916-8184-2955DB67F1DF", 211, 1399390336, "860520", 1399390336, "860520", "{\n}", "749 CORBETT AV", null, "2755", "13", "2", "-1", null, null, null, "APARTMENTS", "2 FAMILY DWELLING", "2013-08-02T00:00:00", "RH-2", "8", "9", "Eastern Neighborhoods" ]
+, [ 212, "7BE4FFC1-A335-4CB7-99E8-9770AE818CB1", 212, 1399390336, "860520", 1399390336, "860520", "{\n}", "775 CLEMENTINA ST", null, "3729", "27", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-06-05T00:00:00", "RC-4", "4", "6", null ]
+, [ 213, "A6E9EF4C-6566-49E1-B08A-FC8A1F58AAAD", 213, 1399390336, "860520", 1399390336, "860520", "{\n}", "838 KANSAS ST", null, "4093", "7", "-1", "-1", null, null, "Demolition", "1 FAMILY DWELLING", null, "2013-11-14T00:00:00", "RH-2", "8", "9", "Eastern Neighborhoods" ]
+, [ 214, "19D42C4D-5565-4282-ADAA-BFEB10B0A8A7", 214, 1399390336, "860520", 1399390336, "860520", "{\n  \"invalidCells\" : {\n    \"19586569\" : \"020H\"\n  }\n}", "848 CAYUGA AV", null, "3209", null, "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-02-22T00:00:00", "RH-3", "5", "5", null ]
+, [ 215, "E5F42140-88D6-4B99-A565-37FDD6308A44", 215, 1399390336, "860520", 1399390336, "860520", "{\n}", "99 NIAGARA AV", null, "7031", "15", "1", "-1", null, null, null, "1 FAMILY DWELLING", "1 FAMILY DWELLING", "2013-07-11T00:00:00", "MUR", "9", "6", "Eastern Neighborhoods" ]
+, [ 216, "B062252C-CDD7-4C87-8F0F-C3A1CD2C58A1", 216, 1399390336, "860520", 1399390336, "860520", "{\n}", "3962 CLAY ST", null, "991", "15", "1", "-2", null, null, null, "APARTMENTS", "1 FAMILY DWELLING", "2013-09-10T00:00:00", "RH-1", "12", "11", null ]
+, [ 217, "B75BACCB-CE32-407A-A403-1A3DFFB817A8", 217, 1399390336, "860520", 1399390336, "860520", "{\n}", "1123 FOLSOM ST", null, "3755", "101", "2", "-13", null, null, null, "TOURIST HOTEL/MOTEL", "2 FAMILY DWELLING", "2013-08-28T00:00:00", "RC-4", "4", "3", null ]
+, [ 218, "A220CA02-30BF-4802-852A-BF399B1B54AB", 218, 1399390336, "860520", 1399390336, "860520", "{\n}", "480 ELLIS ST", null, "323", "15", "154", "-19", null, null, null, "RESIDENTIAL HOTEL", "RESIDENTIAL HOTEL", "2013-06-19T00:00:00", "RC-4", "4", "3", null ]
+, [ 22, "0D5DA538-CFCC-4772-A316-552C5C666086", 22, 1399390336, "860520", 1399400925, "860520", "{\n}", "2299 MARKET ST", "ICON", "3564", "91", "18", "18", "0", null, "New Construction", null, "APARTMENTS", "2013-11-12T00:00:00", "NC-2", "5", "5", "A-2" ]
+ ]
+}

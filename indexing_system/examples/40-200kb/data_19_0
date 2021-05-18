@@ -1,0 +1,714 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "btm4-e4ak",
+      "name" : "San Francisco Communitywide Greenhouse Gas Inventory",
+      "averageRating" : 0,
+      "category" : "Energy and Environment",
+      "createdAt" : 1451605426,
+      "description" : "The purpose of the San Francisco Communitywide Greenhouse Gas Inventory is to measure and track greenhouse gas emissions to determine progress towards meeting the City's climate action goals. The Department of the Environment collects this data from various sources and calculates the emissions per current greenhouse gas protocols. This data supports San Francisco's climate change planning and mitigation strategies.\r\n\r\nNote: San Francisco communitywide greenhouse gas inventory for 1990, 2000, 2005, 2010, and 2012. 2012 greenhouse gas emissions were calculated based on the ICLEI 2012 U.S. Community Protocol Version 1.0. The third-party verification memo for 2010 is available at http://sfenvironment.org/download/2010-community-greenhouse-gas-inventory-3rd-party-verification-memo-march-2013 and for 2012 at http://sfenvironment.org/download/2012-community-greenhouse-gas-inventory-3rd-party-verification-memo-january-2015",
+      "displayType" : "table",
+      "downloadCount" : 1083,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1453508297,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 16100680,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1453415832,
+      "publicationGroup" : 6604394,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1451605436,
+      "rowsUpdatedBy" : "s7k8-df3k",
+      "tableId" : 6604394,
+      "totalTimesRated" : 0,
+      "viewCount" : 1230,
+      "viewLastModified" : 1453487548,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 236186505,
+        "name" : "Calendar_Year",
+        "dataTypeName" : "number",
+        "description" : "Calendar year in which calculations for this table were made",
+        "fieldName" : "calendar_year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33616257,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 70,
+          "average" : "2003.4",
+          "largest" : "2012",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1990",
+            "count" : 20
+          }, {
+            "item" : "2000",
+            "count" : 19
+          }, {
+            "item" : "2005",
+            "count" : 18
+          }, {
+            "item" : "2010",
+            "count" : 17
+          }, {
+            "item" : "2012",
+            "count" : 16
+          } ],
+          "smallest" : "1990",
+          "sum" : "140238"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 236186506,
+        "name" : "Sector_General",
+        "dataTypeName" : "text",
+        "description" : "Sectors categorized as either building, transportation, or waste.  These categories were used in the San Francisco Climate Action Strategy 2013 Update.",
+        "fieldName" : "sector_general",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616258,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 70,
+          "largest" : "Waste",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Buildings",
+            "count" : 20
+          }, {
+            "item" : "Transportation",
+            "count" : 19
+          }, {
+            "item" : "Waste",
+            "count" : 18
+          } ],
+          "smallest" : "Buildings"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 236186507,
+        "name" : "Sector_Detail",
+        "dataTypeName" : "text",
+        "description" : "Sectors categorized in detail.  These categories were used in the San Francisco Climate Action Strategy 2013 Update.",
+        "fieldName" : "sector_detail",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616259,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 70,
+          "largest" : "Waste",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Residential",
+            "count" : 20
+          }, {
+            "item" : "Commercial & Industrial",
+            "count" : 19
+          }, {
+            "item" : "Municipal",
+            "count" : 18
+          }, {
+            "item" : "Rail - BART",
+            "count" : 17
+          }, {
+            "item" : "MUNI",
+            "count" : 16
+          }, {
+            "item" : "Direct Access",
+            "count" : 15
+          }, {
+            "item" : "Municipal & District",
+            "count" : 14
+          }, {
+            "item" : "Rail - Caltrain",
+            "count" : 13
+          }, {
+            "item" : "Ferry",
+            "count" : 12
+          }, {
+            "item" : "Cars & Trucks",
+            "count" : 11
+          }, {
+            "item" : "Waste",
+            "count" : 10
+          } ],
+          "smallest" : "Cars & Trucks"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 236186508,
+        "name" : "Sector_GPC",
+        "dataTypeName" : "text",
+        "description" : "Sectors categorized as either stationary, transportation, or waste.   These categories reflect the nomenclature in the Global Protocol for Community-Scale (GPC) Greenhouse Gas Emission Inventories.",
+        "fieldName" : "sector_gpc",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616260,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 70,
+          "largest" : "Waste",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Stationary",
+            "count" : 20
+          }, {
+            "item" : "Transportation",
+            "count" : 19
+          }, {
+            "item" : "Waste",
+            "count" : 18
+          } ],
+          "smallest" : "Stationary"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 236186509,
+        "name" : "Sector_GPC_Detail",
+        "dataTypeName" : "text",
+        "description" : "Sectors categorized in detail.   These categories reflect the nomenclature in the Global Protocol for Community-Scale (GPC) Greenhouse Gas Emission Inventories.",
+        "fieldName" : "sector_gpc_detail",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616261,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 70,
+          "largest" : "Waterborne Navigation - Ferry",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Residential",
+            "count" : 20
+          }, {
+            "item" : "Commercial & Industrial",
+            "count" : 19
+          }, {
+            "item" : "Municipal Operations",
+            "count" : 18
+          }, {
+            "item" : "Railways - Bay Area Rapid Transit",
+            "count" : 17
+          }, {
+            "item" : "On-road - MUNI Buses",
+            "count" : 16
+          }, {
+            "item" : "Direct Access",
+            "count" : 15
+          }, {
+            "item" : "Municipal Operations & District",
+            "count" : 14
+          }, {
+            "item" : "Railways - Caltrain",
+            "count" : 13
+          }, {
+            "item" : "Waterborne Navigation - Ferry",
+            "count" : 12
+          }, {
+            "item" : "On-road - Cars and Trucks",
+            "count" : 11
+          }, {
+            "item" : "Solid Waste Disposal",
+            "count" : 10
+          } ],
+          "smallest" : "Commercial & Industrial"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 236186510,
+        "name" : "Commodity_Type",
+        "dataTypeName" : "text",
+        "description" : "Type of fuel used (electricity, natural gas, diesel), or waste disposed to landfill (mixed municipal solid waste), or miles traveled by cars and trucks within city boundaries (vehicle miles traveled).",
+        "fieldName" : "commodity_type",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616262,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 70,
+          "largest" : "Vehicle Miles Traveled",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Electricity",
+            "count" : 20
+          }, {
+            "item" : "Natural Gas",
+            "count" : 19
+          }, {
+            "item" : "Diesel",
+            "count" : 18
+          }, {
+            "item" : "Vehicle Miles Traveled",
+            "count" : 17
+          }, {
+            "item" : "Mixed Municipal Solid Waste",
+            "count" : 16
+          } ],
+          "smallest" : "Diesel"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 236186511,
+        "name" : "Emissions_mtCO2e",
+        "dataTypeName" : "number",
+        "description" : "GHG emissions accounted for in metric tons of carbon dioxide equivalents (mtCO2e); refer to protocol for calculation methodology",
+        "fieldName" : "emissions_mtco2e",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33616263,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 69,
+          "average" : "413394.6544325123",
+          "largest" : "2205904.16",
+          "null" : 1,
+          "top" : [ {
+            "item" : "335194.72441078286",
+            "count" : 20
+          }, {
+            "item" : "721819.68374935363",
+            "count" : 19
+          }, {
+            "item" : "12489.081412125446",
+            "count" : 18
+          }, {
+            "item" : "56011.682598399362",
+            "count" : 17
+          }, {
+            "item" : "1479.3204350863186",
+            "count" : 16
+          }, {
+            "item" : "206964.95736770963",
+            "count" : 15
+          }, {
+            "item" : "782960.41272464185",
+            "count" : 14
+          }, {
+            "item" : "609521.19300106145",
+            "count" : 13
+          }, {
+            "item" : "119859.68351915522",
+            "count" : 12
+          }, {
+            "item" : "43830.603464542648",
+            "count" : 11
+          }, {
+            "item" : "12033.897542433617",
+            "count" : 10
+          }, {
+            "item" : "34103.472872422455",
+            "count" : 9
+          }, {
+            "item" : "2118863.0830059",
+            "count" : 8
+          }, {
+            "item" : "244625.03060085207",
+            "count" : 7
+          }, {
+            "item" : "283077.03529401799",
+            "count" : 6
+          }, {
+            "item" : "580555.25669465039",
+            "count" : 5
+          }, {
+            "item" : "176.66773497059356",
+            "count" : 4
+          }, {
+            "item" : "57103.405899827318",
+            "count" : 3
+          }, {
+            "item" : "0",
+            "count" : 2
+          }, {
+            "item" : "144494.2974710883",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "28524231.15584334990396"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 236186512,
+        "name" : "Quantity",
+        "dataTypeName" : "number",
+        "description" : "Quantity of each commodity type, such as consumption of fuel, waste disposed, vehicle miles traveled.",
+        "fieldName" : "quantity",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33616264,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 69,
+          "average" : "727553483.8284002",
+          "largest" : "3935735773.9502311",
+          "null" : 1,
+          "top" : [ {
+            "item" : "95047340",
+            "count" : 20
+          }, {
+            "item" : "3053805625",
+            "count" : 19
+          }, {
+            "item" : "849804897",
+            "count" : 18
+          }, {
+            "item" : "304121391.18542802",
+            "count" : 17
+          }, {
+            "item" : "100658624",
+            "count" : 16
+          }, {
+            "item" : "363892000",
+            "count" : 15
+          }, {
+            "item" : "147570333",
+            "count" : 14
+          }, {
+            "item" : "114880962",
+            "count" : 13
+          }, {
+            "item" : "22590840",
+            "count" : 12
+          }, {
+            "item" : "4292751",
+            "count" : 11
+          }, {
+            "item" : "1185600",
+            "count" : 10
+          }, {
+            "item" : "3359932",
+            "count" : 9
+          }, {
+            "item" : "3910784575.5",
+            "count" : 8
+          }, {
+            "item" : "444398",
+            "count" : 7
+          }, {
+            "item" : "1394911340",
+            "count" : 6
+          }, {
+            "item" : "2860645310",
+            "count" : 5
+          }, {
+            "item" : "867309595",
+            "count" : 4
+          }, {
+            "item" : "283962261.79999995",
+            "count" : 3
+          }, {
+            "item" : "92948433",
+            "count" : 2
+          }, {
+            "item" : "519482840.5",
+            "count" : 1
+          } ],
+          "smallest" : "428048",
+          "sum" : "50201190384.1596136132"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 236186513,
+        "name" : "Quantity_Units",
+        "dataTypeName" : "text",
+        "description" : "Units of each commodity type (kWh, therms, gallons, miles, short tons)",
+        "fieldName" : "quantity_units",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616265,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 70,
+          "largest" : "therms",
+          "null" : 0,
+          "top" : [ {
+            "item" : "kWh",
+            "count" : 20
+          }, {
+            "item" : "therms",
+            "count" : 19
+          }, {
+            "item" : "gallons",
+            "count" : 18
+          }, {
+            "item" : "miles",
+            "count" : 17
+          }, {
+            "item" : "short tons",
+            "count" : 16
+          } ],
+          "smallest" : "gallons"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 236186514,
+        "name" : "Notes",
+        "dataTypeName" : "text",
+        "fieldName" : "notes",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33616266,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 1,
+          "largest" : "1990 direct access data was not available",
+          "null" : 69,
+          "top" : [ {
+            "item" : "1990 direct access data was not available",
+            "count" : 20
+          } ],
+          "smallest" : "1990 direct access data was not available"
+        },
+        "format" : { }
+      } ],
+      "disabledFeatureFlags" : [ "allow_comments" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Department Metrics" : {
+            "Publishing Department" : "Environment"
+          },
+          "Detailed Descriptive" : {
+            "Program link" : "http://sfenvironment.org/cas",
+            "Data notes" : "San Francisco communitywide greenhouse gas inventory for 1990, 2000, 2005, 2010, and 2012. 2012 greenhouse gas emissions were calculated based on the ICLEI 2012 U.S. Community Protocol Version 1.0. The third-party verification memo for 2010 is available at http://sfenvironment.org/download/2010-community-greenhouse-gas-inventory-3rd-party-verification-memo-march-2013 and for 2012 at http://sfenvironment.org/download/2012-community-greenhouse-gas-inventory-3rd-party-verification-memo-january-2015",
+            "Geographic unit" : "Not applicable"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "As needed",
+            "Publishing frequency" : "As needed"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "calendar_year"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "400c5060-8237-48e6-b926-24be916dc397",
+          "name" : "ENV-0011_DataDictionary_san-francisco-community-wide-ghg-inventory.xlsx",
+          "filename" : "ENV-0011_DataDictionary_san-francisco-community-wide-ghg-inventory.xlsx"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "dbag-6qd9",
+        "displayName" : "OpenData",
+        "roleName" : "publisher",
+        "screenName" : "OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 236186505,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "dbag-6qd9",
+        "displayName" : "OpenData",
+        "roleName" : "publisher",
+        "screenName" : "OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "climate", "greenhouse gas emissions", "ghg inventory", "climate change", "communitywide", "san francisco climate action strategy", "carbon emissions", "environment", "sustainability" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "A5828210-CA19-43B2-AD57-A9908BAEFC32", 1, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Residential", "Stationary", "Residential", "Electricity", "509905.87155609584", "1174168250", "kWh", null ]
+, [ 2, "216B475B-3EAB-415F-B6DF-3E50B18F62AB", 2, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Electricity", "1378706.0409149879", "3174768030", "kWh", null ]
+, [ 3, "2BDA9683-FAD4-4E7B-A681-D2DCBB37460E", 3, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Municipal", "Stationary", "Municipal Operations", "Electricity", "50402.313093644261", "765327829", "kWh", null ]
+, [ 4, "82F42378-E724-4FD3-A538-8096FB90F2D3", 4, 1451576628, "847580", 1451576628, "847580", null, "1990", "Transportation", "Rail - BART", "Transportation", "Railways - Bay Area Rapid Transit", "Electricity", "89569.837494897103", "206253870", "kWh", null ]
+, [ 5, "8BEC9663-AB18-4858-A8B0-39E5C65C9710", 5, 1451576628, "847580", 1451576628, "847580", null, "1990", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Electricity", "3500.7141672896009", "53156171", "kWh", null ]
+, [ 6, "4756EDF1-F817-476D-8F08-B6DC1EA12858", 6, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Direct Access", "Stationary", "Direct Access", "Electricity", null, null, "kWh", "1990 direct access data was not available" ]
+, [ 7, "BE541EC2-249E-425B-A52F-349CD4BB9855", 7, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Residential", "Stationary", "Residential", "Natural Gas", "939682.51875712641", "176580538.22897512", "therms", null ]
+, [ 8, "F0E2A6D4-0B03-4FF1-887D-FE01E9BF571E", 8, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Natural Gas", "522205.4085362039", "98130283.648745805", "therms", null ]
+, [ 9, "1A82BB71-573E-4F49-BEBB-2E646E22232E", 9, 1451576628, "847580", 1451576628, "847580", null, "1990", "Buildings", "Municipal & District", "Stationary", "Municipal Operations & District", "Natural Gas", "96360.477460450042", "18107589.142418802", "therms", null ]
+, [ 10, "1882BE65-1125-423E-9FCC-9C9FE9EB9FA1", 10, 1451576628, "847580", 1451576628, "847580", null, "1990", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Diesel", "53265.823395868683", "5216832.5", "gallons", null ]
+, [ 11, "A08647DA-B77D-4EBF-A38E-1BE2591FA797", 11, 1451576628, "847580", 1451576628, "847580", null, "1990", "Transportation", "Rail - Caltrain", "Transportation", "Railways - Caltrain", "Diesel", "7976.2633900626861", "785835", "gallons", null ]
+, [ 12, "79CBDF8A-2F71-4AF8-BA03-45ED6599EA03", 12, 1451576628, "847580", 1451576628, "847580", null, "1990", "Transportation", "Ferry", "Transportation", "Waterborne Navigation - Ferry", "Diesel", "39991.191225698763", "3940000", "gallons", null ]
+, [ 13, "1C066E41-5637-4BC2-AC75-7B9A10A48599", 13, 1451576628, "847580", 1451576628, "847580", null, "1990", "Transportation", "Cars & Trucks", "Transportation", "On-road - Cars and Trucks", "Vehicle Miles Traveled", "2037736.32", "3648000000", "miles", null ]
+, [ 14, "FE873E3D-10D0-4272-9475-42341B06CB18", 14, 1451576628, "847580", 1451576628, "847580", null, "1990", "Waste", "Waste", "Waste", "Solid Waste Disposal", "Mixed Municipal Solid Waste", "472645.88151033351", "667000", "short tons", null ]
+, [ 15, "B42A35E6-F39F-4A42-BE9B-A3FC7B44DF3A", 15, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Residential", "Stationary", "Residential", "Electricity", "578642.2842691117", "1458760837.9020801", "kWh", null ]
+, [ 16, "010DCF7B-D597-485B-8009-FD8D3099D2BB", 16, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Electricity", "1176159.7639296709", "2965106162.0979204", "kWh", null ]
+, [ 17, "7BB6CB5B-BD25-48B2-BEC2-12A56579503C", 17, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Municipal", "Stationary", "Municipal Operations", "Electricity", "63646.593431067493", "938133000", "kWh", null ]
+, [ 18, "425235B5-CE0B-4063-AB8E-079181809E5E", 18, 1451576628, "847580", 1451576628, "847580", null, "2000", "Transportation", "Rail - BART", "Transportation", "Railways - Bay Area Rapid Transit", "Electricity", "91033.977490451885", "268130030.00000003", "kWh", null ]
+, [ 19, "0DEBD004-6847-488D-996C-BB0BF07BB881", 19, 1451576628, "847580", 1451576628, "847580", null, "2000", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Electricity", "6448.3814189293398", "95047340", "kWh", null ]
+, [ 20, "F32D7316-453E-4B34-B7A7-54AFDAD0E87C", 20, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Direct Access", "Stationary", "Direct Access", "Electricity", "152273.31598824289", "448503404", "kWh", null ]
+, [ 21, "70582633-8F94-49CC-B52B-756EE66FC5BC", 21, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Residential", "Stationary", "Residential", "Natural Gas", "824976.25378174102", "155025498.5179255", "therms", null ]
+, [ 22, "30066B3B-94D1-4B7F-BD6F-1F2BC6B8AE78", 22, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Natural Gas", "639950.95520821167", "120256450.29586837", "therms", null ]
+, [ 23, "507F705F-2357-4E84-98C1-C8D6614BB44B", 23, 1451576628, "847580", 1451576628, "847580", null, "2000", "Buildings", "Municipal & District", "Stationary", "Municipal Operations & District", "Natural Gas", "128318.7573178476", "24113032.625134092", "therms", null ]
+, [ 24, "471E4F2B-0CCE-4463-A0DB-513010CD3466", 24, 1451576628, "847580", 1451576628, "847580", null, "2000", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Diesel", "53781.74860973774", "5267362", "gallons", null ]
+, [ 25, "ADCDE5B2-91BF-4190-B7F8-A27D455D5E5F", 25, 1451576628, "847580", 1451576628, "847580", null, "2000", "Transportation", "Rail - Caltrain", "Transportation", "Railways - Caltrain", "Diesel", "8536.9114709110872", "841071", "gallons", null ]
+, [ 26, "AD649F58-FCF1-4147-88E3-A0E46271B5BB", 26, 1451576628, "847580", 1451576628, "847580", null, "2000", "Transportation", "Ferry", "Transportation", "Waterborne Navigation - Ferry", "Diesel", "99967.828015712468", "9849000", "gallons", null ]
+, [ 27, "FC065219-2BEA-4E88-B81B-E79CDDD7307D", 27, 1451576628, "847580", 1451576628, "847580", null, "2000", "Transportation", "Cars & Trucks", "Transportation", "On-road - Cars and Trucks", "Vehicle Miles Traveled", "2205904.16", "3880000000", "miles", null ]
+, [ 28, "89FE6A46-3CAD-45CB-8447-92A6DA079679", 28, 1451576628, "847580", 1451576628, "847580", null, "2000", "Waste", "Waste", "Waste", "Solid Waste Disposal", "Mixed Municipal Solid Waste", "480406.85957477812", "872731", "short tons", null ]
+, [ 29, "62843BD3-95BC-4097-AE79-E670F0413A64", 29, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Residential", "Stationary", "Residential", "Electricity", "417305.48810262093", "1362559279", "kWh", null ]
+, [ 30, "BDD1F89D-FD25-4DFC-8A69-06C935D68D08", 30, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Electricity", "871883.31538532721", "2846817824", "kWh", null ]
+, [ 31, "676A2370-C8DA-4958-8F7B-3AE78FBA21B3", 31, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Municipal", "Stationary", "Municipal Operations", "Electricity", "56865.750945015476", "828601268", "kWh", null ]
+, [ 32, "62FECB48-B291-46ED-A958-F57DFDC8068F", 32, 1451576628, "847580", 1451576628, "847580", null, "2005", "Transportation", "Rail - BART", "Transportation", "Railways - Bay Area Rapid Transit", "Electricity", "56657.629430559471", "281021740", "kWh", null ]
+, [ 33, "F9402AC7-3541-46D1-9BD9-FFA8879E02A4", 33, 1451576628, "847580", 1451576628, "847580", null, "2005", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Electricity", "6522.9665620379028", "95047340", "kWh", null ]
+, [ 34, "868A8425-143C-4E7E-B9E9-DF2F895E0FAB", 34, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Direct Access", "Stationary", "Direct Access", "Electricity", "279113.5811994829", "478952042", "kWh", null ]
+, [ 35, "3642A674-CF6C-48B6-B86A-76780F365F48", 35, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Residential", "Stationary", "Residential", "Natural Gas", "761622.98805054836", "143120463", "therms", null ]
+, [ 36, "72698FAA-D74A-4E8D-AA82-7388EED0E8F7", 36, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Natural Gas", "614484.70904554974", "115470958", "therms", null ]
+, [ 37, "200A94F4-DCB3-4DEB-B25F-7CCF78DC50A9", 37, 1451576628, "847580", 1451576628, "847580", null, "2005", "Buildings", "Municipal & District", "Stationary", "Municipal Operations & District", "Natural Gas", "120132.08901670128", "22574634", "therms", null ]
+, [ 38, "903F6260-8E72-47C9-B634-C57AD44677A5", 38, 1451576628, "847580", 1451576628, "847580", null, "2005", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Diesel", "52188.225376708921", "5111293", "gallons", null ]
+, [ 39, "3EAC61F1-001B-4E8A-A000-2C874D52C12C", 39, 1451576628, "847580", 1451576628, "847580", null, "2005", "Transportation", "Rail - Caltrain", "Transportation", "Railways - Caltrain", "Diesel", "13729.483450209105", "1352652", "gallons", null ]
+, [ 40, "602FE4EF-136A-42FB-B8FC-A1EE0CC73EA7", 40, 1451576628, "847580", 1451576628, "847580", null, "2005", "Transportation", "Ferry", "Transportation", "Waterborne Navigation - Ferry", "Diesel", "87646.929426427232", "8635124.1699999999", "gallons", null ]
+, [ 41, "0185D2B5-6D72-42B5-8041-3AB7FE14CA42", 41, 1451576628, "847580", 1451576628, "847580", null, "2005", "Transportation", "Cars & Trucks", "Transportation", "On-road - Cars and Trucks", "Vehicle Miles Traveled", "2053822.6306958979", "3777853741.2000003", "miles", null ]
+, [ 42, "0A941361-9D5E-4ADF-9423-F46834FD6350", 42, 1451576628, "847580", 1451576628, "847580", null, "2005", "Waste", "Waste", "Waste", "Solid Waste Disposal", "Mixed Municipal Solid Waste", "365526.15660956089", "664033", "short tons", null ]
+, [ 43, "BE7B6BBA-55A2-480B-9BF3-343596621AA7", 43, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Residential", "Stationary", "Residential", "Electricity", "335194.72441078286", "1418109755", "kWh", null ]
+, [ 44, "466479D7-A9E3-4E38-8CAA-5E23CA2007F5", 44, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Electricity", "721819.68374935363", "3053805625", "kWh", null ]
+, [ 45, "829815FC-DAC7-4AAC-9BB1-C2912033A4DC", 45, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Municipal", "Stationary", "Municipal Operations", "Electricity", "12489.081412125446", "849804897", "kWh", null ]
+, [ 46, "4FC382E1-AF22-4EE4-9094-93346A1DBD9D", 46, 1451576628, "847580", 1451576628, "847580", null, "2010", "Transportation", "Rail - BART", "Transportation", "Railways - Bay Area Rapid Transit", "Electricity", "56011.682598399362", "304121391.18542802", "kWh", null ]
+, [ 47, "450EBCF3-E886-43AA-AD8F-750AF3E0DB6B", 47, 1451576628, "847580", 1451576628, "847580", null, "2010", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Electricity", "1479.3204350863186", "100658624", "kWh", null ]
+, [ 48, "549BB383-E1A2-4A88-8591-82B421315A2C", 48, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Direct Access", "Stationary", "Direct Access", "Electricity", "206964.95736770963", "363892000", "kWh", null ]
+, [ 49, "19BF4C32-D1D1-4C70-B7BC-2913DDE7C505", 49, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Residential", "Stationary", "Residential", "Natural Gas", "782960.41272464185", "147570333", "therms", null ]
+, [ 50, "A139088B-6A49-420E-BB25-FB8DC1CD1CD9", 50, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Natural Gas", "609521.19300106145", "114880962", "therms", null ]
+, [ 51, "D9D42611-2B6C-4D47-8A25-6F789D876156", 51, 1451576628, "847580", 1451576628, "847580", null, "2010", "Buildings", "Municipal & District", "Stationary", "Municipal Operations & District", "Natural Gas", "119859.68351915522", "22590840", "therms", null ]
+, [ 52, "05623643-4D28-4628-9FD2-49CB3322E854", 52, 1451576628, "847580", 1451576628, "847580", null, "2010", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Diesel", "43830.603464542648", "4292751", "gallons", null ]
+, [ 53, "E19A7053-8CC8-4EBB-B5DF-C1B9B5A01FEF", 53, 1451576628, "847580", 1451576628, "847580", null, "2010", "Transportation", "Rail - Caltrain", "Transportation", "Railways - Caltrain", "Diesel", "12033.897542433617", "1185600", "gallons", null ]
+, [ 54, "3F81CA26-2CF5-4498-A7F3-543118320132", 54, 1451576628, "847580", 1451576628, "847580", null, "2010", "Transportation", "Ferry", "Transportation", "Waterborne Navigation - Ferry", "Diesel", "34103.472872422455", "3359932", "gallons", null ]
+, [ 55, "82B3238F-FECF-4EC2-9968-37279EC69635", 55, 1451576628, "847580", 1451576628, "847580", null, "2010", "Transportation", "Cars & Trucks", "Transportation", "On-road - Cars and Trucks", "Vehicle Miles Traveled", "2118863.0830059", "3910784575.5", "miles", null ]
+, [ 56, "F369CEC8-7DFD-477C-B46B-0AB40AD7B3C9", 56, 1451576628, "847580", 1451576628, "847580", null, "2010", "Waste", "Waste", "Waste", "Solid Waste Disposal", "Mixed Municipal Solid Waste", "244625.03060085207", "444398", "short tons", null ]
+, [ 57, "84606BBB-7FA4-4E1E-AD3D-9DD36485DE2B", 57, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Residential", "Stationary", "Residential", "Electricity", "283077.03529401799", "1394911340", "kWh", null ]
+, [ 58, "23D041E8-B450-42FD-97D6-A97D8C20C546", 58, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Electricity", "580555.25669465039", "2860645310", "kWh", null ]
+, [ 59, "E29E5892-B619-464D-8330-8755A37411D9", 59, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Municipal", "Stationary", "Municipal Operations", "Electricity", "176.66773497059356", "867309595", "kWh", null ]
+, [ 60, "A8D5D06C-455B-4BB8-B563-48630C424077", 60, 1451576628, "847580", 1451576628, "847580", null, "2012", "Transportation", "Rail - BART", "Transportation", "Railways - Bay Area Rapid Transit", "Electricity", "57103.405899827318", "283962261.79999995", "kWh", null ]
+, [ 61, "1DF4062F-653B-4007-9659-96BD7650294F", 61, 1451576628, "847580", 1451576628, "847580", null, "2012", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Electricity", "0", "92948433", "kWh", null ]
+, [ 62, "660D8436-2D24-4FA1-8EB6-50461A852C28", 62, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Direct Access", "Stationary", "Direct Access", "Electricity", "144494.2974710883", "519482840.5", "kWh", null ]
+, [ 63, "07315AB7-1F54-406E-AD69-D14D91B3CDB2", 63, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Residential", "Stationary", "Residential", "Natural Gas", "767434.603626", "144291240", "therms", null ]
+, [ 64, "331E724B-0AA6-4F52-A90A-DC213031E4AA", 64, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Commercial & Industrial", "Stationary", "Commercial & Industrial", "Natural Gas", "612236.49768035009", "115111259", "therms", null ]
+, [ 65, "2C4CE10E-974A-48FF-A8D6-0B87FF1A6B5E", 65, 1451576628, "847580", 1451576628, "847580", null, "2012", "Buildings", "Municipal & District", "Stationary", "Municipal Operations & District", "Natural Gas", "112616.00334071449", "21173794.73", "therms", null ]
+, [ 66, "FCCDC4DE-05CC-4246-AF1C-476987BAADF3", 66, 1451576628, "847580", 1451576628, "847580", null, "2012", "Transportation", "MUNI", "Transportation", "On-road - MUNI Buses", "Diesel", "42026.307363185319", "4114480.3", "gallons", null ]
+, [ 67, "23867C45-17F3-4995-A391-006D9BCBDD1A", 67, 1451576628, "847580", 1451576628, "847580", null, "2012", "Transportation", "Rail - Caltrain", "Transportation", "Railways - Caltrain", "Diesel", "11521.719372400405", "1118472.3648860243", "gallons", null ]
+, [ 68, "E7151B37-5BA9-4A75-8626-A6A2ED1208D2", 68, 1451576628, "847580", 1451576628, "847580", null, "2012", "Transportation", "Ferry", "Transportation", "Waterborne Navigation - Ferry", "Diesel", "34471.868831250002", "1665312.5", "gallons", null ]
+, [ 69, "59450C6A-FFB7-42E6-852C-30AA0B6D8F7A", 69, 1451576628, "847580", 1451576628, "847580", null, "2012", "Transportation", "Cars & Trucks", "Transportation", "On-road - Cars and Trucks", "Vehicle Miles Traveled", "1928864.7454552685", "3935735773.9502311", "miles", null ]
+, [ 70, "769408A0-4EDF-4334-8314-2B0D28A49C79", 70, 1451576628, "847580", 1451576628, "847580", null, "2012", "Waste", "Waste", "Waste", "Solid Waste Disposal", "Mixed Municipal Solid Waste", "180397.52506944002", "428048", "short tons", null ]
+ ]
+}
