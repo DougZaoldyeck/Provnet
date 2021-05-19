@@ -112,7 +112,7 @@ int main(int argc, char *argv[]) {
 	// same minhash value!
 	vector<string> similar; // vector of all similar records
     auto start_insertion = high_resolution_clock::now();
-    while (!nfs.eof()) { // TODO this should only be one iteration. What else to check?
+    while (!nfs.eof()) { // NOTE: this should only be one iteration. What else to check?
 		getline(nfs, nline);
 		stringstream s(nline);
 		int hf = 0; // hash function number
@@ -120,7 +120,7 @@ int main(int argc, char *argv[]) {
 		//read each column
 		getline(s, nrecord, ',');
 		//cout << "new record: " << nrecord << endl;
-		while (getline(s, nmh_val, ',')){
+		while (getline(s, nmh_val, ',') && hf < hfn_cap){
 			if (nmh_val != ""){
 
 				system.next_record(hf, nrecord, nmh_val, similar); // add record to respective vector
