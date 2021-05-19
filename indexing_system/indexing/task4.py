@@ -80,7 +80,6 @@ def main():
     for i in range(31, 36): # 5 large files
         run_lrg(i)
 
-    # TODO
     for size in SIZES:
         print(f'~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         print(f'FILE SIZE:              {size}')
@@ -96,13 +95,13 @@ def main():
             print()
 
     original_stdout = sys.stdout 
-    with open('./output/task4/insertion_data.csv', 'w') as f:
+    with open('./output/task4/insertion_data.json', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_INSERT_DICT}')
         sys.stdout = original_stdout
     
-    with open('./output/task4/findtopk_data.csv', 'w') as f:
+    with open('./output/task4/findtopk_data.json', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_FINDTK_DICT}')

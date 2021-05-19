@@ -92,13 +92,13 @@ def main():
             print()
 
     original_stdout = sys.stdout 
-    with open('./output/task2/insertion_data.csv', 'w') as f:
+    with open('./output/task2/insertion_data.json', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_INSERT_DICT}')
         sys.stdout = original_stdout
     
-    with open('./output/task2/findtopk_data.csv', 'w') as f:
+    with open('./output/task2/findtopk_data.json', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_FINDTK_DICT}')
