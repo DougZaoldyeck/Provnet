@@ -89,6 +89,7 @@ int main(int argc, char *argv[]) {
 
     while (!ifs.eof()) { getline(ifs, line); } // NOTE ADDED LINE
 	
+	ifs.close();
 
 
 	// Find similarities across *new* data
@@ -128,6 +129,7 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
+    nfs.close();
     auto stop_insertion = high_resolution_clock::now();
 
     // now that we have the vector of vectors of similar records, get the top K similar! 
@@ -149,7 +151,6 @@ int main(int argc, char *argv[]) {
 	results = top_k.topKFrequent(similar, tk);
     auto stop_topk = high_resolution_clock::now();
 	
-	cout << "finished part 2" << endl;
 
 
 	// print out the top K results!
