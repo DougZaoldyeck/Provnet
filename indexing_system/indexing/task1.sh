@@ -3,7 +3,7 @@
 #$ -q *@@jung
 #$ -m abe
 #$ -r y
-#$ -N Tests_Task_1
+#$ -N Test_Task_1
 
 make
 

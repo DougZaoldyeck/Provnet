@@ -40,7 +40,7 @@ K_FINDTK_DICT =    {    'sml': {
 def run_sml(i):
     for j in K_VALS: # for each k
         for _ in range(500): # every k, 500 times each
-            process = Popen([f'./main', f'../testing/40-200kb/example-1000minhash.csv', f'1000', f'../testing/40-200kb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
+            process = Popen([f'./main', f'../testing/40-200kb/Small-file-examples.csv', f'1000', f'../testing/40-200kb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
             (output, err) = process.communicate()
             exit_code = process.wait()
             output = output.rstrip().split()
@@ -51,7 +51,7 @@ def run_sml(i):
 def run_med(i):
     for j in K_VALS: # for each k
         for _ in range(500): # every k, 500 times each
-            process = Popen([f'./main', f'../testing/10-100mb/example-1000minhash.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
+            process = Popen([f'./main', f'../testing/10-100mb/Middle-file-examples.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
             (output, err) = process.communicate()
             exit_code = process.wait()
             output = output.rstrip().split()
@@ -62,7 +62,7 @@ def run_med(i):
 def run_lrg(i):
     for j in K_VALS: # for each k
         for _ in range(500): # every k, 500 times each
-            process = Popen([f'./main', f'../testing/100mb-1gb/example-1000minhash.csv', f'1000', f'../testing/100mb-1gb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
+            process = Popen([f'./main', f'../testing/100mb-1gb/large-file-examples.csv', f'1000', f'../testing/100mb-1gb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
             (output, err) = process.communicate()
             exit_code = process.wait()
             output = output.rstrip().split()

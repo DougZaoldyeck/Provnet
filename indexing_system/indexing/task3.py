@@ -62,10 +62,12 @@ def run_system(i):
     for j in K_VALS: # for each k
         for mh_vals in MH_VALS:
             for _ in range(500): # every k, 500 times each
-                process = Popen([f'./main', f'../testing/10-100mb/large-file-examples.csv', f'{mh_vals}', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE, stderr=PIPE)
+                process = Popen([f'./main', f'../testing/10-100mb/Middle-file-examples.csv', f'{mh_vals}', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE, stderr=PIPE)
                 (output, err) = process.communicate()
                 exit_code = process.wait()
                 output = output.rstrip().split()
+                print(output)
+                print(err)
                 #print(err)
                 K_INSERT_DICT[mh_vals][j].append(int(output[0]))
                 K_FINDTK_DICT[mh_vals][j].append(int(output[1]))
