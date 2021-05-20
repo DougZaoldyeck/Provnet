@@ -27,7 +27,7 @@ K_FINDTK_DICT =    {   1: [],
 def run_system(i):
     for j in K_VALS: # for each k
         for _ in range(500): # every k, 500 times each
-            process = Popen([f'./main', f'../testing/40-200kb/example-1000minhash.csv', f'1000', f'../testing/40-200kb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
+            process = Popen([f'./main', f'../testing/40-200kb/Small-file-examples.csv', f'1000', f'../testing/40-200kb/input/data_{i}_0.csv', f'{j}', f'1000'], stdout=PIPE)
             (output, err) = process.communicate()
             exit_code = process.wait()
             output = output.rstrip().split()

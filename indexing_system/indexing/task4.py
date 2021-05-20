@@ -11,29 +11,29 @@ SIZES = ['sml', 'med', 'lrg']
 K_INSERT_DICT =    {    'sml': {
                             1: [],
                             2: [],
-                            3: [],}
+                            3: [],},
                         'med': {
                             1: [],
                             2: [],
-                            3: [],}
+                            3: [],},
                         'lrg': {
                             1: [],
                             2: [],
-                            3: [],}
+                            3: [],},
                     }
 
 K_FINDTK_DICT =    {    'sml': {
                             1: [],
                             2: [],
-                            3: [],}
+                            3: [],},
                         'med': {
                             1: [],
                             2: [],
-                            3: [],}
+                            3: [],},
                         'lrg': {
                             1: [],
                             2: [],
-                            3: [],}
+                            3: [],},
                     }
 ## FUNCTIONS ##
 
@@ -68,7 +68,7 @@ def run_lrg(i):
             output = output.rstrip().split()
             K_INSERT_DICT['lrg'][j].append(int(output[0]))
             K_FINDTK_DICT['lrg'][j].append(int(output[1]))
-)
+
 ## MAIN FUNCTION ##
 
 def main():
