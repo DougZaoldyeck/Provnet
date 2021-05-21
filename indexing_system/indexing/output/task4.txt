@@ -1,0 +1,81 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FILE SIZE:              sml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+K-VALUE:                1
+--------INSERTION-----------
+AVERAGE (microseconds): 3532.4624
+STD DEV (microseconds): 180.97574806100403
+--------FINDING TOPK--------
+AVERAGE (microseconds): 1779.0232
+STD DEV (microseconds): 155.08984061427105
+
+K-VALUE:                2
+--------INSERTION-----------
+AVERAGE (microseconds): 3531.7744
+STD DEV (microseconds): 175.27382093353245
+--------FINDING TOPK--------
+AVERAGE (microseconds): 1775.9656
+STD DEV (microseconds): 152.7450490740698
+
+K-VALUE:                3
+--------INSERTION-----------
+AVERAGE (microseconds): 3538.5068
+STD DEV (microseconds): 265.12563126517966
+--------FINDING TOPK--------
+AVERAGE (microseconds): 1776.2276
+STD DEV (microseconds): 155.1289547384369
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FILE SIZE:              med
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+K-VALUE:                1
+--------INSERTION-----------
+AVERAGE (microseconds): 1298.68
+STD DEV (microseconds): 747.41646543276
+--------FINDING TOPK--------
+AVERAGE (microseconds): 523.0604
+STD DEV (microseconds): 225.20157537601733
+
+K-VALUE:                2
+--------INSERTION-----------
+AVERAGE (microseconds): 1286.3412
+STD DEV (microseconds): 415.67260672620705
+--------FINDING TOPK--------
+AVERAGE (microseconds): 523.9028
+STD DEV (microseconds): 222.4979778608336
+
+K-VALUE:                3
+--------INSERTION-----------
+AVERAGE (microseconds): 1289.5904
+STD DEV (microseconds): 434.5798203182472
+--------FINDING TOPK--------
+AVERAGE (microseconds): 523.3596
+STD DEV (microseconds): 224.54926561411864
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FILE SIZE:              lrg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+K-VALUE:                1
+--------INSERTION-----------
+AVERAGE (microseconds): 465.17
+STD DEV (microseconds): 617.0788665154561
+--------FINDING TOPK--------
+AVERAGE (microseconds): 112.0048
+STD DEV (microseconds): 72.37973733690943
+
+K-VALUE:                2
+--------INSERTION-----------
+AVERAGE (microseconds): 451.856
+STD DEV (microseconds): 97.90482758270912
+--------FINDING TOPK--------
+AVERAGE (microseconds): 112.5176
+STD DEV (microseconds): 72.73224931376727
+
+K-VALUE:                3
+--------INSERTION-----------
+AVERAGE (microseconds): 452.2444
+STD DEV (microseconds): 97.5839283316674
+--------FINDING TOPK--------
+AVERAGE (microseconds): 111.6868
+STD DEV (microseconds): 72.7007943956598
+
