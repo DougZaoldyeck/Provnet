@@ -61,12 +61,12 @@ K_FINDTK_DICT =    {
 def run_system(i):
     for j in K_VALS: # for each k
         for records in RECORDS:
-            for _ in range(3): # every k, 500 times each
-                process = Popen([f'./main', f'../testing/10-100mb/example-1000minhash.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'{records}'], stdout=PIPE, stderr=PIPE)
+            for _ in range(500): # every k, 500 times each
+                process = Popen([f'./main', f'../testing/10-100mb/Middle-file-examples.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'{records}'], stdout=PIPE, stderr=PIPE)
                 (output, err) = process.communicate()
                 exit_code = process.wait()
                 #output = output.rstrip().split()
-                print(err)
+                #print(err)
                 K_INSERT_DICT[records][j].append(int(output.rstrip().split()[0]))
                 K_FINDTK_DICT[records][j].append(int(output.rstrip().split()[1]))
 
@@ -74,12 +74,12 @@ def run_system(i):
 
 def main():
     
-    for i in range(21, 22): # for each file
+    for i in range(21, 31): # for each file
         run_system(i)
 
     for records in RECORDS:
         print(f'~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-        print(f'RECORDS:                {records}')
+        print(f'NUM RECORDS:              {records}')
         print(f'~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         for k in K_VALS:
             print(f'K-VALUE:                {k}')
@@ -92,13 +92,13 @@ def main():
             print()
 
     original_stdout = sys.stdout 
-    with open('./output/task2/insertion_data.csv', 'w') as f:
+    with open('./output/task2/insertion_data.json', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_INSERT_DICT}')
         sys.stdout = original_stdout
     
-    with open('./output/task2/findtopk_data.csv', 'w') as f:
+    with open('./output/task2/findtopk_data.json', 'w') as f:
         # NOTE each set of 500 data points is from each file.
         sys.stdout = f # Change the standard output to the file we created.
         print(f'{K_FINDTK_DICT}')

@@ -69,7 +69,6 @@ vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 	// All element on the left are less frequent.
 	// All the elements on the right are more frequent.
 	quickselect(0, n - 1, n - k);
-	std::cout <<"here!" << std::endl;
 	// Return top k frequent elements
 	vector<string> top_k_frequent(k);
 	if (k <= unique.size()) {
@@ -77,6 +76,5 @@ vector<string> TopKElements::topKFrequent(vector<string>& nums, int k) {
 	} else {
 		copy(this->unique.begin() + n - unique.size(), this->unique.end(), top_k_frequent.begin());
 	}
-	std::cout <<"here!" << std::endl;
 	return top_k_frequent;
 }

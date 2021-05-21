@@ -89,6 +89,7 @@ int main(int argc, char *argv[]) {
 
     while (!ifs.eof()) { getline(ifs, line); } // NOTE ADDED LINE
 	
+	ifs.close();
 
 
 	// Find similarities across *new* data
@@ -111,7 +112,7 @@ int main(int argc, char *argv[]) {
 	// same minhash value!
 	vector<string> similar; // vector of all similar records
     auto start_insertion = high_resolution_clock::now();
-    while (!nfs.eof()) { // TODO this should only be one iteration. What else to check?
+    while (!nfs.eof()) { // NOTE: this should only be one iteration. What else to check?
 		getline(nfs, nline);
 		stringstream s(nline);
 		int hf = 0; // hash function number
@@ -119,7 +120,7 @@ int main(int argc, char *argv[]) {
 		//read each column
 		getline(s, nrecord, ',');
 		//cout << "new record: " << nrecord << endl;
-		while (getline(s, nmh_val, ',')){
+		while (getline(s, nmh_val, ',') && hf < hfn_cap){
 			if (nmh_val != ""){
 
 				system.next_record(hf, nrecord, nmh_val, similar); // add record to respective vector
@@ -128,6 +129,7 @@ int main(int argc, char *argv[]) {
 			hf++;
 		}
     }
+    nfs.close();
     auto stop_insertion = high_resolution_clock::now();
 
     // now that we have the vector of vectors of similar records, get the top K similar! 
@@ -149,7 +151,6 @@ int main(int argc, char *argv[]) {
 	results = top_k.topKFrequent(similar, tk);
     auto stop_topk = high_resolution_clock::now();
 	
-	cout << "finished part 2" << endl;
 
 
 	// print out the top K results!
