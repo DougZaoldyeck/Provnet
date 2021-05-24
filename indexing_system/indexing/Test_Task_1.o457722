@@ -1,9 +1,0 @@
-make: `main' is up to date.
-Traceback (most recent call last):
-  File "./task1.py", line 74, in <module>
-    main()
-  File "./task1.py", line 46, in main
-    run_system(i)
-  File "./task1.py", line 39, in run_system
-    K_FINDTK_DICT[j].append(int(output[1]))
-IndexError: list index out of range
