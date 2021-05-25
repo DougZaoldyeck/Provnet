@@ -69,8 +69,14 @@ def run_system(i):
                 #print(output)
                 #print(err)
                 #print(err)
-                K_INSERT_DICT[mh_vals][j].append(int(output[0]))
-                K_FINDTK_DICT[mh_vals][j].append(int(output[1]))
+                try:
+                    K_INSERT_DICT[mh_vals][j].append(int(output[0]))
+                    K_FINDTK_DICT[mh_vals][j].append(int(output[1]))
+                except IndexError:
+                    print(f'output: {output}')
+                    print(f'file no: {i}, k-val: {j} WTH')
+                    print(err)
+                    print(output)
 
 ## MAIN FUNCTION ##
 

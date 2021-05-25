@@ -20,3 +20,4 @@ make
 # print all the data out
 
 ./task1.py > output/task1.txt
+cat output/task1.txt

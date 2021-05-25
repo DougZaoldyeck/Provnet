@@ -1,2 +1,48 @@
-output: []
-file no: 7, k-val: 20 WTH
+K-VALUE:                1
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                2
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                3
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                5
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                10
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                20
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+

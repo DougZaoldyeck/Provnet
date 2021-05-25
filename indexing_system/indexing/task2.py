@@ -67,8 +67,14 @@ def run_system(i):
                 exit_code = process.wait()
                 #output = output.rstrip().split()
                 #print(err)
-                K_INSERT_DICT[records][j].append(int(output.rstrip().split()[0]))
-                K_FINDTK_DICT[records][j].append(int(output.rstrip().split()[1]))
+                try:
+                    K_INSERT_DICT[records][j].append(int(output.rstrip().split()[0]))
+                    K_FINDTK_DICT[records][j].append(int(output.rstrip().split()[1]))
+                except IndexError:
+                    print(f'output: {output}')
+                    print(f'file no: {i}, k-val: {j} WTH')
+                    print(err)
+                    print(output)
 
 ## MAIN FUNCTION ##
 
