@@ -42,8 +42,8 @@ def run_system(i):
 
 def main():
     
-    #for i in range(1, 21): # for each file
-    #    run_system(i)
+    for i in range(1, 21): # for each file
+        run_system(i)
 
     for k in K_VALS:
         print(f'K-VALUE:                {k}')

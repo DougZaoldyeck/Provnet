@@ -1,0 +1,59 @@
+make: `main' is up to date.
+/opt/crc/p/python/3.7.3/gcc/lib/python3.7/site-packages/numpy/lib/function_base.py:392: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/opt/crc/p/python/3.7.3/gcc/lib/python3.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/opt/crc/p/python/3.7.3/gcc/lib/python3.7/site-packages/numpy/core/_methods.py:140: RuntimeWarning: Degrees of freedom <= 0 for slice
+  keepdims=keepdims)
+/opt/crc/p/python/3.7.3/gcc/lib/python3.7/site-packages/numpy/core/_methods.py:110: RuntimeWarning: invalid value encountered in true_divide
+  arrmean, rcount, out=arrmean, casting='unsafe', subok=False)
+/opt/crc/p/python/3.7.3/gcc/lib/python3.7/site-packages/numpy/core/_methods.py:132: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+K-VALUE:                1
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                2
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                3
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                5
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                10
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
+K-VALUE:                20
+--------INSERTION-----------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+--------FINDING TOPK--------
+AVERAGE (microseconds): nan
+STD DEV (microseconds): nan
+
