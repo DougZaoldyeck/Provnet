@@ -62,7 +62,7 @@ def run_system(i):
     for j in K_VALS: # for each k
         for records in RECORDS:
             for _ in range(500): # every k, 500 times each
-                process = Popen([f'./main', f'../testing/10-100mb/Middle-file-examples.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'{records}'], stdout=PIPE, stderr=PIPE)
+                process = Popen([f'./main', f'../testing/10-100mb/combine.csv', f'1000', f'../testing/10-100mb/input/data_{i}_0.csv', f'{j}', f'{records}'], stdout=PIPE, stderr=PIPE)
                 (output, err) = process.communicate()
                 exit_code = process.wait()
                 #output = output.rstrip().split()
