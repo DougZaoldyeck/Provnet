@@ -1,0 +1,49 @@
+make: `main' is up to date.
+K-VALUE:                1
+--------INSERTION-----------
+AVERAGE (microseconds): 65906.0697
+STD DEV (microseconds): 20485.8889398103
+--------FINDING TOPK--------
+AVERAGE (microseconds): 61965.7763
+STD DEV (microseconds): 17971.4784592659
+
+K-VALUE:                2
+--------INSERTION-----------
+AVERAGE (microseconds): 65632.6628
+STD DEV (microseconds): 18349.896942530664
+--------FINDING TOPK--------
+AVERAGE (microseconds): 62018.9692
+STD DEV (microseconds): 18005.90759003976
+
+K-VALUE:                3
+--------INSERTION-----------
+AVERAGE (microseconds): 65665.4917
+STD DEV (microseconds): 18371.241019074652
+--------FINDING TOPK--------
+AVERAGE (microseconds): 62001.8773
+STD DEV (microseconds): 17986.26444904124
+
+K-VALUE:                5
+--------INSERTION-----------
+AVERAGE (microseconds): 65646.3733
+STD DEV (microseconds): 18362.661139947748
+--------FINDING TOPK--------
+AVERAGE (microseconds): 61999.18
+STD DEV (microseconds): 18003.623195184908
+
+K-VALUE:                10
+--------INSERTION-----------
+AVERAGE (microseconds): 65664.9141
+STD DEV (microseconds): 18344.732855081897
+--------FINDING TOPK--------
+AVERAGE (microseconds): 61999.2695
+STD DEV (microseconds): 17991.017740268882
+
+K-VALUE:                20
+--------INSERTION-----------
+AVERAGE (microseconds): 65679.8365
+STD DEV (microseconds): 18358.345130832673
+--------FINDING TOPK--------
+AVERAGE (microseconds): 61992.8805
+STD DEV (microseconds): 17996.822863750695
+
